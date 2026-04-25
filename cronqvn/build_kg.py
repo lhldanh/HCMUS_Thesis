@@ -1,16 +1,18 @@
-"""Phase 1: Build KG từ Wikidata dump, strict 100% VN label.
+"""Phase 1: Build KG từ Wikidata dump (giống tkbc, label VN hoặc EN).
 
-Pipeline (giống tkbc nhưng filter VN ở cả subject và object):
+Pipeline:
   Step 0. Tự download dump bz2 (~100GB) nếu chưa có, resume được.
-  Step 1. Pass dump lần 1 → cache {qid: {vi, en}} cho mọi entity CÓ VN label.
-  Step 2. Pass dump lần 2 → extract fact temporal mà s VÀ o đều có VN label.
-          (discretize timestamp về năm)
+  Step 1. Pass dump lần 1 → cache {qid: {vi, en}} cho mọi entity có VN HOẶC EN.
+  Step 2. Pass dump lần 2 → extract fact temporal mà s VÀ o đều có label.
+          - Mọi P-property (không filter relation)
+          - Có ít nhất 1 trong P580/P585/P582 (start/point/end)
+          - Sentinel YEAR_MIN/YEAR_MAX cho missing start/end
   Step 3. Lọc relation hiếm (< BUILD_MIN_RELATION_FACTS).
   Step 4. Lọc entity hiếm  (< BUILD_MIN_ENTITY_FACTS).
 
-Output: cache/{P*.jsonl} + cache/labels.json (toàn bộ s_label, o_label đều VN).
-
-→ Vì cache 100% VN, KHÔNG cần translate.py nữa. Chạy thẳng generate.py.
+Output: cache/{P*.jsonl} + cache/labels.json
+  Mỗi label entry: {"vi": str|None, "en": str|None}
+  Generate.py sẽ ưu tiên vi, fallback en.
 
 Usage:
   python build_kg.py
@@ -176,8 +178,26 @@ def get_label(entity: dict, lang: str) -> Optional[str]:
     return entity.get("labels", {}).get(lang, {}).get("value")
 
 
+def _qual_year(quals: dict, prop: str) -> Optional[int]:
+    if prop not in quals:
+        return None
+    try:
+        t = quals[prop][0]["datavalue"]["value"].get("time", "")
+        return parse_year(t)
+    except (KeyError, IndexError, TypeError):
+        return None
+
+
 def extract_temporal_facts(entity: dict) -> list[dict]:
-    """Extract MỌI fact có timestamp, không filter relation (giống tkbc)."""
+    """Extract MỌI fact có timestamp, không filter relation (giống tkbc).
+
+    Logic timestamp:
+      - P585 (point in time)        → start = end = year (event 1 thời điểm)
+      - P580 (start) + P582 (end)   → khoảng đầy đủ
+      - P580 only (ongoing)         → start = year, end = YEAR_MAX (sentinel)
+      - P582 only (unknown start)   → start = YEAR_MIN (sentinel), end = year
+      - không có qualifier time     → bỏ
+    """
     qid = entity["id"]
     claims = entity.get("claims", {})
     facts = []
@@ -192,26 +212,20 @@ def extract_temporal_facts(entity: dict) -> list[dict]:
             if not isinstance(obj, str) or not obj.startswith("Q"):
                 continue
             quals = c.get("qualifiers", {})
-            start = end = None
-            for prop, tag in (("P580", "s"), ("P585", "s"), ("P582", "e")):
-                if prop not in quals:
-                    continue
-                try:
-                    t = quals[prop][0]["datavalue"]["value"].get("time", "")
-                    y = parse_year(t)
-                except (KeyError, IndexError, TypeError):
-                    continue
-                if y is None:
-                    continue
-                if tag == "s" and start is None:
-                    start = y
-                elif tag == "e":
-                    end = y
-            if start is None:
+            p580 = _qual_year(quals, "P580")
+            p582 = _qual_year(quals, "P582")
+            p585 = _qual_year(quals, "P585")
+            if p580 is None and p582 is None and p585 is None:
                 continue
+            # Ưu tiên P580/P582; nếu thiếu cả 2 mà có P585 → point in time
+            if p580 is None and p582 is None:
+                start = end = p585
+            else:
+                start = p580 if p580 is not None else YEAR_MIN
+                end   = p582 if p582 is not None else YEAR_MAX
             facts.append({
                 "s_qid": qid, "o_qid": obj,
-                "start": start, "end": end or start,
+                "start": start, "end": end,
                 "relation": pid,
             })
     return facts
@@ -221,11 +235,20 @@ def extract_temporal_facts(entity: dict) -> list[dict]:
 # Step 1: Pass dump lần 1, collect labels của entity có VN
 # ====================================================================
 
-def step1_collect_vi_labels(dump_path: Path,
-                             limit: Optional[int]) -> dict[str, dict]:
-    """Trả {qid: {"vi": str, "en": str|None}} cho mọi entity có VN label."""
+LABELS_CKPT = Path(CACHE_DIR) / "_step1_labels.json"
+
+
+def step1_collect_labels(dump_path: Path,
+                          limit: Optional[int]) -> dict[str, dict]:
+    """Trả {qid: {"vi": str|None, "en": str|None}} cho entity có VN HOẶC EN.
+    Có checkpoint: nếu file tồn tại → load thẳng (skip)."""
+    if LABELS_CKPT.exists():
+        labels = json.loads(LABELS_CKPT.read_text())
+        print(f"  [skip] checkpoint {len(labels):,} entity có label")
+        return labels
+
     labels: dict[str, dict] = {}
-    pbar = tqdm(desc="step1: VN labels", unit="ent")
+    pbar = tqdm(desc="step1: labels", unit="ent")
     seen = 0
     for entity in stream_entities(dump_path):
         seen += 1
@@ -236,12 +259,19 @@ def step1_collect_vi_labels(dump_path: Path,
         if not qid.startswith("Q"):
             continue
         vi = get_label(entity, "vi")
-        if not vi:
-            continue
-        labels[qid] = {"vi": vi, "en": get_label(entity, "en")}
-        if len(labels) % 100000 == 0:
-            pbar.set_postfix(vi_qids=len(labels))
+        en = get_label(entity, "en")
+        if not vi and not en:
+            continue                        # bỏ entity không có label nào
+        labels[qid] = {"vi": vi, "en": en}
+        if len(labels) % 200000 == 0:
+            pbar.set_postfix(qids=len(labels))
+            LABELS_CKPT.parent.mkdir(parents=True, exist_ok=True)
+            LABELS_CKPT.write_text(json.dumps(labels, ensure_ascii=False))
     pbar.close()
+
+    LABELS_CKPT.parent.mkdir(parents=True, exist_ok=True)
+    LABELS_CKPT.write_text(json.dumps(labels, ensure_ascii=False))
+    print(f"  → checkpoint saved: {LABELS_CKPT}")
     return labels
 
 
@@ -249,26 +279,52 @@ def step1_collect_vi_labels(dump_path: Path,
 # Step 2: Pass dump lần 2, extract fact strict (s VÀ o đều có VN)
 # ====================================================================
 
-def step2_extract_strict_facts(dump_path: Path, vi_labels: dict[str, dict],
-                                limit: Optional[int]) -> list[dict]:
+FACTS_CKPT = Path(CACHE_DIR) / "_step2_facts.jsonl"
+
+
+def step2_extract_facts(dump_path: Path, labels: dict[str, dict],
+                         limit: Optional[int]) -> list[dict]:
+    """Pass 2 → extract fact temporal mà s và o đều trong labels (vi hoặc en).
+    Append vào checkpoint file (resume được)."""
     facts: list[dict] = []
+    if FACTS_CKPT.exists():
+        with FACTS_CKPT.open() as f:
+            for line in f:
+                try:
+                    facts.append(json.loads(line))
+                except json.JSONDecodeError:
+                    continue
+        meta = FACTS_CKPT.with_suffix(".done")
+        if meta.exists():
+            print(f"  [skip] đã có {len(facts):,} fact từ checkpoint")
+            return facts
+        print(f"  [resume cũ không hoàn tất] reset, chạy lại")
+        facts = []
+        FACTS_CKPT.unlink()
+
+    FACTS_CKPT.parent.mkdir(parents=True, exist_ok=True)
     pbar = tqdm(desc="step2: facts", unit="ent")
     seen = 0
-    for entity in stream_entities(dump_path):
-        seen += 1
-        if limit and seen > limit:
-            break
-        pbar.update(1)
-        qid = entity.get("id", "")
-        if qid not in vi_labels:
-            continue
-        for f in extract_temporal_facts(entity):
-            if f["o_qid"] not in vi_labels:
-                continue   # ← strict: object cũng phải có VN
-            facts.append(f)
-        if len(facts) % 50000 == 0 and len(facts) > 0:
-            pbar.set_postfix(facts=len(facts))
+    with FACTS_CKPT.open("w") as ckpt:
+        for entity in stream_entities(dump_path):
+            seen += 1
+            if limit and seen > limit:
+                break
+            pbar.update(1)
+            qid = entity.get("id", "")
+            if qid not in labels:
+                continue                          # subject phải có label
+            for f in extract_temporal_facts(entity):
+                if f["o_qid"] not in labels:
+                    continue                      # object cũng phải có label
+                facts.append(f)
+                ckpt.write(json.dumps(f) + "\n")
+            if len(facts) % 5000 == 0 and len(facts) > 0:
+                pbar.set_postfix(facts=len(facts))
+                ckpt.flush()
     pbar.close()
+    FACTS_CKPT.with_suffix(".done").write_text("ok")
+    print(f"  → checkpoint saved: {FACTS_CKPT} ({len(facts):,} fact)")
     return facts
 
 
@@ -309,15 +365,17 @@ def step4_filter_entities(facts: list[dict]) -> tuple[list[dict], set[str]]:
 # Output
 # ====================================================================
 
-def write_cache(facts: list[dict], vi_labels: dict[str, dict],
+def write_cache(facts: list[dict], labels: dict[str, dict],
                 needed: set[str]) -> None:
+    def lab(qid: str) -> str:
+        d = labels[qid]
+        return d.get("vi") or d.get("en")     # ưu tiên vi, fallback en
+
     by_rel: dict[str, list[dict]] = defaultdict(list)
     for f in facts:
-        s = vi_labels[f["s_qid"]]["vi"]
-        o = vi_labels[f["o_qid"]]["vi"]
         by_rel[f["relation"]].append({
-            "s_qid": f["s_qid"], "s_label": s,
-            "o_qid": f["o_qid"], "o_label": o,
+            "s_qid": f["s_qid"], "s_label": lab(f["s_qid"]),
+            "o_qid": f["o_qid"], "o_label": lab(f["o_qid"]),
             "start": f["start"], "end": f["end"],
             "relation": f["relation"],
         })
@@ -334,13 +392,15 @@ def write_cache(facts: list[dict], vi_labels: dict[str, dict],
         marker = "★" if pid in PIDS else " "
         print(f"  {marker} {pid}: {len(items):>7,} fact -> {path}")
 
-    # Chỉ ghi label của QID needed (giảm size)
-    used_labels = {q: vi_labels[q] for q in needed if q in vi_labels}
+    # Chỉ ghi label của QID xuất hiện trong fact final (giảm size)
+    used = {q: labels[q] for q in needed if q in labels}
     (cache / "labels.json").write_text(
-        json.dumps(used_labels, ensure_ascii=False, indent=2))
+        json.dumps(used, ensure_ascii=False, indent=2))
     total = sum(len(v) for v in by_rel.values())
-    print(f"\n[done] {total:,} fact, {len(used_labels):,} entity")
-    print(f"       → 100% VN label, sẵn sàng chạy generate.py")
+    vi_count = sum(1 for d in used.values() if d.get("vi"))
+    print(f"\n[done] {total:,} fact, {len(used):,} entity")
+    print(f"       VN coverage: {vi_count:,}/{len(used):,} "
+          f"({vi_count/max(len(used),1)*100:.1f}%)")
 
 
 # ====================================================================
@@ -367,12 +427,12 @@ def main():
     if args.limit:
         print(f"[limit] {args.limit:,} entity/pass")
 
-    print(f"\n[Step 1] Pass 1 → cache labels của entity có VN…")
-    vi_labels = step1_collect_vi_labels(args.dump, args.limit)
-    print(f"          {len(vi_labels):,} entity có VN label")
+    print(f"\n[Step 1] Pass 1 → cache labels của entity có VN hoặc EN…")
+    labels = step1_collect_labels(args.dump, args.limit)
+    print(f"          {len(labels):,} entity có label")
 
-    print(f"\n[Step 2] Pass 2 → extract fact strict (s VÀ o đều VN)…")
-    facts = step2_extract_strict_facts(args.dump, vi_labels, args.limit)
+    print(f"\n[Step 2] Pass 2 → extract fact (s và o đều có label)…")
+    facts = step2_extract_facts(args.dump, labels, args.limit)
     print(f"          {len(facts):,} fact thô")
 
     print(f"\n[Step 3] Lọc relation hiếm (≥ {BUILD_MIN_RELATION_FACTS}):")
@@ -381,8 +441,8 @@ def main():
     print(f"\n[Step 4] Lọc entity hiếm (≥ {BUILD_MIN_ENTITY_FACTS}):")
     facts, needed = step4_filter_entities(facts)
 
-    print(f"\n[Output] Ghi cache 100% VN…")
-    write_cache(facts, vi_labels, needed)
+    print(f"\n[Output] Ghi cache (label vi ưu tiên, fallback en)…")
+    write_cache(facts, labels, needed)
 
 
 if __name__ == "__main__":

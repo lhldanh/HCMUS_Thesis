@@ -7,8 +7,9 @@ OUT_DIR = "out"
 DUMP_FILE = "data/latest-all.json.bz2"
 
 # ---------- KG filtering ----------
-YEAR_MIN = 1900
-YEAR_MAX = 2025
+# Lấy mọi năm, không giới hạn (giống tkbc)
+YEAR_MIN = 1
+YEAR_MAX = 2100
 
 # ---------- Wikidata dump ----------
 # build_kg.py duyệt full dump để extract fact tự lọc (giống tkbc).
