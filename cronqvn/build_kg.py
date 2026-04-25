@@ -119,16 +119,47 @@ def download_dump(url: str, target: Path) -> None:
 # Stream + helpers
 # ====================================================================
 
+try:
+    import orjson as _json   # nhanh hơn json ~3x
+    _decode_json = _json.loads
+except ImportError:
+    _decode_json = json.loads
+
+
 def stream_entities(path: Path) -> Iterator[dict]:
-    with bz2.open(path, "rt", encoding="utf-8") as f:
-        for line in f:
-            line = line.strip().rstrip(",")
-            if line in ("[", "]", ""):
-                continue
-            try:
-                yield json.loads(line)
-            except json.JSONDecodeError:
-                continue
+    """Stream entity từ dump bz2.
+
+    Ưu tiên pbzip2 (parallel decompress, ~4-8x nhanh hơn).
+    Fallback bz2.open() single-thread.
+    """
+    if shutil.which("pbzip2"):
+        # pbzip2 -dc decompress to stdout, parallel theo CPU cores.
+        proc = subprocess.Popen(
+            ["pbzip2", "-dc", str(path)],
+            stdout=subprocess.PIPE, bufsize=1 << 20,
+        )
+        try:
+            for raw in proc.stdout:
+                line = raw.strip().rstrip(b",")
+                if not line or line in (b"[", b"]"):
+                    continue
+                try:
+                    yield _decode_json(line)
+                except (ValueError, TypeError):
+                    continue
+        finally:
+            proc.stdout.close()
+            proc.wait()
+    else:
+        with bz2.open(path, "rb") as f:
+            for raw in f:
+                line = raw.strip().rstrip(b",")
+                if not line or line in (b"[", b"]"):
+                    continue
+                try:
+                    yield _decode_json(line)
+                except (ValueError, TypeError):
+                    continue
 
 
 def parse_year(time_str: str) -> Optional[int]:

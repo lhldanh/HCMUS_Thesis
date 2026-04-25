@@ -21,12 +21,14 @@ cronqvn/
 ```bash
 pip install -r requirements.txt
 
-# (Optional) Cài aria2c để download nhanh 3-5x (build_kg auto-detect)
+# (Recommended) cài aria2 + pbzip2 → build_kg nhanh 5-10x:
 # Linux/Colab:
-sudo apt-get install -y aria2
+sudo apt-get install -y aria2 pbzip2
 # macOS:
-brew install aria2
+brew install aria2 pbzip2
 ```
+
+`build_kg.py` auto-detect: có `aria2c` → multi-thread download, có `pbzip2` → parallel bz2 decompress, có `orjson` → JSON parser nhanh.
 
 Không cần Ollama, không cần dịch — vì build_kg lọc strict 100% VN.
 
