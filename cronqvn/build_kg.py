@@ -171,7 +171,11 @@ def _qual_year(quals: dict, prop: str) -> Optional[int]:
 
 def extract_temporal_facts(entity: dict) -> list[dict]:
     """Extract MỌI fact temporal (mọi P-prop có timestamp).
-    Logic: ưu tiên P580/P582; nếu thiếu cả 2 mà có P585 → point in time.
+
+    Convention:
+      - start = null  → "unknown / before recorded history" (chỉ có end)
+      - end   = null  → "ongoing / unbounded" (chỉ có start)
+      - P585 (point in time) → start = end = year
     """
     qid = entity["id"]
     claims = entity.get("claims", {})
@@ -193,10 +197,11 @@ def extract_temporal_facts(entity: dict) -> list[dict]:
             if p580 is None and p582 is None and p585 is None:
                 continue
             if p580 is None and p582 is None:
+                # Point in time
                 start = end = p585
             else:
-                start = p580 if p580 is not None else YEAR_MIN
-                end   = p582 if p582 is not None else YEAR_MAX
+                start = p580       # None nếu thiếu (= "không biết bắt đầu")
+                end   = p582       # None nếu thiếu (= "đang diễn ra")
             facts.append({
                 "s_qid": qid, "o_qid": obj,
                 "start": start, "end": end,

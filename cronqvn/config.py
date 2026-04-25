@@ -73,9 +73,9 @@ QTYPE_DISTRIBUTION = {
 
 # ---------- KG-build filters (tkbc-style, áp ở build_kg.py) ----------
 # Step 2: lọc relation hiếm — relation có < N statement bị bỏ
-BUILD_MIN_RELATION_FACTS = 200
+BUILD_MIN_RELATION_FACTS = 0
 # Step 3: lọc entity hiếm — entity xuất hiện < M fact bị bỏ
-BUILD_MIN_ENTITY_FACTS = 2
+BUILD_MIN_ENTITY_FACTS = 0
 
 # ---------- Question-gen filters (áp ở generate.py) ----------
 MAX_ANSWERS = 20
