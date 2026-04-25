@@ -1,18 +1,16 @@
-"""Phase 1: Build KG từ Wikidata dump (giống tkbc, label VN hoặc EN).
+"""Phase 1: Build KG từ Wikidata dump (1-pass + post-filter).
 
 Pipeline:
   Step 0. Tự download dump bz2 (~100GB) nếu chưa có, resume được.
-  Step 1. Pass dump lần 1 → cache {qid: {vi, en}} cho mọi entity có VN HOẶC EN.
-  Step 2. Pass dump lần 2 → extract fact temporal mà s VÀ o đều có label.
-          - Mọi P-property (không filter relation)
-          - Có ít nhất 1 trong P580/P585/P582 (start/point/end)
-          - Sentinel YEAR_MIN/YEAR_MAX cho missing start/end
+  Step 1. Stream dump 1 LẦN duy nhất:
+           - Mỗi entity → lưu label (vi/en) vào dict in-memory.
+           - Extract MỌI fact temporal → ghi raw vào file.
+  Step 2. Filter facts: giữ fact mà s và o đều có label.
   Step 3. Lọc relation hiếm (< BUILD_MIN_RELATION_FACTS).
-  Step 4. Lọc entity hiếm  (< BUILD_MIN_ENTITY_FACTS).
+  Step 4. Lọc entity hiếm (< BUILD_MIN_ENTITY_FACTS).
+  Output. Ghi cache/{P*.jsonl} + cache/labels.json + cache/relation_labels.json.
 
-Output: cache/{P*.jsonl} + cache/labels.json
-  Mỗi label entry: {"vi": str|None, "en": str|None}
-  Generate.py sẽ ưu tiên vi, fallback en.
+So với 2-pass cũ: stream dump 1 lần thay vì 2 → ~2x nhanh hơn.
 
 Usage:
   python build_kg.py
@@ -38,8 +36,6 @@ from config import (BUILD_MIN_ENTITY_FACTS, BUILD_MIN_RELATION_FACTS, CACHE_DIR,
 
 DUMP_URL = "https://dumps.wikimedia.your.org/wikidatawiki/entities/latest-all.json.bz2"
 PIDS = set(RELATIONS.keys())
-
-# Concurrent connection cho aria2c (Wikimedia chặn nếu > 4-5)
 DOWNLOAD_CONCURRENCY = 4
 
 
@@ -48,7 +44,6 @@ DOWNLOAD_CONCURRENCY = 4
 # ====================================================================
 
 def _download_aria2(url: str, target: Path) -> bool:
-    """Tải bằng aria2c nếu có sẵn. Return True nếu thành công."""
     if not shutil.which("aria2c"):
         return False
     target.parent.mkdir(parents=True, exist_ok=True)
@@ -62,10 +57,9 @@ def _download_aria2(url: str, target: Path) -> bool:
         "--retry-wait=30",
         "--continue=true",
         "--user-agent=Mozilla/5.0 (cronqvn-research)",
-        # Log progress mỗi 5s (Colab cần để thấy live)
         "--summary-interval=5",
         "--console-log-level=notice",
-        "--show-console-readout=false",  # tắt readout 1 line update,
+        "--show-console-readout=false",
         "--enable-color=false",
         "-d", str(target.parent),
         "-o", target.name,
@@ -82,24 +76,20 @@ def _download_aria2(url: str, target: Path) -> bool:
 
 def _download_requests(url: str, target: Path,
                         chunk_size: int = 1 << 20) -> None:
-    """Fallback: tải bằng requests single-thread, có resume."""
     target.parent.mkdir(parents=True, exist_ok=True)
     head = requests.head(url, allow_redirects=True, timeout=30)
     head.raise_for_status()
     total = int(head.headers.get("content-length", 0))
-
     existing = target.stat().st_size if target.exists() else 0
     if existing == total and total > 0:
         print(f"[skip] dump đã đủ ({existing/1e9:.1f} GB)")
         return
     if existing > total:
         target.unlink(); existing = 0
-
     headers = {"Range": f"bytes={existing}-"} if existing else {}
     mode = "ab" if existing else "wb"
     print(f"[download] requests {total/1e9:.1f} GB"
           + (f" (resume từ {existing/1e9:.2f} GB)" if existing else ""))
-
     with requests.get(url, headers=headers, stream=True, timeout=300) as r:
         r.raise_for_status()
         pbar = tqdm(total=total, initial=existing, unit="B",
@@ -111,7 +101,6 @@ def _download_requests(url: str, target: Path,
 
 
 def download_dump(url: str, target: Path) -> None:
-    """Ưu tiên aria2c (multi-thread, ~3-5x nhanh hơn). Fallback requests."""
     if _download_aria2(url, target):
         return
     _download_requests(url, target)
@@ -122,24 +111,16 @@ def download_dump(url: str, target: Path) -> None:
 # ====================================================================
 
 try:
-    import orjson as _json   # nhanh hơn json ~3x
+    import orjson as _json
     _decode_json = _json.loads
 except ImportError:
     _decode_json = json.loads
 
 
 def stream_entities(path: Path) -> Iterator[dict]:
-    """Stream entity từ dump bz2.
-
-    Ưu tiên pbzip2 (parallel decompress, ~4-8x nhanh hơn).
-    Fallback bz2.open() single-thread.
-    """
     if shutil.which("pbzip2"):
-        # pbzip2 -dc decompress to stdout, parallel theo CPU cores.
-        proc = subprocess.Popen(
-            ["pbzip2", "-dc", str(path)],
-            stdout=subprocess.PIPE, bufsize=1 << 20,
-        )
+        proc = subprocess.Popen(["pbzip2", "-dc", str(path)],
+                                 stdout=subprocess.PIPE, bufsize=1 << 20)
         try:
             for raw in proc.stdout:
                 line = raw.strip().rstrip(b",")
@@ -189,14 +170,8 @@ def _qual_year(quals: dict, prop: str) -> Optional[int]:
 
 
 def extract_temporal_facts(entity: dict) -> list[dict]:
-    """Extract MỌI fact có timestamp, không filter relation (giống tkbc).
-
-    Logic timestamp:
-      - P585 (point in time)        → start = end = year (event 1 thời điểm)
-      - P580 (start) + P582 (end)   → khoảng đầy đủ
-      - P580 only (ongoing)         → start = year, end = YEAR_MAX (sentinel)
-      - P582 only (unknown start)   → start = YEAR_MIN (sentinel), end = year
-      - không có qualifier time     → bỏ
+    """Extract MỌI fact temporal (mọi P-prop có timestamp).
+    Logic: ưu tiên P580/P582; nếu thiếu cả 2 mà có P585 → point in time.
     """
     qid = entity["id"]
     claims = entity.get("claims", {})
@@ -217,7 +192,6 @@ def extract_temporal_facts(entity: dict) -> list[dict]:
             p585 = _qual_year(quals, "P585")
             if p580 is None and p582 is None and p585 is None:
                 continue
-            # Ưu tiên P580/P582; nếu thiếu cả 2 mà có P585 → point in time
             if p580 is None and p582 is None:
                 start = end = p585
             else:
@@ -232,110 +206,103 @@ def extract_temporal_facts(entity: dict) -> list[dict]:
 
 
 # ====================================================================
-# Step 1: Pass dump lần 1, collect labels của entity có VN
+# Step 1: SINGLE PASS — collect labels + extract all temporal facts
 # ====================================================================
 
-LABELS_CKPT = Path(CACHE_DIR) / "_step1_labels.json"
+LABELS_CKPT     = Path(CACHE_DIR) / "_step1_labels.json"
 REL_LABELS_CKPT = Path(CACHE_DIR) / "_step1_rel_labels.json"
+ALL_FACTS_CKPT  = Path(CACHE_DIR) / "_step1_all_facts.jsonl"
+PASS_DONE       = Path(CACHE_DIR) / "_step1.done"
 
 
-def step1_collect_labels(dump_path: Path,
-                          limit: Optional[int]
-                          ) -> tuple[dict[str, dict], dict[str, dict]]:
-    """Pass 1: lấy label cho cả entity (Q*) và relation (P*).
-
-    Trả:
-      ent_labels: {qid: {"vi": str|None, "en": str|None}}
-      rel_labels: {pid: {"vi": str|None, "en": str|None}}
+def step1_single_pass(dump_path: Path, limit: Optional[int]
+                       ) -> tuple[dict[str, dict], dict[str, dict], Path]:
+    """1 pass duy nhất qua dump:
+      - Lưu label (vi/en) cho mọi Q và P entity có label.
+      - Extract MỌI temporal fact, ghi raw ra disk (ALL_FACTS_CKPT).
+    Return (ent_labels, rel_labels, all_facts_path).
     """
-    if LABELS_CKPT.exists() and REL_LABELS_CKPT.exists():
+    if PASS_DONE.exists():
         ent = json.loads(LABELS_CKPT.read_text())
         rel = json.loads(REL_LABELS_CKPT.read_text())
-        print(f"  [skip] checkpoint {len(ent):,} entity + {len(rel):,} relation")
-        return ent, rel
+        n_facts = sum(1 for _ in ALL_FACTS_CKPT.open())
+        print(f"  [skip] checkpoint: {len(ent):,} entity, "
+              f"{len(rel):,} relation, {n_facts:,} fact thô")
+        return ent, rel, ALL_FACTS_CKPT
+
+    Path(CACHE_DIR).mkdir(parents=True, exist_ok=True)
+    # Reset checkpoint nếu pass cũ chưa hoàn thành
+    for p in (LABELS_CKPT, REL_LABELS_CKPT, ALL_FACTS_CKPT):
+        if p.exists():
+            p.unlink()
 
     ent_labels: dict[str, dict] = {}
     rel_labels: dict[str, dict] = {}
-    pbar = tqdm(desc="step1: labels", unit="ent")
+    pbar = tqdm(desc="step1: scan", unit="ent")
     seen = 0
-    for entity in stream_entities(dump_path):
-        seen += 1
-        if limit and seen > limit:
-            break
-        pbar.update(1)
-        qid = entity.get("id", "")
-        vi = get_label(entity, "vi")
-        en = get_label(entity, "en")
-        if not vi and not en:
-            continue
-        if qid.startswith("Q"):
-            ent_labels[qid] = {"vi": vi, "en": en}
-        elif qid.startswith("P"):
-            rel_labels[qid] = {"vi": vi, "en": en}
-        if len(ent_labels) % 200000 == 0 and len(ent_labels) > 0:
-            pbar.set_postfix(qids=len(ent_labels), pids=len(rel_labels))
-            LABELS_CKPT.parent.mkdir(parents=True, exist_ok=True)
-            LABELS_CKPT.write_text(json.dumps(ent_labels, ensure_ascii=False))
-            REL_LABELS_CKPT.write_text(json.dumps(rel_labels, ensure_ascii=False))
-    pbar.close()
+    facts_total = 0
 
-    LABELS_CKPT.parent.mkdir(parents=True, exist_ok=True)
-    LABELS_CKPT.write_text(json.dumps(ent_labels, ensure_ascii=False))
-    REL_LABELS_CKPT.write_text(json.dumps(rel_labels, ensure_ascii=False))
-    print(f"  → saved: {len(ent_labels):,} entity + {len(rel_labels):,} relation")
-    return ent_labels, rel_labels
-
-
-# ====================================================================
-# Step 2: Pass dump lần 2, extract fact strict (s VÀ o đều có VN)
-# ====================================================================
-
-FACTS_CKPT = Path(CACHE_DIR) / "_step2_facts.jsonl"
-
-
-def step2_extract_facts(dump_path: Path, labels: dict[str, dict],
-                         limit: Optional[int]) -> list[dict]:
-    """Pass 2 → extract fact temporal mà s và o đều trong labels (vi hoặc en).
-    Append vào checkpoint file (resume được)."""
-    facts: list[dict] = []
-    if FACTS_CKPT.exists():
-        with FACTS_CKPT.open() as f:
-            for line in f:
-                try:
-                    facts.append(json.loads(line))
-                except json.JSONDecodeError:
-                    continue
-        meta = FACTS_CKPT.with_suffix(".done")
-        if meta.exists():
-            print(f"  [skip] đã có {len(facts):,} fact từ checkpoint")
-            return facts
-        print(f"  [resume cũ không hoàn tất] reset, chạy lại")
-        facts = []
-        FACTS_CKPT.unlink()
-
-    FACTS_CKPT.parent.mkdir(parents=True, exist_ok=True)
-    pbar = tqdm(desc="step2: facts", unit="ent")
-    seen = 0
-    with FACTS_CKPT.open("w") as ckpt:
+    with ALL_FACTS_CKPT.open("w") as ckpt:
         for entity in stream_entities(dump_path):
             seen += 1
             if limit and seen > limit:
                 break
             pbar.update(1)
             qid = entity.get("id", "")
-            if qid not in labels:
-                continue                          # subject phải có label
-            for f in extract_temporal_facts(entity):
-                if f["o_qid"] not in labels:
-                    continue                      # object cũng phải có label
-                facts.append(f)
-                ckpt.write(json.dumps(f) + "\n")
-            if len(facts) % 5000 == 0 and len(facts) > 0:
-                pbar.set_postfix(facts=len(facts))
+            if not qid or qid[0] not in "QP":
+                continue
+            vi = get_label(entity, "vi")
+            en = get_label(entity, "en")
+
+            # Lưu label
+            if vi or en:
+                if qid[0] == "Q":
+                    ent_labels[qid] = {"vi": vi, "en": en}
+                else:
+                    rel_labels[qid] = {"vi": vi, "en": en}
+
+            # Extract fact temporal (chỉ cho Q-entity, P-prop không có claims thường dùng)
+            if qid[0] == "Q":
+                for fact in extract_temporal_facts(entity):
+                    ckpt.write(json.dumps(fact) + "\n")
+                    facts_total += 1
+
+            if seen % 200000 == 0:
+                pbar.set_postfix(qids=len(ent_labels), pids=len(rel_labels),
+                                 facts=facts_total)
                 ckpt.flush()
+                LABELS_CKPT.write_text(json.dumps(ent_labels, ensure_ascii=False))
+                REL_LABELS_CKPT.write_text(json.dumps(rel_labels, ensure_ascii=False))
     pbar.close()
-    FACTS_CKPT.with_suffix(".done").write_text("ok")
-    print(f"  → checkpoint saved: {FACTS_CKPT} ({len(facts):,} fact)")
+
+    LABELS_CKPT.write_text(json.dumps(ent_labels, ensure_ascii=False))
+    REL_LABELS_CKPT.write_text(json.dumps(rel_labels, ensure_ascii=False))
+    PASS_DONE.write_text("ok")
+    print(f"  → saved: {len(ent_labels):,} entity, {len(rel_labels):,} "
+          f"relation, {facts_total:,} fact thô")
+    return ent_labels, rel_labels, ALL_FACTS_CKPT
+
+
+# ====================================================================
+# Step 2: Filter facts theo label
+# ====================================================================
+
+def step2_filter_by_labels(all_facts_path: Path,
+                            labels: dict[str, dict]) -> list[dict]:
+    """Đọc all_facts.jsonl, giữ fact mà cả s_qid và o_qid đều có label."""
+    facts = []
+    pbar = tqdm(desc="step2: filter labels", unit="fact")
+    with all_facts_path.open() as f:
+        for line in f:
+            try:
+                fact = _decode_json(line)
+            except Exception:
+                continue
+            pbar.update(1)
+            if fact["s_qid"] in labels and fact["o_qid"] in labels:
+                facts.append(fact)
+    pbar.close()
+    print(f"  fact: {pbar.n:,} → {len(facts):,} (giữ {len(facts)/max(pbar.n,1)*100:.1f}%)")
     return facts
 
 
@@ -380,7 +347,7 @@ def write_cache(facts: list[dict], labels: dict[str, dict],
                 needed: set[str], rel_labels: dict[str, dict]) -> None:
     def lab(qid: str) -> str:
         d = labels[qid]
-        return d.get("vi") or d.get("en")     # ưu tiên vi, fallback en
+        return d.get("vi") or d.get("en")
 
     def rel_lab(pid: str) -> Optional[str]:
         d = rel_labels.get(pid)
@@ -400,7 +367,6 @@ def write_cache(facts: list[dict], labels: dict[str, dict],
 
     cache = Path(CACHE_DIR)
     cache.mkdir(parents=True, exist_ok=True)
-    # Ghi mọi relation pass filter, sort theo số fact giảm dần để dễ xem
     sorted_rels = sorted(by_rel.items(), key=lambda x: -len(x[1]))
     for pid, items in sorted_rels:
         path = cache / f"{pid}.jsonl"
@@ -410,7 +376,6 @@ def write_cache(facts: list[dict], labels: dict[str, dict],
         marker = "★" if pid in PIDS else " "
         print(f"  {marker} {pid}: {len(items):>7,} fact -> {path}")
 
-    # Chỉ ghi label của entity + relation xuất hiện trong fact final
     used_ent = {q: labels[q] for q in needed if q in labels}
     (cache / "labels.json").write_text(
         json.dumps(used_ent, ensure_ascii=False, indent=2))
@@ -441,7 +406,7 @@ def main():
     ap.add_argument("--url",  default=DUMP_URL)
     ap.add_argument("--skip-download", action="store_true")
     ap.add_argument("--limit", type=int, default=None,
-                    help="duyệt N entity đầu mỗi pass (test)")
+                    help="duyệt N entity đầu (test)")
     args = ap.parse_args()
 
     if not args.skip_download:
@@ -453,15 +418,14 @@ def main():
     size_gb = args.dump.stat().st_size / 1e9
     print(f"\n[dump] {args.dump} ({size_gb:.1f} GB)")
     if args.limit:
-        print(f"[limit] {args.limit:,} entity/pass")
+        print(f"[limit] {args.limit:,} entity")
 
-    print(f"\n[Step 1] Pass 1 → cache labels (entity Q* + relation P*)…")
-    labels, rel_labels = step1_collect_labels(args.dump, args.limit)
-    print(f"          {len(labels):,} entity, {len(rel_labels):,} relation có label")
+    print(f"\n[Step 1] Single pass: collect labels + extract facts…")
+    ent_labels, rel_labels, all_facts_path = step1_single_pass(
+        args.dump, args.limit)
 
-    print(f"\n[Step 2] Pass 2 → extract fact (s và o đều có label)…")
-    facts = step2_extract_facts(args.dump, labels, args.limit)
-    print(f"          {len(facts):,} fact thô")
+    print(f"\n[Step 2] Filter facts (s và o đều có label):")
+    facts = step2_filter_by_labels(all_facts_path, ent_labels)
 
     print(f"\n[Step 3] Lọc relation hiếm (≥ {BUILD_MIN_RELATION_FACTS}):")
     facts = step3_filter_relations(facts)
@@ -470,7 +434,7 @@ def main():
     facts, needed = step4_filter_entities(facts)
 
     print(f"\n[Output] Ghi cache (label vi ưu tiên, fallback en)…")
-    write_cache(facts, labels, needed, rel_labels)
+    write_cache(facts, ent_labels, needed, rel_labels)
 
 
 if __name__ == "__main__":
