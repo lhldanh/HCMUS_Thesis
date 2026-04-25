@@ -236,18 +236,26 @@ def extract_temporal_facts(entity: dict) -> list[dict]:
 # ====================================================================
 
 LABELS_CKPT = Path(CACHE_DIR) / "_step1_labels.json"
+REL_LABELS_CKPT = Path(CACHE_DIR) / "_step1_rel_labels.json"
 
 
 def step1_collect_labels(dump_path: Path,
-                          limit: Optional[int]) -> dict[str, dict]:
-    """Trả {qid: {"vi": str|None, "en": str|None}} cho entity có VN HOẶC EN.
-    Có checkpoint: nếu file tồn tại → load thẳng (skip)."""
-    if LABELS_CKPT.exists():
-        labels = json.loads(LABELS_CKPT.read_text())
-        print(f"  [skip] checkpoint {len(labels):,} entity có label")
-        return labels
+                          limit: Optional[int]
+                          ) -> tuple[dict[str, dict], dict[str, dict]]:
+    """Pass 1: lấy label cho cả entity (Q*) và relation (P*).
 
-    labels: dict[str, dict] = {}
+    Trả:
+      ent_labels: {qid: {"vi": str|None, "en": str|None}}
+      rel_labels: {pid: {"vi": str|None, "en": str|None}}
+    """
+    if LABELS_CKPT.exists() and REL_LABELS_CKPT.exists():
+        ent = json.loads(LABELS_CKPT.read_text())
+        rel = json.loads(REL_LABELS_CKPT.read_text())
+        print(f"  [skip] checkpoint {len(ent):,} entity + {len(rel):,} relation")
+        return ent, rel
+
+    ent_labels: dict[str, dict] = {}
+    rel_labels: dict[str, dict] = {}
     pbar = tqdm(desc="step1: labels", unit="ent")
     seen = 0
     for entity in stream_entities(dump_path):
@@ -256,23 +264,26 @@ def step1_collect_labels(dump_path: Path,
             break
         pbar.update(1)
         qid = entity.get("id", "")
-        if not qid.startswith("Q"):
-            continue
         vi = get_label(entity, "vi")
         en = get_label(entity, "en")
         if not vi and not en:
-            continue                        # bỏ entity không có label nào
-        labels[qid] = {"vi": vi, "en": en}
-        if len(labels) % 200000 == 0:
-            pbar.set_postfix(qids=len(labels))
+            continue
+        if qid.startswith("Q"):
+            ent_labels[qid] = {"vi": vi, "en": en}
+        elif qid.startswith("P"):
+            rel_labels[qid] = {"vi": vi, "en": en}
+        if len(ent_labels) % 200000 == 0 and len(ent_labels) > 0:
+            pbar.set_postfix(qids=len(ent_labels), pids=len(rel_labels))
             LABELS_CKPT.parent.mkdir(parents=True, exist_ok=True)
-            LABELS_CKPT.write_text(json.dumps(labels, ensure_ascii=False))
+            LABELS_CKPT.write_text(json.dumps(ent_labels, ensure_ascii=False))
+            REL_LABELS_CKPT.write_text(json.dumps(rel_labels, ensure_ascii=False))
     pbar.close()
 
     LABELS_CKPT.parent.mkdir(parents=True, exist_ok=True)
-    LABELS_CKPT.write_text(json.dumps(labels, ensure_ascii=False))
-    print(f"  → checkpoint saved: {LABELS_CKPT}")
-    return labels
+    LABELS_CKPT.write_text(json.dumps(ent_labels, ensure_ascii=False))
+    REL_LABELS_CKPT.write_text(json.dumps(rel_labels, ensure_ascii=False))
+    print(f"  → saved: {len(ent_labels):,} entity + {len(rel_labels):,} relation")
+    return ent_labels, rel_labels
 
 
 # ====================================================================
@@ -366,18 +377,25 @@ def step4_filter_entities(facts: list[dict]) -> tuple[list[dict], set[str]]:
 # ====================================================================
 
 def write_cache(facts: list[dict], labels: dict[str, dict],
-                needed: set[str]) -> None:
+                needed: set[str], rel_labels: dict[str, dict]) -> None:
     def lab(qid: str) -> str:
         d = labels[qid]
         return d.get("vi") or d.get("en")     # ưu tiên vi, fallback en
 
+    def rel_lab(pid: str) -> Optional[str]:
+        d = rel_labels.get(pid)
+        if not d:
+            return None
+        return d.get("vi") or d.get("en")
+
     by_rel: dict[str, list[dict]] = defaultdict(list)
     for f in facts:
-        by_rel[f["relation"]].append({
+        pid = f["relation"]
+        by_rel[pid].append({
             "s_qid": f["s_qid"], "s_label": lab(f["s_qid"]),
             "o_qid": f["o_qid"], "o_label": lab(f["o_qid"]),
             "start": f["start"], "end": f["end"],
-            "relation": f["relation"],
+            "relation": pid, "r_label": rel_lab(pid),
         })
 
     cache = Path(CACHE_DIR)
@@ -392,15 +410,25 @@ def write_cache(facts: list[dict], labels: dict[str, dict],
         marker = "★" if pid in PIDS else " "
         print(f"  {marker} {pid}: {len(items):>7,} fact -> {path}")
 
-    # Chỉ ghi label của QID xuất hiện trong fact final (giảm size)
-    used = {q: labels[q] for q in needed if q in labels}
+    # Chỉ ghi label của entity + relation xuất hiện trong fact final
+    used_ent = {q: labels[q] for q in needed if q in labels}
     (cache / "labels.json").write_text(
-        json.dumps(used, ensure_ascii=False, indent=2))
+        json.dumps(used_ent, ensure_ascii=False, indent=2))
+
+    used_rel_pids = {f["relation"] for f in facts}
+    used_rel = {p: rel_labels[p] for p in used_rel_pids if p in rel_labels}
+    (cache / "relation_labels.json").write_text(
+        json.dumps(used_rel, ensure_ascii=False, indent=2))
+
     total = sum(len(v) for v in by_rel.values())
-    vi_count = sum(1 for d in used.values() if d.get("vi"))
-    print(f"\n[done] {total:,} fact, {len(used):,} entity")
-    print(f"       VN coverage: {vi_count:,}/{len(used):,} "
-          f"({vi_count/max(len(used),1)*100:.1f}%)")
+    vi_ent = sum(1 for d in used_ent.values() if d.get("vi"))
+    vi_rel = sum(1 for d in used_rel.values() if d.get("vi"))
+    print(f"\n[done] {total:,} fact, {len(used_ent):,} entity, "
+          f"{len(used_rel)} relation")
+    print(f"       entity VN: {vi_ent:,}/{len(used_ent):,} "
+          f"({vi_ent/max(len(used_ent),1)*100:.1f}%)")
+    print(f"       relation VN: {vi_rel}/{len(used_rel)} "
+          f"({vi_rel/max(len(used_rel),1)*100:.1f}%)")
 
 
 # ====================================================================
@@ -427,9 +455,9 @@ def main():
     if args.limit:
         print(f"[limit] {args.limit:,} entity/pass")
 
-    print(f"\n[Step 1] Pass 1 → cache labels của entity có VN hoặc EN…")
-    labels = step1_collect_labels(args.dump, args.limit)
-    print(f"          {len(labels):,} entity có label")
+    print(f"\n[Step 1] Pass 1 → cache labels (entity Q* + relation P*)…")
+    labels, rel_labels = step1_collect_labels(args.dump, args.limit)
+    print(f"          {len(labels):,} entity, {len(rel_labels):,} relation có label")
 
     print(f"\n[Step 2] Pass 2 → extract fact (s và o đều có label)…")
     facts = step2_extract_facts(args.dump, labels, args.limit)
@@ -442,7 +470,7 @@ def main():
     facts, needed = step4_filter_entities(facts)
 
     print(f"\n[Output] Ghi cache (label vi ưu tiên, fallback en)…")
-    write_cache(facts, labels, needed)
+    write_cache(facts, labels, needed, rel_labels)
 
 
 if __name__ == "__main__":
