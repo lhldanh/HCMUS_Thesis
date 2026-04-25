@@ -60,6 +60,11 @@ def _download_aria2(url: str, target: Path) -> bool:
         "--retry-wait=30",
         "--continue=true",
         "--user-agent=Mozilla/5.0 (cronqvn-research)",
+        # Log progress mỗi 5s (Colab cần để thấy live)
+        "--summary-interval=5",
+        "--console-log-level=notice",
+        "--show-console-readout=false",  # tắt readout 1 line update,
+        "--enable-color=false",
         "-d", str(target.parent),
         "-o", target.name,
         url,
@@ -141,14 +146,19 @@ def get_label(entity: dict, lang: str) -> Optional[str]:
 
 
 def extract_temporal_facts(entity: dict) -> list[dict]:
+    """Extract MỌI fact có timestamp, không filter relation (giống tkbc)."""
     qid = entity["id"]
     claims = entity.get("claims", {})
     facts = []
-    for pid in PIDS & set(claims):
-        for c in claims[pid]:
+    for pid, pclaims in claims.items():
+        if not pid.startswith("P"):
+            continue
+        for c in pclaims:
             try:
                 obj = c["mainsnak"]["datavalue"]["value"]["id"]
             except (KeyError, TypeError):
+                continue
+            if not isinstance(obj, str) or not obj.startswith("Q"):
                 continue
             quals = c.get("qualifiers", {})
             start = end = None
@@ -283,13 +293,15 @@ def write_cache(facts: list[dict], vi_labels: dict[str, dict],
 
     cache = Path(CACHE_DIR)
     cache.mkdir(parents=True, exist_ok=True)
-    for pid in sorted(PIDS):
-        items = by_rel.get(pid, [])
+    # Ghi mọi relation pass filter, sort theo số fact giảm dần để dễ xem
+    sorted_rels = sorted(by_rel.items(), key=lambda x: -len(x[1]))
+    for pid, items in sorted_rels:
         path = cache / f"{pid}.jsonl"
         with path.open("w") as f:
             for it in items:
                 f.write(json.dumps(it, ensure_ascii=False) + "\n")
-        print(f"  {pid}: {len(items):>7,} fact -> {path}")
+        marker = "★" if pid in PIDS else " "
+        print(f"  {marker} {pid}: {len(items):>7,} fact -> {path}")
 
     # Chỉ ghi label của QID needed (giảm size)
     used_labels = {q: vi_labels[q] for q in needed if q in vi_labels}
