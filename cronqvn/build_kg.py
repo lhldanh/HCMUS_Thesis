@@ -22,6 +22,8 @@ from __future__ import annotations
 import argparse
 import bz2
 import json
+import shutil
+import subprocess
 from collections import Counter, defaultdict
 from pathlib import Path
 from typing import Iterator, Optional
@@ -32,15 +34,48 @@ from tqdm import tqdm
 from config import (BUILD_MIN_ENTITY_FACTS, BUILD_MIN_RELATION_FACTS, CACHE_DIR,
                     DATA_DIR, DUMP_FILE, RELATIONS, YEAR_MAX, YEAR_MIN)
 
-DUMP_URL = "https://dumps.wikimedia.org/wikidatawiki/entities/latest-all.json.bz2"
+DUMP_URL = "https://dumps.wikimedia.your.org/wikidatawiki/entities/latest-all.json.bz2"
 PIDS = set(RELATIONS.keys())
+
+# Concurrent connection cho aria2c (Wikimedia chặn nếu > 4-5)
+DOWNLOAD_CONCURRENCY = 4
 
 
 # ====================================================================
 # Step 0: Download dump (resume support)
 # ====================================================================
 
-def download_dump(url: str, target: Path, chunk_size: int = 1 << 20) -> None:
+def _download_aria2(url: str, target: Path) -> bool:
+    """Tải bằng aria2c nếu có sẵn. Return True nếu thành công."""
+    if not shutil.which("aria2c"):
+        return False
+    target.parent.mkdir(parents=True, exist_ok=True)
+    cmd = [
+        "aria2c",
+        "-x", str(DOWNLOAD_CONCURRENCY),
+        "-s", str(DOWNLOAD_CONCURRENCY),
+        "-k", "10M",
+        "--file-allocation=none",
+        "--max-tries=10",
+        "--retry-wait=30",
+        "--continue=true",
+        "--user-agent=Mozilla/5.0 (cronqvn-research)",
+        "-d", str(target.parent),
+        "-o", target.name,
+        url,
+    ]
+    print(f"[download] aria2c -x {DOWNLOAD_CONCURRENCY} → {target}")
+    try:
+        subprocess.run(cmd, check=True)
+        return True
+    except (subprocess.CalledProcessError, FileNotFoundError):
+        print("[warn] aria2c thất bại, fallback sang requests")
+        return False
+
+
+def _download_requests(url: str, target: Path,
+                        chunk_size: int = 1 << 20) -> None:
+    """Fallback: tải bằng requests single-thread, có resume."""
     target.parent.mkdir(parents=True, exist_ok=True)
     head = requests.head(url, allow_redirects=True, timeout=30)
     head.raise_for_status()
@@ -55,10 +90,8 @@ def download_dump(url: str, target: Path, chunk_size: int = 1 << 20) -> None:
 
     headers = {"Range": f"bytes={existing}-"} if existing else {}
     mode = "ab" if existing else "wb"
-    if existing:
-        print(f"[resume] {existing/1e9:.2f}/{total/1e9:.2f} GB")
-    else:
-        print(f"[download] {total/1e9:.1f} GB từ {url}")
+    print(f"[download] requests {total/1e9:.1f} GB"
+          + (f" (resume từ {existing/1e9:.2f} GB)" if existing else ""))
 
     with requests.get(url, headers=headers, stream=True, timeout=300) as r:
         r.raise_for_status()
@@ -68,6 +101,13 @@ def download_dump(url: str, target: Path, chunk_size: int = 1 << 20) -> None:
             for chunk in r.iter_content(chunk_size):
                 f.write(chunk); pbar.update(len(chunk))
         pbar.close()
+
+
+def download_dump(url: str, target: Path) -> None:
+    """Ưu tiên aria2c (multi-thread, ~3-5x nhanh hơn). Fallback requests."""
+    if _download_aria2(url, target):
+        return
+    _download_requests(url, target)
 
 
 # ====================================================================

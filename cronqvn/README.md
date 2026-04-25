@@ -20,6 +20,12 @@ cronqvn/
 
 ```bash
 pip install -r requirements.txt
+
+# (Optional) Cài aria2c để download nhanh 3-5x (build_kg auto-detect)
+# Linux/Colab:
+sudo apt-get install -y aria2
+# macOS:
+brew install aria2
 ```
 
 Không cần Ollama, không cần dịch — vì build_kg lọc strict 100% VN.
