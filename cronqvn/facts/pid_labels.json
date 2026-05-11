@@ -1,0 +1,1086 @@
+{
+  "P1000": {
+    "label": "record held",
+    "lang": "en"
+  },
+  "P1001": {
+    "label": "thuộc quyền tài phán",
+    "lang": "vi"
+  },
+  "P101": {
+    "label": "lĩnh vực làm việc",
+    "lang": "vi"
+  },
+  "P102": {
+    "label": "đảng viên của đảng chính trị",
+    "lang": "vi"
+  },
+  "P1027": {
+    "label": "được trao bởi",
+    "lang": "vi"
+  },
+  "P1028": {
+    "label": "donated by",
+    "lang": "en"
+  },
+  "P1029": {
+    "label": "(các) người lái",
+    "lang": "vi"
+  },
+  "P1037": {
+    "label": "người quản lý/giám đốc",
+    "lang": "vi"
+  },
+  "P1038": {
+    "label": "họ hàng",
+    "lang": "vi"
+  },
+  "P1050": {
+    "label": "tình trạng sức khỏe",
+    "lang": "vi"
+  },
+  "P1056": {
+    "label": "sản xuất",
+    "lang": "vi"
+  },
+  "P106": {
+    "label": "nghề nghiệp",
+    "lang": "vi"
+  },
+  "P10611": {
+    "label": "chứng nhận",
+    "lang": "vi"
+  },
+  "P1064": {
+    "label": "khổ đường ray",
+    "lang": "vi"
+  },
+  "P1066": {
+    "label": "học trò của",
+    "lang": "vi"
+  },
+  "P1071": {
+    "label": "vị trí sáng tạo",
+    "lang": "vi"
+  },
+  "P1075": {
+    "label": "hiệu trưởng",
+    "lang": "vi"
+  },
+  "P108": {
+    "label": "nhà tuyển dụng",
+    "lang": "vi"
+  },
+  "P112": {
+    "label": "người sáng lập",
+    "lang": "vi"
+  },
+  "P1142": {
+    "label": "tư tưởng chính trị",
+    "lang": "vi"
+  },
+  "P115": {
+    "label": "sân vận động",
+    "lang": "vi"
+  },
+  "P118": {
+    "label": "liên đoàn thể thao",
+    "lang": "vi"
+  },
+  "P119": {
+    "label": "nơi chôn cất",
+    "lang": "vi"
+  },
+  "P121": {
+    "label": "hoạt động",
+    "lang": "vi"
+  },
+  "P122": {
+    "label": "chế độ chính phủ",
+    "lang": "vi"
+  },
+  "P123": {
+    "label": "nhà xuất bản",
+    "lang": "vi"
+  },
+  "P12363": {
+    "label": "clerked for",
+    "lang": "en"
+  },
+  "P12439": {
+    "label": "civil rank",
+    "lang": "en"
+  },
+  "P126": {
+    "label": "bảo quản bởi",
+    "lang": "vi"
+  },
+  "P1268": {
+    "label": "tiêu biểu cho",
+    "lang": "vi"
+  },
+  "P127": {
+    "label": "chủ sở hữu",
+    "lang": "vi"
+  },
+  "P1299": {
+    "label": "được miêu tả bởi",
+    "lang": "vi"
+  },
+  "P1308": {
+    "label": "người giữ chức vụ",
+    "lang": "vi"
+  },
+  "P131": {
+    "label": "nằm trong phạm vi của khu vực hành chính",
+    "lang": "vi"
+  },
+  "P1313": {
+    "label": "chức vụ đứng đầu chính quyền",
+    "lang": "vi"
+  },
+  "P1321": {
+    "label": "municipal affiliation of a Swiss national",
+    "lang": "en"
+  },
+  "P13210": {
+    "label": "tình trạng thuế của tổ chức",
+    "lang": "vi"
+  },
+  "P1327": {
+    "label": "partner in business or sport",
+    "lang": "en"
+  },
+  "P1343": {
+    "label": "được mô tả trong",
+    "lang": "vi"
+  },
+  "P1344": {
+    "label": "tham gia",
+    "lang": "vi"
+  },
+  "P1346": {
+    "label": "người thắng cuộc",
+    "lang": "vi"
+  },
+  "P1347": {
+    "label": "military casualty classification",
+    "lang": "en"
+  },
+  "P1365": {
+    "label": "thay thế cho",
+    "lang": "vi"
+  },
+  "P1366": {
+    "label": "được thay thế bởi",
+    "lang": "vi"
+  },
+  "P137": {
+    "label": "nhà quản lý",
+    "lang": "vi"
+  },
+  "P1376": {
+    "label": "trung tâm hành chính của",
+    "lang": "vi"
+  },
+  "P138": {
+    "label": "được đặt tên theo",
+    "lang": "vi"
+  },
+  "P1383": {
+    "label": "bao gồm khu dân cư",
+    "lang": "vi"
+  },
+  "P1389": {
+    "label": "product certification",
+    "lang": "en"
+  },
+  "P1399": {
+    "label": "bị kết án",
+    "lang": "vi"
+  },
+  "P140": {
+    "label": "tôn giáo",
+    "lang": "vi"
+  },
+  "P1411": {
+    "label": "đề cử giải thưởng",
+    "lang": "vi"
+  },
+  "P1412": {
+    "label": "nói, viết hoặc ký bằng các ngôn ngữ",
+    "lang": "vi"
+  },
+  "P1416": {
+    "label": "liên kết với",
+    "lang": "vi"
+  },
+  "P1427": {
+    "label": "khởi hành",
+    "lang": "vi"
+  },
+  "P1435": {
+    "label": "xếp hạng di sản",
+    "lang": "vi"
+  },
+  "P1454": {
+    "label": "dạng luật pháp",
+    "lang": "vi"
+  },
+  "P150": {
+    "label": "các phân khu hành chính",
+    "lang": "vi"
+  },
+  "P1532": {
+    "label": "quốc gia trong thể thao",
+    "lang": "vi"
+  },
+  "P1535": {
+    "label": "sử dụng bởi",
+    "lang": "vi"
+  },
+  "P1542": {
+    "label": "dẫn đến",
+    "lang": "vi"
+  },
+  "P155": {
+    "label": "phần tiếp theo của",
+    "lang": "vi"
+  },
+  "P1552": {
+    "label": "mang đặc tính",
+    "lang": "vi"
+  },
+  "P156": {
+    "label": "phần kế trước của",
+    "lang": "vi"
+  },
+  "P159": {
+    "label": "vị trí trụ sở",
+    "lang": "vi"
+  },
+  "P1596": {
+    "label": "hình phạt",
+    "lang": "vi"
+  },
+  "P1598": {
+    "label": "consecrator",
+    "lang": "en"
+  },
+  "P16": {
+    "label": "hệ thống vận tải",
+    "lang": "vi"
+  },
+  "P161": {
+    "label": "diễn viên",
+    "lang": "vi"
+  },
+  "P162": {
+    "label": "nhà sản xuất",
+    "lang": "vi"
+  },
+  "P1640": {
+    "label": "curator",
+    "lang": "en"
+  },
+  "P166": {
+    "label": "giải thưởng",
+    "lang": "vi"
+  },
+  "P169": {
+    "label": "tổng giám đốc điều hành",
+    "lang": "vi"
+  },
+  "P17": {
+    "label": "quốc gia",
+    "lang": "vi"
+  },
+  "P170": {
+    "label": "sáng tác",
+    "lang": "vi"
+  },
+  "P175": {
+    "label": "người biểu diễn",
+    "lang": "vi"
+  },
+  "P176": {
+    "label": "hãng sản xuất",
+    "lang": "vi"
+  },
+  "P178": {
+    "label": "nhà phát triển",
+    "lang": "vi"
+  },
+  "P180": {
+    "label": "mô tả",
+    "lang": "vi"
+  },
+  "P1830": {
+    "label": "sở hữu",
+    "lang": "vi"
+  },
+  "P184": {
+    "label": "cố vấn tiến sĩ",
+    "lang": "vi"
+  },
+  "P185": {
+    "label": "nghiên cứu sinh",
+    "lang": "vi"
+  },
+  "P1891": {
+    "label": "ký bởi",
+    "lang": "vi"
+  },
+  "P190": {
+    "label": "thành phố kết nghĩa",
+    "lang": "vi"
+  },
+  "P1923": {
+    "label": "đội tham gia",
+    "lang": "vi"
+  },
+  "P194": {
+    "label": "cơ quan lập pháp",
+    "lang": "vi"
+  },
+  "P195": {
+    "label": "bộ sưu tập",
+    "lang": "vi"
+  },
+  "P197": {
+    "label": "nhà ga lân cận",
+    "lang": "vi"
+  },
+  "P1981": {
+    "label": "FSK film rating",
+    "lang": "en"
+  },
+  "P199": {
+    "label": "các chi nhánh tổ chức",
+    "lang": "vi"
+  },
+  "P210": {
+    "label": "bí thư đảng ủy",
+    "lang": "vi"
+  },
+  "P2175": {
+    "label": "medical condition treated",
+    "lang": "en"
+  },
+  "P2176": {
+    "label": "thuốc hoặc liệu pháp dùng để điều trị",
+    "lang": "vi"
+  },
+  "P2283": {
+    "label": "sử dụng",
+    "lang": "vi"
+  },
+  "P2291": {
+    "label": "charted in",
+    "lang": "en"
+  },
+  "P2348": {
+    "label": "thời kỳ",
+    "lang": "vi"
+  },
+  "P2388": {
+    "label": "chức vụ lãnh đạo",
+    "lang": "vi"
+  },
+  "P2389": {
+    "label": "lãnh đạo của",
+    "lang": "vi"
+  },
+  "P241": {
+    "label": "quân chủng",
+    "lang": "vi"
+  },
+  "P2416": {
+    "label": "sports discipline competed in",
+    "lang": "en"
+  },
+  "P2453": {
+    "label": "nominee",
+    "lang": "en"
+  },
+  "P2500": {
+    "label": "league level below",
+    "lang": "en"
+  },
+  "P2522": {
+    "label": "giải đoạt được",
+    "lang": "vi"
+  },
+  "P2541": {
+    "label": "khu vực hoạt động",
+    "lang": "vi"
+  },
+  "P2567": {
+    "label": "amended by",
+    "lang": "en"
+  },
+  "P2568": {
+    "label": "repealed by",
+    "lang": "en"
+  },
+  "P26": {
+    "label": "người phối ngẫu",
+    "lang": "vi"
+  },
+  "P2629": {
+    "label": "BBFC rating",
+    "lang": "en"
+  },
+  "P263": {
+    "label": "nơi cư trú chính thức",
+    "lang": "vi"
+  },
+  "P2632": {
+    "label": "nơi giam giữ",
+    "lang": "vi"
+  },
+  "P264": {
+    "label": "hãng đĩa ghi âm",
+    "lang": "vi"
+  },
+  "P2652": {
+    "label": "partnership with",
+    "lang": "en"
+  },
+  "P2670": {
+    "label": "có phần của lớp",
+    "lang": "vi"
+  },
+  "P27": {
+    "label": "quốc tịch",
+    "lang": "vi"
+  },
+  "P272": {
+    "label": "đơn vị sản xuất",
+    "lang": "vi"
+  },
+  "P275": {
+    "label": "giấy phép",
+    "lang": "vi"
+  },
+  "P276": {
+    "label": "vị trí",
+    "lang": "vi"
+  },
+  "P2789": {
+    "label": "nối liền",
+    "lang": "vi"
+  },
+  "P279": {
+    "label": "là tập hợp con của",
+    "lang": "vi"
+  },
+  "P2825": {
+    "label": "via",
+    "lang": "en"
+  },
+  "P2848": {
+    "label": "Wi-Fi access",
+    "lang": "en"
+  },
+  "P286": {
+    "label": "huấn luyện viên trưởng",
+    "lang": "vi"
+  },
+  "P2868": {
+    "label": "chủ thể là",
+    "lang": "vi"
+  },
+  "P291": {
+    "label": "nơi xuất bản",
+    "lang": "vi"
+  },
+  "P2936": {
+    "label": "sử dụng ngôn ngữ",
+    "lang": "vi"
+  },
+  "P2962": {
+    "label": "title of chess person",
+    "lang": "en"
+  },
+  "P31": {
+    "label": "là một",
+    "lang": "vi"
+  },
+  "P3148": {
+    "label": "repeals",
+    "lang": "en"
+  },
+  "P3156": {
+    "label": "Australian Classification",
+    "lang": "en"
+  },
+  "P3300": {
+    "label": "musical conductor",
+    "lang": "en"
+  },
+  "P3301": {
+    "label": "broadcast by",
+    "lang": "en"
+  },
+  "P3320": {
+    "label": "ủy viên ban giám đốc",
+    "lang": "vi"
+  },
+  "P3342": {
+    "label": "nhân vật quan trọng",
+    "lang": "vi"
+  },
+  "P3438": {
+    "label": "phương tiện giao thông thường dùng",
+    "lang": "vi"
+  },
+  "P3448": {
+    "label": "cha hoặc mẹ nuôi",
+    "lang": "vi"
+  },
+  "P3460": {
+    "label": "colonel-in-chief",
+    "lang": "en"
+  },
+  "P3461": {
+    "label": "chỉ định là khủng bố bởi",
+    "lang": "vi"
+  },
+  "P35": {
+    "label": "nguyên thủ quốc gia",
+    "lang": "vi"
+  },
+  "P355": {
+    "label": "tổ chức con",
+    "lang": "vi"
+  },
+  "P36": {
+    "label": "trung tâm hành chính",
+    "lang": "vi"
+  },
+  "P3602": {
+    "label": "bầu cử chọn ứng viên",
+    "lang": "vi"
+  },
+  "P361": {
+    "label": "một phần của",
+    "lang": "vi"
+  },
+  "P3643": {
+    "label": "significant environmental impact",
+    "lang": "en"
+  },
+  "P366": {
+    "label": "chức năng",
+    "lang": "vi"
+  },
+  "P37": {
+    "label": "ngôn ngữ chính thức",
+    "lang": "vi"
+  },
+  "P371": {
+    "label": "người dẫn chương trình",
+    "lang": "vi"
+  },
+  "P3716": {
+    "label": "địa vị xã hội",
+    "lang": "vi"
+  },
+  "P3729": {
+    "label": "thứ hạng kề dưới",
+    "lang": "vi"
+  },
+  "P3730": {
+    "label": "thứ hạng kề trên",
+    "lang": "vi"
+  },
+  "P38": {
+    "label": "đơn vị tiền tệ",
+    "lang": "vi"
+  },
+  "P39": {
+    "label": "chức vụ",
+    "lang": "vi"
+  },
+  "P3919": {
+    "label": "đóng góp vào tác phẩm",
+    "lang": "vi"
+  },
+  "P3975": {
+    "label": "tổng bí thư",
+    "lang": "vi"
+  },
+  "P407": {
+    "label": "ngôn ngữ của tên gọi hoặc tác phẩm",
+    "lang": "vi"
+  },
+  "P408": {
+    "label": "chạy trên phần mềm",
+    "lang": "vi"
+  },
+  "P410": {
+    "label": "quân hàm",
+    "lang": "vi"
+  },
+  "P4100": {
+    "label": "parliamentary group",
+    "lang": "en"
+  },
+  "P411": {
+    "label": "bước trong tuyến trình tuyên thánh",
+    "lang": "vi"
+  },
+  "P414": {
+    "label": "sở giao dịch chứng khoán",
+    "lang": "vi"
+  },
+  "P417": {
+    "label": "thánh quan thầy",
+    "lang": "vi"
+  },
+  "P421": {
+    "label": "nằm trong múi giờ",
+    "lang": "vi"
+  },
+  "P4330": {
+    "label": "chứa",
+    "lang": "vi"
+  },
+  "P449": {
+    "label": "đài phát ban đầu",
+    "lang": "vi"
+  },
+  "P451": {
+    "label": "bạn đời",
+    "lang": "vi"
+  },
+  "P452": {
+    "label": "ngành kinh doanh",
+    "lang": "vi"
+  },
+  "P460": {
+    "label": "được xem là đồng nghĩa với",
+    "lang": "vi"
+  },
+  "P462": {
+    "label": "màu sắc",
+    "lang": "vi"
+  },
+  "P463": {
+    "label": "thành viên của",
+    "lang": "vi"
+  },
+  "P466": {
+    "label": "người/tổ chức cư ngụ",
+    "lang": "vi"
+  },
+  "P467": {
+    "label": "thông qua cơ quan lập pháp",
+    "lang": "vi"
+  },
+  "P47": {
+    "label": "tiếp giáp với",
+    "lang": "vi"
+  },
+  "P4791": {
+    "label": "commanded by",
+    "lang": "en"
+  },
+  "P485": {
+    "label": "có lưu trữ tại",
+    "lang": "vi"
+  },
+  "P488": {
+    "label": "chủ tịch",
+    "lang": "vi"
+  },
+  "P495": {
+    "label": "quốc gia xuất xứ",
+    "lang": "vi"
+  },
+  "P50": {
+    "label": "tác giả",
+    "lang": "vi"
+  },
+  "P5008": {
+    "label": "có trong danh sách chú trọng của dự án Wikimedia",
+    "lang": "vi"
+  },
+  "P5021": {
+    "label": "khóa thi",
+    "lang": "vi"
+  },
+  "P504": {
+    "label": "shipping port",
+    "lang": "en"
+  },
+  "P505": {
+    "label": "general manager",
+    "lang": "en"
+  },
+  "P5052": {
+    "label": "supervisory board member",
+    "lang": "en"
+  },
+  "P5096": {
+    "label": "member of the crew of",
+    "lang": "en"
+  },
+  "P511": {
+    "label": "tiền tố kính ngữ",
+    "lang": "vi"
+  },
+  "P512": {
+    "label": "học vị",
+    "lang": "vi"
+  },
+  "P516": {
+    "label": "cung cấp bởi",
+    "lang": "vi"
+  },
+  "P527": {
+    "label": "gồm có",
+    "lang": "vi"
+  },
+  "P53": {
+    "label": "nhà",
+    "lang": "vi"
+  },
+  "P530": {
+    "label": "quan hệ ngoại giao",
+    "lang": "vi"
+  },
+  "P531": {
+    "label": "phái bộ ngoại giao",
+    "lang": "vi"
+  },
+  "P532": {
+    "label": "port of registry",
+    "lang": "en"
+  },
+  "P54": {
+    "label": "cầu thủ của đội thể thao",
+    "lang": "vi"
+  },
+  "P5460": {
+    "label": "grants",
+    "lang": "en"
+  },
+  "P551": {
+    "label": "nơi cư trú",
+    "lang": "vi"
+  },
+  "P5514": {
+    "label": "accredited by",
+    "lang": "en"
+  },
+  "P559": {
+    "label": "nối liền tại cuối cùng",
+    "lang": "vi"
+  },
+  "P5607": {
+    "label": "nằm trong phạm vi của khu vực giáo hội",
+    "lang": "vi"
+  },
+  "P5769": {
+    "label": "tổng biên tập",
+    "lang": "vi"
+  },
+  "P5816": {
+    "label": "tình trạng bảo tồn",
+    "lang": "vi"
+  },
+  "P5817": {
+    "label": "trạng thái công trình",
+    "lang": "vi"
+  },
+  "P598": {
+    "label": "commander of (DEPRECATED)",
+    "lang": "en"
+  },
+  "P6": {
+    "label": "người đứng đầu chính quyền",
+    "lang": "vi"
+  },
+  "P607": {
+    "label": "cuộc xung đột",
+    "lang": "vi"
+  },
+  "P608": {
+    "label": "exhibition history",
+    "lang": "en"
+  },
+  "P6087": {
+    "label": "coach of sports team",
+    "lang": "en"
+  },
+  "P609": {
+    "label": "điểm cuối cùng",
+    "lang": "vi"
+  },
+  "P611": {
+    "label": "dòng tu",
+    "lang": "vi"
+  },
+  "P618": {
+    "label": "nguồn năng lượng",
+    "lang": "vi"
+  },
+  "P6193": {
+    "label": "ratified by",
+    "lang": "en"
+  },
+  "P6216": {
+    "label": "tình trạng bản quyền",
+    "lang": "vi"
+  },
+  "P634": {
+    "label": "team captain",
+    "lang": "en"
+  },
+  "P6364": {
+    "label": "official color",
+    "lang": "en"
+  },
+  "P641": {
+    "label": "môn thể thao",
+    "lang": "vi"
+  },
+  "P647": {
+    "label": "drafted by",
+    "lang": "en"
+  },
+  "P664": {
+    "label": "tổ chức bởi",
+    "lang": "vi"
+  },
+  "P6658": {
+    "label": "RCQ classification",
+    "lang": "en"
+  },
+  "P669": {
+    "label": "trên đường",
+    "lang": "vi"
+  },
+  "P680": {
+    "label": "chức năng phân tử",
+    "lang": "vi"
+  },
+  "P681": {
+    "label": "thành phần tế bào",
+    "lang": "vi"
+  },
+  "P682": {
+    "label": "biological process",
+    "lang": "en"
+  },
+  "P6855": {
+    "label": "emergency services",
+    "lang": "en"
+  },
+  "P6872": {
+    "label": "đã viết bài cho",
+    "lang": "vi"
+  },
+  "P69": {
+    "label": "trường học",
+    "lang": "vi"
+  },
+  "P708": {
+    "label": "giáo phận",
+    "lang": "vi"
+  },
+  "P710": {
+    "label": "người tham gia",
+    "lang": "vi"
+  },
+  "P7160": {
+    "label": "manner of inhumane treatment",
+    "lang": "en"
+  },
+  "P725": {
+    "label": "diễn viên lồng tiếng",
+    "lang": "vi"
+  },
+  "P726": {
+    "label": "ứng cử viên",
+    "lang": "vi"
+  },
+  "P7327": {
+    "label": "OFLC classification",
+    "lang": "en"
+  },
+  "P734": {
+    "label": "họ",
+    "lang": "vi"
+  },
+  "P740": {
+    "label": "vị trí thành lập",
+    "lang": "vi"
+  },
+  "P749": {
+    "label": "tổ chức mẹ",
+    "lang": "vi"
+  },
+  "P750": {
+    "label": "nhà phân phối",
+    "lang": "vi"
+  },
+  "P770": {
+    "label": "nguyên nhân phá hủy",
+    "lang": "vi"
+  },
+  "P7763": {
+    "label": "trạng thái bản quyền với tư cách là người sáng tạo",
+    "lang": "vi"
+  },
+  "P7779": {
+    "label": "đơn vị quân đội",
+    "lang": "vi"
+  },
+  "P7781": {
+    "label": "exonerated of",
+    "lang": "en"
+  },
+  "P7888": {
+    "label": "sáp nhập vào",
+    "lang": "vi"
+  },
+  "P793": {
+    "label": "sự kiện quan trọng",
+    "lang": "vi"
+  },
+  "P7936": {
+    "label": "mô hình kinh doanh",
+    "lang": "vi"
+  },
+  "P7938": {
+    "label": "associated electoral district",
+    "lang": "en"
+  },
+  "P795": {
+    "label": "located on linear feature",
+    "lang": "en"
+  },
+  "P797": {
+    "label": "cơ quan có thẩm quyền",
+    "lang": "vi"
+  },
+  "P800": {
+    "label": "tác phẩm chính",
+    "lang": "vi"
+  },
+  "P802": {
+    "label": "học trò",
+    "lang": "vi"
+  },
+  "P803": {
+    "label": "professorship",
+    "lang": "en"
+  },
+  "P8047": {
+    "label": "quốc gia đăng kiểm",
+    "lang": "vi"
+  },
+  "P807": {
+    "label": "được tách ra khỏi",
+    "lang": "vi"
+  },
+  "P81": {
+    "label": "đường sắt nối liền",
+    "lang": "vi"
+  },
+  "P812": {
+    "label": "chuyên ngành học",
+    "lang": "vi"
+  },
+  "P8138": {
+    "label": "nằm trong phạm vi của khu vực thống kê",
+    "lang": "vi"
+  },
+  "P823": {
+    "label": "diễn giả",
+    "lang": "vi"
+  },
+  "P8289": {
+    "label": "parish church(es)",
+    "lang": "en"
+  },
+  "P831": {
+    "label": "parent club",
+    "lang": "en"
+  },
+  "P8324": {
+    "label": "ân nhân",
+    "lang": "vi"
+  },
+  "P84": {
+    "label": "kiến trúc sư",
+    "lang": "vi"
+  },
+  "P840": {
+    "label": "narrative location",
+    "lang": "en"
+  },
+  "P8413": {
+    "label": "academic appointment",
+    "lang": "en"
+  },
+  "P859": {
+    "label": "nhà tài trợ",
+    "lang": "vi"
+  },
+  "P86": {
+    "label": "người soạn nhạc",
+    "lang": "vi"
+  },
+  "P88": {
+    "label": "người đặt làm",
+    "lang": "vi"
+  },
+  "P8875": {
+    "label": "indexed in bibliographic review",
+    "lang": "en"
+  },
+  "P914": {
+    "label": "đánh giá USK",
+    "lang": "vi"
+  },
+  "P915": {
+    "label": "filming location",
+    "lang": "en"
+  },
+  "P92": {
+    "label": "cơ sở pháp lý",
+    "lang": "vi"
+  },
+  "P930": {
+    "label": "type of electrification",
+    "lang": "en"
+  },
+  "P937": {
+    "label": "nơi công tác",
+    "lang": "vi"
+  },
+  "P945": {
+    "label": "nguyện trung thành",
+    "lang": "vi"
+  },
+  "P9660": {
+    "label": "not found in",
+    "lang": "en"
+  },
+  "P97": {
+    "label": "danh hiệu quý tộc",
+    "lang": "vi"
+  },
+  "P98": {
+    "label": "biên tập viên",
+    "lang": "vi"
+  },
+  "P9866": {
+    "label": "GRAC rating",
+    "lang": "en"
+  }
+}

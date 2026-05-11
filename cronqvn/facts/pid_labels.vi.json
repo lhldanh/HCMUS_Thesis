@@ -1,0 +1,380 @@
+{
+  "P1000": {
+    "label": "ghi nhận được giữ",
+    "lang": "vi",
+    "src_label": "record held",
+    "src_lang": "en"
+  },
+  "P1028": {
+    "label": "Được tặng bởi",
+    "lang": "vi",
+    "src_label": "donated by",
+    "src_lang": "en"
+  },
+  "P12363": {
+    "label": "làm việc cho",
+    "lang": "vi",
+    "src_label": "clerked for",
+    "src_lang": "en"
+  },
+  "P12439": {
+    "label": "Hạng cấp dân sự",
+    "lang": "vi",
+    "src_label": "civil rank",
+    "src_lang": "en"
+  },
+  "P1321": {
+    "label": "Mối liên kết hành chính của một công dân Thụy Sĩ",
+    "lang": "vi",
+    "src_label": "municipal affiliation of a Swiss national",
+    "src_lang": "en"
+  },
+  "P1327": {
+    "label": "Đối tác trong kinh doanh hoặc thể thao",
+    "lang": "vi",
+    "src_label": "partner in business or sport",
+    "src_lang": "en"
+  },
+  "P1347": {
+    "label": "Phân loại thương vong quân sự",
+    "lang": "vi",
+    "src_label": "military casualty classification",
+    "src_lang": "en"
+  },
+  "P1389": {
+    "label": "chứng nhận sản phẩm",
+    "lang": "vi",
+    "src_label": "product certification",
+    "src_lang": "en"
+  },
+  "P1598": {
+    "label": "người hiến thánh",
+    "lang": "vi",
+    "src_label": "consecrator",
+    "src_lang": "en"
+  },
+  "P1640": {
+    "label": "người quản lý",
+    "lang": "vi",
+    "src_label": "curator",
+    "src_lang": "en"
+  },
+  "P1981": {
+    "label": "Đánh giá phim FSK",
+    "lang": "vi",
+    "src_label": "FSK film rating",
+    "src_lang": "en"
+  },
+  "P2175": {
+    "label": "Điều trị bệnh lý",
+    "lang": "vi",
+    "src_label": "medical condition treated",
+    "src_lang": "en"
+  },
+  "P2291": {
+    "label": "được vẽ bản đồ",
+    "lang": "vi",
+    "src_label": "charted in",
+    "src_lang": "en"
+  },
+  "P2416": {
+    "label": "Thể thao được thi đấu",
+    "lang": "vi",
+    "src_label": "sports discipline competed in",
+    "src_lang": "en"
+  },
+  "P2453": {
+    "label": "Ứng cử viên",
+    "lang": "vi",
+    "src_label": "nominee",
+    "src_lang": "en"
+  },
+  "P2500": {
+    "label": "Liên đoàn cấp độ thấp hơn",
+    "lang": "vi",
+    "src_label": "league level below",
+    "src_lang": "en"
+  },
+  "P2567": {
+    "label": "được sửa đổi bởi",
+    "lang": "vi",
+    "src_label": "amended by",
+    "src_lang": "en"
+  },
+  "P2568": {
+    "label": "được bãi bỏ bởi",
+    "lang": "vi",
+    "src_label": "repealed by",
+    "src_lang": "en"
+  },
+  "P2629": {
+    "label": "Đánh giá của BBFC",
+    "lang": "vi",
+    "src_label": "BBFC rating",
+    "src_lang": "en"
+  },
+  "P2652": {
+    "label": "hợp tác với",
+    "lang": "vi",
+    "src_label": "partnership with",
+    "src_lang": "en"
+  },
+  "P2825": {
+    "label": "thông qua",
+    "lang": "vi",
+    "src_label": "via",
+    "src_lang": "en"
+  },
+  "P2848": {
+    "label": "Truy cập Wi-Fi",
+    "lang": "vi",
+    "src_label": "Wi-Fi access",
+    "src_lang": "en"
+  },
+  "P2962": {
+    "label": "Tên người chơi cờ",
+    "lang": "vi",
+    "src_label": "title of chess person",
+    "src_lang": "en"
+  },
+  "P3148": {
+    "label": "Hủy bỏ",
+    "lang": "vi",
+    "src_label": "repeals",
+    "src_lang": "en"
+  },
+  "P3156": {
+    "label": "Phân loại Úc",
+    "lang": "vi",
+    "src_label": "Australian Classification",
+    "src_lang": "en"
+  },
+  "P3300": {
+    "label": "Đạo diễn âm nhạc",
+    "lang": "vi",
+    "src_label": "musical conductor",
+    "src_lang": "en"
+  },
+  "P3301": {
+    "label": "được phát sóng bởi",
+    "lang": "vi",
+    "src_label": "broadcast by",
+    "src_lang": "en"
+  },
+  "P3460": {
+    "label": "Đại tá trưởng",
+    "lang": "vi",
+    "src_label": "colonel-in-chief",
+    "src_lang": "en"
+  },
+  "P3643": {
+    "label": "Tác động môi trường đáng kể",
+    "lang": "vi",
+    "src_label": "significant environmental impact",
+    "src_lang": "en"
+  },
+  "P4100": {
+    "label": "Nhóm nghị viện",
+    "lang": "vi",
+    "src_label": "parliamentary group",
+    "src_lang": "en"
+  },
+  "P4791": {
+    "label": "được chỉ huy bởi",
+    "lang": "vi",
+    "src_label": "commanded by",
+    "src_lang": "en"
+  },
+  "P504": {
+    "label": "Cảng biển",
+    "lang": "vi",
+    "src_label": "shipping port",
+    "src_lang": "en"
+  },
+  "P505": {
+    "label": "Giám đốc điều hành",
+    "lang": "vi",
+    "src_label": "general manager",
+    "src_lang": "en"
+  },
+  "P5052": {
+    "label": "Thành viên Hội đồng giám sát",
+    "lang": "vi",
+    "src_label": "supervisory board member",
+    "src_lang": "en"
+  },
+  "P5096": {
+    "label": "thành viên của đội tàu của",
+    "lang": "vi",
+    "src_label": "member of the crew of",
+    "src_lang": "en"
+  },
+  "P532": {
+    "label": "Cảng đăng ký",
+    "lang": "vi",
+    "src_label": "port of registry",
+    "src_lang": "en"
+  },
+  "P5460": {
+    "label": "quyền trợ cấp",
+    "lang": "vi",
+    "src_label": "grants",
+    "src_lang": "en"
+  },
+  "P5514": {
+    "label": "được công nhận bởi",
+    "lang": "vi",
+    "src_label": "accredited by",
+    "src_lang": "en"
+  },
+  "P598": {
+    "label": "Chỉ huy của (ĐÃ BỎ DÙNG)",
+    "lang": "vi",
+    "src_label": "commander of (DEPRECATED)",
+    "src_lang": "en"
+  },
+  "P608": {
+    "label": "Lịch sử triển lãm",
+    "lang": "vi",
+    "src_label": "exhibition history",
+    "src_lang": "en"
+  },
+  "P6087": {
+    "label": "Huấn luyện viên đội thể thao",
+    "lang": "vi",
+    "src_label": "coach of sports team",
+    "src_lang": "en"
+  },
+  "P6193": {
+    "label": "được phê chuẩn bởi",
+    "lang": "vi",
+    "src_label": "ratified by",
+    "src_lang": "en"
+  },
+  "P634": {
+    "label": "Vị trí trưởng đội",
+    "lang": "vi",
+    "src_label": "team captain",
+    "src_lang": "en"
+  },
+  "P6364": {
+    "label": "Màu chính thức",
+    "lang": "vi",
+    "src_label": "official color",
+    "src_lang": "en"
+  },
+  "P647": {
+    "label": "được soạn thảo bởi",
+    "lang": "vi",
+    "src_label": "drafted by",
+    "src_lang": "en"
+  },
+  "P6658": {
+    "label": "Phân loại RCQ",
+    "lang": "vi",
+    "src_label": "RCQ classification",
+    "src_lang": "en"
+  },
+  "P682": {
+    "label": "quá trình sinh học",
+    "lang": "vi",
+    "src_label": "biological process",
+    "src_lang": "en"
+  },
+  "P6855": {
+    "label": "Dịch vụ khẩn cấp",
+    "lang": "vi",
+    "src_label": "emergency services",
+    "src_lang": "en"
+  },
+  "P7160": {
+    "label": "phương thức đối xử tàn bạo",
+    "lang": "vi",
+    "src_label": "manner of inhumane treatment",
+    "src_lang": "en"
+  },
+  "P7327": {
+    "label": "Phân loại của OFLC",
+    "lang": "vi",
+    "src_label": "OFLC classification",
+    "src_lang": "en"
+  },
+  "P7781": {
+    "label": "được miễn trách nhiệm về",
+    "lang": "vi",
+    "src_label": "exonerated of",
+    "src_lang": "en"
+  },
+  "P7938": {
+    "label": "Khu bầu cử liên quan",
+    "lang": "vi",
+    "src_label": "associated electoral district",
+    "src_lang": "en"
+  },
+  "P795": {
+    "label": "Nằm trên tuyến địa hình",
+    "lang": "vi",
+    "src_label": "located on linear feature",
+    "src_lang": "en"
+  },
+  "P803": {
+    "label": "chức danh giáo sư",
+    "lang": "vi",
+    "src_label": "professorship",
+    "src_lang": "en"
+  },
+  "P8289": {
+    "label": "Nhà thờ giáo xứ",
+    "lang": "vi",
+    "src_label": "parish church(es)",
+    "src_lang": "en"
+  },
+  "P831": {
+    "label": "Câu lạc bộ cha mẹ",
+    "lang": "vi",
+    "src_label": "parent club",
+    "src_lang": "en"
+  },
+  "P840": {
+    "label": "vị trí trong câu chuyện",
+    "lang": "vi",
+    "src_label": "narrative location",
+    "src_lang": "en"
+  },
+  "P8413": {
+    "label": "chức danh học thuật",
+    "lang": "vi",
+    "src_label": "academic appointment",
+    "src_lang": "en"
+  },
+  "P8875": {
+    "label": "Đã được chỉ mục trong bài đánh giá thư mục",
+    "lang": "vi",
+    "src_label": "indexed in bibliographic review",
+    "src_lang": "en"
+  },
+  "P915": {
+    "label": "Địa điểm quay phim",
+    "lang": "vi",
+    "src_label": "filming location",
+    "src_lang": "en"
+  },
+  "P930": {
+    "label": "Loại điện khí hóa",
+    "lang": "vi",
+    "src_label": "type of electrification",
+    "src_lang": "en"
+  },
+  "P9660": {
+    "label": "không tìm thấy trong",
+    "lang": "vi",
+    "src_label": "not found in",
+    "src_lang": "en"
+  },
+  "P9866": {
+    "label": "Đánh giá GRAC",
+    "lang": "vi",
+    "src_label": "GRAC rating",
+    "src_lang": "en"
+  }
+}
