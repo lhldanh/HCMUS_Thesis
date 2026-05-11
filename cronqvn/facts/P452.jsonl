@@ -1,0 +1,5 @@
+{"s_qid": "Q1541079", "s_label": "Komerční banka", "s_lang": "en", "o_qid": "Q57774188", "o_label": "financial sector", "o_lang": "en", "start": 1992, "end": null, "relation": "P452", "r_label": "ngành kinh doanh", "r_lang": "vi"}
+{"s_qid": "Q24282966", "s_label": "MONETA Bank", "s_lang": "en", "o_qid": "Q57774188", "o_label": "financial sector", "o_lang": "en", "start": 1998, "end": null, "relation": "P452", "r_label": "ngành kinh doanh", "r_lang": "vi"}
+{"s_qid": "Q314543", "s_label": "Maschinenfabrik Esslingen", "s_lang": "en", "o_qid": "Q187939", "o_label": "sản xuất chế tạo", "o_lang": "vi", "start": 1846, "end": 1965, "relation": "P452", "r_label": "ngành kinh doanh", "r_lang": "vi"}
+{"s_qid": "Q341100", "s_label": "Česká spořitelna", "s_lang": "en", "o_qid": "Q57774188", "o_label": "financial sector", "o_lang": "en", "start": 1991, "end": null, "relation": "P452", "r_label": "ngành kinh doanh", "r_lang": "vi"}
+{"s_qid": "Q57314482", "s_label": "United Amusement Corporation Limited", "s_lang": "en", "o_qid": "Q385378", "o_label": "xây dựng", "o_lang": "vi", "start": 1912, "end": null, "relation": "P452", "r_label": "ngành kinh doanh", "r_lang": "vi"}

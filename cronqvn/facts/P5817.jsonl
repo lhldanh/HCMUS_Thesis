@@ -1,0 +1,4 @@
+{"s_qid": "Q3095500", "s_label": "Canora", "s_lang": "en", "o_qid": "Q55654238", "o_label": "in use", "o_lang": "en", "start": 2025, "end": null, "relation": "P5817", "r_label": "trạng thái công trình", "r_lang": "vi"}
+{"s_qid": "Q371803", "s_label": "Ipiranga Museum", "s_lang": "en", "o_qid": "Q55653430", "o_label": "temporarily closed", "o_lang": "en", "start": 2013, "end": 2022, "relation": "P5817", "r_label": "trạng thái công trình", "r_lang": "vi"}
+{"s_qid": "Q371803", "s_label": "Ipiranga Museum", "s_lang": "en", "o_qid": "Q55570821", "o_label": "open to the public", "o_lang": "en", "start": 2022, "end": null, "relation": "P5817", "r_label": "trạng thái công trình", "r_lang": "vi"}
+{"s_qid": "Q3095515", "s_label": "Grand-Moulin", "s_lang": "en", "o_qid": "Q55654238", "o_label": "in use", "o_lang": "en", "start": 2025, "end": null, "relation": "P5817", "r_label": "trạng thái công trình", "r_lang": "vi"}

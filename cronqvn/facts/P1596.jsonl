@@ -1,0 +1,5 @@
+{"s_qid": "Q329", "s_label": "Nicolas Sarkozy", "s_lang": "vi", "o_qid": "Q11698769", "o_label": "custodial sentence", "o_lang": "en", "start": 2021, "end": 2021, "relation": "P1596", "r_label": "hình phạt", "r_lang": "vi"}
+{"s_qid": "Q1459658", "s_label": "Viktor Fedorovych Yanukovych", "s_lang": "vi", "o_qid": "Q853735", "o_label": "incarceration", "o_lang": "en", "start": 2019, "end": null, "relation": "P1596", "r_label": "hình phạt", "r_lang": "vi"}
+{"s_qid": "Q75853", "s_label": "Jorge Rafael Videla", "s_lang": "vi", "o_qid": "Q68676", "o_label": "chung thân", "o_lang": "vi", "start": 2010, "end": 2010, "relation": "P1596", "r_label": "hình phạt", "r_lang": "vi"}
+{"s_qid": "Q44496", "s_label": "Andrei Chikatilo", "s_lang": "vi", "o_qid": "Q8454", "o_label": "tử hình", "o_lang": "vi", "start": 1992, "end": 1992, "relation": "P1596", "r_label": "hình phạt", "r_lang": "vi"}
+{"s_qid": "Q44496", "s_label": "Andrei Chikatilo", "s_lang": "vi", "o_qid": "Q853735", "o_label": "incarceration", "o_lang": "en", "start": 1984, "end": 1984, "relation": "P1596", "r_label": "hình phạt", "r_lang": "vi"}

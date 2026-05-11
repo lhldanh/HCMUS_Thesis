@@ -1,0 +1,5 @@
+{"s_qid": "Q113548246", "s_label": "Duke Energy Holiday Trains", "s_lang": "en", "o_qid": "Q805757", "o_label": "Baltimore and Ohio Railroad", "o_lang": "en", "start": 1936, "end": 1946, "relation": "P664", "r_label": "tổ chức bởi", "r_lang": "vi"}
+{"s_qid": "Q845751", "s_label": "Hoa hậu Châu Âu", "s_lang": "vi", "o_qid": "Q1311350", "o_label": "L'Illustration", "o_lang": "en", "start": 1929, "end": 1938, "relation": "P664", "r_label": "tổ chức bởi", "r_lang": "vi"}
+{"s_qid": "Q908793", "s_label": "Concours général", "s_lang": "en", "o_qid": "Q2845896", "o_label": "University of Paris", "o_lang": "en", "start": 1747, "end": 1793, "relation": "P664", "r_label": "tổ chức bởi", "r_lang": "vi"}
+{"s_qid": "Q911005", "s_label": "Prix Sorcières", "s_lang": "en", "o_qid": "Q2867494", "o_label": "Association of French Librarians", "o_lang": "en", "start": 1989, "end": null, "relation": "P664", "r_label": "tổ chức bởi", "r_lang": "vi"}
+{"s_qid": "Q25266570", "s_label": "GLAM on Tour", "s_lang": "en", "o_qid": "Q8288", "o_label": "Wikimedia Deutschland", "o_lang": "en", "start": 2013, "end": null, "relation": "P664", "r_label": "tổ chức bởi", "r_lang": "vi"}

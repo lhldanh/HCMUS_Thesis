@@ -1,0 +1,4 @@
+{"s_qid": "Q186304", "s_label": "Kim Kardashian", "s_lang": "vi", "o_qid": "Q365144", "o_label": "Caitlyn Jenner", "o_lang": "vi", "start": 1991, "end": 2015, "relation": "P3448", "r_label": "cha hoặc mẹ nuôi", "r_lang": "vi"}
+{"s_qid": "Q152316", "s_label": "Hoàng tử Harry xứ Wales", "s_lang": "vi", "o_qid": "Q152239", "o_label": "Camilla, Vương hậu Anh", "o_lang": "vi", "start": 2005, "end": null, "relation": "P3448", "r_label": "cha hoặc mẹ nuôi", "r_lang": "vi"}
+{"s_qid": "Q36812", "s_label": "William, Thân vương xứ Wales", "s_lang": "vi", "o_qid": "Q152239", "o_label": "Camilla, Vương hậu Anh", "o_lang": "vi", "start": 2005, "end": null, "relation": "P3448", "r_label": "cha hoặc mẹ nuôi", "r_lang": "vi"}
+{"s_qid": "Q231270", "s_label": "Khloé Kardashian", "s_lang": "vi", "o_qid": "Q365144", "o_label": "Caitlyn Jenner", "o_lang": "vi", "start": 1991, "end": 2015, "relation": "P3448", "r_label": "cha hoặc mẹ nuôi", "r_lang": "vi"}
