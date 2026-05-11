@@ -1,0 +1,177 @@
+{"s_qid": "Q873", "s_label": "Meryl Streep", "o_qid": "Q779", "o_label": "Connecticut", "start": 1985, "end": 1990, "relation": "P551", "r_label": "nơi cư trú"}
+{"s_qid": "Q873", "s_label": "Meryl Streep", "o_qid": "Q779", "o_label": "Connecticut", "start": 1994, "end": null, "relation": "P551", "r_label": "nơi cư trú"}
+{"s_qid": "Q2567", "s_label": "Richard von Weizsäcker", "o_qid": "Q78", "o_label": "Basel", "start": 1920, "end": 1924, "relation": "P551", "r_label": "nơi cư trú"}
+{"s_qid": "Q2567", "s_label": "Richard von Weizsäcker", "o_qid": "Q1748", "o_label": "Copenhagen", "start": 1924, "end": 1926, "relation": "P551", "r_label": "nơi cư trú"}
+{"s_qid": "Q2567", "s_label": "Richard von Weizsäcker", "o_qid": "Q585", "o_label": "Oslo", "start": 1931, "end": 1933, "relation": "P551", "r_label": "nơi cư trú"}
+{"s_qid": "Q2567", "s_label": "Richard von Weizsäcker", "o_qid": "Q70", "o_label": "Bern", "start": 1933, "end": 1936, "relation": "P551", "r_label": "nơi cư trú"}
+{"s_qid": "Q2567", "s_label": "Richard von Weizsäcker", "o_qid": "Q64", "o_label": "Berlin", "start": 1936, "end": null, "relation": "P551", "r_label": "nơi cư trú"}
+{"s_qid": "Q116861", "s_label": "Fran Walsh", "o_qid": "Q23661", "o_label": "Wellington", "start": 2019, "end": 2019, "relation": "P551", "r_label": "nơi cư trú"}
+{"s_qid": "Q171091", "s_label": "Philip K. Dick", "o_qid": "Q1297", "o_label": "Chicago", "start": 1928, "end": 1929, "relation": "P551", "r_label": "nơi cư trú"}
+{"s_qid": "Q171091", "s_label": "Philip K. Dick", "o_qid": "Q484678", "o_label": "Berkeley", "start": 1931, "end": null, "relation": "P551", "r_label": "nơi cư trú"}
+{"s_qid": "Q171091", "s_label": "Philip K. Dick", "o_qid": "Q17042", "o_label": "Oakland", "start": 1964, "end": null, "relation": "P551", "r_label": "nơi cư trú"}
+{"s_qid": "Q181659", "s_label": "Ursula K. Le Guin", "o_qid": "Q6106", "o_label": "Portland", "start": 1958, "end": 2018, "relation": "P551", "r_label": "nơi cư trú"}
+{"s_qid": "Q19005837", "s_label": "Mikolai Stroinski", "o_qid": "Q65", "o_label": "Los Angeles", "start": 2004, "end": null, "relation": "P551", "r_label": "nơi cư trú"}
+{"s_qid": "Q6294", "s_label": "Hillary Clinton", "o_qid": "Q1297", "o_label": "Chicago", "start": 1947, "end": 1950, "relation": "P551", "r_label": "nơi cư trú"}
+{"s_qid": "Q6294", "s_label": "Hillary Clinton", "o_qid": "Q17042", "o_label": "Oakland", "start": 1971, "end": 1971, "relation": "P551", "r_label": "nơi cư trú"}
+{"s_qid": "Q6294", "s_label": "Hillary Clinton", "o_qid": "Q49111", "o_label": "Cambridge", "start": 1973, "end": 1973, "relation": "P551", "r_label": "nơi cư trú"}
+{"s_qid": "Q6294", "s_label": "Hillary Clinton", "o_qid": "Q61", "o_label": "Washington, D.C.", "start": 1974, "end": 1974, "relation": "P551", "r_label": "nơi cư trú"}
+{"s_qid": "Q6294", "s_label": "Hillary Clinton", "o_qid": "Q33405", "o_label": "Little Rock", "start": 1976, "end": null, "relation": "P551", "r_label": "nơi cư trú"}
+{"s_qid": "Q217557", "s_label": "Joyce Carol Oates", "o_qid": "Q12439", "o_label": "Detroit", "start": 1962, "end": null, "relation": "P551", "r_label": "nơi cư trú"}
+{"s_qid": "Q1053255", "s_label": "Lamberto Cesari", "o_qid": "Q30", "o_label": "Hoa Kỳ", "start": 1948, "end": 1990, "relation": "P551", "r_label": "nơi cư trú"}
+{"s_qid": "Q320", "s_label": "Michelle Bachelet", "o_qid": "Q2079", "o_label": "Leipzig", "start": 1978, "end": 1978, "relation": "P551", "r_label": "nơi cư trú"}
+{"s_qid": "Q320", "s_label": "Michelle Bachelet", "o_qid": "Q1711", "o_label": "Potsdam", "start": 1975, "end": 1978, "relation": "P551", "r_label": "nơi cư trú"}
+{"s_qid": "Q320", "s_label": "Michelle Bachelet", "o_qid": "Q1711", "o_label": "Potsdam", "start": 1978, "end": null, "relation": "P551", "r_label": "nơi cư trú"}
+{"s_qid": "Q615", "s_label": "Lionel Messi", "o_qid": "Q52535", "o_label": "Rosario", "start": 1987, "end": 2000, "relation": "P551", "r_label": "nơi cư trú"}
+{"s_qid": "Q615", "s_label": "Lionel Messi", "o_qid": "Q1492", "o_label": "Barcelona", "start": 2000, "end": 2021, "relation": "P551", "r_label": "nơi cư trú"}
+{"s_qid": "Q615", "s_label": "Lionel Messi", "o_qid": "Q90", "o_label": "Paris", "start": 2021, "end": 2023, "relation": "P551", "r_label": "nơi cư trú"}
+{"s_qid": "Q615", "s_label": "Lionel Messi", "o_qid": "Q8652", "o_label": "Miami", "start": 2023, "end": null, "relation": "P551", "r_label": "nơi cư trú"}
+{"s_qid": "Q1394", "s_label": "Vladimir Ilyich Lenin", "o_qid": "Q84", "o_label": "Luân Đôn", "start": 1902, "end": 1903, "relation": "P551", "r_label": "nơi cư trú"}
+{"s_qid": "Q8753", "s_label": "Enrico Fermi", "o_qid": "Q30", "o_label": "Hoa Kỳ", "start": 1939, "end": 1954, "relation": "P551", "r_label": "nơi cư trú"}
+{"s_qid": "Q19848", "s_label": "Lady Gaga", "o_qid": "Q65", "o_label": "Los Angeles", "start": 2008, "end": null, "relation": "P551", "r_label": "nơi cư trú"}
+{"s_qid": "Q47087", "s_label": "Arthur C. Clarke", "o_qid": "Q854", "o_label": "Sri Lanka", "start": 1956, "end": 2009, "relation": "P551", "r_label": "nơi cư trú"}
+{"s_qid": "Q78492", "s_label": "Tomáš Garrigue Masaryk", "o_qid": "Q14960", "o_label": "Brno", "start": 1865, "end": 1869, "relation": "P551", "r_label": "nơi cư trú"}
+{"s_qid": "Q78492", "s_label": "Tomáš Garrigue Masaryk", "o_qid": "Q1741", "o_label": "Viên", "start": 1869, "end": 1876, "relation": "P551", "r_label": "nơi cư trú"}
+{"s_qid": "Q78492", "s_label": "Tomáš Garrigue Masaryk", "o_qid": "Q2079", "o_label": "Leipzig", "start": 1876, "end": 1877, "relation": "P551", "r_label": "nơi cư trú"}
+{"s_qid": "Q78492", "s_label": "Tomáš Garrigue Masaryk", "o_qid": "Q1741", "o_label": "Viên", "start": 1878, "end": 1882, "relation": "P551", "r_label": "nơi cư trú"}
+{"s_qid": "Q78492", "s_label": "Tomáš Garrigue Masaryk", "o_qid": "Q1085", "o_label": "Praha", "start": 1882, "end": null, "relation": "P551", "r_label": "nơi cư trú"}
+{"s_qid": "Q78492", "s_label": "Tomáš Garrigue Masaryk", "o_qid": "Q84", "o_label": "Luân Đôn", "start": 1915, "end": 1917, "relation": "P551", "r_label": "nơi cư trú"}
+{"s_qid": "Q152316", "s_label": "Hoàng tử Harry xứ Wales", "o_qid": "Q172", "o_label": "Toronto", "start": 2020, "end": 2020, "relation": "P551", "r_label": "nơi cư trú"}
+{"s_qid": "Q183492", "s_label": "Margaret Atwood", "o_qid": "Q172", "o_label": "Toronto", "start": 1980, "end": null, "relation": "P551", "r_label": "nơi cư trú"}
+{"s_qid": "Q132732682", "s_label": "L.H. Schimmelpenninck van der Oye", "o_qid": "Q2312054", "o_label": "Duivenvoorde Castle", "start": null, "end": 1965, "relation": "P551", "r_label": "nơi cư trú"}
+{"s_qid": "Q567", "s_label": "Angela Merkel", "o_qid": "Q1055", "o_label": "Hamburg", "start": 1954, "end": 1954, "relation": "P551", "r_label": "nơi cư trú"}
+{"s_qid": "Q567", "s_label": "Angela Merkel", "o_qid": "Q2079", "o_label": "Leipzig", "start": 1973, "end": 1978, "relation": "P551", "r_label": "nơi cư trú"}
+{"s_qid": "Q7200", "s_label": "Aleksandr Sergeyevich Pushkin", "o_qid": "Q19566", "o_label": "Simferopol", "start": 1820, "end": 1820, "relation": "P551", "r_label": "nơi cư trú"}
+{"s_qid": "Q7200", "s_label": "Aleksandr Sergeyevich Pushkin", "o_qid": "Q21197", "o_label": "Chișinău", "start": 1820, "end": 1823, "relation": "P551", "r_label": "nơi cư trú"}
+{"s_qid": "Q7200", "s_label": "Aleksandr Sergeyevich Pushkin", "o_qid": "Q1874", "o_label": "Odessa", "start": 1823, "end": 1824, "relation": "P551", "r_label": "nơi cư trú"}
+{"s_qid": "Q7200", "s_label": "Aleksandr Sergeyevich Pushkin", "o_qid": "Q649", "o_label": "Moskva", "start": null, "end": 1829, "relation": "P551", "r_label": "nơi cư trú"}
+{"s_qid": "Q7200", "s_label": "Aleksandr Sergeyevich Pushkin", "o_qid": "Q649", "o_label": "Moskva", "start": 1833, "end": 1833, "relation": "P551", "r_label": "nơi cư trú"}
+{"s_qid": "Q7200", "s_label": "Aleksandr Sergeyevich Pushkin", "o_qid": "Q891", "o_label": "Nizhny Novgorod", "start": 1833, "end": 1833, "relation": "P551", "r_label": "nơi cư trú"}
+{"s_qid": "Q7200", "s_label": "Aleksandr Sergeyevich Pushkin", "o_qid": "Q900", "o_label": "Kazan", "start": null, "end": 1833, "relation": "P551", "r_label": "nơi cư trú"}
+{"s_qid": "Q7200", "s_label": "Aleksandr Sergeyevich Pushkin", "o_qid": "Q656", "o_label": "Sankt-Peterburg", "start": 1836, "end": 1836, "relation": "P551", "r_label": "nơi cư trú"}
+{"s_qid": "Q9061", "s_label": "Karl Marx", "o_qid": "Q84", "o_label": "Luân Đôn", "start": 1849, "end": 1883, "relation": "P551", "r_label": "nơi cư trú"}
+{"s_qid": "Q9061", "s_label": "Karl Marx", "o_qid": "Q64", "o_label": "Berlin", "start": 1837, "end": 1837, "relation": "P551", "r_label": "nơi cư trú"}
+{"s_qid": "Q9061", "s_label": "Karl Marx", "o_qid": "Q90", "o_label": "Paris", "start": 1843, "end": null, "relation": "P551", "r_label": "nơi cư trú"}
+{"s_qid": "Q9061", "s_label": "Karl Marx", "o_qid": "Q64", "o_label": "Berlin", "start": 1836, "end": 1836, "relation": "P551", "r_label": "nơi cư trú"}
+{"s_qid": "Q9061", "s_label": "Karl Marx", "o_qid": "Q64", "o_label": "Berlin", "start": 1837, "end": null, "relation": "P551", "r_label": "nơi cư trú"}
+{"s_qid": "Q48990", "s_label": "Nikolay Nikolayevich Semyonov", "o_qid": "Q656", "o_label": "Sankt-Peterburg", "start": 1920, "end": null, "relation": "P551", "r_label": "nơi cư trú"}
+{"s_qid": "Q188987", "s_label": "William Gibson", "o_qid": "Q24639", "o_label": "Vancouver", "start": 1972, "end": null, "relation": "P551", "r_label": "nơi cư trú"}
+{"s_qid": "Q336977", "s_label": "Guido Gezelle", "o_qid": "Q12994", "o_label": "Brugge", "start": 1830, "end": 1854, "relation": "P551", "r_label": "nơi cư trú"}
+{"s_qid": "Q336977", "s_label": "Guido Gezelle", "o_qid": "Q211037", "o_label": "Roeselare", "start": 1854, "end": 1860, "relation": "P551", "r_label": "nơi cư trú"}
+{"s_qid": "Q336977", "s_label": "Guido Gezelle", "o_qid": "Q12994", "o_label": "Brugge", "start": 1860, "end": 1861, "relation": "P551", "r_label": "nơi cư trú"}
+{"s_qid": "Q336977", "s_label": "Guido Gezelle", "o_qid": "Q12994", "o_label": "Brugge", "start": 1861, "end": null, "relation": "P551", "r_label": "nơi cư trú"}
+{"s_qid": "Q336977", "s_label": "Guido Gezelle", "o_qid": "Q12994", "o_label": "Brugge", "start": null, "end": 1866, "relation": "P551", "r_label": "nơi cư trú"}
+{"s_qid": "Q336977", "s_label": "Guido Gezelle", "o_qid": "Q12994", "o_label": "Brugge", "start": 1866, "end": 1872, "relation": "P551", "r_label": "nơi cư trú"}
+{"s_qid": "Q336977", "s_label": "Guido Gezelle", "o_qid": "Q12994", "o_label": "Brugge", "start": 1872, "end": 1872, "relation": "P551", "r_label": "nơi cư trú"}
+{"s_qid": "Q336977", "s_label": "Guido Gezelle", "o_qid": "Q12995", "o_label": "Courtrai", "start": 1872, "end": 1878, "relation": "P551", "r_label": "nơi cư trú"}
+{"s_qid": "Q336977", "s_label": "Guido Gezelle", "o_qid": "Q12995", "o_label": "Courtrai", "start": 1878, "end": 1879, "relation": "P551", "r_label": "nơi cư trú"}
+{"s_qid": "Q336977", "s_label": "Guido Gezelle", "o_qid": "Q12995", "o_label": "Courtrai", "start": 1879, "end": 1880, "relation": "P551", "r_label": "nơi cư trú"}
+{"s_qid": "Q336977", "s_label": "Guido Gezelle", "o_qid": "Q12995", "o_label": "Courtrai", "start": 1880, "end": 1894, "relation": "P551", "r_label": "nơi cư trú"}
+{"s_qid": "Q336977", "s_label": "Guido Gezelle", "o_qid": "Q12995", "o_label": "Courtrai", "start": 1894, "end": 1899, "relation": "P551", "r_label": "nơi cư trú"}
+{"s_qid": "Q336977", "s_label": "Guido Gezelle", "o_qid": "Q12994", "o_label": "Brugge", "start": 1899, "end": 1899, "relation": "P551", "r_label": "nơi cư trú"}
+{"s_qid": "Q336977", "s_label": "Guido Gezelle", "o_qid": "Q12994", "o_label": "Brugge", "start": 1899, "end": 1899, "relation": "P551", "r_label": "nơi cư trú"}
+{"s_qid": "Q27526478", "s_label": "Vincent Keymer", "o_qid": "Q1741", "o_label": "Viên", "start": 2025, "end": null, "relation": "P551", "r_label": "nơi cư trú"}
+{"s_qid": "Q127291270", "s_label": "James Vigeveno", "o_qid": "Q64", "o_label": "Berlin", "start": 1935, "end": 1935, "relation": "P551", "r_label": "nơi cư trú"}
+{"s_qid": "Q127291270", "s_label": "James Vigeveno", "o_qid": "Q65", "o_label": "Los Angeles", "start": 1940, "end": 1940, "relation": "P551", "r_label": "nơi cư trú"}
+{"s_qid": "Q132772772", "s_label": "Willem Anne Assuerus Jacob Schimmelpenninck van der Oye", "o_qid": "Q2312054", "o_label": "Duivenvoorde Castle", "start": null, "end": 1957, "relation": "P551", "r_label": "nơi cư trú"}
+{"s_qid": "Q937", "s_label": "Albert Einstein", "o_qid": "Q942842", "o_label": "Smíchov", "start": 1911, "end": null, "relation": "P551", "r_label": "nơi cư trú"}
+{"s_qid": "Q16597", "s_label": "Giang Trạch Dân", "o_qid": "Q8686", "o_label": "Thượng Hải", "start": 1946, "end": 1954, "relation": "P551", "r_label": "nơi cư trú"}
+{"s_qid": "Q16597", "s_label": "Giang Trạch Dân", "o_qid": "Q92161", "o_label": "Trường Xuân", "start": 1954, "end": 1955, "relation": "P551", "r_label": "nơi cư trú"}
+{"s_qid": "Q16597", "s_label": "Giang Trạch Dân", "o_qid": "Q8686", "o_label": "Thượng Hải", "start": 1962, "end": 1965, "relation": "P551", "r_label": "nơi cư trú"}
+{"s_qid": "Q16597", "s_label": "Giang Trạch Dân", "o_qid": "Q11746", "o_label": "Vũ Hán", "start": 1965, "end": 1970, "relation": "P551", "r_label": "nơi cư trú"}
+{"s_qid": "Q16597", "s_label": "Giang Trạch Dân", "o_qid": "Q956", "o_label": "Bắc Kinh", "start": 1970, "end": 1976, "relation": "P551", "r_label": "nơi cư trú"}
+{"s_qid": "Q16597", "s_label": "Giang Trạch Dân", "o_qid": "Q8686", "o_label": "Thượng Hải", "start": 1976, "end": 1977, "relation": "P551", "r_label": "nơi cư trú"}
+{"s_qid": "Q16597", "s_label": "Giang Trạch Dân", "o_qid": "Q956", "o_label": "Bắc Kinh", "start": 1977, "end": 1985, "relation": "P551", "r_label": "nơi cư trú"}
+{"s_qid": "Q16597", "s_label": "Giang Trạch Dân", "o_qid": "Q8686", "o_label": "Thượng Hải", "start": 1985, "end": 1989, "relation": "P551", "r_label": "nơi cư trú"}
+{"s_qid": "Q16597", "s_label": "Giang Trạch Dân", "o_qid": "Q8686", "o_label": "Thượng Hải", "start": 2003, "end": 2022, "relation": "P551", "r_label": "nơi cư trú"}
+{"s_qid": "Q16597", "s_label": "Giang Trạch Dân", "o_qid": "Q649", "o_label": "Moskva", "start": 1955, "end": 1956, "relation": "P551", "r_label": "nơi cư trú"}
+{"s_qid": "Q16597", "s_label": "Giang Trạch Dân", "o_qid": "Q92161", "o_label": "Trường Xuân", "start": 1956, "end": 1962, "relation": "P551", "r_label": "nơi cư trú"}
+{"s_qid": "Q110436", "s_label": "Cory Doctorow", "o_qid": "Q65", "o_label": "Los Angeles", "start": 2015, "end": null, "relation": "P551", "r_label": "nơi cư trú"}
+{"s_qid": "Q295981", "s_label": "Terence Tao", "o_qid": "Q30", "o_label": "Hoa Kỳ", "start": 1992, "end": null, "relation": "P551", "r_label": "nơi cư trú"}
+{"s_qid": "Q312499", "s_label": "Nicholas Miklouho-Maclay", "o_qid": "Q3224", "o_label": "New South Wales", "start": 1878, "end": null, "relation": "P551", "r_label": "nơi cư trú"}
+{"s_qid": "Q312499", "s_label": "Nicholas Miklouho-Maclay", "o_qid": "Q656", "o_label": "Sankt-Peterburg", "start": 1855, "end": 1864, "relation": "P551", "r_label": "nơi cư trú"}
+{"s_qid": "Q312499", "s_label": "Nicholas Miklouho-Maclay", "o_qid": "Q2966", "o_label": "Heidelberg", "start": 1864, "end": 1865, "relation": "P551", "r_label": "nơi cư trú"}
+{"s_qid": "Q312499", "s_label": "Nicholas Miklouho-Maclay", "o_qid": "Q3150", "o_label": "Jena", "start": 1865, "end": 1866, "relation": "P551", "r_label": "nơi cư trú"}
+{"s_qid": "Q312499", "s_label": "Nicholas Miklouho-Maclay", "o_qid": "Q1479", "o_label": "Bordeaux", "start": 1866, "end": null, "relation": "P551", "r_label": "nơi cư trú"}
+{"s_qid": "Q312499", "s_label": "Nicholas Miklouho-Maclay", "o_qid": "Q597", "o_label": "Lisboa", "start": 1866, "end": 1866, "relation": "P551", "r_label": "nơi cư trú"}
+{"s_qid": "Q312499", "s_label": "Nicholas Miklouho-Maclay", "o_qid": "Q90", "o_label": "Paris", "start": 1867, "end": 1867, "relation": "P551", "r_label": "nơi cư trú"}
+{"s_qid": "Q312499", "s_label": "Nicholas Miklouho-Maclay", "o_qid": "Q3150", "o_label": "Jena", "start": 1867, "end": 1867, "relation": "P551", "r_label": "nơi cư trú"}
+{"s_qid": "Q312499", "s_label": "Nicholas Miklouho-Maclay", "o_qid": "Q2807", "o_label": "Madrid", "start": 1867, "end": 1867, "relation": "P551", "r_label": "nơi cư trú"}
+{"s_qid": "Q312499", "s_label": "Nicholas Miklouho-Maclay", "o_qid": "Q3150", "o_label": "Jena", "start": 1867, "end": null, "relation": "P551", "r_label": "nơi cư trú"}
+{"s_qid": "Q312499", "s_label": "Nicholas Miklouho-Maclay", "o_qid": "Q35", "o_label": "Đan Mạch", "start": 1867, "end": 1867, "relation": "P551", "r_label": "nơi cư trú"}
+{"s_qid": "Q312499", "s_label": "Nicholas Miklouho-Maclay", "o_qid": "Q20", "o_label": "Na Uy", "start": 1867, "end": 1867, "relation": "P551", "r_label": "nơi cư trú"}
+{"s_qid": "Q312499", "s_label": "Nicholas Miklouho-Maclay", "o_qid": "Q34", "o_label": "Thụy Điển", "start": 1867, "end": 1867, "relation": "P551", "r_label": "nơi cư trú"}
+{"s_qid": "Q312499", "s_label": "Nicholas Miklouho-Maclay", "o_qid": "Q38", "o_label": "Ý", "start": 1868, "end": 1868, "relation": "P551", "r_label": "nơi cư trú"}
+{"s_qid": "Q312499", "s_label": "Nicholas Miklouho-Maclay", "o_qid": "Q85", "o_label": "Cairo", "start": 1869, "end": 1869, "relation": "P551", "r_label": "nơi cư trú"}
+{"s_qid": "Q312499", "s_label": "Nicholas Miklouho-Maclay", "o_qid": "Q1874", "o_label": "Odessa", "start": 1869, "end": null, "relation": "P551", "r_label": "nơi cư trú"}
+{"s_qid": "Q312499", "s_label": "Nicholas Miklouho-Maclay", "o_qid": "Q649", "o_label": "Moskva", "start": 1869, "end": 1969, "relation": "P551", "r_label": "nơi cư trú"}
+{"s_qid": "Q312499", "s_label": "Nicholas Miklouho-Maclay", "o_qid": "Q656", "o_label": "Sankt-Peterburg", "start": 1869, "end": 1869, "relation": "P551", "r_label": "nơi cư trú"}
+{"s_qid": "Q312499", "s_label": "Nicholas Miklouho-Maclay", "o_qid": "Q3150", "o_label": "Jena", "start": 1869, "end": 1870, "relation": "P551", "r_label": "nơi cư trú"}
+{"s_qid": "Q312499", "s_label": "Nicholas Miklouho-Maclay", "o_qid": "Q43631", "o_label": "Leiden", "start": 1870, "end": 1870, "relation": "P551", "r_label": "nơi cư trú"}
+{"s_qid": "Q312499", "s_label": "Nicholas Miklouho-Maclay", "o_qid": "Q84", "o_label": "Luân Đôn", "start": 1870, "end": 1870, "relation": "P551", "r_label": "nơi cư trú"}
+{"s_qid": "Q312499", "s_label": "Nicholas Miklouho-Maclay", "o_qid": "Q64", "o_label": "Berlin", "start": 1870, "end": 1870, "relation": "P551", "r_label": "nơi cư trú"}
+{"s_qid": "Q312499", "s_label": "Nicholas Miklouho-Maclay", "o_qid": "Q2079", "o_label": "Leipzig", "start": 1870, "end": 1870, "relation": "P551", "r_label": "nơi cư trú"}
+{"s_qid": "Q312499", "s_label": "Nicholas Miklouho-Maclay", "o_qid": "Q393", "o_label": "Szczecin", "start": null, "end": 1870, "relation": "P551", "r_label": "nơi cư trú"}
+{"s_qid": "Q312499", "s_label": "Nicholas Miklouho-Maclay", "o_qid": "Q656", "o_label": "Sankt-Peterburg", "start": 1870, "end": 1870, "relation": "P551", "r_label": "nơi cư trú"}
+{"s_qid": "Q312499", "s_label": "Nicholas Miklouho-Maclay", "o_qid": "Q1748", "o_label": "Copenhagen", "start": 1870, "end": 1870, "relation": "P551", "r_label": "nơi cư trú"}
+{"s_qid": "Q312499", "s_label": "Nicholas Miklouho-Maclay", "o_qid": "Q1055", "o_label": "Hamburg", "start": 1870, "end": 1870, "relation": "P551", "r_label": "nơi cư trú"}
+{"s_qid": "Q312499", "s_label": "Nicholas Miklouho-Maclay", "o_qid": "Q64", "o_label": "Berlin", "start": 1870, "end": 1870, "relation": "P551", "r_label": "nơi cư trú"}
+{"s_qid": "Q312499", "s_label": "Nicholas Miklouho-Maclay", "o_qid": "Q36600", "o_label": "Den Haag", "start": 1870, "end": 1870, "relation": "P551", "r_label": "nơi cư trú"}
+{"s_qid": "Q312499", "s_label": "Nicholas Miklouho-Maclay", "o_qid": "Q3150", "o_label": "Jena", "start": 1870, "end": 1870, "relation": "P551", "r_label": "nơi cư trú"}
+{"s_qid": "Q312499", "s_label": "Nicholas Miklouho-Maclay", "o_qid": "Q12996", "o_label": "Ostend", "start": 1870, "end": 1870, "relation": "P551", "r_label": "nơi cư trú"}
+{"s_qid": "Q312499", "s_label": "Nicholas Miklouho-Maclay", "o_qid": "Q1011", "o_label": "Cabo Verde", "start": 1871, "end": 1871, "relation": "P551", "r_label": "nơi cư trú"}
+{"s_qid": "Q312499", "s_label": "Nicholas Miklouho-Maclay", "o_qid": "Q8678", "o_label": "Rio de Janeiro", "start": 1871, "end": null, "relation": "P551", "r_label": "nơi cư trú"}
+{"s_qid": "Q312499", "s_label": "Nicholas Miklouho-Maclay", "o_qid": "Q1461", "o_label": "Manila", "start": 1873, "end": 1873, "relation": "P551", "r_label": "nơi cư trú"}
+{"s_qid": "Q312499", "s_label": "Nicholas Miklouho-Maclay", "o_qid": "Q8646", "o_label": "Hồng Kông", "start": 1873, "end": 1873, "relation": "P551", "r_label": "nơi cư trú"}
+{"s_qid": "Q312499", "s_label": "Nicholas Miklouho-Maclay", "o_qid": "Q334", "o_label": "Singapore", "start": 1874, "end": 1875, "relation": "P551", "r_label": "nơi cư trú"}
+{"s_qid": "Q312499", "s_label": "Nicholas Miklouho-Maclay", "o_qid": "Q1861", "o_label": "Băng Cốc", "start": 1875, "end": 1875, "relation": "P551", "r_label": "nơi cư trú"}
+{"s_qid": "Q312499", "s_label": "Nicholas Miklouho-Maclay", "o_qid": "Q334", "o_label": "Singapore", "start": 1877, "end": null, "relation": "P551", "r_label": "nơi cư trú"}
+{"s_qid": "Q312499", "s_label": "Nicholas Miklouho-Maclay", "o_qid": "Q3130", "o_label": "Sydney", "start": 1878, "end": 1879, "relation": "P551", "r_label": "nơi cư trú"}
+{"s_qid": "Q312499", "s_label": "Nicholas Miklouho-Maclay", "o_qid": "Q3130", "o_label": "Sydney", "start": 1881, "end": null, "relation": "P551", "r_label": "nơi cư trú"}
+{"s_qid": "Q312499", "s_label": "Nicholas Miklouho-Maclay", "o_qid": "Q3141", "o_label": "Melbourne", "start": 1881, "end": 1882, "relation": "P551", "r_label": "nơi cư trú"}
+{"s_qid": "Q312499", "s_label": "Nicholas Miklouho-Maclay", "o_qid": "Q334", "o_label": "Singapore", "start": 1882, "end": 1882, "relation": "P551", "r_label": "nơi cư trú"}
+{"s_qid": "Q312499", "s_label": "Nicholas Miklouho-Maclay", "o_qid": "Q1449", "o_label": "Genova", "start": 1882, "end": 1882, "relation": "P551", "r_label": "nơi cư trú"}
+{"s_qid": "Q312499", "s_label": "Nicholas Miklouho-Maclay", "o_qid": "Q656", "o_label": "Sankt-Peterburg", "start": 1882, "end": 1882, "relation": "P551", "r_label": "nơi cư trú"}
+{"s_qid": "Q312499", "s_label": "Nicholas Miklouho-Maclay", "o_qid": "Q64", "o_label": "Berlin", "start": 1882, "end": null, "relation": "P551", "r_label": "nơi cư trú"}
+{"s_qid": "Q312499", "s_label": "Nicholas Miklouho-Maclay", "o_qid": "Q727", "o_label": "Amsterdam", "start": 1882, "end": 1882, "relation": "P551", "r_label": "nơi cư trú"}
+{"s_qid": "Q312499", "s_label": "Nicholas Miklouho-Maclay", "o_qid": "Q90", "o_label": "Paris", "start": 1882, "end": 1882, "relation": "P551", "r_label": "nơi cư trú"}
+{"s_qid": "Q312499", "s_label": "Nicholas Miklouho-Maclay", "o_qid": "Q21", "o_label": "Anh", "start": 1883, "end": 1883, "relation": "P551", "r_label": "nơi cư trú"}
+{"s_qid": "Q34981", "s_label": "Isaac Asimov", "o_qid": "Q18419", "o_label": "Brooklyn", "start": 1923, "end": 1942, "relation": "P551", "r_label": "nơi cư trú"}
+{"s_qid": "Q34981", "s_label": "Isaac Asimov", "o_qid": "Q100", "o_label": "Boston", "start": 1949, "end": 1970, "relation": "P551", "r_label": "nơi cư trú"}
+{"s_qid": "Q34981", "s_label": "Isaac Asimov", "o_qid": "Q11299", "o_label": "Manhattan", "start": 1970, "end": 1992, "relation": "P551", "r_label": "nơi cư trú"}
+{"s_qid": "Q179858", "s_label": "Urho Kekkonen", "o_qid": "Q162279", "o_label": "Kuopio", "start": 1906, "end": null, "relation": "P551", "r_label": "nơi cư trú"}
+{"s_qid": "Q179858", "s_label": "Urho Kekkonen", "o_qid": "Q748533", "o_label": "Iisalmi", "start": null, "end": 1911, "relation": "P551", "r_label": "nơi cư trú"}
+{"s_qid": "Q179858", "s_label": "Urho Kekkonen", "o_qid": "Q193180", "o_label": "Kajaani", "start": 1911, "end": 1921, "relation": "P551", "r_label": "nơi cư trú"}
+{"s_qid": "Q179858", "s_label": "Urho Kekkonen", "o_qid": "Q1757", "o_label": "Helsinki", "start": 1921, "end": 1986, "relation": "P551", "r_label": "nơi cư trú"}
+{"s_qid": "Q78061707", "s_label": "Simon Villeneuve", "o_qid": "Q2145", "o_label": "Thành phố Québec", "start": 2002, "end": 2004, "relation": "P551", "r_label": "nơi cư trú"}
+{"s_qid": "Q78061707", "s_label": "Simon Villeneuve", "o_qid": "Q340", "o_label": "Montréal", "start": 2007, "end": 2007, "relation": "P551", "r_label": "nơi cư trú"}
+{"s_qid": "Q7747", "s_label": "Vladimir Putin", "o_qid": "Q1731", "o_label": "Dresden", "start": 1985, "end": 1990, "relation": "P551", "r_label": "nơi cư trú"}
+{"s_qid": "Q7747", "s_label": "Vladimir Putin", "o_qid": "Q656", "o_label": "Sankt-Peterburg", "start": 1987, "end": 1992, "relation": "P551", "r_label": "nơi cư trú"}
+{"s_qid": "Q7747", "s_label": "Vladimir Putin", "o_qid": "Q656", "o_label": "Sankt-Peterburg", "start": 1992, "end": null, "relation": "P551", "r_label": "nơi cư trú"}
+{"s_qid": "Q7747", "s_label": "Vladimir Putin", "o_qid": "Q649", "o_label": "Moskva", "start": 1996, "end": null, "relation": "P551", "r_label": "nơi cư trú"}
+{"s_qid": "Q8704", "s_label": "Walt Disney", "o_qid": "Q65", "o_label": "Los Angeles", "start": 1923, "end": null, "relation": "P551", "r_label": "nơi cư trú"}
+{"s_qid": "Q8704", "s_label": "Walt Disney", "o_qid": "Q1297", "o_label": "Chicago", "start": 1901, "end": 1906, "relation": "P551", "r_label": "nơi cư trú"}
+{"s_qid": "Q34453", "s_label": "Boris Nikolayevich Yeltsin", "o_qid": "Q649", "o_label": "Moskva", "start": 1985, "end": 2007, "relation": "P551", "r_label": "nơi cư trú"}
+{"s_qid": "Q36740", "s_label": "Aung San Suu Kyi", "o_qid": "Q34217", "o_label": "Oxford", "start": 1964, "end": null, "relation": "P551", "r_label": "nơi cư trú"}
+{"s_qid": "Q36740", "s_label": "Aung San Suu Kyi", "o_qid": "Q60", "o_label": "Thành phố New York", "start": 1969, "end": null, "relation": "P551", "r_label": "nơi cư trú"}
+{"s_qid": "Q39803", "s_label": "Mario Vargas Llosa", "o_qid": "Q1492", "o_label": "Barcelona", "start": 1970, "end": 1974, "relation": "P551", "r_label": "nơi cư trú"}
+{"s_qid": "Q170581", "s_label": "Nancy Pelosi", "o_qid": "Q5092", "o_label": "Baltimore", "start": 1940, "end": 1963, "relation": "P551", "r_label": "nơi cư trú"}
+{"s_qid": "Q170581", "s_label": "Nancy Pelosi", "o_qid": "Q1384", "o_label": "New York", "start": 1963, "end": 1969, "relation": "P551", "r_label": "nơi cư trú"}
+{"s_qid": "Q170581", "s_label": "Nancy Pelosi", "o_qid": "Q62", "o_label": "San Francisco", "start": 1969, "end": null, "relation": "P551", "r_label": "nơi cư trú"}
+{"s_qid": "Q454925", "s_label": "Nikolai Bogolyubov", "o_qid": "Q1899", "o_label": "Kyiv", "start": 1913, "end": null, "relation": "P551", "r_label": "nơi cư trú"}
+{"s_qid": "Q60749935", "s_label": "Oskar Matzerath", "o_qid": "Q1718", "o_label": "Düsseldorf", "start": 1945, "end": null, "relation": "P551", "r_label": "nơi cư trú"}
+{"s_qid": "Q135677778", "s_label": "Daniel McLean McDonald", "o_qid": "Q2256", "o_label": "Birmingham", "start": null, "end": 1960, "relation": "P551", "r_label": "nơi cư trú"}
+{"s_qid": "Q76", "s_label": "Barack Obama", "o_qid": "Q18094", "o_label": "Honolulu", "start": 1971, "end": 1979, "relation": "P551", "r_label": "nơi cư trú"}
+{"s_qid": "Q76", "s_label": "Barack Obama", "o_qid": "Q65", "o_label": "Los Angeles", "start": 1979, "end": 1981, "relation": "P551", "r_label": "nơi cư trú"}
+{"s_qid": "Q76", "s_label": "Barack Obama", "o_qid": "Q1297", "o_label": "Chicago", "start": 1985, "end": 2009, "relation": "P551", "r_label": "nơi cư trú"}
+{"s_qid": "Q76", "s_label": "Barack Obama", "o_qid": "Q60", "o_label": "Thành phố New York", "start": 1981, "end": 1985, "relation": "P551", "r_label": "nơi cư trú"}
+{"s_qid": "Q11571", "s_label": "Cristiano Ronaldo", "o_qid": "Q495", "o_label": "Torino", "start": 2018, "end": 2021, "relation": "P551", "r_label": "nơi cư trú"}
+{"s_qid": "Q11571", "s_label": "Cristiano Ronaldo", "o_qid": "Q597", "o_label": "Lisboa", "start": 2001, "end": 2003, "relation": "P551", "r_label": "nơi cư trú"}
+{"s_qid": "Q11571", "s_label": "Cristiano Ronaldo", "o_qid": "Q18125", "o_label": "Manchester", "start": 2003, "end": 2009, "relation": "P551", "r_label": "nơi cư trú"}
+{"s_qid": "Q11571", "s_label": "Cristiano Ronaldo", "o_qid": "Q2807", "o_label": "Madrid", "start": 2009, "end": 2018, "relation": "P551", "r_label": "nơi cư trú"}
+{"s_qid": "Q11571", "s_label": "Cristiano Ronaldo", "o_qid": "Q18125", "o_label": "Manchester", "start": 2021, "end": 2022, "relation": "P551", "r_label": "nơi cư trú"}
+{"s_qid": "Q165544", "s_label": "Władysław Anders", "o_qid": "Q90", "o_label": "Paris", "start": 1921, "end": 1923, "relation": "P551", "r_label": "nơi cư trú"}
+{"s_qid": "Q165544", "s_label": "Władysław Anders", "o_qid": "Q36036", "o_label": "Lviv", "start": 1939, "end": 1939, "relation": "P551", "r_label": "nơi cư trú"}
+{"s_qid": "Q165544", "s_label": "Władysław Anders", "o_qid": "Q649", "o_label": "Moskva", "start": 1941, "end": 1941, "relation": "P551", "r_label": "nơi cư trú"}
+{"s_qid": "Q317521", "s_label": "Elon Musk", "o_qid": "Q1989", "o_label": "Saskatchewan", "start": 1989, "end": 1989, "relation": "P551", "r_label": "nơi cư trú"}
+{"s_qid": "Q58072493", "s_label": "Charles Van Herck", "o_qid": "Q12892", "o_label": "Antwerpen", "start": 1919, "end": null, "relation": "P551", "r_label": "nơi cư trú"}
+{"s_qid": "Q58072493", "s_label": "Charles Van Herck", "o_qid": "Q21", "o_label": "Anh", "start": 1914, "end": 1918, "relation": "P551", "r_label": "nơi cư trú"}

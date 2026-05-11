@@ -1,0 +1,345 @@
+{"s_qid": "Q148", "s_label": "Trung Quốc", "o_qid": "Q11725", "o_label": "Trùng Khánh", "start": 1997, "end": null, "relation": "P150", "r_label": "các phân khu hành chính"}
+{"s_qid": "Q148", "s_label": "Trung Quốc", "o_qid": "Q8646", "o_label": "Hồng Kông", "start": 1997, "end": null, "relation": "P150", "r_label": "các phân khu hành chính"}
+{"s_qid": "Q183", "s_label": "Đức", "o_qid": "Q985", "o_label": "Baden-Württemberg", "start": 1952, "end": null, "relation": "P150", "r_label": "các phân khu hành chính"}
+{"s_qid": "Q183", "s_label": "Đức", "o_qid": "Q64", "o_label": "Berlin", "start": 1990, "end": null, "relation": "P150", "r_label": "các phân khu hành chính"}
+{"s_qid": "Q183", "s_label": "Đức", "o_qid": "Q1196", "o_label": "Mecklenburg-Vorpommern", "start": 1990, "end": null, "relation": "P150", "r_label": "các phân khu hành chính"}
+{"s_qid": "Q183", "s_label": "Đức", "o_qid": "Q1205", "o_label": "Thüringen", "start": 1990, "end": null, "relation": "P150", "r_label": "các phân khu hành chính"}
+{"s_qid": "Q694", "s_label": "Zuid-Holland", "o_qid": "Q56682979", "o_label": "Hoeksche Waard", "start": 2019, "end": null, "relation": "P150", "r_label": "các phân khu hành chính"}
+{"s_qid": "Q1093", "s_label": "Limburg", "o_qid": "Q9766", "o_label": "Eijsden-Margraten", "start": 2011, "end": null, "relation": "P150", "r_label": "các phân khu hành chính"}
+{"s_qid": "Q1093", "s_label": "Limburg", "o_qid": "Q9797", "o_label": "Horst aan de Maas", "start": 2001, "end": null, "relation": "P150", "r_label": "các phân khu hành chính"}
+{"s_qid": "Q1093", "s_label": "Limburg", "o_qid": "Q9793", "o_label": "Leudal", "start": 2007, "end": null, "relation": "P150", "r_label": "các phân khu hành chính"}
+{"s_qid": "Q1093", "s_label": "Limburg", "o_qid": "Q29957432", "o_label": "Beekdaelen", "start": 2019, "end": null, "relation": "P150", "r_label": "các phân khu hành chính"}
+{"s_qid": "Q12569", "s_label": "Loire", "o_qid": "Q42716", "o_label": "Saint-Étienne", "start": 1793, "end": null, "relation": "P150", "r_label": "các phân khu hành chính"}
+{"s_qid": "Q50615", "s_label": "Akershus", "o_qid": "Q57082", "o_label": "Fet", "start": null, "end": 2019, "relation": "P150", "r_label": "các phân khu hành chính"}
+{"s_qid": "Q50615", "s_label": "Akershus", "o_qid": "Q60806432", "o_label": "Lillestrøm Municipality", "start": 2024, "end": null, "relation": "P150", "r_label": "các phân khu hành chính"}
+{"s_qid": "Q50615", "s_label": "Akershus", "o_qid": "Q45303406", "o_label": "Nordre Follo", "start": 2024, "end": null, "relation": "P150", "r_label": "các phân khu hành chính"}
+{"s_qid": "Q50615", "s_label": "Akershus", "o_qid": "Q57868", "o_label": "Oppegård", "start": null, "end": 2019, "relation": "P150", "r_label": "các phân khu hành chính"}
+{"s_qid": "Q50615", "s_label": "Akershus", "o_qid": "Q57871", "o_label": "Skedsmo", "start": null, "end": 2019, "relation": "P150", "r_label": "các phân khu hành chính"}
+{"s_qid": "Q50615", "s_label": "Akershus", "o_qid": "Q57912", "o_label": "Ski", "start": null, "end": 2019, "relation": "P150", "r_label": "các phân khu hành chính"}
+{"s_qid": "Q50615", "s_label": "Akershus", "o_qid": "Q57914", "o_label": "Sørum", "start": null, "end": 2019, "relation": "P150", "r_label": "các phân khu hành chính"}
+{"s_qid": "Q62633", "s_label": "Đại Công quốc Phần Lan", "o_qid": "Q1138022", "o_label": "Turku and Pori Province", "start": 1809, "end": 1917, "relation": "P150", "r_label": "các phân khu hành chính"}
+{"s_qid": "Q62633", "s_label": "Đại Công quốc Phần Lan", "o_qid": "Q1337549", "o_label": "Vaasa Province", "start": 1809, "end": 1917, "relation": "P150", "r_label": "các phân khu hành chính"}
+{"s_qid": "Q62633", "s_label": "Đại Công quốc Phần Lan", "o_qid": "Q1144791", "o_label": "Viipuri Province", "start": 1811, "end": 1917, "relation": "P150", "r_label": "các phân khu hành chính"}
+{"s_qid": "Q62633", "s_label": "Đại Công quốc Phần Lan", "o_qid": "Q202112", "o_label": "Oulu", "start": 1809, "end": 1917, "relation": "P150", "r_label": "các phân khu hành chính"}
+{"s_qid": "Q62633", "s_label": "Đại Công quốc Phần Lan", "o_qid": "Q1372345", "o_label": "Kuopio Province", "start": 1831, "end": 1917, "relation": "P150", "r_label": "các phân khu hành chính"}
+{"s_qid": "Q62633", "s_label": "Đại Công quốc Phần Lan", "o_qid": "Q1372937", "o_label": "Uusimaa Province", "start": 1831, "end": 1917, "relation": "P150", "r_label": "các phân khu hành chính"}
+{"s_qid": "Q62633", "s_label": "Đại Công quốc Phần Lan", "o_qid": "Q1200972", "o_label": "Mikkeli Province", "start": 1831, "end": 1917, "relation": "P150", "r_label": "các phân khu hành chính"}
+{"s_qid": "Q62633", "s_label": "Đại Công quốc Phần Lan", "o_qid": "Q1320740", "o_label": "Häme Province", "start": 1831, "end": 1917, "relation": "P150", "r_label": "các phân khu hành chính"}
+{"s_qid": "Q194203", "s_label": "Huyện của Pháp", "o_qid": "Q484170", "o_label": "xã của Pháp", "start": 2015, "end": null, "relation": "P150", "r_label": "các phân khu hành chính"}
+{"s_qid": "Q713750", "s_label": "Tây Đức", "o_qid": "Q1194", "o_label": "Schleswig-Holstein", "start": 1949, "end": 1990, "relation": "P150", "r_label": "các phân khu hành chính"}
+{"s_qid": "Q713750", "s_label": "Tây Đức", "o_qid": "Q1055", "o_label": "Hamburg", "start": 1949, "end": 1990, "relation": "P150", "r_label": "các phân khu hành chính"}
+{"s_qid": "Q713750", "s_label": "Tây Đức", "o_qid": "Q1197", "o_label": "Niedersachsen", "start": 1949, "end": 1990, "relation": "P150", "r_label": "các phân khu hành chính"}
+{"s_qid": "Q713750", "s_label": "Tây Đức", "o_qid": "Q985", "o_label": "Baden-Württemberg", "start": 1952, "end": 1990, "relation": "P150", "r_label": "các phân khu hành chính"}
+{"s_qid": "Q713750", "s_label": "Tây Đức", "o_qid": "Q980", "o_label": "Bayern", "start": 1949, "end": 1990, "relation": "P150", "r_label": "các phân khu hành chính"}
+{"s_qid": "Q13426199", "s_label": "Trung Hoa Dân Quốc", "o_qid": "Q9573865", "o_label": "Giang Tô", "start": 1912, "end": 1950, "relation": "P150", "r_label": "các phân khu hành chính"}
+{"s_qid": "Q13426199", "s_label": "Trung Hoa Dân Quốc", "o_qid": "Q5089762", "o_label": "Chiết Giang", "start": 1912, "end": 1955, "relation": "P150", "r_label": "các phân khu hành chính"}
+{"s_qid": "Q13426199", "s_label": "Trung Hoa Dân Quốc", "o_qid": "Q9574337", "o_label": "Anhui Province", "start": 1912, "end": 1949, "relation": "P150", "r_label": "các phân khu hành chính"}
+{"s_qid": "Q13426199", "s_label": "Trung Hoa Dân Quốc", "o_qid": "Q9575004", "o_label": "Hồ Bắc", "start": 1912, "end": 1949, "relation": "P150", "r_label": "các phân khu hành chính"}
+{"s_qid": "Q13426199", "s_label": "Trung Hoa Dân Quốc", "o_qid": "Q9574194", "o_label": "Tứ Xuyên", "start": 1912, "end": 1950, "relation": "P150", "r_label": "các phân khu hành chính"}
+{"s_qid": "Q13426199", "s_label": "Trung Hoa Dân Quốc", "o_qid": "Q2604022", "o_label": "Trực Lệ", "start": 1912, "end": 1928, "relation": "P150", "r_label": "các phân khu hành chính"}
+{"s_qid": "Q13426199", "s_label": "Trung Hoa Dân Quốc", "o_qid": "Q9574787", "o_label": "Hà Bắc", "start": 1928, "end": 1949, "relation": "P150", "r_label": "các phân khu hành chính"}
+{"s_qid": "Q13426199", "s_label": "Trung Hoa Dân Quốc", "o_qid": "Q9574455", "o_label": "Sơn Đông", "start": 1912, "end": 1949, "relation": "P150", "r_label": "các phân khu hành chính"}
+{"s_qid": "Q13426199", "s_label": "Trung Hoa Dân Quốc", "o_qid": "Q9574863", "o_label": "Hà Nam", "start": 1912, "end": 1949, "relation": "P150", "r_label": "các phân khu hành chính"}
+{"s_qid": "Q13426199", "s_label": "Trung Hoa Dân Quốc", "o_qid": "Q9574531", "o_label": "Sơn Tây", "start": 1912, "end": 1949, "relation": "P150", "r_label": "các phân khu hành chính"}
+{"s_qid": "Q13426199", "s_label": "Trung Hoa Dân Quốc", "o_qid": "Q9575643", "o_label": "Thiểm Tây", "start": 1912, "end": 1949, "relation": "P150", "r_label": "các phân khu hành chính"}
+{"s_qid": "Q13426199", "s_label": "Trung Hoa Dân Quốc", "o_qid": "Q9575184", "o_label": "Cam Túc", "start": 1912, "end": 1949, "relation": "P150", "r_label": "các phân khu hành chính"}
+{"s_qid": "Q13426199", "s_label": "Trung Hoa Dân Quốc", "o_qid": "Q4272684", "o_label": "Liaoning", "start": 1929, "end": 1949, "relation": "P150", "r_label": "các phân khu hành chính"}
+{"s_qid": "Q13426199", "s_label": "Trung Hoa Dân Quốc", "o_qid": "Q4138901", "o_label": "Kirin", "start": 1912, "end": 1948, "relation": "P150", "r_label": "các phân khu hành chính"}
+{"s_qid": "Q13426199", "s_label": "Trung Hoa Dân Quốc", "o_qid": "Q11083808", "o_label": "Tỉnh Tân Cương, Trung Hoa Dân Quốc", "start": 1912, "end": 1949, "relation": "P150", "r_label": "các phân khu hành chính"}
+{"s_qid": "Q18914778", "s_label": "departmental district of the Rhône", "o_qid": "Q16665897", "o_label": "Metropolis of Lyon", "start": 2015, "end": null, "relation": "P150", "r_label": "các phân khu hành chính"}
+{"s_qid": "Q30", "s_label": "Hoa Kỳ", "o_qid": "Q173", "o_label": "Alabama", "start": 1819, "end": null, "relation": "P150", "r_label": "các phân khu hành chính"}
+{"s_qid": "Q30", "s_label": "Hoa Kỳ", "o_qid": "Q797", "o_label": "Alaska", "start": 1959, "end": null, "relation": "P150", "r_label": "các phân khu hành chính"}
+{"s_qid": "Q30", "s_label": "Hoa Kỳ", "o_qid": "Q816", "o_label": "Arizona", "start": 1912, "end": null, "relation": "P150", "r_label": "các phân khu hành chính"}
+{"s_qid": "Q30", "s_label": "Hoa Kỳ", "o_qid": "Q1612", "o_label": "Arkansas", "start": 1836, "end": null, "relation": "P150", "r_label": "các phân khu hành chính"}
+{"s_qid": "Q30", "s_label": "Hoa Kỳ", "o_qid": "Q99", "o_label": "California", "start": 1850, "end": null, "relation": "P150", "r_label": "các phân khu hành chính"}
+{"s_qid": "Q30", "s_label": "Hoa Kỳ", "o_qid": "Q1261", "o_label": "Colorado", "start": 1876, "end": null, "relation": "P150", "r_label": "các phân khu hành chính"}
+{"s_qid": "Q30", "s_label": "Hoa Kỳ", "o_qid": "Q779", "o_label": "Connecticut", "start": 1788, "end": null, "relation": "P150", "r_label": "các phân khu hành chính"}
+{"s_qid": "Q30", "s_label": "Hoa Kỳ", "o_qid": "Q812", "o_label": "Florida", "start": 1845, "end": null, "relation": "P150", "r_label": "các phân khu hành chính"}
+{"s_qid": "Q30", "s_label": "Hoa Kỳ", "o_qid": "Q1428", "o_label": "Georgia", "start": 1788, "end": null, "relation": "P150", "r_label": "các phân khu hành chính"}
+{"s_qid": "Q30", "s_label": "Hoa Kỳ", "o_qid": "Q1221", "o_label": "Idaho", "start": 1890, "end": null, "relation": "P150", "r_label": "các phân khu hành chính"}
+{"s_qid": "Q30", "s_label": "Hoa Kỳ", "o_qid": "Q1204", "o_label": "Illinois", "start": 1818, "end": null, "relation": "P150", "r_label": "các phân khu hành chính"}
+{"s_qid": "Q30", "s_label": "Hoa Kỳ", "o_qid": "Q1415", "o_label": "Indiana", "start": 1816, "end": null, "relation": "P150", "r_label": "các phân khu hành chính"}
+{"s_qid": "Q30", "s_label": "Hoa Kỳ", "o_qid": "Q1546", "o_label": "Iowa", "start": 1846, "end": null, "relation": "P150", "r_label": "các phân khu hành chính"}
+{"s_qid": "Q30", "s_label": "Hoa Kỳ", "o_qid": "Q1558", "o_label": "Kansas", "start": 1861, "end": null, "relation": "P150", "r_label": "các phân khu hành chính"}
+{"s_qid": "Q30", "s_label": "Hoa Kỳ", "o_qid": "Q1603", "o_label": "Kentucky", "start": 1792, "end": null, "relation": "P150", "r_label": "các phân khu hành chính"}
+{"s_qid": "Q30", "s_label": "Hoa Kỳ", "o_qid": "Q1588", "o_label": "Louisiana", "start": 1812, "end": null, "relation": "P150", "r_label": "các phân khu hành chính"}
+{"s_qid": "Q30", "s_label": "Hoa Kỳ", "o_qid": "Q724", "o_label": "Maine", "start": 1820, "end": null, "relation": "P150", "r_label": "các phân khu hành chính"}
+{"s_qid": "Q30", "s_label": "Hoa Kỳ", "o_qid": "Q1391", "o_label": "Maryland", "start": 1788, "end": null, "relation": "P150", "r_label": "các phân khu hành chính"}
+{"s_qid": "Q30", "s_label": "Hoa Kỳ", "o_qid": "Q771", "o_label": "Massachusetts", "start": 1788, "end": null, "relation": "P150", "r_label": "các phân khu hành chính"}
+{"s_qid": "Q30", "s_label": "Hoa Kỳ", "o_qid": "Q1166", "o_label": "Michigan", "start": 1837, "end": null, "relation": "P150", "r_label": "các phân khu hành chính"}
+{"s_qid": "Q30", "s_label": "Hoa Kỳ", "o_qid": "Q1527", "o_label": "Minnesota", "start": 1858, "end": null, "relation": "P150", "r_label": "các phân khu hành chính"}
+{"s_qid": "Q30", "s_label": "Hoa Kỳ", "o_qid": "Q1494", "o_label": "Mississippi", "start": 1817, "end": null, "relation": "P150", "r_label": "các phân khu hành chính"}
+{"s_qid": "Q30", "s_label": "Hoa Kỳ", "o_qid": "Q1581", "o_label": "Missouri", "start": 1821, "end": null, "relation": "P150", "r_label": "các phân khu hành chính"}
+{"s_qid": "Q30", "s_label": "Hoa Kỳ", "o_qid": "Q1212", "o_label": "Montana", "start": 1889, "end": null, "relation": "P150", "r_label": "các phân khu hành chính"}
+{"s_qid": "Q30", "s_label": "Hoa Kỳ", "o_qid": "Q1553", "o_label": "Nebraska", "start": 1867, "end": null, "relation": "P150", "r_label": "các phân khu hành chính"}
+{"s_qid": "Q30", "s_label": "Hoa Kỳ", "o_qid": "Q759", "o_label": "New Hampshire", "start": 1788, "end": null, "relation": "P150", "r_label": "các phân khu hành chính"}
+{"s_qid": "Q30", "s_label": "Hoa Kỳ", "o_qid": "Q1408", "o_label": "New Jersey", "start": 1787, "end": null, "relation": "P150", "r_label": "các phân khu hành chính"}
+{"s_qid": "Q30", "s_label": "Hoa Kỳ", "o_qid": "Q1522", "o_label": "New Mexico", "start": 1912, "end": null, "relation": "P150", "r_label": "các phân khu hành chính"}
+{"s_qid": "Q30", "s_label": "Hoa Kỳ", "o_qid": "Q1384", "o_label": "New York", "start": 1788, "end": null, "relation": "P150", "r_label": "các phân khu hành chính"}
+{"s_qid": "Q30", "s_label": "Hoa Kỳ", "o_qid": "Q1207", "o_label": "Bắc Dakota", "start": 1889, "end": null, "relation": "P150", "r_label": "các phân khu hành chính"}
+{"s_qid": "Q30", "s_label": "Hoa Kỳ", "o_qid": "Q1454", "o_label": "Bắc Carolina", "start": 1789, "end": null, "relation": "P150", "r_label": "các phân khu hành chính"}
+{"s_qid": "Q30", "s_label": "Hoa Kỳ", "o_qid": "Q1397", "o_label": "Ohio", "start": 1803, "end": null, "relation": "P150", "r_label": "các phân khu hành chính"}
+{"s_qid": "Q30", "s_label": "Hoa Kỳ", "o_qid": "Q824", "o_label": "Oregon", "start": 1859, "end": null, "relation": "P150", "r_label": "các phân khu hành chính"}
+{"s_qid": "Q30", "s_label": "Hoa Kỳ", "o_qid": "Q1400", "o_label": "Pennsylvania", "start": 1787, "end": null, "relation": "P150", "r_label": "các phân khu hành chính"}
+{"s_qid": "Q30", "s_label": "Hoa Kỳ", "o_qid": "Q1211", "o_label": "Nam Dakota", "start": 1889, "end": null, "relation": "P150", "r_label": "các phân khu hành chính"}
+{"s_qid": "Q30", "s_label": "Hoa Kỳ", "o_qid": "Q1456", "o_label": "Nam Carolina", "start": 1788, "end": null, "relation": "P150", "r_label": "các phân khu hành chính"}
+{"s_qid": "Q30", "s_label": "Hoa Kỳ", "o_qid": "Q1509", "o_label": "Tennessee", "start": 1796, "end": null, "relation": "P150", "r_label": "các phân khu hành chính"}
+{"s_qid": "Q30", "s_label": "Hoa Kỳ", "o_qid": "Q1439", "o_label": "Texas", "start": 1845, "end": null, "relation": "P150", "r_label": "các phân khu hành chính"}
+{"s_qid": "Q30", "s_label": "Hoa Kỳ", "o_qid": "Q829", "o_label": "Utah", "start": 1896, "end": null, "relation": "P150", "r_label": "các phân khu hành chính"}
+{"s_qid": "Q30", "s_label": "Hoa Kỳ", "o_qid": "Q1370", "o_label": "Virginia", "start": 1788, "end": null, "relation": "P150", "r_label": "các phân khu hành chính"}
+{"s_qid": "Q30", "s_label": "Hoa Kỳ", "o_qid": "Q1223", "o_label": "Washington", "start": 1889, "end": null, "relation": "P150", "r_label": "các phân khu hành chính"}
+{"s_qid": "Q30", "s_label": "Hoa Kỳ", "o_qid": "Q1371", "o_label": "Tây Virginia", "start": 1863, "end": null, "relation": "P150", "r_label": "các phân khu hành chính"}
+{"s_qid": "Q30", "s_label": "Hoa Kỳ", "o_qid": "Q1537", "o_label": "Wisconsin", "start": 1848, "end": null, "relation": "P150", "r_label": "các phân khu hành chính"}
+{"s_qid": "Q668", "s_label": "Ấn Độ", "o_qid": "Q1186", "o_label": "Kerala", "start": 1956, "end": null, "relation": "P150", "r_label": "các phân khu hành chính"}
+{"s_qid": "Q668", "s_label": "Ấn Độ", "o_qid": "Q1159", "o_label": "Andhra Pradesh", "start": 1956, "end": null, "relation": "P150", "r_label": "các phân khu hành chính"}
+{"s_qid": "Q1159", "s_label": "Andhra Pradesh", "o_qid": "Q110714851", "o_label": "Eluru district", "start": 2022, "end": null, "relation": "P150", "r_label": "các phân khu hành chính"}
+{"s_qid": "Q1159", "s_label": "Andhra Pradesh", "o_qid": "Q110714853", "o_label": "Tirupati district", "start": 2022, "end": null, "relation": "P150", "r_label": "các phân khu hành chính"}
+{"s_qid": "Q1159", "s_label": "Andhra Pradesh", "o_qid": "Q110714854", "o_label": "Annamayya district", "start": 2022, "end": null, "relation": "P150", "r_label": "các phân khu hành chính"}
+{"s_qid": "Q1159", "s_label": "Andhra Pradesh", "o_qid": "Q110714857", "o_label": "Anakapalli district", "start": 2022, "end": null, "relation": "P150", "r_label": "các phân khu hành chính"}
+{"s_qid": "Q1159", "s_label": "Andhra Pradesh", "o_qid": "Q110714859", "o_label": "Dr. B.R. Ambedkar Konaseema district", "start": 2022, "end": null, "relation": "P150", "r_label": "các phân khu hành chính"}
+{"s_qid": "Q1159", "s_label": "Andhra Pradesh", "o_qid": "Q110714860", "o_label": "Kakinada district", "start": 2022, "end": null, "relation": "P150", "r_label": "các phân khu hành chính"}
+{"s_qid": "Q1159", "s_label": "Andhra Pradesh", "o_qid": "Q110714861", "o_label": "Nandyal district", "start": 2022, "end": null, "relation": "P150", "r_label": "các phân khu hành chính"}
+{"s_qid": "Q1159", "s_label": "Andhra Pradesh", "o_qid": "Q110714862", "o_label": "Palnadu district", "start": 2022, "end": null, "relation": "P150", "r_label": "các phân khu hành chính"}
+{"s_qid": "Q1159", "s_label": "Andhra Pradesh", "o_qid": "Q110714863", "o_label": "Sri Sathya Sai district", "start": 2022, "end": null, "relation": "P150", "r_label": "các phân khu hành chính"}
+{"s_qid": "Q1159", "s_label": "Andhra Pradesh", "o_qid": "Q110876712", "o_label": "Bapatla district", "start": 2022, "end": null, "relation": "P150", "r_label": "các phân khu hành chính"}
+{"s_qid": "Q2254", "s_label": "Telemark", "o_qid": "Q499450", "o_label": "Bø", "start": null, "end": 2019, "relation": "P150", "r_label": "các phân khu hành chính"}
+{"s_qid": "Q2254", "s_label": "Telemark", "o_qid": "Q56405258", "o_label": "Midt-Telemark", "start": 2020, "end": null, "relation": "P150", "r_label": "các phân khu hành chính"}
+{"s_qid": "Q2254", "s_label": "Telemark", "o_qid": "Q2381", "o_label": "Sauherad", "start": null, "end": 2019, "relation": "P150", "r_label": "các phân khu hành chính"}
+{"s_qid": "Q2874", "s_label": "Urban Community of Lyon", "o_qid": "Q456", "o_label": "Lyon", "start": 1967, "end": 2014, "relation": "P150", "r_label": "các phân khu hành chính"}
+{"s_qid": "Q5095", "s_label": "Papua", "o_qid": "Q26792", "o_label": "Sorong", "start": null, "end": 1999, "relation": "P150", "r_label": "các phân khu hành chính"}
+{"s_qid": "Q5095", "s_label": "Papua", "o_qid": "Q26748", "o_label": "Manokwari Regency", "start": null, "end": 1999, "relation": "P150", "r_label": "các phân khu hành chính"}
+{"s_qid": "Q5095", "s_label": "Papua", "o_qid": "Q27529", "o_label": "Jayawijaya", "start": null, "end": 2022, "relation": "P150", "r_label": "các phân khu hành chính"}
+{"s_qid": "Q5095", "s_label": "Papua", "o_qid": "Q27708", "o_label": "Nabire", "start": null, "end": 2022, "relation": "P150", "r_label": "các phân khu hành chính"}
+{"s_qid": "Q12761", "s_label": "Seine-Saint-Denis", "o_qid": "Q160506", "o_label": "Saint-Denis", "start": 1968, "end": 2024, "relation": "P150", "r_label": "các phân khu hành chính"}
+{"s_qid": "Q12761", "s_label": "Seine-Saint-Denis", "o_qid": "Q253939", "o_label": "Pierrefitte-sur-Seine", "start": 1968, "end": 2024, "relation": "P150", "r_label": "các phân khu hành chính"}
+{"s_qid": "Q12761", "s_label": "Seine-Saint-Denis", "o_qid": "Q131575588", "o_label": "Saint-Denis", "start": 2025, "end": null, "relation": "P150", "r_label": "các phân khu hành chính"}
+{"s_qid": "Q171852", "s_label": "Odessa", "o_qid": "Q1653115", "o_label": "Berezivka", "start": 1923, "end": 2020, "relation": "P150", "r_label": "các phân khu hành chính"}
+{"s_qid": "Q171852", "s_label": "Odessa", "o_qid": "Q2034651", "o_label": "Bilhorod-Dnistrovskyi", "start": 1940, "end": 2020, "relation": "P150", "r_label": "các phân khu hành chính"}
+{"s_qid": "Q171852", "s_label": "Odessa", "o_qid": "Q1275798", "o_label": "Kodyma", "start": 1965, "end": 2020, "relation": "P150", "r_label": "các phân khu hành chính"}
+{"s_qid": "Q171852", "s_label": "Odessa", "o_qid": "Q1151006", "o_label": "Kotovsk", "start": 1940, "end": 2020, "relation": "P150", "r_label": "các phân khu hành chính"}
+{"s_qid": "Q171852", "s_label": "Odessa", "o_qid": "Q1528595", "o_label": "Rozdilna", "start": 1930, "end": 2020, "relation": "P150", "r_label": "các phân khu hành chính"}
+{"s_qid": "Q171852", "s_label": "Odessa", "o_qid": "Q1188807", "o_label": "Ananiv", "start": 1923, "end": 2020, "relation": "P150", "r_label": "các phân khu hành chính"}
+{"s_qid": "Q171852", "s_label": "Odessa", "o_qid": "Q1150286", "o_label": "Artsyi", "start": 1940, "end": 2020, "relation": "P150", "r_label": "các phân khu hành chính"}
+{"s_qid": "Q171852", "s_label": "Odessa", "o_qid": "Q1275816", "o_label": "Balta", "start": null, "end": 2020, "relation": "P150", "r_label": "các phân khu hành chính"}
+{"s_qid": "Q171852", "s_label": "Odessa", "o_qid": "Q1653123", "o_label": "Biliaivka", "start": null, "end": 2020, "relation": "P150", "r_label": "các phân khu hành chính"}
+{"s_qid": "Q171852", "s_label": "Odessa", "o_qid": "Q956385", "o_label": "Frunzivka", "start": null, "end": 2020, "relation": "P150", "r_label": "các phân khu hành chính"}
+{"s_qid": "Q171852", "s_label": "Odessa", "o_qid": "Q1706550", "o_label": "Ivanivka", "start": null, "end": 2020, "relation": "P150", "r_label": "các phân khu hành chính"}
+{"s_qid": "Q171852", "s_label": "Odessa", "o_qid": "Q340090", "o_label": "Kiliya", "start": null, "end": 2020, "relation": "P150", "r_label": "các phân khu hành chính"}
+{"s_qid": "Q171852", "s_label": "Odessa", "o_qid": "Q964916", "o_label": "Kominternivske", "start": null, "end": 2020, "relation": "P150", "r_label": "các phân khu hành chính"}
+{"s_qid": "Q171852", "s_label": "Odessa", "o_qid": "Q1188827", "o_label": "Okny", "start": null, "end": 2020, "relation": "P150", "r_label": "các phân khu hành chính"}
+{"s_qid": "Q171852", "s_label": "Odessa", "o_qid": "Q641471", "o_label": "Liubashivka", "start": null, "end": 2020, "relation": "P150", "r_label": "các phân khu hành chính"}
+{"s_qid": "Q171852", "s_label": "Odessa", "o_qid": "Q580327", "o_label": "Mykolaivka", "start": null, "end": 2020, "relation": "P150", "r_label": "các phân khu hành chính"}
+{"s_qid": "Q171852", "s_label": "Odessa", "o_qid": "Q1393102", "o_label": "Savran", "start": null, "end": 2020, "relation": "P150", "r_label": "các phân khu hành chính"}
+{"s_qid": "Q171852", "s_label": "Odessa", "o_qid": "Q1582276", "o_label": "Shyriaieve", "start": null, "end": 2020, "relation": "P150", "r_label": "các phân khu hành chính"}
+{"s_qid": "Q171852", "s_label": "Odessa", "o_qid": "Q1588825", "o_label": "Tarutyne", "start": null, "end": 2020, "relation": "P150", "r_label": "các phân khu hành chính"}
+{"s_qid": "Q171852", "s_label": "Odessa", "o_qid": "Q1874", "o_label": "Odessa", "start": null, "end": 2020, "relation": "P150", "r_label": "các phân khu hành chính"}
+{"s_qid": "Q171852", "s_label": "Odessa", "o_qid": "Q1582314", "o_label": "Velyka Mykhailivka", "start": 1923, "end": 2020, "relation": "P150", "r_label": "các phân khu hành chính"}
+{"s_qid": "Q471969", "s_label": "Lille metropolis", "o_qid": "Q648", "o_label": "Lille", "start": 1967, "end": null, "relation": "P150", "r_label": "các phân khu hành chính"}
+{"s_qid": "Q1999970", "s_label": "Upper Alsace", "o_qid": "Q79815", "o_label": "Mulhouse", "start": 1871, "end": 1920, "relation": "P150", "r_label": "các phân khu hành chính"}
+{"s_qid": "Q1999970", "s_label": "Upper Alsace", "o_qid": "Q83485", "o_label": "Kaysersberg", "start": 1871, "end": 1920, "relation": "P150", "r_label": "các phân khu hành chính"}
+{"s_qid": "Q21694741", "s_label": "Somerset", "o_qid": "Q1379924", "o_label": "South Somerset", "start": null, "end": 2023, "relation": "P150", "r_label": "các phân khu hành chính"}
+{"s_qid": "Q46130", "s_label": "Rhône", "o_qid": "Q456", "o_label": "Lyon", "start": null, "end": 2015, "relation": "P150", "r_label": "các phân khu hành chính"}
+{"s_qid": "Q81931", "s_label": "Liên minh miền Nam Hoa Kỳ", "o_qid": "Q173", "o_label": "Alabama", "start": 1861, "end": 1865, "relation": "P150", "r_label": "các phân khu hành chính"}
+{"s_qid": "Q81931", "s_label": "Liên minh miền Nam Hoa Kỳ", "o_qid": "Q1428", "o_label": "Georgia", "start": 1861, "end": null, "relation": "P150", "r_label": "các phân khu hành chính"}
+{"s_qid": "Q81931", "s_label": "Liên minh miền Nam Hoa Kỳ", "o_qid": "Q1588", "o_label": "Louisiana", "start": 1861, "end": 1865, "relation": "P150", "r_label": "các phân khu hành chính"}
+{"s_qid": "Q81931", "s_label": "Liên minh miền Nam Hoa Kỳ", "o_qid": "Q1439", "o_label": "Texas", "start": 1861, "end": null, "relation": "P150", "r_label": "các phân khu hành chính"}
+{"s_qid": "Q81931", "s_label": "Liên minh miền Nam Hoa Kỳ", "o_qid": "Q1494", "o_label": "Mississippi", "start": 1861, "end": null, "relation": "P150", "r_label": "các phân khu hành chính"}
+{"s_qid": "Q81931", "s_label": "Liên minh miền Nam Hoa Kỳ", "o_qid": "Q1456", "o_label": "Nam Carolina", "start": 1861, "end": 1865, "relation": "P150", "r_label": "các phân khu hành chính"}
+{"s_qid": "Q81931", "s_label": "Liên minh miền Nam Hoa Kỳ", "o_qid": "Q812", "o_label": "Florida", "start": 1861, "end": null, "relation": "P150", "r_label": "các phân khu hành chính"}
+{"s_qid": "Q81931", "s_label": "Liên minh miền Nam Hoa Kỳ", "o_qid": "Q1370", "o_label": "Virginia", "start": 1861, "end": null, "relation": "P150", "r_label": "các phân khu hành chính"}
+{"s_qid": "Q81931", "s_label": "Liên minh miền Nam Hoa Kỳ", "o_qid": "Q1612", "o_label": "Arkansas", "start": 1861, "end": 1865, "relation": "P150", "r_label": "các phân khu hành chính"}
+{"s_qid": "Q81931", "s_label": "Liên minh miền Nam Hoa Kỳ", "o_qid": "Q1454", "o_label": "Bắc Carolina", "start": 1861, "end": null, "relation": "P150", "r_label": "các phân khu hành chính"}
+{"s_qid": "Q81931", "s_label": "Liên minh miền Nam Hoa Kỳ", "o_qid": "Q1509", "o_label": "Tennessee", "start": 1861, "end": null, "relation": "P150", "r_label": "các phân khu hành chính"}
+{"s_qid": "Q81931", "s_label": "Liên minh miền Nam Hoa Kỳ", "o_qid": "Q1581", "o_label": "Missouri", "start": 1861, "end": null, "relation": "P150", "r_label": "các phân khu hành chính"}
+{"s_qid": "Q81931", "s_label": "Liên minh miền Nam Hoa Kỳ", "o_qid": "Q1603", "o_label": "Kentucky", "start": 1861, "end": null, "relation": "P150", "r_label": "các phân khu hành chính"}
+{"s_qid": "Q535140", "s_label": "Lyon", "o_qid": "Q16665897", "o_label": "Metropolis of Lyon", "start": 2015, "end": null, "relation": "P150", "r_label": "các phân khu hành chính"}
+{"s_qid": "Q1142326", "s_label": "Seine", "o_qid": "Q90", "o_label": "Paris", "start": 1790, "end": 1968, "relation": "P150", "r_label": "các phân khu hành chính"}
+{"s_qid": "Q1142326", "s_label": "Seine", "o_qid": "Q135265", "o_label": "Issy-les-Moulineaux", "start": 1790, "end": 1968, "relation": "P150", "r_label": "các phân khu hành chính"}
+{"s_qid": "Q1142326", "s_label": "Seine", "o_qid": "Q160506", "o_label": "Saint-Denis", "start": 1790, "end": 1968, "relation": "P150", "r_label": "các phân khu hành chính"}
+{"s_qid": "Q1142326", "s_label": "Seine", "o_qid": "Q253939", "o_label": "Pierrefitte-sur-Seine", "start": 1790, "end": 1968, "relation": "P150", "r_label": "các phân khu hành chính"}
+{"s_qid": "Q159", "s_label": "Nga", "o_qid": "Q846866", "o_label": "Perm Oblast", "start": null, "end": 2005, "relation": "P150", "r_label": "các phân khu hành chính"}
+{"s_qid": "Q408", "s_label": "Úc", "o_qid": "Q3224", "o_label": "New South Wales", "start": 1901, "end": null, "relation": "P150", "r_label": "các phân khu hành chính"}
+{"s_qid": "Q408", "s_label": "Úc", "o_qid": "Q36074", "o_label": "Queensland", "start": 1901, "end": null, "relation": "P150", "r_label": "các phân khu hành chính"}
+{"s_qid": "Q408", "s_label": "Úc", "o_qid": "Q35715", "o_label": "Nam Úc", "start": 1901, "end": null, "relation": "P150", "r_label": "các phân khu hành chính"}
+{"s_qid": "Q408", "s_label": "Úc", "o_qid": "Q34366", "o_label": "Tasmania", "start": 1901, "end": null, "relation": "P150", "r_label": "các phân khu hành chính"}
+{"s_qid": "Q408", "s_label": "Úc", "o_qid": "Q36687", "o_label": "Victoria", "start": 1901, "end": null, "relation": "P150", "r_label": "các phân khu hành chính"}
+{"s_qid": "Q408", "s_label": "Úc", "o_qid": "Q3206", "o_label": "Tây Úc", "start": 1901, "end": null, "relation": "P150", "r_label": "các phân khu hành chính"}
+{"s_qid": "Q458", "s_label": "Liên minh châu Âu", "o_qid": "Q35", "o_label": "Đan Mạch", "start": 1973, "end": null, "relation": "P150", "r_label": "các phân khu hành chính"}
+{"s_qid": "Q458", "s_label": "Liên minh châu Âu", "o_qid": "Q27", "o_label": "Ireland", "start": 1973, "end": null, "relation": "P150", "r_label": "các phân khu hành chính"}
+{"s_qid": "Q458", "s_label": "Liên minh châu Âu", "o_qid": "Q41", "o_label": "Hy Lạp", "start": 1981, "end": null, "relation": "P150", "r_label": "các phân khu hành chính"}
+{"s_qid": "Q458", "s_label": "Liên minh châu Âu", "o_qid": "Q45", "o_label": "Bồ Đào Nha", "start": 1986, "end": null, "relation": "P150", "r_label": "các phân khu hành chính"}
+{"s_qid": "Q458", "s_label": "Liên minh châu Âu", "o_qid": "Q29", "o_label": "Tây Ban Nha", "start": 1986, "end": null, "relation": "P150", "r_label": "các phân khu hành chính"}
+{"s_qid": "Q458", "s_label": "Liên minh châu Âu", "o_qid": "Q33", "o_label": "Phần Lan", "start": 1995, "end": null, "relation": "P150", "r_label": "các phân khu hành chính"}
+{"s_qid": "Q458", "s_label": "Liên minh châu Âu", "o_qid": "Q40", "o_label": "Áo", "start": 1995, "end": null, "relation": "P150", "r_label": "các phân khu hành chính"}
+{"s_qid": "Q458", "s_label": "Liên minh châu Âu", "o_qid": "Q34", "o_label": "Thụy Điển", "start": 1995, "end": null, "relation": "P150", "r_label": "các phân khu hành chính"}
+{"s_qid": "Q458", "s_label": "Liên minh châu Âu", "o_qid": "Q191", "o_label": "Estonia", "start": 2004, "end": null, "relation": "P150", "r_label": "các phân khu hành chính"}
+{"s_qid": "Q458", "s_label": "Liên minh châu Âu", "o_qid": "Q211", "o_label": "Latvia", "start": 2004, "end": null, "relation": "P150", "r_label": "các phân khu hành chính"}
+{"s_qid": "Q458", "s_label": "Liên minh châu Âu", "o_qid": "Q37", "o_label": "Litva", "start": 2004, "end": null, "relation": "P150", "r_label": "các phân khu hành chính"}
+{"s_qid": "Q458", "s_label": "Liên minh châu Âu", "o_qid": "Q233", "o_label": "Malta", "start": 2004, "end": null, "relation": "P150", "r_label": "các phân khu hành chính"}
+{"s_qid": "Q458", "s_label": "Liên minh châu Âu", "o_qid": "Q36", "o_label": "Ba Lan", "start": 2004, "end": null, "relation": "P150", "r_label": "các phân khu hành chính"}
+{"s_qid": "Q458", "s_label": "Liên minh châu Âu", "o_qid": "Q214", "o_label": "Slovakia", "start": 2004, "end": null, "relation": "P150", "r_label": "các phân khu hành chính"}
+{"s_qid": "Q458", "s_label": "Liên minh châu Âu", "o_qid": "Q215", "o_label": "Slovenia", "start": 2004, "end": null, "relation": "P150", "r_label": "các phân khu hành chính"}
+{"s_qid": "Q458", "s_label": "Liên minh châu Âu", "o_qid": "Q213", "o_label": "Séc", "start": 2004, "end": null, "relation": "P150", "r_label": "các phân khu hành chính"}
+{"s_qid": "Q458", "s_label": "Liên minh châu Âu", "o_qid": "Q28", "o_label": "Hungary", "start": 2004, "end": null, "relation": "P150", "r_label": "các phân khu hành chính"}
+{"s_qid": "Q458", "s_label": "Liên minh châu Âu", "o_qid": "Q229", "o_label": "Cộng hòa Síp", "start": 2004, "end": null, "relation": "P150", "r_label": "các phân khu hành chính"}
+{"s_qid": "Q458", "s_label": "Liên minh châu Âu", "o_qid": "Q219", "o_label": "Bulgaria", "start": 2007, "end": null, "relation": "P150", "r_label": "các phân khu hành chính"}
+{"s_qid": "Q458", "s_label": "Liên minh châu Âu", "o_qid": "Q218", "o_label": "România", "start": 2007, "end": null, "relation": "P150", "r_label": "các phân khu hành chính"}
+{"s_qid": "Q458", "s_label": "Liên minh châu Âu", "o_qid": "Q224", "o_label": "Croatia", "start": 2013, "end": null, "relation": "P150", "r_label": "các phân khu hành chính"}
+{"s_qid": "Q458", "s_label": "Liên minh châu Âu", "o_qid": "Q183", "o_label": "Đức", "start": 1958, "end": null, "relation": "P150", "r_label": "các phân khu hành chính"}
+{"s_qid": "Q458", "s_label": "Liên minh châu Âu", "o_qid": "Q142", "o_label": "Pháp", "start": 1958, "end": null, "relation": "P150", "r_label": "các phân khu hành chính"}
+{"s_qid": "Q458", "s_label": "Liên minh châu Âu", "o_qid": "Q38", "o_label": "Ý", "start": 1958, "end": null, "relation": "P150", "r_label": "các phân khu hành chính"}
+{"s_qid": "Q458", "s_label": "Liên minh châu Âu", "o_qid": "Q31", "o_label": "Bỉ", "start": 1958, "end": null, "relation": "P150", "r_label": "các phân khu hành chính"}
+{"s_qid": "Q458", "s_label": "Liên minh châu Âu", "o_qid": "Q229", "o_label": "Cộng hòa Síp", "start": 2004, "end": null, "relation": "P150", "r_label": "các phân khu hành chính"}
+{"s_qid": "Q458", "s_label": "Liên minh châu Âu", "o_qid": "Q32", "o_label": "Luxembourg", "start": 1958, "end": null, "relation": "P150", "r_label": "các phân khu hành chính"}
+{"s_qid": "Q458", "s_label": "Liên minh châu Âu", "o_qid": "Q145", "o_label": "Vương quốc Liên hiệp Anh và Bắc Ireland", "start": 1973, "end": 2020, "relation": "P150", "r_label": "các phân khu hành chính"}
+{"s_qid": "Q458", "s_label": "Liên minh châu Âu", "o_qid": "Q55", "o_label": "Hà Lan", "start": 1958, "end": null, "relation": "P150", "r_label": "các phân khu hành chính"}
+{"s_qid": "Q1101", "s_label": "Noord-Brabant", "o_qid": "Q18655255", "o_label": "Meierijstad", "start": 2017, "end": null, "relation": "P150", "r_label": "các phân khu hành chính"}
+{"s_qid": "Q1101", "s_label": "Noord-Brabant", "o_qid": "Q28057171", "o_label": "Altena", "start": 2019, "end": null, "relation": "P150", "r_label": "các phân khu hành chính"}
+{"s_qid": "Q50618", "s_label": "Buskerud", "o_qid": "Q488611", "o_label": "Hurum", "start": null, "end": 2019, "relation": "P150", "r_label": "các phân khu hành chính"}
+{"s_qid": "Q50618", "s_label": "Buskerud", "o_qid": "Q110268", "o_label": "Nedre Eiker", "start": null, "end": 2019, "relation": "P150", "r_label": "các phân khu hành chính"}
+{"s_qid": "Q50618", "s_label": "Buskerud", "o_qid": "Q488663", "o_label": "Røyken", "start": null, "end": 2019, "relation": "P150", "r_label": "các phân khu hành chính"}
+{"s_qid": "Q127676", "s_label": "Trøndelag", "o_qid": "Q392093", "o_label": "Agdenes", "start": null, "end": 2019, "relation": "P150", "r_label": "các phân khu hành chính"}
+{"s_qid": "Q127676", "s_label": "Trøndelag", "o_qid": "Q484243", "o_label": "Bjugn", "start": null, "end": 2019, "relation": "P150", "r_label": "các phân khu hành chính"}
+{"s_qid": "Q127676", "s_label": "Trøndelag", "o_qid": "Q494688", "o_label": "Fosnes", "start": null, "end": 2019, "relation": "P150", "r_label": "các phân khu hành chính"}
+{"s_qid": "Q127676", "s_label": "Trøndelag", "o_qid": "Q48475310", "o_label": "Heim Municipality", "start": 2020, "end": null, "relation": "P150", "r_label": "các phân khu hành chính"}
+{"s_qid": "Q127676", "s_label": "Trøndelag", "o_qid": "Q488388", "o_label": "Hemne", "start": null, "end": 2019, "relation": "P150", "r_label": "các phân khu hành chính"}
+{"s_qid": "Q127676", "s_label": "Trøndelag", "o_qid": "Q484106", "o_label": "Klæbu", "start": null, "end": 2019, "relation": "P150", "r_label": "các phân khu hành chính"}
+{"s_qid": "Q127676", "s_label": "Trøndelag", "o_qid": "Q484191", "o_label": "Meldal", "start": null, "end": 2019, "relation": "P150", "r_label": "các phân khu hành chính"}
+{"s_qid": "Q127676", "s_label": "Trøndelag", "o_qid": "Q502193", "o_label": "Namdalseid", "start": null, "end": 2019, "relation": "P150", "r_label": "các phân khu hành chính"}
+{"s_qid": "Q127676", "s_label": "Trøndelag", "o_qid": "Q488979", "o_label": "Nærøy", "start": null, "end": 2019, "relation": "P150", "r_label": "các phân khu hành chính"}
+{"s_qid": "Q127676", "s_label": "Trøndelag", "o_qid": "Q52368284", "o_label": "Nærøysund Municipality", "start": 2020, "end": null, "relation": "P150", "r_label": "các phân khu hành chính"}
+{"s_qid": "Q127676", "s_label": "Trøndelag", "o_qid": "Q500284", "o_label": "Orkdal", "start": null, "end": 2019, "relation": "P150", "r_label": "các phân khu hành chính"}
+{"s_qid": "Q127676", "s_label": "Trøndelag", "o_qid": "Q41030999", "o_label": "Orkland Municipality", "start": 2020, "end": null, "relation": "P150", "r_label": "các phân khu hành chính"}
+{"s_qid": "Q127676", "s_label": "Trøndelag", "o_qid": "Q503600", "o_label": "Roan", "start": null, "end": 2019, "relation": "P150", "r_label": "các phân khu hành chính"}
+{"s_qid": "Q127676", "s_label": "Trøndelag", "o_qid": "Q48568", "o_label": "Snillfjord", "start": null, "end": 2019, "relation": "P150", "r_label": "các phân khu hành chính"}
+{"s_qid": "Q127676", "s_label": "Trøndelag", "o_qid": "Q499779", "o_label": "Verran", "start": null, "end": 2019, "relation": "P150", "r_label": "các phân khu hành chính"}
+{"s_qid": "Q127676", "s_label": "Trøndelag", "o_qid": "Q48833", "o_label": "Vikna", "start": null, "end": 2019, "relation": "P150", "r_label": "các phân khu hành chính"}
+{"s_qid": "Q1270623", "s_label": "Meurthe", "o_qid": "Q40898", "o_label": "Nancy", "start": 1790, "end": 1871, "relation": "P150", "r_label": "các phân khu hành chính"}
+{"s_qid": "Q2900529", "s_label": "Bezirk Lothringen", "o_qid": "Q22690", "o_label": "Metz", "start": 1871, "end": 1920, "relation": "P150", "r_label": "các phân khu hành chính"}
+{"s_qid": "Q12488348", "s_label": "North Maluku", "o_qid": "Q3705089", "o_label": "Galela", "start": null, "end": 2003, "relation": "P150", "r_label": "các phân khu hành chính"}
+{"s_qid": "Q12488348", "s_label": "North Maluku", "o_qid": "Q3113814", "o_label": "Kao", "start": null, "end": 2003, "relation": "P150", "r_label": "các phân khu hành chính"}
+{"s_qid": "Q106596101", "s_label": "Alkmaar", "o_qid": "Q972", "o_label": "Alkmaar", "start": 1848, "end": 1918, "relation": "P150", "r_label": "các phân khu hành chính"}
+{"s_qid": "Q106596101", "s_label": "Alkmaar", "o_qid": "Q211260", "o_label": "Zaandam", "start": 1850, "end": 1887, "relation": "P150", "r_label": "các phân khu hành chính"}
+{"s_qid": "Q701", "s_label": "Noord-Holland", "o_qid": "Q9909", "o_label": "Bussum", "start": null, "end": 2016, "relation": "P150", "r_label": "các phân khu hành chính"}
+{"s_qid": "Q770", "s_label": "Fryslân", "o_qid": "Q2114866", "o_label": "De Fryske Marren", "start": 2014, "end": null, "relation": "P150", "r_label": "các phân khu hành chính"}
+{"s_qid": "Q770", "s_label": "Fryslân", "o_qid": "Q27526271", "o_label": "Waadhoeke", "start": 2018, "end": null, "relation": "P150", "r_label": "các phân khu hành chính"}
+{"s_qid": "Q770", "s_label": "Fryslân", "o_qid": "Q29509979", "o_label": "Noardeast-Fryslân", "start": 2019, "end": null, "relation": "P150", "r_label": "các phân khu hành chính"}
+{"s_qid": "Q770", "s_label": "Fryslân", "o_qid": "Q851310", "o_label": "Littenseradiel", "start": null, "end": 2018, "relation": "P150", "r_label": "các phân khu hành chính"}
+{"s_qid": "Q770", "s_label": "Fryslân", "o_qid": "Q851299", "o_label": "Dongeradeel", "start": null, "end": 2019, "relation": "P150", "r_label": "các phân khu hành chính"}
+{"s_qid": "Q5841", "s_label": "Nias", "o_qid": "Q4191025", "o_label": "Gomo", "start": null, "end": 2003, "relation": "P150", "r_label": "các phân khu hành chính"}
+{"s_qid": "Q5841", "s_label": "Nias", "o_qid": "Q4191212", "o_label": "Pulau-Pulau Batu", "start": null, "end": 2003, "relation": "P150", "r_label": "các phân khu hành chính"}
+{"s_qid": "Q5841", "s_label": "Nias", "o_qid": "Q4264499", "o_label": "Lolowa'u", "start": null, "end": 2003, "relation": "P150", "r_label": "các phân khu hành chính"}
+{"s_qid": "Q5841", "s_label": "Nias", "o_qid": "Q4191578", "o_label": "Mandrehe", "start": null, "end": 2008, "relation": "P150", "r_label": "các phân khu hành chính"}
+{"s_qid": "Q5841", "s_label": "Nias", "o_qid": "Q4191144", "o_label": "Lolofitu Moi", "start": null, "end": 2008, "relation": "P150", "r_label": "các phân khu hành chính"}
+{"s_qid": "Q12543", "s_label": "Hauts-de-Seine", "o_qid": "Q135265", "o_label": "Issy-les-Moulineaux", "start": 1968, "end": null, "relation": "P150", "r_label": "các phân khu hành chính"}
+{"s_qid": "Q12543", "s_label": "Hauts-de-Seine", "o_qid": "Q234735", "o_label": "Meudon", "start": 1968, "end": null, "relation": "P150", "r_label": "các phân khu hành chính"}
+{"s_qid": "Q12626", "s_label": "Meurthe-et-Moselle", "o_qid": "Q40898", "o_label": "Nancy", "start": 1871, "end": null, "relation": "P150", "r_label": "các phân khu hành chính"}
+{"s_qid": "Q50614", "s_label": "Østfold", "o_qid": "Q109469", "o_label": "Askim Municipality", "start": null, "end": 2019, "relation": "P150", "r_label": "các phân khu hành chính"}
+{"s_qid": "Q50614", "s_label": "Østfold", "o_qid": "Q113740", "o_label": "Eidsberg", "start": null, "end": 2019, "relation": "P150", "r_label": "các phân khu hành chính"}
+{"s_qid": "Q50614", "s_label": "Østfold", "o_qid": "Q109475", "o_label": "Hobøl", "start": null, "end": 2019, "relation": "P150", "r_label": "các phân khu hành chính"}
+{"s_qid": "Q50614", "s_label": "Østfold", "o_qid": "Q42293305", "o_label": "Indre Østfold Municipality", "start": 2024, "end": null, "relation": "P150", "r_label": "các phân khu hành chính"}
+{"s_qid": "Q50614", "s_label": "Østfold", "o_qid": "Q486696", "o_label": "Rygge", "start": null, "end": 2019, "relation": "P150", "r_label": "các phân khu hành chính"}
+{"s_qid": "Q50614", "s_label": "Østfold", "o_qid": "Q113622", "o_label": "Rømskog", "start": null, "end": 2019, "relation": "P150", "r_label": "các phân khu hành chính"}
+{"s_qid": "Q50614", "s_label": "Østfold", "o_qid": "Q48668", "o_label": "Spydeberg", "start": null, "end": 2019, "relation": "P150", "r_label": "các phân khu hành chính"}
+{"s_qid": "Q50614", "s_label": "Østfold", "o_qid": "Q48678", "o_label": "Trøgstad", "start": null, "end": 2019, "relation": "P150", "r_label": "các phân khu hành chính"}
+{"s_qid": "Q55304", "s_label": "American occupation zone in Germany", "o_qid": "Q690821", "o_label": "Republic of Baden", "start": null, "end": 1945, "relation": "P150", "r_label": "các phân khu hành chính"}
+{"s_qid": "Q586704", "s_label": "Eurometropolis of Strasbourg", "o_qid": "Q6602", "o_label": "Strasbourg", "start": 1967, "end": null, "relation": "P150", "r_label": "các phân khu hành chính"}
+{"s_qid": "Q2236821", "s_label": "Rhône-et-Loire", "o_qid": "Q42716", "o_label": "Saint-Étienne", "start": 1790, "end": 1793, "relation": "P150", "r_label": "các phân khu hành chính"}
+{"s_qid": "Q20", "s_label": "Na Uy", "o_qid": "Q50617", "o_label": "Oppland", "start": null, "end": 2019, "relation": "P150", "r_label": "các phân khu hành chính"}
+{"s_qid": "Q20", "s_label": "Na Uy", "o_qid": "Q127676", "o_label": "Trøndelag", "start": 2018, "end": null, "relation": "P150", "r_label": "các phân khu hành chính"}
+{"s_qid": "Q20", "s_label": "Na Uy", "o_qid": "Q56407178", "o_label": "Viken", "start": 2020, "end": 2023, "relation": "P150", "r_label": "các phân khu hành chính"}
+{"s_qid": "Q20", "s_label": "Na Uy", "o_qid": "Q56404886", "o_label": "Innlandet", "start": 2020, "end": null, "relation": "P150", "r_label": "các phân khu hành chính"}
+{"s_qid": "Q20", "s_label": "Na Uy", "o_qid": "Q56405721", "o_label": "Vestfold og Telemark", "start": 2020, "end": 2023, "relation": "P150", "r_label": "các phân khu hành chính"}
+{"s_qid": "Q20", "s_label": "Na Uy", "o_qid": "Q56407177", "o_label": "Vestland", "start": 2020, "end": null, "relation": "P150", "r_label": "các phân khu hành chính"}
+{"s_qid": "Q20", "s_label": "Na Uy", "o_qid": "Q52600648", "o_label": "Troms og Finnmark", "start": 2020, "end": 2023, "relation": "P150", "r_label": "các phân khu hành chính"}
+{"s_qid": "Q35", "s_label": "Đan Mạch", "o_qid": "Q26073", "o_label": "Vùng thủ đô Đan Mạch", "start": 2007, "end": null, "relation": "P150", "r_label": "các phân khu hành chính"}
+{"s_qid": "Q752", "s_label": "Groningen", "o_qid": "Q1347872", "o_label": "Oldambt", "start": 2010, "end": null, "relation": "P150", "r_label": "các phân khu hành chính"}
+{"s_qid": "Q752", "s_label": "Groningen", "o_qid": "Q27959423", "o_label": "Het Hogeland", "start": 2019, "end": null, "relation": "P150", "r_label": "các phân khu hành chính"}
+{"s_qid": "Q752", "s_label": "Groningen", "o_qid": "Q23987486", "o_label": "Midden-Groningen", "start": 2018, "end": null, "relation": "P150", "r_label": "các phân khu hành chính"}
+{"s_qid": "Q752", "s_label": "Groningen", "o_qid": "Q30011757", "o_label": "Westerkwartier", "start": 2019, "end": null, "relation": "P150", "r_label": "các phân khu hành chính"}
+{"s_qid": "Q752", "s_label": "Groningen", "o_qid": "Q840663", "o_label": "De Marne", "start": null, "end": 2019, "relation": "P150", "r_label": "các phân khu hành chính"}
+{"s_qid": "Q752", "s_label": "Groningen", "o_qid": "Q1025079", "o_label": "Winsum", "start": null, "end": 2019, "relation": "P150", "r_label": "các phân khu hành chính"}
+{"s_qid": "Q752", "s_label": "Groningen", "o_qid": "Q210234", "o_label": "Zuidhorn", "start": null, "end": 2019, "relation": "P150", "r_label": "các phân khu hành chính"}
+{"s_qid": "Q1197", "s_label": "Niedersachsen", "o_qid": "Q3033", "o_label": "Göttingen", "start": null, "end": 1964, "relation": "P150", "r_label": "các phân khu hành chính"}
+{"s_qid": "Q1197", "s_label": "Niedersachsen", "o_qid": "Q1715", "o_label": "Hannover", "start": null, "end": 2001, "relation": "P150", "r_label": "các phân khu hành chính"}
+{"s_qid": "Q12820", "s_label": "Yvelines", "o_qid": "Q621", "o_label": "Versailles", "start": 1968, "end": null, "relation": "P150", "r_label": "các phân khu hành chính"}
+{"s_qid": "Q12820", "s_label": "Yvelines", "o_qid": "Q185075", "o_label": "Saint-Germain-en-Laye", "start": 1968, "end": null, "relation": "P150", "r_label": "các phân khu hành chính"}
+{"s_qid": "Q15180", "s_label": "Liên Xô", "o_qid": "Q2184", "o_label": "Cộng hòa Xã hội chủ nghĩa Xô viết Liên bang Nga", "start": 1922, "end": 1991, "relation": "P150", "r_label": "các phân khu hành chính"}
+{"s_qid": "Q15180", "s_label": "Liên Xô", "o_qid": "Q133356", "o_label": "Cộng hòa Xã hội chủ nghĩa Xô viết Ukraina", "start": 1922, "end": 1991, "relation": "P150", "r_label": "các phân khu hành chính"}
+{"s_qid": "Q15180", "s_label": "Liên Xô", "o_qid": "Q2895", "o_label": "Cộng hòa Xã hội chủ nghĩa Xô viết Belorussia", "start": 1922, "end": 1991, "relation": "P150", "r_label": "các phân khu hành chính"}
+{"s_qid": "Q15180", "s_label": "Liên Xô", "o_qid": "Q132856", "o_label": "Cộng hòa Xã hội chủ nghĩa Xô viết Armenia", "start": 1936, "end": 1991, "relation": "P150", "r_label": "các phân khu hành chính"}
+{"s_qid": "Q15180", "s_label": "Liên Xô", "o_qid": "Q130229", "o_label": "Cộng hòa Xã hội chủ nghĩa Xô viết Gruzia", "start": 1936, "end": 1991, "relation": "P150", "r_label": "các phân khu hành chính"}
+{"s_qid": "Q15180", "s_label": "Liên Xô", "o_qid": "Q131337", "o_label": "Cộng hòa Xã hội chủ nghĩa Xô viết Azerbaijan", "start": 1936, "end": 1991, "relation": "P150", "r_label": "các phân khu hành chính"}
+{"s_qid": "Q15180", "s_label": "Liên Xô", "o_qid": "Q173761", "o_label": "Cộng hòa Xã hội chủ nghĩa Xô viết Litva", "start": 1940, "end": 1991, "relation": "P150", "r_label": "các phân khu hành chính"}
+{"s_qid": "Q15180", "s_label": "Liên Xô", "o_qid": "Q192180", "o_label": "Cộng hòa Xã hội chủ nghĩa Xô viết Latvia", "start": 1940, "end": 1991, "relation": "P150", "r_label": "các phân khu hành chính"}
+{"s_qid": "Q15180", "s_label": "Liên Xô", "o_qid": "Q130280", "o_label": "Cộng hòa Xã hội chủ nghĩa Xô viết Estonia", "start": 1940, "end": 1991, "relation": "P150", "r_label": "các phân khu hành chính"}
+{"s_qid": "Q15180", "s_label": "Liên Xô", "o_qid": "Q170895", "o_label": "Cộng hòa Xã hội chủ nghĩa Xô viết Moldavia", "start": 1940, "end": 1991, "relation": "P150", "r_label": "các phân khu hành chính"}
+{"s_qid": "Q15180", "s_label": "Liên Xô", "o_qid": "Q130276", "o_label": "Cộng hoà Xã hội chủ nghĩa Xô viết Kirghizia", "start": 1936, "end": 1991, "relation": "P150", "r_label": "các phân khu hành chính"}
+{"s_qid": "Q15180", "s_label": "Liên Xô", "o_qid": "Q484578", "o_label": "Cộng hòa Xã hội chủ nghĩa Xô viết Uzbekistan", "start": 1924, "end": 1991, "relation": "P150", "r_label": "các phân khu hành chính"}
+{"s_qid": "Q15180", "s_label": "Liên Xô", "o_qid": "Q199707", "o_label": "Cộng hòa Xã hội chủ nghĩa Xô viết Turkmenia", "start": 1924, "end": 1991, "relation": "P150", "r_label": "các phân khu hành chính"}
+{"s_qid": "Q15180", "s_label": "Liên Xô", "o_qid": "Q199711", "o_label": "Cộng hòa Xã hội chủ nghĩa Xô viết Tajikistan", "start": 1929, "end": 1991, "relation": "P150", "r_label": "các phân khu hành chính"}
+{"s_qid": "Q50632", "s_label": "Finnmark", "o_qid": "Q493007", "o_label": "Kvalsund", "start": null, "end": 2019, "relation": "P150", "r_label": "các phân khu hành chính"}
+{"s_qid": "Q979470", "s_label": "Seine-et-Oise", "o_qid": "Q621", "o_label": "Versailles", "start": 1790, "end": 1968, "relation": "P150", "r_label": "các phân khu hành chính"}
+{"s_qid": "Q979470", "s_label": "Seine-et-Oise", "o_qid": "Q185075", "o_label": "Saint-Germain-en-Laye", "start": 1790, "end": 1968, "relation": "P150", "r_label": "các phân khu hành chính"}
+{"s_qid": "Q979470", "s_label": "Seine-et-Oise", "o_qid": "Q234735", "o_label": "Meudon", "start": 1790, "end": 1968, "relation": "P150", "r_label": "các phân khu hành chính"}
+{"s_qid": "Q1189121", "s_label": "tỉnh Tokyo", "o_qid": "Q1207735", "o_label": "Thành phố Tokyo", "start": 1889, "end": null, "relation": "P150", "r_label": "các phân khu hành chính"}
+{"s_qid": "Q2150573", "s_label": "Unterelsaß", "o_qid": "Q6602", "o_label": "Strasbourg", "start": null, "end": 1920, "relation": "P150", "r_label": "các phân khu hành chính"}
+{"s_qid": "Q16", "s_label": "Canada", "o_qid": "Q1948", "o_label": "Manitoba", "start": 1870, "end": null, "relation": "P150", "r_label": "các phân khu hành chính"}
+{"s_qid": "Q16", "s_label": "Canada", "o_qid": "Q2003", "o_label": "Newfoundland và Labrador", "start": 1949, "end": null, "relation": "P150", "r_label": "các phân khu hành chính"}
+{"s_qid": "Q16", "s_label": "Canada", "o_qid": "Q1989", "o_label": "Saskatchewan", "start": 1905, "end": null, "relation": "P150", "r_label": "các phân khu hành chính"}
+{"s_qid": "Q16", "s_label": "Canada", "o_qid": "Q1951", "o_label": "Alberta", "start": 1905, "end": null, "relation": "P150", "r_label": "các phân khu hành chính"}
+{"s_qid": "Q16", "s_label": "Canada", "o_qid": "Q2007", "o_label": "Các Lãnh thổ Tây Bắc", "start": 1870, "end": null, "relation": "P150", "r_label": "các phân khu hành chính"}
+{"s_qid": "Q16", "s_label": "Canada", "o_qid": "Q1973", "o_label": "British Columbia", "start": 1871, "end": null, "relation": "P150", "r_label": "các phân khu hành chính"}
+{"s_qid": "Q134542820", "s_label": "electoral district Amersfoort", "o_qid": "Q992", "o_label": "Amersfoort", "start": 1848, "end": 1918, "relation": "P150", "r_label": "các phân khu hành chính"}
+{"s_qid": "Q134542820", "s_label": "electoral district Amersfoort", "o_qid": "Q10027", "o_label": "Baarn", "start": 1848, "end": 1918, "relation": "P150", "r_label": "các phân khu hành chính"}
+{"s_qid": "Q134542820", "s_label": "electoral district Amersfoort", "o_qid": "Q9906", "o_label": "Blaricum", "start": 1850, "end": 1878, "relation": "P150", "r_label": "các phân khu hành chính"}
+{"s_qid": "Q134542820", "s_label": "electoral district Amersfoort", "o_qid": "Q9934", "o_label": "Hilversum", "start": 1850, "end": 1878, "relation": "P150", "r_label": "các phân khu hành chính"}
+{"s_qid": "Q134542820", "s_label": "electoral district Amersfoort", "o_qid": "Q10056", "o_label": "Zeist", "start": 1848, "end": 1850, "relation": "P150", "r_label": "các phân khu hành chính"}
+{"s_qid": "Q134542820", "s_label": "electoral district Amersfoort", "o_qid": "Q10056", "o_label": "Zeist", "start": 1888, "end": 1918, "relation": "P150", "r_label": "các phân khu hành chính"}
+{"s_qid": "Q134542820", "s_label": "electoral district Amersfoort", "o_qid": "Q101918", "o_label": "Apeldoorn", "start": 1878, "end": 1887, "relation": "P150", "r_label": "các phân khu hành chính"}
+{"s_qid": "Q137924418", "s_label": "Sulawesi Selatan-Tenggara", "o_qid": "Q15363", "o_label": "Muna Regency", "start": null, "end": 1964, "relation": "P150", "r_label": "các phân khu hành chính"}
+{"s_qid": "Q137924418", "s_label": "Sulawesi Selatan-Tenggara", "o_qid": "Q15357", "o_label": "Buton", "start": null, "end": 1964, "relation": "P150", "r_label": "các phân khu hành chính"}
+{"s_qid": "Q865", "s_label": "Đài Loan", "o_qid": "Q1867", "o_label": "Đài Bắc", "start": 1967, "end": null, "relation": "P150", "r_label": "các phân khu hành chính"}
+{"s_qid": "Q865", "s_label": "Đài Loan", "o_qid": "Q181557", "o_label": "Cao Hùng", "start": 1979, "end": null, "relation": "P150", "r_label": "các phân khu hành chính"}
+{"s_qid": "Q865", "s_label": "Đài Loan", "o_qid": "Q140631", "o_label": "Đài Nam", "start": 2010, "end": null, "relation": "P150", "r_label": "các phân khu hành chính"}
+{"s_qid": "Q865", "s_label": "Đài Loan", "o_qid": "Q245023", "o_label": "Đài Trung", "start": 2010, "end": null, "relation": "P150", "r_label": "các phân khu hành chính"}
+{"s_qid": "Q1196", "s_label": "Mecklenburg-Vorpommern", "o_qid": "Q1709", "o_label": "Schwerin", "start": 1990, "end": null, "relation": "P150", "r_label": "các phân khu hành chính"}
+{"s_qid": "Q1196", "s_label": "Mecklenburg-Vorpommern", "o_qid": "Q2861", "o_label": "Rostock", "start": 1990, "end": null, "relation": "P150", "r_label": "các phân khu hành chính"}
+{"s_qid": "Q2895", "s_label": "Cộng hòa Xã hội chủ nghĩa Xô viết Belorussia", "o_qid": "Q192959", "o_label": "Khu vực Minsk", "start": 1938, "end": 1991, "relation": "P150", "r_label": "các phân khu hành chính"}
+{"s_qid": "Q5914", "s_label": "Nam Tapanuli", "o_qid": "Q4190482", "o_label": "Barumun Tengah", "start": null, "end": 2007, "relation": "P150", "r_label": "các phân khu hành chính"}
+{"s_qid": "Q12208", "s_label": "Rennes Métropole", "o_qid": "Q647", "o_label": "Rennes", "start": 2000, "end": null, "relation": "P150", "r_label": "các phân khu hành chính"}
+{"s_qid": "Q12717", "s_label": "Bas-Rhin", "o_qid": "Q6602", "o_label": "Strasbourg", "start": 1920, "end": 1871, "relation": "P150", "r_label": "các phân khu hành chính"}
+{"s_qid": "Q884", "s_label": "Hàn Quốc", "o_qid": "Q8684", "o_label": "Seoul", "start": 1949, "end": null, "relation": "P150", "r_label": "các phân khu hành chính"}
+{"s_qid": "Q1462", "s_label": "Sardegna", "o_qid": "Q16149", "o_label": "Cagliari", "start": 1859, "end": 2016, "relation": "P150", "r_label": "các phân khu hành chính"}
+{"s_qid": "Q1462", "s_label": "Sardegna", "o_qid": "Q16220", "o_label": "Nuoro", "start": 1927, "end": null, "relation": "P150", "r_label": "các phân khu hành chính"}
+{"s_qid": "Q1462", "s_label": "Sardegna", "o_qid": "Q16225", "o_label": "Oristano", "start": 1974, "end": null, "relation": "P150", "r_label": "các phân khu hành chính"}
+{"s_qid": "Q1462", "s_label": "Sardegna", "o_qid": "Q16272", "o_label": "Sassari", "start": 1859, "end": null, "relation": "P150", "r_label": "các phân khu hành chính"}
+{"s_qid": "Q1462", "s_label": "Sardegna", "o_qid": "Q23498165", "o_label": "Sud Sardegna", "start": 2016, "end": null, "relation": "P150", "r_label": "các phân khu hành chính"}
+{"s_qid": "Q12652", "s_label": "Moselle", "o_qid": "Q22690", "o_label": "Metz", "start": 1790, "end": 1871, "relation": "P150", "r_label": "các phân khu hành chính"}
+{"s_qid": "Q12722", "s_label": "Haut-Rhin", "o_qid": "Q79815", "o_label": "Mulhouse", "start": 1798, "end": 1871, "relation": "P150", "r_label": "các phân khu hành chính"}
+{"s_qid": "Q12722", "s_label": "Haut-Rhin", "o_qid": "Q83485", "o_label": "Kaysersberg", "start": 1790, "end": 1871, "relation": "P150", "r_label": "các phân khu hành chính"}
+{"s_qid": "Q27529", "s_label": "Jayawijaya", "o_qid": "Q4191648", "o_label": "Kurima", "start": null, "end": 2002, "relation": "P150", "r_label": "các phân khu hành chính"}
+{"s_qid": "Q27529", "s_label": "Jayawijaya", "o_qid": "Q7475954", "o_label": "Anggruk", "start": null, "end": 2002, "relation": "P150", "r_label": "các phân khu hành chính"}
+{"s_qid": "Q27529", "s_label": "Jayawijaya", "o_qid": "Q12521590", "o_label": "Tiom", "start": null, "end": 2008, "relation": "P150", "r_label": "các phân khu hành chính"}
+{"s_qid": "Q27529", "s_label": "Jayawijaya", "o_qid": "Q4192526", "o_label": "Pirime", "start": null, "end": 2008, "relation": "P150", "r_label": "các phân khu hành chính"}
+{"s_qid": "Q27529", "s_label": "Jayawijaya", "o_qid": "Q12496233", "o_label": "Makki", "start": null, "end": 2008, "relation": "P150", "r_label": "các phân khu hành chính"}
+{"s_qid": "Q27529", "s_label": "Jayawijaya", "o_qid": "Q11214024", "o_label": "Gamelia", "start": null, "end": 2008, "relation": "P150", "r_label": "các phân khu hành chính"}
+{"s_qid": "Q27529", "s_label": "Jayawijaya", "o_qid": "Q12473808", "o_label": "Balingga", "start": null, "end": 2008, "relation": "P150", "r_label": "các phân khu hành chính"}
+{"s_qid": "Q50631", "s_label": "Troms", "o_qid": "Q503912", "o_label": "Berg, Na Uy", "start": null, "end": 2019, "relation": "P150", "r_label": "các phân khu hành chính"}
+{"s_qid": "Q50631", "s_label": "Troms", "o_qid": "Q499770", "o_label": "Lenvik", "start": null, "end": 2019, "relation": "P150", "r_label": "các phân khu hành chính"}
+{"s_qid": "Q50631", "s_label": "Troms", "o_qid": "Q56249968", "o_label": "Senja Municipality", "start": 2024, "end": null, "relation": "P150", "r_label": "các phân khu hành chính"}
+{"s_qid": "Q50631", "s_label": "Troms", "o_qid": "Q490038", "o_label": "Skånland", "start": null, "end": 2019, "relation": "P150", "r_label": "các phân khu hành chính"}
+{"s_qid": "Q50631", "s_label": "Troms", "o_qid": "Q48801", "o_label": "Tjeldsund", "start": 2024, "end": null, "relation": "P150", "r_label": "các phân khu hành chính"}
+{"s_qid": "Q50631", "s_label": "Troms", "o_qid": "Q48581", "o_label": "Torsken", "start": null, "end": 2019, "relation": "P150", "r_label": "các phân khu hành chính"}
+{"s_qid": "Q50631", "s_label": "Troms", "o_qid": "Q48597", "o_label": "Tranøy", "start": null, "end": 2019, "relation": "P150", "r_label": "các phân khu hành chính"}
+{"s_qid": "Q151624", "s_label": "Liên minh các quốc gia Đức", "o_qid": "Q32", "o_label": "Luxembourg", "start": 1815, "end": 1866, "relation": "P150", "r_label": "các phân khu hành chính"}
+{"s_qid": "Q151624", "s_label": "Liên minh các quốc gia Đức", "o_qid": "Q347", "o_label": "Liechtenstein", "start": 1815, "end": 1866, "relation": "P150", "r_label": "các phân khu hành chính"}
+{"s_qid": "Q151624", "s_label": "Liên minh các quốc gia Đức", "o_qid": "Q27306", "o_label": "Vương quốc Phổ", "start": 1815, "end": 1866, "relation": "P150", "r_label": "các phân khu hành chính"}
+{"s_qid": "Q151624", "s_label": "Liên minh các quốc gia Đức", "o_qid": "Q131964", "o_label": "Đế quốc Áo", "start": 1815, "end": 1866, "relation": "P150", "r_label": "các phân khu hành chính"}
+{"s_qid": "Q151624", "s_label": "Liên minh các quốc gia Đức", "o_qid": "Q533534", "o_label": "Cisleithania", "start": 1815, "end": 1866, "relation": "P150", "r_label": "các phân khu hành chính"}
+{"s_qid": "Q151624", "s_label": "Liên minh các quốc gia Đức", "o_qid": "Q153015", "o_label": "Vương quốc Sachsen", "start": 1815, "end": 1866, "relation": "P150", "r_label": "các phân khu hành chính"}
+{"s_qid": "Q151624", "s_label": "Liên minh các quốc gia Đức", "o_qid": "Q164079", "o_label": "Vương quốc Hannover", "start": 1815, "end": 1866, "relation": "P150", "r_label": "các phân khu hành chính"}
+{"s_qid": "Q151624", "s_label": "Liên minh các quốc gia Đức", "o_qid": "Q159631", "o_label": "Vương quốc Württemberg", "start": 1815, "end": 1866, "relation": "P150", "r_label": "các phân khu hành chính"}
+{"s_qid": "Q151624", "s_label": "Liên minh các quốc gia Đức", "o_qid": "Q186320", "o_label": "Đại Công quốc Baden", "start": 1815, "end": 1866, "relation": "P150", "r_label": "các phân khu hành chính"}
+{"s_qid": "Q16665897", "s_label": "Metropolis of Lyon", "o_qid": "Q456", "o_label": "Lyon", "start": 2015, "end": null, "relation": "P150", "r_label": "các phân khu hành chính"}
+{"s_qid": "Q16665897", "s_label": "Metropolis of Lyon", "o_qid": "Q123852858", "o_label": "Oullins-Pierre-Bénite", "start": 2024, "end": null, "relation": "P150", "r_label": "các phân khu hành chính"}

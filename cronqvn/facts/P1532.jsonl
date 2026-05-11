@@ -1,0 +1,5 @@
+{"s_qid": "Q1131732", "s_label": "Đội tuyển bóng đá quốc gia Serbia và Montenegro", "o_qid": "Q838261", "o_label": "Federal Republic of Yugoslavia", "start": 1992, "end": 2003, "relation": "P1532", "r_label": "quốc gia trong thể thao"}
+{"s_qid": "Q1131732", "s_label": "Đội tuyển bóng đá quốc gia Serbia và Montenegro", "o_qid": "Q37024", "o_label": "Serbia và Montenegro", "start": 2003, "end": 2006, "relation": "P1532", "r_label": "quốc gia trong thể thao"}
+{"s_qid": "Q16921675", "s_label": "China Liv Pro Cycling 2022", "o_qid": "Q8646", "o_label": "Hồng Kông", "start": 2006, "end": 2022, "relation": "P1532", "r_label": "quốc gia trong thể thao"}
+{"s_qid": "Q16921675", "s_label": "China Liv Pro Cycling 2022", "o_qid": "Q148", "o_label": "Trung Quốc", "start": 2023, "end": null, "relation": "P1532", "r_label": "quốc gia trong thể thao"}
+{"s_qid": "Q457732", "s_label": "Kevin Reynolds", "o_qid": "Q16", "o_label": "Canada", "start": 1994, "end": null, "relation": "P1532", "r_label": "quốc gia trong thể thao"}

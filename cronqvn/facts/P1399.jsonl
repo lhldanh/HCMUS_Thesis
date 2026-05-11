@@ -1,0 +1,11 @@
+{"s_qid": "Q2105", "s_label": "Jacques Chirac", "o_qid": "Q157833", "o_label": "tham ô", "start": 2009, "end": 2009, "relation": "P1399", "r_label": "bị kết án"}
+{"s_qid": "Q80504", "s_label": "Nicolae Ceauşescu", "o_qid": "Q157833", "o_label": "tham ô", "start": 1989, "end": 1989, "relation": "P1399", "r_label": "bị kết án"}
+{"s_qid": "Q37181", "s_label": "Luiz Inácio Lula da Silva", "o_qid": "Q151900", "o_label": "Rửa tiền", "start": 2017, "end": 2017, "relation": "P1399", "r_label": "bị kết án"}
+{"s_qid": "Q37181", "s_label": "Luiz Inácio Lula da Silva", "o_qid": "Q151900", "o_label": "Rửa tiền", "start": 2018, "end": 2018, "relation": "P1399", "r_label": "bị kết án"}
+{"s_qid": "Q329", "s_label": "Nicolas Sarkozy", "o_qid": "Q3627314", "o_label": "conspiracy to commit a crime", "start": 2025, "end": 2025, "relation": "P1399", "r_label": "bị kết án"}
+{"s_qid": "Q47906", "s_label": "Hermann Göring", "o_qid": "Q173462", "o_label": "tội ác chống lại loài người", "start": 1946, "end": 1946, "relation": "P1399", "r_label": "bị kết án"}
+{"s_qid": "Q47906", "s_label": "Hermann Göring", "o_qid": "Q135010", "o_label": "tội ác chiến tranh", "start": 1946, "end": 1946, "relation": "P1399", "r_label": "bị kết án"}
+{"s_qid": "Q69475", "s_label": "Karl-Heinz Moehle", "o_qid": "Q135010", "o_label": "tội ác chiến tranh", "start": 1946, "end": 1946, "relation": "P1399", "r_label": "bị kết án"}
+{"s_qid": "Q11860", "s_label": "Silvio Berlusconi", "o_qid": "Q157833", "o_label": "tham ô", "start": 2013, "end": 2013, "relation": "P1399", "r_label": "bị kết án"}
+{"s_qid": "Q44496", "s_label": "Andrei Chikatilo", "o_qid": "Q132821", "o_label": "giết người", "start": 1992, "end": 1992, "relation": "P1399", "r_label": "bị kết án"}
+{"s_qid": "Q44496", "s_label": "Andrei Chikatilo", "o_qid": "Q2727213", "o_label": "trộm cắp", "start": 1984, "end": 1984, "relation": "P1399", "r_label": "bị kết án"}

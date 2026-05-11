@@ -1,0 +1,5 @@
+{"s_qid": "Q9696", "s_label": "John F. Kennedy", "o_qid": "Q216344", "o_label": "Nghĩa trang quốc gia Arlington", "start": 1963, "end": 1963, "relation": "P119", "r_label": "nơi chôn cất"}
+{"s_qid": "Q7416", "s_label": "Margaret Thatcher", "o_qid": "Q1628509", "o_label": "Royal Hospital Chelsea", "start": 2013, "end": 2013, "relation": "P119", "r_label": "nơi chôn cất"}
+{"s_qid": "Q312348", "s_label": "Thurgood Marshall", "o_qid": "Q216344", "o_label": "Nghĩa trang quốc gia Arlington", "start": 1993, "end": 1993, "relation": "P119", "r_label": "nơi chôn cất"}
+{"s_qid": "Q25320", "s_label": "Paul Langevin", "o_qid": "Q311", "o_label": "Nghĩa trang Père-Lachaise", "start": 1946, "end": 1948, "relation": "P119", "r_label": "nơi chôn cất"}
+{"s_qid": "Q170467", "s_label": "Felipe V của Tây Ban Nha", "o_qid": "Q1540732", "o_label": "Royal Palace of La Granja de San Ildefonso", "start": 1746, "end": 1758, "relation": "P119", "r_label": "nơi chôn cất"}

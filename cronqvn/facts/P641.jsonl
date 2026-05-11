@@ -1,0 +1,12 @@
+{"s_qid": "Q931714", "s_label": "Jönköpings Södra IF", "o_qid": "Q2736", "o_label": "bóng đá", "start": 1923, "end": null, "relation": "P641", "r_label": "môn thể thao"}
+{"s_qid": "Q701290", "s_label": "SSV Ulm 1846", "o_qid": "Q2736", "o_label": "bóng đá", "start": 1970, "end": 2009, "relation": "P641", "r_label": "môn thể thao"}
+{"s_qid": "Q725332", "s_label": "GIF Sundsvall", "o_qid": "Q2736", "o_label": "bóng đá", "start": 1903, "end": null, "relation": "P641", "r_label": "môn thể thao"}
+{"s_qid": "Q896965", "s_label": "Bradford Park Avenue A.F.C.", "o_qid": "Q2736", "o_label": "bóng đá", "start": 1907, "end": null, "relation": "P641", "r_label": "môn thể thao"}
+{"s_qid": "Q896965", "s_label": "Bradford Park Avenue A.F.C.", "o_qid": "Q10962", "o_label": "bóng bầu dục liên minh", "start": 1895, "end": 1907, "relation": "P641", "r_label": "môn thể thao"}
+{"s_qid": "Q896965", "s_label": "Bradford Park Avenue A.F.C.", "o_qid": "Q5849", "o_label": "bóng bầu dục liên hiệp", "start": 1863, "end": 1895, "relation": "P641", "r_label": "môn thể thao"}
+{"s_qid": "Q29207", "s_label": "Sauli Niinistö", "o_qid": "Q2736", "o_label": "bóng đá", "start": 2009, "end": 2012, "relation": "P641", "r_label": "môn thể thao"}
+{"s_qid": "Q639560", "s_label": "Tennis Borussia Berlin", "o_qid": "Q2736", "o_label": "bóng đá", "start": 1903, "end": null, "relation": "P641", "r_label": "môn thể thao"}
+{"s_qid": "Q639560", "s_label": "Tennis Borussia Berlin", "o_qid": "Q5849", "o_label": "bóng bầu dục liên hiệp", "start": 1928, "end": 1936, "relation": "P641", "r_label": "môn thể thao"}
+{"s_qid": "Q1210267", "s_label": "Wigan Warriors", "o_qid": "Q10962", "o_label": "bóng bầu dục liên minh", "start": 1895, "end": null, "relation": "P641", "r_label": "môn thể thao"}
+{"s_qid": "Q1210267", "s_label": "Wigan Warriors", "o_qid": "Q5849", "o_label": "bóng bầu dục liên hiệp", "start": 1886, "end": 1895, "relation": "P641", "r_label": "môn thể thao"}
+{"s_qid": "Q1134319", "s_label": "St Helens RLFC", "o_qid": "Q10962", "o_label": "bóng bầu dục liên minh", "start": 1895, "end": null, "relation": "P641", "r_label": "môn thể thao"}

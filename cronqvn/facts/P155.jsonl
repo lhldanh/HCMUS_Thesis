@@ -1,0 +1,48 @@
+{"s_qid": "Q103717", "s_label": "Rovaniemi", "o_qid": "Q970512", "o_label": "Rovaniemen maalaiskunta", "start": 2006, "end": null, "relation": "P155", "r_label": "phần tiếp theo của"}
+{"s_qid": "Q123207578", "s_label": "Indiana University Indianapolis", "o_qid": "Q1433199", "o_label": "Indiana University – Purdue University Indianapolis", "start": 2024, "end": 2024, "relation": "P155", "r_label": "phần tiếp theo của"}
+{"s_qid": "Q134620", "s_label": "Jyväskylä", "o_qid": "Q999242", "o_label": "Jyväskylän", "start": 2009, "end": null, "relation": "P155", "r_label": "phần tiếp theo của"}
+{"s_qid": "Q1010550", "s_label": "Pargas", "o_qid": "Q13405837", "o_label": "Pargas", "start": 2009, "end": null, "relation": "P155", "r_label": "phần tiếp theo của"}
+{"s_qid": "Q1010550", "s_label": "Pargas", "o_qid": "Q1025722", "o_label": "Houtskär", "start": 2009, "end": null, "relation": "P155", "r_label": "phần tiếp theo của"}
+{"s_qid": "Q1010550", "s_label": "Pargas", "o_qid": "Q1025692", "o_label": "Iniö", "start": 2009, "end": null, "relation": "P155", "r_label": "phần tiếp theo của"}
+{"s_qid": "Q1010550", "s_label": "Pargas", "o_qid": "Q305440", "o_label": "Korpo", "start": 2009, "end": null, "relation": "P155", "r_label": "phần tiếp theo của"}
+{"s_qid": "Q1010550", "s_label": "Pargas", "o_qid": "Q203512", "o_label": "Nagu", "start": 2009, "end": null, "relation": "P155", "r_label": "phần tiếp theo của"}
+{"s_qid": "Q1999970", "s_label": "Upper Alsace", "o_qid": "Q12722", "o_label": "Haut-Rhin", "start": 1871, "end": 1871, "relation": "P155", "r_label": "phần tiếp theo của"}
+{"s_qid": "Q159", "s_label": "Nga", "o_qid": "Q2184", "o_label": "Cộng hòa Xã hội chủ nghĩa Xô viết Liên bang Nga", "start": 1991, "end": 1991, "relation": "P155", "r_label": "phần tiếp theo của"}
+{"s_qid": "Q408", "s_label": "Úc", "o_qid": "Q174193", "o_label": "Vương quốc Liên hiệp Anh và Ireland", "start": 1901, "end": 1901, "relation": "P155", "r_label": "phần tiếp theo của"}
+{"s_qid": "Q12782", "s_label": "Lãnh thổ Belfort", "o_qid": "Q12722", "o_label": "Haut-Rhin", "start": 1871, "end": 1871, "relation": "P155", "r_label": "phần tiếp theo của"}
+{"s_qid": "Q28911", "s_label": "Lahti", "o_qid": "Q369576", "o_label": "Nastola", "start": 2016, "end": null, "relation": "P155", "r_label": "phần tiếp theo của"}
+{"s_qid": "Q216790", "s_label": "Hanko", "o_qid": "Q926232", "o_label": "Bromarv", "start": 1977, "end": null, "relation": "P155", "r_label": "phần tiếp theo của"}
+{"s_qid": "Q216790", "s_label": "Hanko", "o_qid": "Q1001768", "o_label": "Tenala", "start": 1977, "end": null, "relation": "P155", "r_label": "phần tiếp theo của"}
+{"s_qid": "Q2900529", "s_label": "Bezirk Lothringen", "o_qid": "Q12652", "o_label": "Moselle", "start": 1871, "end": 1871, "relation": "P155", "r_label": "phần tiếp theo của"}
+{"s_qid": "Q2900529", "s_label": "Bezirk Lothringen", "o_qid": "Q1270623", "o_label": "Meurthe", "start": 1871, "end": 1871, "relation": "P155", "r_label": "phần tiếp theo của"}
+{"s_qid": "Q217", "s_label": "Moldova", "o_qid": "Q170895", "o_label": "Cộng hòa Xã hội chủ nghĩa Xô viết Moldavia", "start": 1991, "end": 1991, "relation": "P155", "r_label": "phần tiếp theo của"}
+{"s_qid": "Q8646", "s_label": "Hồng Kông", "o_qid": "Q1054923", "o_label": "Hồng Kông thuộc Anh", "start": null, "end": 1997, "relation": "P155", "r_label": "phần tiếp theo của"}
+{"s_qid": "Q47048", "s_label": "Oulu", "o_qid": "Q1001613", "o_label": "Ylikiiminki", "start": 2009, "end": null, "relation": "P155", "r_label": "phần tiếp theo của"}
+{"s_qid": "Q47048", "s_label": "Oulu", "o_qid": "Q985443", "o_label": "Haukipudas", "start": 2013, "end": null, "relation": "P155", "r_label": "phần tiếp theo của"}
+{"s_qid": "Q133356", "s_label": "Cộng hòa Xã hội chủ nghĩa Xô viết Ukraina", "o_qid": "Q243610", "o_label": "Cộng hòa Nhân dân Ukraina", "start": 1921, "end": 1921, "relation": "P155", "r_label": "phần tiếp theo của"}
+{"s_qid": "Q596607", "s_label": "Kimitoön", "o_qid": "Q425790", "o_label": "Kimito", "start": 2009, "end": null, "relation": "P155", "r_label": "phần tiếp theo của"}
+{"s_qid": "Q596607", "s_label": "Kimitoön", "o_qid": "Q1009619", "o_label": "Dragsfjärd", "start": 2009, "end": null, "relation": "P155", "r_label": "phần tiếp theo của"}
+{"s_qid": "Q596607", "s_label": "Kimitoön", "o_qid": "Q1641638", "o_label": "Västanfjärd", "start": 2009, "end": null, "relation": "P155", "r_label": "phần tiếp theo của"}
+{"s_qid": "Q1004838", "s_label": "Ekenäs", "o_qid": "Q838697", "o_label": "Snappertuna", "start": 1977, "end": null, "relation": "P155", "r_label": "phần tiếp theo của"}
+{"s_qid": "Q1004838", "s_label": "Ekenäs", "o_qid": "Q1001768", "o_label": "Tenala", "start": 1993, "end": null, "relation": "P155", "r_label": "phần tiếp theo của"}
+{"s_qid": "Q2150573", "s_label": "Unterelsaß", "o_qid": "Q12717", "o_label": "Bas-Rhin", "start": 1871, "end": 1871, "relation": "P155", "r_label": "phần tiếp theo của"}
+{"s_qid": "Q2150573", "s_label": "Unterelsaß", "o_qid": "Q3105", "o_label": "Vosges", "start": 1871, "end": 1871, "relation": "P155", "r_label": "phần tiếp theo của"}
+{"s_qid": "Q3551621", "s_label": "Đại học Lille", "o_qid": "Q500740", "o_label": "Lille University of Science and Technology", "start": 1970, "end": 2017, "relation": "P155", "r_label": "phần tiếp theo của"}
+{"s_qid": "Q3551621", "s_label": "Đại học Lille", "o_qid": "Q11509930", "o_label": "University Lille-II", "start": 1970, "end": 2017, "relation": "P155", "r_label": "phần tiếp theo của"}
+{"s_qid": "Q3551621", "s_label": "Đại học Lille", "o_qid": "Q1141586", "o_label": "University Lille-III", "start": 1970, "end": 2017, "relation": "P155", "r_label": "phần tiếp theo của"}
+{"s_qid": "Q3551621", "s_label": "Đại học Lille", "o_qid": "Q1322289", "o_label": "University of Lille", "start": null, "end": 2019, "relation": "P155", "r_label": "phần tiếp theo của"}
+{"s_qid": "Q6016", "s_label": "Kurikka", "o_qid": "Q5988", "o_label": "Jalasjärvi", "start": 2016, "end": null, "relation": "P155", "r_label": "phần tiếp theo của"}
+{"s_qid": "Q12717", "s_label": "Bas-Rhin", "o_qid": "Q3105", "o_label": "Vosges", "start": 1870, "end": 1870, "relation": "P155", "r_label": "phần tiếp theo của"}
+{"s_qid": "Q12717", "s_label": "Bas-Rhin", "o_qid": "Q2150573", "o_label": "Unterelsaß", "start": 1919, "end": 1919, "relation": "P155", "r_label": "phần tiếp theo của"}
+{"s_qid": "Q1001768", "s_label": "Tenala", "o_qid": "Q926232", "o_label": "Bromarv", "start": 1977, "end": null, "relation": "P155", "r_label": "phần tiếp theo của"}
+{"s_qid": "Q980", "s_label": "Bayern", "o_qid": "Q154195", "o_label": "Vương quốc Bayern", "start": 1806, "end": 1945, "relation": "P155", "r_label": "phần tiếp theo của"}
+{"s_qid": "Q12652", "s_label": "Moselle", "o_qid": "Q2900529", "o_label": "Bezirk Lothringen", "start": 1919, "end": 1919, "relation": "P155", "r_label": "phần tiếp theo của"}
+{"s_qid": "Q12722", "s_label": "Haut-Rhin", "o_qid": "Q1999970", "o_label": "Upper Alsace", "start": 1919, "end": 1919, "relation": "P155", "r_label": "phần tiếp theo của"}
+{"s_qid": "Q174193", "s_label": "Vương quốc Liên hiệp Anh và Ireland", "o_qid": "Q161885", "o_label": "Vương quốc Đại Anh", "start": 1801, "end": 1801, "relation": "P155", "r_label": "phần tiếp theo của"}
+{"s_qid": "Q633371", "s_label": "Raseborg", "o_qid": "Q1004838", "o_label": "Ekenäs", "start": 2009, "end": null, "relation": "P155", "r_label": "phần tiếp theo của"}
+{"s_qid": "Q633371", "s_label": "Raseborg", "o_qid": "Q1010030", "o_label": "Pohja", "start": 2009, "end": null, "relation": "P155", "r_label": "phần tiếp theo của"}
+{"s_qid": "Q4550895", "s_label": "15 certificate", "o_qid": "Q23301855", "o_label": "12A certificate", "start": 2002, "end": null, "relation": "P155", "r_label": "phần tiếp theo của"}
+{"s_qid": "Q4550895", "s_label": "15 certificate", "o_qid": "Q23301856", "o_label": "12 certificate", "start": 1989, "end": 2002, "relation": "P155", "r_label": "phần tiếp theo của"}
+{"s_qid": "Q4550895", "s_label": "15 certificate", "o_qid": "Q23301854", "o_label": "PG certificate", "start": 1982, "end": 1989, "relation": "P155", "r_label": "phần tiếp theo của"}
+{"s_qid": "Q4550895", "s_label": "15 certificate", "o_qid": "Q23301854", "o_label": "PG certificate", "start": 1985, "end": 1994, "relation": "P155", "r_label": "phần tiếp theo của"}
+{"s_qid": "Q4550895", "s_label": "15 certificate", "o_qid": "Q23301856", "o_label": "12 certificate", "start": 1994, "end": null, "relation": "P155", "r_label": "phần tiếp theo của"}

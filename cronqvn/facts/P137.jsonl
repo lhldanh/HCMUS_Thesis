@@ -1,0 +1,15 @@
+{"s_qid": "Q5295523", "s_label": "Doncaster Works", "o_qid": "Q181811", "o_label": "Great Northern Railway", "start": 1853, "end": 1922, "relation": "P137", "r_label": "nhà quản lý"}
+{"s_qid": "Q5295523", "s_label": "Doncaster Works", "o_qid": "Q1092839", "o_label": "London and North Eastern Railway", "start": 1923, "end": 1947, "relation": "P137", "r_label": "nhà quản lý"}
+{"s_qid": "Q181052", "s_label": "Ames Research Center", "o_qid": "Q23548", "o_label": "National Aeronautics and Space Administration", "start": 1958, "end": null, "relation": "P137", "r_label": "nhà quản lý"}
+{"s_qid": "Q4736953", "s_label": "Altoona Works", "o_qid": "Q1197895", "o_label": "Pennsylvania Railroad", "start": 1850, "end": null, "relation": "P137", "r_label": "nhà quản lý"}
+{"s_qid": "Q188915", "s_label": "Thư viện Quốc gia Israel", "o_qid": "Q174158", "o_label": "Đại học Hebrew của Jerusalem", "start": 1925, "end": 2008, "relation": "P137", "r_label": "nhà quản lý"}
+{"s_qid": "Q5261524", "s_label": "Derby Works", "o_qid": "Q1932006", "o_label": "Midland Railway", "start": 1840, "end": 1922, "relation": "P137", "r_label": "nhà quản lý"}
+{"s_qid": "Q5261524", "s_label": "Derby Works", "o_qid": "Q629139", "o_label": "London, Midland and Scottish Railway", "start": 1923, "end": 1947, "relation": "P137", "r_label": "nhà quản lý"}
+{"s_qid": "Q1577458", "s_label": "Sørlandet Line", "o_qid": "Q83825", "o_label": "Vy", "start": 1996, "end": 2019, "relation": "P137", "r_label": "nhà quản lý"}
+{"s_qid": "Q4967763", "s_label": "Brighton Works", "o_qid": "Q489565", "o_label": "London, Brighton and South Coast Railway", "start": 1846, "end": 1922, "relation": "P137", "r_label": "nhà quản lý"}
+{"s_qid": "Q4967763", "s_label": "Brighton Works", "o_qid": "Q741266", "o_label": "Southern Railway", "start": 1923, "end": 1947, "relation": "P137", "r_label": "nhà quản lý"}
+{"s_qid": "Q5184831", "s_label": "Crewe Works", "o_qid": "Q629139", "o_label": "London, Midland and Scottish Railway", "start": 1923, "end": 1947, "relation": "P137", "r_label": "nhà quản lý"}
+{"s_qid": "Q922964", "s_label": "Swindon Works", "o_qid": "Q843251", "o_label": "Great Western Railway", "start": 1843, "end": 1947, "relation": "P137", "r_label": "nhà quản lý"}
+{"s_qid": "Q922964", "s_label": "Swindon Works", "o_qid": "Q605169", "o_label": "Đường sắt Anh", "start": 1948, "end": 1986, "relation": "P137", "r_label": "nhà quản lý"}
+{"s_qid": "Q568932", "s_label": "32nd U-boat Flotilla", "o_qid": "Q151701", "o_label": "Hải quân Đức Quốc xã", "start": 1944, "end": 1945, "relation": "P137", "r_label": "nhà quản lý"}
+{"s_qid": "Q6428", "s_label": "Boeing 787 Dreamliner", "o_qid": "Q8766", "o_label": "British Airways", "start": 2013, "end": null, "relation": "P137", "r_label": "nhà quản lý"}

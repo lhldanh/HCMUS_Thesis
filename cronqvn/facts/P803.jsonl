@@ -1,0 +1,7 @@
+{"s_qid": "Q172844", "s_label": "Pyotr Leonidovich Kapitsa", "o_qid": "Q100869791", "o_label": "member of the Academy of Sciences of the USSR", "start": 1939, "end": null, "relation": "P803", "r_label": "professorship"}
+{"s_qid": "Q907372", "s_label": "Alexander Pavlovich Vinogradov", "o_qid": "Q100869791", "o_label": "member of the Academy of Sciences of the USSR", "start": 1953, "end": 1953, "relation": "P803", "r_label": "professorship"}
+{"s_qid": "Q937", "s_label": "Albert Einstein", "o_qid": "Q25339110", "o_label": "full professor", "start": 1909, "end": null, "relation": "P803", "r_label": "professorship"}
+{"s_qid": "Q937", "s_label": "Albert Einstein", "o_qid": "Q414528", "o_label": "academician", "start": 1913, "end": null, "relation": "P803", "r_label": "professorship"}
+{"s_qid": "Q164396", "s_label": "Victor Ambartsumian", "o_qid": "Q25339110", "o_label": "full professor", "start": 1934, "end": null, "relation": "P803", "r_label": "professorship"}
+{"s_qid": "Q1030228", "s_label": "Ludvig Faddeev", "o_qid": "Q100869791", "o_label": "member of the Academy of Sciences of the USSR", "start": 1976, "end": null, "relation": "P803", "r_label": "professorship"}
+{"s_qid": "Q1030228", "s_label": "Ludvig Faddeev", "o_qid": "Q4156897", "o_label": "full member of RAS", "start": 1991, "end": null, "relation": "P803", "r_label": "professorship"}

@@ -1,0 +1,4 @@
+{"s_qid": "Q148", "s_label": "Trung Quốc", "o_qid": "Q15031", "o_label": "Tập Cận Bình", "start": 2012, "end": null, "relation": "P3975", "r_label": "tổng bí thư"}
+{"s_qid": "Q49762", "s_label": "Liên minh Dân chủ Kitô giáo Đức", "o_qid": "Q567", "o_label": "Angela Merkel", "start": 1998, "end": 2000, "relation": "P3975", "r_label": "tổng bí thư"}
+{"s_qid": "Q1065", "s_label": "Liên Hợp Quốc", "o_qid": "Q1254", "o_label": "Kofi Annan", "start": 1997, "end": 2006, "relation": "P3975", "r_label": "tổng bí thư"}
+{"s_qid": "Q49768", "s_label": "Đảng Dân chủ Xã hội Đức", "o_qid": "Q61053", "o_label": "Olaf Scholz", "start": 2002, "end": 2004, "relation": "P3975", "r_label": "tổng bí thư"}

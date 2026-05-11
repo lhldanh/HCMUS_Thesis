@@ -1,0 +1,144 @@
+{"s_qid": "Q45", "s_label": "Bồ Đào Nha", "o_qid": "Q597", "o_label": "Lisboa", "start": 1385, "end": null, "relation": "P36", "r_label": "trung tâm hành chính"}
+{"s_qid": "Q148", "s_label": "Trung Quốc", "o_qid": "Q956", "o_label": "Bắc Kinh", "start": 1949, "end": null, "relation": "P36", "r_label": "trung tâm hành chính"}
+{"s_qid": "Q155", "s_label": "Brasil", "o_qid": "Q8678", "o_label": "Rio de Janeiro", "start": null, "end": 1960, "relation": "P36", "r_label": "trung tâm hành chính"}
+{"s_qid": "Q183", "s_label": "Đức", "o_qid": "Q586", "o_label": "Bonn", "start": 1949, "end": 1990, "relation": "P36", "r_label": "trung tâm hành chính"}
+{"s_qid": "Q183", "s_label": "Đức", "o_qid": "Q64", "o_label": "Berlin", "start": 1990, "end": null, "relation": "P36", "r_label": "trung tâm hành chính"}
+{"s_qid": "Q183", "s_label": "Đức", "o_qid": "Q64", "o_label": "Berlin", "start": 1994, "end": null, "relation": "P36", "r_label": "trung tâm hành chính"}
+{"s_qid": "Q801", "s_label": "Israel", "o_qid": "Q1218", "o_label": "Jerusalem", "start": 1949, "end": null, "relation": "P36", "r_label": "trung tâm hành chính"}
+{"s_qid": "Q801", "s_label": "Israel", "o_qid": "Q33935", "o_label": "Tel Aviv", "start": 1948, "end": 1949, "relation": "P36", "r_label": "trung tâm hành chính"}
+{"s_qid": "Q869", "s_label": "Thái Lan", "o_qid": "Q1861", "o_label": "Băng Cốc", "start": 1767, "end": null, "relation": "P36", "r_label": "trung tâm hành chính"}
+{"s_qid": "Q3240", "s_label": "Bouches-du-Rhône", "o_qid": "Q23482", "o_label": "Mạc-xây", "start": 1800, "end": null, "relation": "P36", "r_label": "trung tâm hành chính"}
+{"s_qid": "Q12544", "s_label": "Đế quốc Đông La Mã", "o_qid": "Q16869", "o_label": "Constantinopolis", "start": 330, "end": 1453, "relation": "P36", "r_label": "trung tâm hành chính"}
+{"s_qid": "Q12560", "s_label": "Đế quốc Ottoman", "o_qid": "Q16869", "o_label": "Constantinopolis", "start": 1453, "end": 1922, "relation": "P36", "r_label": "trung tâm hành chính"}
+{"s_qid": "Q12569", "s_label": "Loire", "o_qid": "Q42716", "o_label": "Saint-Étienne", "start": 1855, "end": null, "relation": "P36", "r_label": "trung tâm hành chính"}
+{"s_qid": "Q12661", "s_label": "Nord, Nord-Pas-de-Calais", "o_qid": "Q648", "o_label": "Lille", "start": 1803, "end": null, "relation": "P36", "r_label": "trung tâm hành chính"}
+{"s_qid": "Q45670", "s_label": "Vương quốc Bồ Đào Nha", "o_qid": "Q597", "o_label": "Lisboa", "start": 1256, "end": 1808, "relation": "P36", "r_label": "trung tâm hành chính"}
+{"s_qid": "Q45670", "s_label": "Vương quốc Bồ Đào Nha", "o_qid": "Q8678", "o_label": "Rio de Janeiro", "start": 1808, "end": 1822, "relation": "P36", "r_label": "trung tâm hành chính"}
+{"s_qid": "Q45670", "s_label": "Vương quốc Bồ Đào Nha", "o_qid": "Q597", "o_label": "Lisboa", "start": 1822, "end": null, "relation": "P36", "r_label": "trung tâm hành chính"}
+{"s_qid": "Q62633", "s_label": "Đại Công quốc Phần Lan", "o_qid": "Q38511", "o_label": "Turku", "start": 1809, "end": 1812, "relation": "P36", "r_label": "trung tâm hành chính"}
+{"s_qid": "Q62633", "s_label": "Đại Công quốc Phần Lan", "o_qid": "Q1757", "o_label": "Helsinki", "start": 1812, "end": 1917, "relation": "P36", "r_label": "trung tâm hành chính"}
+{"s_qid": "Q172107", "s_label": "Liên bang Ba Lan–Litva", "o_qid": "Q31487", "o_label": "Kraków", "start": 1569, "end": 1596, "relation": "P36", "r_label": "trung tâm hành chính"}
+{"s_qid": "Q172107", "s_label": "Liên bang Ba Lan–Litva", "o_qid": "Q270", "o_label": "Warszawa", "start": 1596, "end": 1795, "relation": "P36", "r_label": "trung tâm hành chính"}
+{"s_qid": "Q172107", "s_label": "Liên bang Ba Lan–Litva", "o_qid": "Q216", "o_label": "Vilnius", "start": 1569, "end": 1596, "relation": "P36", "r_label": "trung tâm hành chính"}
+{"s_qid": "Q457167", "s_label": "Cộng hòa Nhân dân Tây Ukraina", "o_qid": "Q36036", "o_label": "Lviv", "start": null, "end": 1918, "relation": "P36", "r_label": "trung tâm hành chính"}
+{"s_qid": "Q457167", "s_label": "Cộng hòa Nhân dân Tây Ukraina", "o_qid": "Q156743", "o_label": "Ternopil", "start": 1918, "end": 1918, "relation": "P36", "r_label": "trung tâm hành chính"}
+{"s_qid": "Q1632391", "s_label": "Mézidon-Canon", "o_qid": "Q27139740", "o_label": "Mézidon Vallée d'Auge", "start": 2017, "end": null, "relation": "P36", "r_label": "trung tâm hành chính"}
+{"s_qid": "Q13426199", "s_label": "Trung Hoa Dân Quốc", "o_qid": "Q956", "o_label": "Bắc Kinh", "start": 1912, "end": 1928, "relation": "P36", "r_label": "trung tâm hành chính"}
+{"s_qid": "Q30", "s_label": "Hoa Kỳ", "o_qid": "Q61", "o_label": "Washington, D.C.", "start": 1800, "end": null, "relation": "P36", "r_label": "trung tâm hành chính"}
+{"s_qid": "Q30", "s_label": "Hoa Kỳ", "o_qid": "Q1345", "o_label": "Philadelphia", "start": 1790, "end": 1800, "relation": "P36", "r_label": "trung tâm hành chính"}
+{"s_qid": "Q30", "s_label": "Hoa Kỳ", "o_qid": "Q60", "o_label": "Thành phố New York", "start": 1785, "end": 1790, "relation": "P36", "r_label": "trung tâm hành chính"}
+{"s_qid": "Q38", "s_label": "Ý", "o_qid": "Q220", "o_label": "Roma", "start": 1946, "end": null, "relation": "P36", "r_label": "trung tâm hành chính"}
+{"s_qid": "Q38", "s_label": "Ý", "o_qid": "Q2044", "o_label": "Firenze", "start": 1865, "end": 1871, "relation": "P36", "r_label": "trung tâm hành chính"}
+{"s_qid": "Q38", "s_label": "Ý", "o_qid": "Q495", "o_label": "Torino", "start": 1861, "end": 1865, "relation": "P36", "r_label": "trung tâm hành chính"}
+{"s_qid": "Q43", "s_label": "Thổ Nhĩ Kỳ", "o_qid": "Q3640", "o_label": "Ankara", "start": 1923, "end": null, "relation": "P36", "r_label": "trung tâm hành chính"}
+{"s_qid": "Q664", "s_label": "New Zealand", "o_qid": "Q23661", "o_label": "Wellington", "start": 1865, "end": null, "relation": "P36", "r_label": "trung tâm hành chính"}
+{"s_qid": "Q664", "s_label": "New Zealand", "o_qid": "Q37100", "o_label": "Auckland", "start": 1841, "end": 1865, "relation": "P36", "r_label": "trung tâm hành chính"}
+{"s_qid": "Q1415", "s_label": "Indiana", "o_qid": "Q6346", "o_label": "Indianapolis", "start": 1825, "end": null, "relation": "P36", "r_label": "trung tâm hành chính"}
+{"s_qid": "Q2007", "s_label": "Các Lãnh thổ Tây Bắc", "o_qid": "Q1930", "o_label": "Ottawa", "start": 1905, "end": 1967, "relation": "P36", "r_label": "trung tâm hành chính"}
+{"s_qid": "Q2277", "s_label": "Đế quốc La Mã", "o_qid": "Q220", "o_label": "Roma", "start": 27, "end": 395, "relation": "P36", "r_label": "trung tâm hành chính"}
+{"s_qid": "Q2277", "s_label": "Đế quốc La Mã", "o_qid": "Q490", "o_label": "Milano", "start": 395, "end": 402, "relation": "P36", "r_label": "trung tâm hành chính"}
+{"s_qid": "Q2277", "s_label": "Đế quốc La Mã", "o_qid": "Q16869", "o_label": "Constantinopolis", "start": 476, "end": 1453, "relation": "P36", "r_label": "trung tâm hành chính"}
+{"s_qid": "Q2874", "s_label": "Urban Community of Lyon", "o_qid": "Q456", "o_label": "Lyon", "start": 1968, "end": 2014, "relation": "P36", "r_label": "trung tâm hành chính"}
+{"s_qid": "Q12548", "s_label": "Đế quốc La Mã Thần thánh", "o_qid": "Q1017", "o_label": "Aachen", "start": 962, "end": 1346, "relation": "P36", "r_label": "trung tâm hành chính"}
+{"s_qid": "Q12548", "s_label": "Đế quốc La Mã Thần thánh", "o_qid": "Q1085", "o_label": "Praha", "start": 1346, "end": 1437, "relation": "P36", "r_label": "trung tâm hành chính"}
+{"s_qid": "Q12548", "s_label": "Đế quốc La Mã Thần thánh", "o_qid": "Q1085", "o_label": "Praha", "start": 1583, "end": 1611, "relation": "P36", "r_label": "trung tâm hành chính"}
+{"s_qid": "Q12548", "s_label": "Đế quốc La Mã Thần thánh", "o_qid": "Q1741", "o_label": "Viên", "start": 1497, "end": null, "relation": "P36", "r_label": "trung tâm hành chính"}
+{"s_qid": "Q12548", "s_label": "Đế quốc La Mã Thần thánh", "o_qid": "Q2978", "o_label": "Regensburg", "start": 1594, "end": null, "relation": "P36", "r_label": "trung tâm hành chính"}
+{"s_qid": "Q34266", "s_label": "Đế quốc Nga", "o_qid": "Q656", "o_label": "Sankt-Peterburg", "start": 1721, "end": 1728, "relation": "P36", "r_label": "trung tâm hành chính"}
+{"s_qid": "Q34266", "s_label": "Đế quốc Nga", "o_qid": "Q649", "o_label": "Moskva", "start": 1728, "end": 1730, "relation": "P36", "r_label": "trung tâm hành chính"}
+{"s_qid": "Q34266", "s_label": "Đế quốc Nga", "o_qid": "Q656", "o_label": "Sankt-Peterburg", "start": 1730, "end": null, "relation": "P36", "r_label": "trung tâm hành chính"}
+{"s_qid": "Q34266", "s_label": "Đế quốc Nga", "o_qid": "Q649", "o_label": "Moskva", "start": 1721, "end": 1728, "relation": "P36", "r_label": "trung tâm hành chính"}
+{"s_qid": "Q1108445", "s_label": "Rus Kiev", "o_qid": "Q1899", "o_label": "Kyiv", "start": 882, "end": 1240, "relation": "P36", "r_label": "trung tâm hành chính"}
+{"s_qid": "Q4439042", "s_label": "Stavropolskiy County", "o_qid": "Q1341", "o_label": "Tolyatti", "start": 1780, "end": 1924, "relation": "P36", "r_label": "trung tâm hành chính"}
+{"s_qid": "Q8575586", "s_label": "Nhà Omeyyad", "o_qid": "Q3766", "o_label": "Damas", "start": 661, "end": 744, "relation": "P36", "r_label": "trung tâm hành chính"}
+{"s_qid": "Q12566173", "s_label": "Pishpeksky Uyezd", "o_qid": "Q9361", "o_label": "Bishkek", "start": 1891, "end": null, "relation": "P36", "r_label": "trung tâm hành chính"}
+{"s_qid": "Q16056854", "s_label": "Kingdom of Hungary", "o_qid": "Q1741", "o_label": "Viên", "start": 1485, "end": 1490, "relation": "P36", "r_label": "trung tâm hành chính"}
+{"s_qid": "Q16056854", "s_label": "Kingdom of Hungary", "o_qid": "Q83404", "o_label": "Timișoara", "start": 1315, "end": 1323, "relation": "P36", "r_label": "trung tâm hành chính"}
+{"s_qid": "Q2184", "s_label": "Cộng hòa Xã hội chủ nghĩa Xô viết Liên bang Nga", "o_qid": "Q649", "o_label": "Moskva", "start": 1922, "end": null, "relation": "P36", "r_label": "trung tâm hành chính"}
+{"s_qid": "Q46130", "s_label": "Rhône", "o_qid": "Q456", "o_label": "Lyon", "start": null, "end": 2014, "relation": "P36", "r_label": "trung tâm hành chính"}
+{"s_qid": "Q46130", "s_label": "Rhône", "o_qid": "Q456", "o_label": "Lyon", "start": 2015, "end": null, "relation": "P36", "r_label": "trung tâm hành chính"}
+{"s_qid": "Q165154", "s_label": "Vương quốc Sardigna", "o_qid": "Q495", "o_label": "Torino", "start": 1720, "end": 1798, "relation": "P36", "r_label": "trung tâm hành chính"}
+{"s_qid": "Q165154", "s_label": "Vương quốc Sardigna", "o_qid": "Q495", "o_label": "Torino", "start": 1814, "end": 1861, "relation": "P36", "r_label": "trung tâm hành chính"}
+{"s_qid": "Q188712", "s_label": "Đế quốc Nhật Bản", "o_qid": "Q1207735", "o_label": "Thành phố Tokyo", "start": 1889, "end": 1943, "relation": "P36", "r_label": "trung tâm hành chính"}
+{"s_qid": "Q188712", "s_label": "Đế quốc Nhật Bản", "o_qid": "Q1490", "o_label": "Tokyo", "start": 1943, "end": null, "relation": "P36", "r_label": "trung tâm hành chính"}
+{"s_qid": "Q203493", "s_label": "Vương quốc România", "o_qid": "Q19660", "o_label": "Bucharest", "start": 1881, "end": 1916, "relation": "P36", "r_label": "trung tâm hành chính"}
+{"s_qid": "Q203493", "s_label": "Vương quốc România", "o_qid": "Q19660", "o_label": "Bucharest", "start": 1918, "end": 1947, "relation": "P36", "r_label": "trung tâm hành chính"}
+{"s_qid": "Q230791", "s_label": "Vương quốc Scotland", "o_qid": "Q23436", "o_label": "Edinburgh", "start": 1452, "end": null, "relation": "P36", "r_label": "trung tâm hành chính"}
+{"s_qid": "Q159", "s_label": "Nga", "o_qid": "Q649", "o_label": "Moskva", "start": 1918, "end": null, "relation": "P36", "r_label": "trung tâm hành chính"}
+{"s_qid": "Q159", "s_label": "Nga", "o_qid": "Q656", "o_label": "Sankt-Peterburg", "start": null, "end": 1918, "relation": "P36", "r_label": "trung tâm hành chính"}
+{"s_qid": "Q408", "s_label": "Úc", "o_qid": "Q3141", "o_label": "Melbourne", "start": 1901, "end": 1927, "relation": "P36", "r_label": "trung tâm hành chính"}
+{"s_qid": "Q27306", "s_label": "Vương quốc Phổ", "o_qid": "Q776965", "o_label": "Klaipėda", "start": 1707, "end": 1708, "relation": "P36", "r_label": "trung tâm hành chính"}
+{"s_qid": "Q146246", "s_label": "Francia", "o_qid": "Q173219", "o_label": "Tournai", "start": 431, "end": 508, "relation": "P36", "r_label": "trung tâm hành chính"}
+{"s_qid": "Q146246", "s_label": "Francia", "o_qid": "Q90", "o_label": "Paris", "start": 508, "end": 768, "relation": "P36", "r_label": "trung tâm hành chính"}
+{"s_qid": "Q146246", "s_label": "Francia", "o_qid": "Q1017", "o_label": "Aachen", "start": 768, "end": 843, "relation": "P36", "r_label": "trung tâm hành chính"}
+{"s_qid": "Q389004", "s_label": "Principality of Wallachia", "o_qid": "Q19660", "o_label": "Bucharest", "start": 1659, "end": null, "relation": "P36", "r_label": "trung tâm hành chính"}
+{"s_qid": "Q426025", "s_label": "Công quốc Savoy", "o_qid": "Q495", "o_label": "Torino", "start": 1563, "end": null, "relation": "P36", "r_label": "trung tâm hành chính"}
+{"s_qid": "Q1200972", "s_label": "Mikkeli Province", "o_qid": "Q190583", "o_label": "Mikkeli", "start": 1843, "end": 1997, "relation": "P36", "r_label": "trung tâm hành chính"}
+{"s_qid": "Q1200972", "s_label": "Mikkeli Province", "o_qid": "Q849934", "o_label": "Heinola", "start": 1831, "end": 1843, "relation": "P36", "r_label": "trung tâm hành chính"}
+{"s_qid": "Q4142935", "s_label": "Gomelsky Uyezd", "o_qid": "Q2678", "o_label": "Gomel", "start": 1852, "end": null, "relation": "P36", "r_label": "trung tâm hành chính"}
+{"s_qid": "Q33", "s_label": "Phần Lan", "o_qid": "Q1757", "o_label": "Helsinki", "start": 1812, "end": null, "relation": "P36", "r_label": "trung tâm hành chính"}
+{"s_qid": "Q33", "s_label": "Phần Lan", "o_qid": "Q38511", "o_label": "Turku", "start": 1809, "end": 1812, "relation": "P36", "r_label": "trung tâm hành chính"}
+{"s_qid": "Q99", "s_label": "California", "o_qid": "Q16553", "o_label": "San Jose", "start": 1850, "end": 1851, "relation": "P36", "r_label": "trung tâm hành chính"}
+{"s_qid": "Q3368", "s_label": "Essonne", "o_qid": "Q57782245", "o_label": "Évry-Courcouronnes", "start": 2019, "end": null, "relation": "P36", "r_label": "trung tâm hành chính"}
+{"s_qid": "Q5841", "s_label": "Nias", "o_qid": "Q4191562", "o_label": "Gido", "start": 2016, "end": null, "relation": "P36", "r_label": "trung tâm hành chính"}
+{"s_qid": "Q18849", "s_label": "Southeast Maluku Regency", "o_qid": "Q18975", "o_label": "Tual", "start": 1957, "end": 2011, "relation": "P36", "r_label": "trung tâm hành chính"}
+{"s_qid": "Q34762", "s_label": "Thân vương quốc Bayreuth", "o_qid": "Q3923", "o_label": "Bayreuth", "start": 1604, "end": null, "relation": "P36", "r_label": "trung tâm hành chính"}
+{"s_qid": "Q171150", "s_label": "Vương quốc Hungary", "o_qid": "Q1781", "o_label": "Budapest", "start": 1873, "end": null, "relation": "P36", "r_label": "trung tâm hành chính"}
+{"s_qid": "Q171150", "s_label": "Vương quốc Hungary", "o_qid": "Q1780", "o_label": "Bratislava", "start": 1526, "end": 1848, "relation": "P36", "r_label": "trung tâm hành chính"}
+{"s_qid": "Q171150", "s_label": "Vương quốc Hungary", "o_qid": "Q83404", "o_label": "Timișoara", "start": 1315, "end": 1323, "relation": "P36", "r_label": "trung tâm hành chính"}
+{"s_qid": "Q171150", "s_label": "Vương quốc Hungary", "o_qid": "Q130212", "o_label": "Székesfehérvár", "start": 1000, "end": 1543, "relation": "P36", "r_label": "trung tâm hành chính"}
+{"s_qid": "Q484578", "s_label": "Cộng hòa Xã hội chủ nghĩa Xô viết Uzbekistan", "o_qid": "Q269", "o_label": "Tashkent", "start": 1930, "end": 1991, "relation": "P36", "r_label": "trung tâm hành chính"}
+{"s_qid": "Q1724748", "s_label": "canton of Carentan-les-Marais", "o_qid": "Q28723557", "o_label": "Carentan-les-Marais", "start": 2017, "end": null, "relation": "P36", "r_label": "trung tâm hành chính"}
+{"s_qid": "Q2012050", "s_label": "Donetsk", "o_qid": "Q43070", "o_label": "Donetsk", "start": 1932, "end": null, "relation": "P36", "r_label": "trung tâm hành chính"}
+{"s_qid": "Q18288148", "s_label": "Thành phố trung tâm Firenze", "o_qid": "Q2044", "o_label": "Firenze", "start": 2015, "end": null, "relation": "P36", "r_label": "trung tâm hành chính"}
+{"s_qid": "Q17", "s_label": "Nhật Bản", "o_qid": "Q1189121", "o_label": "tỉnh Tokyo", "start": 1868, "end": 1943, "relation": "P36", "r_label": "trung tâm hành chính"}
+{"s_qid": "Q17", "s_label": "Nhật Bản", "o_qid": "Q1207735", "o_label": "Thành phố Tokyo", "start": 1889, "end": 1943, "relation": "P36", "r_label": "trung tâm hành chính"}
+{"s_qid": "Q17", "s_label": "Nhật Bản", "o_qid": "Q1490", "o_label": "Tokyo", "start": 1943, "end": null, "relation": "P36", "r_label": "trung tâm hành chính"}
+{"s_qid": "Q37", "s_label": "Litva", "o_qid": "Q216", "o_label": "Vilnius", "start": 1939, "end": null, "relation": "P36", "r_label": "trung tâm hành chính"}
+{"s_qid": "Q37", "s_label": "Litva", "o_qid": "Q4115712", "o_label": "Kaunas", "start": 1920, "end": 1939, "relation": "P36", "r_label": "trung tâm hành chính"}
+{"s_qid": "Q41", "s_label": "Hy Lạp", "o_qid": "Q1524", "o_label": "Athens", "start": 1834, "end": null, "relation": "P36", "r_label": "trung tâm hành chính"}
+{"s_qid": "Q4948", "s_label": "Cộng hòa Venezia", "o_qid": "Q641", "o_label": "Venezia", "start": 810, "end": 1797, "relation": "P36", "r_label": "trung tâm hành chính"}
+{"s_qid": "Q15180", "s_label": "Liên Xô", "o_qid": "Q649", "o_label": "Moskva", "start": 1922, "end": 1991, "relation": "P36", "r_label": "trung tâm hành chính"}
+{"s_qid": "Q38872", "s_label": "Phổ", "o_qid": "Q64", "o_label": "Berlin", "start": 1701, "end": 1947, "relation": "P36", "r_label": "trung tâm hành chính"}
+{"s_qid": "Q70972", "s_label": "Vương quốc Pháp", "o_qid": "Q90", "o_label": "Paris", "start": null, "end": 1682, "relation": "P36", "r_label": "trung tâm hành chính"}
+{"s_qid": "Q70972", "s_label": "Vương quốc Pháp", "o_qid": "Q621", "o_label": "Versailles", "start": 1682, "end": 1789, "relation": "P36", "r_label": "trung tâm hành chính"}
+{"s_qid": "Q70972", "s_label": "Vương quốc Pháp", "o_qid": "Q90", "o_label": "Paris", "start": 1789, "end": null, "relation": "P36", "r_label": "trung tâm hành chính"}
+{"s_qid": "Q133356", "s_label": "Cộng hòa Xã hội chủ nghĩa Xô viết Ukraina", "o_qid": "Q42308", "o_label": "Kharkiv", "start": null, "end": 1934, "relation": "P36", "r_label": "trung tâm hành chính"}
+{"s_qid": "Q133356", "s_label": "Cộng hòa Xã hội chủ nghĩa Xô viết Ukraina", "o_qid": "Q1899", "o_label": "Kyiv", "start": 1934, "end": null, "relation": "P36", "r_label": "trung tâm hành chính"}
+{"s_qid": "Q179876", "s_label": "Vương quốc Anh", "o_qid": "Q84", "o_label": "Luân Đôn", "start": 1100, "end": null, "relation": "P36", "r_label": "trung tâm hành chính"}
+{"s_qid": "Q186096", "s_label": "Nước Nga Sa hoàng", "o_qid": "Q649", "o_label": "Moskva", "start": 1547, "end": 1712, "relation": "P36", "r_label": "trung tâm hành chính"}
+{"s_qid": "Q186096", "s_label": "Nước Nga Sa hoàng", "o_qid": "Q656", "o_label": "Sankt-Peterburg", "start": 1712, "end": 1721, "relation": "P36", "r_label": "trung tâm hành chính"}
+{"s_qid": "Q209065", "s_label": "Vương quốc Hy Lạp", "o_qid": "Q1524", "o_label": "Athens", "start": 1834, "end": null, "relation": "P36", "r_label": "trung tâm hành chính"}
+{"s_qid": "Q211274", "s_label": "Cộng hòa Nhân dân Ba Lan", "o_qid": "Q37333", "o_label": "Lublin", "start": 1944, "end": 1945, "relation": "P36", "r_label": "trung tâm hành chính"}
+{"s_qid": "Q211274", "s_label": "Cộng hòa Nhân dân Ba Lan", "o_qid": "Q270", "o_label": "Warszawa", "start": 1945, "end": 1989, "relation": "P36", "r_label": "trung tâm hành chính"}
+{"s_qid": "Q625380", "s_label": "Vương quốc Đông Hungary", "o_qid": "Q174665", "o_label": "Alba Iulia", "start": 1542, "end": 1570, "relation": "P36", "r_label": "trung tâm hành chính"}
+{"s_qid": "Q4318699", "s_label": "Lower Volga Krai", "o_qid": "Q914", "o_label": "Volgograd", "start": 1932, "end": 1934, "relation": "P36", "r_label": "trung tâm hành chính"}
+{"s_qid": "Q16", "s_label": "Canada", "o_qid": "Q1930", "o_label": "Ottawa", "start": 1867, "end": null, "relation": "P36", "r_label": "trung tâm hành chính"}
+{"s_qid": "Q36", "s_label": "Ba Lan", "o_qid": "Q270", "o_label": "Warszawa", "start": 1795, "end": null, "relation": "P36", "r_label": "trung tâm hành chính"}
+{"s_qid": "Q39", "s_label": "Thụy Sĩ", "o_qid": "Q70", "o_label": "Bern", "start": 1848, "end": null, "relation": "P36", "r_label": "trung tâm hành chính"}
+{"s_qid": "Q142", "s_label": "Pháp", "o_qid": "Q90", "o_label": "Paris", "start": 1789, "end": null, "relation": "P36", "r_label": "trung tâm hành chính"}
+{"s_qid": "Q142", "s_label": "Pháp", "o_qid": "Q3561", "o_label": "Algiers", "start": 1942, "end": 1944, "relation": "P36", "r_label": "trung tâm hành chính"}
+{"s_qid": "Q142", "s_label": "Pháp", "o_qid": "Q84", "o_label": "Luân Đôn", "start": 1940, "end": 1942, "relation": "P36", "r_label": "trung tâm hành chính"}
+{"s_qid": "Q142", "s_label": "Pháp", "o_qid": "Q1479", "o_label": "Bordeaux", "start": 1940, "end": 1940, "relation": "P36", "r_label": "trung tâm hành chính"}
+{"s_qid": "Q142", "s_label": "Pháp", "o_qid": "Q288", "o_label": "Tours", "start": 1940, "end": 1940, "relation": "P36", "r_label": "trung tâm hành chính"}
+{"s_qid": "Q142", "s_label": "Pháp", "o_qid": "Q621", "o_label": "Versailles", "start": 1871, "end": 1879, "relation": "P36", "r_label": "trung tâm hành chính"}
+{"s_qid": "Q142", "s_label": "Pháp", "o_qid": "Q621", "o_label": "Versailles", "start": 1682, "end": 1789, "relation": "P36", "r_label": "trung tâm hành chính"}
+{"s_qid": "Q232", "s_label": "Kazakhstan", "o_qid": "Q1520", "o_label": "Astana", "start": 1997, "end": null, "relation": "P36", "r_label": "trung tâm hành chính"}
+{"s_qid": "Q865", "s_label": "Đài Loan", "o_qid": "Q1867", "o_label": "Đài Bắc", "start": 1949, "end": null, "relation": "P36", "r_label": "trung tâm hành chính"}
+{"s_qid": "Q865", "s_label": "Đài Loan", "o_qid": "Q30002", "o_label": "Thành Đô", "start": 1949, "end": 1949, "relation": "P36", "r_label": "trung tâm hành chính"}
+{"s_qid": "Q1588", "s_label": "Louisiana", "o_qid": "Q34404", "o_label": "New Orleans", "start": 1812, "end": 1846, "relation": "P36", "r_label": "trung tâm hành chính"}
+{"s_qid": "Q2895", "s_label": "Cộng hòa Xã hội chủ nghĩa Xô viết Belorussia", "o_qid": "Q2280", "o_label": "Minsk", "start": 1919, "end": 1991, "relation": "P36", "r_label": "trung tâm hành chính"}
+{"s_qid": "Q655621", "s_label": "Thân vương quốc Transylvania (1570–1711)", "o_qid": "Q174665", "o_label": "Alba Iulia", "start": 1570, "end": 1692, "relation": "P36", "r_label": "trung tâm hành chính"}
+{"s_qid": "Q2305208", "s_label": "Nga Xô viết", "o_qid": "Q649", "o_label": "Moskva", "start": 1918, "end": null, "relation": "P36", "r_label": "trung tâm hành chính"}
+{"s_qid": "Q2305208", "s_label": "Nga Xô viết", "o_qid": "Q656", "o_label": "Sankt-Peterburg", "start": 1917, "end": 1918, "relation": "P36", "r_label": "trung tâm hành chính"}
+{"s_qid": "Q230", "s_label": "Gruzia", "o_qid": "Q994", "o_label": "Tbilisi", "start": 1122, "end": null, "relation": "P36", "r_label": "trung tâm hành chính"}
+{"s_qid": "Q230", "s_label": "Gruzia", "o_qid": "Q172415", "o_label": "Kutaisi", "start": null, "end": 1122, "relation": "P36", "r_label": "trung tâm hành chính"}
+{"s_qid": "Q49683", "s_label": "Đại Công quốc Litva", "o_qid": "Q216", "o_label": "Vilnius", "start": 1323, "end": null, "relation": "P36", "r_label": "trung tâm hành chính"}
+{"s_qid": "Q172579", "s_label": "Vương quốc Ý", "o_qid": "Q495", "o_label": "Torino", "start": 1861, "end": 1865, "relation": "P36", "r_label": "trung tâm hành chính"}
+{"s_qid": "Q172579", "s_label": "Vương quốc Ý", "o_qid": "Q2044", "o_label": "Firenze", "start": 1865, "end": 1871, "relation": "P36", "r_label": "trung tâm hành chính"}
+{"s_qid": "Q172579", "s_label": "Vương quốc Ý", "o_qid": "Q220", "o_label": "Roma", "start": 1871, "end": 1946, "relation": "P36", "r_label": "trung tâm hành chính"}
+{"s_qid": "Q200464", "s_label": "Đế quốc Bồ Đào Nha", "o_qid": "Q597", "o_label": "Lisboa", "start": 1415, "end": 1815, "relation": "P36", "r_label": "trung tâm hành chính"}
+{"s_qid": "Q200464", "s_label": "Đế quốc Bồ Đào Nha", "o_qid": "Q8678", "o_label": "Rio de Janeiro", "start": 1815, "end": 1821, "relation": "P36", "r_label": "trung tâm hành chính"}
+{"s_qid": "Q200464", "s_label": "Đế quốc Bồ Đào Nha", "o_qid": "Q597", "o_label": "Lisboa", "start": 1821, "end": 2002, "relation": "P36", "r_label": "trung tâm hành chính"}
+{"s_qid": "Q209857", "s_label": "Vương quốc Lombardo–Veneto", "o_qid": "Q490", "o_label": "Milano", "start": 1815, "end": 1859, "relation": "P36", "r_label": "trung tâm hành chính"}
+{"s_qid": "Q209857", "s_label": "Vương quốc Lombardo–Veneto", "o_qid": "Q641", "o_label": "Venezia", "start": 1859, "end": 1866, "relation": "P36", "r_label": "trung tâm hành chính"}

@@ -1,0 +1,553 @@
+{"s_qid": "Q2567", "s_label": "Richard von Weizsäcker", "o_qid": "Q699532", "o_label": "Boehringer Ingelheim", "start": 1962, "end": 1966, "relation": "P108", "r_label": "nhà tuyển dụng"}
+{"s_qid": "Q57103", "s_label": "Karl Weierstrass", "o_qid": "Q20266330", "o_label": "Đại học Frederick William Berlin", "start": 1857, "end": 1890, "relation": "P108", "r_label": "nhà tuyển dụng"}
+{"s_qid": "Q58978", "s_label": "Max Born", "o_qid": "Q50662", "o_label": "Đại học Goethe Frankfurt", "start": 1919, "end": 1921, "relation": "P108", "r_label": "nhà tuyển dụng"}
+{"s_qid": "Q58978", "s_label": "Max Born", "o_qid": "Q152838", "o_label": "Đại học Göttingen", "start": 1908, "end": 1914, "relation": "P108", "r_label": "nhà tuyển dụng"}
+{"s_qid": "Q58978", "s_label": "Max Born", "o_qid": "Q152087", "o_label": "Đại học Humboldt Berlin", "start": 1914, "end": 1919, "relation": "P108", "r_label": "nhà tuyển dụng"}
+{"s_qid": "Q58978", "s_label": "Max Born", "o_qid": "Q160302", "o_label": "Đại học Edinburgh", "start": 1936, "end": 1952, "relation": "P108", "r_label": "nhà tuyển dụng"}
+{"s_qid": "Q58978", "s_label": "Max Born", "o_qid": "Q152838", "o_label": "Đại học Göttingen", "start": 1921, "end": 1933, "relation": "P108", "r_label": "nhà tuyển dụng"}
+{"s_qid": "Q60024", "s_label": "Hermann von Helmholtz", "o_qid": "Q152171", "o_label": "Đại học Bonn", "start": 1855, "end": 1858, "relation": "P108", "r_label": "nhà tuyển dụng"}
+{"s_qid": "Q60024", "s_label": "Hermann von Helmholtz", "o_qid": "Q151510", "o_label": "Đại học Heidelberg", "start": 1858, "end": 1871, "relation": "P108", "r_label": "nhà tuyển dụng"}
+{"s_qid": "Q60024", "s_label": "Hermann von Helmholtz", "o_qid": "Q20266330", "o_label": "Đại học Frederick William Berlin", "start": 1871, "end": 1894, "relation": "P108", "r_label": "nhà tuyển dụng"}
+{"s_qid": "Q60024", "s_label": "Hermann von Helmholtz", "o_qid": "Q162684", "o_label": "Charité", "start": 1842, "end": 1843, "relation": "P108", "r_label": "nhà tuyển dụng"}
+{"s_qid": "Q60024", "s_label": "Hermann von Helmholtz", "o_qid": "Q470438", "o_label": "Physikalisch-Technische Bundesanstalt", "start": 1882, "end": 1894, "relation": "P108", "r_label": "nhà tuyển dụng"}
+{"s_qid": "Q60024", "s_label": "Hermann von Helmholtz", "o_qid": "Q672420", "o_label": "Đại học Königsberg", "start": 1849, "end": 1855, "relation": "P108", "r_label": "nhà tuyển dụng"}
+{"s_qid": "Q76658", "s_label": "Frank-Walter Steinmeier", "o_qid": "Q317053", "o_label": "University of Giessen", "start": 1986, "end": 1991, "relation": "P108", "r_label": "nhà tuyển dụng"}
+{"s_qid": "Q77203", "s_label": "Ferdinand von Lindemann", "o_qid": "Q55044", "o_label": "Đại học Ludwig Maximilian München", "start": 1893, "end": 1923, "relation": "P108", "r_label": "nhà tuyển dụng"}
+{"s_qid": "Q77203", "s_label": "Ferdinand von Lindemann", "o_qid": "Q153987", "o_label": "Đại học Freiburg", "start": 1877, "end": 1883, "relation": "P108", "r_label": "nhà tuyển dụng"}
+{"s_qid": "Q77203", "s_label": "Ferdinand von Lindemann", "o_qid": "Q672420", "o_label": "Đại học Königsberg", "start": 1883, "end": 1893, "relation": "P108", "r_label": "nhà tuyển dụng"}
+{"s_qid": "Q155790", "s_label": "Eugene Wigner", "o_qid": "Q21578", "o_label": "Đại học Princeton", "start": 1930, "end": 1936, "relation": "P108", "r_label": "nhà tuyển dụng"}
+{"s_qid": "Q155790", "s_label": "Eugene Wigner", "o_qid": "Q51985", "o_label": "Đại học Kỹ thuật Berlin", "start": 1928, "end": 1933, "relation": "P108", "r_label": "nhà tuyển dụng"}
+{"s_qid": "Q155790", "s_label": "Eugene Wigner", "o_qid": "Q838330", "o_label": "Đại học Wisconsin – Madison", "start": 1936, "end": 1938, "relation": "P108", "r_label": "nhà tuyển dụng"}
+{"s_qid": "Q155790", "s_label": "Eugene Wigner", "o_qid": "Q152838", "o_label": "Đại học Göttingen", "start": 1927, "end": 1928, "relation": "P108", "r_label": "nhà tuyển dụng"}
+{"s_qid": "Q155790", "s_label": "Eugene Wigner", "o_qid": "Q156598", "o_label": "Đại học Leiden", "start": 1956, "end": 1957, "relation": "P108", "r_label": "nhà tuyển dụng"}
+{"s_qid": "Q155790", "s_label": "Eugene Wigner", "o_qid": "Q21578", "o_label": "Đại học Princeton", "start": 1938, "end": 1942, "relation": "P108", "r_label": "nhà tuyển dụng"}
+{"s_qid": "Q155790", "s_label": "Eugene Wigner", "o_qid": "Q21578", "o_label": "Đại học Princeton", "start": 1946, "end": 1971, "relation": "P108", "r_label": "nhà tuyển dụng"}
+{"s_qid": "Q155790", "s_label": "Eugene Wigner", "o_qid": "Q714439", "o_label": "Phòng thí nghiệm quốc gia Oak Ridge", "start": 1945, "end": 1946, "relation": "P108", "r_label": "nhà tuyển dụng"}
+{"s_qid": "Q172844", "s_label": "Pyotr Leonidovich Kapitsa", "o_qid": "Q1367256", "o_label": "Đại học vật lý kỹ thuật Moskva", "start": 1956, "end": null, "relation": "P108", "r_label": "nhà tuyển dụng"}
+{"s_qid": "Q172844", "s_label": "Pyotr Leonidovich Kapitsa", "o_qid": "Q13164", "o_label": "Đại học Quốc gia Moskva", "start": 1943, "end": null, "relation": "P108", "r_label": "nhà tuyển dụng"}
+{"s_qid": "Q192112", "s_label": "Peter Higgs", "o_qid": "Q160302", "o_label": "Đại học Edinburgh", "start": 1955, "end": 1956, "relation": "P108", "r_label": "nhà tuyển dụng"}
+{"s_qid": "Q192112", "s_label": "Peter Higgs", "o_qid": "Q170027", "o_label": "Đại học London", "start": 1956, "end": 1958, "relation": "P108", "r_label": "nhà tuyển dụng"}
+{"s_qid": "Q192112", "s_label": "Peter Higgs", "o_qid": "Q193196", "o_label": "Đại học London", "start": 1959, "end": 1960, "relation": "P108", "r_label": "nhà tuyển dụng"}
+{"s_qid": "Q192112", "s_label": "Peter Higgs", "o_qid": "Q160302", "o_label": "Đại học Edinburgh", "start": 1960, "end": 1996, "relation": "P108", "r_label": "nhà tuyển dụng"}
+{"s_qid": "Q329815", "s_label": "Abraham Bredius", "o_qid": "Q221092", "o_label": "Mauritshuis", "start": 1889, "end": 1909, "relation": "P108", "r_label": "nhà tuyển dụng"}
+{"s_qid": "Q667074", "s_label": "Samuel Karlin", "o_qid": "Q41506", "o_label": "Đại học Stanford", "start": 1956, "end": 2007, "relation": "P108", "r_label": "nhà tuyển dụng"}
+{"s_qid": "Q667074", "s_label": "Samuel Karlin", "o_qid": "Q161562", "o_label": "Viện Công nghệ California", "start": 1948, "end": 1956, "relation": "P108", "r_label": "nhà tuyển dụng"}
+{"s_qid": "Q2966146", "s_label": "Christophe Charle", "o_qid": "Q999763", "o_label": "Trường Đại học Paris I", "start": 1993, "end": 2016, "relation": "P108", "r_label": "nhà tuyển dụng"}
+{"s_qid": "Q2966146", "s_label": "Christophe Charle", "o_qid": "Q4027", "o_label": "Jean Moulin University - Lyon 3", "start": 1991, "end": 1993, "relation": "P108", "r_label": "nhà tuyển dụng"}
+{"s_qid": "Q2966146", "s_label": "Christophe Charle", "o_qid": "Q859363", "o_label": "Viện Nghiên cứu Chính trị Paris", "start": 1992, "end": 2003, "relation": "P108", "r_label": "nhà tuyển dụng"}
+{"s_qid": "Q93370723", "s_label": "Nayra Llonch Molina", "o_qid": "Q219615", "o_label": "Đại học Barcelona", "start": 2016, "end": null, "relation": "P108", "r_label": "nhà tuyển dụng"}
+{"s_qid": "Q93370723", "s_label": "Nayra Llonch Molina", "o_qid": "Q941806", "o_label": "Universidad de Castilla-La Mancha", "start": 2016, "end": null, "relation": "P108", "r_label": "nhà tuyển dụng"}
+{"s_qid": "Q93370723", "s_label": "Nayra Llonch Molina", "o_qid": "Q1235594", "o_label": "Đại học Lleida", "start": 2015, "end": null, "relation": "P108", "r_label": "nhà tuyển dụng"}
+{"s_qid": "Q93370723", "s_label": "Nayra Llonch Molina", "o_qid": "Q1236345", "o_label": "University of Murcia", "start": 2014, "end": null, "relation": "P108", "r_label": "nhà tuyển dụng"}
+{"s_qid": "Q93370723", "s_label": "Nayra Llonch Molina", "o_qid": "Q1235594", "o_label": "Đại học Lleida", "start": 2013, "end": null, "relation": "P108", "r_label": "nhà tuyển dụng"}
+{"s_qid": "Q93370723", "s_label": "Nayra Llonch Molina", "o_qid": "Q219615", "o_label": "Đại học Barcelona", "start": 2013, "end": null, "relation": "P108", "r_label": "nhà tuyển dụng"}
+{"s_qid": "Q93370723", "s_label": "Nayra Llonch Molina", "o_qid": "Q219615", "o_label": "Đại học Barcelona", "start": 2007, "end": null, "relation": "P108", "r_label": "nhà tuyển dụng"}
+{"s_qid": "Q93370723", "s_label": "Nayra Llonch Molina", "o_qid": "Q219615", "o_label": "Đại học Barcelona", "start": 2006, "end": null, "relation": "P108", "r_label": "nhà tuyển dụng"}
+{"s_qid": "Q93370723", "s_label": "Nayra Llonch Molina", "o_qid": "Q219615", "o_label": "Đại học Barcelona", "start": 2006, "end": null, "relation": "P108", "r_label": "nhà tuyển dụng"}
+{"s_qid": "Q93370723", "s_label": "Nayra Llonch Molina", "o_qid": "Q219615", "o_label": "Đại học Barcelona", "start": 2005, "end": null, "relation": "P108", "r_label": "nhà tuyển dụng"}
+{"s_qid": "Q93370723", "s_label": "Nayra Llonch Molina", "o_qid": "Q1235594", "o_label": "Đại học Lleida", "start": 2014, "end": 2017, "relation": "P108", "r_label": "nhà tuyển dụng"}
+{"s_qid": "Q93370723", "s_label": "Nayra Llonch Molina", "o_qid": "Q1235594", "o_label": "Đại học Lleida", "start": 2013, "end": 2014, "relation": "P108", "r_label": "nhà tuyển dụng"}
+{"s_qid": "Q93370723", "s_label": "Nayra Llonch Molina", "o_qid": "Q1235594", "o_label": "Đại học Lleida", "start": 2014, "end": 2014, "relation": "P108", "r_label": "nhà tuyển dụng"}
+{"s_qid": "Q93370723", "s_label": "Nayra Llonch Molina", "o_qid": "Q1235594", "o_label": "Đại học Lleida", "start": 2013, "end": 2014, "relation": "P108", "r_label": "nhà tuyển dụng"}
+{"s_qid": "Q93370723", "s_label": "Nayra Llonch Molina", "o_qid": "Q1236345", "o_label": "University of Murcia", "start": 2014, "end": 2014, "relation": "P108", "r_label": "nhà tuyển dụng"}
+{"s_qid": "Q93370723", "s_label": "Nayra Llonch Molina", "o_qid": "Q219615", "o_label": "Đại học Barcelona", "start": 2012, "end": 2013, "relation": "P108", "r_label": "nhà tuyển dụng"}
+{"s_qid": "Q93370723", "s_label": "Nayra Llonch Molina", "o_qid": "Q1235594", "o_label": "Đại học Lleida", "start": 2013, "end": 2013, "relation": "P108", "r_label": "nhà tuyển dụng"}
+{"s_qid": "Q93370723", "s_label": "Nayra Llonch Molina", "o_qid": "Q1235594", "o_label": "Đại học Lleida", "start": 2013, "end": 2013, "relation": "P108", "r_label": "nhà tuyển dụng"}
+{"s_qid": "Q93370723", "s_label": "Nayra Llonch Molina", "o_qid": "Q219615", "o_label": "Đại học Barcelona", "start": 2013, "end": 2013, "relation": "P108", "r_label": "nhà tuyển dụng"}
+{"s_qid": "Q93370723", "s_label": "Nayra Llonch Molina", "o_qid": "Q1235594", "o_label": "Đại học Lleida", "start": 2012, "end": 2013, "relation": "P108", "r_label": "nhà tuyển dụng"}
+{"s_qid": "Q93370723", "s_label": "Nayra Llonch Molina", "o_qid": "Q1235594", "o_label": "Đại học Lleida", "start": 2013, "end": 2013, "relation": "P108", "r_label": "nhà tuyển dụng"}
+{"s_qid": "Q93370723", "s_label": "Nayra Llonch Molina", "o_qid": "Q1235594", "o_label": "Đại học Lleida", "start": 2012, "end": 2013, "relation": "P108", "r_label": "nhà tuyển dụng"}
+{"s_qid": "Q93370723", "s_label": "Nayra Llonch Molina", "o_qid": "Q1235594", "o_label": "Đại học Lleida", "start": 2012, "end": 2013, "relation": "P108", "r_label": "nhà tuyển dụng"}
+{"s_qid": "Q93370723", "s_label": "Nayra Llonch Molina", "o_qid": "Q4894042", "o_label": "Universidad Internacional de Andalucía", "start": 2013, "end": 2013, "relation": "P108", "r_label": "nhà tuyển dụng"}
+{"s_qid": "Q93370723", "s_label": "Nayra Llonch Molina", "o_qid": "Q1235594", "o_label": "Đại học Lleida", "start": 2011, "end": 2012, "relation": "P108", "r_label": "nhà tuyển dụng"}
+{"s_qid": "Q93370723", "s_label": "Nayra Llonch Molina", "o_qid": "Q1235594", "o_label": "Đại học Lleida", "start": 2011, "end": 2012, "relation": "P108", "r_label": "nhà tuyển dụng"}
+{"s_qid": "Q93370723", "s_label": "Nayra Llonch Molina", "o_qid": "Q1235594", "o_label": "Đại học Lleida", "start": 2010, "end": 2011, "relation": "P108", "r_label": "nhà tuyển dụng"}
+{"s_qid": "Q93370723", "s_label": "Nayra Llonch Molina", "o_qid": "Q1235594", "o_label": "Đại học Lleida", "start": 2010, "end": 2011, "relation": "P108", "r_label": "nhà tuyển dụng"}
+{"s_qid": "Q93370723", "s_label": "Nayra Llonch Molina", "o_qid": "Q1236345", "o_label": "University of Murcia", "start": 2011, "end": 2011, "relation": "P108", "r_label": "nhà tuyển dụng"}
+{"s_qid": "Q93370723", "s_label": "Nayra Llonch Molina", "o_qid": "Q1235594", "o_label": "Đại học Lleida", "start": 2010, "end": 2010, "relation": "P108", "r_label": "nhà tuyển dụng"}
+{"s_qid": "Q93370723", "s_label": "Nayra Llonch Molina", "o_qid": "Q1235594", "o_label": "Đại học Lleida", "start": 2010, "end": 2010, "relation": "P108", "r_label": "nhà tuyển dụng"}
+{"s_qid": "Q93370723", "s_label": "Nayra Llonch Molina", "o_qid": "Q219615", "o_label": "Đại học Barcelona", "start": 2009, "end": 2010, "relation": "P108", "r_label": "nhà tuyển dụng"}
+{"s_qid": "Q93370723", "s_label": "Nayra Llonch Molina", "o_qid": "Q219615", "o_label": "Đại học Barcelona", "start": 2006, "end": 2009, "relation": "P108", "r_label": "nhà tuyển dụng"}
+{"s_qid": "Q93370723", "s_label": "Nayra Llonch Molina", "o_qid": "Q219615", "o_label": "Đại học Barcelona", "start": 2009, "end": 2009, "relation": "P108", "r_label": "nhà tuyển dụng"}
+{"s_qid": "Q93370723", "s_label": "Nayra Llonch Molina", "o_qid": "Q633561", "o_label": "University of Zaragoza", "start": 2008, "end": 2008, "relation": "P108", "r_label": "nhà tuyển dụng"}
+{"s_qid": "Q93370723", "s_label": "Nayra Llonch Molina", "o_qid": "Q219615", "o_label": "Đại học Barcelona", "start": 2008, "end": 2008, "relation": "P108", "r_label": "nhà tuyển dụng"}
+{"s_qid": "Q93370723", "s_label": "Nayra Llonch Molina", "o_qid": "Q219615", "o_label": "Đại học Barcelona", "start": 2008, "end": 2008, "relation": "P108", "r_label": "nhà tuyển dụng"}
+{"s_qid": "Q93370723", "s_label": "Nayra Llonch Molina", "o_qid": "Q219615", "o_label": "Đại học Barcelona", "start": 2007, "end": 2008, "relation": "P108", "r_label": "nhà tuyển dụng"}
+{"s_qid": "Q93370723", "s_label": "Nayra Llonch Molina", "o_qid": "Q219615", "o_label": "Đại học Barcelona", "start": 2007, "end": 2007, "relation": "P108", "r_label": "nhà tuyển dụng"}
+{"s_qid": "Q93370723", "s_label": "Nayra Llonch Molina", "o_qid": "Q219615", "o_label": "Đại học Barcelona", "start": 2007, "end": 2007, "relation": "P108", "r_label": "nhà tuyển dụng"}
+{"s_qid": "Q93370723", "s_label": "Nayra Llonch Molina", "o_qid": "Q219615", "o_label": "Đại học Barcelona", "start": 2007, "end": 2007, "relation": "P108", "r_label": "nhà tuyển dụng"}
+{"s_qid": "Q93370723", "s_label": "Nayra Llonch Molina", "o_qid": "Q219615", "o_label": "Đại học Barcelona", "start": 2006, "end": 2007, "relation": "P108", "r_label": "nhà tuyển dụng"}
+{"s_qid": "Q93370723", "s_label": "Nayra Llonch Molina", "o_qid": "Q5440489", "o_label": "Federal University of Uberlândia", "start": 2005, "end": 2006, "relation": "P108", "r_label": "nhà tuyển dụng"}
+{"s_qid": "Q93370723", "s_label": "Nayra Llonch Molina", "o_qid": "Q219615", "o_label": "Đại học Barcelona", "start": 2006, "end": 2006, "relation": "P108", "r_label": "nhà tuyển dụng"}
+{"s_qid": "Q6294", "s_label": "Hillary Clinton", "o_qid": "Q1070333", "o_label": "Đại học Arkansas", "start": 1974, "end": 1974, "relation": "P108", "r_label": "nhà tuyển dụng"}
+{"s_qid": "Q6294", "s_label": "Hillary Clinton", "o_qid": "Q49088", "o_label": "Đại học Columbia", "start": 2023, "end": null, "relation": "P108", "r_label": "nhà tuyển dụng"}
+{"s_qid": "Q9021", "s_label": "Max Planck", "o_qid": "Q55044", "o_label": "Đại học Ludwig Maximilian München", "start": 1880, "end": 1885, "relation": "P108", "r_label": "nhà tuyển dụng"}
+{"s_qid": "Q9021", "s_label": "Max Planck", "o_qid": "Q156737", "o_label": "Đại học Kiel", "start": 1885, "end": 1889, "relation": "P108", "r_label": "nhà tuyển dụng"}
+{"s_qid": "Q9021", "s_label": "Max Planck", "o_qid": "Q20266330", "o_label": "Đại học Frederick William Berlin", "start": 1889, "end": 1927, "relation": "P108", "r_label": "nhà tuyển dụng"}
+{"s_qid": "Q9960", "s_label": "Ronald Reagan", "o_qid": "Q126399", "o_label": "Warner Bros.", "start": 1937, "end": null, "relation": "P108", "r_label": "nhà tuyển dụng"}
+{"s_qid": "Q17714", "s_label": "Stephen Hawking", "o_qid": "Q863940", "o_label": "Gonville and Caius College", "start": 1965, "end": 1969, "relation": "P108", "r_label": "nhà tuyển dụng"}
+{"s_qid": "Q17714", "s_label": "Stephen Hawking", "o_qid": "Q2004561", "o_label": "Perimeter Institute for Theoretical Physics", "start": 2008, "end": 2018, "relation": "P108", "r_label": "nhà tuyển dụng"}
+{"s_qid": "Q17714", "s_label": "Stephen Hawking", "o_qid": "Q35794", "o_label": "Đại học Cambridge", "start": null, "end": 2018, "relation": "P108", "r_label": "nhà tuyển dụng"}
+{"s_qid": "Q17714", "s_label": "Stephen Hawking", "o_qid": "Q161562", "o_label": "Viện Công nghệ California", "start": 1970, "end": 1975, "relation": "P108", "r_label": "nhà tuyển dụng"}
+{"s_qid": "Q26321", "s_label": "Elizabeth Blackburn", "o_qid": "Q1061104", "o_label": "Đại học California tại San Francisco", "start": 1990, "end": null, "relation": "P108", "r_label": "nhà tuyển dụng"}
+{"s_qid": "Q26321", "s_label": "Elizabeth Blackburn", "o_qid": "Q168756", "o_label": "Đại học California tại Berkeley", "start": 1978, "end": 1990, "relation": "P108", "r_label": "nhà tuyển dụng"}
+{"s_qid": "Q36233", "s_label": "Václav Havel", "o_qid": "Q1476341", "o_label": "University of Chemistry and Technology", "start": 1951, "end": 1955, "relation": "P108", "r_label": "nhà tuyển dụng"}
+{"s_qid": "Q41688", "s_label": "Hendrik Lorentz", "o_qid": "Q156598", "o_label": "Đại học Leiden", "start": 1877, "end": 1912, "relation": "P108", "r_label": "nhà tuyển dụng"}
+{"s_qid": "Q41688", "s_label": "Hendrik Lorentz", "o_qid": "Q156598", "o_label": "Đại học Leiden", "start": 1912, "end": 1923, "relation": "P108", "r_label": "nhà tuyển dụng"}
+{"s_qid": "Q41688", "s_label": "Hendrik Lorentz", "o_qid": "Q474563", "o_label": "Teylers Museum", "start": 1912, "end": 1928, "relation": "P108", "r_label": "nhà tuyển dụng"}
+{"s_qid": "Q61753", "s_label": "Friedrich Hirzebruch", "o_qid": "Q152171", "o_label": "Đại học Bonn", "start": 1956, "end": 1993, "relation": "P108", "r_label": "nhà tuyển dụng"}
+{"s_qid": "Q61753", "s_label": "Friedrich Hirzebruch", "o_qid": "Q40025", "o_label": "Friedrich-Alexander-Universität Erlangen-Nürnberg", "start": 1951, "end": 1952, "relation": "P108", "r_label": "nhà tuyển dụng"}
+{"s_qid": "Q61753", "s_label": "Friedrich Hirzebruch", "o_qid": "Q635642", "o_label": "Viện nghiên cứu cao cấp Princeton", "start": 1952, "end": 1954, "relation": "P108", "r_label": "nhà tuyển dụng"}
+{"s_qid": "Q61753", "s_label": "Friedrich Hirzebruch", "o_qid": "Q168426", "o_label": "University of Münster", "start": 1954, "end": 1955, "relation": "P108", "r_label": "nhà tuyển dụng"}
+{"s_qid": "Q61753", "s_label": "Friedrich Hirzebruch", "o_qid": "Q21578", "o_label": "Đại học Princeton", "start": 1955, "end": 1956, "relation": "P108", "r_label": "nhà tuyển dụng"}
+{"s_qid": "Q68531", "s_label": "Leo Königsberger", "o_qid": "Q165980", "o_label": "Đại học Viên", "start": 1877, "end": 1884, "relation": "P108", "r_label": "nhà tuyển dụng"}
+{"s_qid": "Q68531", "s_label": "Leo Königsberger", "o_qid": "Q158158", "o_label": "Đại học Kỹ thuật Dresden", "start": 1875, "end": 1877, "relation": "P108", "r_label": "nhà tuyển dụng"}
+{"s_qid": "Q68531", "s_label": "Leo Königsberger", "o_qid": "Q151510", "o_label": "Đại học Heidelberg", "start": 1869, "end": 1875, "relation": "P108", "r_label": "nhà tuyển dụng"}
+{"s_qid": "Q68531", "s_label": "Leo Königsberger", "o_qid": "Q165528", "o_label": "Đại học Greifswald", "start": 1864, "end": 1869, "relation": "P108", "r_label": "nhà tuyển dụng"}
+{"s_qid": "Q68531", "s_label": "Leo Königsberger", "o_qid": "Q151510", "o_label": "Đại học Heidelberg", "start": 1884, "end": 1914, "relation": "P108", "r_label": "nhà tuyển dụng"}
+{"s_qid": "Q103835", "s_label": "Peter Debye", "o_qid": "Q154804", "o_label": "Đại học Leipzig", "start": 1927, "end": null, "relation": "P108", "r_label": "nhà tuyển dụng"}
+{"s_qid": "Q103835", "s_label": "Peter Debye", "o_qid": "Q152838", "o_label": "Đại học Göttingen", "start": 1914, "end": null, "relation": "P108", "r_label": "nhà tuyển dụng"}
+{"s_qid": "Q103835", "s_label": "Peter Debye", "o_qid": "Q206702", "o_label": "Đại học Zürich", "start": 1920, "end": null, "relation": "P108", "r_label": "nhà tuyển dụng"}
+{"s_qid": "Q103835", "s_label": "Peter Debye", "o_qid": "Q49115", "o_label": "Đại học Cornell", "start": 1940, "end": null, "relation": "P108", "r_label": "nhà tuyển dụng"}
+{"s_qid": "Q103835", "s_label": "Peter Debye", "o_qid": "Q221653", "o_label": "Đại học Utrecht", "start": 1912, "end": 1914, "relation": "P108", "r_label": "nhà tuyển dụng"}
+{"s_qid": "Q103835", "s_label": "Peter Debye", "o_qid": "Q152087", "o_label": "Đại học Humboldt Berlin", "start": 1934, "end": null, "relation": "P108", "r_label": "nhà tuyển dụng"}
+{"s_qid": "Q103835", "s_label": "Peter Debye", "o_qid": "Q55044", "o_label": "Đại học Ludwig Maximilian München", "start": 1906, "end": null, "relation": "P108", "r_label": "nhà tuyển dụng"}
+{"s_qid": "Q103835", "s_label": "Peter Debye", "o_qid": "Q11942", "o_label": "ETH Zürich", "start": 1911, "end": null, "relation": "P108", "r_label": "nhà tuyển dụng"}
+{"s_qid": "Q155794", "s_label": "Hans Bethe", "o_qid": "Q153978", "o_label": "Đại học Tübingen", "start": 1931, "end": 1933, "relation": "P108", "r_label": "nhà tuyển dụng"}
+{"s_qid": "Q155794", "s_label": "Hans Bethe", "o_qid": "Q49115", "o_label": "Đại học Cornell", "start": 1933, "end": 1975, "relation": "P108", "r_label": "nhà tuyển dụng"}
+{"s_qid": "Q287097", "s_label": "Bartel Leendert van der Waerden", "o_qid": "Q154804", "o_label": "Đại học Leipzig", "start": 1931, "end": 1945, "relation": "P108", "r_label": "nhà tuyển dụng"}
+{"s_qid": "Q287097", "s_label": "Bartel Leendert van der Waerden", "o_qid": "Q206702", "o_label": "Đại học Zürich", "start": 1951, "end": 1972, "relation": "P108", "r_label": "nhà tuyển dụng"}
+{"s_qid": "Q287097", "s_label": "Bartel Leendert van der Waerden", "o_qid": "Q850730", "o_label": "Đại học Groningen", "start": 1928, "end": 1931, "relation": "P108", "r_label": "nhà tuyển dụng"}
+{"s_qid": "Q287097", "s_label": "Bartel Leendert van der Waerden", "o_qid": "Q214341", "o_label": "Đại học Amsterdam", "start": 1949, "end": 1950, "relation": "P108", "r_label": "nhà tuyển dụng"}
+{"s_qid": "Q287097", "s_label": "Bartel Leendert van der Waerden", "o_qid": "Q214341", "o_label": "Đại học Amsterdam", "start": 1950, "end": 1951, "relation": "P108", "r_label": "nhà tuyển dụng"}
+{"s_qid": "Q287097", "s_label": "Bartel Leendert van der Waerden", "o_qid": "Q154950", "o_label": "Shell", "start": 1945, "end": 1947, "relation": "P108", "r_label": "nhà tuyển dụng"}
+{"s_qid": "Q287097", "s_label": "Bartel Leendert van der Waerden", "o_qid": "Q193727", "o_label": "Đại học Johns Hopkins", "start": 1947, "end": 1948, "relation": "P108", "r_label": "nhà tuyển dụng"}
+{"s_qid": "Q907372", "s_label": "Alexander Pavlovich Vinogradov", "o_qid": "Q1459393", "o_label": "S. M. Kirov Military Medical Academy", "start": 1925, "end": null, "relation": "P108", "r_label": "nhà tuyển dụng"}
+{"s_qid": "Q907372", "s_label": "Alexander Pavlovich Vinogradov", "o_qid": "Q83172", "o_label": "Viện Hàn lâm Khoa học Nga", "start": 1967, "end": 1975, "relation": "P108", "r_label": "nhà tuyển dụng"}
+{"s_qid": "Q982534", "s_label": "Jacques-Louis Lions", "o_qid": "Q202660", "o_label": "Collège de France", "start": 1973, "end": 1998, "relation": "P108", "r_label": "nhà tuyển dụng"}
+{"s_qid": "Q982534", "s_label": "Jacques-Louis Lions", "o_qid": "Q209842", "o_label": "Đại học Paris", "start": 1963, "end": 1973, "relation": "P108", "r_label": "nhà tuyển dụng"}
+{"s_qid": "Q982534", "s_label": "Jacques-Louis Lions", "o_qid": "Q273626", "o_label": "Trường Bách khoa Paris", "start": 1966, "end": 1986, "relation": "P108", "r_label": "nhà tuyển dụng"}
+{"s_qid": "Q1053255", "s_label": "Lamberto Cesari", "o_qid": "Q230492", "o_label": "Đại học Michigan", "start": 1960, "end": 1980, "relation": "P108", "r_label": "nhà tuyển dụng"}
+{"s_qid": "Q1053255", "s_label": "Lamberto Cesari", "o_qid": "Q645663", "o_label": "Đại học Pisa", "start": 1938, "end": 1942, "relation": "P108", "r_label": "nhà tuyển dụng"}
+{"s_qid": "Q1053255", "s_label": "Lamberto Cesari", "o_qid": "Q131262", "o_label": "Đại học Bologna", "start": 1942, "end": 1948, "relation": "P108", "r_label": "nhà tuyển dụng"}
+{"s_qid": "Q1053255", "s_label": "Lamberto Cesari", "o_qid": "Q55044", "o_label": "Đại học Ludwig Maximilian München", "start": 1934, "end": 1935, "relation": "P108", "r_label": "nhà tuyển dụng"}
+{"s_qid": "Q1053255", "s_label": "Lamberto Cesari", "o_qid": "Q672416", "o_label": "Scuola Normale Superiore", "start": 1935, "end": 1936, "relation": "P108", "r_label": "nhà tuyển dụng"}
+{"s_qid": "Q1053255", "s_label": "Lamberto Cesari", "o_qid": "Q635642", "o_label": "Viện nghiên cứu cao cấp Princeton", "start": 1948, "end": 1948, "relation": "P108", "r_label": "nhà tuyển dụng"}
+{"s_qid": "Q1053255", "s_label": "Lamberto Cesari", "o_qid": "Q168756", "o_label": "Đại học California tại Berkeley", "start": 1949, "end": 1950, "relation": "P108", "r_label": "nhà tuyển dụng"}
+{"s_qid": "Q1053255", "s_label": "Lamberto Cesari", "o_qid": "Q838330", "o_label": "Đại học Wisconsin – Madison", "start": 1950, "end": 1952, "relation": "P108", "r_label": "nhà tuyển dụng"}
+{"s_qid": "Q1053255", "s_label": "Lamberto Cesari", "o_qid": "Q217741", "o_label": "Đại học Purdue", "start": 1952, "end": 1960, "relation": "P108", "r_label": "nhà tuyển dụng"}
+{"s_qid": "Q1624726", "s_label": "Rainer Nagel", "o_qid": "Q153978", "o_label": "Đại học Tübingen", "start": 1974, "end": 2009, "relation": "P108", "r_label": "nhà tuyển dụng"}
+{"s_qid": "Q1624726", "s_label": "Rainer Nagel", "o_qid": "Q1236136", "o_label": "University of Bari", "start": 1993, "end": 1995, "relation": "P108", "r_label": "nhà tuyển dụng"}
+{"s_qid": "Q1680331", "s_label": "James Eells", "o_qid": "Q865528", "o_label": "Đại học Warwick", "start": 1967, "end": 1992, "relation": "P108", "r_label": "nhà tuyển dụng"}
+{"s_qid": "Q1680331", "s_label": "James Eells", "o_qid": "Q49115", "o_label": "Đại học Cornell", "start": 1963, "end": 1966, "relation": "P108", "r_label": "nhà tuyển dụng"}
+{"s_qid": "Q1680331", "s_label": "James Eells", "o_qid": "Q49088", "o_label": "Đại học Columbia", "start": 1958, "end": 1963, "relation": "P108", "r_label": "nhà tuyển dụng"}
+{"s_qid": "Q1680331", "s_label": "James Eells", "o_qid": "Q49165", "o_label": "Đại học Amherst", "start": 1948, "end": 1950, "relation": "P108", "r_label": "nhà tuyển dụng"}
+{"s_qid": "Q1680331", "s_label": "James Eells", "o_qid": "Q214341", "o_label": "Đại học Amsterdam", "start": 1966, "end": 1966, "relation": "P108", "r_label": "nhà tuyển dụng"}
+{"s_qid": "Q1680331", "s_label": "James Eells", "o_qid": "Q635642", "o_label": "Viện nghiên cứu cao cấp Princeton", "start": 1954, "end": 1956, "relation": "P108", "r_label": "nhà tuyển dụng"}
+{"s_qid": "Q1680331", "s_label": "James Eells", "o_qid": "Q168756", "o_label": "Đại học California tại Berkeley", "start": 1956, "end": 1958, "relation": "P108", "r_label": "nhà tuyển dụng"}
+{"s_qid": "Q1680331", "s_label": "James Eells", "o_qid": "Q1190606", "o_label": "International Centre for Theoretical Physics", "start": 1986, "end": 1992, "relation": "P108", "r_label": "nhà tuyển dụng"}
+{"s_qid": "Q91899149", "s_label": "Antonio-Jesús Marín-Paz", "o_qid": "Q5489257", "o_label": "Hospital Universitario Puerta del Mar", "start": 2015, "end": 2015, "relation": "P108", "r_label": "nhà tuyển dụng"}
+{"s_qid": "Q91899149", "s_label": "Antonio-Jesús Marín-Paz", "o_qid": "Q5489257", "o_label": "Hospital Universitario Puerta del Mar", "start": 2015, "end": 2015, "relation": "P108", "r_label": "nhà tuyển dụng"}
+{"s_qid": "Q91899149", "s_label": "Antonio-Jesús Marín-Paz", "o_qid": "Q5489257", "o_label": "Hospital Universitario Puerta del Mar", "start": 2014, "end": 2015, "relation": "P108", "r_label": "nhà tuyển dụng"}
+{"s_qid": "Q91899149", "s_label": "Antonio-Jesús Marín-Paz", "o_qid": "Q5489257", "o_label": "Hospital Universitario Puerta del Mar", "start": 2014, "end": 2014, "relation": "P108", "r_label": "nhà tuyển dụng"}
+{"s_qid": "Q91899149", "s_label": "Antonio-Jesús Marín-Paz", "o_qid": "Q5489257", "o_label": "Hospital Universitario Puerta del Mar", "start": 2014, "end": 2014, "relation": "P108", "r_label": "nhà tuyển dụng"}
+{"s_qid": "Q91899149", "s_label": "Antonio-Jesús Marín-Paz", "o_qid": "Q5489257", "o_label": "Hospital Universitario Puerta del Mar", "start": 2013, "end": 2013, "relation": "P108", "r_label": "nhà tuyển dụng"}
+{"s_qid": "Q91899149", "s_label": "Antonio-Jesús Marín-Paz", "o_qid": "Q5489257", "o_label": "Hospital Universitario Puerta del Mar", "start": 2013, "end": 2013, "relation": "P108", "r_label": "nhà tuyển dụng"}
+{"s_qid": "Q91899149", "s_label": "Antonio-Jesús Marín-Paz", "o_qid": "Q5489257", "o_label": "Hospital Universitario Puerta del Mar", "start": 2012, "end": 2012, "relation": "P108", "r_label": "nhà tuyển dụng"}
+{"s_qid": "Q91899149", "s_label": "Antonio-Jesús Marín-Paz", "o_qid": "Q5489257", "o_label": "Hospital Universitario Puerta del Mar", "start": 2011, "end": 2012, "relation": "P108", "r_label": "nhà tuyển dụng"}
+{"s_qid": "Q91899149", "s_label": "Antonio-Jesús Marín-Paz", "o_qid": "Q5489257", "o_label": "Hospital Universitario Puerta del Mar", "start": 2011, "end": 2011, "relation": "P108", "r_label": "nhà tuyển dụng"}
+{"s_qid": "Q91899149", "s_label": "Antonio-Jesús Marín-Paz", "o_qid": "Q5489257", "o_label": "Hospital Universitario Puerta del Mar", "start": 2011, "end": 2011, "relation": "P108", "r_label": "nhà tuyển dụng"}
+{"s_qid": "Q91899149", "s_label": "Antonio-Jesús Marín-Paz", "o_qid": "Q5489257", "o_label": "Hospital Universitario Puerta del Mar", "start": 2011, "end": 2011, "relation": "P108", "r_label": "nhà tuyển dụng"}
+{"s_qid": "Q91899149", "s_label": "Antonio-Jesús Marín-Paz", "o_qid": "Q5489257", "o_label": "Hospital Universitario Puerta del Mar", "start": 2011, "end": 2011, "relation": "P108", "r_label": "nhà tuyển dụng"}
+{"s_qid": "Q91899149", "s_label": "Antonio-Jesús Marín-Paz", "o_qid": "Q5489257", "o_label": "Hospital Universitario Puerta del Mar", "start": 2011, "end": 2011, "relation": "P108", "r_label": "nhà tuyển dụng"}
+{"s_qid": "Q91899149", "s_label": "Antonio-Jesús Marín-Paz", "o_qid": "Q5489257", "o_label": "Hospital Universitario Puerta del Mar", "start": 2011, "end": 2011, "relation": "P108", "r_label": "nhà tuyển dụng"}
+{"s_qid": "Q91899149", "s_label": "Antonio-Jesús Marín-Paz", "o_qid": "Q5489257", "o_label": "Hospital Universitario Puerta del Mar", "start": 2011, "end": 2011, "relation": "P108", "r_label": "nhà tuyển dụng"}
+{"s_qid": "Q91899149", "s_label": "Antonio-Jesús Marín-Paz", "o_qid": "Q5489257", "o_label": "Hospital Universitario Puerta del Mar", "start": 2011, "end": 2011, "relation": "P108", "r_label": "nhà tuyển dụng"}
+{"s_qid": "Q91899149", "s_label": "Antonio-Jesús Marín-Paz", "o_qid": "Q5489257", "o_label": "Hospital Universitario Puerta del Mar", "start": 2011, "end": 2011, "relation": "P108", "r_label": "nhà tuyển dụng"}
+{"s_qid": "Q91899149", "s_label": "Antonio-Jesús Marín-Paz", "o_qid": "Q5489257", "o_label": "Hospital Universitario Puerta del Mar", "start": 2011, "end": 2011, "relation": "P108", "r_label": "nhà tuyển dụng"}
+{"s_qid": "Q91899149", "s_label": "Antonio-Jesús Marín-Paz", "o_qid": "Q5489257", "o_label": "Hospital Universitario Puerta del Mar", "start": 2011, "end": 2011, "relation": "P108", "r_label": "nhà tuyển dụng"}
+{"s_qid": "Q91899149", "s_label": "Antonio-Jesús Marín-Paz", "o_qid": "Q5489257", "o_label": "Hospital Universitario Puerta del Mar", "start": 2010, "end": 2011, "relation": "P108", "r_label": "nhà tuyển dụng"}
+{"s_qid": "Q91899149", "s_label": "Antonio-Jesús Marín-Paz", "o_qid": "Q5489257", "o_label": "Hospital Universitario Puerta del Mar", "start": 2010, "end": 2010, "relation": "P108", "r_label": "nhà tuyển dụng"}
+{"s_qid": "Q91899149", "s_label": "Antonio-Jesús Marín-Paz", "o_qid": "Q5489257", "o_label": "Hospital Universitario Puerta del Mar", "start": 2010, "end": 2010, "relation": "P108", "r_label": "nhà tuyển dụng"}
+{"s_qid": "Q91899149", "s_label": "Antonio-Jesús Marín-Paz", "o_qid": "Q5489257", "o_label": "Hospital Universitario Puerta del Mar", "start": 2010, "end": 2010, "relation": "P108", "r_label": "nhà tuyển dụng"}
+{"s_qid": "Q91899149", "s_label": "Antonio-Jesús Marín-Paz", "o_qid": "Q5489257", "o_label": "Hospital Universitario Puerta del Mar", "start": 2010, "end": 2010, "relation": "P108", "r_label": "nhà tuyển dụng"}
+{"s_qid": "Q91899149", "s_label": "Antonio-Jesús Marín-Paz", "o_qid": "Q5489257", "o_label": "Hospital Universitario Puerta del Mar", "start": 2010, "end": 2010, "relation": "P108", "r_label": "nhà tuyển dụng"}
+{"s_qid": "Q91899149", "s_label": "Antonio-Jesús Marín-Paz", "o_qid": "Q5489257", "o_label": "Hospital Universitario Puerta del Mar", "start": 2009, "end": 2010, "relation": "P108", "r_label": "nhà tuyển dụng"}
+{"s_qid": "Q91899149", "s_label": "Antonio-Jesús Marín-Paz", "o_qid": "Q5489257", "o_label": "Hospital Universitario Puerta del Mar", "start": 2009, "end": 2009, "relation": "P108", "r_label": "nhà tuyển dụng"}
+{"s_qid": "Q91899149", "s_label": "Antonio-Jesús Marín-Paz", "o_qid": "Q5489257", "o_label": "Hospital Universitario Puerta del Mar", "start": 2009, "end": 2009, "relation": "P108", "r_label": "nhà tuyển dụng"}
+{"s_qid": "Q91899149", "s_label": "Antonio-Jesús Marín-Paz", "o_qid": "Q5489257", "o_label": "Hospital Universitario Puerta del Mar", "start": 2009, "end": 2009, "relation": "P108", "r_label": "nhà tuyển dụng"}
+{"s_qid": "Q91899149", "s_label": "Antonio-Jesús Marín-Paz", "o_qid": "Q5489257", "o_label": "Hospital Universitario Puerta del Mar", "start": 2009, "end": 2009, "relation": "P108", "r_label": "nhà tuyển dụng"}
+{"s_qid": "Q91899149", "s_label": "Antonio-Jesús Marín-Paz", "o_qid": "Q5489257", "o_label": "Hospital Universitario Puerta del Mar", "start": 2009, "end": 2009, "relation": "P108", "r_label": "nhà tuyển dụng"}
+{"s_qid": "Q91899149", "s_label": "Antonio-Jesús Marín-Paz", "o_qid": "Q5489257", "o_label": "Hospital Universitario Puerta del Mar", "start": 2009, "end": 2009, "relation": "P108", "r_label": "nhà tuyển dụng"}
+{"s_qid": "Q91899149", "s_label": "Antonio-Jesús Marín-Paz", "o_qid": "Q5489257", "o_label": "Hospital Universitario Puerta del Mar", "start": 2009, "end": 2009, "relation": "P108", "r_label": "nhà tuyển dụng"}
+{"s_qid": "Q91899149", "s_label": "Antonio-Jesús Marín-Paz", "o_qid": "Q5489257", "o_label": "Hospital Universitario Puerta del Mar", "start": 2009, "end": 2009, "relation": "P108", "r_label": "nhà tuyển dụng"}
+{"s_qid": "Q91899149", "s_label": "Antonio-Jesús Marín-Paz", "o_qid": "Q5489257", "o_label": "Hospital Universitario Puerta del Mar", "start": 2009, "end": 2009, "relation": "P108", "r_label": "nhà tuyển dụng"}
+{"s_qid": "Q91899149", "s_label": "Antonio-Jesús Marín-Paz", "o_qid": "Q5489257", "o_label": "Hospital Universitario Puerta del Mar", "start": 2009, "end": 2009, "relation": "P108", "r_label": "nhà tuyển dụng"}
+{"s_qid": "Q91899149", "s_label": "Antonio-Jesús Marín-Paz", "o_qid": "Q5489257", "o_label": "Hospital Universitario Puerta del Mar", "start": 2009, "end": 2009, "relation": "P108", "r_label": "nhà tuyển dụng"}
+{"s_qid": "Q91899149", "s_label": "Antonio-Jesús Marín-Paz", "o_qid": "Q5489257", "o_label": "Hospital Universitario Puerta del Mar", "start": 2009, "end": 2009, "relation": "P108", "r_label": "nhà tuyển dụng"}
+{"s_qid": "Q91899149", "s_label": "Antonio-Jesús Marín-Paz", "o_qid": "Q5489257", "o_label": "Hospital Universitario Puerta del Mar", "start": 2009, "end": 2009, "relation": "P108", "r_label": "nhà tuyển dụng"}
+{"s_qid": "Q91899149", "s_label": "Antonio-Jesús Marín-Paz", "o_qid": "Q2000065", "o_label": "University of Cádiz", "start": 2015, "end": null, "relation": "P108", "r_label": "nhà tuyển dụng"}
+{"s_qid": "Q615", "s_label": "Lionel Messi", "o_qid": "Q483020", "o_label": "Paris Saint-Germain", "start": 2021, "end": 2023, "relation": "P108", "r_label": "nhà tuyển dụng"}
+{"s_qid": "Q615", "s_label": "Lionel Messi", "o_qid": "Q7156", "o_label": "F.C. Barcelona", "start": 2005, "end": 2021, "relation": "P108", "r_label": "nhà tuyển dụng"}
+{"s_qid": "Q8753", "s_label": "Enrico Fermi", "o_qid": "Q820887", "o_label": "Đại học Firenze", "start": 1924, "end": 1926, "relation": "P108", "r_label": "nhà tuyển dụng"}
+{"s_qid": "Q8753", "s_label": "Enrico Fermi", "o_qid": "Q209344", "o_label": "Đại học Sapienza của Rome", "start": 1926, "end": 1938, "relation": "P108", "r_label": "nhà tuyển dụng"}
+{"s_qid": "Q8753", "s_label": "Enrico Fermi", "o_qid": "Q49088", "o_label": "Đại học Columbia", "start": 1939, "end": 1942, "relation": "P108", "r_label": "nhà tuyển dụng"}
+{"s_qid": "Q8753", "s_label": "Enrico Fermi", "o_qid": "Q131252", "o_label": "Đại học Chicago", "start": 1942, "end": 1954, "relation": "P108", "r_label": "nhà tuyển dụng"}
+{"s_qid": "Q11156", "s_label": "Antonin Scalia", "o_qid": "Q7896545", "o_label": "University of Virginia School of Law", "start": 1967, "end": 1971, "relation": "P108", "r_label": "nhà tuyển dụng"}
+{"s_qid": "Q40904", "s_label": "Werner Heisenberg", "o_qid": "Q152838", "o_label": "Đại học Göttingen", "start": 1924, "end": 1924, "relation": "P108", "r_label": "nhà tuyển dụng"}
+{"s_qid": "Q40904", "s_label": "Werner Heisenberg", "o_qid": "Q186285", "o_label": "Đại học Copenhagen", "start": 1926, "end": 1927, "relation": "P108", "r_label": "nhà tuyển dụng"}
+{"s_qid": "Q40904", "s_label": "Werner Heisenberg", "o_qid": "Q154804", "o_label": "Đại học Leipzig", "start": 1927, "end": 1941, "relation": "P108", "r_label": "nhà tuyển dụng"}
+{"s_qid": "Q40904", "s_label": "Werner Heisenberg", "o_qid": "Q152087", "o_label": "Đại học Humboldt Berlin", "start": 1941, "end": 1941, "relation": "P108", "r_label": "nhà tuyển dụng"}
+{"s_qid": "Q40904", "s_label": "Werner Heisenberg", "o_qid": "Q216273", "o_label": "Đại học St. Andrews", "start": 1955, "end": 1956, "relation": "P108", "r_label": "nhà tuyển dụng"}
+{"s_qid": "Q40904", "s_label": "Werner Heisenberg", "o_qid": "Q55044", "o_label": "Đại học Ludwig Maximilian München", "start": 1958, "end": 1958, "relation": "P108", "r_label": "nhà tuyển dụng"}
+{"s_qid": "Q40904", "s_label": "Werner Heisenberg", "o_qid": "Q463326", "o_label": "Max Planck Institute for Physics", "start": 1946, "end": 1970, "relation": "P108", "r_label": "nhà tuyển dụng"}
+{"s_qid": "Q49351", "s_label": "Sir Robert Robinson", "o_qid": "Q81162", "o_label": "Magdalen College", "start": 1955, "end": null, "relation": "P108", "r_label": "nhà tuyển dụng"}
+{"s_qid": "Q49351", "s_label": "Sir Robert Robinson", "o_qid": "Q499510", "o_label": "Đại học Liverpool", "start": 1915, "end": 1920, "relation": "P108", "r_label": "nhà tuyển dụng"}
+{"s_qid": "Q49351", "s_label": "Sir Robert Robinson", "o_qid": "Q230899", "o_label": "Đại học Manchester", "start": 1922, "end": 1928, "relation": "P108", "r_label": "nhà tuyển dụng"}
+{"s_qid": "Q49351", "s_label": "Sir Robert Robinson", "o_qid": "Q170027", "o_label": "Đại học London", "start": 1928, "end": 1930, "relation": "P108", "r_label": "nhà tuyển dụng"}
+{"s_qid": "Q49351", "s_label": "Sir Robert Robinson", "o_qid": "Q34433", "o_label": "Đại học Oxford", "start": 1930, "end": 1955, "relation": "P108", "r_label": "nhà tuyển dụng"}
+{"s_qid": "Q49351", "s_label": "Sir Robert Robinson", "o_qid": "Q216273", "o_label": "Đại học St. Andrews", "start": 1921, "end": 1922, "relation": "P108", "r_label": "nhà tuyển dụng"}
+{"s_qid": "Q56189", "s_label": "Lise Meitner", "o_qid": "Q854280", "o_label": "Royal Institute of Technology", "start": null, "end": 1953, "relation": "P108", "r_label": "nhà tuyển dụng"}
+{"s_qid": "Q71031", "s_label": "Robert Bunsen", "o_qid": "Q315658", "o_label": "Đại học Wrocław", "start": 1851, "end": 1852, "relation": "P108", "r_label": "nhà tuyển dụng"}
+{"s_qid": "Q71031", "s_label": "Robert Bunsen", "o_qid": "Q151510", "o_label": "Đại học Heidelberg", "start": 1852, "end": null, "relation": "P108", "r_label": "nhà tuyển dụng"}
+{"s_qid": "Q71031", "s_label": "Robert Bunsen", "o_qid": "Q155354", "o_label": "Đại học Marburg", "start": 1839, "end": 1851, "relation": "P108", "r_label": "nhà tuyển dụng"}
+{"s_qid": "Q71031", "s_label": "Robert Bunsen", "o_qid": "Q152838", "o_label": "Đại học Göttingen", "start": 1834, "end": 1836, "relation": "P108", "r_label": "nhà tuyển dụng"}
+{"s_qid": "Q72334", "s_label": "Toni Morrison", "o_qid": "Q21578", "o_label": "Đại học Princeton", "start": 1989, "end": null, "relation": "P108", "r_label": "nhà tuyển dụng"}
+{"s_qid": "Q148109", "s_label": "Subrahmanyan Chandrasekhar", "o_qid": "Q131252", "o_label": "Đại học Chicago", "start": 1942, "end": 1985, "relation": "P108", "r_label": "nhà tuyển dụng"}
+{"s_qid": "Q148109", "s_label": "Subrahmanyan Chandrasekhar", "o_qid": "Q332342", "o_label": "Cao đẳng Trinity", "start": 1933, "end": 1937, "relation": "P108", "r_label": "nhà tuyển dụng"}
+{"s_qid": "Q183492", "s_label": "Margaret Atwood", "o_qid": "Q640694", "o_label": "Đại học Alberta", "start": 1969, "end": 1970, "relation": "P108", "r_label": "nhà tuyển dụng"}
+{"s_qid": "Q183492", "s_label": "Margaret Atwood", "o_qid": "Q391028", "o_label": "Đại học British Columbia", "start": 1964, "end": 1965, "relation": "P108", "r_label": "nhà tuyển dụng"}
+{"s_qid": "Q183492", "s_label": "Margaret Atwood", "o_qid": "Q849751", "o_label": "Đại học York", "start": 1971, "end": 1972, "relation": "P108", "r_label": "nhà tuyển dụng"}
+{"s_qid": "Q539544", "s_label": "Jerzy Neyman", "o_qid": "Q168756", "o_label": "Đại học California tại Berkeley", "start": 1938, "end": 1981, "relation": "P108", "r_label": "nhà tuyển dụng"}
+{"s_qid": "Q539544", "s_label": "Jerzy Neyman", "o_qid": "Q193196", "o_label": "Đại học London", "start": 1934, "end": 1938, "relation": "P108", "r_label": "nhà tuyển dụng"}
+{"s_qid": "Q539544", "s_label": "Jerzy Neyman", "o_qid": "Q6991552", "o_label": "Viện Sinh học Thực nghiệm Nencki - Viện Hàn lâm Khoa học Ba Lan", "start": 1928, "end": 1934, "relation": "P108", "r_label": "nhà tuyển dụng"}
+{"s_qid": "Q598132", "s_label": "Antoni Zygmund", "o_qid": "Q1140542", "o_label": "Mount Holyoke College", "start": 1940, "end": 1945, "relation": "P108", "r_label": "nhà tuyển dụng"}
+{"s_qid": "Q598132", "s_label": "Antoni Zygmund", "o_qid": "Q131252", "o_label": "Đại học Chicago", "start": 1947, "end": 1980, "relation": "P108", "r_label": "nhà tuyển dụng"}
+{"s_qid": "Q598132", "s_label": "Antoni Zygmund", "o_qid": "Q49117", "o_label": "Đại học Pennsylvania", "start": 1945, "end": 1947, "relation": "P108", "r_label": "nhà tuyển dụng"}
+{"s_qid": "Q598132", "s_label": "Antoni Zygmund", "o_qid": "Q1718656", "o_label": "Đại học Công nghệ Warszawa", "start": 1922, "end": 1929, "relation": "P108", "r_label": "nhà tuyển dụng"}
+{"s_qid": "Q598132", "s_label": "Antoni Zygmund", "o_qid": "Q658192", "o_label": "Đại học Vilnius", "start": 1930, "end": 1939, "relation": "P108", "r_label": "nhà tuyển dụng"}
+{"s_qid": "Q598132", "s_label": "Antoni Zygmund", "o_qid": "Q144488", "o_label": "Đại học Warszawa", "start": 1926, "end": 1929, "relation": "P108", "r_label": "nhà tuyển dụng"}
+{"s_qid": "Q3158033", "s_label": "Jacques-Olivier Boudon", "o_qid": "Q546118", "o_label": "Đại học Paris-Sorbonne", "start": 1992, "end": 1998, "relation": "P108", "r_label": "nhà tuyển dụng"}
+{"s_qid": "Q3158033", "s_label": "Jacques-Olivier Boudon", "o_qid": "Q494247", "o_label": "University of Rouen-Normandy", "start": 1998, "end": 2003, "relation": "P108", "r_label": "nhà tuyển dụng"}
+{"s_qid": "Q3158033", "s_label": "Jacques-Olivier Boudon", "o_qid": "Q859363", "o_label": "Viện Nghiên cứu Chính trị Paris", "start": 1992, "end": 1994, "relation": "P108", "r_label": "nhà tuyển dụng"}
+{"s_qid": "Q3158033", "s_label": "Jacques-Olivier Boudon", "o_qid": "Q546118", "o_label": "Đại học Paris-Sorbonne", "start": 2003, "end": null, "relation": "P108", "r_label": "nhà tuyển dụng"}
+{"s_qid": "Q64712781", "s_label": "Maurice Agulhon", "o_qid": "Q202660", "o_label": "Collège de France", "start": 1986, "end": 1997, "relation": "P108", "r_label": "nhà tuyển dụng"}
+{"s_qid": "Q64712781", "s_label": "Maurice Agulhon", "o_qid": "Q1687719", "o_label": "University of Provence - Aix-Marseille I", "start": 1957, "end": 1972, "relation": "P108", "r_label": "nhà tuyển dụng"}
+{"s_qid": "Q64712781", "s_label": "Maurice Agulhon", "o_qid": "Q999763", "o_label": "Trường Đại học Paris I", "start": 1972, "end": 1986, "relation": "P108", "r_label": "nhà tuyển dụng"}
+{"s_qid": "Q64712781", "s_label": "Maurice Agulhon", "o_qid": "Q280413", "o_label": "Trung tâm Nghiên cứu Khoa học Quốc gia Pháp", "start": 1954, "end": 1957, "relation": "P108", "r_label": "nhà tuyển dụng"}
+{"s_qid": "Q5354", "s_label": "Ernst Mayr", "o_qid": "Q233098", "o_label": "Viện bảo tàng Vạn vật học Berlin", "start": 1926, "end": 1932, "relation": "P108", "r_label": "nhà tuyển dụng"}
+{"s_qid": "Q34296", "s_label": "Woodrow Wilson", "o_qid": "Q21578", "o_label": "Đại học Princeton", "start": 1874, "end": null, "relation": "P108", "r_label": "nhà tuyển dụng"}
+{"s_qid": "Q48990", "s_label": "Nikolay Nikolayevich Semyonov", "o_qid": "Q32637", "o_label": "viện Ioffe", "start": 1920, "end": null, "relation": "P108", "r_label": "nhà tuyển dụng"}
+{"s_qid": "Q48990", "s_label": "Nikolay Nikolayevich Semyonov", "o_qid": "Q4201824", "o_label": "Semenov Institute of Chemical Physics", "start": 1931, "end": 1986, "relation": "P108", "r_label": "nhà tuyển dụng"}
+{"s_qid": "Q48990", "s_label": "Nikolay Nikolayevich Semyonov", "o_qid": "Q13164", "o_label": "Đại học Quốc gia Moskva", "start": 1944, "end": null, "relation": "P108", "r_label": "nhà tuyển dụng"}
+{"s_qid": "Q48990", "s_label": "Nikolay Nikolayevich Semyonov", "o_qid": "Q1379834", "o_label": "Đại học Bách khoa Saint Petersburg", "start": 1928, "end": null, "relation": "P108", "r_label": "nhà tuyển dụng"}
+{"s_qid": "Q48990", "s_label": "Nikolay Nikolayevich Semyonov", "o_qid": "Q83172", "o_label": "Viện Hàn lâm Khoa học Nga", "start": 1963, "end": 1971, "relation": "P108", "r_label": "nhà tuyển dụng"}
+{"s_qid": "Q57245", "s_label": "Ernst Kummer", "o_qid": "Q315658", "o_label": "Đại học Wrocław", "start": 1842, "end": 1855, "relation": "P108", "r_label": "nhà tuyển dụng"}
+{"s_qid": "Q57245", "s_label": "Ernst Kummer", "o_qid": "Q20266330", "o_label": "Đại học Frederick William Berlin", "start": 1855, "end": 1883, "relation": "P108", "r_label": "nhà tuyển dụng"}
+{"s_qid": "Q71052", "s_label": "Albert Wangerin", "o_qid": "Q32120", "o_label": "Martin Luther University Halle-Wittenberg", "start": 1882, "end": 1919, "relation": "P108", "r_label": "nhà tuyển dụng"}
+{"s_qid": "Q71052", "s_label": "Albert Wangerin", "o_qid": "Q20266330", "o_label": "Đại học Frederick William Berlin", "start": 1876, "end": 1882, "relation": "P108", "r_label": "nhà tuyển dụng"}
+{"s_qid": "Q78085", "s_label": "Reinhold Baer", "o_qid": "Q635642", "o_label": "Viện nghiên cứu cao cấp Princeton", "start": 1935, "end": 1937, "relation": "P108", "r_label": "nhà tuyển dụng"}
+{"s_qid": "Q78085", "s_label": "Reinhold Baer", "o_qid": "Q50662", "o_label": "Đại học Goethe Frankfurt", "start": 1956, "end": 1967, "relation": "P108", "r_label": "nhà tuyển dụng"}
+{"s_qid": "Q78085", "s_label": "Reinhold Baer", "o_qid": "Q457281", "o_label": "Đại học Illinois Urbana-Champaign", "start": 1938, "end": 1956, "relation": "P108", "r_label": "nhà tuyển dụng"}
+{"s_qid": "Q78085", "s_label": "Reinhold Baer", "o_qid": "Q32120", "o_label": "Martin Luther University Halle-Wittenberg", "start": 1929, "end": 1933, "relation": "P108", "r_label": "nhà tuyển dụng"}
+{"s_qid": "Q78085", "s_label": "Reinhold Baer", "o_qid": "Q153987", "o_label": "Đại học Freiburg", "start": 1926, "end": 1928, "relation": "P108", "r_label": "nhà tuyển dụng"}
+{"s_qid": "Q78085", "s_label": "Reinhold Baer", "o_qid": "Q867530", "o_label": "Victoria University of Manchester", "start": 1933, "end": 1935, "relation": "P108", "r_label": "nhà tuyển dụng"}
+{"s_qid": "Q78085", "s_label": "Reinhold Baer", "o_qid": "Q192334", "o_label": "Đại học North Carolina tại Chapel Hill", "start": 1937, "end": 1938, "relation": "P108", "r_label": "nhà tuyển dụng"}
+{"s_qid": "Q105875", "s_label": "Herbie Hancock", "o_qid": "Q174710", "o_label": "Đại học California tại Los Angeles", "start": 2013, "end": null, "relation": "P108", "r_label": "nhà tuyển dụng"}
+{"s_qid": "Q122724", "s_label": "Eduard Stiefel", "o_qid": "Q11942", "o_label": "ETH Zürich", "start": 1942, "end": 1978, "relation": "P108", "r_label": "nhà tuyển dụng"}
+{"s_qid": "Q271295", "s_label": "Georges Duby", "o_qid": "Q202660", "o_label": "Collège de France", "start": 1970, "end": 1991, "relation": "P108", "r_label": "nhà tuyển dụng"}
+{"s_qid": "Q336977", "s_label": "Guido Gezelle", "o_qid": "Q1867263", "o_label": "Klein Seminarie Roeselare", "start": 1854, "end": 1860, "relation": "P108", "r_label": "nhà tuyển dụng"}
+{"s_qid": "Q343420", "s_label": "Lennart Carleson", "o_qid": "Q185246", "o_label": "Đại học Uppsala", "start": 1951, "end": 1954, "relation": "P108", "r_label": "nhà tuyển dụng"}
+{"s_qid": "Q343420", "s_label": "Lennart Carleson", "o_qid": "Q221645", "o_label": "Đại học Stockholm", "start": 1954, "end": 1955, "relation": "P108", "r_label": "nhà tuyển dụng"}
+{"s_qid": "Q343420", "s_label": "Lennart Carleson", "o_qid": "Q185246", "o_label": "Đại học Uppsala", "start": 1955, "end": 1993, "relation": "P108", "r_label": "nhà tuyển dụng"}
+{"s_qid": "Q343420", "s_label": "Lennart Carleson", "o_qid": "Q174710", "o_label": "Đại học California tại Los Angeles", "start": 1991, "end": null, "relation": "P108", "r_label": "nhà tuyển dụng"}
+{"s_qid": "Q540981", "s_label": "Rolf Nevanlinna", "o_qid": "Q28695", "o_label": "Đại học Helsinki", "start": 1922, "end": 1946, "relation": "P108", "r_label": "nhà tuyển dụng"}
+{"s_qid": "Q540981", "s_label": "Rolf Nevanlinna", "o_qid": "Q11942", "o_label": "ETH Zürich", "start": 1946, "end": 1963, "relation": "P108", "r_label": "nhà tuyển dụng"}
+{"s_qid": "Q540981", "s_label": "Rolf Nevanlinna", "o_qid": "Q501841", "o_label": "University of Turku", "start": 1965, "end": 1970, "relation": "P108", "r_label": "nhà tuyển dụng"}
+{"s_qid": "Q578918", "s_label": "Alberto Calderón", "o_qid": "Q49108", "o_label": "Học viện Công nghệ Massachusetts", "start": 1955, "end": 1959, "relation": "P108", "r_label": "nhà tuyển dụng"}
+{"s_qid": "Q578918", "s_label": "Alberto Calderón", "o_qid": "Q131252", "o_label": "Đại học Chicago", "start": 1959, "end": 1972, "relation": "P108", "r_label": "nhà tuyển dụng"}
+{"s_qid": "Q578918", "s_label": "Alberto Calderón", "o_qid": "Q309331", "o_label": "Đại học Tiểu bang Ohio", "start": 1950, "end": 1953, "relation": "P108", "r_label": "nhà tuyển dụng"}
+{"s_qid": "Q578918", "s_label": "Alberto Calderón", "o_qid": "Q635642", "o_label": "Viện nghiên cứu cao cấp Princeton", "start": 1953, "end": 1955, "relation": "P108", "r_label": "nhà tuyển dụng"}
+{"s_qid": "Q578918", "s_label": "Alberto Calderón", "o_qid": "Q49108", "o_label": "Học viện Công nghệ Massachusetts", "start": 1972, "end": 1975, "relation": "P108", "r_label": "nhà tuyển dụng"}
+{"s_qid": "Q578918", "s_label": "Alberto Calderón", "o_qid": "Q131252", "o_label": "Đại học Chicago", "start": 1975, "end": 1985, "relation": "P108", "r_label": "nhà tuyển dụng"}
+{"s_qid": "Q578918", "s_label": "Alberto Calderón", "o_qid": "Q131252", "o_label": "Đại học Chicago", "start": 1989, "end": 1992, "relation": "P108", "r_label": "nhà tuyển dụng"}
+{"s_qid": "Q707137", "s_label": "Mikhail Lavrentyev", "o_qid": "Q2370801", "o_label": "Viện Hàn lâm Khoa học Liên Xô", "start": 1939, "end": 1949, "relation": "P108", "r_label": "nhà tuyển dụng"}
+{"s_qid": "Q707137", "s_label": "Mikhail Lavrentyev", "o_qid": "Q3151770", "o_label": "Đại học Công nghệ Hoá học Moskva Mendeleev", "start": 1929, "end": 1935, "relation": "P108", "r_label": "nhà tuyển dụng"}
+{"s_qid": "Q707137", "s_label": "Mikhail Lavrentyev", "o_qid": "Q190414", "o_label": "TsAGI", "start": 1929, "end": 1935, "relation": "P108", "r_label": "nhà tuyển dụng"}
+{"s_qid": "Q707137", "s_label": "Mikhail Lavrentyev", "o_qid": "Q1637997", "o_label": "Novosibirsk State University", "start": 1957, "end": 1975, "relation": "P108", "r_label": "nhà tuyển dụng"}
+{"s_qid": "Q707137", "s_label": "Mikhail Lavrentyev", "o_qid": "Q1472245", "o_label": "Đại học Tổng hợp Kỹ thuật Moskva Bauman", "start": 1921, "end": 1929, "relation": "P108", "r_label": "nhà tuyển dụng"}
+{"s_qid": "Q707137", "s_label": "Mikhail Lavrentyev", "o_qid": "Q13164", "o_label": "Đại học Quốc gia Moskva", "start": 1949, "end": 1957, "relation": "P108", "r_label": "nhà tuyển dụng"}
+{"s_qid": "Q707137", "s_label": "Mikhail Lavrentyev", "o_qid": "Q83172", "o_label": "Viện Hàn lâm Khoa học Nga", "start": 1957, "end": 1975, "relation": "P108", "r_label": "nhà tuyển dụng"}
+{"s_qid": "Q707137", "s_label": "Mikhail Lavrentyev", "o_qid": "Q611420", "o_label": "Viện toán Steklov", "start": 1934, "end": null, "relation": "P108", "r_label": "nhà tuyển dụng"}
+{"s_qid": "Q707137", "s_label": "Mikhail Lavrentyev", "o_qid": "Q84151", "o_label": "Đại học Quốc gia Kyiv", "start": null, "end": 1941, "relation": "P108", "r_label": "nhà tuyển dụng"}
+{"s_qid": "Q707137", "s_label": "Mikhail Lavrentyev", "o_qid": "Q84151", "o_label": "Đại học Quốc gia Kyiv", "start": 1945, "end": 1948, "relation": "P108", "r_label": "nhà tuyển dụng"}
+{"s_qid": "Q707137", "s_label": "Mikhail Lavrentyev", "o_qid": "Q1367256", "o_label": "Đại học vật lý kỹ thuật Moskva", "start": 1955, "end": 1958, "relation": "P108", "r_label": "nhà tuyển dụng"}
+{"s_qid": "Q950211", "s_label": "Mark Krein", "o_qid": "Q85300", "o_label": "Đại học Odessa", "start": 1929, "end": 1941, "relation": "P108", "r_label": "nhà tuyển dụng"}
+{"s_qid": "Q950211", "s_label": "Mark Krein", "o_qid": "Q4406402", "o_label": "Samara State Technical University", "start": 1941, "end": 1944, "relation": "P108", "r_label": "nhà tuyển dụng"}
+{"s_qid": "Q950211", "s_label": "Mark Krein", "o_qid": "Q958769", "o_label": "Viện hàn lâm Khoa học quốc gia Ukraine", "start": 1944, "end": 1952, "relation": "P108", "r_label": "nhà tuyển dụng"}
+{"s_qid": "Q950211", "s_label": "Mark Krein", "o_qid": "Q3608706", "o_label": "Kryvyi Rih National University", "start": 1952, "end": 1954, "relation": "P108", "r_label": "nhà tuyển dụng"}
+{"s_qid": "Q937", "s_label": "Albert Einstein", "o_qid": "Q206702", "o_label": "Đại học Zürich", "start": 1909, "end": 1911, "relation": "P108", "r_label": "nhà tuyển dụng"}
+{"s_qid": "Q937", "s_label": "Albert Einstein", "o_qid": "Q11942", "o_label": "ETH Zürich", "start": 1912, "end": 1914, "relation": "P108", "r_label": "nhà tuyển dụng"}
+{"s_qid": "Q937", "s_label": "Albert Einstein", "o_qid": "Q21578", "o_label": "Đại học Princeton", "start": 1933, "end": 1955, "relation": "P108", "r_label": "nhà tuyển dụng"}
+{"s_qid": "Q937", "s_label": "Albert Einstein", "o_qid": "Q659080", "o_label": "University of Bern", "start": 1908, "end": 1909, "relation": "P108", "r_label": "nhà tuyển dụng"}
+{"s_qid": "Q937", "s_label": "Albert Einstein", "o_qid": "Q819187", "o_label": "Deutsche Physikalische Gesellschaft", "start": 1916, "end": 1918, "relation": "P108", "r_label": "nhà tuyển dụng"}
+{"s_qid": "Q937", "s_label": "Albert Einstein", "o_qid": "Q152087", "o_label": "Đại học Humboldt Berlin", "start": 1914, "end": 1933, "relation": "P108", "r_label": "nhà tuyển dụng"}
+{"s_qid": "Q937", "s_label": "Albert Einstein", "o_qid": "Q329464", "o_label": "Viện Hàn lâm Khoa học Phổ", "start": 1914, "end": 1933, "relation": "P108", "r_label": "nhà tuyển dụng"}
+{"s_qid": "Q937", "s_label": "Albert Einstein", "o_qid": "Q156598", "o_label": "Đại học Leiden", "start": 1920, "end": 1946, "relation": "P108", "r_label": "nhà tuyển dụng"}
+{"s_qid": "Q6279", "s_label": "Joe Biden", "o_qid": "Q49117", "o_label": "Đại học Pennsylvania", "start": 2017, "end": null, "relation": "P108", "r_label": "nhà tuyển dụng"}
+{"s_qid": "Q6279", "s_label": "Joe Biden", "o_qid": "Q3443325", "o_label": "Widener University", "start": 1991, "end": 2008, "relation": "P108", "r_label": "nhà tuyển dụng"}
+{"s_qid": "Q11860", "s_label": "Silvio Berlusconi", "o_qid": "Q1543", "o_label": "A.C. Milan", "start": 1986, "end": 2017, "relation": "P108", "r_label": "nhà tuyển dụng"}
+{"s_qid": "Q16597", "s_label": "Giang Trạch Dân", "o_qid": "Q525169", "o_label": "Đại học Giao thông Thượng Hải", "start": 1989, "end": null, "relation": "P108", "r_label": "nhà tuyển dụng"}
+{"s_qid": "Q17455", "s_label": "John von Neumann", "o_qid": "Q21578", "o_label": "Đại học Princeton", "start": 1930, "end": 1933, "relation": "P108", "r_label": "nhà tuyển dụng"}
+{"s_qid": "Q17455", "s_label": "John von Neumann", "o_qid": "Q20266330", "o_label": "Đại học Frederick William Berlin", "start": 1926, "end": 1929, "relation": "P108", "r_label": "nhà tuyển dụng"}
+{"s_qid": "Q17455", "s_label": "John von Neumann", "o_qid": "Q156725", "o_label": "Đại học Hamburg", "start": 1929, "end": 1930, "relation": "P108", "r_label": "nhà tuyển dụng"}
+{"s_qid": "Q17455", "s_label": "John von Neumann", "o_qid": "Q635642", "o_label": "Viện nghiên cứu cao cấp Princeton", "start": 1933, "end": 1957, "relation": "P108", "r_label": "nhà tuyển dụng"}
+{"s_qid": "Q17455", "s_label": "John von Neumann", "o_qid": "Q379848", "o_label": "Phòng thí nghiệm Quốc gia Los Alamos", "start": 1943, "end": 1955, "relation": "P108", "r_label": "nhà tuyển dụng"}
+{"s_qid": "Q56068", "s_label": "Jennifer Doudna", "o_qid": "Q168756", "o_label": "Đại học California tại Berkeley", "start": 2002, "end": null, "relation": "P108", "r_label": "nhà tuyển dụng"}
+{"s_qid": "Q56068", "s_label": "Jennifer Doudna", "o_qid": "Q49112", "o_label": "Đại học Yale", "start": 1994, "end": 2002, "relation": "P108", "r_label": "nhà tuyển dụng"}
+{"s_qid": "Q61774", "s_label": "Franz Ernst Neumann", "o_qid": "Q672420", "o_label": "Đại học Königsberg", "start": 1825, "end": 1829, "relation": "P108", "r_label": "nhà tuyển dụng"}
+{"s_qid": "Q61774", "s_label": "Franz Ernst Neumann", "o_qid": "Q672420", "o_label": "Đại học Königsberg", "start": 1829, "end": 1876, "relation": "P108", "r_label": "nhà tuyển dụng"}
+{"s_qid": "Q78093", "s_label": "Max Deuring", "o_qid": "Q152838", "o_label": "Đại học Göttingen", "start": 1950, "end": 1976, "relation": "P108", "r_label": "nhà tuyển dụng"}
+{"s_qid": "Q78093", "s_label": "Max Deuring", "o_qid": "Q156725", "o_label": "Đại học Hamburg", "start": 1948, "end": 1950, "relation": "P108", "r_label": "nhà tuyển dụng"}
+{"s_qid": "Q78093", "s_label": "Max Deuring", "o_qid": "Q155354", "o_label": "Đại học Marburg", "start": 1947, "end": 1948, "relation": "P108", "r_label": "nhà tuyển dụng"}
+{"s_qid": "Q78093", "s_label": "Max Deuring", "o_qid": "Q154561", "o_label": "Đại học Jena", "start": 1937, "end": 1943, "relation": "P108", "r_label": "nhà tuyển dụng"}
+{"s_qid": "Q78093", "s_label": "Max Deuring", "o_qid": "Q154804", "o_label": "Đại học Leipzig", "start": 1931, "end": 1937, "relation": "P108", "r_label": "nhà tuyển dụng"}
+{"s_qid": "Q78093", "s_label": "Max Deuring", "o_qid": "Q348402", "o_label": "Trường đại học Adam Mickiewicz ở Poznań", "start": 1943, "end": 1945, "relation": "P108", "r_label": "nhà tuyển dụng"}
+{"s_qid": "Q87523", "s_label": "Carl Johannes Thomae", "o_qid": "Q154561", "o_label": "Đại học Jena", "start": 1879, "end": 1914, "relation": "P108", "r_label": "nhà tuyển dụng"}
+{"s_qid": "Q87523", "s_label": "Carl Johannes Thomae", "o_qid": "Q32120", "o_label": "Martin Luther University Halle-Wittenberg", "start": 1867, "end": 1874, "relation": "P108", "r_label": "nhà tuyển dụng"}
+{"s_qid": "Q87523", "s_label": "Carl Johannes Thomae", "o_qid": "Q153987", "o_label": "Đại học Freiburg", "start": 1874, "end": 1879, "relation": "P108", "r_label": "nhà tuyển dụng"}
+{"s_qid": "Q110436", "s_label": "Cory Doctorow", "o_qid": "Q2413375", "o_label": "The Open University", "start": 2009, "end": 2010, "relation": "P108", "r_label": "nhà tuyển dụng"}
+{"s_qid": "Q193803", "s_label": "Roger Penrose", "o_qid": "Q375606", "o_label": "Birkbeck, University of London", "start": 1964, "end": 1973, "relation": "P108", "r_label": "nhà tuyển dụng"}
+{"s_qid": "Q193803", "s_label": "Roger Penrose", "o_qid": "Q156598", "o_label": "Đại học Leiden", "start": 2011, "end": 2011, "relation": "P108", "r_label": "nhà tuyển dụng"}
+{"s_qid": "Q193803", "s_label": "Roger Penrose", "o_qid": "Q156598", "o_label": "Đại học Leiden", "start": 2011, "end": null, "relation": "P108", "r_label": "nhà tuyển dụng"}
+{"s_qid": "Q193803", "s_label": "Roger Penrose", "o_qid": "Q34433", "o_label": "Đại học Oxford", "start": 1973, "end": 1998, "relation": "P108", "r_label": "nhà tuyển dụng"}
+{"s_qid": "Q213992", "s_label": "Jacques Le Goff", "o_qid": "Q273542", "o_label": "French School of Rome", "start": 1952, "end": 1953, "relation": "P108", "r_label": "nhà tuyển dụng"}
+{"s_qid": "Q286375", "s_label": "Charles Émile Picard", "o_qid": "Q3064332", "o_label": "Science Faculty of Paris", "start": 1878, "end": 1879, "relation": "P108", "r_label": "nhà tuyển dụng"}
+{"s_qid": "Q286375", "s_label": "Charles Émile Picard", "o_qid": "Q578023", "o_label": "University of Toulouse (1896-1968)", "start": 1879, "end": 1881, "relation": "P108", "r_label": "nhà tuyển dụng"}
+{"s_qid": "Q286375", "s_label": "Charles Émile Picard", "o_qid": "Q83259", "o_label": "École normale supérieure", "start": 1877, "end": 1878, "relation": "P108", "r_label": "nhà tuyển dụng"}
+{"s_qid": "Q286375", "s_label": "Charles Émile Picard", "o_qid": "Q273447", "o_label": "École Centrale Paris", "start": 1895, "end": 1937, "relation": "P108", "r_label": "nhà tuyển dụng"}
+{"s_qid": "Q286375", "s_label": "Charles Émile Picard", "o_qid": "Q83259", "o_label": "École normale supérieure", "start": 1881, "end": 1885, "relation": "P108", "r_label": "nhà tuyển dụng"}
+{"s_qid": "Q286375", "s_label": "Charles Émile Picard", "o_qid": "Q209842", "o_label": "Đại học Paris", "start": 1885, "end": 1937, "relation": "P108", "r_label": "nhà tuyển dụng"}
+{"s_qid": "Q295981", "s_label": "Terence Tao", "o_qid": "Q174710", "o_label": "Đại học California tại Los Angeles", "start": 1996, "end": null, "relation": "P108", "r_label": "nhà tuyển dụng"}
+{"s_qid": "Q312499", "s_label": "Nicholas Miklouho-Maclay", "o_qid": "Q154561", "o_label": "Đại học Jena", "start": 1868, "end": null, "relation": "P108", "r_label": "nhà tuyển dụng"}
+{"s_qid": "Q315414", "s_label": "Israel Gelfand", "o_qid": "Q13164", "o_label": "Đại học Quốc gia Moskva", "start": 1941, "end": 1989, "relation": "P108", "r_label": "nhà tuyển dụng"}
+{"s_qid": "Q315414", "s_label": "Israel Gelfand", "o_qid": "Q13371", "o_label": "Đại học Harvard", "start": 1989, "end": 1990, "relation": "P108", "r_label": "nhà tuyển dụng"}
+{"s_qid": "Q315414", "s_label": "Israel Gelfand", "o_qid": "Q49108", "o_label": "Học viện Công nghệ Massachusetts", "start": 1990, "end": 1990, "relation": "P108", "r_label": "nhà tuyển dụng"}
+{"s_qid": "Q315414", "s_label": "Israel Gelfand", "o_qid": "Q2370801", "o_label": "Viện Hàn lâm Khoa học Liên Xô", "start": 1935, "end": 1941, "relation": "P108", "r_label": "nhà tuyển dụng"}
+{"s_qid": "Q315414", "s_label": "Israel Gelfand", "o_qid": "Q499451", "o_label": "Đại học Rutgers", "start": 1990, "end": null, "relation": "P108", "r_label": "nhà tuyển dụng"}
+{"s_qid": "Q351822", "s_label": "John Tate", "o_qid": "Q13371", "o_label": "Đại học Harvard", "start": 1954, "end": 1990, "relation": "P108", "r_label": "nhà tuyển dụng"}
+{"s_qid": "Q351822", "s_label": "John Tate", "o_qid": "Q49213", "o_label": "Đại học Texas tại Austin", "start": 1990, "end": 2009, "relation": "P108", "r_label": "nhà tuyển dụng"}
+{"s_qid": "Q351822", "s_label": "John Tate", "o_qid": "Q21578", "o_label": "Đại học Princeton", "start": 1950, "end": 1953, "relation": "P108", "r_label": "nhà tuyển dụng"}
+{"s_qid": "Q351822", "s_label": "John Tate", "o_qid": "Q49088", "o_label": "Đại học Columbia", "start": 1953, "end": 1954, "relation": "P108", "r_label": "nhà tuyển dụng"}
+{"s_qid": "Q370116", "s_label": "James Glimm", "o_qid": "Q946028", "o_label": "Courant Institute School of Mathematics, Computing, and Data Science", "start": 1968, "end": 1974, "relation": "P108", "r_label": "nhà tuyển dụng"}
+{"s_qid": "Q370116", "s_label": "James Glimm", "o_qid": "Q49108", "o_label": "Học viện Công nghệ Massachusetts", "start": 1960, "end": 1968, "relation": "P108", "r_label": "nhà tuyển dụng"}
+{"s_qid": "Q370116", "s_label": "James Glimm", "o_qid": "Q969850", "o_label": "Stony Brook University", "start": 1989, "end": null, "relation": "P108", "r_label": "nhà tuyển dụng"}
+{"s_qid": "Q370116", "s_label": "James Glimm", "o_qid": "Q270272", "o_label": "Đại học Rockefeller", "start": 1974, "end": 1982, "relation": "P108", "r_label": "nhà tuyển dụng"}
+{"s_qid": "Q370116", "s_label": "James Glimm", "o_qid": "Q585777", "o_label": "Brookhaven National Laboratory", "start": 1999, "end": null, "relation": "P108", "r_label": "nhà tuyển dụng"}
+{"s_qid": "Q370116", "s_label": "James Glimm", "o_qid": "Q635642", "o_label": "Viện nghiên cứu cao cấp Princeton", "start": 1959, "end": 1960, "relation": "P108", "r_label": "nhà tuyển dụng"}
+{"s_qid": "Q370116", "s_label": "James Glimm", "o_qid": "Q946028", "o_label": "Courant Institute School of Mathematics, Computing, and Data Science", "start": 1982, "end": 1989, "relation": "P108", "r_label": "nhà tuyển dụng"}
+{"s_qid": "Q441185", "s_label": "Raoul Bott", "o_qid": "Q13371", "o_label": "Đại học Harvard", "start": 1959, "end": 1999, "relation": "P108", "r_label": "nhà tuyển dụng"}
+{"s_qid": "Q441185", "s_label": "Raoul Bott", "o_qid": "Q230492", "o_label": "Đại học Michigan", "start": 1951, "end": 1959, "relation": "P108", "r_label": "nhà tuyển dụng"}
+{"s_qid": "Q441185", "s_label": "Raoul Bott", "o_qid": "Q635642", "o_label": "Viện nghiên cứu cao cấp Princeton", "start": 1949, "end": 1951, "relation": "P108", "r_label": "nhà tuyển dụng"}
+{"s_qid": "Q3479201", "s_label": "Serge Berstein", "o_qid": "Q1394262", "o_label": "Đại học Paris Nanterre", "start": 1968, "end": null, "relation": "P108", "r_label": "nhà tuyển dụng"}
+{"s_qid": "Q3479201", "s_label": "Serge Berstein", "o_qid": "Q859363", "o_label": "Viện Nghiên cứu Chính trị Paris", "start": 1985, "end": null, "relation": "P108", "r_label": "nhà tuyển dụng"}
+{"s_qid": "Q80", "s_label": "Tim Berners-Lee", "o_qid": "Q42944", "o_label": "CERN", "start": 1980, "end": 1980, "relation": "P108", "r_label": "nhà tuyển dụng"}
+{"s_qid": "Q80", "s_label": "Tim Berners-Lee", "o_qid": "Q42944", "o_label": "CERN", "start": 1984, "end": 1994, "relation": "P108", "r_label": "nhà tuyển dụng"}
+{"s_qid": "Q9123", "s_label": "Ernest Rutherford", "o_qid": "Q867530", "o_label": "Victoria University of Manchester", "start": 1907, "end": 1919, "relation": "P108", "r_label": "nhà tuyển dụng"}
+{"s_qid": "Q9123", "s_label": "Ernest Rutherford", "o_qid": "Q201492", "o_label": "Đại học McGill", "start": 1898, "end": 1907, "relation": "P108", "r_label": "nhà tuyển dụng"}
+{"s_qid": "Q11142", "s_label": "Clarence Thomas", "o_qid": "Q207983", "o_label": "Monsanto", "start": 1977, "end": 1979, "relation": "P108", "r_label": "nhà tuyển dụng"}
+{"s_qid": "Q48983", "s_label": "Linus Pauling", "o_qid": "Q161562", "o_label": "Viện Công nghệ California", "start": 1927, "end": 1963, "relation": "P108", "r_label": "nhà tuyển dụng"}
+{"s_qid": "Q48983", "s_label": "Linus Pauling", "o_qid": "Q622664", "o_label": "Đại học California, San Diego", "start": 1967, "end": 1969, "relation": "P108", "r_label": "nhà tuyển dụng"}
+{"s_qid": "Q48983", "s_label": "Linus Pauling", "o_qid": "Q41506", "o_label": "Đại học Stanford", "start": 1969, "end": 1975, "relation": "P108", "r_label": "nhà tuyển dụng"}
+{"s_qid": "Q57065", "s_label": "Otto Hahn", "o_qid": "Q193196", "o_label": "Đại học London", "start": 1904, "end": 1905, "relation": "P108", "r_label": "nhà tuyển dụng"}
+{"s_qid": "Q57065", "s_label": "Otto Hahn", "o_qid": "Q201492", "o_label": "Đại học McGill", "start": 1905, "end": 1906, "relation": "P108", "r_label": "nhà tuyển dụng"}
+{"s_qid": "Q57065", "s_label": "Otto Hahn", "o_qid": "Q152087", "o_label": "Đại học Humboldt Berlin", "start": 1907, "end": 1933, "relation": "P108", "r_label": "nhà tuyển dụng"}
+{"s_qid": "Q57065", "s_label": "Otto Hahn", "o_qid": "Q49115", "o_label": "Đại học Cornell", "start": 1933, "end": 1933, "relation": "P108", "r_label": "nhà tuyển dụng"}
+{"s_qid": "Q57283", "s_label": "Emil Artin", "o_qid": "Q21578", "o_label": "Đại học Princeton", "start": 1946, "end": 1958, "relation": "P108", "r_label": "nhà tuyển dụng"}
+{"s_qid": "Q57283", "s_label": "Emil Artin", "o_qid": "Q156725", "o_label": "Đại học Hamburg", "start": 1922, "end": 1937, "relation": "P108", "r_label": "nhà tuyển dụng"}
+{"s_qid": "Q57283", "s_label": "Emil Artin", "o_qid": "Q156725", "o_label": "Đại học Hamburg", "start": 1958, "end": 1962, "relation": "P108", "r_label": "nhà tuyển dụng"}
+{"s_qid": "Q57283", "s_label": "Emil Artin", "o_qid": "Q178848", "o_label": "Đại học Notre Dame", "start": 1937, "end": 1938, "relation": "P108", "r_label": "nhà tuyển dụng"}
+{"s_qid": "Q57283", "s_label": "Emil Artin", "o_qid": "Q6608367", "o_label": "Indiana University", "start": 1938, "end": 1946, "relation": "P108", "r_label": "nhà tuyển dụng"}
+{"s_qid": "Q66286", "s_label": "Rita Süssmuth", "o_qid": "Q685557", "o_label": "Technical University of Dortmund", "start": 1973, "end": 2026, "relation": "P108", "r_label": "nhà tuyển dụng"}
+{"s_qid": "Q66286", "s_label": "Rita Süssmuth", "o_qid": "Q309948", "o_label": "Ruhr University Bochum", "start": 1969, "end": 1982, "relation": "P108", "r_label": "nhà tuyển dụng"}
+{"s_qid": "Q73012", "s_label": "Wilhelm Magnus", "o_qid": "Q152838", "o_label": "Đại học Göttingen", "start": 1930, "end": 1932, "relation": "P108", "r_label": "nhà tuyển dụng"}
+{"s_qid": "Q73012", "s_label": "Wilhelm Magnus", "o_qid": "Q946028", "o_label": "Courant Institute School of Mathematics, Computing, and Data Science", "start": 1950, "end": 1973, "relation": "P108", "r_label": "nhà tuyển dụng"}
+{"s_qid": "Q73012", "s_label": "Wilhelm Magnus", "o_qid": "Q50662", "o_label": "Đại học Goethe Frankfurt", "start": 1933, "end": 1938, "relation": "P108", "r_label": "nhà tuyển dụng"}
+{"s_qid": "Q73012", "s_label": "Wilhelm Magnus", "o_qid": "Q672420", "o_label": "Đại học Königsberg", "start": 1939, "end": 1939, "relation": "P108", "r_label": "nhà tuyển dụng"}
+{"s_qid": "Q73012", "s_label": "Wilhelm Magnus", "o_qid": "Q672420", "o_label": "Đại học Königsberg", "start": 1944, "end": 1945, "relation": "P108", "r_label": "nhà tuyển dụng"}
+{"s_qid": "Q73012", "s_label": "Wilhelm Magnus", "o_qid": "Q152838", "o_label": "Đại học Göttingen", "start": 1946, "end": 1947, "relation": "P108", "r_label": "nhà tuyển dụng"}
+{"s_qid": "Q73012", "s_label": "Wilhelm Magnus", "o_qid": "Q161562", "o_label": "Viện Công nghệ California", "start": 1948, "end": 1950, "relation": "P108", "r_label": "nhà tuyển dụng"}
+{"s_qid": "Q73012", "s_label": "Wilhelm Magnus", "o_qid": "Q75478", "o_label": "New York University Tandon School của Engineering", "start": 1973, "end": 1978, "relation": "P108", "r_label": "nhà tuyển dụng"}
+{"s_qid": "Q76683", "s_label": "Ludwig Prandtl", "o_qid": "Q152838", "o_label": "Đại học Göttingen", "start": 1904, "end": 1950, "relation": "P108", "r_label": "nhà tuyển dụng"}
+{"s_qid": "Q76683", "s_label": "Ludwig Prandtl", "o_qid": "Q678982", "o_label": "Đại học Hanover", "start": 1901, "end": 1904, "relation": "P108", "r_label": "nhà tuyển dụng"}
+{"s_qid": "Q77512", "s_label": "Heinrich Martin Weber", "o_qid": "Q51985", "o_label": "Đại học Kỹ thuật Berlin", "start": 1883, "end": 1884, "relation": "P108", "r_label": "nhà tuyển dụng"}
+{"s_qid": "Q77512", "s_label": "Heinrich Martin Weber", "o_qid": "Q151510", "o_label": "Đại học Heidelberg", "start": 1866, "end": 1869, "relation": "P108", "r_label": "nhà tuyển dụng"}
+{"s_qid": "Q77512", "s_label": "Heinrich Martin Weber", "o_qid": "Q152838", "o_label": "Đại học Göttingen", "start": 1892, "end": 1895, "relation": "P108", "r_label": "nhà tuyển dụng"}
+{"s_qid": "Q77512", "s_label": "Heinrich Martin Weber", "o_qid": "Q155354", "o_label": "Đại học Marburg", "start": 1884, "end": 1892, "relation": "P108", "r_label": "nhà tuyển dụng"}
+{"s_qid": "Q77512", "s_label": "Heinrich Martin Weber", "o_qid": "Q11942", "o_label": "ETH Zürich", "start": 1869, "end": 1875, "relation": "P108", "r_label": "nhà tuyển dụng"}
+{"s_qid": "Q77512", "s_label": "Heinrich Martin Weber", "o_qid": "Q672420", "o_label": "Đại học Königsberg", "start": 1875, "end": 1883, "relation": "P108", "r_label": "nhà tuyển dụng"}
+{"s_qid": "Q77512", "s_label": "Heinrich Martin Weber", "o_qid": "Q20808141", "o_label": "Đại học Strasbourg", "start": 1895, "end": 1913, "relation": "P108", "r_label": "nhà tuyển dụng"}
+{"s_qid": "Q81082", "s_label": "Henri Poincaré", "o_qid": "Q209842", "o_label": "Đại học Paris", "start": 1881, "end": 1912, "relation": "P108", "r_label": "nhà tuyển dụng"}
+{"s_qid": "Q81082", "s_label": "Henri Poincaré", "o_qid": "Q273626", "o_label": "Trường Bách khoa Paris", "start": 1886, "end": 1912, "relation": "P108", "r_label": "nhà tuyển dụng"}
+{"s_qid": "Q81082", "s_label": "Henri Poincaré", "o_qid": "Q568554", "o_label": "University of Caen Normandy", "start": 1879, "end": 1881, "relation": "P108", "r_label": "nhà tuyển dụng"}
+{"s_qid": "Q208356", "s_label": "Michael Atiyah", "o_qid": "Q35794", "o_label": "Đại học Cambridge", "start": 1957, "end": 1961, "relation": "P108", "r_label": "nhà tuyển dụng"}
+{"s_qid": "Q208356", "s_label": "Michael Atiyah", "o_qid": "Q34433", "o_label": "Đại học Oxford", "start": 1961, "end": 1969, "relation": "P108", "r_label": "nhà tuyển dụng"}
+{"s_qid": "Q208356", "s_label": "Michael Atiyah", "o_qid": "Q635642", "o_label": "Viện nghiên cứu cao cấp Princeton", "start": 1955, "end": 1956, "relation": "P108", "r_label": "nhà tuyển dụng"}
+{"s_qid": "Q208356", "s_label": "Michael Atiyah", "o_qid": "Q222595", "o_label": "Lục quân Anh", "start": 1947, "end": 1949, "relation": "P108", "r_label": "nhà tuyển dụng"}
+{"s_qid": "Q208356", "s_label": "Michael Atiyah", "o_qid": "Q635642", "o_label": "Viện nghiên cứu cao cấp Princeton", "start": 1969, "end": 1972, "relation": "P108", "r_label": "nhà tuyển dụng"}
+{"s_qid": "Q208356", "s_label": "Michael Atiyah", "o_qid": "Q34433", "o_label": "Đại học Oxford", "start": 1972, "end": 1997, "relation": "P108", "r_label": "nhà tuyển dụng"}
+{"s_qid": "Q246497", "s_label": "Mstislav Keldysh", "o_qid": "Q190414", "o_label": "TsAGI", "start": 1931, "end": 1946, "relation": "P108", "r_label": "nhà tuyển dụng"}
+{"s_qid": "Q246497", "s_label": "Mstislav Keldysh", "o_qid": "Q13164", "o_label": "Đại học Quốc gia Moskva", "start": 1937, "end": 1946, "relation": "P108", "r_label": "nhà tuyển dụng"}
+{"s_qid": "Q246497", "s_label": "Mstislav Keldysh", "o_qid": "Q2370801", "o_label": "Viện Hàn lâm Khoa học Liên Xô", "start": 1961, "end": 1975, "relation": "P108", "r_label": "nhà tuyển dụng"}
+{"s_qid": "Q246497", "s_label": "Mstislav Keldysh", "o_qid": "Q83172", "o_label": "Viện Hàn lâm Khoa học Nga", "start": 1960, "end": 1961, "relation": "P108", "r_label": "nhà tuyển dụng"}
+{"s_qid": "Q312405", "s_label": "Vernor Vinge", "o_qid": "Q913861", "o_label": "San Diego State University", "start": 1972, "end": 2000, "relation": "P108", "r_label": "nhà tuyển dụng"}
+{"s_qid": "Q325696", "s_label": "Pavel Sergeevich Aleksandrov", "o_qid": "Q13164", "o_label": "Đại học Quốc gia Moskva", "start": 1921, "end": 1982, "relation": "P108", "r_label": "nhà tuyển dụng"}
+{"s_qid": "Q325696", "s_label": "Pavel Sergeevich Aleksandrov", "o_qid": "Q611420", "o_label": "Viện toán Steklov", "start": 1939, "end": 1982, "relation": "P108", "r_label": "nhà tuyển dụng"}
+{"s_qid": "Q325696", "s_label": "Pavel Sergeevich Aleksandrov", "o_qid": "Q635642", "o_label": "Viện nghiên cứu cao cấp Princeton", "start": 1927, "end": 1928, "relation": "P108", "r_label": "nhà tuyển dụng"}
+{"s_qid": "Q767691", "s_label": "Jean Delumeau", "o_qid": "Q202660", "o_label": "Collège de France", "start": 1975, "end": 1994, "relation": "P108", "r_label": "nhà tuyển dụng"}
+{"s_qid": "Q767691", "s_label": "Jean Delumeau", "o_qid": "Q273631", "o_label": "École pratique des hautes études", "start": 1963, "end": 1978, "relation": "P108", "r_label": "nhà tuyển dụng"}
+{"s_qid": "Q767691", "s_label": "Jean Delumeau", "o_qid": "Q273518", "o_label": "School for Advanced Studies in the Social Sciences", "start": 1975, "end": 1978, "relation": "P108", "r_label": "nhà tuyển dụng"}
+{"s_qid": "Q767691", "s_label": "Jean Delumeau", "o_qid": "Q459026", "o_label": "Đại học Rennes II", "start": 1955, "end": 1970, "relation": "P108", "r_label": "nhà tuyển dụng"}
+{"s_qid": "Q767691", "s_label": "Jean Delumeau", "o_qid": "Q999763", "o_label": "Trường Đại học Paris I", "start": 1970, "end": 1975, "relation": "P108", "r_label": "nhà tuyển dụng"}
+{"s_qid": "Q767691", "s_label": "Jean Delumeau", "o_qid": "Q280413", "o_label": "Trung tâm Nghiên cứu Khoa học Quốc gia Pháp", "start": 1954, "end": 1955, "relation": "P108", "r_label": "nhà tuyển dụng"}
+{"s_qid": "Q767691", "s_label": "Jean Delumeau", "o_qid": "Q273542", "o_label": "French School of Rome", "start": 1948, "end": 1950, "relation": "P108", "r_label": "nhà tuyển dụng"}
+{"s_qid": "Q946091", "s_label": "Daniel Roche", "o_qid": "Q202660", "o_label": "Collège de France", "start": 1999, "end": 2004, "relation": "P108", "r_label": "nhà tuyển dụng"}
+{"s_qid": "Q1361997", "s_label": "Alain Corbin", "o_qid": "Q494335", "o_label": "Tours University", "start": 1969, "end": 1987, "relation": "P108", "r_label": "nhà tuyển dụng"}
+{"s_qid": "Q1361997", "s_label": "Alain Corbin", "o_qid": "Q999763", "o_label": "Trường Đại học Paris I", "start": 1987, "end": 2005, "relation": "P108", "r_label": "nhà tuyển dụng"}
+{"s_qid": "Q1361997", "s_label": "Alain Corbin", "o_qid": "Q2661290", "o_label": "University of Limoges", "start": 1968, "end": 1969, "relation": "P108", "r_label": "nhà tuyển dụng"}
+{"s_qid": "Q1361997", "s_label": "Alain Corbin", "o_qid": "Q568554", "o_label": "University of Caen Normandy", "start": 1953, "end": 1959, "relation": "P108", "r_label": "nhà tuyển dụng"}
+{"s_qid": "Q3084178", "s_label": "François Caron", "o_qid": "Q546118", "o_label": "Đại học Paris-Sorbonne", "start": 1976, "end": 1998, "relation": "P108", "r_label": "nhà tuyển dụng"}
+{"s_qid": "Q3084178", "s_label": "François Caron", "o_qid": "Q287072", "o_label": "University of Burgundy Europe", "start": 1976, "end": 1976, "relation": "P108", "r_label": "nhà tuyển dụng"}
+{"s_qid": "Q3084178", "s_label": "François Caron", "o_qid": "Q1394262", "o_label": "Đại học Paris Nanterre", "start": 1965, "end": 1969, "relation": "P108", "r_label": "nhà tuyển dụng"}
+{"s_qid": "Q3084178", "s_label": "François Caron", "o_qid": "Q280413", "o_label": "Trung tâm Nghiên cứu Khoa học Quốc gia Pháp", "start": 1959, "end": null, "relation": "P108", "r_label": "nhà tuyển dụng"}
+{"s_qid": "Q78061707", "s_label": "Simon Villeneuve", "o_qid": "Q2562289", "o_label": "Université du Québec à Chicoutimi", "start": 2013, "end": 2016, "relation": "P108", "r_label": "nhà tuyển dụng"}
+{"s_qid": "Q23505", "s_label": "George H. W. Bush", "o_qid": "Q37230", "o_label": "Cơ quan Tình báo Trung ương", "start": 1976, "end": 1977, "relation": "P108", "r_label": "nhà tuyển dụng"}
+{"s_qid": "Q39803", "s_label": "Mario Vargas Llosa", "o_qid": "Q245247", "o_label": "Đại học King", "start": 1969, "end": 1970, "relation": "P108", "r_label": "nhà tuyển dụng"}
+{"s_qid": "Q39803", "s_label": "Mario Vargas Llosa", "o_qid": "Q13371", "o_label": "Đại học Harvard", "start": 1992, "end": 1992, "relation": "P108", "r_label": "nhà tuyển dụng"}
+{"s_qid": "Q61768", "s_label": "Helmut Hasse", "o_qid": "Q156725", "o_label": "Đại học Hamburg", "start": 1950, "end": 1966, "relation": "P108", "r_label": "nhà tuyển dụng"}
+{"s_qid": "Q61768", "s_label": "Helmut Hasse", "o_qid": "Q156737", "o_label": "Đại học Kiel", "start": 1922, "end": 1925, "relation": "P108", "r_label": "nhà tuyển dụng"}
+{"s_qid": "Q61768", "s_label": "Helmut Hasse", "o_qid": "Q152838", "o_label": "Đại học Göttingen", "start": 1934, "end": 1945, "relation": "P108", "r_label": "nhà tuyển dụng"}
+{"s_qid": "Q61768", "s_label": "Helmut Hasse", "o_qid": "Q155354", "o_label": "Đại học Marburg", "start": 1930, "end": 1934, "relation": "P108", "r_label": "nhà tuyển dụng"}
+{"s_qid": "Q61768", "s_label": "Helmut Hasse", "o_qid": "Q32120", "o_label": "Martin Luther University Halle-Wittenberg", "start": 1925, "end": 1930, "relation": "P108", "r_label": "nhà tuyển dụng"}
+{"s_qid": "Q61768", "s_label": "Helmut Hasse", "o_qid": "Q152087", "o_label": "Đại học Humboldt Berlin", "start": 1949, "end": 1950, "relation": "P108", "r_label": "nhà tuyển dụng"}
+{"s_qid": "Q65185", "s_label": "Wolfgang Krull", "o_qid": "Q152171", "o_label": "Đại học Bonn", "start": 1939, "end": 1967, "relation": "P108", "r_label": "nhà tuyển dụng"}
+{"s_qid": "Q65185", "s_label": "Wolfgang Krull", "o_qid": "Q40025", "o_label": "Friedrich-Alexander-Universität Erlangen-Nürnberg", "start": 1928, "end": 1939, "relation": "P108", "r_label": "nhà tuyển dụng"}
+{"s_qid": "Q65185", "s_label": "Wolfgang Krull", "o_qid": "Q153987", "o_label": "Đại học Freiburg", "start": 1922, "end": 1928, "relation": "P108", "r_label": "nhà tuyển dụng"}
+{"s_qid": "Q65209", "s_label": "Jürgen Moser", "o_qid": "Q49210", "o_label": "Đại học New York", "start": 1953, "end": 1954, "relation": "P108", "r_label": "nhà tuyển dụng"}
+{"s_qid": "Q65209", "s_label": "Jürgen Moser", "o_qid": "Q49108", "o_label": "Học viện Công nghệ Massachusetts", "start": 1957, "end": 1960, "relation": "P108", "r_label": "nhà tuyển dụng"}
+{"s_qid": "Q65209", "s_label": "Jürgen Moser", "o_qid": "Q11942", "o_label": "ETH Zürich", "start": 1980, "end": 1995, "relation": "P108", "r_label": "nhà tuyển dụng"}
+{"s_qid": "Q65209", "s_label": "Jürgen Moser", "o_qid": "Q49210", "o_label": "Đại học New York", "start": 1955, "end": 1957, "relation": "P108", "r_label": "nhà tuyển dụng"}
+{"s_qid": "Q65209", "s_label": "Jürgen Moser", "o_qid": "Q49210", "o_label": "Đại học New York", "start": 1960, "end": 1980, "relation": "P108", "r_label": "nhà tuyển dụng"}
+{"s_qid": "Q65209", "s_label": "Jürgen Moser", "o_qid": "Q152838", "o_label": "Đại học Göttingen", "start": 1954, "end": 1955, "relation": "P108", "r_label": "nhà tuyển dụng"}
+{"s_qid": "Q106235", "s_label": "Hans-Dietrich Genscher", "o_qid": "Q153006", "o_label": "Đại học Tự do Berlin", "start": 1994, "end": 1995, "relation": "P108", "r_label": "nhà tuyển dụng"}
+{"s_qid": "Q106235", "s_label": "Hans-Dietrich Genscher", "o_qid": "Q161982", "o_label": "Johannes Gutenberg University Mainz", "start": 2002, "end": 2002, "relation": "P108", "r_label": "nhà tuyển dụng"}
+{"s_qid": "Q164396", "s_label": "Victor Ambartsumian", "o_qid": "Q27621", "o_label": "Đại học Tổng hợp Sankt-Peterburg", "start": 1931, "end": 1941, "relation": "P108", "r_label": "nhà tuyển dụng"}
+{"s_qid": "Q164396", "s_label": "Victor Ambartsumian", "o_qid": "Q1474624", "o_label": "Yerevan State University", "start": 1943, "end": 1946, "relation": "P108", "r_label": "nhà tuyển dụng"}
+{"s_qid": "Q164396", "s_label": "Victor Ambartsumian", "o_qid": "Q2379496", "o_label": "Viện hàn lâm Khoa học quốc gia Armenia", "start": 1947, "end": null, "relation": "P108", "r_label": "nhà tuyển dụng"}
+{"s_qid": "Q381347", "s_label": "Irving Segal", "o_qid": "Q13371", "o_label": "Đại học Harvard", "start": 1941, "end": 1941, "relation": "P108", "r_label": "nhà tuyển dụng"}
+{"s_qid": "Q381347", "s_label": "Irving Segal", "o_qid": "Q49108", "o_label": "Học viện Công nghệ Massachusetts", "start": 1960, "end": 1989, "relation": "P108", "r_label": "nhà tuyển dụng"}
+{"s_qid": "Q381347", "s_label": "Irving Segal", "o_qid": "Q131252", "o_label": "Đại học Chicago", "start": 1948, "end": 1960, "relation": "P108", "r_label": "nhà tuyển dụng"}
+{"s_qid": "Q381347", "s_label": "Irving Segal", "o_qid": "Q21578", "o_label": "Đại học Princeton", "start": 1941, "end": 1943, "relation": "P108", "r_label": "nhà tuyển dụng"}
+{"s_qid": "Q381347", "s_label": "Irving Segal", "o_qid": "Q635642", "o_label": "Viện nghiên cứu cao cấp Princeton", "start": 1945, "end": 1948, "relation": "P108", "r_label": "nhà tuyển dụng"}
+{"s_qid": "Q454925", "s_label": "Nikolai Bogolyubov", "o_qid": "Q84151", "o_label": "Đại học Quốc gia Kyiv", "start": 1934, "end": 1959, "relation": "P108", "r_label": "nhà tuyển dụng"}
+{"s_qid": "Q454925", "s_label": "Nikolai Bogolyubov", "o_qid": "Q611420", "o_label": "Viện toán Steklov", "start": 1950, "end": null, "relation": "P108", "r_label": "nhà tuyển dụng"}
+{"s_qid": "Q454925", "s_label": "Nikolai Bogolyubov", "o_qid": "Q13164", "o_label": "Đại học Quốc gia Moskva", "start": 1950, "end": null, "relation": "P108", "r_label": "nhà tuyển dụng"}
+{"s_qid": "Q454925", "s_label": "Nikolai Bogolyubov", "o_qid": "Q259517", "o_label": "Viện Liên hiệp nghiên cứu hạt nhân Dubna", "start": 1956, "end": 1965, "relation": "P108", "r_label": "nhà tuyển dụng"}
+{"s_qid": "Q454925", "s_label": "Nikolai Bogolyubov", "o_qid": "Q259517", "o_label": "Viện Liên hiệp nghiên cứu hạt nhân Dubna", "start": 1965, "end": 1988, "relation": "P108", "r_label": "nhà tuyển dụng"}
+{"s_qid": "Q1030228", "s_label": "Ludvig Faddeev", "o_qid": "Q27621", "o_label": "Đại học Tổng hợp Sankt-Peterburg", "start": 1960, "end": null, "relation": "P108", "r_label": "nhà tuyển dụng"}
+{"s_qid": "Q1030228", "s_label": "Ludvig Faddeev", "o_qid": "Q28695", "o_label": "Đại học Helsinki", "start": 1990, "end": null, "relation": "P108", "r_label": "nhà tuyển dụng"}
+{"s_qid": "Q1680238", "s_label": "James D. Murray", "o_qid": "Q13371", "o_label": "Đại học Harvard", "start": 1957, "end": 1959, "relation": "P108", "r_label": "nhà tuyển dụng"}
+{"s_qid": "Q1680238", "s_label": "James D. Murray", "o_qid": "Q219563", "o_label": "Đại học Washington", "start": 1987, "end": 2000, "relation": "P108", "r_label": "nhà tuyển dụng"}
+{"s_qid": "Q1680238", "s_label": "James D. Murray", "o_qid": "Q230492", "o_label": "Đại học Michigan", "start": 1964, "end": 1967, "relation": "P108", "r_label": "nhà tuyển dụng"}
+{"s_qid": "Q1680238", "s_label": "James D. Murray", "o_qid": "Q458393", "o_label": "Đại học Durham", "start": 1955, "end": 1956, "relation": "P108", "r_label": "nhà tuyển dụng"}
+{"s_qid": "Q1680238", "s_label": "James D. Murray", "o_qid": "Q193196", "o_label": "Đại học London", "start": 1959, "end": 1961, "relation": "P108", "r_label": "nhà tuyển dụng"}
+{"s_qid": "Q1680238", "s_label": "James D. Murray", "o_qid": "Q13371", "o_label": "Đại học Harvard", "start": 1963, "end": 1964, "relation": "P108", "r_label": "nhà tuyển dụng"}
+{"s_qid": "Q1680238", "s_label": "James D. Murray", "o_qid": "Q49210", "o_label": "Đại học New York", "start": 1967, "end": 1969, "relation": "P108", "r_label": "nhà tuyển dụng"}
+{"s_qid": "Q1685870", "s_label": "Jean Tulard", "o_qid": "Q546118", "o_label": "Đại học Paris-Sorbonne", "start": 1981, "end": 2001, "relation": "P108", "r_label": "nhà tuyển dụng"}
+{"s_qid": "Q1685870", "s_label": "Jean Tulard", "o_qid": "Q859363", "o_label": "Viện Nghiên cứu Chính trị Paris", "start": 1981, "end": 2001, "relation": "P108", "r_label": "nhà tuyển dụng"}
+{"s_qid": "Q1685870", "s_label": "Jean Tulard", "o_qid": "Q273631", "o_label": "École pratique des hautes études", "start": 1965, "end": 1998, "relation": "P108", "r_label": "nhà tuyển dụng"}
+{"s_qid": "Q1685870", "s_label": "Jean Tulard", "o_qid": "Q280413", "o_label": "Trung tâm Nghiên cứu Khoa học Quốc gia Pháp", "start": 1964, "end": null, "relation": "P108", "r_label": "nhà tuyển dụng"}
+{"s_qid": "Q1926870", "s_label": "Michael Artin", "o_qid": "Q49108", "o_label": "Học viện Công nghệ Massachusetts", "start": 1964, "end": null, "relation": "P108", "r_label": "nhà tuyển dụng"}
+{"s_qid": "Q1926870", "s_label": "Michael Artin", "o_qid": "Q13371", "o_label": "Đại học Harvard", "start": 1960, "end": 1963, "relation": "P108", "r_label": "nhà tuyển dụng"}
+{"s_qid": "Q1930973", "s_label": "Michel Vovelle", "o_qid": "Q1687719", "o_label": "University of Provence - Aix-Marseille I", "start": 1961, "end": 1965, "relation": "P108", "r_label": "nhà tuyển dụng"}
+{"s_qid": "Q1930973", "s_label": "Michel Vovelle", "o_qid": "Q999763", "o_label": "Trường Đại học Paris I", "start": 1984, "end": 1993, "relation": "P108", "r_label": "nhà tuyển dụng"}
+{"s_qid": "Q1930973", "s_label": "Michel Vovelle", "o_qid": "Q3578287", "o_label": "École normale supérieure de Saint-Cloud", "start": 1956, "end": 1958, "relation": "P108", "r_label": "nhà tuyển dụng"}
+{"s_qid": "Q1930973", "s_label": "Michel Vovelle", "o_qid": "Q1687719", "o_label": "University of Provence - Aix-Marseille I", "start": 1970, "end": 1983, "relation": "P108", "r_label": "nhà tuyển dụng"}
+{"s_qid": "Q1930973", "s_label": "Michel Vovelle", "o_qid": "Q280413", "o_label": "Trung tâm Nghiên cứu Khoa học Quốc gia Pháp", "start": 1969, "end": 1970, "relation": "P108", "r_label": "nhà tuyển dụng"}
+{"s_qid": "Q2856642", "s_label": "Antoine Prost", "o_qid": "Q999763", "o_label": "Trường Đại học Paris I", "start": 1979, "end": null, "relation": "P108", "r_label": "nhà tuyển dụng"}
+{"s_qid": "Q2856642", "s_label": "Antoine Prost", "o_qid": "Q13334", "o_label": "University of Orléans", "start": 1969, "end": 1979, "relation": "P108", "r_label": "nhà tuyển dụng"}
+{"s_qid": "Q3387132", "s_label": "Pierre Toubert", "o_qid": "Q202660", "o_label": "Collège de France", "start": 1992, "end": 2003, "relation": "P108", "r_label": "nhà tuyển dụng"}
+{"s_qid": "Q3387132", "s_label": "Pierre Toubert", "o_qid": "Q273542", "o_label": "French School of Rome", "start": 1958, "end": 1961, "relation": "P108", "r_label": "nhà tuyển dụng"}
+{"s_qid": "Q10542900", "s_label": "Hubert Stanley Wall", "o_qid": "Q309350", "o_label": "Đại học Northwestern", "start": 1927, "end": 1944, "relation": "P108", "r_label": "nhà tuyển dụng"}
+{"s_qid": "Q10542900", "s_label": "Hubert Stanley Wall", "o_qid": "Q659706", "o_label": "Illinois Institute of Technology", "start": 1944, "end": 1946, "relation": "P108", "r_label": "nhà tuyển dụng"}
+{"s_qid": "Q10542900", "s_label": "Hubert Stanley Wall", "o_qid": "Q49213", "o_label": "Đại học Texas tại Austin", "start": 1946, "end": 1971, "relation": "P108", "r_label": "nhà tuyển dụng"}
+{"s_qid": "Q60749935", "s_label": "Oskar Matzerath", "o_qid": "Q662355", "o_label": "Học viện nghệ thuật Düsseldorf", "start": 1948, "end": 1949, "relation": "P108", "r_label": "nhà tuyển dụng"}
+{"s_qid": "Q60749935", "s_label": "Oskar Matzerath", "o_qid": "Q662355", "o_label": "Học viện nghệ thuật Düsseldorf", "start": 1950, "end": 1950, "relation": "P108", "r_label": "nhà tuyển dụng"}
+{"s_qid": "Q60749935", "s_label": "Oskar Matzerath", "o_qid": "Q128781", "o_label": "Wehrmacht", "start": 1943, "end": 1944, "relation": "P108", "r_label": "nhà tuyển dụng"}
+{"s_qid": "Q25320", "s_label": "Paul Langevin", "o_qid": "Q202660", "o_label": "Collège de France", "start": 1909, "end": 1946, "relation": "P108", "r_label": "nhà tuyển dụng"}
+{"s_qid": "Q25320", "s_label": "Paul Langevin", "o_qid": "Q273638", "o_label": "Trường Lý Hóa Công nghiệp Paris - ESPCI Paris", "start": 1905, "end": 1946, "relation": "P108", "r_label": "nhà tuyển dụng"}
+{"s_qid": "Q29230", "s_label": "Martti Ahtisaari", "o_qid": "Q1065", "o_label": "Liên Hợp Quốc", "start": 1977, "end": 1993, "relation": "P108", "r_label": "nhà tuyển dụng"}
+{"s_qid": "Q47480", "s_label": "Paul Dirac", "o_qid": "Q738258", "o_label": "Đại học Miami", "start": 1969, "end": 1972, "relation": "P108", "r_label": "nhà tuyển dụng"}
+{"s_qid": "Q47480", "s_label": "Paul Dirac", "o_qid": "Q861548", "o_label": "Florida State University", "start": 1969, "end": 1984, "relation": "P108", "r_label": "nhà tuyển dụng"}
+{"s_qid": "Q47480", "s_label": "Paul Dirac", "o_qid": "Q35794", "o_label": "Đại học Cambridge", "start": 1932, "end": 1969, "relation": "P108", "r_label": "nhà tuyển dụng"}
+{"s_qid": "Q47480", "s_label": "Paul Dirac", "o_qid": "Q691283", "o_label": "St John's College", "start": 1927, "end": 1932, "relation": "P108", "r_label": "nhà tuyển dụng"}
+{"s_qid": "Q61758", "s_label": "Lazarus Fuchs", "o_qid": "Q20266330", "o_label": "Đại học Frederick William Berlin", "start": 1865, "end": 1869, "relation": "P108", "r_label": "nhà tuyển dụng"}
+{"s_qid": "Q61758", "s_label": "Lazarus Fuchs", "o_qid": "Q165528", "o_label": "Đại học Greifswald", "start": 1869, "end": 1874, "relation": "P108", "r_label": "nhà tuyển dụng"}
+{"s_qid": "Q61758", "s_label": "Lazarus Fuchs", "o_qid": "Q152838", "o_label": "Đại học Göttingen", "start": 1874, "end": 1875, "relation": "P108", "r_label": "nhà tuyển dụng"}
+{"s_qid": "Q61758", "s_label": "Lazarus Fuchs", "o_qid": "Q151510", "o_label": "Đại học Heidelberg", "start": 1875, "end": 1884, "relation": "P108", "r_label": "nhà tuyển dụng"}
+{"s_qid": "Q61758", "s_label": "Lazarus Fuchs", "o_qid": "Q20266330", "o_label": "Đại học Frederick William Berlin", "start": 1884, "end": 1902, "relation": "P108", "r_label": "nhà tuyển dụng"}
+{"s_qid": "Q65989", "s_label": "Wolfgang Ernst Pauli", "o_qid": "Q156725", "o_label": "Đại học Hamburg", "start": 1923, "end": 1928, "relation": "P108", "r_label": "nhà tuyển dụng"}
+{"s_qid": "Q65989", "s_label": "Wolfgang Ernst Pauli", "o_qid": "Q152838", "o_label": "Đại học Göttingen", "start": 1921, "end": 1922, "relation": "P108", "r_label": "nhà tuyển dụng"}
+{"s_qid": "Q65989", "s_label": "Wolfgang Ernst Pauli", "o_qid": "Q11942", "o_label": "ETH Zürich", "start": 1928, "end": 1940, "relation": "P108", "r_label": "nhà tuyển dụng"}
+{"s_qid": "Q65989", "s_label": "Wolfgang Ernst Pauli", "o_qid": "Q263761", "o_label": "Viện Niels Bohr", "start": 1922, "end": 1923, "relation": "P108", "r_label": "nhà tuyển dụng"}
+{"s_qid": "Q65989", "s_label": "Wolfgang Ernst Pauli", "o_qid": "Q217741", "o_label": "Đại học Purdue", "start": 1942, "end": 1942, "relation": "P108", "r_label": "nhà tuyển dụng"}
+{"s_qid": "Q65989", "s_label": "Wolfgang Ernst Pauli", "o_qid": "Q230492", "o_label": "Đại học Michigan", "start": 1941, "end": 1941, "relation": "P108", "r_label": "nhà tuyển dụng"}
+{"s_qid": "Q65989", "s_label": "Wolfgang Ernst Pauli", "o_qid": "Q21578", "o_label": "Đại học Princeton", "start": 1940, "end": 1946, "relation": "P108", "r_label": "nhà tuyển dụng"}
+{"s_qid": "Q65989", "s_label": "Wolfgang Ernst Pauli", "o_qid": "Q11942", "o_label": "ETH Zürich", "start": 1946, "end": 1958, "relation": "P108", "r_label": "nhà tuyển dụng"}
+{"s_qid": "Q76641", "s_label": "Felix Klein", "o_qid": "Q40025", "o_label": "Friedrich-Alexander-Universität Erlangen-Nürnberg", "start": 1872, "end": 1875, "relation": "P108", "r_label": "nhà tuyển dụng"}
+{"s_qid": "Q76641", "s_label": "Felix Klein", "o_qid": "Q157808", "o_label": "Đại học Kỹ thuật München", "start": 1875, "end": 1880, "relation": "P108", "r_label": "nhà tuyển dụng"}
+{"s_qid": "Q76641", "s_label": "Felix Klein", "o_qid": "Q154804", "o_label": "Đại học Leipzig", "start": 1880, "end": 1886, "relation": "P108", "r_label": "nhà tuyển dụng"}
+{"s_qid": "Q76641", "s_label": "Felix Klein", "o_qid": "Q152838", "o_label": "Đại học Göttingen", "start": 1886, "end": 1913, "relation": "P108", "r_label": "nhà tuyển dụng"}
+{"s_qid": "Q76641", "s_label": "Felix Klein", "o_qid": "Q152838", "o_label": "Đại học Göttingen", "start": 1871, "end": 1872, "relation": "P108", "r_label": "nhà tuyển dụng"}
+{"s_qid": "Q77078", "s_label": "Arnold Sommerfeld", "o_qid": "Q55044", "o_label": "Đại học Ludwig Maximilian München", "start": 1906, "end": 1947, "relation": "P108", "r_label": "nhà tuyển dụng"}
+{"s_qid": "Q77078", "s_label": "Arnold Sommerfeld", "o_qid": "Q273263", "o_label": "Đại học RWTH Aachen", "start": 1900, "end": 1906, "relation": "P108", "r_label": "nhà tuyển dụng"}
+{"s_qid": "Q77078", "s_label": "Arnold Sommerfeld", "o_qid": "Q152838", "o_label": "Đại học Göttingen", "start": 1895, "end": 1897, "relation": "P108", "r_label": "nhà tuyển dụng"}
+{"s_qid": "Q77078", "s_label": "Arnold Sommerfeld", "o_qid": "Q447354", "o_label": "Clausthal University of Technology", "start": 1897, "end": 1900, "relation": "P108", "r_label": "nhà tuyển dụng"}
+{"s_qid": "Q78448", "s_label": "Heinz Hopf", "o_qid": "Q11942", "o_label": "ETH Zürich", "start": 1931, "end": 1965, "relation": "P108", "r_label": "nhà tuyển dụng"}
+{"s_qid": "Q83297", "s_label": "John William Strutt, nam tước Rayleigh thứ 3", "o_qid": "Q35794", "o_label": "Đại học Cambridge", "start": 1879, "end": 1884, "relation": "P108", "r_label": "nhà tuyển dụng"}
+{"s_qid": "Q83297", "s_label": "John William Strutt, nam tước Rayleigh thứ 3", "o_qid": "Q2171086", "o_label": "Royal Institution", "start": 1887, "end": 1905, "relation": "P108", "r_label": "nhà tuyển dụng"}
+{"s_qid": "Q90312", "s_label": "Gottfried Köthe", "o_qid": "Q50662", "o_label": "Đại học Goethe Frankfurt", "start": 1965, "end": 1971, "relation": "P108", "r_label": "nhà tuyển dụng"}
+{"s_qid": "Q90312", "s_label": "Gottfried Köthe", "o_qid": "Q151510", "o_label": "Đại học Heidelberg", "start": 1958, "end": 1965, "relation": "P108", "r_label": "nhà tuyển dụng"}
+{"s_qid": "Q90312", "s_label": "Gottfried Köthe", "o_qid": "Q317053", "o_label": "University of Giessen", "start": 1940, "end": 1946, "relation": "P108", "r_label": "nhà tuyển dụng"}
+{"s_qid": "Q90312", "s_label": "Gottfried Köthe", "o_qid": "Q161982", "o_label": "Johannes Gutenberg University Mainz", "start": 1946, "end": 1958, "relation": "P108", "r_label": "nhà tuyển dụng"}
+{"s_qid": "Q90312", "s_label": "Gottfried Köthe", "o_qid": "Q168426", "o_label": "University of Münster", "start": 1931, "end": 1940, "relation": "P108", "r_label": "nhà tuyển dụng"}
+{"s_qid": "Q153224", "s_label": "Andrey Nikolaevich Kolmogorov", "o_qid": "Q13164", "o_label": "Đại học Quốc gia Moskva", "start": 1925, "end": 1971, "relation": "P108", "r_label": "nhà tuyển dụng"}
+{"s_qid": "Q153224", "s_label": "Andrey Nikolaevich Kolmogorov", "o_qid": "Q13164", "o_label": "Đại học Quốc gia Moskva", "start": 1929, "end": 1931, "relation": "P108", "r_label": "nhà tuyển dụng"}
+{"s_qid": "Q153224", "s_label": "Andrey Nikolaevich Kolmogorov", "o_qid": "Q13164", "o_label": "Đại học Quốc gia Moskva", "start": 1931, "end": 1987, "relation": "P108", "r_label": "nhà tuyển dụng"}
+{"s_qid": "Q153224", "s_label": "Andrey Nikolaevich Kolmogorov", "o_qid": "Q13164", "o_label": "Đại học Quốc gia Moskva", "start": 1954, "end": 1958, "relation": "P108", "r_label": "nhà tuyển dụng"}
+{"s_qid": "Q164384", "s_label": "Theodore von Kármán", "o_qid": "Q273263", "o_label": "Đại học RWTH Aachen", "start": 1912, "end": 1930, "relation": "P108", "r_label": "nhà tuyển dụng"}
+{"s_qid": "Q317521", "s_label": "Elon Musk", "o_qid": "Q478214", "o_label": "Tesla", "start": 2004, "end": null, "relation": "P108", "r_label": "nhà tuyển dụng"}
+{"s_qid": "Q317521", "s_label": "Elon Musk", "o_qid": "Q21708200", "o_label": "OpenAI", "start": 2015, "end": 2019, "relation": "P108", "r_label": "nhà tuyển dụng"}
+{"s_qid": "Q353407", "s_label": "Isadore Singer", "o_qid": "Q49108", "o_label": "Học viện Công nghệ Massachusetts", "start": 1950, "end": 1952, "relation": "P108", "r_label": "nhà tuyển dụng"}
+{"s_qid": "Q353407", "s_label": "Isadore Singer", "o_qid": "Q168756", "o_label": "Đại học California tại Berkeley", "start": 1977, "end": 1983, "relation": "P108", "r_label": "nhà tuyển dụng"}
+{"s_qid": "Q353407", "s_label": "Isadore Singer", "o_qid": "Q174710", "o_label": "Đại học California tại Los Angeles", "start": 1952, "end": 1954, "relation": "P108", "r_label": "nhà tuyển dụng"}
+{"s_qid": "Q353407", "s_label": "Isadore Singer", "o_qid": "Q49088", "o_label": "Đại học Columbia", "start": 1954, "end": 1955, "relation": "P108", "r_label": "nhà tuyển dụng"}
+{"s_qid": "Q353407", "s_label": "Isadore Singer", "o_qid": "Q635642", "o_label": "Viện nghiên cứu cao cấp Princeton", "start": 1955, "end": 1956, "relation": "P108", "r_label": "nhà tuyển dụng"}
+{"s_qid": "Q353407", "s_label": "Isadore Singer", "o_qid": "Q49108", "o_label": "Học viện Công nghệ Massachusetts", "start": 1956, "end": 1977, "relation": "P108", "r_label": "nhà tuyển dụng"}
+{"s_qid": "Q353407", "s_label": "Isadore Singer", "o_qid": "Q49108", "o_label": "Học viện Công nghệ Massachusetts", "start": 1983, "end": 2010, "relation": "P108", "r_label": "nhà tuyển dụng"}
+{"s_qid": "Q441223", "s_label": "Saunders Mac Lane", "o_qid": "Q13371", "o_label": "Đại học Harvard", "start": 1934, "end": 1936, "relation": "P108", "r_label": "nhà tuyển dụng"}
+{"s_qid": "Q441223", "s_label": "Saunders Mac Lane", "o_qid": "Q49115", "o_label": "Đại học Cornell", "start": 1936, "end": 1937, "relation": "P108", "r_label": "nhà tuyển dụng"}
+{"s_qid": "Q441223", "s_label": "Saunders Mac Lane", "o_qid": "Q131252", "o_label": "Đại học Chicago", "start": 1937, "end": 1938, "relation": "P108", "r_label": "nhà tuyển dụng"}
+{"s_qid": "Q441223", "s_label": "Saunders Mac Lane", "o_qid": "Q49112", "o_label": "Đại học Yale", "start": 1933, "end": 1934, "relation": "P108", "r_label": "nhà tuyển dụng"}
+{"s_qid": "Q441223", "s_label": "Saunders Mac Lane", "o_qid": "Q13371", "o_label": "Đại học Harvard", "start": 1938, "end": 1947, "relation": "P108", "r_label": "nhà tuyển dụng"}
+{"s_qid": "Q441223", "s_label": "Saunders Mac Lane", "o_qid": "Q131252", "o_label": "Đại học Chicago", "start": 1947, "end": 1982, "relation": "P108", "r_label": "nhà tuyển dụng"}
+{"s_qid": "Q596590", "s_label": "Louis Nirenberg", "o_qid": "Q946028", "o_label": "Courant Institute School of Mathematics, Computing, and Data Science", "start": 1949, "end": 1999, "relation": "P108", "r_label": "nhà tuyển dụng"}
+{"s_qid": "Q931311", "s_label": "Christopher Zeeman", "o_qid": "Q865528", "o_label": "Đại học Warwick", "start": 1963, "end": 1988, "relation": "P108", "r_label": "nhà tuyển dụng"}
+{"s_qid": "Q931311", "s_label": "Christopher Zeeman", "o_qid": "Q165862", "o_label": "Không quân Hoàng gia Anh", "start": 1943, "end": 1947, "relation": "P108", "r_label": "nhà tuyển dụng"}
+{"s_qid": "Q931311", "s_label": "Christopher Zeeman", "o_qid": "Q863940", "o_label": "Gonville and Caius College", "start": 1953, "end": 1954, "relation": "P108", "r_label": "nhà tuyển dụng"}
+{"s_qid": "Q931311", "s_label": "Christopher Zeeman", "o_qid": "Q131252", "o_label": "Đại học Chicago", "start": 1954, "end": 1955, "relation": "P108", "r_label": "nhà tuyển dụng"}
+{"s_qid": "Q931311", "s_label": "Christopher Zeeman", "o_qid": "Q35794", "o_label": "Đại học Cambridge", "start": 1955, "end": 1962, "relation": "P108", "r_label": "nhà tuyển dụng"}
+{"s_qid": "Q1344809", "s_label": "Władysław Orlicz", "o_qid": "Q80207", "o_label": "Đại học Lviv", "start": 1923, "end": 1929, "relation": "P108", "r_label": "nhà tuyển dụng"}
+{"s_qid": "Q1344809", "s_label": "Władysław Orlicz", "o_qid": "Q1817355", "o_label": "Đại học Bách khoa Quốc gia Lviv", "start": 1931, "end": 1937, "relation": "P108", "r_label": "nhà tuyển dụng"}
+{"s_qid": "Q1344809", "s_label": "Władysław Orlicz", "o_qid": "Q348402", "o_label": "Trường đại học Adam Mickiewicz ở Poznań", "start": 1937, "end": 1974, "relation": "P108", "r_label": "nhà tuyển dụng"}
+{"s_qid": "Q1344809", "s_label": "Władysław Orlicz", "o_qid": "Q651690", "o_label": "Viện Hàn lâm Khoa học Ba Lan", "start": 1948, "end": 1974, "relation": "P108", "r_label": "nhà tuyển dụng"}

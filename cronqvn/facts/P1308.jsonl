@@ -1,0 +1,31 @@
+{"s_qid": "Q17281242", "s_label": "mayor of Shanghai", "o_qid": "Q16597", "o_label": "Giang Trạch Dân", "start": 1985, "end": 1988, "relation": "P1308", "r_label": "người giữ chức vụ"}
+{"s_qid": "Q14213", "s_label": "Bộ trưởng Ngoại giao Hoa Kỳ", "o_qid": "Q6294", "o_label": "Hillary Clinton", "start": 2009, "end": 2013, "relation": "P1308", "r_label": "người giữ chức vụ"}
+{"s_qid": "Q337222", "s_label": "Công tước xứ York", "o_qid": "Q38370", "o_label": "Henry VIII của Anh", "start": 1494, "end": 1504, "relation": "P1308", "r_label": "người giữ chức vụ"}
+{"s_qid": "Q337222", "s_label": "Công tước xứ York", "o_qid": "Q81506", "o_label": "Charles I của Anh", "start": 1605, "end": 1625, "relation": "P1308", "r_label": "người giữ chức vụ"}
+{"s_qid": "Q337222", "s_label": "Công tước xứ York", "o_qid": "Q269412", "o_label": "George V của Anh", "start": 1892, "end": 1910, "relation": "P1308", "r_label": "người giữ chức vụ"}
+{"s_qid": "Q337222", "s_label": "Công tước xứ York", "o_qid": "Q280856", "o_label": "George VI", "start": 1920, "end": 1936, "relation": "P1308", "r_label": "người giữ chức vụ"}
+{"s_qid": "Q20046316", "s_label": "Thành viên Bộ Chính trị Đảng Cộng sản Trung Quốc", "o_qid": "Q15031", "o_label": "Tập Cận Bình", "start": 2007, "end": null, "relation": "P1308", "r_label": "người giữ chức vụ"}
+{"s_qid": "Q5589725", "s_label": "Thống đốc Texas", "o_qid": "Q207", "o_label": "George W. Bush", "start": 1995, "end": 2000, "relation": "P1308", "r_label": "người giữ chức vụ"}
+{"s_qid": "Q14211", "s_label": "Thủ tướng Anh", "o_qid": "Q7416", "o_label": "Margaret Thatcher", "start": 1979, "end": 1990, "relation": "P1308", "r_label": "người giữ chức vụ"}
+{"s_qid": "Q14211", "s_label": "Thủ tướng Anh", "o_qid": "Q8016", "o_label": "Winston Churchill", "start": 1951, "end": 1955, "relation": "P1308", "r_label": "người giữ chức vụ"}
+{"s_qid": "Q14211", "s_label": "Thủ tướng Anh", "o_qid": "Q8016", "o_label": "Winston Churchill", "start": 1940, "end": 1945, "relation": "P1308", "r_label": "người giữ chức vụ"}
+{"s_qid": "Q14211", "s_label": "Thủ tướng Anh", "o_qid": "Q160852", "o_label": "William Ewart Gladstone", "start": 1892, "end": 1894, "relation": "P1308", "r_label": "người giữ chức vụ"}
+{"s_qid": "Q14211", "s_label": "Thủ tướng Anh", "o_qid": "Q160852", "o_label": "William Ewart Gladstone", "start": 1886, "end": 1886, "relation": "P1308", "r_label": "người giữ chức vụ"}
+{"s_qid": "Q14211", "s_label": "Thủ tướng Anh", "o_qid": "Q160852", "o_label": "William Ewart Gladstone", "start": 1880, "end": 1885, "relation": "P1308", "r_label": "người giữ chức vụ"}
+{"s_qid": "Q14211", "s_label": "Thủ tướng Anh", "o_qid": "Q160852", "o_label": "William Ewart Gladstone", "start": 1868, "end": 1874, "relation": "P1308", "r_label": "người giữ chức vụ"}
+{"s_qid": "Q14211", "s_label": "Thủ tướng Anh", "o_qid": "Q131691", "o_label": "Arthur Wellesley, Công tước thứ nhất của Wellington", "start": 1834, "end": 1834, "relation": "P1308", "r_label": "người giữ chức vụ"}
+{"s_qid": "Q14211", "s_label": "Thủ tướng Anh", "o_qid": "Q131691", "o_label": "Arthur Wellesley, Công tước thứ nhất của Wellington", "start": 1828, "end": 1830, "relation": "P1308", "r_label": "người giữ chức vụ"}
+{"s_qid": "Q1355043", "s_label": "Bộ trưởng Ngoại giao", "o_qid": "Q359480", "o_label": "Kishida Fumio", "start": 2021, "end": 2021, "relation": "P1308", "r_label": "người giữ chức vụ"}
+{"s_qid": "Q11696", "s_label": "Tổng thống Hoa Kỳ", "o_qid": "Q22686", "o_label": "Donald Trump", "start": 2025, "end": 2029, "relation": "P1308", "r_label": "người giữ chức vụ"}
+{"s_qid": "Q11696", "s_label": "Tổng thống Hoa Kỳ", "o_qid": "Q6279", "o_label": "Joe Biden", "start": 2021, "end": 2029, "relation": "P1308", "r_label": "người giữ chức vụ"}
+{"s_qid": "Q274948", "s_label": "Thủ tướng Nhật Bản", "o_qid": "Q359480", "o_label": "Kishida Fumio", "start": 2021, "end": 2021, "relation": "P1308", "r_label": "người giữ chức vụ"}
+{"s_qid": "Q274948", "s_label": "Thủ tướng Nhật Bản", "o_qid": "Q359480", "o_label": "Kishida Fumio", "start": 2022, "end": 2024, "relation": "P1308", "r_label": "người giữ chức vụ"}
+{"s_qid": "Q1268572", "s_label": "Quốc vương Thụy Điển", "o_qid": "Q45068", "o_label": "Carl XVI Gustaf của Thụy Điển", "start": 1973, "end": null, "relation": "P1308", "r_label": "người giữ chức vụ"}
+{"s_qid": "Q12716207", "s_label": "monarch of Scotland", "o_qid": "Q81506", "o_label": "Charles I của Anh", "start": 1625, "end": 1649, "relation": "P1308", "r_label": "người giữ chức vụ"}
+{"s_qid": "Q12716207", "s_label": "monarch of Scotland", "o_qid": "Q122553", "o_label": "Charles II của Anh", "start": 1660, "end": 1685, "relation": "P1308", "r_label": "người giữ chức vụ"}
+{"s_qid": "Q23034946", "s_label": "president of the French Academy of Sciences", "o_qid": "Q81082", "o_label": "Henri Poincaré", "start": 1906, "end": 1906, "relation": "P1308", "r_label": "người giữ chức vụ"}
+{"s_qid": "Q23034946", "s_label": "president of the French Academy of Sciences", "o_qid": "Q286375", "o_label": "Charles Émile Picard", "start": 1910, "end": 1910, "relation": "P1308", "r_label": "người giữ chức vụ"}
+{"s_qid": "Q23034946", "s_label": "president of the French Academy of Sciences", "o_qid": "Q982534", "o_label": "Jacques-Louis Lions", "start": 1997, "end": 1998, "relation": "P1308", "r_label": "người giữ chức vụ"}
+{"s_qid": "Q162754", "s_label": "Tướng quốc Lãnh địa Công tước Lancaster", "o_qid": "Q8016", "o_label": "Winston Churchill", "start": 1915, "end": 1915, "relation": "P1308", "r_label": "người giữ chức vụ"}
+{"s_qid": "Q52220796", "s_label": "lord mayor of Cologne", "o_qid": "Q2492", "o_label": "Konrad Adenauer", "start": 1917, "end": 1933, "relation": "P1308", "r_label": "người giữ chức vụ"}
+{"s_qid": "Q52220796", "s_label": "lord mayor of Cologne", "o_qid": "Q2492", "o_label": "Konrad Adenauer", "start": 1945, "end": 1945, "relation": "P1308", "r_label": "người giữ chức vụ"}

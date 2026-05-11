@@ -1,0 +1,13 @@
+{"s_qid": "Q3426", "s_label": "Voronezh", "o_qid": "Q2678", "o_label": "Gomel", "start": 2013, "end": null, "relation": "P2652", "r_label": "partnership with"}
+{"s_qid": "Q3426", "s_label": "Voronezh", "o_qid": "Q134279", "o_label": "Luhansk", "start": 2014, "end": null, "relation": "P2652", "r_label": "partnership with"}
+{"s_qid": "Q134279", "s_label": "Luhansk", "o_qid": "Q3426", "o_label": "Voronezh", "start": 2014, "end": null, "relation": "P2652", "r_label": "partnership with"}
+{"s_qid": "Q2678", "s_label": "Gomel", "o_qid": "Q3426", "o_label": "Voronezh", "start": 2013, "end": null, "relation": "P2652", "r_label": "partnership with"}
+{"s_qid": "Q392189", "s_label": "Đại học Montréal", "o_qid": "Q574606", "o_label": "Université libre de Bruxelles", "start": 2012, "end": null, "relation": "P2652", "r_label": "partnership with"}
+{"s_qid": "Q392189", "s_label": "Đại học Montréal", "o_qid": "Q503473", "o_label": "Đại học Geneva", "start": 2012, "end": null, "relation": "P2652", "r_label": "partnership with"}
+{"s_qid": "Q574606", "s_label": "Université libre de Bruxelles", "o_qid": "Q392189", "o_label": "Đại học Montréal", "start": 2012, "end": null, "relation": "P2652", "r_label": "partnership with"}
+{"s_qid": "Q574606", "s_label": "Université libre de Bruxelles", "o_qid": "Q503473", "o_label": "Đại học Geneva", "start": 2012, "end": null, "relation": "P2652", "r_label": "partnership with"}
+{"s_qid": "Q485087", "s_label": "C40 Cities Climate Leadership Group", "o_qid": "Q432637", "o_label": "Đại học George Washington", "start": 2020, "end": null, "relation": "P2652", "r_label": "partnership with"}
+{"s_qid": "Q485087", "s_label": "C40 Cities Climate Leadership Group", "o_qid": "Q7164", "o_label": "Ngân hàng Thế giới", "start": 2017, "end": null, "relation": "P2652", "r_label": "partnership with"}
+{"s_qid": "Q503473", "s_label": "Đại học Geneva", "o_qid": "Q574606", "o_label": "Université libre de Bruxelles", "start": 2012, "end": null, "relation": "P2652", "r_label": "partnership with"}
+{"s_qid": "Q503473", "s_label": "Đại học Geneva", "o_qid": "Q392189", "o_label": "Đại học Montréal", "start": 2012, "end": null, "relation": "P2652", "r_label": "partnership with"}
+{"s_qid": "Q1514799", "s_label": "Học viện Gerrit Rietveld", "o_qid": "Q18286730", "o_label": "European Ceramics Work Center", "start": 2004, "end": 2005, "relation": "P2652", "r_label": "partnership with"}

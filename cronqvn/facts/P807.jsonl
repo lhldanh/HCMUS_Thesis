@@ -1,0 +1,16 @@
+{"s_qid": "Q156453", "s_label": "Ørsta", "o_qid": "Q488445", "o_label": "Volda", "start": 1883, "end": 1883, "relation": "P807", "r_label": "được tách ra khỏi"}
+{"s_qid": "Q4027", "s_label": "Jean Moulin University - Lyon 3", "o_qid": "Q4041", "o_label": "Lumière University Lyon 2", "start": 1973, "end": 1973, "relation": "P807", "r_label": "được tách ra khỏi"}
+{"s_qid": "Q902512", "s_label": "Minnesota North Stars", "o_qid": "Q206381", "o_label": "San Jose Sharks", "start": 1991, "end": 1991, "relation": "P807", "r_label": "được tách ra khỏi"}
+{"s_qid": "Q159", "s_label": "Nga", "o_qid": "Q15180", "o_label": "Liên Xô", "start": 1991, "end": 1991, "relation": "P807", "r_label": "được tách ra khỏi"}
+{"s_qid": "Q1500822", "s_label": "University of La Rochelle", "o_qid": "Q661056", "o_label": "Đại học Poitiers", "start": 1993, "end": 1993, "relation": "P807", "r_label": "được tách ra khỏi"}
+{"s_qid": "Q14662364", "s_label": "AbbVie", "o_qid": "Q306764", "o_label": "Abbott", "start": 2013, "end": null, "relation": "P807", "r_label": "được tách ra khỏi"}
+{"s_qid": "Q206381", "s_label": "San Jose Sharks", "o_qid": "Q902512", "o_label": "Minnesota North Stars", "start": 1991, "end": 1991, "relation": "P807", "r_label": "được tách ra khỏi"}
+{"s_qid": "Q16", "s_label": "Canada", "o_qid": "Q174193", "o_label": "Vương quốc Liên hiệp Anh và Ireland", "start": 1867, "end": 1867, "relation": "P807", "r_label": "được tách ra khỏi"}
+{"s_qid": "Q16", "s_label": "Canada", "o_qid": "Q145", "o_label": "Vương quốc Liên hiệp Anh và Bắc Ireland", "start": 1931, "end": 1931, "relation": "P807", "r_label": "được tách ra khỏi"}
+{"s_qid": "Q16", "s_label": "Canada", "o_qid": "Q145", "o_label": "Vương quốc Liên hiệp Anh và Bắc Ireland", "start": 1982, "end": 1982, "relation": "P807", "r_label": "được tách ra khỏi"}
+{"s_qid": "Q48581", "s_label": "Torsken", "o_qid": "Q503912", "o_label": "Berg, Na Uy", "start": 1902, "end": 1902, "relation": "P807", "r_label": "được tách ra khỏi"}
+{"s_qid": "Q1204304", "s_label": "Paul Cézanne University", "o_qid": "Q180438", "o_label": "University of the Mediterranean - Aix Marseille II", "start": 1973, "end": 1973, "relation": "P807", "r_label": "được tách ra khỏi"}
+{"s_qid": "Q1204304", "s_label": "Paul Cézanne University", "o_qid": "Q1687719", "o_label": "University of Provence - Aix-Marseille I", "start": 1973, "end": 1973, "relation": "P807", "r_label": "được tách ra khỏi"}
+{"s_qid": "Q23540", "s_label": "Kháng Cách", "o_qid": "Q9592", "o_label": "Giáo hội Công giáo", "start": 1517, "end": null, "relation": "P807", "r_label": "được tách ra khỏi"}
+{"s_qid": "Q494335", "s_label": "Tours University", "o_qid": "Q13334", "o_label": "University of Orléans", "start": 1971, "end": 1971, "relation": "P807", "r_label": "được tách ra khỏi"}
+{"s_qid": "Q503622", "s_label": "Naustdal Municipality", "o_qid": "Q113571", "o_label": "Førde", "start": 1896, "end": 1896, "relation": "P807", "r_label": "được tách ra khỏi"}

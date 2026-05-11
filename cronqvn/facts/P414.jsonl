@@ -1,0 +1,123 @@
+{"s_qid": "Q9396", "s_label": "Deutsche Telekom", "o_qid": "Q217475", "o_label": "Sở giao dịch chứng khoán Tōkyō", "start": null, "end": 2010, "relation": "P414", "r_label": "sở giao dịch chứng khoán"}
+{"s_qid": "Q9396", "s_label": "Deutsche Telekom", "o_qid": "Q151139", "o_label": "Sở giao dịch chứng khoán Frankfurt", "start": 1996, "end": null, "relation": "P414", "r_label": "sở giao dịch chứng khoán"}
+{"s_qid": "Q11463", "s_label": "Adobe", "o_qid": "Q82059", "o_label": "NASDAQ", "start": 1986, "end": null, "relation": "P414", "r_label": "sở giao dịch chứng khoán"}
+{"s_qid": "Q27530", "s_label": "Daimler AG", "o_qid": "Q151139", "o_label": "Sở giao dịch chứng khoán Frankfurt", "start": 1998, "end": null, "relation": "P414", "r_label": "sở giao dịch chứng khoán"}
+{"s_qid": "Q27530", "s_label": "Daimler AG", "o_qid": "Q217475", "o_label": "Sở giao dịch chứng khoán Tōkyō", "start": null, "end": 2006, "relation": "P414", "r_label": "sở giao dịch chứng khoán"}
+{"s_qid": "Q35476", "s_label": "AT&T", "o_qid": "Q13677", "o_label": "Sở giao dịch chứng khoán New York", "start": 1990, "end": null, "relation": "P414", "r_label": "sở giao dịch chứng khoán"}
+{"s_qid": "Q35476", "s_label": "AT&T", "o_qid": "Q217475", "o_label": "Sở giao dịch chứng khoán Tōkyō", "start": null, "end": 1997, "relation": "P414", "r_label": "sở giao dịch chứng khoán"}
+{"s_qid": "Q81230", "s_label": "Siemens AG", "o_qid": "Q151139", "o_label": "Sở giao dịch chứng khoán Frankfurt", "start": 1897, "end": null, "relation": "P414", "r_label": "sở giao dịch chứng khoán"}
+{"s_qid": "Q81230", "s_label": "Siemens AG", "o_qid": "Q13677", "o_label": "Sở giao dịch chứng khoán New York", "start": 2001, "end": 2014, "relation": "P414", "r_label": "sở giao dịch chứng khoán"}
+{"s_qid": "Q152057", "s_label": "BP", "o_qid": "Q13677", "o_label": "Sở giao dịch chứng khoán New York", "start": 1990, "end": null, "relation": "P414", "r_label": "sở giao dịch chứng khoán"}
+{"s_qid": "Q152057", "s_label": "BP", "o_qid": "Q217475", "o_label": "Sở giao dịch chứng khoán Tōkyō", "start": null, "end": 2008, "relation": "P414", "r_label": "sở giao dịch chứng khoán"}
+{"s_qid": "Q193326", "s_label": "Goldman Sachs", "o_qid": "Q13677", "o_label": "Sở giao dịch chứng khoán New York", "start": 1999, "end": null, "relation": "P414", "r_label": "sở giao dịch chứng khoán"}
+{"s_qid": "Q513679", "s_label": "Central Japan Railway Company", "o_qid": "Q217475", "o_label": "Sở giao dịch chứng khoán Tōkyō", "start": 1997, "end": null, "relation": "P414", "r_label": "sở giao dịch chứng khoán"}
+{"s_qid": "Q732670", "s_label": "Sở giao dịch chứng khoán Úc", "o_qid": "Q732670", "o_label": "Sở giao dịch chứng khoán Úc", "start": 1998, "end": null, "relation": "P414", "r_label": "sở giao dịch chứng khoán"}
+{"s_qid": "Q795900", "s_label": "BGI Genomics", "o_qid": "Q517750", "o_label": "Sở Giao dịch Chứng khoán Thâm Quyến", "start": 2017, "end": null, "relation": "P414", "r_label": "sở giao dịch chứng khoán"}
+{"s_qid": "Q860580", "s_label": "Tencent", "o_qid": "Q496672", "o_label": "Sở giao dịch Hồng Kông", "start": 2004, "end": null, "relation": "P414", "r_label": "sở giao dịch chứng khoán"}
+{"s_qid": "Q1345971", "s_label": "Công ty Gannett", "o_qid": "Q13677", "o_label": "Sở giao dịch chứng khoán New York", "start": 1990, "end": null, "relation": "P414", "r_label": "sở giao dịch chứng khoán"}
+{"s_qid": "Q2632892", "s_label": "Moscow Exchange", "o_qid": "Q2632892", "o_label": "Moscow Exchange", "start": 2013, "end": null, "relation": "P414", "r_label": "sở giao dịch chứng khoán"}
+{"s_qid": "Q66", "s_label": "Boeing", "o_qid": "Q217475", "o_label": "Sở giao dịch chứng khoán Tōkyō", "start": null, "end": 2008, "relation": "P414", "r_label": "sở giao dịch chứng khoán"}
+{"s_qid": "Q2283", "s_label": "Microsoft", "o_qid": "Q82059", "o_label": "NASDAQ", "start": 1987, "end": null, "relation": "P414", "r_label": "sở giao dịch chứng khoán"}
+{"s_qid": "Q9325", "s_label": "Lufthansa", "o_qid": "Q151139", "o_label": "Sở giao dịch chứng khoán Frankfurt", "start": 1966, "end": null, "relation": "P414", "r_label": "sở giao dịch chứng khoán"}
+{"s_qid": "Q21077", "s_label": "Warner Music Group", "o_qid": "Q82059", "o_label": "NASDAQ", "start": 2020, "end": null, "relation": "P414", "r_label": "sở giao dịch chứng khoán"}
+{"s_qid": "Q37156", "s_label": "IBM", "o_qid": "Q217475", "o_label": "Sở giao dịch chứng khoán Tōkyō", "start": 1974, "end": 2005, "relation": "P414", "r_label": "sở giao dịch chứng khoán"}
+{"s_qid": "Q80978", "s_label": "Hewlett-Packard", "o_qid": "Q13677", "o_label": "Sở giao dịch chứng khoán New York", "start": 2002, "end": null, "relation": "P414", "r_label": "sở giao dịch chứng khoán"}
+{"s_qid": "Q80978", "s_label": "Hewlett-Packard", "o_qid": "Q13677", "o_label": "Sở giao dịch chứng khoán New York", "start": 1961, "end": 2002, "relation": "P414", "r_label": "sở giao dịch chứng khoán"}
+{"s_qid": "Q156644", "s_label": "Công ty Raytheon", "o_qid": "Q13677", "o_label": "Sở giao dịch chứng khoán New York", "start": null, "end": 2020, "relation": "P414", "r_label": "sở giao dịch chứng khoán"}
+{"s_qid": "Q212405", "s_label": "Procter & Gamble", "o_qid": "Q13677", "o_label": "Sở giao dịch chứng khoán New York", "start": 1890, "end": null, "relation": "P414", "r_label": "sở giao dịch chứng khoán"}
+{"s_qid": "Q212405", "s_label": "Procter & Gamble", "o_qid": "Q217475", "o_label": "Sở giao dịch chứng khoán Tōkyō", "start": 1987, "end": 2004, "relation": "P414", "r_label": "sở giao dịch chứng khoán"}
+{"s_qid": "Q219508", "s_label": "Citigroup", "o_qid": "Q13677", "o_label": "Sở giao dịch chứng khoán New York", "start": 1990, "end": null, "relation": "P414", "r_label": "sở giao dịch chứng khoán"}
+{"s_qid": "Q219508", "s_label": "Citigroup", "o_qid": "Q217475", "o_label": "Sở giao dịch chứng khoán Tōkyō", "start": null, "end": 2016, "relation": "P414", "r_label": "sở giao dịch chứng khoán"}
+{"s_qid": "Q336735", "s_label": "ČEZ Group", "o_qid": "Q1752646", "o_label": "Prague Stock Exchange", "start": 1993, "end": null, "relation": "P414", "r_label": "sở giao dịch chứng khoán"}
+{"s_qid": "Q336735", "s_label": "ČEZ Group", "o_qid": "Q59551", "o_label": "Sàn giao dịch chứng khoán Warsaw", "start": 2006, "end": null, "relation": "P414", "r_label": "sở giao dịch chứng khoán"}
+{"s_qid": "Q338825", "s_label": "Accenture", "o_qid": "Q13677", "o_label": "Sở giao dịch chứng khoán New York", "start": 2001, "end": null, "relation": "P414", "r_label": "sở giao dịch chứng khoán"}
+{"s_qid": "Q632240", "s_label": "Eli Lilly and Company", "o_qid": "Q13677", "o_label": "Sở giao dịch chứng khoán New York", "start": 1990, "end": null, "relation": "P414", "r_label": "sở giao dịch chứng khoán"}
+{"s_qid": "Q632240", "s_label": "Eli Lilly and Company", "o_qid": "Q217475", "o_label": "Sở giao dịch chứng khoán Tōkyō", "start": null, "end": 2003, "relation": "P414", "r_label": "sở giao dịch chứng khoán"}
+{"s_qid": "Q973054", "s_label": "Rakuten", "o_qid": "Q217475", "o_label": "Sở giao dịch chứng khoán Tōkyō", "start": 2000, "end": null, "relation": "P414", "r_label": "sở giao dịch chứng khoán"}
+{"s_qid": "Q17081612", "s_label": "Moderna", "o_qid": "Q82059", "o_label": "NASDAQ", "start": 2018, "end": null, "relation": "P414", "r_label": "sở giao dịch chứng khoán"}
+{"s_qid": "Q20800404", "s_label": "Alphabet", "o_qid": "Q82059", "o_label": "NASDAQ", "start": 2016, "end": null, "relation": "P414", "r_label": "sở giao dịch chứng khoán"}
+{"s_qid": "Q20800404", "s_label": "Alphabet", "o_qid": "Q82059", "o_label": "NASDAQ", "start": 2016, "end": null, "relation": "P414", "r_label": "sở giao dịch chứng khoán"}
+{"s_qid": "Q19900", "s_label": "Oracle", "o_qid": "Q82059", "o_label": "NASDAQ", "start": null, "end": 2013, "relation": "P414", "r_label": "sở giao dịch chứng khoán"}
+{"s_qid": "Q53268", "s_label": "Toyota", "o_qid": "Q217475", "o_label": "Sở giao dịch chứng khoán Tōkyō", "start": 1949, "end": null, "relation": "P414", "r_label": "sở giao dịch chứng khoán"}
+{"s_qid": "Q53268", "s_label": "Toyota", "o_qid": "Q171240", "o_label": "Sở giao dịch chứng khoán London", "start": 1999, "end": null, "relation": "P414", "r_label": "sở giao dịch chứng khoán"}
+{"s_qid": "Q53268", "s_label": "Toyota", "o_qid": "Q13677", "o_label": "Sở giao dịch chứng khoán New York", "start": 1999, "end": null, "relation": "P414", "r_label": "sở giao dịch chứng khoán"}
+{"s_qid": "Q59551", "s_label": "Sàn giao dịch chứng khoán Warsaw", "o_qid": "Q59551", "o_label": "Sàn giao dịch chứng khoán Warsaw", "start": 2010, "end": null, "relation": "P414", "r_label": "sở giao dịch chứng khoán"}
+{"s_qid": "Q66048", "s_label": "Deutsche Bank", "o_qid": "Q13677", "o_label": "Sở giao dịch chứng khoán New York", "start": 2001, "end": null, "relation": "P414", "r_label": "sở giao dịch chứng khoán"}
+{"s_qid": "Q66048", "s_label": "Deutsche Bank", "o_qid": "Q151139", "o_label": "Sở giao dịch chứng khoán Frankfurt", "start": 1870, "end": null, "relation": "P414", "r_label": "sở giao dịch chứng khoán"}
+{"s_qid": "Q66048", "s_label": "Deutsche Bank", "o_qid": "Q217475", "o_label": "Sở giao dịch chứng khoán Tōkyō", "start": null, "end": 2006, "relation": "P414", "r_label": "sở giao dịch chứng khoán"}
+{"s_qid": "Q155718", "s_label": "DAX", "o_qid": "Q151139", "o_label": "Sở giao dịch chứng khoán Frankfurt", "start": 2008, "end": null, "relation": "P414", "r_label": "sở giao dịch chứng khoán"}
+{"s_qid": "Q157062", "s_label": "Unilever", "o_qid": "Q1661737", "o_label": "Indonesia Stock Exchange", "start": 1982, "end": null, "relation": "P414", "r_label": "sở giao dịch chứng khoán"}
+{"s_qid": "Q334800", "s_label": "PepsiCo", "o_qid": "Q217475", "o_label": "Sở giao dịch chứng khoán Tōkyō", "start": null, "end": 2005, "relation": "P414", "r_label": "sở giao dịch chứng khoán"}
+{"s_qid": "Q470517", "s_label": "Amgen", "o_qid": "Q82059", "o_label": "NASDAQ", "start": 1990, "end": null, "relation": "P414", "r_label": "sở giao dịch chứng khoán"}
+{"s_qid": "Q478214", "s_label": "Tesla", "o_qid": "Q82059", "o_label": "NASDAQ", "start": 2010, "end": null, "relation": "P414", "r_label": "sở giao dịch chứng khoán"}
+{"s_qid": "Q502125", "s_label": "West Japan Railway Company", "o_qid": "Q217475", "o_label": "Sở giao dịch chứng khoán Tōkyō", "start": 1996, "end": null, "relation": "P414", "r_label": "sở giao dịch chứng khoán"}
+{"s_qid": "Q624798", "s_label": "Đường sắt Quốc gia Canada", "o_qid": "Q13677", "o_label": "Sở giao dịch chứng khoán New York", "start": 1995, "end": null, "relation": "P414", "r_label": "sở giao dịch chứng khoán"}
+{"s_qid": "Q679322", "s_label": "Saudi Aramco", "o_qid": "Q2006583", "o_label": "Saudi Stock Exchange", "start": 2019, "end": null, "relation": "P414", "r_label": "sở giao dịch chứng khoán"}
+{"s_qid": "Q1390577", "s_label": "Twitter", "o_qid": "Q13677", "o_label": "Sở giao dịch chứng khoán New York", "start": 2013, "end": 2022, "relation": "P414", "r_label": "sở giao dịch chứng khoán"}
+{"s_qid": "Q1889100", "s_label": "Đại học Phoenix", "o_qid": "Q13677", "o_label": "Sở giao dịch chứng khoán New York", "start": 2025, "end": null, "relation": "P414", "r_label": "sở giao dịch chứng khoán"}
+{"s_qid": "Q2068984", "s_label": "Illumina", "o_qid": "Q82059", "o_label": "NASDAQ", "start": 2000, "end": null, "relation": "P414", "r_label": "sở giao dịch chứng khoán"}
+{"s_qid": "Q3295867", "s_label": "Công ty Coca-Cola", "o_qid": "Q13677", "o_label": "Sở giao dịch chứng khoán New York", "start": 1929, "end": null, "relation": "P414", "r_label": "sở giao dịch chứng khoán"}
+{"s_qid": "Q312", "s_label": "Apple Inc.", "o_qid": "Q82059", "o_label": "NASDAQ", "start": 1980, "end": null, "relation": "P414", "r_label": "sở giao dịch chứng khoán"}
+{"s_qid": "Q312", "s_label": "Apple Inc.", "o_qid": "Q217475", "o_label": "Sở giao dịch chứng khoán Tōkyō", "start": 1990, "end": 2004, "relation": "P414", "r_label": "sở giao dịch chứng khoán"}
+{"s_qid": "Q156578", "s_label": "Tập đoàn Volkswagen", "o_qid": "Q217475", "o_label": "Sở giao dịch chứng khoán Tōkyō", "start": null, "end": 2007, "relation": "P414", "r_label": "sở giao dịch chứng khoán"}
+{"s_qid": "Q182477", "s_label": "Nvidia", "o_qid": "Q82059", "o_label": "NASDAQ", "start": 1999, "end": null, "relation": "P414", "r_label": "sở giao dịch chứng khoán"}
+{"s_qid": "Q193412", "s_label": "Texas Instruments", "o_qid": "Q217475", "o_label": "Sở giao dịch chứng khoán Tōkyō", "start": null, "end": 1997, "relation": "P414", "r_label": "sở giao dịch chứng khoán"}
+{"s_qid": "Q507154", "s_label": "Novartis", "o_qid": "Q13677", "o_label": "Sở giao dịch chứng khoán New York", "start": 2000, "end": null, "relation": "P414", "r_label": "sở giao dịch chứng khoán"}
+{"s_qid": "Q654762", "s_label": "Sotheby's", "o_qid": "Q13677", "o_label": "Sở giao dịch chứng khoán New York", "start": 1988, "end": 2019, "relation": "P414", "r_label": "sở giao dịch chứng khoán"}
+{"s_qid": "Q731938", "s_label": "AstraZeneca", "o_qid": "Q13677", "o_label": "Sở giao dịch chứng khoán New York", "start": 1999, "end": null, "relation": "P414", "r_label": "sở giao dịch chứng khoán"}
+{"s_qid": "Q1230295", "s_label": "Genesee & Wyoming", "o_qid": "Q13677", "o_label": "Sở giao dịch chứng khoán New York", "start": 2002, "end": 2019, "relation": "P414", "r_label": "sở giao dịch chứng khoán"}
+{"s_qid": "Q117706368", "s_label": "Canadian Pacific Kansas City", "o_qid": "Q13677", "o_label": "Sở giao dịch chứng khoán New York", "start": 2001, "end": null, "relation": "P414", "r_label": "sở giao dịch chứng khoán"}
+{"s_qid": "Q7414", "s_label": "Công ty Walt Disney", "o_qid": "Q13677", "o_label": "Sở giao dịch chứng khoán New York", "start": 1940, "end": null, "relation": "P414", "r_label": "sở giao dịch chứng khoán"}
+{"s_qid": "Q7414", "s_label": "Công ty Walt Disney", "o_qid": "Q217475", "o_label": "Sở giao dịch chứng khoán Tōkyō", "start": null, "end": 1995, "relation": "P414", "r_label": "sở giao dịch chứng khoán"}
+{"s_qid": "Q20718", "s_label": "Samsung Electronics", "o_qid": "Q495372", "o_label": "Sở giao dịch chứng khoán Hàn Quốc", "start": 1975, "end": null, "relation": "P414", "r_label": "sở giao dịch chứng khoán"}
+{"s_qid": "Q154950", "s_label": "Shell", "o_qid": "Q171240", "o_label": "Sở giao dịch chứng khoán London", "start": 2022, "end": null, "relation": "P414", "r_label": "sở giao dịch chứng khoán"}
+{"s_qid": "Q154950", "s_label": "Shell", "o_qid": "Q13677", "o_label": "Sở giao dịch chứng khoán New York", "start": 2022, "end": null, "relation": "P414", "r_label": "sở giao dịch chứng khoán"}
+{"s_qid": "Q154950", "s_label": "Shell", "o_qid": "Q13677", "o_label": "Sở giao dịch chứng khoán New York", "start": 2005, "end": 2022, "relation": "P414", "r_label": "sở giao dịch chứng khoán"}
+{"s_qid": "Q154950", "s_label": "Shell", "o_qid": "Q13677", "o_label": "Sở giao dịch chứng khoán New York", "start": 2005, "end": 2022, "relation": "P414", "r_label": "sở giao dịch chứng khoán"}
+{"s_qid": "Q154950", "s_label": "Shell", "o_qid": "Q171240", "o_label": "Sở giao dịch chứng khoán London", "start": 2005, "end": 2022, "relation": "P414", "r_label": "sở giao dịch chứng khoán"}
+{"s_qid": "Q154950", "s_label": "Shell", "o_qid": "Q171240", "o_label": "Sở giao dịch chứng khoán London", "start": 2005, "end": 2022, "relation": "P414", "r_label": "sở giao dịch chứng khoán"}
+{"s_qid": "Q170416", "s_label": "Philips", "o_qid": "Q13677", "o_label": "Sở giao dịch chứng khoán New York", "start": 1990, "end": null, "relation": "P414", "r_label": "sở giao dịch chứng khoán"}
+{"s_qid": "Q192314", "s_label": "JPMorgan Chase", "o_qid": "Q217475", "o_label": "Sở giao dịch chứng khoán Tōkyō", "start": null, "end": 2015, "relation": "P414", "r_label": "sở giao dịch chứng khoán"}
+{"s_qid": "Q219635", "s_label": "BlackRock", "o_qid": "Q13677", "o_label": "Sở giao dịch chứng khoán New York", "start": 1999, "end": null, "relation": "P414", "r_label": "sở giao dịch chứng khoán"}
+{"s_qid": "Q11283119", "s_label": "Generali Česká pojišťovna", "o_qid": "Q1752646", "o_label": "Prague Stock Exchange", "start": 1993, "end": 2005, "relation": "P414", "r_label": "sở giao dịch chứng khoán"}
+{"s_qid": "Q14662364", "s_label": "AbbVie", "o_qid": "Q13677", "o_label": "Sở giao dịch chứng khoán New York", "start": 2013, "end": null, "relation": "P414", "r_label": "sở giao dịch chứng khoán"}
+{"s_qid": "Q7240", "s_label": "Lockheed Martin", "o_qid": "Q13677", "o_label": "Sở giao dịch chứng khoán New York", "start": 1990, "end": null, "relation": "P414", "r_label": "sở giao dịch chứng khoán"}
+{"s_qid": "Q156238", "s_label": "ExxonMobil", "o_qid": "Q13677", "o_label": "Sở giao dịch chứng khoán New York", "start": 1990, "end": null, "relation": "P414", "r_label": "sở giao dịch chứng khoán"}
+{"s_qid": "Q201821", "s_label": "Finnair", "o_qid": "Q581755", "o_label": "Nasdaq Helsinki Ltd", "start": 1989, "end": null, "relation": "P414", "r_label": "sở giao dịch chứng khoán"}
+{"s_qid": "Q206921", "s_label": "Pfizer", "o_qid": "Q13677", "o_label": "Sở giao dịch chứng khoán New York", "start": 1990, "end": null, "relation": "P414", "r_label": "sở giao dịch chứng khoán"}
+{"s_qid": "Q247489", "s_label": "Merck & Co.", "o_qid": "Q13677", "o_label": "Sở giao dịch chứng khoán New York", "start": 1990, "end": null, "relation": "P414", "r_label": "sở giao dịch chứng khoán"}
+{"s_qid": "Q95", "s_label": "Google", "o_qid": "Q82059", "o_label": "NASDAQ", "start": 2004, "end": 2016, "relation": "P414", "r_label": "sở giao dịch chứng khoán"}
+{"s_qid": "Q95", "s_label": "Google", "o_qid": "Q82059", "o_label": "NASDAQ", "start": 2014, "end": 2016, "relation": "P414", "r_label": "sở giao dịch chứng khoán"}
+{"s_qid": "Q3884", "s_label": "Amazon", "o_qid": "Q82059", "o_label": "NASDAQ", "start": 1997, "end": null, "relation": "P414", "r_label": "sở giao dịch chứng khoán"}
+{"s_qid": "Q41187", "s_label": "Sony", "o_qid": "Q217475", "o_label": "Sở giao dịch chứng khoán Tōkyō", "start": 1958, "end": null, "relation": "P414", "r_label": "sở giao dịch chứng khoán"}
+{"s_qid": "Q41187", "s_label": "Sony", "o_qid": "Q13677", "o_label": "Sở giao dịch chứng khoán New York", "start": 1970, "end": null, "relation": "P414", "r_label": "sở giao dịch chứng khoán"}
+{"s_qid": "Q44294", "s_label": "Ford", "o_qid": "Q13677", "o_label": "Sở giao dịch chứng khoán New York", "start": 1956, "end": null, "relation": "P414", "r_label": "sở giao dịch chứng khoán"}
+{"s_qid": "Q54173", "s_label": "General Electric", "o_qid": "Q13677", "o_label": "Sở giao dịch chứng khoán New York", "start": 1990, "end": 2024, "relation": "P414", "r_label": "sở giao dịch chứng khoán"}
+{"s_qid": "Q54173", "s_label": "General Electric", "o_qid": "Q217475", "o_label": "Sở giao dịch chứng khoán Tōkyō", "start": null, "end": 1995, "relation": "P414", "r_label": "sở giao dịch chứng khoán"}
+{"s_qid": "Q81965", "s_label": "General Motors", "o_qid": "Q13677", "o_label": "Sở giao dịch chứng khoán New York", "start": 2010, "end": null, "relation": "P414", "r_label": "sở giao dịch chứng khoán"}
+{"s_qid": "Q152051", "s_label": "Bayer AG", "o_qid": "Q151139", "o_label": "Sở giao dịch chứng khoán Frankfurt", "start": 1953, "end": null, "relation": "P414", "r_label": "sở giao dịch chứng khoán"}
+{"s_qid": "Q152051", "s_label": "Bayer AG", "o_qid": "Q217475", "o_label": "Sở giao dịch chứng khoán Tōkyō", "start": null, "end": 2008, "relation": "P414", "r_label": "sở giao dịch chứng khoán"}
+{"s_qid": "Q393762", "s_label": "Agilent Technologies", "o_qid": "Q13677", "o_label": "Sở giao dịch chứng khoán New York", "start": 1999, "end": null, "relation": "P414", "r_label": "sở giao dịch chứng khoán"}
+{"s_qid": "Q485593", "s_label": "RedHat", "o_qid": "Q13677", "o_label": "Sở giao dịch chứng khoán New York", "start": 1999, "end": 2019, "relation": "P414", "r_label": "sở giao dịch chứng khoán"}
+{"s_qid": "Q380", "s_label": "Meta", "o_qid": "Q82059", "o_label": "NASDAQ", "start": 2022, "end": null, "relation": "P414", "r_label": "sở giao dịch chứng khoán"}
+{"s_qid": "Q380", "s_label": "Meta", "o_qid": "Q82059", "o_label": "NASDAQ", "start": 2012, "end": 2022, "relation": "P414", "r_label": "sở giao dịch chứng khoán"}
+{"s_qid": "Q8766", "s_label": "British Airways", "o_qid": "Q171240", "o_label": "Sở giao dịch chứng khoán London", "start": 1987, "end": null, "relation": "P414", "r_label": "sở giao dịch chứng khoán"}
+{"s_qid": "Q9401", "s_label": "BASF SE", "o_qid": "Q151139", "o_label": "Sở giao dịch chứng khoán Frankfurt", "start": 1952, "end": null, "relation": "P414", "r_label": "sở giao dịch chứng khoán"}
+{"s_qid": "Q9401", "s_label": "BASF SE", "o_qid": "Q171240", "o_label": "Sở giao dịch chứng khoán London", "start": null, "end": 2019, "relation": "P414", "r_label": "sở giao dịch chứng khoán"}
+{"s_qid": "Q49125", "s_label": "Toshiba", "o_qid": "Q217475", "o_label": "Sở giao dịch chứng khoán Tōkyō", "start": 1949, "end": 2023, "relation": "P414", "r_label": "sở giao dịch chứng khoán"}
+{"s_qid": "Q154037", "s_label": "TotalEnergies", "o_qid": "Q13677", "o_label": "Sở giao dịch chứng khoán New York", "start": 1991, "end": 2021, "relation": "P414", "r_label": "sở giao dịch chứng khoán"}
+{"s_qid": "Q154037", "s_label": "TotalEnergies", "o_qid": "Q13677", "o_label": "Sở giao dịch chứng khoán New York", "start": 2021, "end": null, "relation": "P414", "r_label": "sở giao dịch chứng khoán"}
+{"s_qid": "Q157617", "s_label": "Commerzbank", "o_qid": "Q151139", "o_label": "Sở giao dịch chứng khoán Frankfurt", "start": 1870, "end": null, "relation": "P414", "r_label": "sở giao dịch chứng khoán"}
+{"s_qid": "Q159433", "s_label": "3M", "o_qid": "Q13677", "o_label": "Sở giao dịch chứng khoán New York", "start": 1946, "end": null, "relation": "P414", "r_label": "sở giao dịch chứng khoán"}
+{"s_qid": "Q159433", "s_label": "3M", "o_qid": "Q217475", "o_label": "Sở giao dịch chứng khoán Tōkyō", "start": null, "end": 1998, "relation": "P414", "r_label": "sở giao dịch chứng khoán"}
+{"s_qid": "Q305473", "s_label": "IQVIA Holdings, Inc.", "o_qid": "Q13677", "o_label": "Sở giao dịch chứng khoán New York", "start": 2013, "end": null, "relation": "P414", "r_label": "sở giao dịch chứng khoán"}
+{"s_qid": "Q306764", "s_label": "Abbott", "o_qid": "Q13677", "o_label": "Sở giao dịch chứng khoán New York", "start": 1980, "end": null, "relation": "P414", "r_label": "sở giao dịch chứng khoán"}
+{"s_qid": "Q487907", "s_label": "Bank of America", "o_qid": "Q217475", "o_label": "Sở giao dịch chứng khoán Tōkyō", "start": null, "end": 2017, "relation": "P414", "r_label": "sở giao dịch chứng khoán"}
+{"s_qid": "Q498366", "s_label": "Kyushu Railway Company", "o_qid": "Q217475", "o_label": "Sở giao dịch chứng khoán Tōkyō", "start": 2016, "end": null, "relation": "P414", "r_label": "sở giao dịch chứng khoán"}
+{"s_qid": "Q542511", "s_label": "Hoechst", "o_qid": "Q151139", "o_label": "Sở giao dịch chứng khoán Frankfurt", "start": null, "end": 2004, "relation": "P414", "r_label": "sở giao dịch chứng khoán"}
+{"s_qid": "Q663596", "s_label": "Gilead Sciences", "o_qid": "Q82059", "o_label": "NASDAQ", "start": 1992, "end": null, "relation": "P414", "r_label": "sở giao dịch chứng khoán"}
+{"s_qid": "Q796297", "s_label": "São Paulo Stock Exchange", "o_qid": "Q796297", "o_label": "São Paulo Stock Exchange", "start": 2021, "end": null, "relation": "P414", "r_label": "sở giao dịch chứng khoán"}
+{"s_qid": "Q855639", "s_label": "Dow Chemical Company", "o_qid": "Q217475", "o_label": "Sở giao dịch chứng khoán Tōkyō", "start": null, "end": 2016, "relation": "P414", "r_label": "sở giao dịch chứng khoán"}
+{"s_qid": "Q1479375", "s_label": "MTR Corporation Limited", "o_qid": "Q496672", "o_label": "Sở giao dịch Hồng Kông", "start": 2000, "end": null, "relation": "P414", "r_label": "sở giao dịch chứng khoán"}
+{"s_qid": "Q7308054", "s_label": "Regeneron Pharmaceuticals", "o_qid": "Q82059", "o_label": "NASDAQ", "start": 1991, "end": null, "relation": "P414", "r_label": "sở giao dịch chứng khoán"}
+{"s_qid": "Q21096327", "s_label": "Springer Nature", "o_qid": "Q151139", "o_label": "Sở giao dịch chứng khoán Frankfurt", "start": 2024, "end": null, "relation": "P414", "r_label": "sở giao dịch chứng khoán"}

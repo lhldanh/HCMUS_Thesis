@@ -1,0 +1,6 @@
+{"s_qid": "Q35332", "s_label": "Brad Pitt", "o_qid": "Q32522", "o_label": "Jennifer Aniston", "start": 1998, "end": 2000, "relation": "P451", "r_label": "bạn đời"}
+{"s_qid": "Q35332", "s_label": "Brad Pitt", "o_qid": "Q13909", "o_label": "Angelina Jolie", "start": 2005, "end": 2014, "relation": "P451", "r_label": "bạn đời"}
+{"s_qid": "Q32522", "s_label": "Jennifer Aniston", "o_qid": "Q35332", "o_label": "Brad Pitt", "start": 1998, "end": 2000, "relation": "P451", "r_label": "bạn đời"}
+{"s_qid": "Q286022", "s_label": "Common", "o_qid": "Q192410", "o_label": "Jennifer Hudson", "start": 2023, "end": null, "relation": "P451", "r_label": "bạn đời"}
+{"s_qid": "Q13909", "s_label": "Angelina Jolie", "o_qid": "Q35332", "o_label": "Brad Pitt", "start": 2005, "end": 2014, "relation": "P451", "r_label": "bạn đời"}
+{"s_qid": "Q192410", "s_label": "Jennifer Hudson", "o_qid": "Q286022", "o_label": "Common", "start": 2023, "end": null, "relation": "P451", "r_label": "bạn đời"}

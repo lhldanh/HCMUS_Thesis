@@ -1,0 +1,18 @@
+{"s_qid": "Q116861", "s_label": "Fran Walsh", "o_qid": "Q4465", "o_label": "Peter Jackson", "start": 1987, "end": null, "relation": "P26", "r_label": "người phối ngẫu"}
+{"s_qid": "Q15434398", "s_label": "August de Ridder", "o_qid": "Q123259201", "o_label": "Johanna Elisabethe Louise May", "start": 1874, "end": null, "relation": "P26", "r_label": "người phối ngẫu"}
+{"s_qid": "Q106959557", "s_label": "Henrica Cunera Lormier-van Olden", "o_qid": "Q29646370", "o_label": "Willem Lormier", "start": 1741, "end": null, "relation": "P26", "r_label": "người phối ngẫu"}
+{"s_qid": "Q6294", "s_label": "Hillary Clinton", "o_qid": "Q1124", "o_label": "Bill Clinton", "start": 1975, "end": null, "relation": "P26", "r_label": "người phối ngẫu"}
+{"s_qid": "Q4465", "s_label": "Peter Jackson", "o_qid": "Q116861", "o_label": "Fran Walsh", "start": 1987, "end": null, "relation": "P26", "r_label": "người phối ngẫu"}
+{"s_qid": "Q183532", "s_label": "Anne Bancroft", "o_qid": "Q104266", "o_label": "Mel Brooks", "start": 1964, "end": 2005, "relation": "P26", "r_label": "người phối ngẫu"}
+{"s_qid": "Q1413407", "s_label": "Alfred Bader", "o_qid": "Q94355513", "o_label": "Isabel Bader", "start": 1982, "end": null, "relation": "P26", "r_label": "người phối ngẫu"}
+{"s_qid": "Q94355513", "s_label": "Isabel Bader", "o_qid": "Q1413407", "o_label": "Alfred Bader", "start": 1982, "end": null, "relation": "P26", "r_label": "người phối ngẫu"}
+{"s_qid": "Q35332", "s_label": "Brad Pitt", "o_qid": "Q32522", "o_label": "Jennifer Aniston", "start": 2000, "end": 2005, "relation": "P26", "r_label": "người phối ngẫu"}
+{"s_qid": "Q35332", "s_label": "Brad Pitt", "o_qid": "Q13909", "o_label": "Angelina Jolie", "start": 2014, "end": 2019, "relation": "P26", "r_label": "người phối ngẫu"}
+{"s_qid": "Q229867", "s_label": "Elisabetta Farnese", "o_qid": "Q170467", "o_label": "Felipe V của Tây Ban Nha", "start": 1714, "end": null, "relation": "P26", "r_label": "người phối ngẫu"}
+{"s_qid": "Q1124", "s_label": "Bill Clinton", "o_qid": "Q6294", "o_label": "Hillary Clinton", "start": 1975, "end": null, "relation": "P26", "r_label": "người phối ngẫu"}
+{"s_qid": "Q32522", "s_label": "Jennifer Aniston", "o_qid": "Q35332", "o_label": "Brad Pitt", "start": 2000, "end": 2005, "relation": "P26", "r_label": "người phối ngẫu"}
+{"s_qid": "Q13909", "s_label": "Angelina Jolie", "o_qid": "Q35332", "o_label": "Brad Pitt", "start": 2014, "end": 2019, "relation": "P26", "r_label": "người phối ngẫu"}
+{"s_qid": "Q104266", "s_label": "Mel Brooks", "o_qid": "Q183532", "o_label": "Anne Bancroft", "start": 1964, "end": 2005, "relation": "P26", "r_label": "người phối ngẫu"}
+{"s_qid": "Q170467", "s_label": "Felipe V của Tây Ban Nha", "o_qid": "Q229867", "o_label": "Elisabetta Farnese", "start": 1714, "end": null, "relation": "P26", "r_label": "người phối ngẫu"}
+{"s_qid": "Q29646370", "s_label": "Willem Lormier", "o_qid": "Q106959557", "o_label": "Henrica Cunera Lormier-van Olden", "start": 1741, "end": null, "relation": "P26", "r_label": "người phối ngẫu"}
+{"s_qid": "Q123259201", "s_label": "Johanna Elisabethe Louise May", "o_qid": "Q15434398", "o_label": "August de Ridder", "start": 1874, "end": null, "relation": "P26", "r_label": "người phối ngẫu"}

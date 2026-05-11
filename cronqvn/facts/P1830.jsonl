@@ -1,0 +1,7 @@
+{"s_qid": "Q106946955", "s_label": "Adriaan Leonard van Heteren Gevers", "o_qid": "Q105062070", "o_label": "Kabinet van Heteren Gevers", "start": 1800, "end": 1809, "relation": "P1830", "r_label": "sở hữu"}
+{"s_qid": "Q849363", "s_label": "Tập đoàn Vanguard", "o_qid": "Q312", "o_label": "Apple Inc.", "start": 2017, "end": 2017, "relation": "P1830", "r_label": "sở hữu"}
+{"s_qid": "Q973054", "s_label": "Rakuten", "o_qid": "Q1375077", "o_label": "Tohoku Rakuten Golden Eagles", "start": 2004, "end": null, "relation": "P1830", "r_label": "sở hữu"}
+{"s_qid": "Q98561155", "s_label": "Hendricus Adolphus Steengracht van Duivenvoorde", "o_qid": "Q2312054", "o_label": "Duivenvoorde Castle", "start": 1866, "end": 1912, "relation": "P1830", "r_label": "sở hữu"}
+{"s_qid": "Q217583", "s_label": "Berkshire Hathaway", "o_qid": "Q3295867", "o_label": "Công ty Coca-Cola", "start": 2015, "end": 2015, "relation": "P1830", "r_label": "sở hữu"}
+{"s_qid": "Q217583", "s_label": "Berkshire Hathaway", "o_qid": "Q37156", "o_label": "IBM", "start": 2015, "end": 2015, "relation": "P1830", "r_label": "sở hữu"}
+{"s_qid": "Q126399", "s_label": "Warner Bros.", "o_qid": "Q21077", "o_label": "Warner Music Group", "start": 1958, "end": 2004, "relation": "P1830", "r_label": "sở hữu"}

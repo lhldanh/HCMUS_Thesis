@@ -1,0 +1,20 @@
+{"s_qid": "Q62626", "s_label": "Albrecht Brandi", "o_qid": "Q7318", "o_label": "Đức Quốc Xã", "start": 1935, "end": 1945, "relation": "P945", "r_label": "nguyện trung thành"}
+{"s_qid": "Q590227", "s_label": "Edward VIII của Anh", "o_qid": "Q174193", "o_label": "Vương quốc Liên hiệp Anh và Ireland", "start": null, "end": 1927, "relation": "P945", "r_label": "nguyện trung thành"}
+{"s_qid": "Q48051", "s_label": "Viktor Georgyevich Kulikov", "o_qid": "Q15180", "o_label": "Liên Xô", "start": 1922, "end": 1991, "relation": "P945", "r_label": "nguyện trung thành"}
+{"s_qid": "Q48051", "s_label": "Viktor Georgyevich Kulikov", "o_qid": "Q159", "o_label": "Nga", "start": 1991, "end": null, "relation": "P945", "r_label": "nguyện trung thành"}
+{"s_qid": "Q280856", "s_label": "George VI", "o_qid": "Q174193", "o_label": "Vương quốc Liên hiệp Anh và Ireland", "start": null, "end": 1927, "relation": "P945", "r_label": "nguyện trung thành"}
+{"s_qid": "Q69475", "s_label": "Karl-Heinz Moehle", "o_qid": "Q41304", "o_label": "Cộng hòa Weimar", "start": 1930, "end": 1933, "relation": "P945", "r_label": "nguyện trung thành"}
+{"s_qid": "Q69475", "s_label": "Karl-Heinz Moehle", "o_qid": "Q7318", "o_label": "Đức Quốc Xã", "start": 1933, "end": 1945, "relation": "P945", "r_label": "nguyện trung thành"}
+{"s_qid": "Q8016", "s_label": "Winston Churchill", "o_qid": "Q174193", "o_label": "Vương quốc Liên hiệp Anh và Ireland", "start": null, "end": 1927, "relation": "P945", "r_label": "nguyện trung thành"}
+{"s_qid": "Q91146", "s_label": "Karl-Heinz Marbach", "o_qid": "Q7318", "o_label": "Đức Quốc Xã", "start": 1937, "end": 1945, "relation": "P945", "r_label": "nguyện trung thành"}
+{"s_qid": "Q286312", "s_label": "Wolfgang Lüth", "o_qid": "Q7318", "o_label": "Đức Quốc Xã", "start": 1933, "end": 1945, "relation": "P945", "r_label": "nguyện trung thành"}
+{"s_qid": "Q439990", "s_label": "Thanom Kittikachorn", "o_qid": "Q869", "o_label": "Thái Lan", "start": 1932, "end": null, "relation": "P945", "r_label": "nguyện trung thành"}
+{"s_qid": "Q439990", "s_label": "Thanom Kittikachorn", "o_qid": "Q1155700", "o_label": "Vương quốc Rattanakosin", "start": null, "end": 1932, "relation": "P945", "r_label": "nguyện trung thành"}
+{"s_qid": "Q57253", "s_label": "Otto Kretschmer", "o_qid": "Q41304", "o_label": "Cộng hòa Weimar", "start": 1930, "end": 1933, "relation": "P945", "r_label": "nguyện trung thành"}
+{"s_qid": "Q57253", "s_label": "Otto Kretschmer", "o_qid": "Q7318", "o_label": "Đức Quốc Xã", "start": 1933, "end": 1945, "relation": "P945", "r_label": "nguyện trung thành"}
+{"s_qid": "Q57253", "s_label": "Otto Kretschmer", "o_qid": "Q713750", "o_label": "Tây Đức", "start": 1955, "end": 1970, "relation": "P945", "r_label": "nguyện trung thành"}
+{"s_qid": "Q61001", "s_label": "Erich Topp", "o_qid": "Q7318", "o_label": "Đức Quốc Xã", "start": 1934, "end": 1945, "relation": "P945", "r_label": "nguyện trung thành"}
+{"s_qid": "Q61001", "s_label": "Erich Topp", "o_qid": "Q713750", "o_label": "Tây Đức", "start": 1958, "end": 1969, "relation": "P945", "r_label": "nguyện trung thành"}
+{"s_qid": "Q74129", "s_label": "Hans-Rudolf Rösing", "o_qid": "Q41304", "o_label": "Cộng hòa Weimar", "start": 1924, "end": 1933, "relation": "P945", "r_label": "nguyện trung thành"}
+{"s_qid": "Q74129", "s_label": "Hans-Rudolf Rösing", "o_qid": "Q7318", "o_label": "Đức Quốc Xã", "start": 1933, "end": 1945, "relation": "P945", "r_label": "nguyện trung thành"}
+{"s_qid": "Q74129", "s_label": "Hans-Rudolf Rösing", "o_qid": "Q713750", "o_label": "Tây Đức", "start": 1956, "end": 1965, "relation": "P945", "r_label": "nguyện trung thành"}

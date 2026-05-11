@@ -1,0 +1,13 @@
+{"s_qid": "Q725367", "s_label": "Thượng Hải Lục Địa Thân Hoa", "o_qid": "Q170416", "o_label": "Philips", "start": 2001, "end": 2001, "relation": "P859", "r_label": "nhà tài trợ"}
+{"s_qid": "Q180", "s_label": "Quỹ Wikimedia", "o_qid": "Q312", "o_label": "Apple Inc.", "start": 2022, "end": 2022, "relation": "P859", "r_label": "nhà tài trợ"}
+{"s_qid": "Q180", "s_label": "Quỹ Wikimedia", "o_qid": "Q2780100", "o_label": "King Baudouin Foundation", "start": 2022, "end": 2022, "relation": "P859", "r_label": "nhà tài trợ"}
+{"s_qid": "Q180", "s_label": "Quỹ Wikimedia", "o_qid": "Q2283", "o_label": "Microsoft", "start": 2023, "end": 2023, "relation": "P859", "r_label": "nhà tài trợ"}
+{"s_qid": "Q51974", "s_label": "Hamburger SV", "o_qid": "Q152057", "o_label": "BP", "start": 1979, "end": 1987, "relation": "P859", "r_label": "nhà tài trợ"}
+{"s_qid": "Q51974", "s_label": "Hamburger SV", "o_qid": "Q53238", "o_label": "Hitachi", "start": 1976, "end": 1979, "relation": "P859", "r_label": "nhà tài trợ"}
+{"s_qid": "Q15789", "s_label": "FC Bayern München", "o_qid": "Q9396", "o_label": "Deutsche Telekom", "start": 2002, "end": null, "relation": "P859", "r_label": "nhà tài trợ"}
+{"s_qid": "Q7156", "s_label": "F.C. Barcelona", "o_qid": "Q973054", "o_label": "Rakuten", "start": 2017, "end": 2022, "relation": "P859", "r_label": "nhà tài trợ"}
+{"s_qid": "Q7156", "s_label": "F.C. Barcelona", "o_qid": "Q740308", "o_label": "Quỹ Nhi đồng Liên Hợp Quốc", "start": 2006, "end": 2022, "relation": "P859", "r_label": "nhà tài trợ"}
+{"s_qid": "Q485087", "s_label": "C40 Cities Climate Leadership Group", "o_qid": "Q20800404", "o_label": "Alphabet", "start": 2019, "end": null, "relation": "P859", "r_label": "nhà tài trợ"}
+{"s_qid": "Q485087", "s_label": "C40 Cities Climate Leadership Group", "o_qid": "Q818846", "o_label": "Novo Nordisk", "start": 2017, "end": null, "relation": "P859", "r_label": "nhà tài trợ"}
+{"s_qid": "Q485087", "s_label": "C40 Cities Climate Leadership Group", "o_qid": "Q326276", "o_label": "Wellcome Trust", "start": 2020, "end": null, "relation": "P859", "r_label": "nhà tài trợ"}
+{"s_qid": "Q26721058", "s_label": "Bahrain-Merida", "o_qid": "Q398", "o_label": "Bahrain", "start": 2017, "end": null, "relation": "P859", "r_label": "nhà tài trợ"}

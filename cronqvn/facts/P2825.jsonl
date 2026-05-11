@@ -1,0 +1,9 @@
+{"s_qid": "Q1564366", "s_label": "HMS Beagle", "o_qid": "Q3130", "o_label": "Sydney", "start": 1836, "end": 1836, "relation": "P2825", "r_label": "via"}
+{"s_qid": "Q1564366", "s_label": "HMS Beagle", "o_qid": "Q1027", "o_label": "Mauritius", "start": 1836, "end": 1836, "relation": "P2825", "r_label": "via"}
+{"s_qid": "Q1564366", "s_label": "HMS Beagle", "o_qid": "Q5465", "o_label": "Cape Town", "start": 1836, "end": 1836, "relation": "P2825", "r_label": "via"}
+{"s_qid": "Q1564366", "s_label": "HMS Beagle", "o_qid": "Q8678", "o_label": "Rio de Janeiro", "start": 1832, "end": 1832, "relation": "P2825", "r_label": "via"}
+{"s_qid": "Q1564366", "s_label": "HMS Beagle", "o_qid": "Q1486", "o_label": "Buenos Aires", "start": 1833, "end": 1833, "relation": "P2825", "r_label": "via"}
+{"s_qid": "Q131831284", "s_label": "H. M. Willkommii iter hispanicum (1844-1846)", "o_qid": "Q1492", "o_label": "Barcelona", "start": 1844, "end": 1844, "relation": "P2825", "r_label": "via"}
+{"s_qid": "Q131831284", "s_label": "H. M. Willkommii iter hispanicum (1844-1846)", "o_qid": "Q8818", "o_label": "Valencia", "start": 1844, "end": 1844, "relation": "P2825", "r_label": "via"}
+{"s_qid": "Q131831284", "s_label": "H. M. Willkommii iter hispanicum (1844-1846)", "o_qid": "Q2807", "o_label": "Madrid", "start": null, "end": 1844, "relation": "P2825", "r_label": "via"}
+{"s_qid": "Q131831284", "s_label": "H. M. Willkommii iter hispanicum (1844-1846)", "o_qid": "Q8717", "o_label": "Sevilla", "start": 1844, "end": null, "relation": "P2825", "r_label": "via"}

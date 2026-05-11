@@ -1,0 +1,5 @@
+{"s_qid": "Q152316", "s_label": "Hoàng tử Harry xứ Wales", "o_qid": "Q11573099", "o_label": "Hoàng tộc", "start": 1984, "end": null, "relation": "P3716", "r_label": "địa vị xã hội"}
+{"s_qid": "Q43274", "s_label": "Charles III", "o_qid": "Q11573099", "o_label": "Hoàng tộc", "start": 1948, "end": null, "relation": "P3716", "r_label": "địa vị xã hội"}
+{"s_qid": "Q36812", "s_label": "William, Thân vương xứ Wales", "o_qid": "Q11573099", "o_label": "Hoàng tộc", "start": 1982, "end": null, "relation": "P3716", "r_label": "địa vị xã hội"}
+{"s_qid": "Q36450", "s_label": "Ekaterina II của Nga", "o_qid": "Q11573099", "o_label": "Hoàng tộc", "start": 1745, "end": null, "relation": "P3716", "r_label": "địa vị xã hội"}
+{"s_qid": "Q36450", "s_label": "Ekaterina II của Nga", "o_qid": "Q134737", "o_label": "phong tước", "start": 1729, "end": 1745, "relation": "P3716", "r_label": "địa vị xã hội"}

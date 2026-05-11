@@ -1,0 +1,5 @@
+{"s_qid": "Q23010640", "s_label": "cidre de Bretagne", "o_qid": "Q12549", "o_label": "Ille-et-Vilaine", "start": 2000, "end": 2000, "relation": "P1071", "r_label": "vị trí sáng tạo"}
+{"s_qid": "Q23010640", "s_label": "cidre de Bretagne", "o_qid": "Q3349", "o_label": "Côtes-d'Armor", "start": 2000, "end": 2000, "relation": "P1071", "r_label": "vị trí sáng tạo"}
+{"s_qid": "Q1145764", "s_label": "Guiding Light (phim)", "o_qid": "Q1297", "o_label": "Chicago", "start": 1937, "end": 1947, "relation": "P1071", "r_label": "vị trí sáng tạo"}
+{"s_qid": "Q1145764", "s_label": "Guiding Light (phim)", "o_qid": "Q65", "o_label": "Los Angeles", "start": 1947, "end": 1949, "relation": "P1071", "r_label": "vị trí sáng tạo"}
+{"s_qid": "Q1145764", "s_label": "Guiding Light (phim)", "o_qid": "Q60", "o_label": "Thành phố New York", "start": 1949, "end": 2009, "relation": "P1071", "r_label": "vị trí sáng tạo"}

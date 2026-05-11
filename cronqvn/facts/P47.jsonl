@@ -1,0 +1,477 @@
+{"s_qid": "Q155", "s_label": "Brasil", "o_qid": "Q458", "o_label": "Liên minh châu Âu", "start": 1957, "end": null, "relation": "P47", "r_label": "tiếp giáp với"}
+{"s_qid": "Q183", "s_label": "Đức", "o_qid": "Q213", "o_label": "Séc", "start": 1993, "end": null, "relation": "P47", "r_label": "tiếp giáp với"}
+{"s_qid": "Q183", "s_label": "Đức", "o_qid": "Q33946", "o_label": "Tiệp Khắc", "start": 1918, "end": 1992, "relation": "P47", "r_label": "tiếp giáp với"}
+{"s_qid": "Q183", "s_label": "Đức", "o_qid": "Q16957", "o_label": "Cộng hòa Dân chủ Đức", "start": 1949, "end": 1990, "relation": "P47", "r_label": "tiếp giáp với"}
+{"s_qid": "Q801", "s_label": "Israel", "o_qid": "Q170468", "o_label": "Cộng hòa Ả Rập Thống nhất", "start": 1958, "end": 1961, "relation": "P47", "r_label": "tiếp giáp với"}
+{"s_qid": "Q863", "s_label": "Tajikistan", "o_qid": "Q889", "o_label": "Afghanistan", "start": 1885, "end": null, "relation": "P47", "r_label": "tiếp giáp với"}
+{"s_qid": "Q1049", "s_label": "Sudan", "o_qid": "Q114", "o_label": "Kenya", "start": null, "end": 2011, "relation": "P47", "r_label": "tiếp giáp với"}
+{"s_qid": "Q1049", "s_label": "Sudan", "o_qid": "Q1036", "o_label": "Uganda", "start": null, "end": 2011, "relation": "P47", "r_label": "tiếp giáp với"}
+{"s_qid": "Q1049", "s_label": "Sudan", "o_qid": "Q974", "o_label": "Cộng hòa Dân chủ Congo", "start": null, "end": 2011, "relation": "P47", "r_label": "tiếp giáp với"}
+{"s_qid": "Q2003", "s_label": "Newfoundland và Labrador", "o_qid": "Q2007", "o_label": "Các Lãnh thổ Tây Bắc", "start": null, "end": 1999, "relation": "P47", "r_label": "tiếp giáp với"}
+{"s_qid": "Q5710", "s_label": "Bashkortostan", "o_qid": "Q846866", "o_label": "Perm Oblast", "start": 1990, "end": 2005, "relation": "P47", "r_label": "tiếp giáp với"}
+{"s_qid": "Q7318", "s_label": "Đức Quốc Xã", "o_qid": "Q207272", "o_label": "Đệ nhị Cộng hòa Ba Lan", "start": null, "end": 1939, "relation": "P47", "r_label": "tiếp giáp với"}
+{"s_qid": "Q7318", "s_label": "Đức Quốc Xã", "o_qid": "Q15180", "o_label": "Liên Xô", "start": 1939, "end": null, "relation": "P47", "r_label": "tiếp giáp với"}
+{"s_qid": "Q7318", "s_label": "Đức Quốc Xã", "o_qid": "Q37", "o_label": "Litva", "start": null, "end": 1940, "relation": "P47", "r_label": "tiếp giáp với"}
+{"s_qid": "Q7318", "s_label": "Đức Quốc Xã", "o_qid": "Q32", "o_label": "Luxembourg", "start": null, "end": 1942, "relation": "P47", "r_label": "tiếp giáp với"}
+{"s_qid": "Q7318", "s_label": "Đức Quốc Xã", "o_qid": "Q172579", "o_label": "Vương quốc Ý", "start": 1938, "end": null, "relation": "P47", "r_label": "tiếp giáp với"}
+{"s_qid": "Q7318", "s_label": "Đức Quốc Xã", "o_qid": "Q191077", "o_label": "Vương quốc Nam Tư", "start": 1938, "end": 1941, "relation": "P47", "r_label": "tiếp giáp với"}
+{"s_qid": "Q7318", "s_label": "Đức Quốc Xã", "o_qid": "Q600018", "o_label": "Vương quốc Hungary", "start": 1938, "end": null, "relation": "P47", "r_label": "tiếp giáp với"}
+{"s_qid": "Q50615", "s_label": "Akershus", "o_qid": "Q50617", "o_label": "Oppland", "start": null, "end": 2019, "relation": "P47", "r_label": "tiếp giáp với"}
+{"s_qid": "Q50615", "s_label": "Akershus", "o_qid": "Q56404886", "o_label": "Innlandet", "start": 2024, "end": null, "relation": "P47", "r_label": "tiếp giáp với"}
+{"s_qid": "Q110268", "s_label": "Nedre Eiker", "o_qid": "Q499786", "o_label": "Hof", "start": null, "end": 2017, "relation": "P47", "r_label": "tiếp giáp với"}
+{"s_qid": "Q110268", "s_label": "Nedre Eiker", "o_qid": "Q483871", "o_label": "Holmestrand", "start": 2018, "end": null, "relation": "P47", "r_label": "tiếp giáp với"}
+{"s_qid": "Q110431", "s_label": "Steinkjer", "o_qid": "Q502193", "o_label": "Namdalseid", "start": null, "end": 2019, "relation": "P47", "r_label": "tiếp giáp với"}
+{"s_qid": "Q110431", "s_label": "Steinkjer", "o_qid": "Q499779", "o_label": "Verran", "start": null, "end": 2019, "relation": "P47", "r_label": "tiếp giáp với"}
+{"s_qid": "Q110431", "s_label": "Steinkjer", "o_qid": "Q111039", "o_label": "Namsos", "start": 2020, "end": null, "relation": "P47", "r_label": "tiếp giáp với"}
+{"s_qid": "Q110431", "s_label": "Steinkjer", "o_qid": "Q25428806", "o_label": "Indre Fosen", "start": 2020, "end": null, "relation": "P47", "r_label": "tiếp giáp với"}
+{"s_qid": "Q110431", "s_label": "Steinkjer", "o_qid": "Q270835", "o_label": "Åfjord", "start": 2020, "end": null, "relation": "P47", "r_label": "tiếp giáp với"}
+{"s_qid": "Q156453", "s_label": "Ørsta", "o_qid": "Q494049", "o_label": "Hornindal", "start": null, "end": 2019, "relation": "P47", "r_label": "tiếp giáp với"}
+{"s_qid": "Q183029", "s_label": "Sande", "o_qid": "Q499786", "o_label": "Hof", "start": null, "end": 2017, "relation": "P47", "r_label": "tiếp giáp với"}
+{"s_qid": "Q206469", "s_label": "Nøtterøy", "o_qid": "Q5499099", "o_label": "Stokke", "start": null, "end": 2016, "relation": "P47", "r_label": "tiếp giáp với"}
+{"s_qid": "Q206469", "s_label": "Nøtterøy", "o_qid": "Q109005", "o_label": "Sandefjord", "start": 2017, "end": null, "relation": "P47", "r_label": "tiếp giáp với"}
+{"s_qid": "Q490923", "s_label": "Sogndal Municipality", "o_qid": "Q484101", "o_label": "Jølster", "start": null, "end": 2019, "relation": "P47", "r_label": "tiếp giáp với"}
+{"s_qid": "Q490923", "s_label": "Sogndal Municipality", "o_qid": "Q107396", "o_label": "Leikanger Municipality", "start": null, "end": 2019, "relation": "P47", "r_label": "tiếp giáp với"}
+{"s_qid": "Q490923", "s_label": "Sogndal Municipality", "o_qid": "Q493292", "o_label": "Balestrand Municipality", "start": null, "end": 2019, "relation": "P47", "r_label": "tiếp giáp với"}
+{"s_qid": "Q490923", "s_label": "Sogndal Municipality", "o_qid": "Q113571", "o_label": "Førde", "start": null, "end": 2019, "relation": "P47", "r_label": "tiếp giáp với"}
+{"s_qid": "Q490923", "s_label": "Sogndal Municipality", "o_qid": "Q56406057", "o_label": "Sunnfjord Municipality", "start": 2020, "end": null, "relation": "P47", "r_label": "tiếp giáp với"}
+{"s_qid": "Q490923", "s_label": "Sogndal Municipality", "o_qid": "Q113720", "o_label": "Høyanger Municipality", "start": 2020, "end": null, "relation": "P47", "r_label": "tiếp giáp với"}
+{"s_qid": "Q545359", "s_label": "Pfarrkirchen", "o_qid": "Q559913", "o_label": "Dietersburg", "start": 1972, "end": null, "relation": "P47", "r_label": "tiếp giáp với"}
+{"s_qid": "Q545359", "s_label": "Pfarrkirchen", "o_qid": "Q559918", "o_label": "Postmünster", "start": 1971, "end": null, "relation": "P47", "r_label": "tiếp giáp với"}
+{"s_qid": "Q1324436", "s_label": "Trondheim municipality", "o_qid": "Q25428806", "o_label": "Indre Fosen", "start": 2018, "end": null, "relation": "P47", "r_label": "tiếp giáp với"}
+{"s_qid": "Q1324436", "s_label": "Trondheim municipality", "o_qid": "Q484106", "o_label": "Klæbu", "start": null, "end": 2019, "relation": "P47", "r_label": "tiếp giáp với"}
+{"s_qid": "Q1324436", "s_label": "Trondheim municipality", "o_qid": "Q488157", "o_label": "Rissa", "start": null, "end": 2017, "relation": "P47", "r_label": "tiếp giáp với"}
+{"s_qid": "Q1324436", "s_label": "Trondheim municipality", "o_qid": "Q389371", "o_label": "Leksvik", "start": null, "end": 2017, "relation": "P47", "r_label": "tiếp giáp với"}
+{"s_qid": "Q2996962", "s_label": "Ural Oblast", "o_qid": "Q42072", "o_label": "Central Volga Krai", "start": 1928, "end": 1934, "relation": "P47", "r_label": "tiếp giáp với"}
+{"s_qid": "Q21294380", "s_label": "Haut-Valromey", "o_qid": "Q59992286", "o_label": "Valromey-sur-Séran", "start": 2019, "end": null, "relation": "P47", "r_label": "tiếp giáp với"}
+{"s_qid": "Q21294380", "s_label": "Haut-Valromey", "o_qid": "Q57741710", "o_label": "Valserhône", "start": 2019, "end": null, "relation": "P47", "r_label": "tiếp giáp với"}
+{"s_qid": "Q59992286", "s_label": "Valromey-sur-Séran", "o_qid": "Q59729879", "o_label": "Plateau d'Hauteville", "start": 2019, "end": null, "relation": "P47", "r_label": "tiếp giáp với"}
+{"s_qid": "Q59992286", "s_label": "Valromey-sur-Séran", "o_qid": "Q21294380", "o_label": "Haut-Valromey", "start": null, "end": 2024, "relation": "P47", "r_label": "tiếp giáp với"}
+{"s_qid": "Q30", "s_label": "Hoa Kỳ", "o_qid": "Q16", "o_label": "Canada", "start": 1867, "end": null, "relation": "P47", "r_label": "tiếp giáp với"}
+{"s_qid": "Q30", "s_label": "Hoa Kỳ", "o_qid": "Q804", "o_label": "Panama", "start": 1904, "end": 1999, "relation": "P47", "r_label": "tiếp giáp với"}
+{"s_qid": "Q30", "s_label": "Hoa Kỳ", "o_qid": "Q15180", "o_label": "Liên Xô", "start": null, "end": 1991, "relation": "P47", "r_label": "tiếp giáp với"}
+{"s_qid": "Q38", "s_label": "Ý", "o_qid": "Q36704", "o_label": "Nam Tư", "start": 1929, "end": 1992, "relation": "P47", "r_label": "tiếp giáp với"}
+{"s_qid": "Q43", "s_label": "Thổ Nhĩ Kỳ", "o_qid": "Q41", "o_label": "Hy Lạp", "start": 1923, "end": null, "relation": "P47", "r_label": "tiếp giáp với"}
+{"s_qid": "Q43", "s_label": "Thổ Nhĩ Kỳ", "o_qid": "Q219", "o_label": "Bulgaria", "start": 1923, "end": null, "relation": "P47", "r_label": "tiếp giáp với"}
+{"s_qid": "Q43", "s_label": "Thổ Nhĩ Kỳ", "o_qid": "Q796", "o_label": "Iraq", "start": 1932, "end": null, "relation": "P47", "r_label": "tiếp giáp với"}
+{"s_qid": "Q43", "s_label": "Thổ Nhĩ Kỳ", "o_qid": "Q399", "o_label": "Armenia", "start": 1991, "end": null, "relation": "P47", "r_label": "tiếp giáp với"}
+{"s_qid": "Q43", "s_label": "Thổ Nhĩ Kỳ", "o_qid": "Q794", "o_label": "Iran", "start": 1923, "end": null, "relation": "P47", "r_label": "tiếp giáp với"}
+{"s_qid": "Q43", "s_label": "Thổ Nhĩ Kỳ", "o_qid": "Q230", "o_label": "Gruzia", "start": 1991, "end": null, "relation": "P47", "r_label": "tiếp giáp với"}
+{"s_qid": "Q43", "s_label": "Thổ Nhĩ Kỳ", "o_qid": "Q227", "o_label": "Azerbaijan", "start": 1991, "end": null, "relation": "P47", "r_label": "tiếp giáp với"}
+{"s_qid": "Q43", "s_label": "Thổ Nhĩ Kỳ", "o_qid": "Q15180", "o_label": "Liên Xô", "start": 1923, "end": 1991, "relation": "P47", "r_label": "tiếp giáp với"}
+{"s_qid": "Q43", "s_label": "Thổ Nhĩ Kỳ", "o_qid": "Q458", "o_label": "Liên minh châu Âu", "start": 1981, "end": null, "relation": "P47", "r_label": "tiếp giáp với"}
+{"s_qid": "Q213", "s_label": "Séc", "o_qid": "Q458", "o_label": "Liên minh châu Âu", "start": null, "end": 2004, "relation": "P47", "r_label": "tiếp giáp với"}
+{"s_qid": "Q1384", "s_label": "New York", "o_qid": "Q1904", "o_label": "Ontario", "start": 1867, "end": null, "relation": "P47", "r_label": "tiếp giáp với"}
+{"s_qid": "Q1384", "s_label": "New York", "o_qid": "Q176", "o_label": "Québec", "start": 1867, "end": null, "relation": "P47", "r_label": "tiếp giáp với"}
+{"s_qid": "Q2007", "s_label": "Các Lãnh thổ Tây Bắc", "o_qid": "Q1973", "o_label": "British Columbia", "start": 1871, "end": null, "relation": "P47", "r_label": "tiếp giáp với"}
+{"s_qid": "Q2007", "s_label": "Các Lãnh thổ Tây Bắc", "o_qid": "Q1951", "o_label": "Alberta", "start": 1905, "end": null, "relation": "P47", "r_label": "tiếp giáp với"}
+{"s_qid": "Q2007", "s_label": "Các Lãnh thổ Tây Bắc", "o_qid": "Q1989", "o_label": "Saskatchewan", "start": 1905, "end": null, "relation": "P47", "r_label": "tiếp giáp với"}
+{"s_qid": "Q2007", "s_label": "Các Lãnh thổ Tây Bắc", "o_qid": "Q1948", "o_label": "Manitoba", "start": null, "end": 1999, "relation": "P47", "r_label": "tiếp giáp với"}
+{"s_qid": "Q2007", "s_label": "Các Lãnh thổ Tây Bắc", "o_qid": "Q1904", "o_label": "Ontario", "start": null, "end": 1927, "relation": "P47", "r_label": "tiếp giáp với"}
+{"s_qid": "Q2007", "s_label": "Các Lãnh thổ Tây Bắc", "o_qid": "Q176", "o_label": "Québec", "start": null, "end": 1912, "relation": "P47", "r_label": "tiếp giáp với"}
+{"s_qid": "Q2007", "s_label": "Các Lãnh thổ Tây Bắc", "o_qid": "Q2003", "o_label": "Newfoundland và Labrador", "start": 1949, "end": 1999, "relation": "P47", "r_label": "tiếp giáp với"}
+{"s_qid": "Q2007", "s_label": "Các Lãnh thổ Tây Bắc", "o_qid": "Q1212", "o_label": "Montana", "start": 1889, "end": 1905, "relation": "P47", "r_label": "tiếp giáp với"}
+{"s_qid": "Q2007", "s_label": "Các Lãnh thổ Tây Bắc", "o_qid": "Q1207", "o_label": "Bắc Dakota", "start": 1889, "end": 1905, "relation": "P47", "r_label": "tiếp giáp với"}
+{"s_qid": "Q2007", "s_label": "Các Lãnh thổ Tây Bắc", "o_qid": "Q1527", "o_label": "Minnesota", "start": null, "end": 1876, "relation": "P47", "r_label": "tiếp giáp với"}
+{"s_qid": "Q34266", "s_label": "Đế quốc Nga", "o_qid": "Q43287", "o_label": "Đế quốc Đức", "start": 1871, "end": null, "relation": "P47", "r_label": "tiếp giáp với"}
+{"s_qid": "Q34266", "s_label": "Đế quốc Nga", "o_qid": "Q30", "o_label": "Hoa Kỳ", "start": 1784, "end": null, "relation": "P47", "r_label": "tiếp giáp với"}
+{"s_qid": "Q34266", "s_label": "Đế quốc Nga", "o_qid": "Q8733", "o_label": "nhà Thanh", "start": null, "end": 1912, "relation": "P47", "r_label": "tiếp giáp với"}
+{"s_qid": "Q34266", "s_label": "Đế quốc Nga", "o_qid": "Q28513", "o_label": "Đế quốc Áo-Hung", "start": 1867, "end": null, "relation": "P47", "r_label": "tiếp giáp với"}
+{"s_qid": "Q34266", "s_label": "Đế quốc Nga", "o_qid": "Q131964", "o_label": "Đế quốc Áo", "start": null, "end": 1867, "relation": "P47", "r_label": "tiếp giáp với"}
+{"s_qid": "Q34266", "s_label": "Đế quốc Nga", "o_qid": "Q172107", "o_label": "Liên bang Ba Lan–Litva", "start": null, "end": 1795, "relation": "P47", "r_label": "tiếp giáp với"}
+{"s_qid": "Q50617", "s_label": "Oppland", "o_qid": "Q50618", "o_label": "Buskerud", "start": null, "end": 2019, "relation": "P47", "r_label": "tiếp giáp với"}
+{"s_qid": "Q50617", "s_label": "Oppland", "o_qid": "Q50615", "o_label": "Akershus", "start": null, "end": 2019, "relation": "P47", "r_label": "tiếp giáp với"}
+{"s_qid": "Q50617", "s_label": "Oppland", "o_qid": "Q127676", "o_label": "Trøndelag", "start": 2018, "end": null, "relation": "P47", "r_label": "tiếp giáp với"}
+{"s_qid": "Q62266", "s_label": "Ålesund", "o_qid": "Q48265", "o_label": "Skodje", "start": null, "end": 2019, "relation": "P47", "r_label": "tiếp giáp với"}
+{"s_qid": "Q62266", "s_label": "Ålesund", "o_qid": "Q499575", "o_label": "Haram", "start": null, "end": 2019, "relation": "P47", "r_label": "tiếp giáp với"}
+{"s_qid": "Q62266", "s_label": "Ålesund", "o_qid": "Q65230514", "o_label": "Fjord Municipality", "start": 2020, "end": null, "relation": "P47", "r_label": "tiếp giáp với"}
+{"s_qid": "Q62266", "s_label": "Ålesund", "o_qid": "Q488060", "o_label": "Vestnes", "start": 2020, "end": null, "relation": "P47", "r_label": "tiếp giáp với"}
+{"s_qid": "Q62266", "s_label": "Ålesund", "o_qid": "Q104095", "o_label": "Molde", "start": 2020, "end": null, "relation": "P47", "r_label": "tiếp giáp với"}
+{"s_qid": "Q109031", "s_label": "Voss", "o_qid": "Q484186", "o_label": "Granvin", "start": null, "end": 2019, "relation": "P47", "r_label": "tiếp giáp với"}
+{"s_qid": "Q109031", "s_label": "Voss", "o_qid": "Q80678654", "o_label": "Ullensvang Municipality", "start": 2020, "end": null, "relation": "P47", "r_label": "tiếp giáp với"}
+{"s_qid": "Q484070", "s_label": "Kvinnherad", "o_qid": "Q493279", "o_label": "Fusa", "start": null, "end": 2019, "relation": "P47", "r_label": "tiếp giáp với"}
+{"s_qid": "Q484070", "s_label": "Kvinnherad", "o_qid": "Q113638", "o_label": "Jondal", "start": null, "end": 2019, "relation": "P47", "r_label": "tiếp giáp với"}
+{"s_qid": "Q484070", "s_label": "Kvinnherad", "o_qid": "Q484077", "o_label": "Ullensvang", "start": null, "end": 2019, "relation": "P47", "r_label": "tiếp giáp với"}
+{"s_qid": "Q484070", "s_label": "Kvinnherad", "o_qid": "Q109494", "o_label": "Odda", "start": null, "end": 2019, "relation": "P47", "r_label": "tiếp giáp với"}
+{"s_qid": "Q484070", "s_label": "Kvinnherad", "o_qid": "Q60742846", "o_label": "Bjørnafjorden Municipality", "start": 2020, "end": null, "relation": "P47", "r_label": "tiếp giáp với"}
+{"s_qid": "Q484070", "s_label": "Kvinnherad", "o_qid": "Q80678654", "o_label": "Ullensvang Municipality", "start": 2020, "end": null, "relation": "P47", "r_label": "tiếp giáp với"}
+{"s_qid": "Q559913", "s_label": "Dietersburg", "o_qid": "Q266721", "o_label": "Schönau", "start": 1972, "end": null, "relation": "P47", "r_label": "tiếp giáp với"}
+{"s_qid": "Q559913", "s_label": "Dietersburg", "o_qid": "Q559918", "o_label": "Postmünster", "start": 1971, "end": null, "relation": "P47", "r_label": "tiếp giáp với"}
+{"s_qid": "Q559913", "s_label": "Dietersburg", "o_qid": "Q545359", "o_label": "Pfarrkirchen", "start": 1972, "end": null, "relation": "P47", "r_label": "tiếp giáp với"}
+{"s_qid": "Q985461", "s_label": "Liminka", "o_qid": "Q47048", "o_label": "Oulu", "start": 2013, "end": null, "relation": "P47", "r_label": "tiếp giáp với"}
+{"s_qid": "Q212", "s_label": "Ukraina", "o_qid": "Q33946", "o_label": "Tiệp Khắc", "start": null, "end": 1993, "relation": "P47", "r_label": "tiếp giáp với"}
+{"s_qid": "Q724", "s_label": "Maine", "o_qid": "Q176", "o_label": "Québec", "start": 1867, "end": null, "relation": "P47", "r_label": "tiếp giáp với"}
+{"s_qid": "Q889", "s_label": "Afghanistan", "o_qid": "Q15180", "o_label": "Liên Xô", "start": null, "end": 1991, "relation": "P47", "r_label": "tiếp giáp với"}
+{"s_qid": "Q5714", "s_label": "Chelyabinsk", "o_qid": "Q42072", "o_label": "Central Volga Krai", "start": 1934, "end": 1934, "relation": "P47", "r_label": "tiếp giáp với"}
+{"s_qid": "Q5992", "s_label": "Kauhajoki", "o_qid": "Q990569", "o_label": "Kankaanpää", "start": 2021, "end": null, "relation": "P47", "r_label": "tiếp giáp với"}
+{"s_qid": "Q23079", "s_label": "Northumberland", "o_qid": "Q211113", "o_label": "Scottish Borders", "start": 2009, "end": null, "relation": "P47", "r_label": "tiếp giáp với"}
+{"s_qid": "Q25416", "s_label": "Stavanger", "o_qid": "Q494045", "o_label": "Rennesøy Municipality", "start": null, "end": 2019, "relation": "P47", "r_label": "tiếp giáp với"}
+{"s_qid": "Q25416", "s_label": "Stavanger", "o_qid": "Q48591", "o_label": "Strand Municipality", "start": 2020, "end": null, "relation": "P47", "r_label": "tiếp giáp với"}
+{"s_qid": "Q42072", "s_label": "Central Volga Krai", "o_qid": "Q1140829", "o_label": "Tatar Autonomous Soviet Socialist Republic", "start": 1928, "end": 1936, "relation": "P47", "r_label": "tiếp giáp với"}
+{"s_qid": "Q42072", "s_label": "Central Volga Krai", "o_qid": "Q809806", "o_label": "Bashkir Autonomous Soviet Socialist Republic", "start": 1928, "end": 1934, "relation": "P47", "r_label": "tiếp giáp với"}
+{"s_qid": "Q42072", "s_label": "Central Volga Krai", "o_qid": "Q2996962", "o_label": "Ural Oblast", "start": 1928, "end": 1934, "relation": "P47", "r_label": "tiếp giáp với"}
+{"s_qid": "Q42072", "s_label": "Central Volga Krai", "o_qid": "Q2332797", "o_label": "Cộng hòa Xã hội chủ nghĩa Xô viết tự trị Kazakhstan", "start": 1928, "end": 1936, "relation": "P47", "r_label": "tiếp giáp với"}
+{"s_qid": "Q42072", "s_label": "Central Volga Krai", "o_qid": "Q4318699", "o_label": "Lower Volga Krai", "start": 1928, "end": 1934, "relation": "P47", "r_label": "tiếp giáp với"}
+{"s_qid": "Q42072", "s_label": "Central Volga Krai", "o_qid": "Q14324673", "o_label": "Central Black Earth Oblast", "start": 1928, "end": 1934, "relation": "P47", "r_label": "tiếp giáp với"}
+{"s_qid": "Q42072", "s_label": "Central Volga Krai", "o_qid": "Q1697", "o_label": "Moskva", "start": 1929, "end": 1936, "relation": "P47", "r_label": "tiếp giáp với"}
+{"s_qid": "Q42072", "s_label": "Central Volga Krai", "o_qid": "Q5714", "o_label": "Chelyabinsk", "start": 1934, "end": 1934, "relation": "P47", "r_label": "tiếp giáp với"}
+{"s_qid": "Q42072", "s_label": "Central Volga Krai", "o_qid": "Q3447", "o_label": "Voronezh", "start": 1934, "end": 1936, "relation": "P47", "r_label": "tiếp giáp với"}
+{"s_qid": "Q46130", "s_label": "Rhône", "o_qid": "Q16665897", "o_label": "Metropolis of Lyon", "start": 2015, "end": null, "relation": "P47", "r_label": "tiếp giáp với"}
+{"s_qid": "Q48801", "s_label": "Tjeldsund", "o_qid": "Q490038", "o_label": "Skånland", "start": null, "end": 2019, "relation": "P47", "r_label": "tiếp giáp với"}
+{"s_qid": "Q48801", "s_label": "Tjeldsund", "o_qid": "Q113514", "o_label": "Ballangen", "start": null, "end": 2019, "relation": "P47", "r_label": "tiếp giáp với"}
+{"s_qid": "Q48801", "s_label": "Tjeldsund", "o_qid": "Q1215658", "o_label": "Narvik Municipality", "start": 2020, "end": null, "relation": "P47", "r_label": "tiếp giáp với"}
+{"s_qid": "Q81931", "s_label": "Liên minh miền Nam Hoa Kỳ", "o_qid": "Q30", "o_label": "Hoa Kỳ", "start": 1861, "end": 1865, "relation": "P47", "r_label": "tiếp giáp với"}
+{"s_qid": "Q109025", "s_label": "Hitra", "o_qid": "Q392093", "o_label": "Agdenes", "start": null, "end": 2019, "relation": "P47", "r_label": "tiếp giáp với"}
+{"s_qid": "Q109025", "s_label": "Hitra", "o_qid": "Q48568", "o_label": "Snillfjord", "start": null, "end": 2019, "relation": "P47", "r_label": "tiếp giáp với"}
+{"s_qid": "Q109025", "s_label": "Hitra", "o_qid": "Q488388", "o_label": "Hemne", "start": null, "end": 2019, "relation": "P47", "r_label": "tiếp giáp với"}
+{"s_qid": "Q109025", "s_label": "Hitra", "o_qid": "Q41030999", "o_label": "Orkland Municipality", "start": 2020, "end": null, "relation": "P47", "r_label": "tiếp giáp với"}
+{"s_qid": "Q109025", "s_label": "Hitra", "o_qid": "Q48475310", "o_label": "Heim Municipality", "start": 2020, "end": null, "relation": "P47", "r_label": "tiếp giáp với"}
+{"s_qid": "Q111039", "s_label": "Namsos", "o_qid": "Q494688", "o_label": "Fosnes", "start": null, "end": 2019, "relation": "P47", "r_label": "tiếp giáp với"}
+{"s_qid": "Q111039", "s_label": "Namsos", "o_qid": "Q502193", "o_label": "Namdalseid", "start": null, "end": 2019, "relation": "P47", "r_label": "tiếp giáp với"}
+{"s_qid": "Q111039", "s_label": "Namsos", "o_qid": "Q52368284", "o_label": "Nærøysund Municipality", "start": 2020, "end": null, "relation": "P47", "r_label": "tiếp giáp với"}
+{"s_qid": "Q111039", "s_label": "Namsos", "o_qid": "Q110431", "o_label": "Steinkjer", "start": 2020, "end": null, "relation": "P47", "r_label": "tiếp giáp với"}
+{"s_qid": "Q111039", "s_label": "Namsos", "o_qid": "Q270835", "o_label": "Åfjord", "start": 2020, "end": null, "relation": "P47", "r_label": "tiếp giáp với"}
+{"s_qid": "Q188712", "s_label": "Đế quốc Nhật Bản", "o_qid": "Q34266", "o_label": "Đế quốc Nga", "start": null, "end": 1917, "relation": "P47", "r_label": "tiếp giáp với"}
+{"s_qid": "Q188712", "s_label": "Đế quốc Nhật Bản", "o_qid": "Q139319", "o_label": "Cộng hòa Nga", "start": 1917, "end": 1917, "relation": "P47", "r_label": "tiếp giáp với"}
+{"s_qid": "Q188712", "s_label": "Đế quốc Nhật Bản", "o_qid": "Q2184", "o_label": "Cộng hòa Xã hội chủ nghĩa Xô viết Liên bang Nga", "start": 1917, "end": 1918, "relation": "P47", "r_label": "tiếp giáp với"}
+{"s_qid": "Q188712", "s_label": "Đế quốc Nhật Bản", "o_qid": "Q15180", "o_label": "Liên Xô", "start": 1922, "end": null, "relation": "P47", "r_label": "tiếp giáp với"}
+{"s_qid": "Q188712", "s_label": "Đế quốc Nhật Bản", "o_qid": "Q28179", "o_label": "Nhà Triều Tiên", "start": null, "end": 1897, "relation": "P47", "r_label": "tiếp giáp với"}
+{"s_qid": "Q188712", "s_label": "Đế quốc Nhật Bản", "o_qid": "Q28233", "o_label": "Đại Hàn Đế Quốc", "start": 1897, "end": 1910, "relation": "P47", "r_label": "tiếp giáp với"}
+{"s_qid": "Q188712", "s_label": "Đế quốc Nhật Bản", "o_qid": "Q8733", "o_label": "nhà Thanh", "start": null, "end": 1912, "relation": "P47", "r_label": "tiếp giáp với"}
+{"s_qid": "Q188712", "s_label": "Đế quốc Nhật Bản", "o_qid": "Q13426199", "o_label": "Trung Hoa Dân Quốc", "start": 1912, "end": 1915, "relation": "P47", "r_label": "tiếp giáp với"}
+{"s_qid": "Q188712", "s_label": "Đế quốc Nhật Bản", "o_qid": "Q13426199", "o_label": "Trung Hoa Dân Quốc", "start": 1916, "end": 1940, "relation": "P47", "r_label": "tiếp giáp với"}
+{"s_qid": "Q188712", "s_label": "Đế quốc Nhật Bản", "o_qid": "Q696242", "o_label": "Chính quyền Uông Tinh Vệ", "start": 1940, "end": null, "relation": "P47", "r_label": "tiếp giáp với"}
+{"s_qid": "Q487538", "s_label": "Hamarøy", "o_qid": "Q493851", "o_label": "Tysfjord", "start": null, "end": 2019, "relation": "P47", "r_label": "tiếp giáp với"}
+{"s_qid": "Q487538", "s_label": "Hamarøy", "o_qid": "Q1215658", "o_label": "Narvik Municipality", "start": 2020, "end": null, "relation": "P47", "r_label": "tiếp giáp với"}
+{"s_qid": "Q500205", "s_label": "Rauma", "o_qid": "Q484046", "o_label": "Nesset", "start": null, "end": 2019, "relation": "P47", "r_label": "tiếp giáp với"}
+{"s_qid": "Q500205", "s_label": "Rauma", "o_qid": "Q494011", "o_label": "Norddal", "start": null, "end": 2019, "relation": "P47", "r_label": "tiếp giáp với"}
+{"s_qid": "Q500205", "s_label": "Rauma", "o_qid": "Q48560", "o_label": "Stordal", "start": null, "end": 2019, "relation": "P47", "r_label": "tiếp giáp với"}
+{"s_qid": "Q500205", "s_label": "Rauma", "o_qid": "Q65230514", "o_label": "Fjord Municipality", "start": 2020, "end": null, "relation": "P47", "r_label": "tiếp giáp với"}
+{"s_qid": "Q2311189", "s_label": "Leeuwarden", "o_qid": "Q2114866", "o_label": "De Fryske Marren", "start": 2014, "end": null, "relation": "P47", "r_label": "tiếp giáp với"}
+{"s_qid": "Q2332797", "s_label": "Cộng hòa Xã hội chủ nghĩa Xô viết tự trị Kazakhstan", "o_qid": "Q42072", "o_label": "Central Volga Krai", "start": 1928, "end": 1936, "relation": "P47", "r_label": "tiếp giáp với"}
+{"s_qid": "Q25428806", "s_label": "Indre Fosen", "o_qid": "Q499779", "o_label": "Verran", "start": null, "end": 2019, "relation": "P47", "r_label": "tiếp giáp với"}
+{"s_qid": "Q25428806", "s_label": "Indre Fosen", "o_qid": "Q484243", "o_label": "Bjugn", "start": null, "end": 2019, "relation": "P47", "r_label": "tiếp giáp với"}
+{"s_qid": "Q25428806", "s_label": "Indre Fosen", "o_qid": "Q392093", "o_label": "Agdenes", "start": null, "end": 2019, "relation": "P47", "r_label": "tiếp giáp với"}
+{"s_qid": "Q25428806", "s_label": "Indre Fosen", "o_qid": "Q110431", "o_label": "Steinkjer", "start": 2020, "end": null, "relation": "P47", "r_label": "tiếp giáp với"}
+{"s_qid": "Q25428806", "s_label": "Indre Fosen", "o_qid": "Q308245", "o_label": "Ørland", "start": 2020, "end": null, "relation": "P47", "r_label": "tiếp giáp với"}
+{"s_qid": "Q25428806", "s_label": "Indre Fosen", "o_qid": "Q41030999", "o_label": "Orkland Municipality", "start": 2020, "end": null, "relation": "P47", "r_label": "tiếp giáp với"}
+{"s_qid": "Q90", "s_label": "Paris", "o_qid": "Q135265", "o_label": "Issy-les-Moulineaux", "start": 1860, "end": null, "relation": "P47", "r_label": "tiếp giáp với"}
+{"s_qid": "Q90", "s_label": "Paris", "o_qid": "Q160506", "o_label": "Saint-Denis", "start": null, "end": 2024, "relation": "P47", "r_label": "tiếp giáp với"}
+{"s_qid": "Q90", "s_label": "Paris", "o_qid": "Q131575588", "o_label": "Saint-Denis", "start": 2025, "end": null, "relation": "P47", "r_label": "tiếp giáp với"}
+{"s_qid": "Q90", "s_label": "Paris", "o_qid": "Q12543", "o_label": "Hauts-de-Seine", "start": 1968, "end": null, "relation": "P47", "r_label": "tiếp giáp với"}
+{"s_qid": "Q90", "s_label": "Paris", "o_qid": "Q12761", "o_label": "Seine-Saint-Denis", "start": 1968, "end": null, "relation": "P47", "r_label": "tiếp giáp với"}
+{"s_qid": "Q90", "s_label": "Paris", "o_qid": "Q12788", "o_label": "Val-de-Marne", "start": 1968, "end": null, "relation": "P47", "r_label": "tiếp giáp với"}
+{"s_qid": "Q90", "s_label": "Paris", "o_qid": "Q1142326", "o_label": "Seine", "start": null, "end": 1967, "relation": "P47", "r_label": "tiếp giáp với"}
+{"s_qid": "Q211", "s_label": "Latvia", "o_qid": "Q184", "o_label": "Belarus", "start": 1991, "end": null, "relation": "P47", "r_label": "tiếp giáp với"}
+{"s_qid": "Q211", "s_label": "Latvia", "o_qid": "Q159", "o_label": "Nga", "start": 1991, "end": null, "relation": "P47", "r_label": "tiếp giáp với"}
+{"s_qid": "Q211", "s_label": "Latvia", "o_qid": "Q36", "o_label": "Ba Lan", "start": 1918, "end": 1939, "relation": "P47", "r_label": "tiếp giáp với"}
+{"s_qid": "Q211", "s_label": "Latvia", "o_qid": "Q15180", "o_label": "Liên Xô", "start": 1922, "end": 1940, "relation": "P47", "r_label": "tiếp giáp với"}
+{"s_qid": "Q224", "s_label": "Croatia", "o_qid": "Q458", "o_label": "Liên minh châu Âu", "start": 2004, "end": 2013, "relation": "P47", "r_label": "tiếp giáp với"}
+{"s_qid": "Q347", "s_label": "Liechtenstein", "o_qid": "Q40", "o_label": "Áo", "start": 1918, "end": null, "relation": "P47", "r_label": "tiếp giáp với"}
+{"s_qid": "Q347", "s_label": "Liechtenstein", "o_qid": "Q131964", "o_label": "Đế quốc Áo", "start": null, "end": 1867, "relation": "P47", "r_label": "tiếp giáp với"}
+{"s_qid": "Q347", "s_label": "Liechtenstein", "o_qid": "Q28513", "o_label": "Đế quốc Áo-Hung", "start": 1867, "end": 1918, "relation": "P47", "r_label": "tiếp giáp với"}
+{"s_qid": "Q347", "s_label": "Liechtenstein", "o_qid": "Q7318", "o_label": "Đức Quốc Xã", "start": 1933, "end": 1945, "relation": "P47", "r_label": "tiếp giáp với"}
+{"s_qid": "Q347", "s_label": "Liechtenstein", "o_qid": "Q458", "o_label": "Liên minh châu Âu", "start": 1995, "end": null, "relation": "P47", "r_label": "tiếp giáp với"}
+{"s_qid": "Q458", "s_label": "Liên minh châu Âu", "o_qid": "Q159", "o_label": "Nga", "start": 1995, "end": null, "relation": "P47", "r_label": "tiếp giáp với"}
+{"s_qid": "Q458", "s_label": "Liên minh châu Âu", "o_qid": "Q20", "o_label": "Na Uy", "start": 1995, "end": null, "relation": "P47", "r_label": "tiếp giáp với"}
+{"s_qid": "Q458", "s_label": "Liên minh châu Âu", "o_qid": "Q184", "o_label": "Belarus", "start": 2004, "end": null, "relation": "P47", "r_label": "tiếp giáp với"}
+{"s_qid": "Q458", "s_label": "Liên minh châu Âu", "o_qid": "Q39", "o_label": "Thụy Sĩ", "start": 1957, "end": null, "relation": "P47", "r_label": "tiếp giáp với"}
+{"s_qid": "Q458", "s_label": "Liên minh châu Âu", "o_qid": "Q238", "o_label": "San Marino", "start": 1957, "end": null, "relation": "P47", "r_label": "tiếp giáp với"}
+{"s_qid": "Q458", "s_label": "Liên minh châu Âu", "o_qid": "Q212", "o_label": "Ukraina", "start": 2004, "end": null, "relation": "P47", "r_label": "tiếp giáp với"}
+{"s_qid": "Q458", "s_label": "Liên minh châu Âu", "o_qid": "Q217", "o_label": "Moldova", "start": 2007, "end": null, "relation": "P47", "r_label": "tiếp giáp với"}
+{"s_qid": "Q458", "s_label": "Liên minh châu Âu", "o_qid": "Q221", "o_label": "Bắc Macedonia", "start": 1991, "end": null, "relation": "P47", "r_label": "tiếp giáp với"}
+{"s_qid": "Q458", "s_label": "Liên minh châu Âu", "o_qid": "Q222", "o_label": "Albania", "start": 1981, "end": null, "relation": "P47", "r_label": "tiếp giáp với"}
+{"s_qid": "Q458", "s_label": "Liên minh châu Âu", "o_qid": "Q43", "o_label": "Thổ Nhĩ Kỳ", "start": 1981, "end": null, "relation": "P47", "r_label": "tiếp giáp với"}
+{"s_qid": "Q458", "s_label": "Liên minh châu Âu", "o_qid": "Q155", "o_label": "Brasil", "start": 1957, "end": null, "relation": "P47", "r_label": "tiếp giáp với"}
+{"s_qid": "Q458", "s_label": "Liên minh châu Âu", "o_qid": "Q730", "o_label": "Suriname", "start": 1957, "end": null, "relation": "P47", "r_label": "tiếp giáp với"}
+{"s_qid": "Q458", "s_label": "Liên minh châu Âu", "o_qid": "Q235", "o_label": "Monaco", "start": 1957, "end": null, "relation": "P47", "r_label": "tiếp giáp với"}
+{"s_qid": "Q458", "s_label": "Liên minh châu Âu", "o_qid": "Q347", "o_label": "Liechtenstein", "start": 1995, "end": null, "relation": "P47", "r_label": "tiếp giáp với"}
+{"s_qid": "Q458", "s_label": "Liên minh châu Âu", "o_qid": "Q1028", "o_label": "Maroc", "start": 1986, "end": null, "relation": "P47", "r_label": "tiếp giáp với"}
+{"s_qid": "Q458", "s_label": "Liên minh châu Âu", "o_qid": "Q225", "o_label": "Bosna và Hercegovina", "start": 2013, "end": null, "relation": "P47", "r_label": "tiếp giáp với"}
+{"s_qid": "Q458", "s_label": "Liên minh châu Âu", "o_qid": "Q236", "o_label": "Montenegro", "start": 2013, "end": null, "relation": "P47", "r_label": "tiếp giáp với"}
+{"s_qid": "Q458", "s_label": "Liên minh châu Âu", "o_qid": "Q36704", "o_label": "Nam Tư", "start": 1957, "end": 1991, "relation": "P47", "r_label": "tiếp giáp với"}
+{"s_qid": "Q458", "s_label": "Liên minh châu Âu", "o_qid": "Q228", "o_label": "Andorra", "start": 1957, "end": null, "relation": "P47", "r_label": "tiếp giáp với"}
+{"s_qid": "Q458", "s_label": "Liên minh châu Âu", "o_qid": "Q403", "o_label": "Serbia", "start": 2006, "end": null, "relation": "P47", "r_label": "tiếp giáp với"}
+{"s_qid": "Q458", "s_label": "Liên minh châu Âu", "o_qid": "Q37024", "o_label": "Serbia và Montenegro", "start": 2004, "end": 2006, "relation": "P47", "r_label": "tiếp giáp với"}
+{"s_qid": "Q458", "s_label": "Liên minh châu Âu", "o_qid": "Q28", "o_label": "Hungary", "start": 1995, "end": 2004, "relation": "P47", "r_label": "tiếp giáp với"}
+{"s_qid": "Q458", "s_label": "Liên minh châu Âu", "o_qid": "Q215", "o_label": "Slovenia", "start": 1991, "end": 2004, "relation": "P47", "r_label": "tiếp giáp với"}
+{"s_qid": "Q458", "s_label": "Liên minh châu Âu", "o_qid": "Q33946", "o_label": "Tiệp Khắc", "start": 1957, "end": 1992, "relation": "P47", "r_label": "tiếp giáp với"}
+{"s_qid": "Q458", "s_label": "Liên minh châu Âu", "o_qid": "Q213", "o_label": "Séc", "start": 1993, "end": 2004, "relation": "P47", "r_label": "tiếp giáp với"}
+{"s_qid": "Q458", "s_label": "Liên minh châu Âu", "o_qid": "Q16957", "o_label": "Cộng hòa Dân chủ Đức", "start": 1957, "end": 1990, "relation": "P47", "r_label": "tiếp giáp với"}
+{"s_qid": "Q458", "s_label": "Liên minh châu Âu", "o_qid": "Q29", "o_label": "Tây Ban Nha", "start": 1957, "end": 1985, "relation": "P47", "r_label": "tiếp giáp với"}
+{"s_qid": "Q458", "s_label": "Liên minh châu Âu", "o_qid": "Q36", "o_label": "Ba Lan", "start": 1990, "end": 2004, "relation": "P47", "r_label": "tiếp giáp với"}
+{"s_qid": "Q458", "s_label": "Liên minh châu Âu", "o_qid": "Q35", "o_label": "Đan Mạch", "start": 1957, "end": 1972, "relation": "P47", "r_label": "tiếp giáp với"}
+{"s_qid": "Q458", "s_label": "Liên minh châu Âu", "o_qid": "Q218", "o_label": "România", "start": 2004, "end": 2006, "relation": "P47", "r_label": "tiếp giáp với"}
+{"s_qid": "Q458", "s_label": "Liên minh châu Âu", "o_qid": "Q219", "o_label": "Bulgaria", "start": 1981, "end": 2006, "relation": "P47", "r_label": "tiếp giáp với"}
+{"s_qid": "Q458", "s_label": "Liên minh châu Âu", "o_qid": "Q224", "o_label": "Croatia", "start": 2004, "end": 2013, "relation": "P47", "r_label": "tiếp giáp với"}
+{"s_qid": "Q458", "s_label": "Liên minh châu Âu", "o_qid": "Q145", "o_label": "Vương quốc Liên hiệp Anh và Bắc Ireland", "start": 2020, "end": null, "relation": "P47", "r_label": "tiếp giáp với"}
+{"s_qid": "Q1194", "s_label": "Schleswig-Holstein", "o_qid": "Q1196", "o_label": "Mecklenburg-Vorpommern", "start": 1990, "end": null, "relation": "P47", "r_label": "tiếp giáp với"}
+{"s_qid": "Q1904", "s_label": "Ontario", "o_qid": "Q1948", "o_label": "Manitoba", "start": 1881, "end": null, "relation": "P47", "r_label": "tiếp giáp với"}
+{"s_qid": "Q1904", "s_label": "Ontario", "o_qid": "Q176", "o_label": "Québec", "start": 1867, "end": null, "relation": "P47", "r_label": "tiếp giáp với"}
+{"s_qid": "Q1904", "s_label": "Ontario", "o_qid": "Q2007", "o_label": "Các Lãnh thổ Tây Bắc", "start": 1870, "end": 1999, "relation": "P47", "r_label": "tiếp giáp với"}
+{"s_qid": "Q26525", "s_label": "Drammen", "o_qid": "Q48701", "o_label": "Svelvik", "start": null, "end": 2019, "relation": "P47", "r_label": "tiếp giáp với"}
+{"s_qid": "Q26525", "s_label": "Drammen", "o_qid": "Q183029", "o_label": "Sande", "start": null, "end": 2019, "relation": "P47", "r_label": "tiếp giáp với"}
+{"s_qid": "Q26525", "s_label": "Drammen", "o_qid": "Q499786", "o_label": "Hof", "start": null, "end": 2017, "relation": "P47", "r_label": "tiếp giáp với"}
+{"s_qid": "Q26525", "s_label": "Drammen", "o_qid": "Q110268", "o_label": "Nedre Eiker", "start": null, "end": 2019, "relation": "P47", "r_label": "tiếp giáp với"}
+{"s_qid": "Q26525", "s_label": "Drammen", "o_qid": "Q483871", "o_label": "Holmestrand", "start": 2018, "end": null, "relation": "P47", "r_label": "tiếp giáp với"}
+{"s_qid": "Q26525", "s_label": "Drammen", "o_qid": "Q80593157", "o_label": "Asker", "start": 2020, "end": null, "relation": "P47", "r_label": "tiếp giáp với"}
+{"s_qid": "Q33946", "s_label": "Tiệp Khắc", "o_qid": "Q183", "o_label": "Đức", "start": 1918, "end": 1992, "relation": "P47", "r_label": "tiếp giáp với"}
+{"s_qid": "Q33946", "s_label": "Tiệp Khắc", "o_qid": "Q36", "o_label": "Ba Lan", "start": 1918, "end": 1992, "relation": "P47", "r_label": "tiếp giáp với"}
+{"s_qid": "Q33946", "s_label": "Tiệp Khắc", "o_qid": "Q40", "o_label": "Áo", "start": 1919, "end": 1992, "relation": "P47", "r_label": "tiếp giáp với"}
+{"s_qid": "Q33946", "s_label": "Tiệp Khắc", "o_qid": "Q28", "o_label": "Hungary", "start": 1918, "end": 1992, "relation": "P47", "r_label": "tiếp giáp với"}
+{"s_qid": "Q33946", "s_label": "Tiệp Khắc", "o_qid": "Q218", "o_label": "România", "start": 1919, "end": 1938, "relation": "P47", "r_label": "tiếp giáp với"}
+{"s_qid": "Q33946", "s_label": "Tiệp Khắc", "o_qid": "Q15180", "o_label": "Liên Xô", "start": 1945, "end": 1991, "relation": "P47", "r_label": "tiếp giáp với"}
+{"s_qid": "Q33946", "s_label": "Tiệp Khắc", "o_qid": "Q16957", "o_label": "Cộng hòa Dân chủ Đức", "start": 1949, "end": 1990, "relation": "P47", "r_label": "tiếp giáp với"}
+{"s_qid": "Q33946", "s_label": "Tiệp Khắc", "o_qid": "Q212", "o_label": "Ukraina", "start": 1991, "end": 1992, "relation": "P47", "r_label": "tiếp giáp với"}
+{"s_qid": "Q33946", "s_label": "Tiệp Khắc", "o_qid": "Q458", "o_label": "Liên minh châu Âu", "start": 1957, "end": 1992, "relation": "P47", "r_label": "tiếp giáp với"}
+{"s_qid": "Q36704", "s_label": "Nam Tư", "o_qid": "Q38", "o_label": "Ý", "start": 1929, "end": null, "relation": "P47", "r_label": "tiếp giáp với"}
+{"s_qid": "Q48591", "s_label": "Strand Municipality", "o_qid": "Q484309", "o_label": "Forsand", "start": null, "end": 2019, "relation": "P47", "r_label": "tiếp giáp với"}
+{"s_qid": "Q48591", "s_label": "Strand Municipality", "o_qid": "Q48750", "o_label": "Finnøy", "start": null, "end": 2019, "relation": "P47", "r_label": "tiếp giáp với"}
+{"s_qid": "Q48591", "s_label": "Strand Municipality", "o_qid": "Q27587", "o_label": "Sandnes Municipality", "start": 2020, "end": null, "relation": "P47", "r_label": "tiếp giáp với"}
+{"s_qid": "Q48591", "s_label": "Strand Municipality", "o_qid": "Q25416", "o_label": "Stavanger", "start": 2020, "end": null, "relation": "P47", "r_label": "tiếp giáp với"}
+{"s_qid": "Q88808", "s_label": "Evje og Hornnes", "o_qid": "Q378704", "o_label": "Marnardal", "start": null, "end": 2019, "relation": "P47", "r_label": "tiếp giáp với"}
+{"s_qid": "Q88808", "s_label": "Evje og Hornnes", "o_qid": "Q499842", "o_label": "Audnedal Municipality", "start": null, "end": 2019, "relation": "P47", "r_label": "tiếp giáp với"}
+{"s_qid": "Q88808", "s_label": "Evje og Hornnes", "o_qid": "Q80571266", "o_label": "Lindesnes Municipality", "start": 2020, "end": null, "relation": "P47", "r_label": "tiếp giáp với"}
+{"s_qid": "Q88808", "s_label": "Evje og Hornnes", "o_qid": "Q505952", "o_label": "Lyngdal Municipality", "start": 2020, "end": null, "relation": "P47", "r_label": "tiếp giáp với"}
+{"s_qid": "Q107392", "s_label": "Tønsberg", "o_qid": "Q5499099", "o_label": "Stokke", "start": null, "end": 2016, "relation": "P47", "r_label": "tiếp giáp với"}
+{"s_qid": "Q107392", "s_label": "Tønsberg", "o_qid": "Q499570", "o_label": "Re, Na Uy", "start": null, "end": 2019, "relation": "P47", "r_label": "tiếp giáp với"}
+{"s_qid": "Q107392", "s_label": "Tønsberg", "o_qid": "Q206469", "o_label": "Nøtterøy", "start": null, "end": 2017, "relation": "P47", "r_label": "tiếp giáp với"}
+{"s_qid": "Q107392", "s_label": "Tønsberg", "o_qid": "Q42320251", "o_label": "Færder Municipality", "start": 2018, "end": null, "relation": "P47", "r_label": "tiếp giáp với"}
+{"s_qid": "Q107392", "s_label": "Tønsberg", "o_qid": "Q109005", "o_label": "Sandefjord", "start": 2017, "end": null, "relation": "P47", "r_label": "tiếp giáp với"}
+{"s_qid": "Q107392", "s_label": "Tønsberg", "o_qid": "Q483871", "o_label": "Holmestrand", "start": 2020, "end": null, "relation": "P47", "r_label": "tiếp giáp với"}
+{"s_qid": "Q107392", "s_label": "Tønsberg", "o_qid": "Q156125", "o_label": "Larvik", "start": 2020, "end": null, "relation": "P47", "r_label": "tiếp giáp với"}
+{"s_qid": "Q127676", "s_label": "Trøndelag", "o_qid": "Q50617", "o_label": "Oppland", "start": null, "end": 2019, "relation": "P47", "r_label": "tiếp giáp với"}
+{"s_qid": "Q127676", "s_label": "Trøndelag", "o_qid": "Q56404886", "o_label": "Innlandet", "start": 2020, "end": null, "relation": "P47", "r_label": "tiếp giáp với"}
+{"s_qid": "Q135265", "s_label": "Issy-les-Moulineaux", "o_qid": "Q90", "o_label": "Paris", "start": 1860, "end": null, "relation": "P47", "r_label": "tiếp giáp với"}
+{"s_qid": "Q392093", "s_label": "Agdenes", "o_qid": "Q488157", "o_label": "Rissa", "start": null, "end": 2017, "relation": "P47", "r_label": "tiếp giáp với"}
+{"s_qid": "Q392093", "s_label": "Agdenes", "o_qid": "Q25428806", "o_label": "Indre Fosen", "start": 2018, "end": null, "relation": "P47", "r_label": "tiếp giáp với"}
+{"s_qid": "Q483871", "s_label": "Holmestrand", "o_qid": "Q183029", "o_label": "Sande", "start": null, "end": 2019, "relation": "P47", "r_label": "tiếp giáp với"}
+{"s_qid": "Q483871", "s_label": "Holmestrand", "o_qid": "Q499786", "o_label": "Hof", "start": null, "end": 2017, "relation": "P47", "r_label": "tiếp giáp với"}
+{"s_qid": "Q483871", "s_label": "Holmestrand", "o_qid": "Q499570", "o_label": "Re, Na Uy", "start": null, "end": 2019, "relation": "P47", "r_label": "tiếp giáp với"}
+{"s_qid": "Q483871", "s_label": "Holmestrand", "o_qid": "Q26525", "o_label": "Drammen", "start": 2018, "end": null, "relation": "P47", "r_label": "tiếp giáp với"}
+{"s_qid": "Q483871", "s_label": "Holmestrand", "o_qid": "Q110268", "o_label": "Nedre Eiker", "start": 2018, "end": 2019, "relation": "P47", "r_label": "tiếp giáp với"}
+{"s_qid": "Q483871", "s_label": "Holmestrand", "o_qid": "Q156125", "o_label": "Larvik", "start": 2018, "end": null, "relation": "P47", "r_label": "tiếp giáp với"}
+{"s_qid": "Q483871", "s_label": "Holmestrand", "o_qid": "Q107392", "o_label": "Tønsberg", "start": 2020, "end": null, "relation": "P47", "r_label": "tiếp giáp với"}
+{"s_qid": "Q488445", "s_label": "Volda", "o_qid": "Q494049", "o_label": "Hornindal", "start": null, "end": 2019, "relation": "P47", "r_label": "tiếp giáp với"}
+{"s_qid": "Q488445", "s_label": "Volda", "o_qid": "Q500198", "o_label": "Eid", "start": null, "end": 2019, "relation": "P47", "r_label": "tiếp giáp với"}
+{"s_qid": "Q488445", "s_label": "Volda", "o_qid": "Q61015259", "o_label": "Stad Municipality", "start": 2020, "end": null, "relation": "P47", "r_label": "tiếp giáp với"}
+{"s_qid": "Q505952", "s_label": "Lyngdal Municipality", "o_qid": "Q499842", "o_label": "Audnedal Municipality", "start": null, "end": 2019, "relation": "P47", "r_label": "tiếp giáp với"}
+{"s_qid": "Q505952", "s_label": "Lyngdal Municipality", "o_qid": "Q489038", "o_label": "Lindesnes", "start": null, "end": 2019, "relation": "P47", "r_label": "tiếp giáp với"}
+{"s_qid": "Q505952", "s_label": "Lyngdal Municipality", "o_qid": "Q88808", "o_label": "Evje og Hornnes", "start": 2020, "end": null, "relation": "P47", "r_label": "tiếp giáp với"}
+{"s_qid": "Q505952", "s_label": "Lyngdal Municipality", "o_qid": "Q80571266", "o_label": "Lindesnes Municipality", "start": 2020, "end": null, "relation": "P47", "r_label": "tiếp giáp với"}
+{"s_qid": "Q756617", "s_label": "Vương quốc Đan Mạch", "o_qid": "Q458", "o_label": "Liên minh châu Âu", "start": 1957, "end": 1972, "relation": "P47", "r_label": "tiếp giáp với"}
+{"s_qid": "Q756617", "s_label": "Vương quốc Đan Mạch", "o_qid": "Q713750", "o_label": "Tây Đức", "start": 1949, "end": 1990, "relation": "P47", "r_label": "tiếp giáp với"}
+{"s_qid": "Q990569", "s_label": "Kankaanpää", "o_qid": "Q5992", "o_label": "Kauhajoki", "start": 2021, "end": null, "relation": "P47", "r_label": "tiếp giáp với"}
+{"s_qid": "Q1641649", "s_label": "Mäntyharju", "o_qid": "Q993058", "o_label": "Joutsa", "start": 2025, "end": null, "relation": "P47", "r_label": "tiếp giáp với"}
+{"s_qid": "Q56404886", "s_label": "Innlandet", "o_qid": "Q56407178", "o_label": "Viken", "start": 2020, "end": 2023, "relation": "P47", "r_label": "tiếp giáp với"}
+{"s_qid": "Q56404886", "s_label": "Innlandet", "o_qid": "Q50615", "o_label": "Akershus", "start": 2024, "end": null, "relation": "P47", "r_label": "tiếp giáp với"}
+{"s_qid": "Q56407177", "s_label": "Vestland", "o_qid": "Q56407178", "o_label": "Viken", "start": 2020, "end": 2023, "relation": "P47", "r_label": "tiếp giáp với"}
+{"s_qid": "Q56407177", "s_label": "Vestland", "o_qid": "Q56405721", "o_label": "Vestfold og Telemark", "start": 2020, "end": 2023, "relation": "P47", "r_label": "tiếp giáp với"}
+{"s_qid": "Q33", "s_label": "Phần Lan", "o_qid": "Q159", "o_label": "Nga", "start": 1991, "end": null, "relation": "P47", "r_label": "tiếp giáp với"}
+{"s_qid": "Q33", "s_label": "Phần Lan", "o_qid": "Q15180", "o_label": "Liên Xô", "start": null, "end": 1991, "relation": "P47", "r_label": "tiếp giáp với"}
+{"s_qid": "Q217", "s_label": "Moldova", "o_qid": "Q458", "o_label": "Liên minh châu Âu", "start": 2007, "end": null, "relation": "P47", "r_label": "tiếp giáp với"}
+{"s_qid": "Q218", "s_label": "România", "o_qid": "Q458", "o_label": "Liên minh châu Âu", "start": null, "end": 2006, "relation": "P47", "r_label": "tiếp giáp với"}
+{"s_qid": "Q218", "s_label": "România", "o_qid": "Q33946", "o_label": "Tiệp Khắc", "start": null, "end": 1939, "relation": "P47", "r_label": "tiếp giáp với"}
+{"s_qid": "Q218", "s_label": "România", "o_qid": "Q83286", "o_label": "Cộng hòa Liên bang Xã hội chủ nghĩa Nam Tư", "start": null, "end": 1992, "relation": "P47", "r_label": "tiếp giáp với"}
+{"s_qid": "Q218", "s_label": "România", "o_qid": "Q15180", "o_label": "Liên Xô", "start": null, "end": 1991, "relation": "P47", "r_label": "tiếp giáp với"}
+{"s_qid": "Q218", "s_label": "România", "o_qid": "Q36", "o_label": "Ba Lan", "start": null, "end": 1939, "relation": "P47", "r_label": "tiếp giáp với"}
+{"s_qid": "Q218", "s_label": "România", "o_qid": "Q37024", "o_label": "Serbia và Montenegro", "start": null, "end": 2006, "relation": "P47", "r_label": "tiếp giáp với"}
+{"s_qid": "Q403", "s_label": "Serbia", "o_qid": "Q458", "o_label": "Liên minh châu Âu", "start": 2006, "end": null, "relation": "P47", "r_label": "tiếp giáp với"}
+{"s_qid": "Q1341", "s_label": "Tolyatti", "o_qid": "Q4439042", "o_label": "Stavropolskiy County", "start": null, "end": 1924, "relation": "P47", "r_label": "tiếp giáp với"}
+{"s_qid": "Q1397", "s_label": "Ohio", "o_qid": "Q1904", "o_label": "Ontario", "start": 1867, "end": null, "relation": "P47", "r_label": "tiếp giáp với"}
+{"s_qid": "Q1948", "s_label": "Manitoba", "o_qid": "Q1989", "o_label": "Saskatchewan", "start": 1905, "end": null, "relation": "P47", "r_label": "tiếp giáp với"}
+{"s_qid": "Q1948", "s_label": "Manitoba", "o_qid": "Q1904", "o_label": "Ontario", "start": 1881, "end": null, "relation": "P47", "r_label": "tiếp giáp với"}
+{"s_qid": "Q1948", "s_label": "Manitoba", "o_qid": "Q1207", "o_label": "Bắc Dakota", "start": 1889, "end": null, "relation": "P47", "r_label": "tiếp giáp với"}
+{"s_qid": "Q1948", "s_label": "Manitoba", "o_qid": "Q2007", "o_label": "Các Lãnh thổ Tây Bắc", "start": null, "end": 1999, "relation": "P47", "r_label": "tiếp giáp với"}
+{"s_qid": "Q3083", "s_label": "Ain", "o_qid": "Q46130", "o_label": "Rhône", "start": 1793, "end": null, "relation": "P47", "r_label": "tiếp giáp với"}
+{"s_qid": "Q3083", "s_label": "Ain", "o_qid": "Q12751", "o_label": "Haute-Savoie", "start": 1860, "end": null, "relation": "P47", "r_label": "tiếp giáp với"}
+{"s_qid": "Q3083", "s_label": "Ain", "o_qid": "Q12745", "o_label": "Savoie", "start": 1860, "end": null, "relation": "P47", "r_label": "tiếp giáp với"}
+{"s_qid": "Q3083", "s_label": "Ain", "o_qid": "Q16665897", "o_label": "Metropolis of Lyon", "start": 2015, "end": null, "relation": "P47", "r_label": "tiếp giáp với"}
+{"s_qid": "Q3083", "s_label": "Ain", "o_qid": "Q2236821", "o_label": "Rhône-et-Loire", "start": null, "end": 1793, "relation": "P47", "r_label": "tiếp giáp với"}
+{"s_qid": "Q3447", "s_label": "Voronezh", "o_qid": "Q42072", "o_label": "Central Volga Krai", "start": 1934, "end": 1936, "relation": "P47", "r_label": "tiếp giáp với"}
+{"s_qid": "Q3447", "s_label": "Voronezh", "o_qid": "Q1727", "o_label": "Samara", "start": 1936, "end": 1937, "relation": "P47", "r_label": "tiếp giáp với"}
+{"s_qid": "Q5870", "s_label": "Freital", "o_qid": "Q1731", "o_label": "Dresden", "start": 1921, "end": null, "relation": "P47", "r_label": "tiếp giáp với"}
+{"s_qid": "Q12574", "s_label": "Loiret", "o_qid": "Q979470", "o_label": "Seine-et-Oise", "start": null, "end": 1968, "relation": "P47", "r_label": "tiếp giáp với"}
+{"s_qid": "Q16220", "s_label": "Nuoro", "o_qid": "Q16272", "o_label": "Sassari", "start": null, "end": 2025, "relation": "P47", "r_label": "tiếp giáp với"}
+{"s_qid": "Q16220", "s_label": "Nuoro", "o_qid": "Q23498165", "o_label": "Sud Sardegna", "start": null, "end": 2025, "relation": "P47", "r_label": "tiếp giáp với"}
+{"s_qid": "Q109021", "s_label": "Moss Municipality", "o_qid": "Q486696", "o_label": "Rygge", "start": null, "end": 2019, "relation": "P47", "r_label": "tiếp giáp với"}
+{"s_qid": "Q113720", "s_label": "Høyanger Municipality", "o_qid": "Q493273", "o_label": "Gaular Municipality", "start": null, "end": 2019, "relation": "P47", "r_label": "tiếp giáp với"}
+{"s_qid": "Q113720", "s_label": "Høyanger Municipality", "o_qid": "Q493292", "o_label": "Balestrand Municipality", "start": null, "end": 2019, "relation": "P47", "r_label": "tiếp giáp với"}
+{"s_qid": "Q113720", "s_label": "Høyanger Municipality", "o_qid": "Q56406057", "o_label": "Sunnfjord Municipality", "start": 2020, "end": null, "relation": "P47", "r_label": "tiếp giáp với"}
+{"s_qid": "Q113720", "s_label": "Høyanger Municipality", "o_qid": "Q490923", "o_label": "Sogndal Municipality", "start": 2020, "end": null, "relation": "P47", "r_label": "tiếp giáp với"}
+{"s_qid": "Q202112", "s_label": "Oulu", "o_qid": "Q1337549", "o_label": "Vaasa Province", "start": null, "end": 1997, "relation": "P47", "r_label": "tiếp giáp với"}
+{"s_qid": "Q202112", "s_label": "Oulu", "o_qid": "Q1372345", "o_label": "Kuopio Province", "start": 1831, "end": 1997, "relation": "P47", "r_label": "tiếp giáp với"}
+{"s_qid": "Q500290", "s_label": "Lardal", "o_qid": "Q486687", "o_label": "Andebu", "start": null, "end": 2016, "relation": "P47", "r_label": "tiếp giáp với"}
+{"s_qid": "Q500290", "s_label": "Lardal", "o_qid": "Q109005", "o_label": "Sandefjord", "start": 2017, "end": null, "relation": "P47", "r_label": "tiếp giáp với"}
+{"s_qid": "Q57741710", "s_label": "Valserhône", "o_qid": "Q21294380", "o_label": "Haut-Valromey", "start": null, "end": 2024, "relation": "P47", "r_label": "tiếp giáp với"}
+{"s_qid": "Q17", "s_label": "Nhật Bản", "o_qid": "Q15180", "o_label": "Liên Xô", "start": null, "end": 1991, "relation": "P47", "r_label": "tiếp giáp với"}
+{"s_qid": "Q20", "s_label": "Na Uy", "o_qid": "Q458", "o_label": "Liên minh châu Âu", "start": 1995, "end": null, "relation": "P47", "r_label": "tiếp giáp với"}
+{"s_qid": "Q34", "s_label": "Thụy Điển", "o_qid": "Q172107", "o_label": "Liên bang Ba Lan–Litva", "start": null, "end": 1722, "relation": "P47", "r_label": "tiếp giáp với"}
+{"s_qid": "Q35", "s_label": "Đan Mạch", "o_qid": "Q458", "o_label": "Liên minh châu Âu", "start": 1957, "end": 1972, "relation": "P47", "r_label": "tiếp giáp với"}
+{"s_qid": "Q37", "s_label": "Litva", "o_qid": "Q7318", "o_label": "Đức Quốc Xã", "start": 1933, "end": 1945, "relation": "P47", "r_label": "tiếp giáp với"}
+{"s_qid": "Q41", "s_label": "Hy Lạp", "o_qid": "Q36704", "o_label": "Nam Tư", "start": null, "end": 1992, "relation": "P47", "r_label": "tiếp giáp với"}
+{"s_qid": "Q176", "s_label": "Québec", "o_qid": "Q2007", "o_label": "Các Lãnh thổ Tây Bắc", "start": 1912, "end": 1999, "relation": "P47", "r_label": "tiếp giáp với"}
+{"s_qid": "Q191", "s_label": "Estonia", "o_qid": "Q211", "o_label": "Latvia", "start": 1991, "end": null, "relation": "P47", "r_label": "tiếp giáp với"}
+{"s_qid": "Q191", "s_label": "Estonia", "o_qid": "Q159", "o_label": "Nga", "start": 1991, "end": null, "relation": "P47", "r_label": "tiếp giáp với"}
+{"s_qid": "Q191", "s_label": "Estonia", "o_qid": "Q15180", "o_label": "Liên Xô", "start": 1918, "end": 1940, "relation": "P47", "r_label": "tiếp giáp với"}
+{"s_qid": "Q191", "s_label": "Estonia", "o_qid": "Q2305208", "o_label": "Nga Xô viết", "start": 1920, "end": null, "relation": "P47", "r_label": "tiếp giáp với"}
+{"s_qid": "Q215", "s_label": "Slovenia", "o_qid": "Q458", "o_label": "Liên minh châu Âu", "start": 1991, "end": 2004, "relation": "P47", "r_label": "tiếp giáp với"}
+{"s_qid": "Q1207", "s_label": "Bắc Dakota", "o_qid": "Q1989", "o_label": "Saskatchewan", "start": 1905, "end": null, "relation": "P47", "r_label": "tiếp giáp với"}
+{"s_qid": "Q1207", "s_label": "Bắc Dakota", "o_qid": "Q2007", "o_label": "Các Lãnh thổ Tây Bắc", "start": null, "end": 1905, "relation": "P47", "r_label": "tiếp giáp với"}
+{"s_qid": "Q1212", "s_label": "Montana", "o_qid": "Q1951", "o_label": "Alberta", "start": 1905, "end": null, "relation": "P47", "r_label": "tiếp giáp với"}
+{"s_qid": "Q1212", "s_label": "Montana", "o_qid": "Q1989", "o_label": "Saskatchewan", "start": 1905, "end": null, "relation": "P47", "r_label": "tiếp giáp với"}
+{"s_qid": "Q1212", "s_label": "Montana", "o_qid": "Q2007", "o_label": "Các Lãnh thổ Tây Bắc", "start": null, "end": 1905, "relation": "P47", "r_label": "tiếp giáp với"}
+{"s_qid": "Q1527", "s_label": "Minnesota", "o_qid": "Q1948", "o_label": "Manitoba", "start": 1870, "end": null, "relation": "P47", "r_label": "tiếp giáp với"}
+{"s_qid": "Q1527", "s_label": "Minnesota", "o_qid": "Q1904", "o_label": "Ontario", "start": 1867, "end": null, "relation": "P47", "r_label": "tiếp giáp với"}
+{"s_qid": "Q1527", "s_label": "Minnesota", "o_qid": "Q2007", "o_label": "Các Lãnh thổ Tây Bắc", "start": 1870, "end": 1876, "relation": "P47", "r_label": "tiếp giáp với"}
+{"s_qid": "Q1697", "s_label": "Moskva", "o_qid": "Q42072", "o_label": "Central Volga Krai", "start": 1929, "end": 1936, "relation": "P47", "r_label": "tiếp giáp với"}
+{"s_qid": "Q2326", "s_label": "Notodden", "o_qid": "Q2381", "o_label": "Sauherad", "start": null, "end": 2019, "relation": "P47", "r_label": "tiếp giáp với"}
+{"s_qid": "Q2326", "s_label": "Notodden", "o_qid": "Q499450", "o_label": "Bø", "start": null, "end": 2019, "relation": "P47", "r_label": "tiếp giáp với"}
+{"s_qid": "Q2326", "s_label": "Notodden", "o_qid": "Q56405258", "o_label": "Midt-Telemark", "start": 2020, "end": null, "relation": "P47", "r_label": "tiếp giáp với"}
+{"s_qid": "Q15180", "s_label": "Liên Xô", "o_qid": "Q211274", "o_label": "Cộng hòa Nhân dân Ba Lan", "start": 1944, "end": 1989, "relation": "P47", "r_label": "tiếp giáp với"}
+{"s_qid": "Q15180", "s_label": "Liên Xô", "o_qid": "Q7318", "o_label": "Đức Quốc Xã", "start": 1939, "end": 1941, "relation": "P47", "r_label": "tiếp giáp với"}
+{"s_qid": "Q27587", "s_label": "Sandnes Municipality", "o_qid": "Q484309", "o_label": "Forsand", "start": null, "end": 2019, "relation": "P47", "r_label": "tiếp giáp với"}
+{"s_qid": "Q27587", "s_label": "Sandnes Municipality", "o_qid": "Q48591", "o_label": "Strand Municipality", "start": 2020, "end": null, "relation": "P47", "r_label": "tiếp giáp với"}
+{"s_qid": "Q47048", "s_label": "Oulu", "o_qid": "Q985461", "o_label": "Liminka", "start": 2013, "end": null, "relation": "P47", "r_label": "tiếp giáp với"}
+{"s_qid": "Q47048", "s_label": "Oulu", "o_qid": "Q912952", "o_label": "Pudasjärvi", "start": 2009, "end": null, "relation": "P47", "r_label": "tiếp giáp với"}
+{"s_qid": "Q47048", "s_label": "Oulu", "o_qid": "Q853584", "o_label": "Ii", "start": 2013, "end": null, "relation": "P47", "r_label": "tiếp giáp với"}
+{"s_qid": "Q47048", "s_label": "Oulu", "o_qid": "Q985443", "o_label": "Haukipudas", "start": null, "end": 2012, "relation": "P47", "r_label": "tiếp giáp với"}
+{"s_qid": "Q47048", "s_label": "Oulu", "o_qid": "Q1001613", "o_label": "Ylikiiminki", "start": null, "end": 2008, "relation": "P47", "r_label": "tiếp giáp với"}
+{"s_qid": "Q484243", "s_label": "Bjugn", "o_qid": "Q488157", "o_label": "Rissa", "start": null, "end": 2017, "relation": "P47", "r_label": "tiếp giáp với"}
+{"s_qid": "Q484243", "s_label": "Bjugn", "o_qid": "Q25428806", "o_label": "Indre Fosen", "start": 2018, "end": null, "relation": "P47", "r_label": "tiếp giáp với"}
+{"s_qid": "Q499570", "s_label": "Re, Na Uy", "o_qid": "Q499786", "o_label": "Hof", "start": null, "end": 2017, "relation": "P47", "r_label": "tiếp giáp với"}
+{"s_qid": "Q499570", "s_label": "Re, Na Uy", "o_qid": "Q109005", "o_label": "Sandefjord", "start": 2017, "end": null, "relation": "P47", "r_label": "tiếp giáp với"}
+{"s_qid": "Q499570", "s_label": "Re, Na Uy", "o_qid": "Q500290", "o_label": "Lardal", "start": null, "end": 2017, "relation": "P47", "r_label": "tiếp giáp với"}
+{"s_qid": "Q499570", "s_label": "Re, Na Uy", "o_qid": "Q156125", "o_label": "Larvik", "start": 2018, "end": null, "relation": "P47", "r_label": "tiếp giáp với"}
+{"s_qid": "Q499570", "s_label": "Re, Na Uy", "o_qid": "Q486687", "o_label": "Andebu", "start": null, "end": 2016, "relation": "P47", "r_label": "tiếp giáp với"}
+{"s_qid": "Q499570", "s_label": "Re, Na Uy", "o_qid": "Q5499099", "o_label": "Stokke", "start": null, "end": 2016, "relation": "P47", "r_label": "tiếp giáp với"}
+{"s_qid": "Q993058", "s_label": "Joutsa", "o_qid": "Q1641649", "o_label": "Mäntyharju", "start": 2025, "end": null, "relation": "P47", "r_label": "tiếp giáp với"}
+{"s_qid": "Q1215658", "s_label": "Narvik Municipality", "o_qid": "Q113514", "o_label": "Ballangen", "start": null, "end": 2019, "relation": "P47", "r_label": "tiếp giáp với"}
+{"s_qid": "Q1215658", "s_label": "Narvik Municipality", "o_qid": "Q490038", "o_label": "Skånland", "start": null, "end": 2019, "relation": "P47", "r_label": "tiếp giáp với"}
+{"s_qid": "Q1215658", "s_label": "Narvik Municipality", "o_qid": "Q487538", "o_label": "Hamarøy", "start": 2020, "end": null, "relation": "P47", "r_label": "tiếp giáp với"}
+{"s_qid": "Q1215658", "s_label": "Narvik Municipality", "o_qid": "Q48801", "o_label": "Tjeldsund", "start": 2020, "end": null, "relation": "P47", "r_label": "tiếp giáp với"}
+{"s_qid": "Q1372937", "s_label": "Uusimaa Province", "o_qid": "Q1144791", "o_label": "Viipuri Province", "start": 1831, "end": 1945, "relation": "P47", "r_label": "tiếp giáp với"}
+{"s_qid": "Q4318699", "s_label": "Lower Volga Krai", "o_qid": "Q42072", "o_label": "Central Volga Krai", "start": 1928, "end": 1934, "relation": "P47", "r_label": "tiếp giáp với"}
+{"s_qid": "Q14324673", "s_label": "Central Black Earth Oblast", "o_qid": "Q42072", "o_label": "Central Volga Krai", "start": 1928, "end": 1934, "relation": "P47", "r_label": "tiếp giáp với"}
+{"s_qid": "Q28", "s_label": "Hungary", "o_qid": "Q33946", "o_label": "Tiệp Khắc", "start": null, "end": 1992, "relation": "P47", "r_label": "tiếp giáp với"}
+{"s_qid": "Q28", "s_label": "Hungary", "o_qid": "Q83286", "o_label": "Cộng hòa Liên bang Xã hội chủ nghĩa Nam Tư", "start": null, "end": 1992, "relation": "P47", "r_label": "tiếp giáp với"}
+{"s_qid": "Q28", "s_label": "Hungary", "o_qid": "Q15180", "o_label": "Liên Xô", "start": null, "end": 1991, "relation": "P47", "r_label": "tiếp giáp với"}
+{"s_qid": "Q28", "s_label": "Hungary", "o_qid": "Q458", "o_label": "Liên minh châu Âu", "start": 1995, "end": 2004, "relation": "P47", "r_label": "tiếp giáp với"}
+{"s_qid": "Q29", "s_label": "Tây Ban Nha", "o_qid": "Q45", "o_label": "Bồ Đào Nha", "start": 1910, "end": null, "relation": "P47", "r_label": "tiếp giáp với"}
+{"s_qid": "Q29", "s_label": "Tây Ban Nha", "o_qid": "Q1025", "o_label": "Mauritanie", "start": 1860, "end": 1976, "relation": "P47", "r_label": "tiếp giáp với"}
+{"s_qid": "Q29", "s_label": "Tây Ban Nha", "o_qid": "Q458", "o_label": "Liên minh châu Âu", "start": 1957, "end": 1985, "relation": "P47", "r_label": "tiếp giáp với"}
+{"s_qid": "Q29", "s_label": "Tây Ban Nha", "o_qid": "Q45670", "o_label": "Vương quốc Bồ Đào Nha", "start": null, "end": 1910, "relation": "P47", "r_label": "tiếp giáp với"}
+{"s_qid": "Q36", "s_label": "Ba Lan", "o_qid": "Q213", "o_label": "Séc", "start": 1993, "end": null, "relation": "P47", "r_label": "tiếp giáp với"}
+{"s_qid": "Q36", "s_label": "Ba Lan", "o_qid": "Q212", "o_label": "Ukraina", "start": 1991, "end": null, "relation": "P47", "r_label": "tiếp giáp với"}
+{"s_qid": "Q36", "s_label": "Ba Lan", "o_qid": "Q214", "o_label": "Slovakia", "start": 1993, "end": null, "relation": "P47", "r_label": "tiếp giáp với"}
+{"s_qid": "Q36", "s_label": "Ba Lan", "o_qid": "Q184", "o_label": "Belarus", "start": 1991, "end": null, "relation": "P47", "r_label": "tiếp giáp với"}
+{"s_qid": "Q36", "s_label": "Ba Lan", "o_qid": "Q37", "o_label": "Litva", "start": 1918, "end": 1939, "relation": "P47", "r_label": "tiếp giáp với"}
+{"s_qid": "Q36", "s_label": "Ba Lan", "o_qid": "Q16957", "o_label": "Cộng hòa Dân chủ Đức", "start": 1949, "end": 1990, "relation": "P47", "r_label": "tiếp giáp với"}
+{"s_qid": "Q36", "s_label": "Ba Lan", "o_qid": "Q33946", "o_label": "Tiệp Khắc", "start": 1918, "end": 1992, "relation": "P47", "r_label": "tiếp giáp với"}
+{"s_qid": "Q36", "s_label": "Ba Lan", "o_qid": "Q15180", "o_label": "Liên Xô", "start": 1918, "end": 1991, "relation": "P47", "r_label": "tiếp giáp với"}
+{"s_qid": "Q36", "s_label": "Ba Lan", "o_qid": "Q218", "o_label": "România", "start": null, "end": 1939, "relation": "P47", "r_label": "tiếp giáp với"}
+{"s_qid": "Q36", "s_label": "Ba Lan", "o_qid": "Q211", "o_label": "Latvia", "start": null, "end": 1939, "relation": "P47", "r_label": "tiếp giáp với"}
+{"s_qid": "Q36", "s_label": "Ba Lan", "o_qid": "Q159", "o_label": "Nga", "start": 1991, "end": null, "relation": "P47", "r_label": "tiếp giáp với"}
+{"s_qid": "Q36", "s_label": "Ba Lan", "o_qid": "Q458", "o_label": "Liên minh châu Âu", "start": 1990, "end": 2004, "relation": "P47", "r_label": "tiếp giáp với"}
+{"s_qid": "Q36", "s_label": "Ba Lan", "o_qid": "Q37", "o_label": "Litva", "start": 1991, "end": null, "relation": "P47", "r_label": "tiếp giáp với"}
+{"s_qid": "Q39", "s_label": "Thụy Sĩ", "o_qid": "Q28513", "o_label": "Đế quốc Áo-Hung", "start": null, "end": 1918, "relation": "P47", "r_label": "tiếp giáp với"}
+{"s_qid": "Q39", "s_label": "Thụy Sĩ", "o_qid": "Q713750", "o_label": "Tây Đức", "start": 1949, "end": 1990, "relation": "P47", "r_label": "tiếp giáp với"}
+{"s_qid": "Q39", "s_label": "Thụy Sĩ", "o_qid": "Q131964", "o_label": "Đế quốc Áo", "start": 1830, "end": 1867, "relation": "P47", "r_label": "tiếp giáp với"}
+{"s_qid": "Q39", "s_label": "Thụy Sĩ", "o_qid": "Q458", "o_label": "Liên minh châu Âu", "start": 1957, "end": null, "relation": "P47", "r_label": "tiếp giáp với"}
+{"s_qid": "Q39", "s_label": "Thụy Sĩ", "o_qid": "Q7318", "o_label": "Đức Quốc Xã", "start": 1933, "end": 1945, "relation": "P47", "r_label": "tiếp giáp với"}
+{"s_qid": "Q142", "s_label": "Pháp", "o_qid": "Q29999", "o_label": "Vương quốc Hà Lan", "start": 2010, "end": null, "relation": "P47", "r_label": "tiếp giáp với"}
+{"s_qid": "Q142", "s_label": "Pháp", "o_qid": "Q29999", "o_label": "Vương quốc Hà Lan", "start": 1954, "end": 2010, "relation": "P47", "r_label": "tiếp giáp với"}
+{"s_qid": "Q142", "s_label": "Pháp", "o_qid": "Q153943", "o_label": "Vương quốc Westphalia", "start": 1807, "end": 1813, "relation": "P47", "r_label": "tiếp giáp với"}
+{"s_qid": "Q142", "s_label": "Pháp", "o_qid": "Q713750", "o_label": "Tây Đức", "start": null, "end": 1990, "relation": "P47", "r_label": "tiếp giáp với"}
+{"s_qid": "Q456", "s_label": "Lyon", "o_qid": "Q123852858", "o_label": "Oullins-Pierre-Bénite", "start": 2024, "end": null, "relation": "P47", "r_label": "tiếp giáp với"}
+{"s_qid": "Q649", "s_label": "Moskva", "o_qid": "Q2842", "o_label": "Kaluga", "start": 2012, "end": null, "relation": "P47", "r_label": "tiếp giáp với"}
+{"s_qid": "Q1166", "s_label": "Michigan", "o_qid": "Q1904", "o_label": "Ontario", "start": 1867, "end": null, "relation": "P47", "r_label": "tiếp giáp với"}
+{"s_qid": "Q1196", "s_label": "Mecklenburg-Vorpommern", "o_qid": "Q1197", "o_label": "Niedersachsen", "start": 1990, "end": null, "relation": "P47", "r_label": "tiếp giáp với"}
+{"s_qid": "Q1196", "s_label": "Mecklenburg-Vorpommern", "o_qid": "Q1194", "o_label": "Schleswig-Holstein", "start": 1990, "end": null, "relation": "P47", "r_label": "tiếp giáp với"}
+{"s_qid": "Q1370", "s_label": "Virginia", "o_qid": "Q1371", "o_label": "Tây Virginia", "start": 1863, "end": null, "relation": "P47", "r_label": "tiếp giáp với"}
+{"s_qid": "Q1370", "s_label": "Virginia", "o_qid": "Q1509", "o_label": "Tennessee", "start": 1796, "end": null, "relation": "P47", "r_label": "tiếp giáp với"}
+{"s_qid": "Q1370", "s_label": "Virginia", "o_qid": "Q1603", "o_label": "Kentucky", "start": 1792, "end": null, "relation": "P47", "r_label": "tiếp giáp với"}
+{"s_qid": "Q1370", "s_label": "Virginia", "o_qid": "Q1397", "o_label": "Ohio", "start": 1803, "end": 1863, "relation": "P47", "r_label": "tiếp giáp với"}
+{"s_qid": "Q2415", "s_label": "Kristiansand", "o_qid": "Q501401", "o_label": "Søgne", "start": null, "end": 2019, "relation": "P47", "r_label": "tiếp giáp với"}
+{"s_qid": "Q2415", "s_label": "Kristiansand", "o_qid": "Q505956", "o_label": "Songdalen Municipality", "start": null, "end": 2019, "relation": "P47", "r_label": "tiếp giáp với"}
+{"s_qid": "Q2415", "s_label": "Kristiansand", "o_qid": "Q80571266", "o_label": "Lindesnes Municipality", "start": 2020, "end": null, "relation": "P47", "r_label": "tiếp giáp với"}
+{"s_qid": "Q12559", "s_label": "Isère", "o_qid": "Q16665897", "o_label": "Metropolis of Lyon", "start": 2015, "end": null, "relation": "P47", "r_label": "tiếp giáp với"}
+{"s_qid": "Q28513", "s_label": "Đế quốc Áo-Hung", "o_qid": "Q1206012", "o_label": "German Reich", "start": 1871, "end": 1918, "relation": "P47", "r_label": "tiếp giáp với"}
+{"s_qid": "Q56915", "s_label": "Aurskog-Høland", "o_qid": "Q113622", "o_label": "Rømskog", "start": null, "end": 2019, "relation": "P47", "r_label": "tiếp giáp với"}
+{"s_qid": "Q56915", "s_label": "Aurskog-Høland", "o_qid": "Q113740", "o_label": "Eidsberg", "start": null, "end": 2019, "relation": "P47", "r_label": "tiếp giáp với"}
+{"s_qid": "Q56915", "s_label": "Aurskog-Høland", "o_qid": "Q48678", "o_label": "Trøgstad", "start": null, "end": 2019, "relation": "P47", "r_label": "tiếp giáp với"}
+{"s_qid": "Q56915", "s_label": "Aurskog-Høland", "o_qid": "Q57082", "o_label": "Fet", "start": null, "end": 2019, "relation": "P47", "r_label": "tiếp giáp với"}
+{"s_qid": "Q56915", "s_label": "Aurskog-Høland", "o_qid": "Q57914", "o_label": "Sørum", "start": null, "end": 2019, "relation": "P47", "r_label": "tiếp giáp với"}
+{"s_qid": "Q56915", "s_label": "Aurskog-Høland", "o_qid": "Q42293305", "o_label": "Indre Østfold Municipality", "start": 2020, "end": null, "relation": "P47", "r_label": "tiếp giáp với"}
+{"s_qid": "Q56915", "s_label": "Aurskog-Høland", "o_qid": "Q60806432", "o_label": "Lillestrøm Municipality", "start": 2020, "end": null, "relation": "P47", "r_label": "tiếp giáp với"}
+{"s_qid": "Q103093", "s_label": "hạt Västra Götaland", "o_qid": "Q50614", "o_label": "Østfold", "start": null, "end": 2019, "relation": "P47", "r_label": "tiếp giáp với"}
+{"s_qid": "Q103093", "s_label": "hạt Västra Götaland", "o_qid": "Q56407178", "o_label": "Viken", "start": 2020, "end": null, "relation": "P47", "r_label": "tiếp giáp với"}
+{"s_qid": "Q107351", "s_label": "Hammerfest", "o_qid": "Q493007", "o_label": "Kvalsund", "start": null, "end": 2019, "relation": "P47", "r_label": "tiếp giáp với"}
+{"s_qid": "Q109005", "s_label": "Sandefjord", "o_qid": "Q206469", "o_label": "Nøtterøy", "start": 2017, "end": 2017, "relation": "P47", "r_label": "tiếp giáp với"}
+{"s_qid": "Q109005", "s_label": "Sandefjord", "o_qid": "Q499570", "o_label": "Re, Na Uy", "start": 2017, "end": 2019, "relation": "P47", "r_label": "tiếp giáp với"}
+{"s_qid": "Q109005", "s_label": "Sandefjord", "o_qid": "Q48687", "o_label": "Tjøme", "start": null, "end": 2017, "relation": "P47", "r_label": "tiếp giáp với"}
+{"s_qid": "Q109005", "s_label": "Sandefjord", "o_qid": "Q107392", "o_label": "Tønsberg", "start": 2017, "end": null, "relation": "P47", "r_label": "tiếp giáp với"}
+{"s_qid": "Q109005", "s_label": "Sandefjord", "o_qid": "Q42320251", "o_label": "Færder Municipality", "start": 2018, "end": null, "relation": "P47", "r_label": "tiếp giáp với"}
+{"s_qid": "Q109005", "s_label": "Sandefjord", "o_qid": "Q500290", "o_label": "Lardal", "start": 2017, "end": 2017, "relation": "P47", "r_label": "tiếp giáp với"}
+{"s_qid": "Q109005", "s_label": "Sandefjord", "o_qid": "Q486687", "o_label": "Andebu", "start": null, "end": 2016, "relation": "P47", "r_label": "tiếp giáp với"}
+{"s_qid": "Q109005", "s_label": "Sandefjord", "o_qid": "Q5499099", "o_label": "Stokke", "start": null, "end": 2016, "relation": "P47", "r_label": "tiếp giáp với"}
+{"s_qid": "Q308245", "s_label": "Ørland", "o_qid": "Q484243", "o_label": "Bjugn", "start": null, "end": 2019, "relation": "P47", "r_label": "tiếp giáp với"}
+{"s_qid": "Q308245", "s_label": "Ørland", "o_qid": "Q392093", "o_label": "Agdenes", "start": null, "end": 2019, "relation": "P47", "r_label": "tiếp giáp với"}
+{"s_qid": "Q308245", "s_label": "Ørland", "o_qid": "Q270835", "o_label": "Åfjord", "start": 2020, "end": null, "relation": "P47", "r_label": "tiếp giáp với"}
+{"s_qid": "Q308245", "s_label": "Ørland", "o_qid": "Q25428806", "o_label": "Indre Fosen", "start": 2020, "end": null, "relation": "P47", "r_label": "tiếp giáp với"}
+{"s_qid": "Q308245", "s_label": "Ørland", "o_qid": "Q41030999", "o_label": "Orkland Municipality", "start": 2020, "end": null, "relation": "P47", "r_label": "tiếp giáp với"}
+{"s_qid": "Q488060", "s_label": "Vestnes", "o_qid": "Q48560", "o_label": "Stordal", "start": null, "end": 2019, "relation": "P47", "r_label": "tiếp giáp với"}
+{"s_qid": "Q488060", "s_label": "Vestnes", "o_qid": "Q308260", "o_label": "Ørskog", "start": null, "end": 2019, "relation": "P47", "r_label": "tiếp giáp với"}
+{"s_qid": "Q488060", "s_label": "Vestnes", "o_qid": "Q48265", "o_label": "Skodje", "start": null, "end": 2019, "relation": "P47", "r_label": "tiếp giáp với"}
+{"s_qid": "Q488060", "s_label": "Vestnes", "o_qid": "Q499575", "o_label": "Haram", "start": null, "end": 2019, "relation": "P47", "r_label": "tiếp giáp với"}
+{"s_qid": "Q488060", "s_label": "Vestnes", "o_qid": "Q488380", "o_label": "Midsund", "start": null, "end": 2019, "relation": "P47", "r_label": "tiếp giáp với"}
+{"s_qid": "Q488060", "s_label": "Vestnes", "o_qid": "Q62266", "o_label": "Ålesund", "start": 2020, "end": null, "relation": "P47", "r_label": "tiếp giáp với"}
+{"s_qid": "Q488060", "s_label": "Vestnes", "o_qid": "Q65230514", "o_label": "Fjord Municipality", "start": 2020, "end": null, "relation": "P47", "r_label": "tiếp giáp với"}
+{"s_qid": "Q499779", "s_label": "Verran", "o_qid": "Q25428806", "o_label": "Indre Fosen", "start": 2018, "end": null, "relation": "P47", "r_label": "tiếp giáp với"}
+{"s_qid": "Q499779", "s_label": "Verran", "o_qid": "Q389371", "o_label": "Leksvik", "start": null, "end": 2017, "relation": "P47", "r_label": "tiếp giáp với"}
+{"s_qid": "Q499779", "s_label": "Verran", "o_qid": "Q488157", "o_label": "Rissa", "start": null, "end": 2017, "relation": "P47", "r_label": "tiếp giáp với"}
+{"s_qid": "Q958291", "s_label": "Thân vương quốc Liên hiệp", "o_qid": "Q12560", "o_label": "Đế quốc Ottoman", "start": null, "end": 1878, "relation": "P47", "r_label": "tiếp giáp với"}
+{"s_qid": "Q1140829", "s_label": "Tatar Autonomous Soviet Socialist Republic", "o_qid": "Q42072", "o_label": "Central Volga Krai", "start": 1928, "end": 1936, "relation": "P47", "r_label": "tiếp giáp với"}
+{"s_qid": "Q1140829", "s_label": "Tatar Autonomous Soviet Socialist Republic", "o_qid": "Q1727", "o_label": "Samara", "start": 1936, "end": null, "relation": "P47", "r_label": "tiếp giáp với"}
+{"s_qid": "Q79", "s_label": "Ai Cập", "o_qid": "Q801", "o_label": "Israel", "start": 1948, "end": null, "relation": "P47", "r_label": "tiếp giáp với"}
+{"s_qid": "Q1973", "s_label": "British Columbia", "o_qid": "Q1951", "o_label": "Alberta", "start": 1905, "end": null, "relation": "P47", "r_label": "tiếp giáp với"}
+{"s_qid": "Q1973", "s_label": "British Columbia", "o_qid": "Q1212", "o_label": "Montana", "start": 1889, "end": null, "relation": "P47", "r_label": "tiếp giáp với"}
+{"s_qid": "Q1973", "s_label": "British Columbia", "o_qid": "Q797", "o_label": "Alaska", "start": 1959, "end": null, "relation": "P47", "r_label": "tiếp giáp với"}
+{"s_qid": "Q1973", "s_label": "British Columbia", "o_qid": "Q1223", "o_label": "Washington", "start": 1889, "end": null, "relation": "P47", "r_label": "tiếp giáp với"}
+{"s_qid": "Q1973", "s_label": "British Columbia", "o_qid": "Q1221", "o_label": "Idaho", "start": 1890, "end": null, "relation": "P47", "r_label": "tiếp giáp với"}
+{"s_qid": "Q32", "s_label": "Luxembourg", "o_qid": "Q7318", "o_label": "Đức Quốc Xã", "start": null, "end": 1942, "relation": "P47", "r_label": "tiếp giáp với"}
+{"s_qid": "Q40", "s_label": "Áo", "o_qid": "Q33946", "o_label": "Tiệp Khắc", "start": null, "end": 1992, "relation": "P47", "r_label": "tiếp giáp với"}
+{"s_qid": "Q40", "s_label": "Áo", "o_qid": "Q83286", "o_label": "Cộng hòa Liên bang Xã hội chủ nghĩa Nam Tư", "start": null, "end": 1992, "relation": "P47", "r_label": "tiếp giáp với"}
+{"s_qid": "Q40", "s_label": "Áo", "o_qid": "Q36704", "o_label": "Nam Tư", "start": null, "end": 1992, "relation": "P47", "r_label": "tiếp giáp với"}
+{"s_qid": "Q40", "s_label": "Áo", "o_qid": "Q713750", "o_label": "Tây Đức", "start": null, "end": 1990, "relation": "P47", "r_label": "tiếp giáp với"}
+{"s_qid": "Q219", "s_label": "Bulgaria", "o_qid": "Q15180", "o_label": "Liên Xô", "start": null, "end": 1991, "relation": "P47", "r_label": "tiếp giáp với"}
+{"s_qid": "Q219", "s_label": "Bulgaria", "o_qid": "Q36704", "o_label": "Nam Tư", "start": null, "end": 2003, "relation": "P47", "r_label": "tiếp giáp với"}
+{"s_qid": "Q219", "s_label": "Bulgaria", "o_qid": "Q458", "o_label": "Liên minh châu Âu", "start": null, "end": 2007, "relation": "P47", "r_label": "tiếp giáp với"}
+{"s_qid": "Q423", "s_label": "Cộng hòa Dân chủ Nhân dân Triều Tiên", "o_qid": "Q15180", "o_label": "Liên Xô", "start": null, "end": 1991, "relation": "P47", "r_label": "tiếp giáp với"}
+{"s_qid": "Q759", "s_label": "New Hampshire", "o_qid": "Q176", "o_label": "Québec", "start": 1867, "end": null, "relation": "P47", "r_label": "tiếp giáp với"}
+{"s_qid": "Q794", "s_label": "Iran", "o_qid": "Q15180", "o_label": "Liên Xô", "start": null, "end": 1991, "relation": "P47", "r_label": "tiếp giáp với"}
+{"s_qid": "Q1028", "s_label": "Maroc", "o_qid": "Q458", "o_label": "Liên minh châu Âu", "start": 1986, "end": null, "relation": "P47", "r_label": "tiếp giáp với"}
+{"s_qid": "Q16225", "s_label": "Oristano", "o_qid": "Q23498165", "o_label": "Sud Sardegna", "start": null, "end": 2025, "relation": "P47", "r_label": "tiếp giáp với"}
+{"s_qid": "Q16225", "s_label": "Oristano", "o_qid": "Q16272", "o_label": "Sassari", "start": null, "end": 2025, "relation": "P47", "r_label": "tiếp giáp với"}
+{"s_qid": "Q104095", "s_label": "Molde", "o_qid": "Q484046", "o_label": "Nesset", "start": null, "end": 2019, "relation": "P47", "r_label": "tiếp giáp với"}
+{"s_qid": "Q104095", "s_label": "Molde", "o_qid": "Q488380", "o_label": "Midsund", "start": null, "end": 2019, "relation": "P47", "r_label": "tiếp giáp với"}
+{"s_qid": "Q104095", "s_label": "Molde", "o_qid": "Q60777023", "o_label": "Hustadvika Municipality", "start": 2020, "end": null, "relation": "P47", "r_label": "tiếp giáp với"}
+{"s_qid": "Q104095", "s_label": "Molde", "o_qid": "Q62266", "o_label": "Ålesund", "start": 2020, "end": null, "relation": "P47", "r_label": "tiếp giáp với"}
+{"s_qid": "Q156125", "s_label": "Larvik", "o_qid": "Q500290", "o_label": "Lardal", "start": null, "end": 2017, "relation": "P47", "r_label": "tiếp giáp với"}
+{"s_qid": "Q156125", "s_label": "Larvik", "o_qid": "Q486687", "o_label": "Andebu", "start": null, "end": 2016, "relation": "P47", "r_label": "tiếp giáp với"}
+{"s_qid": "Q156125", "s_label": "Larvik", "o_qid": "Q483871", "o_label": "Holmestrand", "start": 2018, "end": null, "relation": "P47", "r_label": "tiếp giáp với"}
+{"s_qid": "Q156125", "s_label": "Larvik", "o_qid": "Q499570", "o_label": "Re, Na Uy", "start": 2018, "end": 2019, "relation": "P47", "r_label": "tiếp giáp với"}
+{"s_qid": "Q156125", "s_label": "Larvik", "o_qid": "Q107392", "o_label": "Tønsberg", "start": 2020, "end": null, "relation": "P47", "r_label": "tiếp giáp với"}
+{"s_qid": "Q157137", "s_label": "Kryvyi Rih", "o_qid": "Q103820557", "o_label": "Kryvyi Rih Raion", "start": 2020, "end": null, "relation": "P47", "r_label": "tiếp giáp với"}
+{"s_qid": "Q270835", "s_label": "Åfjord", "o_qid": "Q503600", "o_label": "Roan", "start": null, "end": 2019, "relation": "P47", "r_label": "tiếp giáp với"}
+{"s_qid": "Q270835", "s_label": "Åfjord", "o_qid": "Q484243", "o_label": "Bjugn", "start": null, "end": 2019, "relation": "P47", "r_label": "tiếp giáp với"}
+{"s_qid": "Q270835", "s_label": "Åfjord", "o_qid": "Q25428806", "o_label": "Indre Fosen", "start": 2018, "end": null, "relation": "P47", "r_label": "tiếp giáp với"}
+{"s_qid": "Q270835", "s_label": "Åfjord", "o_qid": "Q499779", "o_label": "Verran", "start": null, "end": 2019, "relation": "P47", "r_label": "tiếp giáp với"}
+{"s_qid": "Q270835", "s_label": "Åfjord", "o_qid": "Q502193", "o_label": "Namdalseid", "start": null, "end": 2019, "relation": "P47", "r_label": "tiếp giáp với"}
+{"s_qid": "Q270835", "s_label": "Åfjord", "o_qid": "Q488157", "o_label": "Rissa", "start": null, "end": 2017, "relation": "P47", "r_label": "tiếp giáp với"}
+{"s_qid": "Q270835", "s_label": "Åfjord", "o_qid": "Q308245", "o_label": "Ørland", "start": 2020, "end": null, "relation": "P47", "r_label": "tiếp giáp với"}
+{"s_qid": "Q270835", "s_label": "Åfjord", "o_qid": "Q110431", "o_label": "Steinkjer", "start": 2020, "end": null, "relation": "P47", "r_label": "tiếp giáp với"}
+{"s_qid": "Q270835", "s_label": "Åfjord", "o_qid": "Q111039", "o_label": "Namsos", "start": 2020, "end": null, "relation": "P47", "r_label": "tiếp giáp với"}
+{"s_qid": "Q559918", "s_label": "Postmünster", "o_qid": "Q266721", "o_label": "Schönau", "start": 1971, "end": null, "relation": "P47", "r_label": "tiếp giáp với"}
+{"s_qid": "Q559918", "s_label": "Postmünster", "o_qid": "Q559913", "o_label": "Dietersburg", "start": 1971, "end": null, "relation": "P47", "r_label": "tiếp giáp với"}
+{"s_qid": "Q559918", "s_label": "Postmünster", "o_qid": "Q545359", "o_label": "Pfarrkirchen", "start": 1971, "end": null, "relation": "P47", "r_label": "tiếp giáp với"}
+{"s_qid": "Q809806", "s_label": "Bashkir Autonomous Soviet Socialist Republic", "o_qid": "Q42072", "o_label": "Central Volga Krai", "start": 1928, "end": 1934, "relation": "P47", "r_label": "tiếp giáp với"}

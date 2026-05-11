@@ -1,0 +1,5 @@
+{"s_qid": "Q2567", "s_label": "Richard von Weizsäcker", "o_qid": "Q362", "o_label": "Chiến tranh thế giới thứ hai", "start": 1939, "end": 1945, "relation": "P607", "r_label": "cuộc xung đột"}
+{"s_qid": "Q61768", "s_label": "Helmut Hasse", "o_qid": "Q361", "o_label": "Chiến tranh thế giới thứ nhất", "start": 1915, "end": 1917, "relation": "P607", "r_label": "cuộc xung đột"}
+{"s_qid": "Q61768", "s_label": "Helmut Hasse", "o_qid": "Q362", "o_label": "Chiến tranh thế giới thứ hai", "start": 1939, "end": 1945, "relation": "P607", "r_label": "cuộc xung đột"}
+{"s_qid": "Q147909", "s_label": "Vương quốc Bulgaria", "o_qid": "Q362", "o_label": "Chiến tranh thế giới thứ hai", "start": null, "end": 1944, "relation": "P607", "r_label": "cuộc xung đột"}
+{"s_qid": "Q147909", "s_label": "Vương quốc Bulgaria", "o_qid": "Q362", "o_label": "Chiến tranh thế giới thứ hai", "start": 1944, "end": null, "relation": "P607", "r_label": "cuộc xung đột"}

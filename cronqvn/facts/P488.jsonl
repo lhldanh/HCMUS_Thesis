@@ -1,0 +1,79 @@
+{"s_qid": "Q7320", "s_label": "Đảng Công nhân Đức Quốc gia Xã hội chủ nghĩa", "o_qid": "Q352", "o_label": "Adolf Hitler", "start": 1921, "end": 1945, "relation": "P488", "r_label": "chủ tịch"}
+{"s_qid": "Q49763", "s_label": "Liên minh Xã hội Kitô giáo Bayern", "o_qid": "Q44620", "o_label": "Franz Josef Strauß", "start": 1961, "end": 1988, "relation": "P488", "r_label": "chủ tịch"}
+{"s_qid": "Q79854", "s_label": "Đảng Cộng sản Liên Xô", "o_qid": "Q855", "o_label": "Iosif Vissarionovich Stalin", "start": 1922, "end": 1953, "relation": "P488", "r_label": "chủ tịch"}
+{"s_qid": "Q79854", "s_label": "Đảng Cộng sản Liên Xô", "o_qid": "Q765165", "o_label": "Leonid Ilyich Brezhnev", "start": 1964, "end": 1982, "relation": "P488", "r_label": "chủ tịch"}
+{"s_qid": "Q79854", "s_label": "Đảng Cộng sản Liên Xô", "o_qid": "Q30487", "o_label": "Mikhail Sergeyevich Gorbachyov", "start": 1985, "end": 1991, "relation": "P488", "r_label": "chủ tịch"}
+{"s_qid": "Q151469", "s_label": "Nước Nga thống nhất", "o_qid": "Q7747", "o_label": "Vladimir Putin", "start": 2008, "end": 2012, "relation": "P488", "r_label": "chủ tịch"}
+{"s_qid": "Q173152", "s_label": "Đảng liên minh vì phong trào nhân dân", "o_qid": "Q329", "o_label": "Nicolas Sarkozy", "start": 2004, "end": 2007, "relation": "P488", "r_label": "chủ tịch"}
+{"s_qid": "Q173152", "s_label": "Đảng liên minh vì phong trào nhân dân", "o_qid": "Q329", "o_label": "Nicolas Sarkozy", "start": 2014, "end": 2015, "relation": "P488", "r_label": "chủ tịch"}
+{"s_qid": "Q470438", "s_label": "Physikalisch-Technische Bundesanstalt", "o_qid": "Q60024", "o_label": "Hermann von Helmholtz", "start": 1887, "end": 1894, "relation": "P488", "r_label": "chủ tịch"}
+{"s_qid": "Q1394262", "s_label": "Đại học Paris Nanterre", "o_qid": "Q711542", "o_label": "René Rémond", "start": 1971, "end": 1976, "relation": "P488", "r_label": "chủ tịch"}
+{"s_qid": "Q4201824", "s_label": "Semenov Institute of Chemical Physics", "o_qid": "Q48990", "o_label": "Nikolay Nikolayevich Semyonov", "start": 1931, "end": 1986, "relation": "P488", "r_label": "chủ tịch"}
+{"s_qid": "Q20012759", "s_label": "Đảng Cộng hoà Pháp", "o_qid": "Q329", "o_label": "Nicolas Sarkozy", "start": 2015, "end": 2016, "relation": "P488", "r_label": "chủ tịch"}
+{"s_qid": "Q28845821", "s_label": "Société de l'histoire de Paris et de l'Île-de-France", "o_qid": "Q1685870", "o_label": "Jean Tulard", "start": 1973, "end": 1977, "relation": "P488", "r_label": "chủ tịch"}
+{"s_qid": "Q1543", "s_label": "A.C. Milan", "o_qid": "Q11860", "o_label": "Silvio Berlusconi", "start": 1986, "end": 2017, "relation": "P488", "r_label": "chủ tịch"}
+{"s_qid": "Q158085", "s_label": "Hiệp hội Max Planck", "o_qid": "Q57065", "o_label": "Otto Hahn", "start": 1948, "end": 1960, "relation": "P488", "r_label": "chủ tịch"}
+{"s_qid": "Q60458654", "s_label": "conseil de préfecture du Gard", "o_qid": "Q63389841", "o_label": "Prefect of Gard", "start": 1800, "end": 1865, "relation": "P488", "r_label": "chủ tịch"}
+{"s_qid": "Q13124", "s_label": "Đảng Dân chủ Tự do", "o_qid": "Q2571", "o_label": "Walter Scheel", "start": 1968, "end": 1974, "relation": "P488", "r_label": "chủ tịch"}
+{"s_qid": "Q13124", "s_label": "Đảng Dân chủ Tự do", "o_qid": "Q106235", "o_label": "Hans-Dietrich Genscher", "start": 1974, "end": 1985, "relation": "P488", "r_label": "chủ tịch"}
+{"s_qid": "Q49762", "s_label": "Liên minh Dân chủ Kitô giáo Đức", "o_qid": "Q2492", "o_label": "Konrad Adenauer", "start": 1950, "end": 1966, "relation": "P488", "r_label": "chủ tịch"}
+{"s_qid": "Q49762", "s_label": "Liên minh Dân chủ Kitô giáo Đức", "o_qid": "Q2518", "o_label": "Helmut Kohl", "start": 1973, "end": 1998, "relation": "P488", "r_label": "chủ tịch"}
+{"s_qid": "Q49762", "s_label": "Liên minh Dân chủ Kitô giáo Đức", "o_qid": "Q16019", "o_label": "Wolfgang Schäuble", "start": 1998, "end": 2000, "relation": "P488", "r_label": "chủ tịch"}
+{"s_qid": "Q49762", "s_label": "Liên minh Dân chủ Kitô giáo Đức", "o_qid": "Q567", "o_label": "Angela Merkel", "start": 2000, "end": 2018, "relation": "P488", "r_label": "chủ tịch"}
+{"s_qid": "Q478214", "s_label": "Tesla", "o_qid": "Q317521", "o_label": "Elon Musk", "start": 2004, "end": 2018, "relation": "P488", "r_label": "chủ tịch"}
+{"s_qid": "Q1146208", "s_label": "Institut National de Recherche en Informatique et en Automatique", "o_qid": "Q982534", "o_label": "Jacques-Louis Lions", "start": 1979, "end": 1983, "relation": "P488", "r_label": "chủ tịch"}
+{"s_qid": "Q2370801", "s_label": "Viện Hàn lâm Khoa học Liên Xô", "o_qid": "Q246497", "o_label": "Mstislav Keldysh", "start": 1961, "end": 1975, "relation": "P488", "r_label": "chủ tịch"}
+{"s_qid": "Q7785", "s_label": "Khối Thịnh vượng chung Anh", "o_qid": "Q43274", "o_label": "Charles III", "start": 2022, "end": null, "relation": "P488", "r_label": "chủ tịch"}
+{"s_qid": "Q83172", "s_label": "Viện Hàn lâm Khoa học Nga", "o_qid": "Q313832", "o_label": "Grand Duke Konstantin Konstantinovich of Russia", "start": 1889, "end": 1915, "relation": "P488", "r_label": "chủ tịch"}
+{"s_qid": "Q83172", "s_label": "Viện Hàn lâm Khoa học Nga", "o_qid": "Q246497", "o_label": "Mstislav Keldysh", "start": 1961, "end": 1975, "relation": "P488", "r_label": "chủ tịch"}
+{"s_qid": "Q563335", "s_label": "German Mathematical Society", "o_qid": "Q77512", "o_label": "Heinrich Martin Weber", "start": 1895, "end": 1895, "relation": "P488", "r_label": "chủ tịch"}
+{"s_qid": "Q563335", "s_label": "German Mathematical Society", "o_qid": "Q77512", "o_label": "Heinrich Martin Weber", "start": 1904, "end": 1904, "relation": "P488", "r_label": "chủ tịch"}
+{"s_qid": "Q563335", "s_label": "German Mathematical Society", "o_qid": "Q76641", "o_label": "Felix Klein", "start": 1897, "end": 1897, "relation": "P488", "r_label": "chủ tịch"}
+{"s_qid": "Q563335", "s_label": "German Mathematical Society", "o_qid": "Q76641", "o_label": "Felix Klein", "start": 1903, "end": 1903, "relation": "P488", "r_label": "chủ tịch"}
+{"s_qid": "Q563335", "s_label": "German Mathematical Society", "o_qid": "Q76641", "o_label": "Felix Klein", "start": 1908, "end": 1908, "relation": "P488", "r_label": "chủ tịch"}
+{"s_qid": "Q563335", "s_label": "German Mathematical Society", "o_qid": "Q41585", "o_label": "David Hilbert", "start": 1900, "end": 1900, "relation": "P488", "r_label": "chủ tịch"}
+{"s_qid": "Q563335", "s_label": "German Mathematical Society", "o_qid": "Q90312", "o_label": "Gottfried Köthe", "start": 1958, "end": 1958, "relation": "P488", "r_label": "chủ tịch"}
+{"s_qid": "Q563335", "s_label": "German Mathematical Society", "o_qid": "Q61753", "o_label": "Friedrich Hirzebruch", "start": 1962, "end": 1962, "relation": "P488", "r_label": "chủ tịch"}
+{"s_qid": "Q563335", "s_label": "German Mathematical Society", "o_qid": "Q61753", "o_label": "Friedrich Hirzebruch", "start": 1990, "end": 1990, "relation": "P488", "r_label": "chủ tịch"}
+{"s_qid": "Q1052584", "s_label": "Rally for the Republic", "o_qid": "Q2105", "o_label": "Jacques Chirac", "start": 1976, "end": 1994, "relation": "P488", "r_label": "chủ tịch"}
+{"s_qid": "Q1052584", "s_label": "Rally for the Republic", "o_qid": "Q329", "o_label": "Nicolas Sarkozy", "start": 1999, "end": 1999, "relation": "P488", "r_label": "chủ tịch"}
+{"s_qid": "Q2379496", "s_label": "Viện hàn lâm Khoa học quốc gia Armenia", "o_qid": "Q164396", "o_label": "Victor Ambartsumian", "start": 1947, "end": 1993, "relation": "P488", "r_label": "chủ tịch"}
+{"s_qid": "Q215350", "s_label": "Forza Italia", "o_qid": "Q11860", "o_label": "Silvio Berlusconi", "start": 1994, "end": 2009, "relation": "P488", "r_label": "chủ tịch"}
+{"s_qid": "Q819187", "s_label": "Deutsche Physikalische Gesellschaft", "o_qid": "Q60024", "o_label": "Hermann von Helmholtz", "start": 1878, "end": 1895, "relation": "P488", "r_label": "chủ tịch"}
+{"s_qid": "Q819187", "s_label": "Deutsche Physikalische Gesellschaft", "o_qid": "Q9021", "o_label": "Max Planck", "start": 1905, "end": 1906, "relation": "P488", "r_label": "chủ tịch"}
+{"s_qid": "Q819187", "s_label": "Deutsche Physikalische Gesellschaft", "o_qid": "Q9021", "o_label": "Max Planck", "start": 1906, "end": 1907, "relation": "P488", "r_label": "chủ tịch"}
+{"s_qid": "Q819187", "s_label": "Deutsche Physikalische Gesellschaft", "o_qid": "Q9021", "o_label": "Max Planck", "start": 1908, "end": 1909, "relation": "P488", "r_label": "chủ tịch"}
+{"s_qid": "Q819187", "s_label": "Deutsche Physikalische Gesellschaft", "o_qid": "Q9021", "o_label": "Max Planck", "start": 1915, "end": 1916, "relation": "P488", "r_label": "chủ tịch"}
+{"s_qid": "Q819187", "s_label": "Deutsche Physikalische Gesellschaft", "o_qid": "Q937", "o_label": "Albert Einstein", "start": 1916, "end": 1918, "relation": "P488", "r_label": "chủ tịch"}
+{"s_qid": "Q819187", "s_label": "Deutsche Physikalische Gesellschaft", "o_qid": "Q77078", "o_label": "Arnold Sommerfeld", "start": 1918, "end": 1920, "relation": "P488", "r_label": "chủ tịch"}
+{"s_qid": "Q819187", "s_label": "Deutsche Physikalische Gesellschaft", "o_qid": "Q103835", "o_label": "Peter Debye", "start": 1937, "end": 1939, "relation": "P488", "r_label": "chủ tịch"}
+{"s_qid": "Q1517662", "s_label": "The Elders", "o_qid": "Q1254", "o_label": "Kofi Annan", "start": 2013, "end": 2018, "relation": "P488", "r_label": "chủ tịch"}
+{"s_qid": "Q1517662", "s_label": "The Elders", "o_qid": "Q43033", "o_label": "Desmond Tutu", "start": 2007, "end": 2013, "relation": "P488", "r_label": "chủ tịch"}
+{"s_qid": "Q2838243", "s_label": "People's Alliance", "o_qid": "Q276043", "o_label": "Manuel Fraga", "start": 1979, "end": 1987, "relation": "P488", "r_label": "chủ tịch"}
+{"s_qid": "Q154797", "s_label": "Quốc hội Liên bang Đức", "o_qid": "Q66286", "o_label": "Rita Süssmuth", "start": 1994, "end": 1998, "relation": "P488", "r_label": "chủ tịch"}
+{"s_qid": "Q154797", "s_label": "Quốc hội Liên bang Đức", "o_qid": "Q66286", "o_label": "Rita Süssmuth", "start": 1990, "end": 1994, "relation": "P488", "r_label": "chủ tịch"}
+{"s_qid": "Q154797", "s_label": "Quốc hội Liên bang Đức", "o_qid": "Q16019", "o_label": "Wolfgang Schäuble", "start": 2017, "end": 2021, "relation": "P488", "r_label": "chủ tịch"}
+{"s_qid": "Q256121", "s_label": "Đảng Cộng sản România", "o_qid": "Q80504", "o_label": "Nicolae Ceauşescu", "start": 1965, "end": 1989, "relation": "P488", "r_label": "chủ tịch"}
+{"s_qid": "Q304191", "s_label": "Đảng Liên hiệp Dân tộc", "o_qid": "Q29207", "o_label": "Sauli Niinistö", "start": 1994, "end": 2001, "relation": "P488", "r_label": "chủ tịch"}
+{"s_qid": "Q17427", "s_label": "Đảng Cộng sản Trung Quốc", "o_qid": "Q15031", "o_label": "Tập Cận Bình", "start": 2012, "end": null, "relation": "P488", "r_label": "chủ tịch"}
+{"s_qid": "Q17427", "s_label": "Đảng Cộng sản Trung Quốc", "o_qid": "Q16597", "o_label": "Giang Trạch Dân", "start": 1989, "end": 2002, "relation": "P488", "r_label": "chủ tịch"}
+{"s_qid": "Q185088", "s_label": "Đảng Nhân dân", "o_qid": "Q276043", "o_label": "Manuel Fraga", "start": 1989, "end": 1990, "relation": "P488", "r_label": "chủ tịch"}
+{"s_qid": "Q204911", "s_label": "Đảng Lao động Dân chủ Xã hội Nga", "o_qid": "Q1394", "o_label": "Vladimir Ilyich Lenin", "start": 1903, "end": 1905, "relation": "P488", "r_label": "chủ tịch"}
+{"s_qid": "Q789915", "s_label": "Bộ Ngoại giao Hoa Kỳ", "o_qid": "Q6294", "o_label": "Hillary Clinton", "start": 2009, "end": 2013, "relation": "P488", "r_label": "chủ tịch"}
+{"s_qid": "Q23198434", "s_label": "Liberal Party of Australia (South Australian Division)", "o_qid": "Q7615025", "o_label": "Steven Marshall", "start": 2013, "end": null, "relation": "P488", "r_label": "chủ tịch"}
+{"s_qid": "Q49768", "s_label": "Đảng Dân chủ Xã hội Đức", "o_qid": "Q2514", "o_label": "Willy Brandt", "start": 1964, "end": 1987, "relation": "P488", "r_label": "chủ tịch"}
+{"s_qid": "Q49768", "s_label": "Đảng Dân chủ Xã hội Đức", "o_qid": "Q2551", "o_label": "Johannes Rau", "start": 1993, "end": 1993, "relation": "P488", "r_label": "chủ tịch"}
+{"s_qid": "Q49768", "s_label": "Đảng Dân chủ Xã hội Đức", "o_qid": "Q76658", "o_label": "Frank-Walter Steinmeier", "start": 2008, "end": 2008, "relation": "P488", "r_label": "chủ tịch"}
+{"s_qid": "Q56034", "s_label": "Federal Foreign Office", "o_qid": "Q2492", "o_label": "Konrad Adenauer", "start": 1951, "end": 1955, "relation": "P488", "r_label": "chủ tịch"}
+{"s_qid": "Q56034", "s_label": "Federal Foreign Office", "o_qid": "Q2514", "o_label": "Willy Brandt", "start": 1966, "end": 1969, "relation": "P488", "r_label": "chủ tịch"}
+{"s_qid": "Q56034", "s_label": "Federal Foreign Office", "o_qid": "Q2571", "o_label": "Walter Scheel", "start": 1969, "end": 1974, "relation": "P488", "r_label": "chủ tịch"}
+{"s_qid": "Q56034", "s_label": "Federal Foreign Office", "o_qid": "Q106235", "o_label": "Hans-Dietrich Genscher", "start": 1974, "end": 1982, "relation": "P488", "r_label": "chủ tịch"}
+{"s_qid": "Q56034", "s_label": "Federal Foreign Office", "o_qid": "Q2516", "o_label": "Helmut Schmidt", "start": 1982, "end": 1982, "relation": "P488", "r_label": "chủ tịch"}
+{"s_qid": "Q56034", "s_label": "Federal Foreign Office", "o_qid": "Q106235", "o_label": "Hans-Dietrich Genscher", "start": 1982, "end": 1992, "relation": "P488", "r_label": "chủ tịch"}
+{"s_qid": "Q56034", "s_label": "Federal Foreign Office", "o_qid": "Q76658", "o_label": "Frank-Walter Steinmeier", "start": 2005, "end": 2009, "relation": "P488", "r_label": "chủ tịch"}
+{"s_qid": "Q56034", "s_label": "Federal Foreign Office", "o_qid": "Q76658", "o_label": "Frank-Walter Steinmeier", "start": 2013, "end": 2017, "relation": "P488", "r_label": "chủ tịch"}
+{"s_qid": "Q259517", "s_label": "Viện Liên hiệp nghiên cứu hạt nhân Dubna", "o_qid": "Q454925", "o_label": "Nikolai Bogolyubov", "start": 1965, "end": 1988, "relation": "P488", "r_label": "chủ tịch"}
+{"s_qid": "Q492234", "s_label": "Federal Ministry of Research, Technology and Space", "o_qid": "Q44620", "o_label": "Franz Josef Strauß", "start": 1955, "end": 1956, "relation": "P488", "r_label": "chủ tịch"}
+{"s_qid": "Q12490741", "s_label": "Ministry of Finance of Indonesia", "o_qid": "Q2670453", "o_label": "Djuanda Kartawidjaja", "start": 1957, "end": 1957, "relation": "P488", "r_label": "chủ tịch"}
+{"s_qid": "Q12490741", "s_label": "Ministry of Finance of Indonesia", "o_qid": "Q2670453", "o_label": "Djuanda Kartawidjaja", "start": 1959, "end": 1960, "relation": "P488", "r_label": "chủ tịch"}
+{"s_qid": "Q12490741", "s_label": "Ministry of Finance of Indonesia", "o_qid": "Q2670453", "o_label": "Djuanda Kartawidjaja", "start": 1960, "end": 1960, "relation": "P488", "r_label": "chủ tịch"}

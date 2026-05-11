@@ -1,0 +1,150 @@
+{"s_qid": "Q11463", "s_label": "Adobe", "o_qid": "Q16553", "o_label": "San Jose", "start": 1996, "end": null, "relation": "P159", "r_label": "vị trí trụ sở"}
+{"s_qid": "Q35476", "s_label": "AT&T", "o_qid": "Q975", "o_label": "San Antonio", "start": null, "end": 2008, "relation": "P159", "r_label": "vị trí trụ sở"}
+{"s_qid": "Q35476", "s_label": "AT&T", "o_qid": "Q16557", "o_label": "Dallas", "start": 2008, "end": null, "relation": "P159", "r_label": "vị trí trụ sở"}
+{"s_qid": "Q157464", "s_label": "KFC Uerdingen 05", "o_qid": "Q2805", "o_label": "Krefeld", "start": 1940, "end": null, "relation": "P159", "r_label": "vị trí trụ sở"}
+{"s_qid": "Q223522", "s_label": "Kansas City Chiefs", "o_qid": "Q16557", "o_label": "Dallas", "start": 1960, "end": 1963, "relation": "P159", "r_label": "vị trí trụ sở"}
+{"s_qid": "Q329953", "s_label": "Northrop Grumman Corporation", "o_qid": "Q65", "o_label": "Los Angeles", "start": null, "end": 2011, "relation": "P159", "r_label": "vị trí trụ sở"}
+{"s_qid": "Q341085", "s_label": "Czech Pirate Party", "o_qid": "Q1085", "o_label": "Praha", "start": 2018, "end": null, "relation": "P159", "r_label": "vị trí trụ sở"}
+{"s_qid": "Q390287", "s_label": "Đại học Eötvös Loránd", "o_qid": "Q1781", "o_label": "Budapest", "start": 1873, "end": null, "relation": "P159", "r_label": "vị trí trụ sở"}
+{"s_qid": "Q2780100", "s_label": "King Baudouin Foundation", "o_qid": "Q239", "o_label": "Bruxelles", "start": 1987, "end": null, "relation": "P159", "r_label": "vị trí trụ sở"}
+{"s_qid": "Q4633436", "s_label": "2d Air Division", "o_qid": "Q84", "o_label": "Luân Đôn", "start": 1945, "end": 1945, "relation": "P159", "r_label": "vị trí trụ sở"}
+{"s_qid": "Q18286730", "s_label": "European Ceramics Work Center", "o_qid": "Q3299324", "o_label": "Oisterwijk", "start": 2015, "end": null, "relation": "P159", "r_label": "vị trí trụ sở"}
+{"s_qid": "Q18286730", "s_label": "European Ceramics Work Center", "o_qid": "Q2766547", "o_label": "'s-Hertogenbosch", "start": 1991, "end": 2015, "relation": "P159", "r_label": "vị trí trụ sở"}
+{"s_qid": "Q19726567", "s_label": "Cycling Academy", "o_qid": "Q33935", "o_label": "Tel Aviv", "start": 2015, "end": 2025, "relation": "P159", "r_label": "vị trí trụ sở"}
+{"s_qid": "Q19726567", "s_label": "Cycling Academy", "o_qid": "Q1492", "o_label": "Barcelona", "start": 2026, "end": null, "relation": "P159", "r_label": "vị trí trụ sở"}
+{"s_qid": "Q23731823", "s_label": "Renaissance", "o_qid": "Q90", "o_label": "Paris", "start": 2016, "end": 2017, "relation": "P159", "r_label": "vị trí trụ sở"}
+{"s_qid": "Q23731823", "s_label": "Renaissance", "o_qid": "Q90", "o_label": "Paris", "start": 2017, "end": null, "relation": "P159", "r_label": "vị trí trụ sở"}
+{"s_qid": "Q66", "s_label": "Boeing", "o_qid": "Q5083", "o_label": "Seattle", "start": null, "end": 2001, "relation": "P159", "r_label": "vị trí trụ sở"}
+{"s_qid": "Q66", "s_label": "Boeing", "o_qid": "Q1297", "o_label": "Chicago", "start": 2001, "end": null, "relation": "P159", "r_label": "vị trí trụ sở"}
+{"s_qid": "Q336735", "s_label": "ČEZ Group", "o_qid": "Q1085", "o_label": "Praha", "start": 2002, "end": null, "relation": "P159", "r_label": "vị trí trụ sở"}
+{"s_qid": "Q338825", "s_label": "Accenture", "o_qid": "Q1761", "o_label": "Dublin", "start": 2009, "end": null, "relation": "P159", "r_label": "vị trí trụ sở"}
+{"s_qid": "Q369839", "s_label": "Đại học Szeged", "o_qid": "Q100188", "o_label": "Cluj-Napoca", "start": 1872, "end": 1919, "relation": "P159", "r_label": "vị trí trụ sở"}
+{"s_qid": "Q369839", "s_label": "Đại học Szeged", "o_qid": "Q1781", "o_label": "Budapest", "start": 1919, "end": 1921, "relation": "P159", "r_label": "vị trí trụ sở"}
+{"s_qid": "Q369839", "s_label": "Đại học Szeged", "o_qid": "Q81581", "o_label": "Szeged", "start": 1921, "end": 1940, "relation": "P159", "r_label": "vị trí trụ sở"}
+{"s_qid": "Q369839", "s_label": "Đại học Szeged", "o_qid": "Q100188", "o_label": "Cluj-Napoca", "start": 1940, "end": 1945, "relation": "P159", "r_label": "vị trí trụ sở"}
+{"s_qid": "Q369839", "s_label": "Đại học Szeged", "o_qid": "Q81581", "o_label": "Szeged", "start": 1945, "end": null, "relation": "P159", "r_label": "vị trí trụ sở"}
+{"s_qid": "Q471969", "s_label": "Lille metropolis", "o_qid": "Q648", "o_label": "Lille", "start": 2020, "end": null, "relation": "P159", "r_label": "vị trí trụ sở"}
+{"s_qid": "Q471969", "s_label": "Lille metropolis", "o_qid": "Q648", "o_label": "Lille", "start": 1967, "end": 2020, "relation": "P159", "r_label": "vị trí trụ sở"}
+{"s_qid": "Q727724", "s_label": "Đảng Cộng sản Tiệp Khắc", "o_qid": "Q1085", "o_label": "Praha", "start": 1945, "end": 1960, "relation": "P159", "r_label": "vị trí trụ sở"}
+{"s_qid": "Q727724", "s_label": "Đảng Cộng sản Tiệp Khắc", "o_qid": "Q1085", "o_label": "Praha", "start": 1960, "end": 1990, "relation": "P159", "r_label": "vị trí trụ sở"}
+{"s_qid": "Q3042433", "s_label": "Open University of Catalonia", "o_qid": "Q1492", "o_label": "Barcelona", "start": 1994, "end": 2023, "relation": "P159", "r_label": "vị trí trụ sở"}
+{"s_qid": "Q3042433", "s_label": "Open University of Catalonia", "o_qid": "Q1492", "o_label": "Barcelona", "start": 2024, "end": null, "relation": "P159", "r_label": "vị trí trụ sở"}
+{"s_qid": "Q5987345", "s_label": "Ủy ban Chữ thập đỏ quốc tế", "o_qid": "Q71", "o_label": "Genève", "start": 1948, "end": null, "relation": "P159", "r_label": "vị trí trụ sở"}
+{"s_qid": "Q7809", "s_label": "Tổ chức Giáo dục, Khoa học và Văn hóa Liên Hợp Quốc", "o_qid": "Q90", "o_label": "Paris", "start": 1958, "end": null, "relation": "P159", "r_label": "vị trí trụ sở"}
+{"s_qid": "Q13124", "s_label": "Đảng Dân chủ Tự do", "o_qid": "Q64", "o_label": "Berlin", "start": 1999, "end": null, "relation": "P159", "r_label": "vị trí trụ sở"}
+{"s_qid": "Q13124", "s_label": "Đảng Dân chủ Tự do", "o_qid": "Q586", "o_label": "Bonn", "start": 1993, "end": null, "relation": "P159", "r_label": "vị trí trụ sở"}
+{"s_qid": "Q13124", "s_label": "Đảng Dân chủ Tự do", "o_qid": "Q586", "o_label": "Bonn", "start": 1976, "end": null, "relation": "P159", "r_label": "vị trí trụ sở"}
+{"s_qid": "Q46974", "s_label": "Canadian Pacific Railway", "o_qid": "Q340", "o_label": "Montréal", "start": null, "end": 1996, "relation": "P159", "r_label": "vị trí trụ sở"}
+{"s_qid": "Q157062", "s_label": "Unilever", "o_qid": "Q34370", "o_label": "Rotterdam", "start": null, "end": 2020, "relation": "P159", "r_label": "vị trí trụ sở"}
+{"s_qid": "Q194369", "s_label": "New York Islanders", "o_qid": "Q18419", "o_label": "Brooklyn", "start": 2015, "end": 2020, "relation": "P159", "r_label": "vị trí trụ sở"}
+{"s_qid": "Q476988", "s_label": "Sharp, Stewart and Company", "o_qid": "Q18125", "o_label": "Manchester", "start": 1843, "end": 1888, "relation": "P159", "r_label": "vị trí trụ sở"}
+{"s_qid": "Q476988", "s_label": "Sharp, Stewart and Company", "o_qid": "Q4093", "o_label": "Glasgow", "start": 1888, "end": 1903, "relation": "P159", "r_label": "vị trí trụ sở"}
+{"s_qid": "Q478214", "s_label": "Tesla", "o_qid": "Q16559", "o_label": "Austin", "start": 2021, "end": null, "relation": "P159", "r_label": "vị trí trụ sở"}
+{"s_qid": "Q583725", "s_label": "Trung tâm Kiểm soát và Phòng ngừa Dịch bệnh", "o_qid": "Q23556", "o_label": "Atlanta", "start": 2018, "end": null, "relation": "P159", "r_label": "vị trí trụ sở"}
+{"s_qid": "Q687175", "s_label": "Deutsche Bundesbahn", "o_qid": "Q1794", "o_label": "Frankfurt am Main", "start": 1953, "end": null, "relation": "P159", "r_label": "vị trí trụ sở"}
+{"s_qid": "Q1390577", "s_label": "Twitter", "o_qid": "Q62", "o_label": "San Francisco", "start": 2012, "end": null, "relation": "P159", "r_label": "vị trí trụ sở"}
+{"s_qid": "Q1979720", "s_label": "PPF Group", "o_qid": "Q727", "o_label": "Amsterdam", "start": null, "end": 2026, "relation": "P159", "r_label": "vị trí trụ sở"}
+{"s_qid": "Q2140391", "s_label": "University of Texas System", "o_qid": "Q16559", "o_label": "Austin", "start": null, "end": 2017, "relation": "P159", "r_label": "vị trí trụ sở"}
+{"s_qid": "Q2140391", "s_label": "University of Texas System", "o_qid": "Q16559", "o_label": "Austin", "start": 2017, "end": null, "relation": "P159", "r_label": "vị trí trụ sở"}
+{"s_qid": "Q2370801", "s_label": "Viện Hàn lâm Khoa học Liên Xô", "o_qid": "Q649", "o_label": "Moskva", "start": 1934, "end": 1991, "relation": "P159", "r_label": "vị trí trụ sở"}
+{"s_qid": "Q2370801", "s_label": "Viện Hàn lâm Khoa học Liên Xô", "o_qid": "Q656", "o_label": "Sankt-Peterburg", "start": 1925, "end": 1934, "relation": "P159", "r_label": "vị trí trụ sở"}
+{"s_qid": "Q59821583", "s_label": "Royal Academy of Law in Győr", "o_qid": "Q45779", "o_label": "Pécs", "start": 1785, "end": 1802, "relation": "P159", "r_label": "vị trí trụ sở"}
+{"s_qid": "Q7184", "s_label": "NATO", "o_qid": "Q84", "o_label": "Luân Đôn", "start": 1950, "end": 1952, "relation": "P159", "r_label": "vị trí trụ sở"}
+{"s_qid": "Q7184", "s_label": "NATO", "o_qid": "Q239", "o_label": "Bruxelles", "start": 1967, "end": 2017, "relation": "P159", "r_label": "vị trí trụ sở"}
+{"s_qid": "Q7184", "s_label": "NATO", "o_qid": "Q239", "o_label": "Bruxelles", "start": 2017, "end": null, "relation": "P159", "r_label": "vị trí trụ sở"}
+{"s_qid": "Q188920", "s_label": "Delta Air Lines", "o_qid": "Q23556", "o_label": "Atlanta", "start": 1941, "end": null, "relation": "P159", "r_label": "vị trí trụ sở"}
+{"s_qid": "Q192071", "s_label": "FC Nantes", "o_qid": "Q12191", "o_label": "Nantes", "start": null, "end": 1978, "relation": "P159", "r_label": "vị trí trụ sở"}
+{"s_qid": "Q478309", "s_label": "Astana", "o_qid": "Q39", "o_label": "Thụy Sĩ", "start": 2007, "end": 2007, "relation": "P159", "r_label": "vị trí trụ sở"}
+{"s_qid": "Q478309", "s_label": "Astana", "o_qid": "Q32", "o_label": "Luxembourg", "start": 2008, "end": 2008, "relation": "P159", "r_label": "vị trí trụ sở"}
+{"s_qid": "Q478309", "s_label": "Astana", "o_qid": "Q1520", "o_label": "Astana", "start": 2009, "end": null, "relation": "P159", "r_label": "vị trí trụ sở"}
+{"s_qid": "Q511533", "s_label": "La Vanguardia", "o_qid": "Q1492", "o_label": "Barcelona", "start": 1881, "end": 1888, "relation": "P159", "r_label": "vị trí trụ sở"}
+{"s_qid": "Q511533", "s_label": "La Vanguardia", "o_qid": "Q1492", "o_label": "Barcelona", "start": 1888, "end": 1892, "relation": "P159", "r_label": "vị trí trụ sở"}
+{"s_qid": "Q654762", "s_label": "Sotheby's", "o_qid": "Q60", "o_label": "Thành phố New York", "start": 1983, "end": null, "relation": "P159", "r_label": "vị trí trụ sở"}
+{"s_qid": "Q654762", "s_label": "Sotheby's", "o_qid": "Q84", "o_label": "Luân Đôn", "start": null, "end": 1983, "relation": "P159", "r_label": "vị trí trụ sở"}
+{"s_qid": "Q694104", "s_label": "German Red Cross", "o_qid": "Q64", "o_label": "Berlin", "start": 2001, "end": null, "relation": "P159", "r_label": "vị trí trụ sở"}
+{"s_qid": "Q694104", "s_label": "German Red Cross", "o_qid": "Q586", "o_label": "Bonn", "start": 1954, "end": 2001, "relation": "P159", "r_label": "vị trí trụ sở"}
+{"s_qid": "Q694104", "s_label": "German Red Cross", "o_qid": "Q586", "o_label": "Bonn", "start": 1950, "end": 1954, "relation": "P159", "r_label": "vị trí trụ sở"}
+{"s_qid": "Q27991317", "s_label": "NorthEast Research Libraries", "o_qid": "Q1297", "o_label": "Chicago", "start": 2013, "end": null, "relation": "P159", "r_label": "vị trí trụ sở"}
+{"s_qid": "Q115095", "s_label": "Institut de Droit International", "o_qid": "Q71", "o_label": "Genève", "start": 1991, "end": 2003, "relation": "P159", "r_label": "vị trí trụ sở"}
+{"s_qid": "Q115095", "s_label": "Institut de Droit International", "o_qid": "Q71", "o_label": "Genève", "start": 1981, "end": 1991, "relation": "P159", "r_label": "vị trí trụ sở"}
+{"s_qid": "Q115095", "s_label": "Institut de Droit International", "o_qid": "Q239", "o_label": "Bruxelles", "start": 1969, "end": 1981, "relation": "P159", "r_label": "vị trí trụ sở"}
+{"s_qid": "Q115095", "s_label": "Institut de Droit International", "o_qid": "Q90", "o_label": "Paris", "start": 1963, "end": 1969, "relation": "P159", "r_label": "vị trí trụ sở"}
+{"s_qid": "Q115095", "s_label": "Institut de Droit International", "o_qid": "Q71", "o_label": "Genève", "start": 1962, "end": 1963, "relation": "P159", "r_label": "vị trí trụ sở"}
+{"s_qid": "Q115095", "s_label": "Institut de Droit International", "o_qid": "Q71", "o_label": "Genève", "start": 1950, "end": 1962, "relation": "P159", "r_label": "vị trí trụ sở"}
+{"s_qid": "Q115095", "s_label": "Institut de Droit International", "o_qid": "Q239", "o_label": "Bruxelles", "start": 1937, "end": 1950, "relation": "P159", "r_label": "vị trí trụ sở"}
+{"s_qid": "Q115095", "s_label": "Institut de Droit International", "o_qid": "Q1296", "o_label": "Gent", "start": 1927, "end": 1931, "relation": "P159", "r_label": "vị trí trụ sở"}
+{"s_qid": "Q115095", "s_label": "Institut de Droit International", "o_qid": "Q239", "o_label": "Bruxelles", "start": 1931, "end": 1937, "relation": "P159", "r_label": "vị trí trụ sở"}
+{"s_qid": "Q115095", "s_label": "Institut de Droit International", "o_qid": "Q118958", "o_label": "Leuven", "start": 1923, "end": 1927, "relation": "P159", "r_label": "vị trí trụ sở"}
+{"s_qid": "Q115095", "s_label": "Institut de Droit International", "o_qid": "Q1296", "o_label": "Gent", "start": 1906, "end": 1913, "relation": "P159", "r_label": "vị trí trụ sở"}
+{"s_qid": "Q115095", "s_label": "Institut de Droit International", "o_qid": "Q36600", "o_label": "Den Haag", "start": 1913, "end": 1919, "relation": "P159", "r_label": "vị trí trụ sở"}
+{"s_qid": "Q115095", "s_label": "Institut de Droit International", "o_qid": "Q118958", "o_label": "Leuven", "start": 1900, "end": 1906, "relation": "P159", "r_label": "vị trí trụ sở"}
+{"s_qid": "Q115095", "s_label": "Institut de Droit International", "o_qid": "Q807", "o_label": "Lausanne", "start": 1892, "end": 1900, "relation": "P159", "r_label": "vị trí trụ sở"}
+{"s_qid": "Q115095", "s_label": "Institut de Droit International", "o_qid": "Q239", "o_label": "Bruxelles", "start": 1887, "end": 1892, "relation": "P159", "r_label": "vị trí trụ sở"}
+{"s_qid": "Q115095", "s_label": "Institut de Droit International", "o_qid": "Q239", "o_label": "Bruxelles", "start": 1878, "end": 1887, "relation": "P159", "r_label": "vị trí trụ sở"}
+{"s_qid": "Q115095", "s_label": "Institut de Droit International", "o_qid": "Q1296", "o_label": "Gent", "start": 1873, "end": 1878, "relation": "P159", "r_label": "vị trí trụ sở"}
+{"s_qid": "Q154950", "s_label": "Shell", "o_qid": "Q84", "o_label": "Luân Đôn", "start": 2022, "end": null, "relation": "P159", "r_label": "vị trí trụ sở"}
+{"s_qid": "Q170416", "s_label": "Philips", "o_qid": "Q727", "o_label": "Amsterdam", "start": 2001, "end": null, "relation": "P159", "r_label": "vị trí trụ sở"}
+{"s_qid": "Q170416", "s_label": "Philips", "o_qid": "Q9832", "o_label": "Eindhoven", "start": null, "end": 2001, "relation": "P159", "r_label": "vị trí trụ sở"}
+{"s_qid": "Q324523", "s_label": "Las Vegas Raiders", "o_qid": "Q17042", "o_label": "Oakland", "start": 1995, "end": 2019, "relation": "P159", "r_label": "vị trí trụ sở"}
+{"s_qid": "Q324523", "s_label": "Las Vegas Raiders", "o_qid": "Q23768", "o_label": "Las Vegas", "start": 2020, "end": null, "relation": "P159", "r_label": "vị trí trụ sở"}
+{"s_qid": "Q324523", "s_label": "Las Vegas Raiders", "o_qid": "Q65", "o_label": "Los Angeles", "start": 1982, "end": 1994, "relation": "P159", "r_label": "vị trí trụ sở"}
+{"s_qid": "Q586704", "s_label": "Eurometropolis of Strasbourg", "o_qid": "Q6602", "o_label": "Strasbourg", "start": 1967, "end": null, "relation": "P159", "r_label": "vị trí trụ sở"}
+{"s_qid": "Q928652", "s_label": "Estonian Centre Party", "o_qid": "Q1770", "o_label": "Tallinn", "start": null, "end": 2017, "relation": "P159", "r_label": "vị trí trụ sở"}
+{"s_qid": "Q928652", "s_label": "Estonian Centre Party", "o_qid": "Q1770", "o_label": "Tallinn", "start": 2018, "end": null, "relation": "P159", "r_label": "vị trí trụ sở"}
+{"s_qid": "Q1150127", "s_label": "Wasps RFC", "o_qid": "Q6225", "o_label": "Coventry", "start": 2014, "end": null, "relation": "P159", "r_label": "vị trí trụ sở"}
+{"s_qid": "Q1430113", "s_label": "Institut national des langues et civilisations orientales", "o_qid": "Q90", "o_label": "Paris", "start": 2011, "end": null, "relation": "P159", "r_label": "vị trí trụ sở"}
+{"s_qid": "Q1430113", "s_label": "Institut national des langues et civilisations orientales", "o_qid": "Q90", "o_label": "Paris", "start": 1873, "end": null, "relation": "P159", "r_label": "vị trí trụ sở"}
+{"s_qid": "Q2055003", "s_label": "Socialists' Party of Catalonia", "o_qid": "Q1492", "o_label": "Barcelona", "start": 1976, "end": 2016, "relation": "P159", "r_label": "vị trí trụ sở"}
+{"s_qid": "Q2072647", "s_label": "Centre national des arts plastiques", "o_qid": "Q90", "o_label": "Paris", "start": 2024, "end": null, "relation": "P159", "r_label": "vị trí trụ sở"}
+{"s_qid": "Q2983328", "s_label": "Swedish Meteorological and Hydrological Institute", "o_qid": "Q1754", "o_label": "Stockholm", "start": 1873, "end": 1975, "relation": "P159", "r_label": "vị trí trụ sở"}
+{"s_qid": "Q86751806", "s_label": "NSN Development Team", "o_qid": "Q33935", "o_label": "Tel Aviv", "start": null, "end": 2025, "relation": "P159", "r_label": "vị trí trụ sở"}
+{"s_qid": "Q86751806", "s_label": "NSN Development Team", "o_qid": "Q71", "o_label": "Genève", "start": 2026, "end": null, "relation": "P159", "r_label": "vị trí trụ sở"}
+{"s_qid": "Q9322", "s_label": "Deutsche Bahn", "o_qid": "Q64", "o_label": "Berlin", "start": 2000, "end": null, "relation": "P159", "r_label": "vị trí trụ sở"}
+{"s_qid": "Q201821", "s_label": "Finnair", "o_qid": "Q127623", "o_label": "Vantaa", "start": 1994, "end": null, "relation": "P159", "r_label": "vị trí trụ sở"}
+{"s_qid": "Q201821", "s_label": "Finnair", "o_qid": "Q1757", "o_label": "Helsinki", "start": null, "end": 1994, "relation": "P159", "r_label": "vị trí trụ sở"}
+{"s_qid": "Q204623", "s_label": "Florida Panthers", "o_qid": "Q8652", "o_label": "Miami", "start": 1993, "end": 1998, "relation": "P159", "r_label": "vị trí trụ sở"}
+{"s_qid": "Q281780", "s_label": "FC Maxline Viciebsk", "o_qid": "Q102217", "o_label": "Vitebsk", "start": 2023, "end": null, "relation": "P159", "r_label": "vị trí trụ sở"}
+{"s_qid": "Q703593", "s_label": "Labour and Socialist International", "o_qid": "Q84", "o_label": "Luân Đôn", "start": 1923, "end": 1925, "relation": "P159", "r_label": "vị trí trụ sở"}
+{"s_qid": "Q703593", "s_label": "Labour and Socialist International", "o_qid": "Q72", "o_label": "Zürich", "start": 1925, "end": 1935, "relation": "P159", "r_label": "vị trí trụ sở"}
+{"s_qid": "Q703593", "s_label": "Labour and Socialist International", "o_qid": "Q239", "o_label": "Bruxelles", "start": 1935, "end": 1940, "relation": "P159", "r_label": "vị trí trụ sở"}
+{"s_qid": "Q1194988", "s_label": "Université Paris 8 Vincennes-Saint-Denis", "o_qid": "Q160506", "o_label": "Saint-Denis", "start": null, "end": 2024, "relation": "P159", "r_label": "vị trí trụ sở"}
+{"s_qid": "Q1194988", "s_label": "Université Paris 8 Vincennes-Saint-Denis", "o_qid": "Q131575588", "o_label": "Saint-Denis", "start": 2025, "end": null, "relation": "P159", "r_label": "vị trí trụ sở"}
+{"s_qid": "Q1881864", "s_label": "Institute of Tropical Medicine Antwerp", "o_qid": "Q239", "o_label": "Bruxelles", "start": 1906, "end": 1933, "relation": "P159", "r_label": "vị trí trụ sở"}
+{"s_qid": "Q1881864", "s_label": "Institute of Tropical Medicine Antwerp", "o_qid": "Q12892", "o_label": "Antwerpen", "start": 1933, "end": null, "relation": "P159", "r_label": "vị trí trụ sở"}
+{"s_qid": "Q2807513", "s_label": "Twelfth Air Force", "o_qid": "Q188617", "o_label": "Vườn thực vật hoàng gia Kew", "start": 1942, "end": 1942, "relation": "P159", "r_label": "vị trí trụ sở"}
+{"s_qid": "Q2807513", "s_label": "Twelfth Air Force", "o_qid": "Q3561", "o_label": "Algiers", "start": 1942, "end": 1943, "relation": "P159", "r_label": "vị trí trụ sở"}
+{"s_qid": "Q2807513", "s_label": "Twelfth Air Force", "o_qid": "Q2044", "o_label": "Firenze", "start": 1944, "end": 1945, "relation": "P159", "r_label": "vị trí trụ sở"}
+{"s_qid": "Q2807513", "s_label": "Twelfth Air Force", "o_qid": "Q2751", "o_label": "Siena", "start": 1944, "end": 1944, "relation": "P159", "r_label": "vị trí trụ sở"}
+{"s_qid": "Q2807513", "s_label": "Twelfth Air Force", "o_qid": "Q1721", "o_label": "Wiesbaden", "start": 1951, "end": 1951, "relation": "P159", "r_label": "vị trí trụ sở"}
+{"s_qid": "Q17068357", "s_label": "Mapbox", "o_qid": "Q61", "o_label": "Washington, D.C.", "start": 2010, "end": null, "relation": "P159", "r_label": "vị trí trụ sở"}
+{"s_qid": "Q17068357", "s_label": "Mapbox", "o_qid": "Q62", "o_label": "San Francisco", "start": null, "end": 2021, "relation": "P159", "r_label": "vị trí trụ sở"}
+{"s_qid": "Q21605526", "s_label": "SNCF Réseau", "o_qid": "Q160506", "o_label": "Saint-Denis", "start": null, "end": 2024, "relation": "P159", "r_label": "vị trí trụ sở"}
+{"s_qid": "Q21605526", "s_label": "SNCF Réseau", "o_qid": "Q131575588", "o_label": "Saint-Denis", "start": 2025, "end": null, "relation": "P159", "r_label": "vị trí trụ sở"}
+{"s_qid": "Q13646", "s_label": "Société nationale des chemins de fer français", "o_qid": "Q160506", "o_label": "Saint-Denis", "start": 2013, "end": 2024, "relation": "P159", "r_label": "vị trí trụ sở"}
+{"s_qid": "Q13646", "s_label": "Société nationale des chemins de fer français", "o_qid": "Q131575588", "o_label": "Saint-Denis", "start": 2025, "end": null, "relation": "P159", "r_label": "vị trí trụ sở"}
+{"s_qid": "Q39183", "s_label": "FC Zlín", "o_qid": "Q171018", "o_label": "Zlín", "start": 2001, "end": null, "relation": "P159", "r_label": "vị trí trụ sở"}
+{"s_qid": "Q56010", "s_label": "Bundeswehr", "o_qid": "Q586", "o_label": "Bonn", "start": 1955, "end": null, "relation": "P159", "r_label": "vị trí trụ sở"}
+{"s_qid": "Q56010", "s_label": "Bundeswehr", "o_qid": "Q64", "o_label": "Berlin", "start": 1993, "end": null, "relation": "P159", "r_label": "vị trí trụ sở"}
+{"s_qid": "Q80171", "s_label": "Vasyl' Stus Donetsk National University", "o_qid": "Q43070", "o_label": "Donetsk", "start": null, "end": 2014, "relation": "P159", "r_label": "vị trí trụ sở"}
+{"s_qid": "Q192653", "s_label": "Czech Airlines", "o_qid": "Q1085", "o_label": "Praha", "start": 2016, "end": 2021, "relation": "P159", "r_label": "vị trí trụ sở"}
+{"s_qid": "Q192653", "s_label": "Czech Airlines", "o_qid": "Q1085", "o_label": "Praha", "start": 2021, "end": null, "relation": "P159", "r_label": "vị trí trụ sở"}
+{"s_qid": "Q203008", "s_label": "Los Angeles Kings", "o_qid": "Q65", "o_label": "Los Angeles", "start": 1999, "end": null, "relation": "P159", "r_label": "vị trí trụ sở"}
+{"s_qid": "Q655542", "s_label": "Estonian University of Life Sciences", "o_qid": "Q13972", "o_label": "Tartu", "start": 1954, "end": 1996, "relation": "P159", "r_label": "vị trí trụ sở"}
+{"s_qid": "Q655542", "s_label": "Estonian University of Life Sciences", "o_qid": "Q13972", "o_label": "Tartu", "start": 1996, "end": 2007, "relation": "P159", "r_label": "vị trí trụ sở"}
+{"s_qid": "Q655542", "s_label": "Estonian University of Life Sciences", "o_qid": "Q13972", "o_label": "Tartu", "start": 2007, "end": null, "relation": "P159", "r_label": "vị trí trụ sở"}
+{"s_qid": "Q737049", "s_label": "FK Vėtra", "o_qid": "Q216", "o_label": "Vilnius", "start": 2002, "end": 2014, "relation": "P159", "r_label": "vị trí trụ sở"}
+{"s_qid": "Q1370318", "s_label": "Estonian Academy of Arts", "o_qid": "Q1770", "o_label": "Tallinn", "start": null, "end": 2009, "relation": "P159", "r_label": "vị trí trụ sở"}
+{"s_qid": "Q1370318", "s_label": "Estonian Academy of Arts", "o_qid": "Q1770", "o_label": "Tallinn", "start": 2018, "end": null, "relation": "P159", "r_label": "vị trí trụ sở"}
+{"s_qid": "Q7813868", "s_label": "Tokyo Dental College", "o_qid": "Q170616", "o_label": "Chiba", "start": null, "end": 2014, "relation": "P159", "r_label": "vị trí trụ sở"}
+{"s_qid": "Q31113", "s_label": "Trung Quốc Quốc Dân Đảng", "o_qid": "Q1867", "o_label": "Đài Bắc", "start": 1949, "end": null, "relation": "P159", "r_label": "vị trí trụ sở"}
+{"s_qid": "Q31113", "s_label": "Trung Quốc Quốc Dân Đảng", "o_qid": "Q8686", "o_label": "Thượng Hải", "start": 1919, "end": 1920, "relation": "P159", "r_label": "vị trí trụ sở"}
+{"s_qid": "Q31113", "s_label": "Trung Quốc Quốc Dân Đảng", "o_qid": "Q16572", "o_label": "Quảng Châu", "start": 1920, "end": 1927, "relation": "P159", "r_label": "vị trí trụ sở"}
+{"s_qid": "Q31113", "s_label": "Trung Quốc Quốc Dân Đảng", "o_qid": "Q16666", "o_label": "Nam Kinh", "start": 1927, "end": 1937, "relation": "P159", "r_label": "vị trí trụ sở"}
+{"s_qid": "Q31113", "s_label": "Trung Quốc Quốc Dân Đảng", "o_qid": "Q11725", "o_label": "Trùng Khánh", "start": 1937, "end": 1946, "relation": "P159", "r_label": "vị trí trụ sở"}
+{"s_qid": "Q31113", "s_label": "Trung Quốc Quốc Dân Đảng", "o_qid": "Q16666", "o_label": "Nam Kinh", "start": 1946, "end": 1949, "relation": "P159", "r_label": "vị trí trụ sở"}
+{"s_qid": "Q151624", "s_label": "Liên minh các quốc gia Đức", "o_qid": "Q1794", "o_label": "Frankfurt am Main", "start": 1815, "end": null, "relation": "P159", "r_label": "vị trí trụ sở"}
+{"s_qid": "Q590548", "s_label": "Société française de photographie", "o_qid": "Q90", "o_label": "Paris", "start": 2022, "end": null, "relation": "P159", "r_label": "vị trí trụ sở"}
+{"s_qid": "Q1026804", "s_label": "California College of the Arts", "o_qid": "Q17042", "o_label": "Oakland", "start": 1922, "end": 2022, "relation": "P159", "r_label": "vị trí trụ sở"}
+{"s_qid": "Q1628993", "s_label": "Democratic Union of Catalonia", "o_qid": "Q1492", "o_label": "Barcelona", "start": 1977, "end": 1997, "relation": "P159", "r_label": "vị trí trụ sở"}
+{"s_qid": "Q1628993", "s_label": "Democratic Union of Catalonia", "o_qid": "Q1492", "o_label": "Barcelona", "start": 1997, "end": 2007, "relation": "P159", "r_label": "vị trí trụ sở"}
+{"s_qid": "Q1628993", "s_label": "Democratic Union of Catalonia", "o_qid": "Q1492", "o_label": "Barcelona", "start": 2007, "end": 2017, "relation": "P159", "r_label": "vị trí trụ sở"}

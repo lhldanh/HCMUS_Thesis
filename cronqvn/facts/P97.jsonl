@@ -1,0 +1,16 @@
+{"s_qid": "Q19943", "s_label": "Juan Carlos I", "o_qid": "Q38673587", "o_label": "Count of Barcelona", "start": 1993, "end": 2014, "relation": "P97", "r_label": "danh hiệu quý tộc"}
+{"s_qid": "Q122553", "s_label": "Charles II của Anh", "o_qid": "Q18810062", "o_label": "vua của nước Anh", "start": 1660, "end": 1685, "relation": "P97", "r_label": "danh hiệu quý tộc"}
+{"s_qid": "Q122553", "s_label": "Charles II của Anh", "o_qid": "Q12716207", "o_label": "monarch of Scotland", "start": 1660, "end": 1685, "relation": "P97", "r_label": "danh hiệu quý tộc"}
+{"s_qid": "Q280856", "s_label": "George VI", "o_qid": "Q337222", "o_label": "Công tước xứ York", "start": 1920, "end": 1936, "relation": "P97", "r_label": "danh hiệu quý tộc"}
+{"s_qid": "Q38370", "s_label": "Henry VIII của Anh", "o_qid": "Q337222", "o_label": "Công tước xứ York", "start": 1494, "end": 1504, "relation": "P97", "r_label": "danh hiệu quý tộc"}
+{"s_qid": "Q38370", "s_label": "Henry VIII của Anh", "o_qid": "Q18810062", "o_label": "vua của nước Anh", "start": 1509, "end": 1547, "relation": "P97", "r_label": "danh hiệu quý tộc"}
+{"s_qid": "Q269412", "s_label": "George V của Anh", "o_qid": "Q337222", "o_label": "Công tước xứ York", "start": 1892, "end": 1910, "relation": "P97", "r_label": "danh hiệu quý tộc"}
+{"s_qid": "Q81506", "s_label": "Charles I của Anh", "o_qid": "Q337222", "o_label": "Công tước xứ York", "start": 1605, "end": 1625, "relation": "P97", "r_label": "danh hiệu quý tộc"}
+{"s_qid": "Q81506", "s_label": "Charles I của Anh", "o_qid": "Q18810062", "o_label": "vua của nước Anh", "start": 1625, "end": null, "relation": "P97", "r_label": "danh hiệu quý tộc"}
+{"s_qid": "Q81506", "s_label": "Charles I của Anh", "o_qid": "Q12716207", "o_label": "monarch of Scotland", "start": 1625, "end": null, "relation": "P97", "r_label": "danh hiệu quý tộc"}
+{"s_qid": "Q81506", "s_label": "Charles I của Anh", "o_qid": "Q12552047", "o_label": "lãnh chúa", "start": 1600, "end": null, "relation": "P97", "r_label": "danh hiệu quý tộc"}
+{"s_qid": "Q154952", "s_label": "Willem-Alexander, Hoàng tử xứ Orange", "o_qid": "Q1496077", "o_label": "Jonkheer", "start": 1967, "end": null, "relation": "P97", "r_label": "danh hiệu quý tộc"}
+{"s_qid": "Q8442", "s_label": "Otto von Bismarck", "o_qid": "Q166886", "o_label": "công tước", "start": 1890, "end": null, "relation": "P97", "r_label": "danh hiệu quý tộc"}
+{"s_qid": "Q45068", "s_label": "Carl XVI Gustaf của Thụy Điển", "o_qid": "Q2747456", "o_label": "vương tước", "start": 1946, "end": 1950, "relation": "P97", "r_label": "danh hiệu quý tộc"}
+{"s_qid": "Q45068", "s_label": "Carl XVI Gustaf của Thụy Điển", "o_qid": "Q207293", "o_label": "thái tử", "start": 1950, "end": 1973, "relation": "P97", "r_label": "danh hiệu quý tộc"}
+{"s_qid": "Q45068", "s_label": "Carl XVI Gustaf của Thụy Điển", "o_qid": "Q166886", "o_label": "công tước", "start": 1946, "end": 1973, "relation": "P97", "r_label": "danh hiệu quý tộc"}

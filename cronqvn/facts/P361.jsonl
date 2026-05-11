@@ -1,0 +1,131 @@
+{"s_qid": "Q233", "s_label": "Malta", "o_qid": "Q7785", "o_label": "Khối Thịnh vượng chung Anh", "start": 1800, "end": 1964, "relation": "P361", "r_label": "một phần của"}
+{"s_qid": "Q9396", "s_label": "Deutsche Telekom", "o_qid": "Q155718", "o_label": "DAX", "start": 1996, "end": null, "relation": "P361", "r_label": "một phần của"}
+{"s_qid": "Q9396", "s_label": "Deutsche Telekom", "o_qid": "Q378967", "o_label": "TecDAX", "start": 2018, "end": null, "relation": "P361", "r_label": "một phần của"}
+{"s_qid": "Q9396", "s_label": "Deutsche Telekom", "o_qid": "Q1230458", "o_label": "DivDAX", "start": 2001, "end": 2003, "relation": "P361", "r_label": "một phần của"}
+{"s_qid": "Q9396", "s_label": "Deutsche Telekom", "o_qid": "Q1230458", "o_label": "DivDAX", "start": 2005, "end": null, "relation": "P361", "r_label": "một phần của"}
+{"s_qid": "Q27530", "s_label": "Daimler AG", "o_qid": "Q155718", "o_label": "DAX", "start": 1998, "end": null, "relation": "P361", "r_label": "một phần của"}
+{"s_qid": "Q27530", "s_label": "Daimler AG", "o_qid": "Q1230458", "o_label": "DivDAX", "start": 1999, "end": 2009, "relation": "P361", "r_label": "một phần của"}
+{"s_qid": "Q27530", "s_label": "Daimler AG", "o_qid": "Q1230458", "o_label": "DivDAX", "start": 2011, "end": 2021, "relation": "P361", "r_label": "một phần của"}
+{"s_qid": "Q27530", "s_label": "Daimler AG", "o_qid": "Q1230458", "o_label": "DivDAX", "start": 2022, "end": null, "relation": "P361", "r_label": "một phần của"}
+{"s_qid": "Q81230", "s_label": "Siemens AG", "o_qid": "Q155718", "o_label": "DAX", "start": 1988, "end": null, "relation": "P361", "r_label": "một phần của"}
+{"s_qid": "Q81230", "s_label": "Siemens AG", "o_qid": "Q1230458", "o_label": "DivDAX", "start": 2001, "end": 2002, "relation": "P361", "r_label": "một phần của"}
+{"s_qid": "Q81230", "s_label": "Siemens AG", "o_qid": "Q1230458", "o_label": "DivDAX", "start": 2003, "end": 2004, "relation": "P361", "r_label": "một phần của"}
+{"s_qid": "Q81230", "s_label": "Siemens AG", "o_qid": "Q1230458", "o_label": "DivDAX", "start": 2009, "end": 2022, "relation": "P361", "r_label": "một phần của"}
+{"s_qid": "Q273461", "s_label": "École centrale de Lille", "o_qid": "Q1322289", "o_label": "University of Lille", "start": null, "end": 2019, "relation": "P361", "r_label": "một phần của"}
+{"s_qid": "Q1053614", "s_label": "Trung tâm Nghiên cứu Chiến lược và Quốc tế", "o_qid": "Q333886", "o_label": "Đại học Georgetown", "start": 1962, "end": 1987, "relation": "P361", "r_label": "một phần của"}
+{"s_qid": "Q1107723", "s_label": "University of Horticulture and Food Industry", "o_qid": "Q851164", "o_label": "Đại học Corvinus", "start": 2003, "end": 2015, "relation": "P361", "r_label": "một phần của"}
+{"s_qid": "Q1107723", "s_label": "University of Horticulture and Food Industry", "o_qid": "Q1296434", "o_label": "Hungarian University of Agriculture and Life Sciences", "start": 2000, "end": 2003, "relation": "P361", "r_label": "một phần của"}
+{"s_qid": "Q1107723", "s_label": "University of Horticulture and Food Industry", "o_qid": "Q1296434", "o_label": "Hungarian University of Agriculture and Life Sciences", "start": 2016, "end": null, "relation": "P361", "r_label": "một phần của"}
+{"s_qid": "Q1130022", "s_label": "London and South Western Railway", "o_qid": "Q741266", "o_label": "Southern Railway", "start": 1923, "end": null, "relation": "P361", "r_label": "một phần của"}
+{"s_qid": "Q1331280", "s_label": "Học viện Không quân Hoa Kỳ", "o_qid": "Q11223", "o_label": "Không quân Hoa Kỳ", "start": 1954, "end": null, "relation": "P361", "r_label": "một phần của"}
+{"s_qid": "Q4633436", "s_label": "2d Air Division", "o_qid": "Q7443012", "o_label": "Second Air Force", "start": 1945, "end": 1945, "relation": "P361", "r_label": "một phần của"}
+{"s_qid": "Q4633436", "s_label": "2d Air Division", "o_qid": "Q2807513", "o_label": "Twelfth Air Force", "start": 1951, "end": 1951, "relation": "P361", "r_label": "một phần của"}
+{"s_qid": "Q4633436", "s_label": "2d Air Division", "o_qid": "Q2807513", "o_label": "Twelfth Air Force", "start": 1953, "end": 1954, "relation": "P361", "r_label": "một phần của"}
+{"s_qid": "Q10279517", "s_label": "Faculdade de Medicina Veterinária", "o_qid": "Q1122926", "o_label": "Đại học Lisboa", "start": 2012, "end": null, "relation": "P361", "r_label": "một phần của"}
+{"s_qid": "Q98112081", "s_label": "Paris-Saclay Faculty of Sciences", "o_qid": "Q13531686", "o_label": "Đại học Paris-Saclay", "start": null, "end": 2020, "relation": "P361", "r_label": "một phần của"}
+{"s_qid": "Q130601800", "s_label": "Fürstenberg Gallery", "o_qid": "Q1992004", "o_label": "Gothenburg Museum of Art", "start": 1902, "end": null, "relation": "P361", "r_label": "một phần của"}
+{"s_qid": "Q262", "s_label": "Algérie", "o_qid": "Q142", "o_label": "Pháp", "start": null, "end": 1962, "relation": "P361", "r_label": "một phần của"}
+{"s_qid": "Q9325", "s_label": "Lufthansa", "o_qid": "Q155718", "o_label": "DAX", "start": 1988, "end": 2020, "relation": "P361", "r_label": "một phần của"}
+{"s_qid": "Q9325", "s_label": "Lufthansa", "o_qid": "Q1230458", "o_label": "DivDAX", "start": 1999, "end": 2002, "relation": "P361", "r_label": "một phần của"}
+{"s_qid": "Q9325", "s_label": "Lufthansa", "o_qid": "Q1230458", "o_label": "DivDAX", "start": 2003, "end": 2004, "relation": "P361", "r_label": "một phần của"}
+{"s_qid": "Q9325", "s_label": "Lufthansa", "o_qid": "Q1230458", "o_label": "DivDAX", "start": 2005, "end": 2010, "relation": "P361", "r_label": "một phần của"}
+{"s_qid": "Q9325", "s_label": "Lufthansa", "o_qid": "Q1230458", "o_label": "DivDAX", "start": 2011, "end": 2013, "relation": "P361", "r_label": "một phần của"}
+{"s_qid": "Q9325", "s_label": "Lufthansa", "o_qid": "Q1230458", "o_label": "DivDAX", "start": 2014, "end": 2015, "relation": "P361", "r_label": "một phần của"}
+{"s_qid": "Q9325", "s_label": "Lufthansa", "o_qid": "Q1230458", "o_label": "DivDAX", "start": 2016, "end": 2020, "relation": "P361", "r_label": "một phần của"}
+{"s_qid": "Q9325", "s_label": "Lufthansa", "o_qid": "Q595622", "o_label": "MDAX", "start": 2020, "end": null, "relation": "P361", "r_label": "một phần của"}
+{"s_qid": "Q41420", "s_label": "Borussia Dortmund", "o_qid": "Q448445", "o_label": "SDAX", "start": 2014, "end": 2021, "relation": "P361", "r_label": "một phần của"}
+{"s_qid": "Q41420", "s_label": "Borussia Dortmund", "o_qid": "Q448445", "o_label": "SDAX", "start": 2023, "end": null, "relation": "P361", "r_label": "một phần của"}
+{"s_qid": "Q80978", "s_label": "Hewlett-Packard", "o_qid": "Q242345", "o_label": "S&P 500", "start": 1974, "end": null, "relation": "P361", "r_label": "một phần của"}
+{"s_qid": "Q156959", "s_label": "Merck KGaA", "o_qid": "Q155718", "o_label": "DAX", "start": 2007, "end": null, "relation": "P361", "r_label": "một phần của"}
+{"s_qid": "Q156959", "s_label": "Merck KGaA", "o_qid": "Q595622", "o_label": "MDAX", "start": 1996, "end": 2007, "relation": "P361", "r_label": "một phần của"}
+{"s_qid": "Q156959", "s_label": "Merck KGaA", "o_qid": "Q1230458", "o_label": "DivDAX", "start": 2008, "end": 2009, "relation": "P361", "r_label": "một phần của"}
+{"s_qid": "Q156959", "s_label": "Merck KGaA", "o_qid": "Q1230458", "o_label": "DivDAX", "start": 2010, "end": 2011, "relation": "P361", "r_label": "một phần của"}
+{"s_qid": "Q161806", "s_label": "Viện Hàn lâm Pháp", "o_qid": "Q377066", "o_label": "Institut de France", "start": 1795, "end": null, "relation": "P361", "r_label": "một phần của"}
+{"s_qid": "Q219508", "s_label": "Citigroup", "o_qid": "Q242345", "o_label": "S&P 500", "start": 1998, "end": null, "relation": "P361", "r_label": "một phần của"}
+{"s_qid": "Q145", "s_label": "Vương quốc Liên hiệp Anh và Bắc Ireland", "o_qid": "Q458", "o_label": "Liên minh châu Âu", "start": 1973, "end": 2020, "relation": "P361", "r_label": "một phần của"}
+{"s_qid": "Q724", "s_label": "Maine", "o_qid": "Q771", "o_label": "Massachusetts", "start": 1652, "end": 1820, "relation": "P361", "r_label": "một phần của"}
+{"s_qid": "Q66048", "s_label": "Deutsche Bank", "o_qid": "Q155718", "o_label": "DAX", "start": 1988, "end": null, "relation": "P361", "r_label": "một phần của"}
+{"s_qid": "Q66048", "s_label": "Deutsche Bank", "o_qid": "Q1230458", "o_label": "DivDAX", "start": 2004, "end": 2009, "relation": "P361", "r_label": "một phần của"}
+{"s_qid": "Q66048", "s_label": "Deutsche Bank", "o_qid": "Q1230458", "o_label": "DivDAX", "start": 2012, "end": 2013, "relation": "P361", "r_label": "một phần của"}
+{"s_qid": "Q66048", "s_label": "Deutsche Bank", "o_qid": "Q1230458", "o_label": "DivDAX", "start": 2014, "end": 2015, "relation": "P361", "r_label": "một phần của"}
+{"s_qid": "Q188771", "s_label": "Viện Hàn lâm Khoa học Pháp", "o_qid": "Q377066", "o_label": "Institut de France", "start": 1795, "end": null, "relation": "P361", "r_label": "một phần của"}
+{"s_qid": "Q261163", "s_label": "7th U-boat Flotilla", "o_qid": "Q151701", "o_label": "Hải quân Đức Quốc xã", "start": 1940, "end": 1945, "relation": "P361", "r_label": "một phần của"}
+{"s_qid": "Q478214", "s_label": "Tesla", "o_qid": "Q1969854", "o_label": "Natur-Aktien-Index", "start": 2016, "end": null, "relation": "P361", "r_label": "một phần của"}
+{"s_qid": "Q662976", "s_label": "Trường Đại học Paris II", "o_qid": "Q3491150", "o_label": "Sorbonne Universités", "start": 2015, "end": 2017, "relation": "P361", "r_label": "một phần của"}
+{"s_qid": "Q1888218", "s_label": "VU University Medical Center", "o_qid": "Q56682938", "o_label": "Amsterdam UMC", "start": 2018, "end": null, "relation": "P361", "r_label": "một phần của"}
+{"s_qid": "Q2068984", "s_label": "Illumina", "o_qid": "Q242345", "o_label": "S&P 500", "start": 2015, "end": null, "relation": "P361", "r_label": "một phần của"}
+{"s_qid": "Q224", "s_label": "Croatia", "o_qid": "Q1969730", "o_label": "Khối Schengen", "start": 2023, "end": null, "relation": "P361", "r_label": "một phần của"}
+{"s_qid": "Q347", "s_label": "Liechtenstein", "o_qid": "Q151624", "o_label": "Liên minh các quốc gia Đức", "start": 1815, "end": 1866, "relation": "P361", "r_label": "một phần của"}
+{"s_qid": "Q156578", "s_label": "Tập đoàn Volkswagen", "o_qid": "Q155718", "o_label": "DAX", "start": 1988, "end": 2009, "relation": "P361", "r_label": "một phần của"}
+{"s_qid": "Q156578", "s_label": "Tập đoàn Volkswagen", "o_qid": "Q1230458", "o_label": "DivDAX", "start": 1999, "end": 2006, "relation": "P361", "r_label": "một phần của"}
+{"s_qid": "Q156578", "s_label": "Tập đoàn Volkswagen", "o_qid": "Q1230458", "o_label": "DivDAX", "start": 2010, "end": 2011, "relation": "P361", "r_label": "một phần của"}
+{"s_qid": "Q156578", "s_label": "Tập đoàn Volkswagen", "o_qid": "Q1230458", "o_label": "DivDAX", "start": 2013, "end": 2016, "relation": "P361", "r_label": "một phần của"}
+{"s_qid": "Q156578", "s_label": "Tập đoàn Volkswagen", "o_qid": "Q1230458", "o_label": "DivDAX", "start": 2019, "end": 2020, "relation": "P361", "r_label": "một phần của"}
+{"s_qid": "Q156578", "s_label": "Tập đoàn Volkswagen", "o_qid": "Q155718", "o_label": "DAX", "start": 2009, "end": null, "relation": "P361", "r_label": "một phần của"}
+{"s_qid": "Q156578", "s_label": "Tập đoàn Volkswagen", "o_qid": "Q1230458", "o_label": "DivDAX", "start": 2021, "end": null, "relation": "P361", "r_label": "một phần của"}
+{"s_qid": "Q182477", "s_label": "Nvidia", "o_qid": "Q242345", "o_label": "S&P 500", "start": 2001, "end": null, "relation": "P361", "r_label": "một phần của"}
+{"s_qid": "Q182477", "s_label": "Nvidia", "o_qid": "Q1969854", "o_label": "Natur-Aktien-Index", "start": 2021, "end": null, "relation": "P361", "r_label": "một phần của"}
+{"s_qid": "Q188920", "s_label": "Delta Air Lines", "o_qid": "Q242345", "o_label": "S&P 500", "start": 2013, "end": null, "relation": "P361", "r_label": "một phần của"}
+{"s_qid": "Q233098", "s_label": "Viện bảo tàng Vạn vật học Berlin", "o_qid": "Q152087", "o_label": "Đại học Humboldt Berlin", "start": 1810, "end": 2008, "relation": "P361", "r_label": "một phần của"}
+{"s_qid": "Q262760", "s_label": "Swiss Federal Institute of Technology in Lausanne", "o_qid": "Q658975", "o_label": "Đại học Lausanne", "start": 1869, "end": 1969, "relation": "P361", "r_label": "một phần của"}
+{"s_qid": "Q266423", "s_label": "Bristol-Myers Squibb", "o_qid": "Q242345", "o_label": "S&P 500", "start": 1957, "end": null, "relation": "P361", "r_label": "một phần của"}
+{"s_qid": "Q426025", "s_label": "Công quốc Savoy", "o_qid": "Q2577303", "o_label": "Vương quốc Sardinia", "start": 1720, "end": 1861, "relation": "P361", "r_label": "một phần của"}
+{"s_qid": "Q484170", "s_label": "xã của Pháp", "o_qid": "Q194203", "o_label": "Huyện của Pháp", "start": 1800, "end": null, "relation": "P361", "r_label": "một phần của"}
+{"s_qid": "Q499071", "s_label": "Công ty Đường sắt Đông Nhật Bản", "o_qid": "Q1969854", "o_label": "Natur-Aktien-Index", "start": 2004, "end": null, "relation": "P361", "r_label": "một phần của"}
+{"s_qid": "Q502940", "s_label": "General Dynamics", "o_qid": "Q242345", "o_label": "S&P 500", "start": 1957, "end": null, "relation": "P361", "r_label": "một phần của"}
+{"s_qid": "Q598814", "s_label": "Klinikum Großhadern", "o_qid": "Q55616095", "o_label": "LMU Klinikum", "start": 1999, "end": null, "relation": "P361", "r_label": "một phần của"}
+{"s_qid": "Q1673980", "s_label": "Smithsonian Tropical Research Institute", "o_qid": "Q131626", "o_label": "Viện Smithsonian", "start": 1946, "end": null, "relation": "P361", "r_label": "một phần của"}
+{"s_qid": "Q3355352", "s_label": "Royal Institute of Art", "o_qid": "Q167920", "o_label": "Học viện Mỹ thuật Hoàng gia Thụy Điển", "start": null, "end": 1978, "relation": "P361", "r_label": "một phần của"}
+{"s_qid": "Q4119673", "s_label": "Leeds School of Medicine", "o_qid": "Q503424", "o_label": "Đại học Leeds", "start": 1904, "end": null, "relation": "P361", "r_label": "một phần của"}
+{"s_qid": "Q7443012", "s_label": "Second Air Force", "o_qid": "Q2140008", "o_label": "United States Army Air Corps", "start": 1940, "end": 1941, "relation": "P361", "r_label": "một phần của"}
+{"s_qid": "Q7443012", "s_label": "Second Air Force", "o_qid": "Q741723", "o_label": "Không lực Lục quân Hoa Kỳ", "start": 1942, "end": 1945, "relation": "P361", "r_label": "một phần của"}
+{"s_qid": "Q12236130", "s_label": "Faculty of Dar Al-Uloom, Cairo University", "o_qid": "Q194445", "o_label": "Đại học Cairo", "start": 1946, "end": null, "relation": "P361", "r_label": "một phần của"}
+{"s_qid": "Q219635", "s_label": "BlackRock", "o_qid": "Q242345", "o_label": "S&P 500", "start": 2011, "end": null, "relation": "P361", "r_label": "một phần của"}
+{"s_qid": "Q2030894", "s_label": "Albert Einstein College of Medicine", "o_qid": "Q1048851", "o_label": "Yeshiva University", "start": null, "end": 2018, "relation": "P361", "r_label": "một phần của"}
+{"s_qid": "Q61686297", "s_label": "Hinatazaka46", "o_qid": "Q21129806", "o_label": "Keyakizaka46", "start": 2015, "end": 2019, "relation": "P361", "r_label": "một phần của"}
+{"s_qid": "Q983", "s_label": "Guinea Xích Đạo", "o_qid": "Q200464", "o_label": "Đế quốc Bồ Đào Nha", "start": 1472, "end": 1778, "relation": "P361", "r_label": "một phần của"}
+{"s_qid": "Q983", "s_label": "Guinea Xích Đạo", "o_qid": "Q80702", "o_label": "Đế quốc Tây Ban Nha", "start": 1778, "end": 1968, "relation": "P361", "r_label": "một phần của"}
+{"s_qid": "Q1697", "s_label": "Moskva", "o_qid": "Q2184", "o_label": "Cộng hòa Xã hội chủ nghĩa Xô viết Liên bang Nga", "start": 1929, "end": 1991, "relation": "P361", "r_label": "một phần của"}
+{"s_qid": "Q42585", "s_label": "Vương quốc Bohemia", "o_qid": "Q12548", "o_label": "Đế quốc La Mã Thần thánh", "start": null, "end": 1806, "relation": "P361", "r_label": "một phần của"}
+{"s_qid": "Q42585", "s_label": "Vương quốc Bohemia", "o_qid": "Q153136", "o_label": "Quân chủ Habsburg", "start": 1526, "end": 1804, "relation": "P361", "r_label": "một phần của"}
+{"s_qid": "Q104123", "s_label": "Pulp Fiction", "o_qid": "Q823422", "o_label": "Viện lưu trữ phim quốc gia", "start": 2013, "end": null, "relation": "P361", "r_label": "một phần của"}
+{"s_qid": "Q247489", "s_label": "Merck & Co.", "o_qid": "Q242345", "o_label": "S&P 500", "start": 1957, "end": null, "relation": "P361", "r_label": "một phần của"}
+{"s_qid": "Q622906", "s_label": "University of Technology of Compiègne", "o_qid": "Q3491150", "o_label": "Sorbonne Universités", "start": 2016, "end": null, "relation": "P361", "r_label": "một phần của"}
+{"s_qid": "Q2807513", "s_label": "Twelfth Air Force", "o_qid": "Q741723", "o_label": "Không lực Lục quân Hoa Kỳ", "start": 1942, "end": 1945, "relation": "P361", "r_label": "một phần của"}
+{"s_qid": "Q90272039", "s_label": "Paris-Saclay Medical School", "o_qid": "Q13531686", "o_label": "Đại học Paris-Saclay", "start": null, "end": 2020, "relation": "P361", "r_label": "một phần của"}
+{"s_qid": "Q2895", "s_label": "Cộng hòa Xã hội chủ nghĩa Xô viết Belorussia", "o_qid": "Q15180", "o_label": "Liên Xô", "start": 1922, "end": 1991, "relation": "P361", "r_label": "một phần của"}
+{"s_qid": "Q2895", "s_label": "Cộng hòa Xã hội chủ nghĩa Xô viết Belorussia", "o_qid": "Q2305208", "o_label": "Nga Xô viết", "start": 1919, "end": 1919, "relation": "P361", "r_label": "một phần của"}
+{"s_qid": "Q44294", "s_label": "Ford", "o_qid": "Q242345", "o_label": "S&P 500", "start": 1957, "end": null, "relation": "P361", "r_label": "một phần của"}
+{"s_qid": "Q81965", "s_label": "General Motors", "o_qid": "Q242345", "o_label": "S&P 500", "start": 2013, "end": null, "relation": "P361", "r_label": "một phần của"}
+{"s_qid": "Q152051", "s_label": "Bayer AG", "o_qid": "Q155718", "o_label": "DAX", "start": 1988, "end": null, "relation": "P361", "r_label": "một phần của"}
+{"s_qid": "Q152051", "s_label": "Bayer AG", "o_qid": "Q1230458", "o_label": "DivDAX", "start": 1999, "end": 2007, "relation": "P361", "r_label": "một phần của"}
+{"s_qid": "Q152051", "s_label": "Bayer AG", "o_qid": "Q1230458", "o_label": "DivDAX", "start": 2009, "end": 2015, "relation": "P361", "r_label": "một phần của"}
+{"s_qid": "Q152051", "s_label": "Bayer AG", "o_qid": "Q1230458", "o_label": "DivDAX", "start": 2016, "end": null, "relation": "P361", "r_label": "một phần của"}
+{"s_qid": "Q192724", "s_label": "Người Sắt", "o_qid": "Q823422", "o_label": "Viện lưu trữ phim quốc gia", "start": 2022, "end": null, "relation": "P361", "r_label": "một phần của"}
+{"s_qid": "Q193749", "s_label": "Legia Warszawa", "o_qid": "Q1812607", "o_label": "Legia Warsaw", "start": null, "end": 1989, "relation": "P361", "r_label": "một phần của"}
+{"s_qid": "Q393762", "s_label": "Agilent Technologies", "o_qid": "Q242345", "o_label": "S&P 500", "start": 2000, "end": null, "relation": "P361", "r_label": "một phần của"}
+{"s_qid": "Q1129820", "s_label": "Cooper Hewitt, Smithsonian Design Museum", "o_qid": "Q130981", "o_label": "Cooper Union", "start": 1896, "end": 1968, "relation": "P361", "r_label": "một phần của"}
+{"s_qid": "Q1129820", "s_label": "Cooper Hewitt, Smithsonian Design Museum", "o_qid": "Q131626", "o_label": "Viện Smithsonian", "start": 1968, "end": null, "relation": "P361", "r_label": "một phần của"}
+{"s_qid": "Q6088994", "s_label": "Gülhane Training and Research Hospital", "o_qid": "Q19612850", "o_label": "University of Health Sciences", "start": 2016, "end": null, "relation": "P361", "r_label": "một phần của"}
+{"s_qid": "Q11985226", "s_label": "Protestant Theological Faculty – Charles University", "o_qid": "Q31519", "o_label": "Đại học Karl ở Praha", "start": 1990, "end": null, "relation": "P361", "r_label": "một phần của"}
+{"s_qid": "Q101014168", "s_label": "National Yang-Ming University School of Medicine", "o_qid": "Q718328", "o_label": "National Yang-Ming University", "start": null, "end": 2021, "relation": "P361", "r_label": "một phần của"}
+{"s_qid": "Q101014168", "s_label": "National Yang-Ming University School of Medicine", "o_qid": "Q85877927", "o_label": "National Yang Ming Chiao Tung University", "start": 2021, "end": null, "relation": "P361", "r_label": "một phần của"}
+{"s_qid": "Q9401", "s_label": "BASF SE", "o_qid": "Q155718", "o_label": "DAX", "start": 1988, "end": null, "relation": "P361", "r_label": "một phần của"}
+{"s_qid": "Q9401", "s_label": "BASF SE", "o_qid": "Q1230458", "o_label": "DivDAX", "start": 1999, "end": null, "relation": "P361", "r_label": "một phần của"}
+{"s_qid": "Q49683", "s_label": "Đại Công quốc Litva", "o_qid": "Q172107", "o_label": "Liên bang Ba Lan–Litva", "start": 1569, "end": 1795, "relation": "P361", "r_label": "một phần của"}
+{"s_qid": "Q157617", "s_label": "Commerzbank", "o_qid": "Q155718", "o_label": "DAX", "start": 1988, "end": 2018, "relation": "P361", "r_label": "một phần của"}
+{"s_qid": "Q157617", "s_label": "Commerzbank", "o_qid": "Q595622", "o_label": "MDAX", "start": 2018, "end": 2023, "relation": "P361", "r_label": "một phần của"}
+{"s_qid": "Q157617", "s_label": "Commerzbank", "o_qid": "Q1230458", "o_label": "DivDAX", "start": 2000, "end": 2003, "relation": "P361", "r_label": "một phần của"}
+{"s_qid": "Q157617", "s_label": "Commerzbank", "o_qid": "Q1230458", "o_label": "DivDAX", "start": 2007, "end": 2009, "relation": "P361", "r_label": "một phần của"}
+{"s_qid": "Q157617", "s_label": "Commerzbank", "o_qid": "Q155718", "o_label": "DAX", "start": 2023, "end": null, "relation": "P361", "r_label": "một phần của"}
+{"s_qid": "Q158276", "s_label": "AEG", "o_qid": "Q595622", "o_label": "MDAX", "start": 1994, "end": 1996, "relation": "P361", "r_label": "một phần của"}
+{"s_qid": "Q164079", "s_label": "Vương quốc Hannover", "o_qid": "Q151624", "o_label": "Liên minh các quốc gia Đức", "start": 1815, "end": 1866, "relation": "P361", "r_label": "một phần của"}
+{"s_qid": "Q210599", "s_label": "2nd U-boat Flotilla", "o_qid": "Q1527672", "o_label": "5th U-boat Flotilla", "start": 1940, "end": 1940, "relation": "P361", "r_label": "một phần của"}
+{"s_qid": "Q210599", "s_label": "2nd U-boat Flotilla", "o_qid": "Q117829", "o_label": "3rd U-boat Flotilla", "start": 1941, "end": 1943, "relation": "P361", "r_label": "một phần của"}
+{"s_qid": "Q305473", "s_label": "IQVIA Holdings, Inc.", "o_qid": "Q242345", "o_label": "S&P 500", "start": 2017, "end": null, "relation": "P361", "r_label": "một phần của"}
+{"s_qid": "Q542511", "s_label": "Hoechst", "o_qid": "Q155718", "o_label": "DAX", "start": 1988, "end": 1999, "relation": "P361", "r_label": "một phần của"}
+{"s_qid": "Q663596", "s_label": "Gilead Sciences", "o_qid": "Q242345", "o_label": "S&P 500", "start": 2004, "end": null, "relation": "P361", "r_label": "một phần của"}
+{"s_qid": "Q1796144", "s_label": "Royal College of Music in Stockholm", "o_qid": "Q1541450", "o_label": "Học viện Âm nhạc Hoàng gia Thụy Điển", "start": null, "end": 1971, "relation": "P361", "r_label": "một phần của"}
+{"s_qid": "Q4634873", "s_label": "31st Operations Group", "o_qid": "Q2807513", "o_label": "Twelfth Air Force", "start": 1942, "end": 1942, "relation": "P361", "r_label": "một phần của"}
+{"s_qid": "Q7308054", "s_label": "Regeneron Pharmaceuticals", "o_qid": "Q242345", "o_label": "S&P 500", "start": 2013, "end": null, "relation": "P361", "r_label": "một phần của"}
+{"s_qid": "Q21096327", "s_label": "Springer Nature", "o_qid": "Q448445", "o_label": "SDAX", "start": 2024, "end": null, "relation": "P361", "r_label": "một phần của"}

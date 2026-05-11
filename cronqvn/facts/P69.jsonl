@@ -1,0 +1,442 @@
+{"s_qid": "Q207", "s_label": "George W. Bush", "o_qid": "Q2599077", "o_label": "Yale College", "start": 1964, "end": 1968, "relation": "P69", "r_label": "trường học"}
+{"s_qid": "Q207", "s_label": "George W. Bush", "o_qid": "Q49126", "o_label": "Trường Kinh doanh Harvard", "start": 1973, "end": 1975, "relation": "P69", "r_label": "trường học"}
+{"s_qid": "Q873", "s_label": "Meryl Streep", "o_qid": "Q2093794", "o_label": "Vassar College", "start": null, "end": 1971, "relation": "P69", "r_label": "trường học"}
+{"s_qid": "Q873", "s_label": "Meryl Streep", "o_qid": "Q49112", "o_label": "Đại học Yale", "start": null, "end": 1975, "relation": "P69", "r_label": "trường học"}
+{"s_qid": "Q1254", "s_label": "Kofi Annan", "o_qid": "Q1654025", "o_label": "Kwame Nkrumah University of Science and Technology", "start": 1958, "end": 1961, "relation": "P69", "r_label": "trường học"}
+{"s_qid": "Q1254", "s_label": "Kofi Annan", "o_qid": "Q142740", "o_label": "MIT Sloan School of Management", "start": 1971, "end": 1972, "relation": "P69", "r_label": "trường học"}
+{"s_qid": "Q1254", "s_label": "Kofi Annan", "o_qid": "Q1502191", "o_label": "Graduate Institute of International Studies", "start": 1961, "end": 1962, "relation": "P69", "r_label": "trường học"}
+{"s_qid": "Q2105", "s_label": "Jacques Chirac", "o_qid": "Q859363", "o_label": "Viện Nghiên cứu Chính trị Paris", "start": 1951, "end": 1953, "relation": "P69", "r_label": "trường học"}
+{"s_qid": "Q2105", "s_label": "Jacques Chirac", "o_qid": "Q1059546", "o_label": "Lycée Louis-le-Grand", "start": null, "end": 1950, "relation": "P69", "r_label": "trường học"}
+{"s_qid": "Q2105", "s_label": "Jacques Chirac", "o_qid": "Q273579", "o_label": "Trường Quốc gia Hành chính Pháp", "start": 1957, "end": 1959, "relation": "P69", "r_label": "trường học"}
+{"s_qid": "Q2567", "s_label": "Richard von Weizsäcker", "o_qid": "Q152838", "o_label": "Đại học Göttingen", "start": 1945, "end": 1955, "relation": "P69", "r_label": "trường học"}
+{"s_qid": "Q7546", "s_label": "Ingmar Bergman", "o_qid": "Q221645", "o_label": "Đại học Stockholm", "start": 1937, "end": null, "relation": "P69", "r_label": "trường học"}
+{"s_qid": "Q19943", "s_label": "Juan Carlos I", "o_qid": "Q584919", "o_label": "University of Madrid", "start": 1961, "end": null, "relation": "P69", "r_label": "trường học"}
+{"s_qid": "Q23685", "s_label": "Jimmy Carter", "o_qid": "Q559549", "o_label": "Học viện Hải quân Hoa Kỳ", "start": null, "end": 1946, "relation": "P69", "r_label": "trường học"}
+{"s_qid": "Q23685", "s_label": "Jimmy Carter", "o_qid": "Q1567748", "o_label": "Union College", "start": 1953, "end": null, "relation": "P69", "r_label": "trường học"}
+{"s_qid": "Q41421", "s_label": "Michael Jordan", "o_qid": "Q192334", "o_label": "Đại học North Carolina tại Chapel Hill", "start": 1981, "end": 1986, "relation": "P69", "r_label": "trường học"}
+{"s_qid": "Q57103", "s_label": "Karl Weierstrass", "o_qid": "Q152171", "o_label": "Đại học Bonn", "start": 1834, "end": 1838, "relation": "P69", "r_label": "trường học"}
+{"s_qid": "Q57103", "s_label": "Karl Weierstrass", "o_qid": "Q168426", "o_label": "University of Münster", "start": 1838, "end": 1840, "relation": "P69", "r_label": "trường học"}
+{"s_qid": "Q57103", "s_label": "Karl Weierstrass", "o_qid": "Q672420", "o_label": "Đại học Königsberg", "start": null, "end": 1854, "relation": "P69", "r_label": "trường học"}
+{"s_qid": "Q58978", "s_label": "Max Born", "o_qid": "Q152838", "o_label": "Đại học Göttingen", "start": 1904, "end": 1906, "relation": "P69", "r_label": "trường học"}
+{"s_qid": "Q58978", "s_label": "Max Born", "o_qid": "Q151510", "o_label": "Đại học Heidelberg", "start": 1902, "end": 1902, "relation": "P69", "r_label": "trường học"}
+{"s_qid": "Q58978", "s_label": "Max Born", "o_qid": "Q315658", "o_label": "Đại học Wrocław", "start": 1901, "end": 1904, "relation": "P69", "r_label": "trường học"}
+{"s_qid": "Q58978", "s_label": "Max Born", "o_qid": "Q206702", "o_label": "Đại học Zürich", "start": 1903, "end": 1903, "relation": "P69", "r_label": "trường học"}
+{"s_qid": "Q62626", "s_label": "Albrecht Brandi", "o_qid": "Q881870", "o_label": "Naval Academy at Mürwik", "start": 1936, "end": 1937, "relation": "P69", "r_label": "trường học"}
+{"s_qid": "Q76658", "s_label": "Frank-Walter Steinmeier", "o_qid": "Q317053", "o_label": "University of Giessen", "start": 1976, "end": 1982, "relation": "P69", "r_label": "trường học"}
+{"s_qid": "Q76658", "s_label": "Frank-Walter Steinmeier", "o_qid": "Q317053", "o_label": "University of Giessen", "start": 1980, "end": 1982, "relation": "P69", "r_label": "trường học"}
+{"s_qid": "Q77203", "s_label": "Ferdinand von Lindemann", "o_qid": "Q152838", "o_label": "Đại học Göttingen", "start": 1870, "end": 1871, "relation": "P69", "r_label": "trường học"}
+{"s_qid": "Q77203", "s_label": "Ferdinand von Lindemann", "o_qid": "Q157808", "o_label": "Đại học Kỹ thuật München", "start": 1873, "end": 1874, "relation": "P69", "r_label": "trường học"}
+{"s_qid": "Q77203", "s_label": "Ferdinand von Lindemann", "o_qid": "Q40025", "o_label": "Friedrich-Alexander-Universität Erlangen-Nürnberg", "start": 1872, "end": 1873, "relation": "P69", "r_label": "trường học"}
+{"s_qid": "Q77203", "s_label": "Ferdinand von Lindemann", "o_qid": "Q161976", "o_label": "University of Würzburg", "start": null, "end": 1877, "relation": "P69", "r_label": "trường học"}
+{"s_qid": "Q155790", "s_label": "Eugene Wigner", "o_qid": "Q51985", "o_label": "Đại học Kỹ thuật Berlin", "start": 1920, "end": 1925, "relation": "P69", "r_label": "trường học"}
+{"s_qid": "Q157451", "s_label": "Heydar Alirza oglu Aliyev", "o_qid": "Q724207", "o_label": "Azerbaijan State Oil and Industrial University", "start": 1939, "end": 1941, "relation": "P69", "r_label": "trường học"}
+{"s_qid": "Q157451", "s_label": "Heydar Alirza oglu Aliyev", "o_qid": "Q1633799", "o_label": "Baku State University", "start": 1951, "end": 1967, "relation": "P69", "r_label": "trường học"}
+{"s_qid": "Q169452", "s_label": "Shaquille O'Neal", "o_qid": "Q1521725", "o_label": "Louisiana State University", "start": null, "end": 2000, "relation": "P69", "r_label": "trường học"}
+{"s_qid": "Q169452", "s_label": "Shaquille O'Neal", "o_qid": "Q1889100", "o_label": "Đại học Phoenix", "start": null, "end": 2005, "relation": "P69", "r_label": "trường học"}
+{"s_qid": "Q169452", "s_label": "Shaquille O'Neal", "o_qid": "Q809106", "o_label": "Barry University", "start": null, "end": 2012, "relation": "P69", "r_label": "trường học"}
+{"s_qid": "Q181659", "s_label": "Ursula K. Le Guin", "o_qid": "Q49088", "o_label": "Đại học Columbia", "start": null, "end": 1952, "relation": "P69", "r_label": "trường học"}
+{"s_qid": "Q192112", "s_label": "Peter Higgs", "o_qid": "Q245247", "o_label": "Đại học King", "start": 1947, "end": 1950, "relation": "P69", "r_label": "trường học"}
+{"s_qid": "Q192112", "s_label": "Peter Higgs", "o_qid": "Q245247", "o_label": "Đại học King", "start": 1950, "end": 1951, "relation": "P69", "r_label": "trường học"}
+{"s_qid": "Q192112", "s_label": "Peter Higgs", "o_qid": "Q245247", "o_label": "Đại học King", "start": 1951, "end": 1954, "relation": "P69", "r_label": "trường học"}
+{"s_qid": "Q234798", "s_label": "Imelda Staunton", "o_qid": "Q523926", "o_label": "Viện Nghệ thuật Kịch Hoàng gia", "start": null, "end": 1976, "relation": "P69", "r_label": "trường học"}
+{"s_qid": "Q234928", "s_label": "Alice Bradley Sheldon", "o_qid": "Q432637", "o_label": "Đại học George Washington", "start": 1967, "end": 1967, "relation": "P69", "r_label": "trường học"}
+{"s_qid": "Q234928", "s_label": "Alice Bradley Sheldon", "o_qid": "Q168000", "o_label": "American University", "start": 1959, "end": 1959, "relation": "P69", "r_label": "trường học"}
+{"s_qid": "Q312632", "s_label": "Jack Vance", "o_qid": "Q168756", "o_label": "Đại học California tại Berkeley", "start": null, "end": 1942, "relation": "P69", "r_label": "trường học"}
+{"s_qid": "Q667074", "s_label": "Samuel Karlin", "o_qid": "Q21578", "o_label": "Đại học Princeton", "start": null, "end": 1947, "relation": "P69", "r_label": "trường học"}
+{"s_qid": "Q667074", "s_label": "Samuel Karlin", "o_qid": "Q659706", "o_label": "Illinois Institute of Technology", "start": null, "end": 1945, "relation": "P69", "r_label": "trường học"}
+{"s_qid": "Q2966146", "s_label": "Christophe Charle", "o_qid": "Q83259", "o_label": "École normale supérieure", "start": 1970, "end": 1975, "relation": "P69", "r_label": "trường học"}
+{"s_qid": "Q2966146", "s_label": "Christophe Charle", "o_qid": "Q999763", "o_label": "Trường Đại học Paris I", "start": null, "end": 1986, "relation": "P69", "r_label": "trường học"}
+{"s_qid": "Q2966146", "s_label": "Christophe Charle", "o_qid": "Q273518", "o_label": "School for Advanced Studies in the Social Sciences", "start": null, "end": 1975, "relation": "P69", "r_label": "trường học"}
+{"s_qid": "Q4811062", "s_label": "Richard Seymour-Conway, 4th Marquess of Hertford", "o_qid": "Q81173", "o_label": "Exeter College", "start": 1818, "end": null, "relation": "P69", "r_label": "trường học"}
+{"s_qid": "Q19005837", "s_label": "Mikolai Stroinski", "o_qid": "Q248970", "o_label": "Trường Cao đẳng âm nhạc Berklee", "start": 2001, "end": 2004, "relation": "P69", "r_label": "trường học"}
+{"s_qid": "Q19005837", "s_label": "Mikolai Stroinski", "o_qid": "Q9367901", "o_label": "VI Liceum Ogólnokształcące im. Tadeusza Reytana", "start": null, "end": 1998, "relation": "P69", "r_label": "trường học"}
+{"s_qid": "Q93370723", "s_label": "Nayra Llonch Molina", "o_qid": "Q1235594", "o_label": "Đại học Lleida", "start": 2016, "end": null, "relation": "P69", "r_label": "trường học"}
+{"s_qid": "Q93370723", "s_label": "Nayra Llonch Molina", "o_qid": "Q3551690", "o_label": "University of Winchester", "start": 2015, "end": null, "relation": "P69", "r_label": "trường học"}
+{"s_qid": "Q93370723", "s_label": "Nayra Llonch Molina", "o_qid": "Q633561", "o_label": "University of Zaragoza", "start": 2008, "end": null, "relation": "P69", "r_label": "trường học"}
+{"s_qid": "Q93370723", "s_label": "Nayra Llonch Molina", "o_qid": "Q131262", "o_label": "Đại học Bologna", "start": 2008, "end": null, "relation": "P69", "r_label": "trường học"}
+{"s_qid": "Q93370723", "s_label": "Nayra Llonch Molina", "o_qid": "Q35794", "o_label": "Đại học Cambridge", "start": 2004, "end": null, "relation": "P69", "r_label": "trường học"}
+{"s_qid": "Q93370723", "s_label": "Nayra Llonch Molina", "o_qid": "Q1235594", "o_label": "Đại học Lleida", "start": 2016, "end": 2016, "relation": "P69", "r_label": "trường học"}
+{"s_qid": "Q93370723", "s_label": "Nayra Llonch Molina", "o_qid": "Q1235594", "o_label": "Đại học Lleida", "start": 2015, "end": 2015, "relation": "P69", "r_label": "trường học"}
+{"s_qid": "Q93370723", "s_label": "Nayra Llonch Molina", "o_qid": "Q1235594", "o_label": "Đại học Lleida", "start": 2015, "end": 2015, "relation": "P69", "r_label": "trường học"}
+{"s_qid": "Q93370723", "s_label": "Nayra Llonch Molina", "o_qid": "Q1235594", "o_label": "Đại học Lleida", "start": 2014, "end": 2014, "relation": "P69", "r_label": "trường học"}
+{"s_qid": "Q93370723", "s_label": "Nayra Llonch Molina", "o_qid": "Q1235594", "o_label": "Đại học Lleida", "start": 2014, "end": 2014, "relation": "P69", "r_label": "trường học"}
+{"s_qid": "Q93370723", "s_label": "Nayra Llonch Molina", "o_qid": "Q1235594", "o_label": "Đại học Lleida", "start": 2014, "end": 2014, "relation": "P69", "r_label": "trường học"}
+{"s_qid": "Q93370723", "s_label": "Nayra Llonch Molina", "o_qid": "Q1235594", "o_label": "Đại học Lleida", "start": 2014, "end": 2014, "relation": "P69", "r_label": "trường học"}
+{"s_qid": "Q93370723", "s_label": "Nayra Llonch Molina", "o_qid": "Q1235594", "o_label": "Đại học Lleida", "start": 2013, "end": 2014, "relation": "P69", "r_label": "trường học"}
+{"s_qid": "Q93370723", "s_label": "Nayra Llonch Molina", "o_qid": "Q29673", "o_label": "University of Minho", "start": 2013, "end": 2013, "relation": "P69", "r_label": "trường học"}
+{"s_qid": "Q93370723", "s_label": "Nayra Llonch Molina", "o_qid": "Q1235594", "o_label": "Đại học Lleida", "start": 2013, "end": 2013, "relation": "P69", "r_label": "trường học"}
+{"s_qid": "Q93370723", "s_label": "Nayra Llonch Molina", "o_qid": "Q219615", "o_label": "Đại học Barcelona", "start": null, "end": 2010, "relation": "P69", "r_label": "trường học"}
+{"s_qid": "Q93370723", "s_label": "Nayra Llonch Molina", "o_qid": "Q8022", "o_label": "Generalitat of Catalonia", "start": 2006, "end": 2009, "relation": "P69", "r_label": "trường học"}
+{"s_qid": "Q93370723", "s_label": "Nayra Llonch Molina", "o_qid": "Q633561", "o_label": "University of Zaragoza", "start": 2008, "end": 2008, "relation": "P69", "r_label": "trường học"}
+{"s_qid": "Q93370723", "s_label": "Nayra Llonch Molina", "o_qid": "Q219615", "o_label": "Đại học Barcelona", "start": null, "end": 2007, "relation": "P69", "r_label": "trường học"}
+{"s_qid": "Q93370723", "s_label": "Nayra Llonch Molina", "o_qid": "Q219615", "o_label": "Đại học Barcelona", "start": 2007, "end": 2007, "relation": "P69", "r_label": "trường học"}
+{"s_qid": "Q93370723", "s_label": "Nayra Llonch Molina", "o_qid": "Q2003976", "o_label": "Technical University of Valencia", "start": 2007, "end": 2007, "relation": "P69", "r_label": "trường học"}
+{"s_qid": "Q93370723", "s_label": "Nayra Llonch Molina", "o_qid": "Q219615", "o_label": "Đại học Barcelona", "start": 2007, "end": 2007, "relation": "P69", "r_label": "trường học"}
+{"s_qid": "Q93370723", "s_label": "Nayra Llonch Molina", "o_qid": "Q1333399", "o_label": "University of Leicester", "start": 2006, "end": 2006, "relation": "P69", "r_label": "trường học"}
+{"s_qid": "Q93370723", "s_label": "Nayra Llonch Molina", "o_qid": "Q24543", "o_label": "Đại học Pomperu Fabra", "start": null, "end": 2004, "relation": "P69", "r_label": "trường học"}
+{"s_qid": "Q6294", "s_label": "Hillary Clinton", "o_qid": "Q49205", "o_label": "Wellesley College", "start": 1965, "end": 1969, "relation": "P69", "r_label": "trường học"}
+{"s_qid": "Q6294", "s_label": "Hillary Clinton", "o_qid": "Q1143289", "o_label": "Yale Law School", "start": 1969, "end": 1973, "relation": "P69", "r_label": "trường học"}
+{"s_qid": "Q7327", "s_label": "Yuri Alekseievich Gagarin", "o_qid": "Q1934904", "o_label": "Zhukovsky Air Force Engineering Academy", "start": 1961, "end": 1968, "relation": "P69", "r_label": "trường học"}
+{"s_qid": "Q9021", "s_label": "Max Planck", "o_qid": "Q55044", "o_label": "Đại học Ludwig Maximilian München", "start": 1874, "end": null, "relation": "P69", "r_label": "trường học"}
+{"s_qid": "Q9582", "s_label": "Gerald Ford", "o_qid": "Q230492", "o_label": "Đại học Michigan", "start": null, "end": 1935, "relation": "P69", "r_label": "trường học"}
+{"s_qid": "Q9582", "s_label": "Gerald Ford", "o_qid": "Q1143289", "o_label": "Yale Law School", "start": null, "end": 1941, "relation": "P69", "r_label": "trường học"}
+{"s_qid": "Q9640", "s_label": "Lyndon B. Johnson", "o_qid": "Q1495387", "o_label": "Đại học bang Texas", "start": null, "end": 1930, "relation": "P69", "r_label": "trường học"}
+{"s_qid": "Q11132", "s_label": "Sandra Day O'Connor", "o_qid": "Q41506", "o_label": "Đại học Stanford", "start": null, "end": 1950, "relation": "P69", "r_label": "trường học"}
+{"s_qid": "Q17714", "s_label": "Stephen Hawking", "o_qid": "Q81087", "o_label": "University College (Đại học Oxford)", "start": 1959, "end": 1962, "relation": "P69", "r_label": "trường học"}
+{"s_qid": "Q26321", "s_label": "Elizabeth Blackburn", "o_qid": "Q319078", "o_label": "Đại học Melbourne", "start": null, "end": 1972, "relation": "P69", "r_label": "trường học"}
+{"s_qid": "Q26321", "s_label": "Elizabeth Blackburn", "o_qid": "Q35794", "o_label": "Đại học Cambridge", "start": null, "end": 1975, "relation": "P69", "r_label": "trường học"}
+{"s_qid": "Q29545", "s_label": "Kevin Durant", "o_qid": "Q49213", "o_label": "Đại học Texas tại Austin", "start": 2006, "end": 2007, "relation": "P69", "r_label": "trường học"}
+{"s_qid": "Q36233", "s_label": "Václav Havel", "o_qid": "Q1329478", "o_label": "Czech Technical University in Prague", "start": 1955, "end": 1957, "relation": "P69", "r_label": "trường học"}
+{"s_qid": "Q41688", "s_label": "Hendrik Lorentz", "o_qid": "Q156598", "o_label": "Đại học Leiden", "start": 1870, "end": 1875, "relation": "P69", "r_label": "trường học"}
+{"s_qid": "Q48051", "s_label": "Viktor Georgyevich Kulikov", "o_qid": "Q14404494", "o_label": "Học viện Quân sự Frunze", "start": null, "end": 1953, "relation": "P69", "r_label": "trường học"}
+{"s_qid": "Q48051", "s_label": "Viktor Georgyevich Kulikov", "o_qid": "Q1934911", "o_label": "Military Academy of the General Staff of the Armed Forces of Russia", "start": null, "end": 1959, "relation": "P69", "r_label": "trường học"}
+{"s_qid": "Q61753", "s_label": "Friedrich Hirzebruch", "o_qid": "Q168426", "o_label": "University of Münster", "start": 1945, "end": 1950, "relation": "P69", "r_label": "trường học"}
+{"s_qid": "Q61753", "s_label": "Friedrich Hirzebruch", "o_qid": "Q11942", "o_label": "ETH Zürich", "start": 1949, "end": 1950, "relation": "P69", "r_label": "trường học"}
+{"s_qid": "Q68531", "s_label": "Leo Königsberger", "o_qid": "Q20266330", "o_label": "Đại học Frederick William Berlin", "start": 1857, "end": 1860, "relation": "P69", "r_label": "trường học"}
+{"s_qid": "Q76156", "s_label": "Jusuf Habibie", "o_qid": "Q1579397", "o_label": "Bandung Institute of Technology", "start": null, "end": 1954, "relation": "P69", "r_label": "trường học"}
+{"s_qid": "Q76156", "s_label": "Jusuf Habibie", "o_qid": "Q273263", "o_label": "Đại học RWTH Aachen", "start": null, "end": 1962, "relation": "P69", "r_label": "trường học"}
+{"s_qid": "Q103835", "s_label": "Peter Debye", "o_qid": "Q273263", "o_label": "Đại học RWTH Aachen", "start": 1901, "end": 1905, "relation": "P69", "r_label": "trường học"}
+{"s_qid": "Q103835", "s_label": "Peter Debye", "o_qid": "Q55044", "o_label": "Đại học Ludwig Maximilian München", "start": 1906, "end": null, "relation": "P69", "r_label": "trường học"}
+{"s_qid": "Q155794", "s_label": "Hans Bethe", "o_qid": "Q55044", "o_label": "Đại học Ludwig Maximilian München", "start": 1926, "end": 1928, "relation": "P69", "r_label": "trường học"}
+{"s_qid": "Q155794", "s_label": "Hans Bethe", "o_qid": "Q50662", "o_label": "Đại học Goethe Frankfurt", "start": 1924, "end": 1926, "relation": "P69", "r_label": "trường học"}
+{"s_qid": "Q155794", "s_label": "Hans Bethe", "o_qid": "Q35794", "o_label": "Đại học Cambridge", "start": 1929, "end": 1930, "relation": "P69", "r_label": "trường học"}
+{"s_qid": "Q155794", "s_label": "Hans Bethe", "o_qid": "Q209344", "o_label": "Đại học Sapienza của Rome", "start": 1930, "end": 1931, "relation": "P69", "r_label": "trường học"}
+{"s_qid": "Q159582", "s_label": "Aleksandr Ivanovich Pokryshkin", "o_qid": "Q14404494", "o_label": "Học viện Quân sự Frunze", "start": null, "end": 1948, "relation": "P69", "r_label": "trường học"}
+{"s_qid": "Q159582", "s_label": "Aleksandr Ivanovich Pokryshkin", "o_qid": "Q1934911", "o_label": "Military Academy of the General Staff of the Armed Forces of Russia", "start": null, "end": 1957, "relation": "P69", "r_label": "trường học"}
+{"s_qid": "Q187019", "s_label": "Philip Roth", "o_qid": "Q499451", "o_label": "Đại học Rutgers", "start": 1951, "end": 1952, "relation": "P69", "r_label": "trường học"}
+{"s_qid": "Q187019", "s_label": "Philip Roth", "o_qid": "Q131252", "o_label": "Đại học Chicago", "start": null, "end": 1955, "relation": "P69", "r_label": "trường học"}
+{"s_qid": "Q187019", "s_label": "Philip Roth", "o_qid": "Q3444679", "o_label": "Bucknell University", "start": 1952, "end": 1954, "relation": "P69", "r_label": "trường học"}
+{"s_qid": "Q187019", "s_label": "Philip Roth", "o_qid": "Q131252", "o_label": "Đại học Chicago", "start": 1956, "end": null, "relation": "P69", "r_label": "trường học"}
+{"s_qid": "Q216288", "s_label": "Garth Brooks", "o_qid": "Q749718", "o_label": "Oklahoma State University", "start": null, "end": 1984, "relation": "P69", "r_label": "trường học"}
+{"s_qid": "Q217557", "s_label": "Joyce Carol Oates", "o_qid": "Q617433", "o_label": "Đại học Syracuse", "start": null, "end": 1960, "relation": "P69", "r_label": "trường học"}
+{"s_qid": "Q217557", "s_label": "Joyce Carol Oates", "o_qid": "Q838330", "o_label": "Đại học Wisconsin – Madison", "start": null, "end": 1961, "relation": "P69", "r_label": "trường học"}
+{"s_qid": "Q287097", "s_label": "Bartel Leendert van der Waerden", "o_qid": "Q214341", "o_label": "Đại học Amsterdam", "start": 1919, "end": 1924, "relation": "P69", "r_label": "trường học"}
+{"s_qid": "Q287097", "s_label": "Bartel Leendert van der Waerden", "o_qid": "Q152838", "o_label": "Đại học Göttingen", "start": 1924, "end": 1925, "relation": "P69", "r_label": "trường học"}
+{"s_qid": "Q287097", "s_label": "Bartel Leendert van der Waerden", "o_qid": "Q156725", "o_label": "Đại học Hamburg", "start": 1926, "end": 1927, "relation": "P69", "r_label": "trường học"}
+{"s_qid": "Q358312", "s_label": "Gregory Benford", "o_qid": "Q622664", "o_label": "Đại học California, San Diego", "start": null, "end": 1967, "relation": "P69", "r_label": "trường học"}
+{"s_qid": "Q485298", "s_label": "Gillian Anderson", "o_qid": "Q1179603", "o_label": "DePaul University", "start": 1986, "end": 1990, "relation": "P69", "r_label": "trường học"}
+{"s_qid": "Q485298", "s_label": "Gillian Anderson", "o_qid": "Q49115", "o_label": "Đại học Cornell", "start": 1987, "end": 1987, "relation": "P69", "r_label": "trường học"}
+{"s_qid": "Q907372", "s_label": "Alexander Pavlovich Vinogradov", "o_qid": "Q1459393", "o_label": "S. M. Kirov Military Medical Academy", "start": null, "end": 1924, "relation": "P69", "r_label": "trường học"}
+{"s_qid": "Q907372", "s_label": "Alexander Pavlovich Vinogradov", "o_qid": "Q27621", "o_label": "Đại học Tổng hợp Sankt-Peterburg", "start": null, "end": 1925, "relation": "P69", "r_label": "trường học"}
+{"s_qid": "Q982534", "s_label": "Jacques-Louis Lions", "o_qid": "Q83259", "o_label": "École normale supérieure", "start": 1947, "end": 1951, "relation": "P69", "r_label": "trường học"}
+{"s_qid": "Q982534", "s_label": "Jacques-Louis Lions", "o_qid": "Q3064332", "o_label": "Science Faculty of Paris", "start": null, "end": 1955, "relation": "P69", "r_label": "trường học"}
+{"s_qid": "Q1053255", "s_label": "Lamberto Cesari", "o_qid": "Q645663", "o_label": "Đại học Pisa", "start": null, "end": 1933, "relation": "P69", "r_label": "trường học"}
+{"s_qid": "Q1053255", "s_label": "Lamberto Cesari", "o_qid": "Q114415800", "o_label": "Scuola Normale Superiore. Classe di Scienze", "start": 1929, "end": 1933, "relation": "P69", "r_label": "trường học"}
+{"s_qid": "Q1053255", "s_label": "Lamberto Cesari", "o_qid": "Q114415800", "o_label": "Scuola Normale Superiore. Classe di Scienze", "start": 1934, "end": 1935, "relation": "P69", "r_label": "trường học"}
+{"s_qid": "Q1624726", "s_label": "Rainer Nagel", "o_qid": "Q153978", "o_label": "Đại học Tübingen", "start": 1969, "end": 1969, "relation": "P69", "r_label": "trường học"}
+{"s_qid": "Q1680331", "s_label": "James Eells", "o_qid": "Q13371", "o_label": "Đại học Harvard", "start": 1952, "end": 1954, "relation": "P69", "r_label": "trường học"}
+{"s_qid": "Q1680331", "s_label": "James Eells", "o_qid": "Q895401", "o_label": "Bowdoin College", "start": null, "end": 1947, "relation": "P69", "r_label": "trường học"}
+{"s_qid": "Q13595531", "s_label": "Ethan Coen", "o_qid": "Q21578", "o_label": "Đại học Princeton", "start": null, "end": 1979, "relation": "P69", "r_label": "trường học"}
+{"s_qid": "Q91899149", "s_label": "Antonio-Jesús Marín-Paz", "o_qid": "Q2000065", "o_label": "University of Cádiz", "start": 2012, "end": 2017, "relation": "P69", "r_label": "trường học"}
+{"s_qid": "Q91899149", "s_label": "Antonio-Jesús Marín-Paz", "o_qid": "Q2000065", "o_label": "University of Cádiz", "start": 2012, "end": 2013, "relation": "P69", "r_label": "trường học"}
+{"s_qid": "Q91899149", "s_label": "Antonio-Jesús Marín-Paz", "o_qid": "Q2000065", "o_label": "University of Cádiz", "start": 2011, "end": 2012, "relation": "P69", "r_label": "trường học"}
+{"s_qid": "Q91899149", "s_label": "Antonio-Jesús Marín-Paz", "o_qid": "Q2000065", "o_label": "University of Cádiz", "start": 2008, "end": 2009, "relation": "P69", "r_label": "trường học"}
+{"s_qid": "Q91899149", "s_label": "Antonio-Jesús Marín-Paz", "o_qid": "Q2000065", "o_label": "University of Cádiz", "start": 2005, "end": 2009, "relation": "P69", "r_label": "trường học"}
+{"s_qid": "Q320", "s_label": "Michelle Bachelet", "o_qid": "Q232141", "o_label": "Đại học Chile", "start": 1970, "end": 1983, "relation": "P69", "r_label": "trường học"}
+{"s_qid": "Q320", "s_label": "Michelle Bachelet", "o_qid": "Q152087", "o_label": "Đại học Humboldt Berlin", "start": 1978, "end": 1979, "relation": "P69", "r_label": "trường học"}
+{"s_qid": "Q320", "s_label": "Michelle Bachelet", "o_qid": "Q154804", "o_label": "Đại học Leipzig", "start": 1978, "end": 1978, "relation": "P69", "r_label": "trường học"}
+{"s_qid": "Q1394", "s_label": "Vladimir Ilyich Lenin", "o_qid": "Q4534839", "o_label": "Faculty of Law, Saint Petersburg State University", "start": 1890, "end": null, "relation": "P69", "r_label": "trường học"}
+{"s_qid": "Q1394", "s_label": "Vladimir Ilyich Lenin", "o_qid": "Q28482293", "o_label": "Đại học Hoàng gia Kazan", "start": null, "end": 1888, "relation": "P69", "r_label": "trường học"}
+{"s_qid": "Q2516", "s_label": "Helmut Schmidt", "o_qid": "Q156725", "o_label": "Đại học Hamburg", "start": null, "end": 1949, "relation": "P69", "r_label": "trường học"}
+{"s_qid": "Q3910", "s_label": "Albert II của Monaco", "o_qid": "Q49165", "o_label": "Đại học Amherst", "start": 1977, "end": 1981, "relation": "P69", "r_label": "trường học"}
+{"s_qid": "Q3910", "s_label": "Albert II của Monaco", "o_qid": "Q459506", "o_label": "Đại học Bristol", "start": 1979, "end": null, "relation": "P69", "r_label": "trường học"}
+{"s_qid": "Q8753", "s_label": "Enrico Fermi", "o_qid": "Q114415800", "o_label": "Scuola Normale Superiore. Classe di Scienze", "start": 1918, "end": 1922, "relation": "P69", "r_label": "trường học"}
+{"s_qid": "Q8753", "s_label": "Enrico Fermi", "o_qid": "Q156598", "o_label": "Đại học Leiden", "start": 1923, "end": 1924, "relation": "P69", "r_label": "trường học"}
+{"s_qid": "Q8753", "s_label": "Enrico Fermi", "o_qid": "Q152838", "o_label": "Đại học Göttingen", "start": 1923, "end": 1923, "relation": "P69", "r_label": "trường học"}
+{"s_qid": "Q8873", "s_label": "Satyajit Ray", "o_qid": "Q2749583", "o_label": "Presidency University", "start": null, "end": 1939, "relation": "P69", "r_label": "trường học"}
+{"s_qid": "Q8877", "s_label": "Steven Spielberg", "o_qid": "Q1026926", "o_label": "California State University, Long Beach", "start": null, "end": 2002, "relation": "P69", "r_label": "trường học"}
+{"s_qid": "Q9696", "s_label": "John F. Kennedy", "o_qid": "Q49123", "o_label": "Cao đẳng Harvard", "start": 1936, "end": 1940, "relation": "P69", "r_label": "trường học"}
+{"s_qid": "Q9696", "s_label": "John F. Kennedy", "o_qid": "Q1413558", "o_label": "Stanford Graduate School of Business", "start": 1940, "end": 1941, "relation": "P69", "r_label": "trường học"}
+{"s_qid": "Q9696", "s_label": "John F. Kennedy", "o_qid": "Q21578", "o_label": "Đại học Princeton", "start": 1935, "end": 1936, "relation": "P69", "r_label": "trường học"}
+{"s_qid": "Q9916", "s_label": "Dwight D. Eisenhower", "o_qid": "Q9219", "o_label": "Học viện Quân sự West Point Hoa Kỳ", "start": 1911, "end": 1915, "relation": "P69", "r_label": "trường học"}
+{"s_qid": "Q9916", "s_label": "Dwight D. Eisenhower", "o_qid": "Q1115050", "o_label": "United States Army Command and General Staff College", "start": 1925, "end": 1926, "relation": "P69", "r_label": "trường học"}
+{"s_qid": "Q11156", "s_label": "Antonin Scalia", "o_qid": "Q49122", "o_label": "Trường Luật Harvard", "start": 1957, "end": 1960, "relation": "P69", "r_label": "trường học"}
+{"s_qid": "Q15031", "s_label": "Tập Cận Bình", "o_qid": "Q16955", "o_label": "Đại học Thanh Hoa", "start": 1975, "end": 1979, "relation": "P69", "r_label": "trường học"}
+{"s_qid": "Q15031", "s_label": "Tập Cận Bình", "o_qid": "Q16955", "o_label": "Đại học Thanh Hoa", "start": 1998, "end": 2002, "relation": "P69", "r_label": "trường học"}
+{"s_qid": "Q17457", "s_label": "Donald Knuth", "o_qid": "Q1047060", "o_label": "Case Western Reserve University", "start": null, "end": 1960, "relation": "P69", "r_label": "trường học"}
+{"s_qid": "Q17457", "s_label": "Donald Knuth", "o_qid": "Q161562", "o_label": "Viện Công nghệ California", "start": 1960, "end": 1963, "relation": "P69", "r_label": "trường học"}
+{"s_qid": "Q22686", "s_label": "Donald Trump", "o_qid": "Q130965", "o_label": "Fordham University", "start": 1964, "end": 1966, "relation": "P69", "r_label": "trường học"}
+{"s_qid": "Q22686", "s_label": "Donald Trump", "o_qid": "Q1329269", "o_label": "The Wharton School", "start": 1966, "end": 1968, "relation": "P69", "r_label": "trường học"}
+{"s_qid": "Q40904", "s_label": "Werner Heisenberg", "o_qid": "Q55044", "o_label": "Đại học Ludwig Maximilian München", "start": 1920, "end": 1923, "relation": "P69", "r_label": "trường học"}
+{"s_qid": "Q47906", "s_label": "Hermann Göring", "o_qid": "Q55044", "o_label": "Đại học Ludwig Maximilian München", "start": 1922, "end": 1923, "relation": "P69", "r_label": "trường học"}
+{"s_qid": "Q49351", "s_label": "Sir Robert Robinson", "o_qid": "Q230899", "o_label": "Đại học Manchester", "start": null, "end": 1910, "relation": "P69", "r_label": "trường học"}
+{"s_qid": "Q56189", "s_label": "Lise Meitner", "o_qid": "Q165980", "o_label": "Đại học Viên", "start": 1901, "end": 1906, "relation": "P69", "r_label": "trường học"}
+{"s_qid": "Q71031", "s_label": "Robert Bunsen", "o_qid": "Q152838", "o_label": "Đại học Göttingen", "start": 1828, "end": null, "relation": "P69", "r_label": "trường học"}
+{"s_qid": "Q72334", "s_label": "Toni Morrison", "o_qid": "Q1068752", "o_label": "Đại học Howard", "start": 1953, "end": 1953, "relation": "P69", "r_label": "trường học"}
+{"s_qid": "Q72334", "s_label": "Toni Morrison", "o_qid": "Q49115", "o_label": "Đại học Cornell", "start": 1955, "end": 1955, "relation": "P69", "r_label": "trường học"}
+{"s_qid": "Q78492", "s_label": "Tomáš Garrigue Masaryk", "o_qid": "Q165980", "o_label": "Đại học Viên", "start": 1872, "end": 1876, "relation": "P69", "r_label": "trường học"}
+{"s_qid": "Q96297", "s_label": "Emil Georg Bührle", "o_qid": "Q153987", "o_label": "Đại học Freiburg", "start": 1909, "end": 1910, "relation": "P69", "r_label": "trường học"}
+{"s_qid": "Q96297", "s_label": "Emil Georg Bührle", "o_qid": "Q55044", "o_label": "Đại học Ludwig Maximilian München", "start": 1910, "end": 1911, "relation": "P69", "r_label": "trường học"}
+{"s_qid": "Q104791", "s_label": "Ed Harris", "o_qid": "Q1026827", "o_label": "Viện nghệ thuật California", "start": null, "end": 1973, "relation": "P69", "r_label": "trường học"}
+{"s_qid": "Q106685", "s_label": "Andrzej Wajda", "o_qid": "Q414034", "o_label": "Học viện Mỹ thuật Jan Matejko", "start": 1946, "end": 1950, "relation": "P69", "r_label": "trường học"}
+{"s_qid": "Q106685", "s_label": "Andrzej Wajda", "o_qid": "Q1458675", "o_label": "Trường Điện ảnh Quốc gia Łódź", "start": 1950, "end": 1953, "relation": "P69", "r_label": "trường học"}
+{"s_qid": "Q148109", "s_label": "Subrahmanyan Chandrasekhar", "o_qid": "Q332342", "o_label": "Cao đẳng Trinity", "start": 1930, "end": 1933, "relation": "P69", "r_label": "trường học"}
+{"s_qid": "Q148109", "s_label": "Subrahmanyan Chandrasekhar", "o_qid": "Q35794", "o_label": "Đại học Cambridge", "start": null, "end": 1933, "relation": "P69", "r_label": "trường học"}
+{"s_qid": "Q152316", "s_label": "Hoàng tử Harry xứ Wales", "o_qid": "Q192088", "o_label": "Eton College", "start": null, "end": 2003, "relation": "P69", "r_label": "trường học"}
+{"s_qid": "Q183492", "s_label": "Margaret Atwood", "o_qid": "Q49124", "o_label": "Radcliffe College", "start": 1961, "end": 1962, "relation": "P69", "r_label": "trường học"}
+{"s_qid": "Q183492", "s_label": "Margaret Atwood", "o_qid": "Q13371", "o_label": "Đại học Harvard", "start": 1962, "end": 1963, "relation": "P69", "r_label": "trường học"}
+{"s_qid": "Q183492", "s_label": "Margaret Atwood", "o_qid": "Q13371", "o_label": "Đại học Harvard", "start": 1965, "end": 1967, "relation": "P69", "r_label": "trường học"}
+{"s_qid": "Q183532", "s_label": "Anne Bancroft", "o_qid": "Q389336", "o_label": "American Academy of Dramatic Arts", "start": null, "end": 1950, "relation": "P69", "r_label": "trường học"}
+{"s_qid": "Q280856", "s_label": "George VI", "o_qid": "Q332342", "o_label": "Cao đẳng Trinity", "start": null, "end": 1920, "relation": "P69", "r_label": "trường học"}
+{"s_qid": "Q297538", "s_label": "Dan Simmons", "o_qid": "Q777403", "o_label": "Đại học Washington tại St. Louis", "start": null, "end": 1971, "relation": "P69", "r_label": "trường học"}
+{"s_qid": "Q297538", "s_label": "Dan Simmons", "o_qid": "Q7958639", "o_label": "Wabash College", "start": null, "end": 1970, "relation": "P69", "r_label": "trường học"}
+{"s_qid": "Q361149", "s_label": "Gene Wolfe", "o_qid": "Q1472358", "o_label": "Đại học Houston", "start": null, "end": 1956, "relation": "P69", "r_label": "trường học"}
+{"s_qid": "Q539544", "s_label": "Jerzy Neyman", "o_qid": "Q144488", "o_label": "Đại học Warszawa", "start": 1924, "end": 1924, "relation": "P69", "r_label": "trường học"}
+{"s_qid": "Q539544", "s_label": "Jerzy Neyman", "o_qid": "Q1458695", "o_label": "Đại học Quốc gia Kharkiv", "start": 1912, "end": 1919, "relation": "P69", "r_label": "trường học"}
+{"s_qid": "Q539544", "s_label": "Jerzy Neyman", "o_qid": "Q193196", "o_label": "Đại học London", "start": 1925, "end": 1926, "relation": "P69", "r_label": "trường học"}
+{"s_qid": "Q539544", "s_label": "Jerzy Neyman", "o_qid": "Q209842", "o_label": "Đại học Paris", "start": 1926, "end": 1927, "relation": "P69", "r_label": "trường học"}
+{"s_qid": "Q598132", "s_label": "Antoni Zygmund", "o_qid": "Q144488", "o_label": "Đại học Warszawa", "start": 1919, "end": 1923, "relation": "P69", "r_label": "trường học"}
+{"s_qid": "Q2631376", "s_label": "Brian Stableford", "o_qid": "Q967165", "o_label": "University of York", "start": null, "end": 1979, "relation": "P69", "r_label": "trường học"}
+{"s_qid": "Q3158033", "s_label": "Jacques-Olivier Boudon", "o_qid": "Q546118", "o_label": "Đại học Paris-Sorbonne", "start": null, "end": 1991, "relation": "P69", "r_label": "trường học"}
+{"s_qid": "Q3167748", "s_label": "Jean-Marie Mayeur", "o_qid": "Q3064325", "o_label": "Khoa Nghệ thuật Paris", "start": null, "end": 1967, "relation": "P69", "r_label": "trường học"}
+{"s_qid": "Q3888783", "s_label": "José-Apeles Santolaria de Puey y Cruells", "o_qid": "Q421739", "o_label": "National University of Distance Education", "start": 1985, "end": 1990, "relation": "P69", "r_label": "trường học"}
+{"s_qid": "Q3888783", "s_label": "José-Apeles Santolaria de Puey y Cruells", "o_qid": "Q219694", "o_label": "Đại học Complutense Madrid", "start": 1995, "end": 1997, "relation": "P69", "r_label": "trường học"}
+{"s_qid": "Q3888783", "s_label": "José-Apeles Santolaria de Puey y Cruells", "o_qid": "Q43452", "o_label": "Autonomous University of Barcelona", "start": 2000, "end": 2001, "relation": "P69", "r_label": "trường học"}
+{"s_qid": "Q3888783", "s_label": "José-Apeles Santolaria de Puey y Cruells", "o_qid": "Q24543", "o_label": "Đại học Pomperu Fabra", "start": 2006, "end": 2008, "relation": "P69", "r_label": "trường học"}
+{"s_qid": "Q3888783", "s_label": "José-Apeles Santolaria de Puey y Cruells", "o_qid": "Q1687025", "o_label": "Đại học Giáo Hoàng Comillas", "start": 1995, "end": 1997, "relation": "P69", "r_label": "trường học"}
+{"s_qid": "Q3888783", "s_label": "José-Apeles Santolaria de Puey y Cruells", "o_qid": "Q219615", "o_label": "Đại học Barcelona", "start": 2006, "end": 2010, "relation": "P69", "r_label": "trường học"}
+{"s_qid": "Q3888783", "s_label": "José-Apeles Santolaria de Puey y Cruells", "o_qid": "Q421739", "o_label": "National University of Distance Education", "start": 2001, "end": 2007, "relation": "P69", "r_label": "trường học"}
+{"s_qid": "Q3888783", "s_label": "José-Apeles Santolaria de Puey y Cruells", "o_qid": "Q219615", "o_label": "Đại học Barcelona", "start": 2004, "end": 2007, "relation": "P69", "r_label": "trường học"}
+{"s_qid": "Q3888783", "s_label": "José-Apeles Santolaria de Puey y Cruells", "o_qid": "Q219615", "o_label": "Đại học Barcelona", "start": 2001, "end": 2004, "relation": "P69", "r_label": "trường học"}
+{"s_qid": "Q3888783", "s_label": "José-Apeles Santolaria de Puey y Cruells", "o_qid": "Q219615", "o_label": "Đại học Barcelona", "start": 2008, "end": null, "relation": "P69", "r_label": "trường học"}
+{"s_qid": "Q64712781", "s_label": "Maurice Agulhon", "o_qid": "Q83259", "o_label": "École normale supérieure", "start": 1946, "end": 1950, "relation": "P69", "r_label": "trường học"}
+{"s_qid": "Q567", "s_label": "Angela Merkel", "o_qid": "Q154804", "o_label": "Đại học Leipzig", "start": 1973, "end": 1978, "relation": "P69", "r_label": "trường học"}
+{"s_qid": "Q567", "s_label": "Angela Merkel", "o_qid": "Q49738", "o_label": "Academy of Sciences of the GDR", "start": 1986, "end": 1986, "relation": "P69", "r_label": "trường học"}
+{"s_qid": "Q7416", "s_label": "Margaret Thatcher", "o_qid": "Q774489", "o_label": "Somerville College, Oxford", "start": 1943, "end": 1947, "relation": "P69", "r_label": "trường học"}
+{"s_qid": "Q9061", "s_label": "Karl Marx", "o_qid": "Q152171", "o_label": "Đại học Bonn", "start": 1835, "end": 1836, "relation": "P69", "r_label": "trường học"}
+{"s_qid": "Q9061", "s_label": "Karl Marx", "o_qid": "Q152087", "o_label": "Đại học Humboldt Berlin", "start": 1836, "end": null, "relation": "P69", "r_label": "trường học"}
+{"s_qid": "Q34296", "s_label": "Woodrow Wilson", "o_qid": "Q2902978", "o_label": "Davidson College", "start": 1873, "end": 1874, "relation": "P69", "r_label": "trường học"}
+{"s_qid": "Q34296", "s_label": "Woodrow Wilson", "o_qid": "Q21578", "o_label": "Đại học Princeton", "start": 1875, "end": 1879, "relation": "P69", "r_label": "trường học"}
+{"s_qid": "Q34296", "s_label": "Woodrow Wilson", "o_qid": "Q193727", "o_label": "Đại học Johns Hopkins", "start": null, "end": 1886, "relation": "P69", "r_label": "trường học"}
+{"s_qid": "Q48990", "s_label": "Nikolay Nikolayevich Semyonov", "o_qid": "Q28729082", "o_label": "Imperial St. Petersburg University", "start": 1913, "end": 1917, "relation": "P69", "r_label": "trường học"}
+{"s_qid": "Q57245", "s_label": "Ernst Kummer", "o_qid": "Q32120", "o_label": "Martin Luther University Halle-Wittenberg", "start": 1828, "end": 1831, "relation": "P69", "r_label": "trường học"}
+{"s_qid": "Q62139", "s_label": "Peter II xứ Oldenburg", "o_qid": "Q154804", "o_label": "Đại học Leipzig", "start": 1846, "end": 1848, "relation": "P69", "r_label": "trường học"}
+{"s_qid": "Q69475", "s_label": "Karl-Heinz Moehle", "o_qid": "Q881870", "o_label": "Naval Academy at Mürwik", "start": 1932, "end": 1933, "relation": "P69", "r_label": "trường học"}
+{"s_qid": "Q71052", "s_label": "Albert Wangerin", "o_qid": "Q672420", "o_label": "Đại học Königsberg", "start": 1864, "end": 1866, "relation": "P69", "r_label": "trường học"}
+{"s_qid": "Q71052", "s_label": "Albert Wangerin", "o_qid": "Q32120", "o_label": "Martin Luther University Halle-Wittenberg", "start": 1862, "end": 1864, "relation": "P69", "r_label": "trường học"}
+{"s_qid": "Q78085", "s_label": "Reinhold Baer", "o_qid": "Q152838", "o_label": "Đại học Göttingen", "start": 1922, "end": 1925, "relation": "P69", "r_label": "trường học"}
+{"s_qid": "Q78085", "s_label": "Reinhold Baer", "o_qid": "Q153987", "o_label": "Đại học Freiburg", "start": 1921, "end": 1922, "relation": "P69", "r_label": "trường học"}
+{"s_qid": "Q78085", "s_label": "Reinhold Baer", "o_qid": "Q678982", "o_label": "Đại học Hanover", "start": 1920, "end": 1921, "relation": "P69", "r_label": "trường học"}
+{"s_qid": "Q122724", "s_label": "Eduard Stiefel", "o_qid": "Q11942", "o_label": "ETH Zürich", "start": 1928, "end": 1935, "relation": "P69", "r_label": "trường học"}
+{"s_qid": "Q122724", "s_label": "Eduard Stiefel", "o_qid": "Q156725", "o_label": "Đại học Hamburg", "start": 1932, "end": 1933, "relation": "P69", "r_label": "trường học"}
+{"s_qid": "Q122724", "s_label": "Eduard Stiefel", "o_qid": "Q152838", "o_label": "Đại học Göttingen", "start": 1932, "end": 1933, "relation": "P69", "r_label": "trường học"}
+{"s_qid": "Q160852", "s_label": "William Ewart Gladstone", "o_qid": "Q192088", "o_label": "Eton College", "start": 1821, "end": 1827, "relation": "P69", "r_label": "trường học"}
+{"s_qid": "Q188987", "s_label": "William Gibson", "o_qid": "Q391028", "o_label": "Đại học British Columbia", "start": null, "end": 1977, "relation": "P69", "r_label": "trường học"}
+{"s_qid": "Q271295", "s_label": "Georges Duby", "o_qid": "Q3064325", "o_label": "Khoa Nghệ thuật Paris", "start": null, "end": 1952, "relation": "P69", "r_label": "trường học"}
+{"s_qid": "Q336977", "s_label": "Guido Gezelle", "o_qid": "Q1867263", "o_label": "Klein Seminarie Roeselare", "start": 1846, "end": 1849, "relation": "P69", "r_label": "trường học"}
+{"s_qid": "Q343420", "s_label": "Lennart Carleson", "o_qid": "Q185246", "o_label": "Đại học Uppsala", "start": 1945, "end": 1950, "relation": "P69", "r_label": "trường học"}
+{"s_qid": "Q343420", "s_label": "Lennart Carleson", "o_qid": "Q13371", "o_label": "Đại học Harvard", "start": 1950, "end": 1951, "relation": "P69", "r_label": "trường học"}
+{"s_qid": "Q370815", "s_label": "Sergey Georgyevich Gorshkov", "o_qid": "Q27621", "o_label": "Đại học Tổng hợp Sankt-Peterburg", "start": null, "end": 1927, "relation": "P69", "r_label": "trường học"}
+{"s_qid": "Q540981", "s_label": "Rolf Nevanlinna", "o_qid": "Q28695", "o_label": "Đại học Helsinki", "start": 1913, "end": 1919, "relation": "P69", "r_label": "trường học"}
+{"s_qid": "Q578918", "s_label": "Alberto Calderón", "o_qid": "Q194223", "o_label": "Đại học Buenos Aires", "start": 1938, "end": 1947, "relation": "P69", "r_label": "trường học"}
+{"s_qid": "Q578918", "s_label": "Alberto Calderón", "o_qid": "Q131252", "o_label": "Đại học Chicago", "start": 1948, "end": 1950, "relation": "P69", "r_label": "trường học"}
+{"s_qid": "Q707137", "s_label": "Mikhail Lavrentyev", "o_qid": "Q113788", "o_label": "Đại học Liên bang Kazan", "start": 1918, "end": 1921, "relation": "P69", "r_label": "trường học"}
+{"s_qid": "Q707137", "s_label": "Mikhail Lavrentyev", "o_qid": "Q13164", "o_label": "Đại học Quốc gia Moskva", "start": 1921, "end": 1926, "relation": "P69", "r_label": "trường học"}
+{"s_qid": "Q707137", "s_label": "Mikhail Lavrentyev", "o_qid": "Q209842", "o_label": "Đại học Paris", "start": 1927, "end": 1927, "relation": "P69", "r_label": "trường học"}
+{"s_qid": "Q950211", "s_label": "Mark Krein", "o_qid": "Q85300", "o_label": "Đại học Odessa", "start": null, "end": 1929, "relation": "P69", "r_label": "trường học"}
+{"s_qid": "Q1444345", "s_label": "Terry Bisson", "o_qid": "Q1317143", "o_label": "Đại học Louisville", "start": null, "end": 1964, "relation": "P69", "r_label": "trường học"}
+{"s_qid": "Q4221522", "s_label": "Caitlín R. Kiernan", "o_qid": "Q736674", "o_label": "University of Colorado Boulder", "start": 1986, "end": 1990, "relation": "P69", "r_label": "trường học"}
+{"s_qid": "Q937", "s_label": "Albert Einstein", "o_qid": "Q11942", "o_label": "ETH Zürich", "start": 1896, "end": 1900, "relation": "P69", "r_label": "trường học"}
+{"s_qid": "Q937", "s_label": "Albert Einstein", "o_qid": "Q206702", "o_label": "Đại học Zürich", "start": null, "end": 1905, "relation": "P69", "r_label": "trường học"}
+{"s_qid": "Q1124", "s_label": "Bill Clinton", "o_qid": "Q81087", "o_label": "University College (Đại học Oxford)", "start": 1968, "end": 1970, "relation": "P69", "r_label": "trường học"}
+{"s_qid": "Q1124", "s_label": "Bill Clinton", "o_qid": "Q1143289", "o_label": "Yale Law School", "start": 1970, "end": 1973, "relation": "P69", "r_label": "trường học"}
+{"s_qid": "Q6279", "s_label": "Joe Biden", "o_qid": "Q617433", "o_label": "Đại học Syracuse", "start": 1965, "end": 1968, "relation": "P69", "r_label": "trường học"}
+{"s_qid": "Q6279", "s_label": "Joe Biden", "o_qid": "Q1068072", "o_label": "Đại học Delaware", "start": 1961, "end": 1965, "relation": "P69", "r_label": "trường học"}
+{"s_qid": "Q11860", "s_label": "Silvio Berlusconi", "o_qid": "Q46210", "o_label": "Đại học Milano", "start": null, "end": 1961, "relation": "P69", "r_label": "trường học"}
+{"s_qid": "Q17455", "s_label": "John von Neumann", "o_qid": "Q20266330", "o_label": "Đại học Frederick William Berlin", "start": 1921, "end": 1923, "relation": "P69", "r_label": "trường học"}
+{"s_qid": "Q17455", "s_label": "John von Neumann", "o_qid": "Q11942", "o_label": "ETH Zürich", "start": 1923, "end": 1925, "relation": "P69", "r_label": "trường học"}
+{"s_qid": "Q17455", "s_label": "John von Neumann", "o_qid": "Q390287", "o_label": "Đại học Eötvös Loránd", "start": 1926, "end": 1926, "relation": "P69", "r_label": "trường học"}
+{"s_qid": "Q17455", "s_label": "John von Neumann", "o_qid": "Q152838", "o_label": "Đại học Göttingen", "start": 1926, "end": 1927, "relation": "P69", "r_label": "trường học"}
+{"s_qid": "Q30487", "s_label": "Mikhail Sergeyevich Gorbachyov", "o_qid": "Q3890936", "o_label": "Khoa Luật, Đại học Quốc gia Moscow", "start": null, "end": 1955, "relation": "P69", "r_label": "trường học"}
+{"s_qid": "Q39829", "s_label": "Stephen King", "o_qid": "Q1307345", "o_label": "University of Maine", "start": 1966, "end": 1971, "relation": "P69", "r_label": "trường học"}
+{"s_qid": "Q43033", "s_label": "Desmond Tutu", "o_qid": "Q677993", "o_label": "University of South Africa", "start": null, "end": 1954, "relation": "P69", "r_label": "trường học"}
+{"s_qid": "Q43033", "s_label": "Desmond Tutu", "o_qid": "Q245247", "o_label": "Đại học King", "start": 1962, "end": 2012, "relation": "P69", "r_label": "trường học"}
+{"s_qid": "Q56068", "s_label": "Jennifer Doudna", "o_qid": "Q13371", "o_label": "Đại học Harvard", "start": null, "end": 1989, "relation": "P69", "r_label": "trường học"}
+{"s_qid": "Q56068", "s_label": "Jennifer Doudna", "o_qid": "Q7227384", "o_label": "Đại học Pomona", "start": null, "end": 1985, "relation": "P69", "r_label": "trường học"}
+{"s_qid": "Q57371", "s_label": "Ilham Aliyev", "o_qid": "Q322964", "o_label": "MGIMO", "start": 1977, "end": 1985, "relation": "P69", "r_label": "trường học"}
+{"s_qid": "Q61774", "s_label": "Franz Ernst Neumann", "o_qid": "Q20266330", "o_label": "Đại học Frederick William Berlin", "start": 1817, "end": 1818, "relation": "P69", "r_label": "trường học"}
+{"s_qid": "Q61774", "s_label": "Franz Ernst Neumann", "o_qid": "Q154561", "o_label": "Đại học Jena", "start": 1818, "end": 1822, "relation": "P69", "r_label": "trường học"}
+{"s_qid": "Q61774", "s_label": "Franz Ernst Neumann", "o_qid": "Q20266330", "o_label": "Đại học Frederick William Berlin", "start": 1823, "end": 1825, "relation": "P69", "r_label": "trường học"}
+{"s_qid": "Q78093", "s_label": "Max Deuring", "o_qid": "Q152838", "o_label": "Đại học Göttingen", "start": 1926, "end": 1930, "relation": "P69", "r_label": "trường học"}
+{"s_qid": "Q78093", "s_label": "Max Deuring", "o_qid": "Q209344", "o_label": "Đại học Sapienza của Rome", "start": 1928, "end": 1929, "relation": "P69", "r_label": "trường học"}
+{"s_qid": "Q83338", "s_label": "Robin Williams", "o_qid": "Q503246", "o_label": "Trường Juilliard", "start": 1973, "end": 1976, "relation": "P69", "r_label": "trường học"}
+{"s_qid": "Q87523", "s_label": "Carl Johannes Thomae", "o_qid": "Q152838", "o_label": "Đại học Göttingen", "start": 1862, "end": 1864, "relation": "P69", "r_label": "trường học"}
+{"s_qid": "Q87523", "s_label": "Carl Johannes Thomae", "o_qid": "Q32120", "o_label": "Martin Luther University Halle-Wittenberg", "start": 1861, "end": 1862, "relation": "P69", "r_label": "trường học"}
+{"s_qid": "Q87523", "s_label": "Carl Johannes Thomae", "o_qid": "Q20266330", "o_label": "Đại học Frederick William Berlin", "start": 1864, "end": 1866, "relation": "P69", "r_label": "trường học"}
+{"s_qid": "Q91146", "s_label": "Karl-Heinz Marbach", "o_qid": "Q881870", "o_label": "Naval Academy at Mürwik", "start": 1938, "end": 1938, "relation": "P69", "r_label": "trường học"}
+{"s_qid": "Q193803", "s_label": "Roger Penrose", "o_qid": "Q193196", "o_label": "Đại học London", "start": null, "end": 1955, "relation": "P69", "r_label": "trường học"}
+{"s_qid": "Q193803", "s_label": "Roger Penrose", "o_qid": "Q35794", "o_label": "Đại học Cambridge", "start": 1955, "end": 1958, "relation": "P69", "r_label": "trường học"}
+{"s_qid": "Q204338", "s_label": "Rodion Yakovlevich Malinovsky", "o_qid": "Q14404494", "o_label": "Học viện Quân sự Frunze", "start": 1927, "end": 1930, "relation": "P69", "r_label": "trường học"}
+{"s_qid": "Q242474", "s_label": "Semyon Mikhailovich Budyonny", "o_qid": "Q14404494", "o_label": "Học viện Quân sự Frunze", "start": null, "end": 1932, "relation": "P69", "r_label": "trường học"}
+{"s_qid": "Q285007", "s_label": "Peter S. Beagle", "o_qid": "Q235034", "o_label": "Đại học Pittsburgh", "start": null, "end": 1959, "relation": "P69", "r_label": "trường học"}
+{"s_qid": "Q286375", "s_label": "Charles Émile Picard", "o_qid": "Q83259", "o_label": "École normale supérieure", "start": 1874, "end": 1877, "relation": "P69", "r_label": "trường học"}
+{"s_qid": "Q286375", "s_label": "Charles Émile Picard", "o_qid": "Q1878600", "o_label": "Lycée Henri-IV", "start": 1868, "end": 1874, "relation": "P69", "r_label": "trường học"}
+{"s_qid": "Q295981", "s_label": "Terence Tao", "o_qid": "Q21578", "o_label": "Đại học Princeton", "start": 1992, "end": 1996, "relation": "P69", "r_label": "trường học"}
+{"s_qid": "Q295981", "s_label": "Terence Tao", "o_qid": "Q15575", "o_label": "Flinders University", "start": 1989, "end": 1992, "relation": "P69", "r_label": "trường học"}
+{"s_qid": "Q312499", "s_label": "Nicholas Miklouho-Maclay", "o_qid": "Q154561", "o_label": "Đại học Jena", "start": 1865, "end": 1868, "relation": "P69", "r_label": "trường học"}
+{"s_qid": "Q312499", "s_label": "Nicholas Miklouho-Maclay", "o_qid": "Q151510", "o_label": "Đại học Heidelberg", "start": 1864, "end": null, "relation": "P69", "r_label": "trường học"}
+{"s_qid": "Q312499", "s_label": "Nicholas Miklouho-Maclay", "o_qid": "Q27621", "o_label": "Đại học Tổng hợp Sankt-Peterburg", "start": 1863, "end": 1864, "relation": "P69", "r_label": "trường học"}
+{"s_qid": "Q315414", "s_label": "Israel Gelfand", "o_qid": "Q13164", "o_label": "Đại học Quốc gia Moskva", "start": 1932, "end": 1938, "relation": "P69", "r_label": "trường học"}
+{"s_qid": "Q351822", "s_label": "John Tate", "o_qid": "Q21578", "o_label": "Đại học Princeton", "start": 1946, "end": 1950, "relation": "P69", "r_label": "trường học"}
+{"s_qid": "Q351822", "s_label": "John Tate", "o_qid": "Q13371", "o_label": "Đại học Harvard", "start": 1942, "end": 1946, "relation": "P69", "r_label": "trường học"}
+{"s_qid": "Q370116", "s_label": "James Glimm", "o_qid": "Q49088", "o_label": "Đại học Columbia", "start": 1956, "end": 1959, "relation": "P69", "r_label": "trường học"}
+{"s_qid": "Q441185", "s_label": "Raoul Bott", "o_qid": "Q201492", "o_label": "Đại học McGill", "start": 1941, "end": 1945, "relation": "P69", "r_label": "trường học"}
+{"s_qid": "Q457732", "s_label": "Kevin Reynolds", "o_qid": "Q391028", "o_label": "Đại học British Columbia", "start": 2015, "end": 2019, "relation": "P69", "r_label": "trường học"}
+{"s_qid": "Q510336", "s_label": "Louis François I xứ Conti", "o_qid": "Q1059546", "o_label": "Lycée Louis-le-Grand", "start": 1726, "end": null, "relation": "P69", "r_label": "trường học"}
+{"s_qid": "Q548733", "s_label": "Vajiralongkorn", "o_qid": "Q734764", "o_label": "Đại học New South Wales", "start": 1972, "end": 1976, "relation": "P69", "r_label": "trường học"}
+{"s_qid": "Q80", "s_label": "Tim Berners-Lee", "o_qid": "Q73094", "o_label": "The Queen's College", "start": 1973, "end": 1976, "relation": "P69", "r_label": "trường học"}
+{"s_qid": "Q11256", "s_label": "Fidel Castro", "o_qid": "Q837320", "o_label": "Đại học Havana", "start": 1945, "end": 1950, "relation": "P69", "r_label": "trường học"}
+{"s_qid": "Q29207", "s_label": "Sauli Niinistö", "o_qid": "Q501841", "o_label": "University of Turku", "start": null, "end": 1974, "relation": "P69", "r_label": "trường học"}
+{"s_qid": "Q34981", "s_label": "Isaac Asimov", "o_qid": "Q49088", "o_label": "Đại học Columbia", "start": null, "end": 1939, "relation": "P69", "r_label": "trường học"}
+{"s_qid": "Q43274", "s_label": "Charles III", "o_qid": "Q319761", "o_label": "Aberystwyth University", "start": null, "end": 1969, "relation": "P69", "r_label": "trường học"}
+{"s_qid": "Q43274", "s_label": "Charles III", "o_qid": "Q332342", "o_label": "Cao đẳng Trinity", "start": 1967, "end": 1970, "relation": "P69", "r_label": "trường học"}
+{"s_qid": "Q43274", "s_label": "Charles III", "o_qid": "Q1795492", "o_label": "Britannia Royal Naval College", "start": 1971, "end": null, "relation": "P69", "r_label": "trường học"}
+{"s_qid": "Q48983", "s_label": "Linus Pauling", "o_qid": "Q161562", "o_label": "Viện Công nghệ California", "start": null, "end": 1925, "relation": "P69", "r_label": "trường học"}
+{"s_qid": "Q48983", "s_label": "Linus Pauling", "o_qid": "Q861888", "o_label": "Đại học Tiểu bang Oregon", "start": 1917, "end": 1922, "relation": "P69", "r_label": "trường học"}
+{"s_qid": "Q57065", "s_label": "Otto Hahn", "o_qid": "Q155354", "o_label": "Đại học Marburg", "start": 1897, "end": 1901, "relation": "P69", "r_label": "trường học"}
+{"s_qid": "Q57283", "s_label": "Emil Artin", "o_qid": "Q165980", "o_label": "Đại học Viên", "start": 1916, "end": 1917, "relation": "P69", "r_label": "trường học"}
+{"s_qid": "Q57283", "s_label": "Emil Artin", "o_qid": "Q154804", "o_label": "Đại học Leipzig", "start": 1919, "end": 1921, "relation": "P69", "r_label": "trường học"}
+{"s_qid": "Q57283", "s_label": "Emil Artin", "o_qid": "Q152838", "o_label": "Đại học Göttingen", "start": 1921, "end": 1922, "relation": "P69", "r_label": "trường học"}
+{"s_qid": "Q66286", "s_label": "Rita Süssmuth", "o_qid": "Q153978", "o_label": "Đại học Tübingen", "start": null, "end": 1961, "relation": "P69", "r_label": "trường học"}
+{"s_qid": "Q66286", "s_label": "Rita Süssmuth", "o_qid": "Q168426", "o_label": "University of Münster", "start": null, "end": 1964, "relation": "P69", "r_label": "trường học"}
+{"s_qid": "Q73012", "s_label": "Wilhelm Magnus", "o_qid": "Q50662", "o_label": "Đại học Goethe Frankfurt", "start": 1926, "end": 1930, "relation": "P69", "r_label": "trường học"}
+{"s_qid": "Q73012", "s_label": "Wilhelm Magnus", "o_qid": "Q153978", "o_label": "Đại học Tübingen", "start": 1925, "end": 1926, "relation": "P69", "r_label": "trường học"}
+{"s_qid": "Q76683", "s_label": "Ludwig Prandtl", "o_qid": "Q157808", "o_label": "Đại học Kỹ thuật München", "start": 1894, "end": 1898, "relation": "P69", "r_label": "trường học"}
+{"s_qid": "Q76683", "s_label": "Ludwig Prandtl", "o_qid": "Q55044", "o_label": "Đại học Ludwig Maximilian München", "start": 1899, "end": 1900, "relation": "P69", "r_label": "trường học"}
+{"s_qid": "Q77512", "s_label": "Heinrich Martin Weber", "o_qid": "Q151510", "o_label": "Đại học Heidelberg", "start": 1860, "end": 1866, "relation": "P69", "r_label": "trường học"}
+{"s_qid": "Q77512", "s_label": "Heinrich Martin Weber", "o_qid": "Q154804", "o_label": "Đại học Leipzig", "start": 1862, "end": 1863, "relation": "P69", "r_label": "trường học"}
+{"s_qid": "Q77512", "s_label": "Heinrich Martin Weber", "o_qid": "Q672420", "o_label": "Đại học Königsberg", "start": 1864, "end": 1866, "relation": "P69", "r_label": "trường học"}
+{"s_qid": "Q81082", "s_label": "Henri Poincaré", "o_qid": "Q1189954", "o_label": "École nationale supérieure des mines de Paris", "start": 1875, "end": null, "relation": "P69", "r_label": "trường học"}
+{"s_qid": "Q81082", "s_label": "Henri Poincaré", "o_qid": "Q273626", "o_label": "Trường Bách khoa Paris", "start": 1873, "end": 1875, "relation": "P69", "r_label": "trường học"}
+{"s_qid": "Q81082", "s_label": "Henri Poincaré", "o_qid": "Q209842", "o_label": "Đại học Paris", "start": null, "end": 1879, "relation": "P69", "r_label": "trường học"}
+{"s_qid": "Q150894", "s_label": "Aleksandr Mikhaylovich Vasilevskiy", "o_qid": "Q1934911", "o_label": "Military Academy of the General Staff of the Armed Forces of Russia", "start": 1936, "end": 1937, "relation": "P69", "r_label": "trường học"}
+{"s_qid": "Q154952", "s_label": "Willem-Alexander, Hoàng tử xứ Orange", "o_qid": "Q156598", "o_label": "Đại học Leiden", "start": 1987, "end": 1993, "relation": "P69", "r_label": "trường học"}
+{"s_qid": "Q186485", "s_label": "Billy Crystal", "o_qid": "Q797078", "o_label": "Trường Nghệ thuật Tisch của Đại học New York", "start": null, "end": 1970, "relation": "P69", "r_label": "trường học"}
+{"s_qid": "Q208356", "s_label": "Michael Atiyah", "o_qid": "Q332342", "o_label": "Cao đẳng Trinity", "start": 1949, "end": 1952, "relation": "P69", "r_label": "trường học"}
+{"s_qid": "Q208356", "s_label": "Michael Atiyah", "o_qid": "Q35794", "o_label": "Đại học Cambridge", "start": 1952, "end": 1955, "relation": "P69", "r_label": "trường học"}
+{"s_qid": "Q219546", "s_label": "Albert Finney", "o_qid": "Q523926", "o_label": "Viện Nghệ thuật Kịch Hoàng gia", "start": null, "end": 1956, "relation": "P69", "r_label": "trường học"}
+{"s_qid": "Q246497", "s_label": "Mstislav Keldysh", "o_qid": "Q2367115", "o_label": "MSU Faculty of Mechanics and Mathematics", "start": 1927, "end": 1931, "relation": "P69", "r_label": "trường học"}
+{"s_qid": "Q246497", "s_label": "Mstislav Keldysh", "o_qid": "Q13164", "o_label": "Đại học Quốc gia Moskva", "start": 1927, "end": 1931, "relation": "P69", "r_label": "trường học"}
+{"s_qid": "Q246497", "s_label": "Mstislav Keldysh", "o_qid": "Q611420", "o_label": "Viện toán Steklov", "start": 1934, "end": 1937, "relation": "P69", "r_label": "trường học"}
+{"s_qid": "Q312405", "s_label": "Vernor Vinge", "o_qid": "Q622664", "o_label": "Đại học California, San Diego", "start": 1971, "end": 1971, "relation": "P69", "r_label": "trường học"}
+{"s_qid": "Q312405", "s_label": "Vernor Vinge", "o_qid": "Q622664", "o_label": "Đại học California, San Diego", "start": 1968, "end": 1968, "relation": "P69", "r_label": "trường học"}
+{"s_qid": "Q312405", "s_label": "Vernor Vinge", "o_qid": "Q270222", "o_label": "Michigan State University", "start": 1966, "end": 1966, "relation": "P69", "r_label": "trường học"}
+{"s_qid": "Q323331", "s_label": "Peter Lax", "o_qid": "Q49210", "o_label": "Đại học New York", "start": 1943, "end": 1949, "relation": "P69", "r_label": "trường học"}
+{"s_qid": "Q325696", "s_label": "Pavel Sergeevich Aleksandrov", "o_qid": "Q13164", "o_label": "Đại học Quốc gia Moskva", "start": 1913, "end": 1921, "relation": "P69", "r_label": "trường học"}
+{"s_qid": "Q767691", "s_label": "Jean Delumeau", "o_qid": "Q83259", "o_label": "École normale supérieure", "start": 1943, "end": null, "relation": "P69", "r_label": "trường học"}
+{"s_qid": "Q767691", "s_label": "Jean Delumeau", "o_qid": "Q3064325", "o_label": "Khoa Nghệ thuật Paris", "start": null, "end": 1955, "relation": "P69", "r_label": "trường học"}
+{"s_qid": "Q1361997", "s_label": "Alain Corbin", "o_qid": "Q612648", "o_label": "Blaise Pascal University (Clermont II)", "start": null, "end": 1973, "relation": "P69", "r_label": "trường học"}
+{"s_qid": "Q1361997", "s_label": "Alain Corbin", "o_qid": "Q661056", "o_label": "Đại học Poitiers", "start": null, "end": 1968, "relation": "P69", "r_label": "trường học"}
+{"s_qid": "Q3084178", "s_label": "François Caron", "o_qid": "Q1394262", "o_label": "Đại học Paris Nanterre", "start": null, "end": 1969, "relation": "P69", "r_label": "trường học"}
+{"s_qid": "Q17280087", "s_label": "Emmanuelle Charpentier", "o_qid": "Q1144549", "o_label": "Université Pierre-et-Marie-Curie", "start": null, "end": 1995, "relation": "P69", "r_label": "trường học"}
+{"s_qid": "Q17280087", "s_label": "Emmanuelle Charpentier", "o_qid": "Q391083", "o_label": "Viện Pasteur", "start": null, "end": 1995, "relation": "P69", "r_label": "trường học"}
+{"s_qid": "Q78061707", "s_label": "Simon Villeneuve", "o_qid": "Q2562289", "o_label": "Université du Québec à Chicoutimi", "start": 1999, "end": 2002, "relation": "P69", "r_label": "trường học"}
+{"s_qid": "Q78061707", "s_label": "Simon Villeneuve", "o_qid": "Q1067935", "o_label": "Đại học Laval", "start": 2002, "end": 2005, "relation": "P69", "r_label": "trường học"}
+{"s_qid": "Q78061707", "s_label": "Simon Villeneuve", "o_qid": "Q2579532", "o_label": "University of Sherbrooke", "start": null, "end": 2008, "relation": "P69", "r_label": "trường học"}
+{"s_qid": "Q5598", "s_label": "Rembrandt", "o_qid": "Q156598", "o_label": "Đại học Leiden", "start": 1620, "end": 1621, "relation": "P69", "r_label": "trường học"}
+{"s_qid": "Q7747", "s_label": "Vladimir Putin", "o_qid": "Q4534839", "o_label": "Faculty of Law, Saint Petersburg State University", "start": 1970, "end": 1975, "relation": "P69", "r_label": "trường học"}
+{"s_qid": "Q7747", "s_label": "Vladimir Putin", "o_qid": "Q2495829", "o_label": "Saint Petersburg Mining University", "start": null, "end": 1997, "relation": "P69", "r_label": "trường học"}
+{"s_qid": "Q8442", "s_label": "Otto von Bismarck", "o_qid": "Q152838", "o_label": "Đại học Göttingen", "start": 1832, "end": 1833, "relation": "P69", "r_label": "trường học"}
+{"s_qid": "Q8442", "s_label": "Otto von Bismarck", "o_qid": "Q20266330", "o_label": "Đại học Frederick William Berlin", "start": 1834, "end": 1835, "relation": "P69", "r_label": "trường học"}
+{"s_qid": "Q23505", "s_label": "George H. W. Bush", "o_qid": "Q49112", "o_label": "Đại học Yale", "start": 1945, "end": 1948, "relation": "P69", "r_label": "trường học"}
+{"s_qid": "Q23559", "s_label": "Benito Mussolini", "o_qid": "Q658975", "o_label": "Đại học Lausanne", "start": 1904, "end": 1904, "relation": "P69", "r_label": "trường học"}
+{"s_qid": "Q36740", "s_label": "Aung San Suu Kyi", "o_qid": "Q220144", "o_label": "SOAS, University of London", "start": 1987, "end": null, "relation": "P69", "r_label": "trường học"}
+{"s_qid": "Q36812", "s_label": "William, Thân vương xứ Wales", "o_qid": "Q216273", "o_label": "Đại học St. Andrews", "start": 2001, "end": 2005, "relation": "P69", "r_label": "trường học"}
+{"s_qid": "Q36812", "s_label": "William, Thân vương xứ Wales", "o_qid": "Q192088", "o_label": "Eton College", "start": 1995, "end": 2000, "relation": "P69", "r_label": "trường học"}
+{"s_qid": "Q39803", "s_label": "Mario Vargas Llosa", "o_qid": "Q270145", "o_label": "National University of San Marcos", "start": 1953, "end": 1958, "relation": "P69", "r_label": "trường học"}
+{"s_qid": "Q39803", "s_label": "Mario Vargas Llosa", "o_qid": "Q219694", "o_label": "Đại học Complutense Madrid", "start": 1958, "end": 1971, "relation": "P69", "r_label": "trường học"}
+{"s_qid": "Q43723", "s_label": "Benjamin Netanyahu", "o_qid": "Q49108", "o_label": "Học viện Công nghệ Massachusetts", "start": 1972, "end": 1975, "relation": "P69", "r_label": "trường học"}
+{"s_qid": "Q43723", "s_label": "Benjamin Netanyahu", "o_qid": "Q142740", "o_label": "MIT Sloan School of Management", "start": null, "end": 1977, "relation": "P69", "r_label": "trường học"}
+{"s_qid": "Q48048", "s_label": "Ivan Ignatyevich Yakubovsky", "o_qid": "Q1934911", "o_label": "Military Academy of the General Staff of the Armed Forces of Russia", "start": null, "end": 1948, "relation": "P69", "r_label": "trường học"}
+{"s_qid": "Q61053", "s_label": "Olaf Scholz", "o_qid": "Q156725", "o_label": "Đại học Hamburg", "start": 1978, "end": 1985, "relation": "P69", "r_label": "trường học"}
+{"s_qid": "Q61768", "s_label": "Helmut Hasse", "o_qid": "Q155354", "o_label": "Đại học Marburg", "start": 1920, "end": 1922, "relation": "P69", "r_label": "trường học"}
+{"s_qid": "Q61768", "s_label": "Helmut Hasse", "o_qid": "Q152838", "o_label": "Đại học Göttingen", "start": 1918, "end": 1920, "relation": "P69", "r_label": "trường học"}
+{"s_qid": "Q61768", "s_label": "Helmut Hasse", "o_qid": "Q156737", "o_label": "Đại học Kiel", "start": 1917, "end": 1918, "relation": "P69", "r_label": "trường học"}
+{"s_qid": "Q65185", "s_label": "Wolfgang Krull", "o_qid": "Q153987", "o_label": "Đại học Freiburg", "start": 1919, "end": 1920, "relation": "P69", "r_label": "trường học"}
+{"s_qid": "Q65185", "s_label": "Wolfgang Krull", "o_qid": "Q152838", "o_label": "Đại học Göttingen", "start": 1920, "end": 1921, "relation": "P69", "r_label": "trường học"}
+{"s_qid": "Q65185", "s_label": "Wolfgang Krull", "o_qid": "Q153987", "o_label": "Đại học Freiburg", "start": 1921, "end": 1922, "relation": "P69", "r_label": "trường học"}
+{"s_qid": "Q65209", "s_label": "Jürgen Moser", "o_qid": "Q152838", "o_label": "Đại học Göttingen", "start": 1947, "end": 1952, "relation": "P69", "r_label": "trường học"}
+{"s_qid": "Q76179", "s_label": "Megawati Sukarnoputri", "o_qid": "Q534515", "o_label": "Trường Đại học Indonesia", "start": 1970, "end": null, "relation": "P69", "r_label": "trường học"}
+{"s_qid": "Q76179", "s_label": "Megawati Sukarnoputri", "o_qid": "Q3181122", "o_label": "Padjadjaran University", "start": 1965, "end": null, "relation": "P69", "r_label": "trường học"}
+{"s_qid": "Q103876", "s_label": "Peter O'Toole", "o_qid": "Q523926", "o_label": "Viện Nghệ thuật Kịch Hoàng gia", "start": 1952, "end": 1955, "relation": "P69", "r_label": "trường học"}
+{"s_qid": "Q106235", "s_label": "Hans-Dietrich Genscher", "o_qid": "Q32120", "o_label": "Martin Luther University Halle-Wittenberg", "start": 1946, "end": null, "relation": "P69", "r_label": "trường học"}
+{"s_qid": "Q106235", "s_label": "Hans-Dietrich Genscher", "o_qid": "Q154804", "o_label": "Đại học Leipzig", "start": null, "end": 1949, "relation": "P69", "r_label": "trường học"}
+{"s_qid": "Q164396", "s_label": "Victor Ambartsumian", "o_qid": "Q323681", "o_label": "Đại học Herzen", "start": 1924, "end": 1925, "relation": "P69", "r_label": "trường học"}
+{"s_qid": "Q164396", "s_label": "Victor Ambartsumian", "o_qid": "Q4483558", "o_label": "Faculty of Physics and Mathematics of the Saint Petersburg University", "start": 1925, "end": 1928, "relation": "P69", "r_label": "trường học"}
+{"s_qid": "Q286312", "s_label": "Wolfgang Lüth", "o_qid": "Q881870", "o_label": "Naval Academy at Mürwik", "start": 1934, "end": 1935, "relation": "P69", "r_label": "trường học"}
+{"s_qid": "Q359480", "s_label": "Kishida Fumio", "o_qid": "Q274486", "o_label": "Đại học Waseda", "start": null, "end": 1982, "relation": "P69", "r_label": "trường học"}
+{"s_qid": "Q381347", "s_label": "Irving Segal", "o_qid": "Q21578", "o_label": "Đại học Princeton", "start": 1934, "end": 1937, "relation": "P69", "r_label": "trường học"}
+{"s_qid": "Q381347", "s_label": "Irving Segal", "o_qid": "Q49112", "o_label": "Đại học Yale", "start": 1937, "end": 1940, "relation": "P69", "r_label": "trường học"}
+{"s_qid": "Q855252", "s_label": "Bhumibol Adulyadej", "o_qid": "Q658975", "o_label": "Đại học Lausanne", "start": 1945, "end": 1951, "relation": "P69", "r_label": "trường học"}
+{"s_qid": "Q913403", "s_label": "Mike Resnick", "o_qid": "Q131252", "o_label": "Đại học Chicago", "start": 1959, "end": 1961, "relation": "P69", "r_label": "trường học"}
+{"s_qid": "Q1030228", "s_label": "Ludvig Faddeev", "o_qid": "Q27621", "o_label": "Đại học Tổng hợp Sankt-Peterburg", "start": 1957, "end": 1959, "relation": "P69", "r_label": "trường học"}
+{"s_qid": "Q1680238", "s_label": "James D. Murray", "o_qid": "Q216273", "o_label": "Đại học St. Andrews", "start": 1950, "end": 1955, "relation": "P69", "r_label": "trường học"}
+{"s_qid": "Q1680238", "s_label": "James D. Murray", "o_qid": "Q13371", "o_label": "Đại học Harvard", "start": 1956, "end": 1957, "relation": "P69", "r_label": "trường học"}
+{"s_qid": "Q1926870", "s_label": "Michael Artin", "o_qid": "Q13371", "o_label": "Đại học Harvard", "start": 1955, "end": 1960, "relation": "P69", "r_label": "trường học"}
+{"s_qid": "Q1926870", "s_label": "Michael Artin", "o_qid": "Q21578", "o_label": "Đại học Princeton", "start": 1952, "end": 1955, "relation": "P69", "r_label": "trường học"}
+{"s_qid": "Q1930973", "s_label": "Michel Vovelle", "o_qid": "Q4041", "o_label": "Lumière University Lyon 2", "start": null, "end": 1971, "relation": "P69", "r_label": "trường học"}
+{"s_qid": "Q1930973", "s_label": "Michel Vovelle", "o_qid": "Q3578287", "o_label": "École normale supérieure de Saint-Cloud", "start": 1953, "end": null, "relation": "P69", "r_label": "trường học"}
+{"s_qid": "Q2704774", "s_label": "Borys Paton", "o_qid": "Q85449", "o_label": "Igor Sikorsky Kyiv Polytechnic Institute", "start": null, "end": 1941, "relation": "P69", "r_label": "trường học"}
+{"s_qid": "Q2856642", "s_label": "Antoine Prost", "o_qid": "Q859363", "o_label": "Viện Nghiên cứu Chính trị Paris", "start": null, "end": 1963, "relation": "P69", "r_label": "trường học"}
+{"s_qid": "Q2856642", "s_label": "Antoine Prost", "o_qid": "Q546118", "o_label": "Đại học Paris-Sorbonne", "start": null, "end": 1975, "relation": "P69", "r_label": "trường học"}
+{"s_qid": "Q6274539", "s_label": "Jonathan Strahan", "o_qid": "Q1517021", "o_label": "Đại học Tây Úc", "start": null, "end": 1986, "relation": "P69", "r_label": "trường học"}
+{"s_qid": "Q10542900", "s_label": "Hubert Stanley Wall", "o_qid": "Q838330", "o_label": "Đại học Wisconsin – Madison", "start": 1924, "end": 1927, "relation": "P69", "r_label": "trường học"}
+{"s_qid": "Q10542900", "s_label": "Hubert Stanley Wall", "o_qid": "Q5171517", "o_label": "Cornell College", "start": 1920, "end": 1924, "relation": "P69", "r_label": "trường học"}
+{"s_qid": "Q65312484", "s_label": "P. Djèlí Clark", "o_qid": "Q969850", "o_label": "Stony Brook University", "start": null, "end": 2016, "relation": "P69", "r_label": "trường học"}
+{"s_qid": "Q76", "s_label": "Barack Obama", "o_qid": "Q1346110", "o_label": "Học viện phương Tây", "start": 1979, "end": 1981, "relation": "P69", "r_label": "trường học"}
+{"s_qid": "Q76", "s_label": "Barack Obama", "o_qid": "Q49088", "o_label": "Đại học Columbia", "start": 1981, "end": 1983, "relation": "P69", "r_label": "trường học"}
+{"s_qid": "Q76", "s_label": "Barack Obama", "o_qid": "Q49122", "o_label": "Trường Luật Harvard", "start": 1988, "end": 1991, "relation": "P69", "r_label": "trường học"}
+{"s_qid": "Q76", "s_label": "Barack Obama", "o_qid": "Q13371", "o_label": "Đại học Harvard", "start": 1988, "end": 1991, "relation": "P69", "r_label": "trường học"}
+{"s_qid": "Q2124", "s_label": "Valéry Giscard d'Estaing", "o_qid": "Q273579", "o_label": "Trường Quốc gia Hành chính Pháp", "start": 1949, "end": 1951, "relation": "P69", "r_label": "trường học"}
+{"s_qid": "Q8007", "s_label": "Franklin D. Roosevelt", "o_qid": "Q1149089", "o_label": "Columbia Law School", "start": 1904, "end": 1907, "relation": "P69", "r_label": "trường học"}
+{"s_qid": "Q25320", "s_label": "Paul Langevin", "o_qid": "Q83259", "o_label": "École normale supérieure", "start": 1894, "end": 1897, "relation": "P69", "r_label": "trường học"}
+{"s_qid": "Q25320", "s_label": "Paul Langevin", "o_qid": "Q273638", "o_label": "Trường Lý Hóa Công nghiệp Paris - ESPCI Paris", "start": 1888, "end": 1893, "relation": "P69", "r_label": "trường học"}
+{"s_qid": "Q29230", "s_label": "Martti Ahtisaari", "o_qid": "Q1357517", "o_label": "Đại học Oulu", "start": null, "end": 1959, "relation": "P69", "r_label": "trường học"}
+{"s_qid": "Q44371", "s_label": "Valentina Vladimirovna Tereshkova", "o_qid": "Q1934904", "o_label": "Zhukovsky Air Force Engineering Academy", "start": null, "end": 1969, "relation": "P69", "r_label": "trường học"}
+{"s_qid": "Q47480", "s_label": "Paul Dirac", "o_qid": "Q459506", "o_label": "Đại học Bristol", "start": 1918, "end": 1923, "relation": "P69", "r_label": "trường học"}
+{"s_qid": "Q47480", "s_label": "Paul Dirac", "o_qid": "Q35794", "o_label": "Đại học Cambridge", "start": 1923, "end": 1926, "relation": "P69", "r_label": "trường học"}
+{"s_qid": "Q57253", "s_label": "Otto Kretschmer", "o_qid": "Q881870", "o_label": "Naval Academy at Mürwik", "start": 1932, "end": 1933, "relation": "P69", "r_label": "trường học"}
+{"s_qid": "Q57334", "s_label": "Dimitris Christofias", "o_qid": "Q83172", "o_label": "Viện Hàn lâm Khoa học Nga", "start": 1971, "end": 1974, "relation": "P69", "r_label": "trường học"}
+{"s_qid": "Q61001", "s_label": "Erich Topp", "o_qid": "Q678982", "o_label": "Đại học Hanover", "start": 1946, "end": 1950, "relation": "P69", "r_label": "trường học"}
+{"s_qid": "Q61001", "s_label": "Erich Topp", "o_qid": "Q881870", "o_label": "Naval Academy at Mürwik", "start": 1935, "end": 1936, "relation": "P69", "r_label": "trường học"}
+{"s_qid": "Q61758", "s_label": "Lazarus Fuchs", "o_qid": "Q20266330", "o_label": "Đại học Frederick William Berlin", "start": 1854, "end": 1858, "relation": "P69", "r_label": "trường học"}
+{"s_qid": "Q65932", "s_label": "Anthony Hopkins", "o_qid": "Q523926", "o_label": "Viện Nghệ thuật Kịch Hoàng gia", "start": null, "end": 1963, "relation": "P69", "r_label": "trường học"}
+{"s_qid": "Q65989", "s_label": "Wolfgang Ernst Pauli", "o_qid": "Q55044", "o_label": "Đại học Ludwig Maximilian München", "start": 1918, "end": 1921, "relation": "P69", "r_label": "trường học"}
+{"s_qid": "Q74129", "s_label": "Hans-Rudolf Rösing", "o_qid": "Q881870", "o_label": "Naval Academy at Mürwik", "start": 1926, "end": 1927, "relation": "P69", "r_label": "trường học"}
+{"s_qid": "Q76641", "s_label": "Felix Klein", "o_qid": "Q152171", "o_label": "Đại học Bonn", "start": 1865, "end": 1868, "relation": "P69", "r_label": "trường học"}
+{"s_qid": "Q78448", "s_label": "Heinz Hopf", "o_qid": "Q20266330", "o_label": "Đại học Frederick William Berlin", "start": 1920, "end": 1925, "relation": "P69", "r_label": "trường học"}
+{"s_qid": "Q78448", "s_label": "Heinz Hopf", "o_qid": "Q152838", "o_label": "Đại học Göttingen", "start": 1925, "end": 1926, "relation": "P69", "r_label": "trường học"}
+{"s_qid": "Q78448", "s_label": "Heinz Hopf", "o_qid": "Q315658", "o_label": "Đại học Wrocław", "start": 1913, "end": 1914, "relation": "P69", "r_label": "trường học"}
+{"s_qid": "Q78448", "s_label": "Heinz Hopf", "o_qid": "Q151510", "o_label": "Đại học Heidelberg", "start": 1919, "end": 1920, "relation": "P69", "r_label": "trường học"}
+{"s_qid": "Q78448", "s_label": "Heinz Hopf", "o_qid": "Q21578", "o_label": "Đại học Princeton", "start": 1927, "end": 1928, "relation": "P69", "r_label": "trường học"}
+{"s_qid": "Q83297", "s_label": "John William Strutt, nam tước Rayleigh thứ 3", "o_qid": "Q332342", "o_label": "Cao đẳng Trinity", "start": 1861, "end": 1865, "relation": "P69", "r_label": "trường học"}
+{"s_qid": "Q83297", "s_label": "John William Strutt, nam tước Rayleigh thứ 3", "o_qid": "Q35794", "o_label": "Đại học Cambridge", "start": null, "end": 1868, "relation": "P69", "r_label": "trường học"}
+{"s_qid": "Q90312", "s_label": "Gottfried Köthe", "o_qid": "Q622683", "o_label": "Đại học Graz", "start": 1923, "end": 1927, "relation": "P69", "r_label": "trường học"}
+{"s_qid": "Q90312", "s_label": "Gottfried Köthe", "o_qid": "Q152838", "o_label": "Đại học Göttingen", "start": 1928, "end": 1929, "relation": "P69", "r_label": "trường học"}
+{"s_qid": "Q90312", "s_label": "Gottfried Köthe", "o_qid": "Q168426", "o_label": "University of Münster", "start": 1930, "end": 1931, "relation": "P69", "r_label": "trường học"}
+{"s_qid": "Q90312", "s_label": "Gottfried Köthe", "o_qid": "Q152171", "o_label": "Đại học Bonn", "start": 1929, "end": 1930, "relation": "P69", "r_label": "trường học"}
+{"s_qid": "Q123078", "s_label": "Robert A. Heinlein", "o_qid": "Q559549", "o_label": "Học viện Hải quân Hoa Kỳ", "start": 1925, "end": 1929, "relation": "P69", "r_label": "trường học"}
+{"s_qid": "Q153224", "s_label": "Andrey Nikolaevich Kolmogorov", "o_qid": "Q13164", "o_label": "Đại học Quốc gia Moskva", "start": 1920, "end": 1925, "relation": "P69", "r_label": "trường học"}
+{"s_qid": "Q153224", "s_label": "Andrey Nikolaevich Kolmogorov", "o_qid": "Q3151770", "o_label": "Đại học Công nghệ Hoá học Moskva Mendeleev", "start": 1920, "end": null, "relation": "P69", "r_label": "trường học"}
+{"s_qid": "Q153224", "s_label": "Andrey Nikolaevich Kolmogorov", "o_qid": "Q13164", "o_label": "Đại học Quốc gia Moskva", "start": 1925, "end": 1929, "relation": "P69", "r_label": "trường học"}
+{"s_qid": "Q164384", "s_label": "Theodore von Kármán", "o_qid": "Q1186843", "o_label": "Budapest University of Technology and Economics", "start": null, "end": 1902, "relation": "P69", "r_label": "trường học"}
+{"s_qid": "Q164384", "s_label": "Theodore von Kármán", "o_qid": "Q152838", "o_label": "Đại học Göttingen", "start": 1906, "end": 1908, "relation": "P69", "r_label": "trường học"}
+{"s_qid": "Q191045", "s_label": "Felipe", "o_qid": "Q788091", "o_label": "Autonomous University of Madrid", "start": 1988, "end": 1993, "relation": "P69", "r_label": "trường học"}
+{"s_qid": "Q234030", "s_label": "C. J. Cherryh", "o_qid": "Q193727", "o_label": "Đại học Johns Hopkins", "start": null, "end": 1965, "relation": "P69", "r_label": "trường học"}
+{"s_qid": "Q234030", "s_label": "C. J. Cherryh", "o_qid": "Q640652", "o_label": "Đại học Oklahoma", "start": null, "end": 1964, "relation": "P69", "r_label": "trường học"}
+{"s_qid": "Q314553", "s_label": "Robert Silverberg", "o_qid": "Q49088", "o_label": "Đại học Columbia", "start": null, "end": 1956, "relation": "P69", "r_label": "trường học"}
+{"s_qid": "Q315069", "s_label": "David Brin", "o_qid": "Q622664", "o_label": "Đại học California, San Diego", "start": 1978, "end": 1981, "relation": "P69", "r_label": "trường học"}
+{"s_qid": "Q317521", "s_label": "Elon Musk", "o_qid": "Q1329269", "o_label": "The Wharton School", "start": 1992, "end": 1995, "relation": "P69", "r_label": "trường học"}
+{"s_qid": "Q317521", "s_label": "Elon Musk", "o_qid": "Q49117", "o_label": "Đại học Pennsylvania", "start": 1991, "end": 1995, "relation": "P69", "r_label": "trường học"}
+{"s_qid": "Q353407", "s_label": "Isadore Singer", "o_qid": "Q230492", "o_label": "Đại học Michigan", "start": 1941, "end": 1944, "relation": "P69", "r_label": "trường học"}
+{"s_qid": "Q353407", "s_label": "Isadore Singer", "o_qid": "Q131252", "o_label": "Đại học Chicago", "start": 1947, "end": 1950, "relation": "P69", "r_label": "trường học"}
+{"s_qid": "Q441223", "s_label": "Saunders Mac Lane", "o_qid": "Q49112", "o_label": "Đại học Yale", "start": 1926, "end": 1930, "relation": "P69", "r_label": "trường học"}
+{"s_qid": "Q441223", "s_label": "Saunders Mac Lane", "o_qid": "Q131252", "o_label": "Đại học Chicago", "start": 1930, "end": 1931, "relation": "P69", "r_label": "trường học"}
+{"s_qid": "Q441223", "s_label": "Saunders Mac Lane", "o_qid": "Q152838", "o_label": "Đại học Göttingen", "start": 1931, "end": 1934, "relation": "P69", "r_label": "trường học"}
+{"s_qid": "Q596590", "s_label": "Louis Nirenberg", "o_qid": "Q201492", "o_label": "Đại học McGill", "start": 1942, "end": 1945, "relation": "P69", "r_label": "trường học"}
+{"s_qid": "Q596590", "s_label": "Louis Nirenberg", "o_qid": "Q49210", "o_label": "Đại học New York", "start": 1945, "end": 1949, "relation": "P69", "r_label": "trường học"}
+{"s_qid": "Q931311", "s_label": "Christopher Zeeman", "o_qid": "Q714717", "o_label": "Christ's College", "start": 1947, "end": 1954, "relation": "P69", "r_label": "trường học"}
+{"s_qid": "Q931311", "s_label": "Christopher Zeeman", "o_qid": "Q35794", "o_label": "Đại học Cambridge", "start": null, "end": 1955, "relation": "P69", "r_label": "trường học"}
+{"s_qid": "Q1344809", "s_label": "Władysław Orlicz", "o_qid": "Q80207", "o_label": "Đại học Lviv", "start": 1923, "end": 1926, "relation": "P69", "r_label": "trường học"}
+{"s_qid": "Q1344809", "s_label": "Władysław Orlicz", "o_qid": "Q1817355", "o_label": "Đại học Bách khoa Quốc gia Lviv", "start": 1920, "end": 1921, "relation": "P69", "r_label": "trường học"}
+{"s_qid": "Q1344809", "s_label": "Władysław Orlicz", "o_qid": "Q152838", "o_label": "Đại học Göttingen", "start": 1929, "end": 1930, "relation": "P69", "r_label": "trường học"}

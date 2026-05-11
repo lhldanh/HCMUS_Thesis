@@ -1,0 +1,103 @@
+{"s_qid": "Q41421", "s_label": "Michael Jordan", "o_qid": "Q4412061", "o_label": "North Carolina Tar Heels men's basketball", "start": 1981, "end": 1984, "relation": "P54", "r_label": "cầu thủ của đội thể thao"}
+{"s_qid": "Q41421", "s_label": "Michael Jordan", "o_qid": "Q128109", "o_label": "Chicago Bulls", "start": 1984, "end": 1993, "relation": "P54", "r_label": "cầu thủ của đội thể thao"}
+{"s_qid": "Q41421", "s_label": "Michael Jordan", "o_qid": "Q128109", "o_label": "Chicago Bulls", "start": 1995, "end": 1998, "relation": "P54", "r_label": "cầu thủ của đội thể thao"}
+{"s_qid": "Q41421", "s_label": "Michael Jordan", "o_qid": "Q169165", "o_label": "Washington Wizards", "start": 2001, "end": 2003, "relation": "P54", "r_label": "cầu thủ của đội thể thao"}
+{"s_qid": "Q41421", "s_label": "Michael Jordan", "o_qid": "Q4412061", "o_label": "North Carolina Tar Heels men's basketball", "start": 1981, "end": 1984, "relation": "P54", "r_label": "cầu thủ của đội thể thao"}
+{"s_qid": "Q169452", "s_label": "Shaquille O'Neal", "o_qid": "Q161337", "o_label": "Orlando Magic", "start": 1992, "end": 1996, "relation": "P54", "r_label": "cầu thủ của đội thể thao"}
+{"s_qid": "Q169452", "s_label": "Shaquille O'Neal", "o_qid": "Q121783", "o_label": "Los Angeles Lakers", "start": 1996, "end": 2004, "relation": "P54", "r_label": "cầu thủ của đội thể thao"}
+{"s_qid": "Q169452", "s_label": "Shaquille O'Neal", "o_qid": "Q169138", "o_label": "Miami Heat", "start": 2004, "end": 2008, "relation": "P54", "r_label": "cầu thủ của đội thể thao"}
+{"s_qid": "Q169452", "s_label": "Shaquille O'Neal", "o_qid": "Q164177", "o_label": "Phoenix Suns", "start": 2008, "end": 2009, "relation": "P54", "r_label": "cầu thủ của đội thể thao"}
+{"s_qid": "Q169452", "s_label": "Shaquille O'Neal", "o_qid": "Q162990", "o_label": "Cleveland Cavaliers", "start": 2009, "end": 2010, "relation": "P54", "r_label": "cầu thủ của đội thể thao"}
+{"s_qid": "Q169452", "s_label": "Shaquille O'Neal", "o_qid": "Q131371", "o_label": "Boston Celtics", "start": 2010, "end": 2011, "relation": "P54", "r_label": "cầu thủ của đội thể thao"}
+{"s_qid": "Q169452", "s_label": "Shaquille O'Neal", "o_qid": "Q6460027", "o_label": "LSU Tigers men's basketball", "start": 1989, "end": 1992, "relation": "P54", "r_label": "cầu thủ của đội thể thao"}
+{"s_qid": "Q2631653", "s_label": "Gian Piero Ventura", "o_qid": "Q1457", "o_label": "U.C. Sampdoria", "start": 1968, "end": 1969, "relation": "P54", "r_label": "cầu thủ của đội thể thao"}
+{"s_qid": "Q2631653", "s_label": "Gian Piero Ventura", "o_qid": "Q1088962", "o_label": "F.S. Sestrese Calcio 1919", "start": 1969, "end": 1970, "relation": "P54", "r_label": "cầu thủ của đội thể thao"}
+{"s_qid": "Q2631653", "s_label": "Gian Piero Ventura", "o_qid": "Q1899815", "o_label": "S.S.D. Unione Sanremo", "start": 1974, "end": 1976, "relation": "P54", "r_label": "cầu thủ của đội thể thao"}
+{"s_qid": "Q2631653", "s_label": "Gian Piero Ventura", "o_qid": "Q16339", "o_label": "U.S.D. Novese", "start": 1976, "end": 1978, "relation": "P54", "r_label": "cầu thủ của đội thể thao"}
+{"s_qid": "Q11459", "s_label": "Serena Williams", "o_qid": "Q1619662", "o_label": "United States Billie Jean King Cup team", "start": 1999, "end": null, "relation": "P54", "r_label": "cầu thủ của đội thể thao"}
+{"s_qid": "Q29545", "s_label": "Kevin Durant", "o_qid": "Q7707830", "o_label": "Texas Longhorns men's basketball", "start": 2006, "end": 2007, "relation": "P54", "r_label": "cầu thủ của đội thể thao"}
+{"s_qid": "Q29545", "s_label": "Kevin Durant", "o_qid": "Q157376", "o_label": "Golden State Warriors", "start": 2016, "end": 2019, "relation": "P54", "r_label": "cầu thủ của đội thể thao"}
+{"s_qid": "Q29545", "s_label": "Kevin Durant", "o_qid": "Q572134", "o_label": "Brooklyn Nets", "start": 2019, "end": null, "relation": "P54", "r_label": "cầu thủ của đội thể thao"}
+{"s_qid": "Q29545", "s_label": "Kevin Durant", "o_qid": "Q164177", "o_label": "Phoenix Suns", "start": 2023, "end": 2025, "relation": "P54", "r_label": "cầu thủ của đội thể thao"}
+{"s_qid": "Q29545", "s_label": "Kevin Durant", "o_qid": "Q161345", "o_label": "Houston Rockets", "start": 2025, "end": null, "relation": "P54", "r_label": "cầu thủ của đội thể thao"}
+{"s_qid": "Q615", "s_label": "Lionel Messi", "o_qid": "Q221882", "o_label": "Newell's Old Boys", "start": 1995, "end": 2000, "relation": "P54", "r_label": "cầu thủ của đội thể thao"}
+{"s_qid": "Q615", "s_label": "Lionel Messi", "o_qid": "Q2346842", "o_label": "FC Barcelona C", "start": 2003, "end": 2004, "relation": "P54", "r_label": "cầu thủ của đội thể thao"}
+{"s_qid": "Q615", "s_label": "Lionel Messi", "o_qid": "Q10467", "o_label": "FC Barcelona B", "start": 2004, "end": 2005, "relation": "P54", "r_label": "cầu thủ của đội thể thao"}
+{"s_qid": "Q615", "s_label": "Lionel Messi", "o_qid": "Q7156", "o_label": "F.C. Barcelona", "start": 2004, "end": 2021, "relation": "P54", "r_label": "cầu thủ của đội thể thao"}
+{"s_qid": "Q615", "s_label": "Lionel Messi", "o_qid": "Q483020", "o_label": "Paris Saint-Germain", "start": 2021, "end": 2023, "relation": "P54", "r_label": "cầu thủ của đội thể thao"}
+{"s_qid": "Q615", "s_label": "Lionel Messi", "o_qid": "Q1187790", "o_label": "Đội tuyển bóng đá U-20 quốc gia Argentina", "start": 2004, "end": 2005, "relation": "P54", "r_label": "cầu thủ của đội thể thao"}
+{"s_qid": "Q615", "s_label": "Lionel Messi", "o_qid": "Q2462207", "o_label": "Đội tuyển bóng đá U-23 quốc gia Argentina", "start": 2008, "end": 2008, "relation": "P54", "r_label": "cầu thủ của đội thể thao"}
+{"s_qid": "Q615", "s_label": "Lionel Messi", "o_qid": "Q79800", "o_label": "Đội tuyển bóng đá quốc gia Argentina", "start": 2005, "end": null, "relation": "P54", "r_label": "cầu thủ của đội thể thao"}
+{"s_qid": "Q1189", "s_label": "Usain Bolt", "o_qid": "Q762294", "o_label": "Central Coast Mariners FC", "start": 2018, "end": 2018, "relation": "P54", "r_label": "cầu thủ của đội thể thao"}
+{"s_qid": "Q44620", "s_label": "Franz Josef Strauß", "o_qid": "Q15789", "o_label": "FC Bayern München", "start": 1965, "end": null, "relation": "P54", "r_label": "cầu thủ của đội thể thao"}
+{"s_qid": "Q295345", "s_label": "Jaromír Jágr", "o_qid": "Q204627", "o_label": "Washington Capitals", "start": 2001, "end": 2004, "relation": "P54", "r_label": "cầu thủ của đội thể thao"}
+{"s_qid": "Q295345", "s_label": "Jaromír Jágr", "o_qid": "Q188984", "o_label": "New York Rangers", "start": 2004, "end": 2008, "relation": "P54", "r_label": "cầu thủ của đội thể thao"}
+{"s_qid": "Q295345", "s_label": "Jaromír Jágr", "o_qid": "Q192083", "o_label": "Philadelphia Flyers", "start": 2011, "end": 2012, "relation": "P54", "r_label": "cầu thủ của đội thể thao"}
+{"s_qid": "Q295345", "s_label": "Jaromír Jágr", "o_qid": "Q192081", "o_label": "New Jersey Devils", "start": 2013, "end": 2015, "relation": "P54", "r_label": "cầu thủ của đội thể thao"}
+{"s_qid": "Q295345", "s_label": "Jaromír Jágr", "o_qid": "Q193643", "o_label": "Pittsburgh Penguins", "start": 1990, "end": 2001, "relation": "P54", "r_label": "cầu thủ của đội thể thao"}
+{"s_qid": "Q295345", "s_label": "Jaromír Jágr", "o_qid": "Q194121", "o_label": "Boston Bruins", "start": 2013, "end": 2013, "relation": "P54", "r_label": "cầu thủ của đội thể thao"}
+{"s_qid": "Q295345", "s_label": "Jaromír Jágr", "o_qid": "Q208652", "o_label": "Dallas Stars", "start": 2012, "end": 2013, "relation": "P54", "r_label": "cầu thủ của đội thể thao"}
+{"s_qid": "Q295345", "s_label": "Jaromír Jágr", "o_qid": "Q204623", "o_label": "Florida Panthers", "start": 2015, "end": 2017, "relation": "P54", "r_label": "cầu thủ của đội thể thao"}
+{"s_qid": "Q295345", "s_label": "Jaromír Jágr", "o_qid": "Q194126", "o_label": "Calgary Flames", "start": 2017, "end": 2018, "relation": "P54", "r_label": "cầu thủ của đội thể thao"}
+{"s_qid": "Q25369", "s_label": "Kobe Bryant", "o_qid": "Q121783", "o_label": "Los Angeles Lakers", "start": 1996, "end": 2016, "relation": "P54", "r_label": "cầu thủ của đội thể thao"}
+{"s_qid": "Q1080952", "s_label": "Nedo Sonetti", "o_qid": "Q8615", "o_label": "Spezia Calcio", "start": 1964, "end": 1967, "relation": "P54", "r_label": "cầu thủ của đội thể thao"}
+{"s_qid": "Q1080952", "s_label": "Nedo Sonetti", "o_qid": "Q8476", "o_label": "Reggina 1914", "start": 1967, "end": 1972, "relation": "P54", "r_label": "cầu thủ của đội thể thao"}
+{"s_qid": "Q1080952", "s_label": "Nedo Sonetti", "o_qid": "Q1089769", "o_label": "Atletico Piombino", "start": 1963, "end": 1964, "relation": "P54", "r_label": "cầu thủ của đội thể thao"}
+{"s_qid": "Q1080952", "s_label": "Nedo Sonetti", "o_qid": "Q847587", "o_label": "U.S. Salernitana 1919", "start": 1972, "end": 1973, "relation": "P54", "r_label": "cầu thủ của đội thể thao"}
+{"s_qid": "Q193020", "s_label": "Tim Duncan", "o_qid": "Q7960924", "o_label": "Wake Forest Demon Deacons men's basketball", "start": 1993, "end": 1997, "relation": "P54", "r_label": "cầu thủ của đội thể thao"}
+{"s_qid": "Q193020", "s_label": "Tim Duncan", "o_qid": "Q159729", "o_label": "San Antonio Spurs", "start": 1997, "end": 2016, "relation": "P54", "r_label": "cầu thủ của đội thể thao"}
+{"s_qid": "Q10520", "s_label": "David Beckham", "o_qid": "Q483020", "o_label": "Paris Saint-Germain", "start": 2013, "end": 2013, "relation": "P54", "r_label": "cầu thủ của đội thể thao"}
+{"s_qid": "Q10520", "s_label": "David Beckham", "o_qid": "Q18656", "o_label": "Manchester United F.C.", "start": 1992, "end": 2003, "relation": "P54", "r_label": "cầu thủ của đội thể thao"}
+{"s_qid": "Q10520", "s_label": "David Beckham", "o_qid": "Q8682", "o_label": "Real Madrid", "start": 2003, "end": 2007, "relation": "P54", "r_label": "cầu thủ của đội thể thao"}
+{"s_qid": "Q10520", "s_label": "David Beckham", "o_qid": "Q204357", "o_label": "Los Angeles Galaxy", "start": 2007, "end": 2012, "relation": "P54", "r_label": "cầu thủ của đội thể thao"}
+{"s_qid": "Q10520", "s_label": "David Beckham", "o_qid": "Q1543", "o_label": "A.C. Milan", "start": 2009, "end": 2009, "relation": "P54", "r_label": "cầu thủ của đội thể thao"}
+{"s_qid": "Q10520", "s_label": "David Beckham", "o_qid": "Q1543", "o_label": "A.C. Milan", "start": 2010, "end": 2010, "relation": "P54", "r_label": "cầu thủ của đội thể thao"}
+{"s_qid": "Q10520", "s_label": "David Beckham", "o_qid": "Q1049171", "o_label": "England national under-18 association football team", "start": 1992, "end": 1993, "relation": "P54", "r_label": "cầu thủ của đội thể thao"}
+{"s_qid": "Q10520", "s_label": "David Beckham", "o_qid": "Q204238", "o_label": "Đội tuyển bóng đá U-21 quốc gia Anh", "start": 1994, "end": 1996, "relation": "P54", "r_label": "cầu thủ của đội thể thao"}
+{"s_qid": "Q10520", "s_label": "David Beckham", "o_qid": "Q47762", "o_label": "Đội tuyển bóng đá quốc gia Anh", "start": 1996, "end": 2009, "relation": "P54", "r_label": "cầu thủ của đội thể thao"}
+{"s_qid": "Q10520", "s_label": "David Beckham", "o_qid": "Q19612", "o_label": "Preston North End F.C.", "start": 1994, "end": 1995, "relation": "P54", "r_label": "cầu thủ của đội thể thao"}
+{"s_qid": "Q2092969", "s_label": "Luís Carlos de Oliveira Preto", "o_qid": "Q541744", "o_label": "RB Bragantino", "start": 1983, "end": 1983, "relation": "P54", "r_label": "cầu thủ của đội thể thao"}
+{"s_qid": "Q2092969", "s_label": "Luís Carlos de Oliveira Preto", "o_qid": "Q38568", "o_label": "São Paulo Futebol Clube", "start": 1984, "end": 1993, "relation": "P54", "r_label": "cầu thủ của đội thể thao"}
+{"s_qid": "Q2092969", "s_label": "Luís Carlos de Oliveira Preto", "o_qid": "Q845859", "o_label": "Cruz Azul", "start": 1993, "end": 1997, "relation": "P54", "r_label": "cầu thủ của đội thể thao"}
+{"s_qid": "Q2092969", "s_label": "Luís Carlos de Oliveira Preto", "o_qid": "Q80955", "o_label": "Santos FC", "start": 1995, "end": null, "relation": "P54", "r_label": "cầu thủ của đội thể thao"}
+{"s_qid": "Q2092969", "s_label": "Luís Carlos de Oliveira Preto", "o_qid": "Q338285", "o_label": "América Futebol Clube", "start": 1997, "end": null, "relation": "P54", "r_label": "cầu thủ của đội thể thao"}
+{"s_qid": "Q2092969", "s_label": "Luís Carlos de Oliveira Preto", "o_qid": "Q270995", "o_label": "Clube Atlético Mineiro", "start": 1998, "end": null, "relation": "P54", "r_label": "cầu thủ của đội thể thao"}
+{"s_qid": "Q2092969", "s_label": "Luís Carlos de Oliveira Preto", "o_qid": "Q855809", "o_label": "Cerezo Osaka", "start": 1998, "end": null, "relation": "P54", "r_label": "cầu thủ của đội thể thao"}
+{"s_qid": "Q2092969", "s_label": "Luís Carlos de Oliveira Preto", "o_qid": "Q204675", "o_label": "Associação Portuguesa de Desportos", "start": 1999, "end": null, "relation": "P54", "r_label": "cầu thủ của đội thể thao"}
+{"s_qid": "Q2092969", "s_label": "Luís Carlos de Oliveira Preto", "o_qid": "Q338285", "o_label": "América Futebol Clube", "start": 2000, "end": null, "relation": "P54", "r_label": "cầu thủ của đội thể thao"}
+{"s_qid": "Q2092969", "s_label": "Luís Carlos de Oliveira Preto", "o_qid": "Q2667613", "o_label": "Esporte Clube Democrata", "start": 2001, "end": null, "relation": "P54", "r_label": "cầu thủ của đội thể thao"}
+{"s_qid": "Q2092969", "s_label": "Luís Carlos de Oliveira Preto", "o_qid": "Q286409", "o_label": "Associação Atlética Internacional", "start": 2001, "end": null, "relation": "P54", "r_label": "cầu thủ của đội thể thao"}
+{"s_qid": "Q2092969", "s_label": "Luís Carlos de Oliveira Preto", "o_qid": "Q541744", "o_label": "RB Bragantino", "start": 2001, "end": null, "relation": "P54", "r_label": "cầu thủ của đội thể thao"}
+{"s_qid": "Q2092969", "s_label": "Luís Carlos de Oliveira Preto", "o_qid": "Q2329137", "o_label": "União São João E.C.", "start": 2002, "end": null, "relation": "P54", "r_label": "cầu thủ của đội thể thao"}
+{"s_qid": "Q2092969", "s_label": "Luís Carlos de Oliveira Preto", "o_qid": "Q2506413", "o_label": "Esporte Clube Pelotas", "start": 2003, "end": null, "relation": "P54", "r_label": "cầu thủ của đội thể thao"}
+{"s_qid": "Q2092969", "s_label": "Luís Carlos de Oliveira Preto", "o_qid": "Q508440", "o_label": "Santa Cruz Futebol Clube", "start": 2003, "end": null, "relation": "P54", "r_label": "cầu thủ của đội thể thao"}
+{"s_qid": "Q2092969", "s_label": "Luís Carlos de Oliveira Preto", "o_qid": "Q522566", "o_label": "Brasiliense Futebol Clube", "start": 2003, "end": null, "relation": "P54", "r_label": "cầu thủ của đội thể thao"}
+{"s_qid": "Q11571", "s_label": "Cristiano Ronaldo", "o_qid": "Q18656", "o_label": "Manchester United F.C.", "start": 2003, "end": 2009, "relation": "P54", "r_label": "cầu thủ của đội thể thao"}
+{"s_qid": "Q11571", "s_label": "Cristiano Ronaldo", "o_qid": "Q8682", "o_label": "Real Madrid", "start": 2009, "end": 2018, "relation": "P54", "r_label": "cầu thủ của đội thể thao"}
+{"s_qid": "Q11571", "s_label": "Cristiano Ronaldo", "o_qid": "Q75729", "o_label": "Sporting Clube de Portugal", "start": 2002, "end": 2003, "relation": "P54", "r_label": "cầu thủ của đội thể thao"}
+{"s_qid": "Q11571", "s_label": "Cristiano Ronaldo", "o_qid": "Q267245", "o_label": "Đội tuyển bóng đá quốc gia Bồ Đào Nha", "start": 2003, "end": null, "relation": "P54", "r_label": "cầu thủ của đội thể thao"}
+{"s_qid": "Q11571", "s_label": "Cristiano Ronaldo", "o_qid": "Q1630430", "o_label": "Portugal national under-21 football team", "start": 2002, "end": 2003, "relation": "P54", "r_label": "cầu thủ của đội thể thao"}
+{"s_qid": "Q11571", "s_label": "Cristiano Ronaldo", "o_qid": "Q1772776", "o_label": "Portugal national under-20 football team", "start": 2003, "end": 2003, "relation": "P54", "r_label": "cầu thủ của đội thể thao"}
+{"s_qid": "Q11571", "s_label": "Cristiano Ronaldo", "o_qid": "Q3590754", "o_label": "Portugal national under-17 football team", "start": 2001, "end": 2002, "relation": "P54", "r_label": "cầu thủ của đội thể thao"}
+{"s_qid": "Q11571", "s_label": "Cristiano Ronaldo", "o_qid": "Q1422", "o_label": "Juventus F.C.", "start": 2018, "end": 2021, "relation": "P54", "r_label": "cầu thủ của đội thể thao"}
+{"s_qid": "Q11571", "s_label": "Cristiano Ronaldo", "o_qid": "Q18656", "o_label": "Manchester United F.C.", "start": 2021, "end": 2022, "relation": "P54", "r_label": "cầu thủ của đội thể thao"}
+{"s_qid": "Q11571", "s_label": "Cristiano Ronaldo", "o_qid": "Q482764", "o_label": "Câu lạc bộ bóng đá Al Nassr", "start": 2023, "end": null, "relation": "P54", "r_label": "cầu thủ của đội thể thao"}
+{"s_qid": "Q36159", "s_label": "LeBron James", "o_qid": "Q162990", "o_label": "Cleveland Cavaliers", "start": 2003, "end": 2010, "relation": "P54", "r_label": "cầu thủ của đội thể thao"}
+{"s_qid": "Q36159", "s_label": "LeBron James", "o_qid": "Q169138", "o_label": "Miami Heat", "start": 2010, "end": 2014, "relation": "P54", "r_label": "cầu thủ của đội thể thao"}
+{"s_qid": "Q36159", "s_label": "LeBron James", "o_qid": "Q162990", "o_label": "Cleveland Cavaliers", "start": 2014, "end": 2018, "relation": "P54", "r_label": "cầu thủ của đội thể thao"}
+{"s_qid": "Q36159", "s_label": "LeBron James", "o_qid": "Q121783", "o_label": "Los Angeles Lakers", "start": 2018, "end": null, "relation": "P54", "r_label": "cầu thủ của đội thể thao"}
+{"s_qid": "Q209518", "s_label": "Wayne Gretzky", "o_qid": "Q205973", "o_label": "Edmonton Oilers", "start": 1978, "end": 1988, "relation": "P54", "r_label": "cầu thủ của đội thể thao"}
+{"s_qid": "Q209518", "s_label": "Wayne Gretzky", "o_qid": "Q203008", "o_label": "Los Angeles Kings", "start": 1988, "end": 1996, "relation": "P54", "r_label": "cầu thủ của đội thể thao"}
+{"s_qid": "Q209518", "s_label": "Wayne Gretzky", "o_qid": "Q207735", "o_label": "St. Louis Blues", "start": 1996, "end": 1996, "relation": "P54", "r_label": "cầu thủ của đội thể thao"}
+{"s_qid": "Q209518", "s_label": "Wayne Gretzky", "o_qid": "Q188984", "o_label": "New York Rangers", "start": 1996, "end": 1999, "relation": "P54", "r_label": "cầu thủ của đội thể thao"}
+{"s_qid": "Q235068", "s_label": "Claudio Ranieri", "o_qid": "Q2739", "o_label": "A.S. Roma", "start": 1973, "end": 1974, "relation": "P54", "r_label": "cầu thủ của đội thể thao"}
+{"s_qid": "Q235068", "s_label": "Claudio Ranieri", "o_qid": "Q2674", "o_label": "Palermo F.C.", "start": 1984, "end": 1986, "relation": "P54", "r_label": "cầu thủ của đội thể thao"}
+{"s_qid": "Q235068", "s_label": "Claudio Ranieri", "o_qid": "Q2018", "o_label": "Catania FC", "start": 1982, "end": 1984, "relation": "P54", "r_label": "cầu thủ của đội thể thao"}
+{"s_qid": "Q235068", "s_label": "Claudio Ranieri", "o_qid": "Q501372", "o_label": "U.S. Catanzaro 1929", "start": 1974, "end": 1982, "relation": "P54", "r_label": "cầu thủ của đội thể thao"}
+{"s_qid": "Q2537282", "s_label": "Luigi Simoni", "o_qid": "Q1422", "o_label": "Juventus F.C.", "start": 1967, "end": 1968, "relation": "P54", "r_label": "cầu thủ của đội thể thao"}
+{"s_qid": "Q2537282", "s_label": "Luigi Simoni", "o_qid": "Q430993", "o_label": "Mantova 1911 S.S.D.", "start": 1959, "end": 1961, "relation": "P54", "r_label": "cầu thủ của đội thể thao"}
+{"s_qid": "Q2537282", "s_label": "Luigi Simoni", "o_qid": "Q2641", "o_label": "S.S.C. Napoli", "start": 1961, "end": 1962, "relation": "P54", "r_label": "cầu thủ của đội thể thao"}
+{"s_qid": "Q2537282", "s_label": "Luigi Simoni", "o_qid": "Q6651", "o_label": "Brescia Calcio", "start": 1968, "end": 1971, "relation": "P54", "r_label": "cầu thủ của đội thể thao"}
+{"s_qid": "Q2537282", "s_label": "Luigi Simoni", "o_qid": "Q2768", "o_label": "Torino F.C.", "start": 1964, "end": 1967, "relation": "P54", "r_label": "cầu thủ của đội thể thao"}
+{"s_qid": "Q2537282", "s_label": "Luigi Simoni", "o_qid": "Q2074", "o_label": "Genoa C.F.C.", "start": 1971, "end": 1974, "relation": "P54", "r_label": "cầu thủ của đội thể thao"}
+{"s_qid": "Q2537282", "s_label": "Luigi Simoni", "o_qid": "Q430993", "o_label": "Mantova 1911 S.S.D.", "start": 1962, "end": 1964, "relation": "P54", "r_label": "cầu thủ của đội thể thao"}

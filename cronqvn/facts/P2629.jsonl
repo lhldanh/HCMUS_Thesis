@@ -1,0 +1,3 @@
+{"s_qid": "Q104123", "s_label": "Pulp Fiction", "o_qid": "Q4557532", "o_label": "18 certificate", "start": 2014, "end": null, "relation": "P2629", "r_label": "BBFC rating"}
+{"s_qid": "Q192724", "s_label": "Người Sắt", "o_qid": "Q23301855", "o_label": "12A certificate", "start": 2018, "end": null, "relation": "P2629", "r_label": "BBFC rating"}
+{"s_qid": "Q107270", "s_label": "Lạc lối ở Tokyo", "o_qid": "Q4550895", "o_label": "15 certificate", "start": 2020, "end": null, "relation": "P2629", "r_label": "BBFC rating"}

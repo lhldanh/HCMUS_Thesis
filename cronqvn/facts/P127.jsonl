@@ -1,0 +1,156 @@
+{"s_qid": "Q9396", "s_label": "Deutsche Telekom", "o_qid": "Q201653", "o_label": "Tập đoàn SoftBank", "start": 2022, "end": 2022, "relation": "P127", "r_label": "chủ sở hữu"}
+{"s_qid": "Q11463", "s_label": "Adobe", "o_qid": "Q849363", "o_label": "Tập đoàn Vanguard", "start": 2025, "end": 2025, "relation": "P127", "r_label": "chủ sở hữu"}
+{"s_qid": "Q11463", "s_label": "Adobe", "o_qid": "Q219635", "o_label": "BlackRock", "start": 2025, "end": 2025, "relation": "P127", "r_label": "chủ sở hữu"}
+{"s_qid": "Q35476", "s_label": "AT&T", "o_qid": "Q849363", "o_label": "Tập đoàn Vanguard", "start": 2024, "end": 2024, "relation": "P127", "r_label": "chủ sở hữu"}
+{"s_qid": "Q35476", "s_label": "AT&T", "o_qid": "Q219635", "o_label": "BlackRock", "start": 2024, "end": 2024, "relation": "P127", "r_label": "chủ sở hữu"}
+{"s_qid": "Q81230", "s_label": "Siemens AG", "o_qid": "Q219635", "o_label": "BlackRock", "start": 2017, "end": 2017, "relation": "P127", "r_label": "chủ sở hữu"}
+{"s_qid": "Q160746", "s_label": "Nestlé", "o_qid": "Q219635", "o_label": "BlackRock", "start": 2009, "end": null, "relation": "P127", "r_label": "chủ sở hữu"}
+{"s_qid": "Q173395", "s_label": "Cisco Systems", "o_qid": "Q849363", "o_label": "Tập đoàn Vanguard", "start": 2024, "end": 2024, "relation": "P127", "r_label": "chủ sở hữu"}
+{"s_qid": "Q173395", "s_label": "Cisco Systems", "o_qid": "Q219635", "o_label": "BlackRock", "start": 2024, "end": 2024, "relation": "P127", "r_label": "chủ sở hữu"}
+{"s_qid": "Q193326", "s_label": "Goldman Sachs", "o_qid": "Q849363", "o_label": "Tập đoàn Vanguard", "start": 2025, "end": 2025, "relation": "P127", "r_label": "chủ sở hữu"}
+{"s_qid": "Q193326", "s_label": "Goldman Sachs", "o_qid": "Q219635", "o_label": "BlackRock", "start": 2025, "end": 2025, "relation": "P127", "r_label": "chủ sở hữu"}
+{"s_qid": "Q201653", "s_label": "Tập đoàn SoftBank", "o_qid": "Q192314", "o_label": "JPMorgan Chase", "start": 2022, "end": 2022, "relation": "P127", "r_label": "chủ sở hữu"}
+{"s_qid": "Q329953", "s_label": "Northrop Grumman Corporation", "o_qid": "Q849363", "o_label": "Tập đoàn Vanguard", "start": 2019, "end": 2019, "relation": "P127", "r_label": "chủ sở hữu"}
+{"s_qid": "Q329953", "s_label": "Northrop Grumman Corporation", "o_qid": "Q219635", "o_label": "BlackRock", "start": 2019, "end": 2019, "relation": "P127", "r_label": "chủ sở hữu"}
+{"s_qid": "Q329953", "s_label": "Northrop Grumman Corporation", "o_qid": "Q849363", "o_label": "Tập đoàn Vanguard", "start": 2025, "end": 2025, "relation": "P127", "r_label": "chủ sở hữu"}
+{"s_qid": "Q329953", "s_label": "Northrop Grumman Corporation", "o_qid": "Q219635", "o_label": "BlackRock", "start": 2025, "end": 2025, "relation": "P127", "r_label": "chủ sở hữu"}
+{"s_qid": "Q329953", "s_label": "Northrop Grumman Corporation", "o_qid": "Q334204", "o_label": "Morgan Stanley", "start": 2025, "end": 2025, "relation": "P127", "r_label": "chủ sở hữu"}
+{"s_qid": "Q329953", "s_label": "Northrop Grumman Corporation", "o_qid": "Q487907", "o_label": "Bank of America", "start": 2025, "end": 2025, "relation": "P127", "r_label": "chủ sở hữu"}
+{"s_qid": "Q767473", "s_label": "Augusteum", "o_qid": "Q62139", "o_label": "Peter II xứ Oldenburg", "start": 1876, "end": 1900, "relation": "P127", "r_label": "chủ sở hữu"}
+{"s_qid": "Q767473", "s_label": "Augusteum", "o_qid": "Q62129", "o_label": "Frederick Augustus II, Grand Duke of Oldenburg", "start": 1900, "end": 1918, "relation": "P127", "r_label": "chủ sở hữu"}
+{"s_qid": "Q860580", "s_label": "Tencent", "o_qid": "Q192314", "o_label": "JPMorgan Chase", "start": 2017, "end": 2017, "relation": "P127", "r_label": "chủ sở hữu"}
+{"s_qid": "Q2284748", "s_label": "Jacques Goudstikker collection", "o_qid": "Q127564", "o_label": "Jacques Goudstikker", "start": null, "end": 1940, "relation": "P127", "r_label": "chủ sở hữu"}
+{"s_qid": "Q5842736", "s_label": "Corning Inc.", "o_qid": "Q849363", "o_label": "Tập đoàn Vanguard", "start": 2017, "end": 2017, "relation": "P127", "r_label": "chủ sở hữu"}
+{"s_qid": "Q5842736", "s_label": "Corning Inc.", "o_qid": "Q219635", "o_label": "BlackRock", "start": 2017, "end": 2017, "relation": "P127", "r_label": "chủ sở hữu"}
+{"s_qid": "Q119265439", "s_label": "Grand ducal collection, Oldenburg", "o_qid": "Q60791", "o_label": "Augustus, Grand Duke of Oldenburg", "start": 1804, "end": 1853, "relation": "P127", "r_label": "chủ sở hữu"}
+{"s_qid": "Q119265439", "s_label": "Grand ducal collection, Oldenburg", "o_qid": "Q62139", "o_label": "Peter II xứ Oldenburg", "start": 1853, "end": 1900, "relation": "P127", "r_label": "chủ sở hữu"}
+{"s_qid": "Q119265439", "s_label": "Grand ducal collection, Oldenburg", "o_qid": "Q62129", "o_label": "Frederick Augustus II, Grand Duke of Oldenburg", "start": 1900, "end": 1922, "relation": "P127", "r_label": "chủ sở hữu"}
+{"s_qid": "Q119265439", "s_label": "Grand ducal collection, Oldenburg", "o_qid": "Q61274", "o_label": "Peter I of Oldenburg", "start": 1804, "end": 1829, "relation": "P127", "r_label": "chủ sở hữu"}
+{"s_qid": "Q66", "s_label": "Boeing", "o_qid": "Q849363", "o_label": "Tập đoàn Vanguard", "start": 2018, "end": 2018, "relation": "P127", "r_label": "chủ sở hữu"}
+{"s_qid": "Q66", "s_label": "Boeing", "o_qid": "Q219635", "o_label": "BlackRock", "start": 2018, "end": 2018, "relation": "P127", "r_label": "chủ sở hữu"}
+{"s_qid": "Q2283", "s_label": "Microsoft", "o_qid": "Q219635", "o_label": "BlackRock", "start": 2015, "end": 2015, "relation": "P127", "r_label": "chủ sở hữu"}
+{"s_qid": "Q2283", "s_label": "Microsoft", "o_qid": "Q849363", "o_label": "Tập đoàn Vanguard", "start": 2015, "end": 2015, "relation": "P127", "r_label": "chủ sở hữu"}
+{"s_qid": "Q2283", "s_label": "Microsoft", "o_qid": "Q849363", "o_label": "Tập đoàn Vanguard", "start": 2019, "end": 2019, "relation": "P127", "r_label": "chủ sở hữu"}
+{"s_qid": "Q2283", "s_label": "Microsoft", "o_qid": "Q219635", "o_label": "BlackRock", "start": 2019, "end": 2019, "relation": "P127", "r_label": "chủ sở hữu"}
+{"s_qid": "Q2283", "s_label": "Microsoft", "o_qid": "Q849363", "o_label": "Tập đoàn Vanguard", "start": 2023, "end": 2023, "relation": "P127", "r_label": "chủ sở hữu"}
+{"s_qid": "Q2283", "s_label": "Microsoft", "o_qid": "Q219635", "o_label": "BlackRock", "start": 2023, "end": 2023, "relation": "P127", "r_label": "chủ sở hữu"}
+{"s_qid": "Q37156", "s_label": "IBM", "o_qid": "Q217583", "o_label": "Berkshire Hathaway", "start": 2015, "end": 2015, "relation": "P127", "r_label": "chủ sở hữu"}
+{"s_qid": "Q37156", "s_label": "IBM", "o_qid": "Q849363", "o_label": "Tập đoàn Vanguard", "start": 2015, "end": 2015, "relation": "P127", "r_label": "chủ sở hữu"}
+{"s_qid": "Q156644", "s_label": "Công ty Raytheon", "o_qid": "Q849363", "o_label": "Tập đoàn Vanguard", "start": 2016, "end": 2016, "relation": "P127", "r_label": "chủ sở hữu"}
+{"s_qid": "Q179200", "s_label": "Metro-Goldwyn-Mayer", "o_qid": "Q3884", "o_label": "Amazon", "start": 2022, "end": null, "relation": "P127", "r_label": "chủ sở hữu"}
+{"s_qid": "Q212405", "s_label": "Procter & Gamble", "o_qid": "Q849363", "o_label": "Tập đoàn Vanguard", "start": 2025, "end": 2025, "relation": "P127", "r_label": "chủ sở hữu"}
+{"s_qid": "Q212405", "s_label": "Procter & Gamble", "o_qid": "Q219635", "o_label": "BlackRock", "start": 2025, "end": 2025, "relation": "P127", "r_label": "chủ sở hữu"}
+{"s_qid": "Q214683", "s_label": "TF1", "o_qid": "Q3591845", "o_label": "French State", "start": 1974, "end": 1987, "relation": "P127", "r_label": "chủ sở hữu"}
+{"s_qid": "Q219508", "s_label": "Citigroup", "o_qid": "Q219635", "o_label": "BlackRock", "start": 2016, "end": 2016, "relation": "P127", "r_label": "chủ sở hữu"}
+{"s_qid": "Q219508", "s_label": "Citigroup", "o_qid": "Q849363", "o_label": "Tập đoàn Vanguard", "start": 2016, "end": 2016, "relation": "P127", "r_label": "chủ sở hữu"}
+{"s_qid": "Q282717", "s_label": "Gromov Flight Research Institute", "o_qid": "Q15180", "o_label": "Liên Xô", "start": 1941, "end": 1991, "relation": "P127", "r_label": "chủ sở hữu"}
+{"s_qid": "Q282717", "s_label": "Gromov Flight Research Institute", "o_qid": "Q159", "o_label": "Nga", "start": 1991, "end": null, "relation": "P127", "r_label": "chủ sở hữu"}
+{"s_qid": "Q336735", "s_label": "ČEZ Group", "o_qid": "Q219635", "o_label": "BlackRock", "start": 2016, "end": null, "relation": "P127", "r_label": "chủ sở hữu"}
+{"s_qid": "Q15733006", "s_label": "DeepMind", "o_qid": "Q95", "o_label": "Google", "start": 2014, "end": 2015, "relation": "P127", "r_label": "chủ sở hữu"}
+{"s_qid": "Q15733006", "s_label": "DeepMind", "o_qid": "Q20800404", "o_label": "Alphabet", "start": 2015, "end": null, "relation": "P127", "r_label": "chủ sở hữu"}
+{"s_qid": "Q20800404", "s_label": "Alphabet", "o_qid": "Q219635", "o_label": "BlackRock", "start": 2016, "end": 2016, "relation": "P127", "r_label": "chủ sở hữu"}
+{"s_qid": "Q20800404", "s_label": "Alphabet", "o_qid": "Q849363", "o_label": "Tập đoàn Vanguard", "start": 2016, "end": 2016, "relation": "P127", "r_label": "chủ sở hữu"}
+{"s_qid": "Q20800404", "s_label": "Alphabet", "o_qid": "Q849363", "o_label": "Tập đoàn Vanguard", "start": 2019, "end": 2019, "relation": "P127", "r_label": "chủ sở hữu"}
+{"s_qid": "Q20800404", "s_label": "Alphabet", "o_qid": "Q849363", "o_label": "Tập đoàn Vanguard", "start": 2019, "end": 2019, "relation": "P127", "r_label": "chủ sở hữu"}
+{"s_qid": "Q20800404", "s_label": "Alphabet", "o_qid": "Q219635", "o_label": "BlackRock", "start": 2019, "end": 2019, "relation": "P127", "r_label": "chủ sở hữu"}
+{"s_qid": "Q20800404", "s_label": "Alphabet", "o_qid": "Q849363", "o_label": "Tập đoàn Vanguard", "start": 2021, "end": 2021, "relation": "P127", "r_label": "chủ sở hữu"}
+{"s_qid": "Q107540147", "s_label": "SØR Rusche Collection", "o_qid": "Q124411390", "o_label": "Egon Rusche", "start": null, "end": 1996, "relation": "P127", "r_label": "chủ sở hữu"}
+{"s_qid": "Q107540147", "s_label": "SØR Rusche Collection", "o_qid": "Q2426972", "o_label": "Thomas Rusche", "start": 1996, "end": null, "relation": "P127", "r_label": "chủ sở hữu"}
+{"s_qid": "Q334800", "s_label": "PepsiCo", "o_qid": "Q849363", "o_label": "Tập đoàn Vanguard", "start": 2016, "end": 2016, "relation": "P127", "r_label": "chủ sở hữu"}
+{"s_qid": "Q334800", "s_label": "PepsiCo", "o_qid": "Q219635", "o_label": "BlackRock", "start": 2016, "end": 2016, "relation": "P127", "r_label": "chủ sở hữu"}
+{"s_qid": "Q478214", "s_label": "Tesla", "o_qid": "Q317521", "o_label": "Elon Musk", "start": 2015, "end": 2015, "relation": "P127", "r_label": "chủ sở hữu"}
+{"s_qid": "Q478214", "s_label": "Tesla", "o_qid": "Q317521", "o_label": "Elon Musk", "start": 2022, "end": 2022, "relation": "P127", "r_label": "chủ sở hữu"}
+{"s_qid": "Q478214", "s_label": "Tesla", "o_qid": "Q317521", "o_label": "Elon Musk", "start": 2019, "end": 2019, "relation": "P127", "r_label": "chủ sở hữu"}
+{"s_qid": "Q624798", "s_label": "Đường sắt Quốc gia Canada", "o_qid": "Q422404", "o_label": "Government of Canada", "start": null, "end": 1995, "relation": "P127", "r_label": "chủ sở hữu"}
+{"s_qid": "Q746503", "s_label": "Volánbusz", "o_qid": "Q168082", "o_label": "Hungarian State Railways", "start": 2020, "end": null, "relation": "P127", "r_label": "chủ sở hữu"}
+{"s_qid": "Q1390577", "s_label": "Twitter", "o_qid": "Q334204", "o_label": "Morgan Stanley", "start": null, "end": 2022, "relation": "P127", "r_label": "chủ sở hữu"}
+{"s_qid": "Q1390577", "s_label": "Twitter", "o_qid": "Q219635", "o_label": "BlackRock", "start": null, "end": 2022, "relation": "P127", "r_label": "chủ sở hữu"}
+{"s_qid": "Q1390577", "s_label": "Twitter", "o_qid": "Q317521", "o_label": "Elon Musk", "start": null, "end": 2022, "relation": "P127", "r_label": "chủ sở hữu"}
+{"s_qid": "Q1390577", "s_label": "Twitter", "o_qid": "Q849363", "o_label": "Tập đoàn Vanguard", "start": null, "end": 2022, "relation": "P127", "r_label": "chủ sở hữu"}
+{"s_qid": "Q3295867", "s_label": "Công ty Coca-Cola", "o_qid": "Q217583", "o_label": "Berkshire Hathaway", "start": 2019, "end": 2019, "relation": "P127", "r_label": "chủ sở hữu"}
+{"s_qid": "Q3295867", "s_label": "Công ty Coca-Cola", "o_qid": "Q849363", "o_label": "Tập đoàn Vanguard", "start": 2019, "end": 2019, "relation": "P127", "r_label": "chủ sở hữu"}
+{"s_qid": "Q3295867", "s_label": "Công ty Coca-Cola", "o_qid": "Q219635", "o_label": "BlackRock", "start": 2019, "end": 2019, "relation": "P127", "r_label": "chủ sở hữu"}
+{"s_qid": "Q3295867", "s_label": "Công ty Coca-Cola", "o_qid": "Q217583", "o_label": "Berkshire Hathaway", "start": 2025, "end": 2025, "relation": "P127", "r_label": "chủ sở hữu"}
+{"s_qid": "Q3295867", "s_label": "Công ty Coca-Cola", "o_qid": "Q849363", "o_label": "Tập đoàn Vanguard", "start": 2025, "end": 2025, "relation": "P127", "r_label": "chủ sở hữu"}
+{"s_qid": "Q3295867", "s_label": "Công ty Coca-Cola", "o_qid": "Q219635", "o_label": "BlackRock", "start": 2025, "end": 2025, "relation": "P127", "r_label": "chủ sở hữu"}
+{"s_qid": "Q3295867", "s_label": "Công ty Coca-Cola", "o_qid": "Q334204", "o_label": "Morgan Stanley", "start": 2025, "end": 2025, "relation": "P127", "r_label": "chủ sở hữu"}
+{"s_qid": "Q18821838", "s_label": "Frederik Muller & Co", "o_qid": "Q4233718", "o_label": "khuyết danh", "start": 1936, "end": null, "relation": "P127", "r_label": "chủ sở hữu"}
+{"s_qid": "Q115676902", "s_label": "Lavalin Collection of the Musée d'art contemporain de Montréal", "o_qid": "Q2235294", "o_label": "Musée d'art contemporain de Montréal", "start": 1992, "end": null, "relation": "P127", "r_label": "chủ sở hữu"}
+{"s_qid": "Q312", "s_label": "Apple Inc.", "o_qid": "Q849363", "o_label": "Tập đoàn Vanguard", "start": 2023, "end": 2023, "relation": "P127", "r_label": "chủ sở hữu"}
+{"s_qid": "Q182477", "s_label": "Nvidia", "o_qid": "Q849363", "o_label": "Tập đoàn Vanguard", "start": 2024, "end": 2024, "relation": "P127", "r_label": "chủ sở hữu"}
+{"s_qid": "Q182477", "s_label": "Nvidia", "o_qid": "Q219635", "o_label": "BlackRock", "start": 2024, "end": 2024, "relation": "P127", "r_label": "chủ sở hữu"}
+{"s_qid": "Q193412", "s_label": "Texas Instruments", "o_qid": "Q849363", "o_label": "Tập đoàn Vanguard", "start": 2025, "end": 2025, "relation": "P127", "r_label": "chủ sở hữu"}
+{"s_qid": "Q193412", "s_label": "Texas Instruments", "o_qid": "Q219635", "o_label": "BlackRock", "start": 2025, "end": 2025, "relation": "P127", "r_label": "chủ sở hữu"}
+{"s_qid": "Q221062", "s_label": "DuPont", "o_qid": "Q849363", "o_label": "Tập đoàn Vanguard", "start": 2025, "end": 2025, "relation": "P127", "r_label": "chủ sở hữu"}
+{"s_qid": "Q221062", "s_label": "DuPont", "o_qid": "Q219635", "o_label": "BlackRock", "start": 2025, "end": 2025, "relation": "P127", "r_label": "chủ sở hữu"}
+{"s_qid": "Q502940", "s_label": "General Dynamics", "o_qid": "Q849363", "o_label": "Tập đoàn Vanguard", "start": 2025, "end": 2025, "relation": "P127", "r_label": "chủ sở hữu"}
+{"s_qid": "Q502940", "s_label": "General Dynamics", "o_qid": "Q219635", "o_label": "BlackRock", "start": 2025, "end": 2025, "relation": "P127", "r_label": "chủ sở hữu"}
+{"s_qid": "Q502940", "s_label": "General Dynamics", "o_qid": "Q487907", "o_label": "Bank of America", "start": 2025, "end": 2025, "relation": "P127", "r_label": "chủ sở hữu"}
+{"s_qid": "Q731938", "s_label": "AstraZeneca", "o_qid": "Q219635", "o_label": "BlackRock", "start": 2009, "end": null, "relation": "P127", "r_label": "chủ sở hữu"}
+{"s_qid": "Q944225", "s_label": "Waddesdon Manor", "o_qid": "Q333515", "o_label": "National Trust", "start": 1990, "end": null, "relation": "P127", "r_label": "chủ sở hữu"}
+{"s_qid": "Q2312054", "s_label": "Duivenvoorde Castle", "o_qid": "Q107140448", "o_label": "Nicolaas Johan Steengracht van Moyland", "start": 1849, "end": 1866, "relation": "P127", "r_label": "chủ sở hữu"}
+{"s_qid": "Q2312054", "s_label": "Duivenvoorde Castle", "o_qid": "Q98561155", "o_label": "Hendricus Adolphus Steengracht van Duivenvoorde", "start": 1866, "end": 1912, "relation": "P127", "r_label": "chủ sở hữu"}
+{"s_qid": "Q74149551", "s_label": "Cook collection", "o_qid": "Q5480608", "o_label": "Francis Cook, 1st Viscount of Monserrate", "start": 1868, "end": 1901, "relation": "P127", "r_label": "chủ sở hữu"}
+{"s_qid": "Q74149551", "s_label": "Cook collection", "o_qid": "Q7526764", "o_label": "Sir Frederick Cook, 2nd Baronet", "start": 1901, "end": 1920, "relation": "P127", "r_label": "chủ sở hữu"}
+{"s_qid": "Q74149551", "s_label": "Cook collection", "o_qid": "Q14945481", "o_label": "Herbert Cook", "start": 1920, "end": 1939, "relation": "P127", "r_label": "chủ sở hữu"}
+{"s_qid": "Q74149551", "s_label": "Cook collection", "o_qid": "Q7526690", "o_label": "Sir Francis Cook, 4th Baronet", "start": 1939, "end": 1950, "relation": "P127", "r_label": "chủ sở hữu"}
+{"s_qid": "Q97142972", "s_label": "Northbrook collection", "o_qid": "Q7529038", "o_label": "Thomas Baring", "start": null, "end": 1848, "relation": "P127", "r_label": "chủ sở hữu"}
+{"s_qid": "Q105062070", "s_label": "Kabinet van Heteren Gevers", "o_qid": "Q190804", "o_label": "Rijksmuseum", "start": 1809, "end": null, "relation": "P127", "r_label": "chủ sở hữu"}
+{"s_qid": "Q105062070", "s_label": "Kabinet van Heteren Gevers", "o_qid": "Q106946955", "o_label": "Adriaan Leonard van Heteren Gevers", "start": 1800, "end": 1809, "relation": "P127", "r_label": "chủ sở hữu"}
+{"s_qid": "Q7414", "s_label": "Công ty Walt Disney", "o_qid": "Q849363", "o_label": "Tập đoàn Vanguard", "start": 2025, "end": 2025, "relation": "P127", "r_label": "chủ sở hữu"}
+{"s_qid": "Q7414", "s_label": "Công ty Walt Disney", "o_qid": "Q219635", "o_label": "BlackRock", "start": 2025, "end": 2025, "relation": "P127", "r_label": "chủ sở hữu"}
+{"s_qid": "Q154950", "s_label": "Shell", "o_qid": "Q219635", "o_label": "BlackRock", "start": 2024, "end": 2024, "relation": "P127", "r_label": "chủ sở hữu"}
+{"s_qid": "Q154950", "s_label": "Shell", "o_qid": "Q849363", "o_label": "Tập đoàn Vanguard", "start": 2024, "end": 2024, "relation": "P127", "r_label": "chủ sở hữu"}
+{"s_qid": "Q180419", "s_label": "Nature Portfolio", "o_qid": "Q21096327", "o_label": "Springer Nature", "start": 2015, "end": null, "relation": "P127", "r_label": "chủ sở hữu"}
+{"s_qid": "Q192314", "s_label": "JPMorgan Chase", "o_qid": "Q849363", "o_label": "Tập đoàn Vanguard", "start": 2021, "end": 2021, "relation": "P127", "r_label": "chủ sở hữu"}
+{"s_qid": "Q192314", "s_label": "JPMorgan Chase", "o_qid": "Q219635", "o_label": "BlackRock", "start": 2021, "end": 2021, "relation": "P127", "r_label": "chủ sở hữu"}
+{"s_qid": "Q219635", "s_label": "BlackRock", "o_qid": "Q849363", "o_label": "Tập đoàn Vanguard", "start": 2025, "end": 2025, "relation": "P127", "r_label": "chủ sở hữu"}
+{"s_qid": "Q219635", "s_label": "BlackRock", "o_qid": "Q219635", "o_label": "BlackRock", "start": 2025, "end": 2025, "relation": "P127", "r_label": "chủ sở hữu"}
+{"s_qid": "Q1324392", "s_label": "Tokyo Yakult Swallows", "o_qid": "Q384011", "o_label": "Đường sắt Quốc gia Nhật Bản", "start": 1950, "end": 1965, "relation": "P127", "r_label": "chủ sở hữu"}
+{"s_qid": "Q1577458", "s_label": "Sørlandet Line", "o_qid": "Q7061278", "o_label": "Norges Statsbaner", "start": null, "end": 1995, "relation": "P127", "r_label": "chủ sở hữu"}
+{"s_qid": "Q11283119", "s_label": "Generali Česká pojišťovna", "o_qid": "Q1979720", "o_label": "PPF Group", "start": 2005, "end": 2007, "relation": "P127", "r_label": "chủ sở hữu"}
+{"s_qid": "Q14662364", "s_label": "AbbVie", "o_qid": "Q849363", "o_label": "Tập đoàn Vanguard", "start": 2024, "end": 2024, "relation": "P127", "r_label": "chủ sở hữu"}
+{"s_qid": "Q14662364", "s_label": "AbbVie", "o_qid": "Q219635", "o_label": "BlackRock", "start": 2024, "end": 2024, "relation": "P127", "r_label": "chủ sở hữu"}
+{"s_qid": "Q21083428", "s_label": "Bader collection", "o_qid": "Q1413407", "o_label": "Alfred Bader", "start": 1952, "end": 2018, "relation": "P127", "r_label": "chủ sở hữu"}
+{"s_qid": "Q21083428", "s_label": "Bader collection", "o_qid": "Q94355513", "o_label": "Isabel Bader", "start": 1982, "end": 2022, "relation": "P127", "r_label": "chủ sở hữu"}
+{"s_qid": "Q116875288", "s_label": "Vittorio Cini collection", "o_qid": "Q2528876", "o_label": "Vittorio Cini", "start": null, "end": 1977, "relation": "P127", "r_label": "chủ sở hữu"}
+{"s_qid": "Q116875288", "s_label": "Vittorio Cini collection", "o_qid": "Q1435690", "o_label": "Giorgio Cini Foundation", "start": 1980, "end": null, "relation": "P127", "r_label": "chủ sở hữu"}
+{"s_qid": "Q7240", "s_label": "Lockheed Martin", "o_qid": "Q849363", "o_label": "Tập đoàn Vanguard", "start": 2025, "end": 2025, "relation": "P127", "r_label": "chủ sở hữu"}
+{"s_qid": "Q7240", "s_label": "Lockheed Martin", "o_qid": "Q219635", "o_label": "BlackRock", "start": 2025, "end": 2025, "relation": "P127", "r_label": "chủ sở hữu"}
+{"s_qid": "Q156238", "s_label": "ExxonMobil", "o_qid": "Q219635", "o_label": "BlackRock", "start": 2016, "end": 2016, "relation": "P127", "r_label": "chủ sở hữu"}
+{"s_qid": "Q156238", "s_label": "ExxonMobil", "o_qid": "Q849363", "o_label": "Tập đoàn Vanguard", "start": 2019, "end": 2019, "relation": "P127", "r_label": "chủ sở hữu"}
+{"s_qid": "Q206921", "s_label": "Pfizer", "o_qid": "Q849363", "o_label": "Tập đoàn Vanguard", "start": 2019, "end": 2019, "relation": "P127", "r_label": "chủ sở hữu"}
+{"s_qid": "Q206921", "s_label": "Pfizer", "o_qid": "Q219635", "o_label": "BlackRock", "start": 2019, "end": 2019, "relation": "P127", "r_label": "chủ sở hữu"}
+{"s_qid": "Q247489", "s_label": "Merck & Co.", "o_qid": "Q849363", "o_label": "Tập đoàn Vanguard", "start": 2025, "end": 2025, "relation": "P127", "r_label": "chủ sở hữu"}
+{"s_qid": "Q247489", "s_label": "Merck & Co.", "o_qid": "Q219635", "o_label": "BlackRock", "start": 2025, "end": 2025, "relation": "P127", "r_label": "chủ sở hữu"}
+{"s_qid": "Q333718", "s_label": "Johnson & Johnson", "o_qid": "Q849363", "o_label": "Tập đoàn Vanguard", "start": 2020, "end": 2020, "relation": "P127", "r_label": "chủ sở hữu"}
+{"s_qid": "Q333718", "s_label": "Johnson & Johnson", "o_qid": "Q219635", "o_label": "BlackRock", "start": 2020, "end": 2020, "relation": "P127", "r_label": "chủ sở hữu"}
+{"s_qid": "Q334204", "s_label": "Morgan Stanley", "o_qid": "Q849363", "o_label": "Tập đoàn Vanguard", "start": 2021, "end": 2021, "relation": "P127", "r_label": "chủ sở hữu"}
+{"s_qid": "Q334204", "s_label": "Morgan Stanley", "o_qid": "Q219635", "o_label": "BlackRock", "start": 2021, "end": 2021, "relation": "P127", "r_label": "chủ sở hữu"}
+{"s_qid": "Q248", "s_label": "Intel", "o_qid": "Q849363", "o_label": "Tập đoàn Vanguard", "start": 2025, "end": 2025, "relation": "P127", "r_label": "chủ sở hữu"}
+{"s_qid": "Q248", "s_label": "Intel", "o_qid": "Q219635", "o_label": "BlackRock", "start": 2025, "end": 2025, "relation": "P127", "r_label": "chủ sở hữu"}
+{"s_qid": "Q3884", "s_label": "Amazon", "o_qid": "Q849363", "o_label": "Tập đoàn Vanguard", "start": 2019, "end": 2019, "relation": "P127", "r_label": "chủ sở hữu"}
+{"s_qid": "Q3884", "s_label": "Amazon", "o_qid": "Q219635", "o_label": "BlackRock", "start": 2019, "end": 2019, "relation": "P127", "r_label": "chủ sở hữu"}
+{"s_qid": "Q6686", "s_label": "Renault", "o_qid": "Q3591845", "o_label": "French State", "start": 2024, "end": 2024, "relation": "P127", "r_label": "chủ sở hữu"}
+{"s_qid": "Q101859", "s_label": "VfL Wolfsburg", "o_qid": "Q156578", "o_label": "Tập đoàn Volkswagen", "start": 2007, "end": null, "relation": "P127", "r_label": "chủ sở hữu"}
+{"s_qid": "Q192653", "s_label": "Czech Airlines", "o_qid": "Q11283119", "o_label": "Generali Česká pojišťovna", "start": null, "end": 2022, "relation": "P127", "r_label": "chủ sở hữu"}
+{"s_qid": "Q385518", "s_label": "SK Sigma Olomouc", "o_qid": "Q81137", "o_label": "Olomouc", "start": 2024, "end": 2024, "relation": "P127", "r_label": "chủ sở hữu"}
+{"s_qid": "Q712849", "s_label": "Đại học Chính trị Quốc gia (Đài Loan)", "o_qid": "Q31113", "o_label": "Trung Quốc Quốc Dân Đảng", "start": 1927, "end": 1947, "relation": "P127", "r_label": "chủ sở hữu"}
+{"s_qid": "Q1502740", "s_label": "Genzyme", "o_qid": "Q158205", "o_label": "Sanofi", "start": 2011, "end": null, "relation": "P127", "r_label": "chủ sở hữu"}
+{"s_qid": "Q2526406", "s_label": "Hardwick Hall", "o_qid": "Q333515", "o_label": "National Trust", "start": 1959, "end": null, "relation": "P127", "r_label": "chủ sở hữu"}
+{"s_qid": "Q35549606", "s_label": "Cabinet de Monseigneur le duc de Choiseul", "o_qid": "Q289149", "o_label": "Étienne François, duc de Choiseul", "start": null, "end": 1772, "relation": "P127", "r_label": "chủ sở hữu"}
+{"s_qid": "Q380", "s_label": "Meta", "o_qid": "Q219635", "o_label": "BlackRock", "start": 2021, "end": 2021, "relation": "P127", "r_label": "chủ sở hữu"}
+{"s_qid": "Q154037", "s_label": "TotalEnergies", "o_qid": "Q219635", "o_label": "BlackRock", "start": 2024, "end": 2024, "relation": "P127", "r_label": "chủ sở hữu"}
+{"s_qid": "Q154037", "s_label": "TotalEnergies", "o_qid": "Q219635", "o_label": "BlackRock", "start": 2025, "end": 2025, "relation": "P127", "r_label": "chủ sở hữu"}
+{"s_qid": "Q159433", "s_label": "3M", "o_qid": "Q849363", "o_label": "Tập đoàn Vanguard", "start": 2025, "end": 2025, "relation": "P127", "r_label": "chủ sở hữu"}
+{"s_qid": "Q159433", "s_label": "3M", "o_qid": "Q219635", "o_label": "BlackRock", "start": 2025, "end": 2025, "relation": "P127", "r_label": "chủ sở hữu"}
+{"s_qid": "Q163480", "s_label": "Charlotte Hornets", "o_qid": "Q41421", "o_label": "Michael Jordan", "start": 2010, "end": null, "relation": "P127", "r_label": "chủ sở hữu"}
+{"s_qid": "Q274591", "s_label": "Électricité de France", "o_qid": "Q3591845", "o_label": "French State", "start": 2015, "end": 2015, "relation": "P127", "r_label": "chủ sở hữu"}
+{"s_qid": "Q274591", "s_label": "Électricité de France", "o_qid": "Q3591845", "o_label": "French State", "start": 2017, "end": null, "relation": "P127", "r_label": "chủ sở hữu"}
+{"s_qid": "Q274591", "s_label": "Électricité de France", "o_qid": "Q3591845", "o_label": "French State", "start": 2023, "end": null, "relation": "P127", "r_label": "chủ sở hữu"}
+{"s_qid": "Q487907", "s_label": "Bank of America", "o_qid": "Q217583", "o_label": "Berkshire Hathaway", "start": 2019, "end": 2019, "relation": "P127", "r_label": "chủ sở hữu"}
+{"s_qid": "Q487907", "s_label": "Bank of America", "o_qid": "Q849363", "o_label": "Tập đoàn Vanguard", "start": 2019, "end": 2019, "relation": "P127", "r_label": "chủ sở hữu"}
+{"s_qid": "Q487907", "s_label": "Bank of America", "o_qid": "Q219635", "o_label": "BlackRock", "start": 2019, "end": 2019, "relation": "P127", "r_label": "chủ sở hữu"}
+{"s_qid": "Q878592", "s_label": "Helmholtz Zentrum München", "o_qid": "Q183", "o_label": "Đức", "start": 1978, "end": 1978, "relation": "P127", "r_label": "chủ sở hữu"}
+{"s_qid": "Q878592", "s_label": "Helmholtz Zentrum München", "o_qid": "Q980", "o_label": "Bayern", "start": 1978, "end": 1978, "relation": "P127", "r_label": "chủ sở hữu"}
+{"s_qid": "Q28065304", "s_label": "Collection Goudstikker heirs", "o_qid": "Q127564", "o_label": "Jacques Goudstikker", "start": null, "end": 2006, "relation": "P127", "r_label": "chủ sở hữu"}

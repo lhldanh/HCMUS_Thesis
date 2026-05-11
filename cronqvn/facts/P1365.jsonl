@@ -1,0 +1,189 @@
+{"s_qid": "Q45", "s_label": "Bồ Đào Nha", "o_qid": "Q45670", "o_label": "Vương quốc Bồ Đào Nha", "start": 1910, "end": 1910, "relation": "P1365", "r_label": "thay thế cho"}
+{"s_qid": "Q148", "s_label": "Trung Quốc", "o_qid": "Q13426199", "o_label": "Trung Hoa Dân Quốc", "start": 1949, "end": 1949, "relation": "P1365", "r_label": "thay thế cho"}
+{"s_qid": "Q183", "s_label": "Đức", "o_qid": "Q713750", "o_label": "Tây Đức", "start": 1990, "end": 1990, "relation": "P1365", "r_label": "thay thế cho"}
+{"s_qid": "Q183", "s_label": "Đức", "o_qid": "Q16957", "o_label": "Cộng hòa Dân chủ Đức", "start": 1990, "end": 1990, "relation": "P1365", "r_label": "thay thế cho"}
+{"s_qid": "Q183", "s_label": "Đức", "o_qid": "Q1206012", "o_label": "German Reich", "start": 1991, "end": 1991, "relation": "P1365", "r_label": "thay thế cho"}
+{"s_qid": "Q183", "s_label": "Đức", "o_qid": "Q569998", "o_label": "Trizone", "start": 1949, "end": 1949, "relation": "P1365", "r_label": "thay thế cho"}
+{"s_qid": "Q183", "s_label": "Đức", "o_qid": "Q1206012", "o_label": "German Reich", "start": 1949, "end": 1949, "relation": "P1365", "r_label": "thay thế cho"}
+{"s_qid": "Q233", "s_label": "Malta", "o_qid": "Q6744657", "o_label": "Crown Colony of Malta", "start": 1813, "end": 1964, "relation": "P1365", "r_label": "thay thế cho"}
+{"s_qid": "Q801", "s_label": "Israel", "o_qid": "Q193714", "o_label": "Lãnh thổ Ủy trị Palestine", "start": 1948, "end": 1948, "relation": "P1365", "r_label": "thay thế cho"}
+{"s_qid": "Q863", "s_label": "Tajikistan", "o_qid": "Q199711", "o_label": "Cộng hòa Xã hội chủ nghĩa Xô viết Tajikistan", "start": 1991, "end": 1991, "relation": "P1365", "r_label": "thay thế cho"}
+{"s_qid": "Q7318", "s_label": "Đức Quốc Xã", "o_qid": "Q41304", "o_label": "Cộng hòa Weimar", "start": 1933, "end": null, "relation": "P1365", "r_label": "thay thế cho"}
+{"s_qid": "Q12560", "s_label": "Đế quốc Ottoman", "o_qid": "Q12544", "o_label": "Đế quốc Đông La Mã", "start": 1453, "end": 1453, "relation": "P1365", "r_label": "thay thế cho"}
+{"s_qid": "Q35715", "s_label": "Nam Úc", "o_qid": "Q3224", "o_label": "New South Wales", "start": 1836, "end": null, "relation": "P1365", "r_label": "thay thế cho"}
+{"s_qid": "Q35715", "s_label": "Nam Úc", "o_qid": "Q3224", "o_label": "New South Wales", "start": 1861, "end": null, "relation": "P1365", "r_label": "thay thế cho"}
+{"s_qid": "Q35715", "s_label": "Nam Úc", "o_qid": "Q3224", "o_label": "New South Wales", "start": 1863, "end": null, "relation": "P1365", "r_label": "thay thế cho"}
+{"s_qid": "Q571293", "s_label": "Université Sorbonne-Nouvelle", "o_qid": "Q3064325", "o_label": "Khoa Nghệ thuật Paris", "start": 1971, "end": 1971, "relation": "P1365", "r_label": "thay thế cho"}
+{"s_qid": "Q713750", "s_label": "Tây Đức", "o_qid": "Q1206012", "o_label": "German Reich", "start": 1949, "end": 1949, "relation": "P1365", "r_label": "thay thế cho"}
+{"s_qid": "Q940135", "s_label": "Bộ trưởng Hải quân Hoa Kỳ", "o_qid": "Q2419102", "o_label": "Bộ trưởng Chiến tranh Hoa Kỳ", "start": 1798, "end": 1798, "relation": "P1365", "r_label": "thay thế cho"}
+{"s_qid": "Q1235608", "s_label": "Trường Đại học Paris VII", "o_qid": "Q209842", "o_label": "Đại học Paris", "start": 1971, "end": 1971, "relation": "P1365", "r_label": "thay thế cho"}
+{"s_qid": "Q1394262", "s_label": "Đại học Paris Nanterre", "o_qid": "Q209842", "o_label": "Đại học Paris", "start": 1971, "end": 1971, "relation": "P1365", "r_label": "thay thế cho"}
+{"s_qid": "Q1394262", "s_label": "Đại học Paris Nanterre", "o_qid": "Q3064325", "o_label": "Khoa Nghệ thuật Paris", "start": 1971, "end": 1971, "relation": "P1365", "r_label": "thay thế cho"}
+{"s_qid": "Q4187997", "s_label": "Honored Scientist of Ukraine", "o_qid": "Q16699972", "o_label": "Honoured worker in science and technology of the Ukrainian SSR", "start": 2001, "end": 2001, "relation": "P1365", "r_label": "thay thế cho"}
+{"s_qid": "Q41497113", "s_label": "Đại học Sorbonne", "o_qid": "Q1144549", "o_label": "Université Pierre-et-Marie-Curie", "start": 2018, "end": 2018, "relation": "P1365", "r_label": "thay thế cho"}
+{"s_qid": "Q41497113", "s_label": "Đại học Sorbonne", "o_qid": "Q546118", "o_label": "Đại học Paris-Sorbonne", "start": 2018, "end": 2018, "relation": "P1365", "r_label": "thay thế cho"}
+{"s_qid": "Q45303406", "s_label": "Nordre Follo", "o_qid": "Q57912", "o_label": "Ski", "start": 2020, "end": 2020, "relation": "P1365", "r_label": "thay thế cho"}
+{"s_qid": "Q45303406", "s_label": "Nordre Follo", "o_qid": "Q57868", "o_label": "Oppegård", "start": 2020, "end": 2020, "relation": "P1365", "r_label": "thay thế cho"}
+{"s_qid": "Q56249968", "s_label": "Senja Municipality", "o_qid": "Q503912", "o_label": "Berg, Na Uy", "start": 2020, "end": 2020, "relation": "P1365", "r_label": "thay thế cho"}
+{"s_qid": "Q56249968", "s_label": "Senja Municipality", "o_qid": "Q499770", "o_label": "Lenvik", "start": 2020, "end": 2020, "relation": "P1365", "r_label": "thay thế cho"}
+{"s_qid": "Q56249968", "s_label": "Senja Municipality", "o_qid": "Q48581", "o_label": "Torsken", "start": 2020, "end": 2020, "relation": "P1365", "r_label": "thay thế cho"}
+{"s_qid": "Q56249968", "s_label": "Senja Municipality", "o_qid": "Q48597", "o_label": "Tranøy", "start": 2020, "end": 2020, "relation": "P1365", "r_label": "thay thế cho"}
+{"s_qid": "Q60806432", "s_label": "Lillestrøm Municipality", "o_qid": "Q57082", "o_label": "Fet", "start": 2020, "end": 2020, "relation": "P1365", "r_label": "thay thế cho"}
+{"s_qid": "Q60806432", "s_label": "Lillestrøm Municipality", "o_qid": "Q57871", "o_label": "Skedsmo", "start": 2020, "end": 2020, "relation": "P1365", "r_label": "thay thế cho"}
+{"s_qid": "Q60806432", "s_label": "Lillestrøm Municipality", "o_qid": "Q57914", "o_label": "Sørum", "start": 2020, "end": 2020, "relation": "P1365", "r_label": "thay thế cho"}
+{"s_qid": "Q85877927", "s_label": "National Yang Ming Chiao Tung University", "o_qid": "Q718328", "o_label": "National Yang-Ming University", "start": 2021, "end": 2021, "relation": "P1365", "r_label": "thay thế cho"}
+{"s_qid": "Q85877927", "s_label": "National Yang Ming Chiao Tung University", "o_qid": "Q43401", "o_label": "National Chiao Tung University", "start": 2021, "end": 2021, "relation": "P1365", "r_label": "thay thế cho"}
+{"s_qid": "Q30", "s_label": "Hoa Kỳ", "o_qid": "Q81931", "o_label": "Liên minh miền Nam Hoa Kỳ", "start": 1865, "end": 1865, "relation": "P1365", "r_label": "thay thế cho"}
+{"s_qid": "Q43", "s_label": "Thổ Nhĩ Kỳ", "o_qid": "Q12560", "o_label": "Đế quốc Ottoman", "start": 1922, "end": 1922, "relation": "P1365", "r_label": "thay thế cho"}
+{"s_qid": "Q252", "s_label": "Indonesia", "o_qid": "Q188161", "o_label": "Đông Ấn Hà Lan", "start": 1945, "end": 1945, "relation": "P1365", "r_label": "thay thế cho"}
+{"s_qid": "Q2254", "s_label": "Telemark", "o_qid": "Q56405721", "o_label": "Vestfold og Telemark", "start": 2024, "end": 2024, "relation": "P1365", "r_label": "thay thế cho"}
+{"s_qid": "Q5462", "s_label": "Sverdlovsk", "o_qid": "Q2996962", "o_label": "Ural Oblast", "start": 1934, "end": 1934, "relation": "P1365", "r_label": "thay thế cho"}
+{"s_qid": "Q8733", "s_label": "nhà Thanh", "o_qid": "Q9903", "o_label": "nhà Minh", "start": 1644, "end": 1644, "relation": "P1365", "r_label": "thay thế cho"}
+{"s_qid": "Q12761", "s_label": "Seine-Saint-Denis", "o_qid": "Q1142326", "o_label": "Seine", "start": 1968, "end": null, "relation": "P1365", "r_label": "thay thế cho"}
+{"s_qid": "Q12761", "s_label": "Seine-Saint-Denis", "o_qid": "Q979470", "o_label": "Seine-et-Oise", "start": 1968, "end": null, "relation": "P1365", "r_label": "thay thế cho"}
+{"s_qid": "Q31747", "s_label": "Nhà nước tự do Ireland", "o_qid": "Q174193", "o_label": "Vương quốc Liên hiệp Anh và Ireland", "start": 1922, "end": 1922, "relation": "P1365", "r_label": "thay thế cho"}
+{"s_qid": "Q249654", "s_label": "Ministry of Railways", "o_qid": "Q117269410", "o_label": "Imperial Railway Board", "start": 1920, "end": 1920, "relation": "P1365", "r_label": "thay thế cho"}
+{"s_qid": "Q913972", "s_label": "Dòng Anh Em Hèn Mọn", "o_qid": "Q165005", "o_label": "Dòng Phan Sinh", "start": 1517, "end": 1517, "relation": "P1365", "r_label": "thay thế cho"}
+{"s_qid": "Q999763", "s_label": "Trường Đại học Paris I", "o_qid": "Q209842", "o_label": "Đại học Paris", "start": 1971, "end": 1971, "relation": "P1365", "r_label": "thay thế cho"}
+{"s_qid": "Q1190669", "s_label": "Japan Freight Railway Company", "o_qid": "Q384011", "o_label": "Đường sắt Quốc gia Nhật Bản", "start": 1987, "end": 1987, "relation": "P1365", "r_label": "thay thế cho"}
+{"s_qid": "Q2576795", "s_label": "Giải Locus cho Tiểu thuyết khoa học viễn tưởng hay nhất", "o_qid": "Q595998", "o_label": "Giải Locus cho Tiểu thuyết hay nhất", "start": 1980, "end": 1980, "relation": "P1365", "r_label": "thay thế cho"}
+{"s_qid": "Q18015642", "s_label": "Member of Parliament of Great Britain", "o_qid": "Q18018860", "o_label": "Member of Parliament in the Parliament of England", "start": 1707, "end": 1707, "relation": "P1365", "r_label": "thay thế cho"}
+{"s_qid": "Q21556096", "s_label": "Municipality of Sami", "o_qid": "Q1737776", "o_label": "Kefalonia Municipality", "start": 2019, "end": 2019, "relation": "P1365", "r_label": "thay thế cho"}
+{"s_qid": "Q56405258", "s_label": "Midt-Telemark", "o_qid": "Q499450", "o_label": "Bø", "start": 2020, "end": 2020, "relation": "P1365", "r_label": "thay thế cho"}
+{"s_qid": "Q56405258", "s_label": "Midt-Telemark", "o_qid": "Q2381", "o_label": "Sauherad", "start": 2020, "end": 2020, "relation": "P1365", "r_label": "thay thế cho"}
+{"s_qid": "Q27", "s_label": "Ireland", "o_qid": "Q31747", "o_label": "Nhà nước tự do Ireland", "start": 1937, "end": 1937, "relation": "P1365", "r_label": "thay thế cho"}
+{"s_qid": "Q145", "s_label": "Vương quốc Liên hiệp Anh và Bắc Ireland", "o_qid": "Q174193", "o_label": "Vương quốc Liên hiệp Anh và Ireland", "start": 1927, "end": 1927, "relation": "P1365", "r_label": "thay thế cho"}
+{"s_qid": "Q212", "s_label": "Ukraina", "o_qid": "Q133356", "o_label": "Cộng hòa Xã hội chủ nghĩa Xô viết Ukraina", "start": 1991, "end": 1991, "relation": "P1365", "r_label": "thay thế cho"}
+{"s_qid": "Q212", "s_label": "Ukraina", "o_qid": "Q243610", "o_label": "Cộng hòa Nhân dân Ukraina", "start": 1992, "end": 1992, "relation": "P1365", "r_label": "thay thế cho"}
+{"s_qid": "Q4041", "s_label": "Lumière University Lyon 2", "o_qid": "Q2383462", "o_label": "University of Lyon", "start": 1969, "end": null, "relation": "P1365", "r_label": "thay thế cho"}
+{"s_qid": "Q41304", "s_label": "Cộng hòa Weimar", "o_qid": "Q43287", "o_label": "Đế quốc Đức", "start": 1919, "end": 1919, "relation": "P1365", "r_label": "thay thế cho"}
+{"s_qid": "Q46130", "s_label": "Rhône", "o_qid": "Q2236821", "o_label": "Rhône-et-Loire", "start": 1793, "end": 1793, "relation": "P1365", "r_label": "thay thế cho"}
+{"s_qid": "Q49762", "s_label": "Liên minh Dân chủ Kitô giáo Đức", "o_qid": "Q49754", "o_label": "Christian Democratic Union (GDR)", "start": 1990, "end": 1990, "relation": "P1365", "r_label": "thay thế cho"}
+{"s_qid": "Q502125", "s_label": "West Japan Railway Company", "o_qid": "Q384011", "o_label": "Đường sắt Quốc gia Nhật Bản", "start": 1987, "end": 1987, "relation": "P1365", "r_label": "thay thế cho"}
+{"s_qid": "Q662976", "s_label": "Trường Đại học Paris II", "o_qid": "Q209842", "o_label": "Đại học Paris", "start": 1971, "end": 1971, "relation": "P1365", "r_label": "thay thế cho"}
+{"s_qid": "Q687175", "s_label": "Deutsche Bundesbahn", "o_qid": "Q698082", "o_label": "Deutsche Reichsbahn", "start": 1949, "end": 1949, "relation": "P1365", "r_label": "thay thế cho"}
+{"s_qid": "Q726595", "s_label": "Đại học Rennes I", "o_qid": "Q1987282", "o_label": "University of Rennes", "start": 1970, "end": 1970, "relation": "P1365", "r_label": "thay thế cho"}
+{"s_qid": "Q1044097", "s_label": "Route nationale 6", "o_qid": "Q1276695", "o_label": "Route nationale 5", "start": 1978, "end": 1978, "relation": "P1365", "r_label": "thay thế cho"}
+{"s_qid": "Q1044097", "s_label": "Route nationale 6", "o_qid": "Q1276695", "o_label": "Route nationale 5", "start": 1978, "end": 1978, "relation": "P1365", "r_label": "thay thế cho"}
+{"s_qid": "Q1044097", "s_label": "Route nationale 6", "o_qid": "Q1276695", "o_label": "Route nationale 5", "start": 1978, "end": 1978, "relation": "P1365", "r_label": "thay thế cho"}
+{"s_qid": "Q1044097", "s_label": "Route nationale 6", "o_qid": "Q1276695", "o_label": "Route nationale 5", "start": 1978, "end": 1978, "relation": "P1365", "r_label": "thay thế cho"}
+{"s_qid": "Q1044097", "s_label": "Route nationale 6", "o_qid": "Q1276695", "o_label": "Route nationale 5", "start": 1978, "end": 1978, "relation": "P1365", "r_label": "thay thế cho"}
+{"s_qid": "Q1155944", "s_label": "Université Paris-Descartes", "o_qid": "Q209842", "o_label": "Đại học Paris", "start": 1971, "end": 1971, "relation": "P1365", "r_label": "thay thế cho"}
+{"s_qid": "Q1491469", "s_label": "Route nationale 74", "o_qid": "Q2170359", "o_label": "Route nationale 73", "start": 1978, "end": 1978, "relation": "P1365", "r_label": "thay thế cho"}
+{"s_qid": "Q1780212", "s_label": "Université Sorbonne Paris Nord", "o_qid": "Q209842", "o_label": "Đại học Paris", "start": 1971, "end": 1971, "relation": "P1365", "r_label": "thay thế cho"}
+{"s_qid": "Q25713876", "s_label": "Catalan European Democratic Party", "o_qid": "Q1129443", "o_label": "Democratic Convergence of Catalonia", "start": 2016, "end": null, "relation": "P1365", "r_label": "thay thế cho"}
+{"s_qid": "Q30596115", "s_label": "State Railways and Seaports Administration", "o_qid": "Q28220389", "o_label": "Anatolian Baghdad Railways", "start": 1927, "end": 1927, "relation": "P1365", "r_label": "thay thế cho"}
+{"s_qid": "Q52368284", "s_label": "Nærøysund Municipality", "o_qid": "Q488979", "o_label": "Nærøy", "start": 2020, "end": 2020, "relation": "P1365", "r_label": "thay thế cho"}
+{"s_qid": "Q52368284", "s_label": "Nærøysund Municipality", "o_qid": "Q48833", "o_label": "Vikna", "start": 2020, "end": 2020, "relation": "P1365", "r_label": "thay thế cho"}
+{"s_qid": "Q60742846", "s_label": "Bjørnafjorden Municipality", "o_qid": "Q493279", "o_label": "Fusa", "start": 2020, "end": 2020, "relation": "P1365", "r_label": "thay thế cho"}
+{"s_qid": "Q60742846", "s_label": "Bjørnafjorden Municipality", "o_qid": "Q493936", "o_label": "Os", "start": 2020, "end": 2020, "relation": "P1365", "r_label": "thay thế cho"}
+{"s_qid": "Q65234114", "s_label": "West Lesvos Municipality", "o_qid": "Q2520681", "o_label": "Lesbos Municipality", "start": 2019, "end": 2019, "relation": "P1365", "r_label": "thay thế cho"}
+{"s_qid": "Q101579967", "s_label": "Osaka Metropolitan University", "o_qid": "Q1143396", "o_label": "Osaka City University", "start": 2022, "end": 2022, "relation": "P1365", "r_label": "thay thế cho"}
+{"s_qid": "Q101579967", "s_label": "Osaka Metropolitan University", "o_qid": "Q290456", "o_label": "Osaka Prefecture University", "start": 2022, "end": 2022, "relation": "P1365", "r_label": "thay thế cho"}
+{"s_qid": "Q104841013", "s_label": "Hromada", "o_qid": "Q4291381", "o_label": "amalgamated hromada", "start": 2020, "end": 2020, "relation": "P1365", "r_label": "thay thế cho"}
+{"s_qid": "Q159", "s_label": "Nga", "o_qid": "Q2184", "o_label": "Cộng hòa Xã hội chủ nghĩa Xô viết Liên bang Nga", "start": 1991, "end": 1991, "relation": "P1365", "r_label": "thay thế cho"}
+{"s_qid": "Q1904", "s_label": "Ontario", "o_qid": "Q2007", "o_label": "Các Lãnh thổ Tây Bắc", "start": 1874, "end": 1874, "relation": "P1365", "r_label": "thay thế cho"}
+{"s_qid": "Q13340", "s_label": "Bordeaux Segalen University", "o_qid": "Q13344", "o_label": "Đại học Bordeaux", "start": 1971, "end": 1971, "relation": "P1365", "r_label": "thay thế cho"}
+{"s_qid": "Q27306", "s_label": "Vương quốc Phổ", "o_qid": "Q12548", "o_label": "Đế quốc La Mã Thần thánh", "start": 1806, "end": 1806, "relation": "P1365", "r_label": "thay thế cho"}
+{"s_qid": "Q148554", "s_label": "Bảo tàng Lịch sử Tự nhiên Quốc gia Hoa Kỳ", "o_qid": "Q123562561", "o_label": "United States National Museum", "start": 1967, "end": 1967, "relation": "P1365", "r_label": "thay thế cho"}
+{"s_qid": "Q161885", "s_label": "Vương quốc Đại Anh", "o_qid": "Q179876", "o_label": "Vương quốc Anh", "start": 1707, "end": 1707, "relation": "P1365", "r_label": "thay thế cho"}
+{"s_qid": "Q161885", "s_label": "Vương quốc Đại Anh", "o_qid": "Q230791", "o_label": "Vương quốc Scotland", "start": 1707, "end": 1707, "relation": "P1365", "r_label": "thay thế cho"}
+{"s_qid": "Q315658", "s_label": "Đại học Wrocław", "o_qid": "Q2649559", "o_label": "Alma Mater Viadrina", "start": 1811, "end": 1811, "relation": "P1365", "r_label": "thay thế cho"}
+{"s_qid": "Q499071", "s_label": "Công ty Đường sắt Đông Nhật Bản", "o_qid": "Q384011", "o_label": "Đường sắt Quốc gia Nhật Bản", "start": 1987, "end": 1987, "relation": "P1365", "r_label": "thay thế cho"}
+{"s_qid": "Q846866", "s_label": "Perm Oblast", "o_qid": "Q5462", "o_label": "Sverdlovsk", "start": 1938, "end": 1938, "relation": "P1365", "r_label": "thay thế cho"}
+{"s_qid": "Q980688", "s_label": "Université Paris-Est-Créteil-Val-de-Marne", "o_qid": "Q209842", "o_label": "Đại học Paris", "start": 1971, "end": 1971, "relation": "P1365", "r_label": "thay thế cho"}
+{"s_qid": "Q1296370", "s_label": "Route nationale 83", "o_qid": "Q2170359", "o_label": "Route nationale 73", "start": 1978, "end": 1978, "relation": "P1365", "r_label": "thay thế cho"}
+{"s_qid": "Q1459393", "s_label": "S. M. Kirov Military Medical Academy", "o_qid": "Q38178366", "o_label": "Imperial Academy of Medical Surgery", "start": 1917, "end": 1917, "relation": "P1365", "r_label": "thay thế cho"}
+{"s_qid": "Q16737235", "s_label": "Mytilene Municipality", "o_qid": "Q2520681", "o_label": "Lesbos Municipality", "start": 2019, "end": 2019, "relation": "P1365", "r_label": "thay thế cho"}
+{"s_qid": "Q42320251", "s_label": "Færder Municipality", "o_qid": "Q206469", "o_label": "Nøtterøy", "start": 2018, "end": 2018, "relation": "P1365", "r_label": "thay thế cho"}
+{"s_qid": "Q42320251", "s_label": "Færder Municipality", "o_qid": "Q48687", "o_label": "Tjøme", "start": 2018, "end": 2018, "relation": "P1365", "r_label": "thay thế cho"}
+{"s_qid": "Q48626227", "s_label": "Roman Catholic Archbishop of Zaragoza", "o_qid": "Q48626049", "o_label": "Roman Catholic Bishop of Zaragoza", "start": 1318, "end": 1318, "relation": "P1365", "r_label": "thay thế cho"}
+{"s_qid": "Q56404886", "s_label": "Innlandet", "o_qid": "Q50617", "o_label": "Oppland", "start": 2020, "end": 2020, "relation": "P1365", "r_label": "thay thế cho"}
+{"s_qid": "Q80571266", "s_label": "Lindesnes Municipality", "o_qid": "Q489038", "o_label": "Lindesnes", "start": 2020, "end": 2020, "relation": "P1365", "r_label": "thay thế cho"}
+{"s_qid": "Q80571266", "s_label": "Lindesnes Municipality", "o_qid": "Q108966", "o_label": "Mandal Municipality", "start": 2020, "end": 2020, "relation": "P1365", "r_label": "thay thế cho"}
+{"s_qid": "Q80571266", "s_label": "Lindesnes Municipality", "o_qid": "Q378704", "o_label": "Marnardal", "start": 2020, "end": 2020, "relation": "P1365", "r_label": "thay thế cho"}
+{"s_qid": "Q80593157", "s_label": "Asker", "o_qid": "Q56869", "o_label": "Asker", "start": 2020, "end": 2020, "relation": "P1365", "r_label": "thay thế cho"}
+{"s_qid": "Q80593157", "s_label": "Asker", "o_qid": "Q488663", "o_label": "Røyken", "start": 2020, "end": 2020, "relation": "P1365", "r_label": "thay thế cho"}
+{"s_qid": "Q80593157", "s_label": "Asker", "o_qid": "Q488611", "o_label": "Hurum", "start": 2020, "end": 2020, "relation": "P1365", "r_label": "thay thế cho"}
+{"s_qid": "Q217", "s_label": "Moldova", "o_qid": "Q170895", "o_label": "Cộng hòa Xã hội chủ nghĩa Xô viết Moldavia", "start": 1991, "end": 1991, "relation": "P1365", "r_label": "thay thế cho"}
+{"s_qid": "Q1948", "s_label": "Manitoba", "o_qid": "Q2007", "o_label": "Các Lãnh thổ Tây Bắc", "start": 1912, "end": 1912, "relation": "P1365", "r_label": "thay thế cho"}
+{"s_qid": "Q12543", "s_label": "Hauts-de-Seine", "o_qid": "Q1142326", "o_label": "Seine", "start": 1968, "end": null, "relation": "P1365", "r_label": "thay thế cho"}
+{"s_qid": "Q12543", "s_label": "Hauts-de-Seine", "o_qid": "Q12820", "o_label": "Yvelines", "start": 1968, "end": null, "relation": "P1365", "r_label": "thay thế cho"}
+{"s_qid": "Q13344", "s_label": "Đại học Bordeaux", "o_qid": "Q13338", "o_label": "Đại học Bordeaux 1", "start": 2014, "end": 2014, "relation": "P1365", "r_label": "thay thế cho"}
+{"s_qid": "Q13344", "s_label": "Đại học Bordeaux", "o_qid": "Q13340", "o_label": "Bordeaux Segalen University", "start": 2014, "end": 2014, "relation": "P1365", "r_label": "thay thế cho"}
+{"s_qid": "Q15720", "s_label": "Satsumasendai", "o_qid": "Q8194034", "o_label": "Sendai", "start": 2004, "end": 2004, "relation": "P1365", "r_label": "thay thế cho"}
+{"s_qid": "Q16957", "s_label": "Cộng hòa Dân chủ Đức", "o_qid": "Q1206012", "o_label": "German Reich", "start": 1949, "end": 1949, "relation": "P1365", "r_label": "thay thế cho"}
+{"s_qid": "Q314536", "s_label": "Norwegian University of Science and Technology", "o_qid": "Q1416348", "o_label": "Norwegian Institute of Technology", "start": 1996, "end": 1996, "relation": "P1365", "r_label": "thay thế cho"}
+{"s_qid": "Q548015", "s_label": "Route nationale 113", "o_qid": "Q1897083", "o_label": "Route nationale 10", "start": 1949, "end": 1949, "relation": "P1365", "r_label": "thay thế cho"}
+{"s_qid": "Q698082", "s_label": "Deutsche Reichsbahn", "o_qid": "Q564937", "o_label": "Royal Bavarian State Railways", "start": 1920, "end": 1920, "relation": "P1365", "r_label": "thay thế cho"}
+{"s_qid": "Q833670", "s_label": "KU Leuven", "o_qid": "Q644789", "o_label": "Catholic University of Leuven", "start": 1970, "end": 1970, "relation": "P1365", "r_label": "thay thế cho"}
+{"s_qid": "Q1430113", "s_label": "Institut national des langues et civilisations orientales", "o_qid": "Q52440672", "o_label": "École nationale des langues orientales vivantes", "start": 1971, "end": 1971, "relation": "P1365", "r_label": "thay thế cho"}
+{"s_qid": "Q30039410", "s_label": "Baugé-en-Anjou", "o_qid": "Q2264404", "o_label": "Baugé-en-Anjou", "start": 2016, "end": 2016, "relation": "P1365", "r_label": "thay thế cho"}
+{"s_qid": "Q54366459", "s_label": "Bournemouth, Christchurch and Poole", "o_qid": "Q20989094", "o_label": "Bournemouth", "start": 2019, "end": 2019, "relation": "P1365", "r_label": "thay thế cho"}
+{"s_qid": "Q54366459", "s_label": "Bournemouth, Christchurch and Poole", "o_qid": "Q21683234", "o_label": "Poole", "start": 2019, "end": 2019, "relation": "P1365", "r_label": "thay thế cho"}
+{"s_qid": "Q56405721", "s_label": "Vestfold og Telemark", "o_qid": "Q2254", "o_label": "Telemark", "start": 2020, "end": 2020, "relation": "P1365", "r_label": "thay thế cho"}
+{"s_qid": "Q17", "s_label": "Nhật Bản", "o_qid": "Q188712", "o_label": "Đế quốc Nhật Bản", "start": 1947, "end": 1947, "relation": "P1365", "r_label": "thay thế cho"}
+{"s_qid": "Q21", "s_label": "Anh", "o_qid": "Q179876", "o_label": "Vương quốc Anh", "start": 1707, "end": 1707, "relation": "P1365", "r_label": "thay thế cho"}
+{"s_qid": "Q810", "s_label": "Jordan", "o_qid": "Q193714", "o_label": "Lãnh thổ Ủy trị Palestine", "start": 1948, "end": 1967, "relation": "P1365", "r_label": "thay thế cho"}
+{"s_qid": "Q9322", "s_label": "Deutsche Bahn", "o_qid": "Q687175", "o_label": "Deutsche Bundesbahn", "start": 1994, "end": 1994, "relation": "P1365", "r_label": "thay thế cho"}
+{"s_qid": "Q12820", "s_label": "Yvelines", "o_qid": "Q979470", "o_label": "Seine-et-Oise", "start": 1968, "end": null, "relation": "P1365", "r_label": "thay thế cho"}
+{"s_qid": "Q50632", "s_label": "Finnmark", "o_qid": "Q52600648", "o_label": "Troms og Finnmark", "start": 2024, "end": 2024, "relation": "P1365", "r_label": "thay thế cho"}
+{"s_qid": "Q152554", "s_label": "Party of Democratic Socialism", "o_qid": "Q49750", "o_label": "Đảng Xã hội Chủ nghĩa Thống nhất Đức", "start": 1989, "end": 1989, "relation": "P1365", "r_label": "thay thế cho"}
+{"s_qid": "Q499967", "s_label": "Turkish State Railways", "o_qid": "Q30596115", "o_label": "State Railways and Seaports Administration", "start": 1929, "end": 1929, "relation": "P1365", "r_label": "thay thế cho"}
+{"s_qid": "Q499967", "s_label": "Turkish State Railways", "o_qid": "Q7546749", "o_label": "Chemin de fer de Smyrne-Cassaba et Prolongements", "start": 1934, "end": 1934, "relation": "P1365", "r_label": "thay thế cho"}
+{"s_qid": "Q546118", "s_label": "Đại học Paris-Sorbonne", "o_qid": "Q209842", "o_label": "Đại học Paris", "start": 1971, "end": 1971, "relation": "P1365", "r_label": "thay thế cho"}
+{"s_qid": "Q590201", "s_label": "Đại học Toulouse 1", "o_qid": "Q578023", "o_label": "University of Toulouse (1896-1968)", "start": 1969, "end": 1969, "relation": "P1365", "r_label": "thay thế cho"}
+{"s_qid": "Q607354", "s_label": "Giải Locus cho Tiểu thuyết tưởng tượng hay nhất", "o_qid": "Q595998", "o_label": "Giải Locus cho Tiểu thuyết hay nhất", "start": 1980, "end": 1980, "relation": "P1365", "r_label": "thay thế cho"}
+{"s_qid": "Q625380", "s_label": "Vương quốc Đông Hungary", "o_qid": "Q16056854", "o_label": "Kingdom of Hungary", "start": 1526, "end": 1526, "relation": "P1365", "r_label": "thay thế cho"}
+{"s_qid": "Q645836", "s_label": "Route nationale 43", "o_qid": "Q2736936", "o_label": "Route nationale 17", "start": 1978, "end": 1978, "relation": "P1365", "r_label": "thay thế cho"}
+{"s_qid": "Q645836", "s_label": "Route nationale 43", "o_qid": "Q2736936", "o_label": "Route nationale 17", "start": 1978, "end": 1978, "relation": "P1365", "r_label": "thay thế cho"}
+{"s_qid": "Q1194988", "s_label": "Université Paris 8 Vincennes-Saint-Denis", "o_qid": "Q209842", "o_label": "Đại học Paris", "start": 1969, "end": 1969, "relation": "P1365", "r_label": "thay thế cho"}
+{"s_qid": "Q1933558", "s_label": "University Toulouse - Jean Jaurès", "o_qid": "Q578023", "o_label": "University of Toulouse (1896-1968)", "start": 1969, "end": 1969, "relation": "P1365", "r_label": "thay thế cho"}
+{"s_qid": "Q5013228", "s_label": "flight lieutenant", "o_qid": "Q5036510", "o_label": "captain", "start": 1919, "end": 1919, "relation": "P1365", "r_label": "thay thế cho"}
+{"s_qid": "Q28220389", "s_label": "Anatolian Baghdad Railways", "o_qid": "Q488238", "o_label": "Chemins de Fer Ottomans d'Anatolie", "start": 1924, "end": 1924, "relation": "P1365", "r_label": "thay thế cho"}
+{"s_qid": "Q42293305", "s_label": "Indre Østfold Municipality", "o_qid": "Q109469", "o_label": "Askim Municipality", "start": 2020, "end": 2020, "relation": "P1365", "r_label": "thay thế cho"}
+{"s_qid": "Q42293305", "s_label": "Indre Østfold Municipality", "o_qid": "Q113740", "o_label": "Eidsberg", "start": 2020, "end": 2020, "relation": "P1365", "r_label": "thay thế cho"}
+{"s_qid": "Q42293305", "s_label": "Indre Østfold Municipality", "o_qid": "Q109475", "o_label": "Hobøl", "start": 2020, "end": 2020, "relation": "P1365", "r_label": "thay thế cho"}
+{"s_qid": "Q42293305", "s_label": "Indre Østfold Municipality", "o_qid": "Q48668", "o_label": "Spydeberg", "start": 2020, "end": 2020, "relation": "P1365", "r_label": "thay thế cho"}
+{"s_qid": "Q42293305", "s_label": "Indre Østfold Municipality", "o_qid": "Q48678", "o_label": "Trøgstad", "start": 2020, "end": 2020, "relation": "P1365", "r_label": "thay thế cho"}
+{"s_qid": "Q52600648", "s_label": "Troms og Finnmark", "o_qid": "Q50632", "o_label": "Finnmark", "start": 2020, "end": 2020, "relation": "P1365", "r_label": "thay thế cho"}
+{"s_qid": "Q52600648", "s_label": "Troms og Finnmark", "o_qid": "Q50631", "o_label": "Troms", "start": 2020, "end": 2020, "relation": "P1365", "r_label": "thay thế cho"}
+{"s_qid": "Q56404228", "s_label": "Alver Municipality", "o_qid": "Q113682", "o_label": "Lindås", "start": 2020, "end": 2020, "relation": "P1365", "r_label": "thay thế cho"}
+{"s_qid": "Q56404228", "s_label": "Alver Municipality", "o_qid": "Q488392", "o_label": "Meland", "start": 2020, "end": 2020, "relation": "P1365", "r_label": "thay thế cho"}
+{"s_qid": "Q56404228", "s_label": "Alver Municipality", "o_qid": "Q488966", "o_label": "Radøy", "start": 2020, "end": 2020, "relation": "P1365", "r_label": "thay thế cho"}
+{"s_qid": "Q120197332", "s_label": "Roman Catholic Diocese of Cuneo-Fossano", "o_qid": "Q675620", "o_label": "Roman Catholic Diocese of Cuneo", "start": 2023, "end": 2023, "relation": "P1365", "r_label": "thay thế cho"}
+{"s_qid": "Q406", "s_label": "Istanbul", "o_qid": "Q16869", "o_label": "Constantinopolis", "start": 1453, "end": 1453, "relation": "P1365", "r_label": "thay thế cho"}
+{"s_qid": "Q865", "s_label": "Đài Loan", "o_qid": "Q13426199", "o_label": "Trung Hoa Dân Quốc", "start": 1949, "end": 1949, "relation": "P1365", "r_label": "thay thế cho"}
+{"s_qid": "Q865", "s_label": "Đài Loan", "o_qid": "Q137816", "o_label": "Đài Loan thuộc Nhật", "start": 1945, "end": 1945, "relation": "P1365", "r_label": "thay thế cho"}
+{"s_qid": "Q865", "s_label": "Đài Loan", "o_qid": "Q8733", "o_label": "nhà Thanh", "start": 1911, "end": 1911, "relation": "P1365", "r_label": "thay thế cho"}
+{"s_qid": "Q7842", "s_label": "Đại học Tokyo", "o_qid": "Q39311438", "o_label": "Đại học Hoàng gia Tokyo", "start": 1886, "end": 1947, "relation": "P1365", "r_label": "thay thế cho"}
+{"s_qid": "Q10159", "s_label": "École Normale Supérieure de Lyon", "o_qid": "Q273605", "o_label": "École normale supérieure de lettres et sciences humaines", "start": 2010, "end": 2010, "relation": "P1365", "r_label": "thay thế cho"}
+{"s_qid": "Q12788", "s_label": "Val-de-Marne", "o_qid": "Q1142326", "o_label": "Seine", "start": 1968, "end": null, "relation": "P1365", "r_label": "thay thế cho"}
+{"s_qid": "Q12788", "s_label": "Val-de-Marne", "o_qid": "Q979470", "o_label": "Seine-et-Oise", "start": 1968, "end": null, "relation": "P1365", "r_label": "thay thế cho"}
+{"s_qid": "Q28513", "s_label": "Đế quốc Áo-Hung", "o_qid": "Q131964", "o_label": "Đế quốc Áo", "start": 1867, "end": 1867, "relation": "P1365", "r_label": "thay thế cho"}
+{"s_qid": "Q399668", "s_label": "Route nationale 7", "o_qid": "Q1296370", "o_label": "Route nationale 83", "start": 1978, "end": 1978, "relation": "P1365", "r_label": "thay thế cho"}
+{"s_qid": "Q655621", "s_label": "Thân vương quốc Transylvania (1570–1711)", "o_qid": "Q625380", "o_label": "Vương quốc Đông Hungary", "start": 1570, "end": 1570, "relation": "P1365", "r_label": "thay thế cho"}
+{"s_qid": "Q1144549", "s_label": "Université Pierre-et-Marie-Curie", "o_qid": "Q209842", "o_label": "Đại học Paris", "start": 1971, "end": 1971, "relation": "P1365", "r_label": "thay thế cho"}
+{"s_qid": "Q1144549", "s_label": "Université Pierre-et-Marie-Curie", "o_qid": "Q3064332", "o_label": "Science Faculty of Paris", "start": 1971, "end": 1971, "relation": "P1365", "r_label": "thay thế cho"}
+{"s_qid": "Q1144549", "s_label": "Université Pierre-et-Marie-Curie", "o_qid": "Q3064277", "o_label": "Paris Medical Faculty", "start": 1971, "end": 1971, "relation": "P1365", "r_label": "thay thế cho"}
+{"s_qid": "Q1480643", "s_label": "Trường Đại học Paris XI", "o_qid": "Q209842", "o_label": "Đại học Paris", "start": 1971, "end": 1971, "relation": "P1365", "r_label": "thay thế cho"}
+{"s_qid": "Q2305208", "s_label": "Nga Xô viết", "o_qid": "Q139319", "o_label": "Cộng hòa Nga", "start": 1917, "end": 1917, "relation": "P1365", "r_label": "thay thế cho"}
+{"s_qid": "Q2912244", "s_label": "Paul-Valéry University (Montpellier, 1970-2024)", "o_qid": "Q776223", "o_label": "Fac Medecine", "start": 1970, "end": 1970, "relation": "P1365", "r_label": "thay thế cho"}
+{"s_qid": "Q11596989", "s_label": "Inaba district", "o_qid": "Q11409326", "o_label": "Atsumi district", "start": 1897, "end": 1897, "relation": "P1365", "r_label": "thay thế cho"}
+{"s_qid": "Q63644915", "s_label": "Øygarden Municipality", "o_qid": "Q473529", "o_label": "Fjell", "start": 2020, "end": 2020, "relation": "P1365", "r_label": "thay thế cho"}
+{"s_qid": "Q63644915", "s_label": "Øygarden Municipality", "o_qid": "Q507509", "o_label": "Sund, Na Uy", "start": 2020, "end": 2020, "relation": "P1365", "r_label": "thay thế cho"}
+{"s_qid": "Q63644915", "s_label": "Øygarden Municipality", "o_qid": "Q317321", "o_label": "Øygarden", "start": 2020, "end": 2020, "relation": "P1365", "r_label": "thay thế cho"}
+{"s_qid": "Q85789775", "s_label": "Northern Trains", "o_qid": "Q22079702", "o_label": "Arriva Rail North", "start": 2020, "end": 2020, "relation": "P1365", "r_label": "thay thế cho"}
+{"s_qid": "Q109409389", "s_label": "Đại học Paris-Saclay", "o_qid": "Q1480643", "o_label": "Trường Đại học Paris XI", "start": 2020, "end": 2020, "relation": "P1365", "r_label": "thay thế cho"}
+{"s_qid": "Q109409389", "s_label": "Đại học Paris-Saclay", "o_qid": "Q13531686", "o_label": "Đại học Paris-Saclay", "start": 2020, "end": 2020, "relation": "P1365", "r_label": "thay thế cho"}
+{"s_qid": "Q28233", "s_label": "Đại Hàn Đế Quốc", "o_qid": "Q28179", "o_label": "Nhà Triều Tiên", "start": 1897, "end": 1897, "relation": "P1365", "r_label": "thay thế cho"}
+{"s_qid": "Q50631", "s_label": "Troms", "o_qid": "Q52600648", "o_label": "Troms og Finnmark", "start": 2024, "end": 2024, "relation": "P1365", "r_label": "thay thế cho"}
+{"s_qid": "Q174193", "s_label": "Vương quốc Liên hiệp Anh và Ireland", "o_qid": "Q161885", "o_label": "Vương quốc Đại Anh", "start": 1801, "end": 1801, "relation": "P1365", "r_label": "thay thế cho"}
+{"s_qid": "Q181854", "s_label": "Lappeenranta", "o_qid": "Q829851", "o_label": "Joutseno", "start": 2009, "end": null, "relation": "P1365", "r_label": "thay thế cho"}
+{"s_qid": "Q190804", "s_label": "Rijksmuseum", "o_qid": "Q18015075", "o_label": "Nederlandsch Museum voor Geschiedenis en Kunst", "start": 1885, "end": 1885, "relation": "P1365", "r_label": "thay thế cho"}
+{"s_qid": "Q190804", "s_label": "Rijksmuseum", "o_qid": "Q23959785", "o_label": "National Art Gallery of the Netherlands", "start": 1885, "end": 1885, "relation": "P1365", "r_label": "thay thế cho"}
+{"s_qid": "Q384011", "s_label": "Đường sắt Quốc gia Nhật Bản", "o_qid": "Q249654", "o_label": "Ministry of Railways", "start": 1949, "end": 1949, "relation": "P1365", "r_label": "thay thế cho"}
+{"s_qid": "Q902688", "s_label": "Montpellier 2 University", "o_qid": "Q776223", "o_label": "Fac Medecine", "start": 1969, "end": 1969, "relation": "P1365", "r_label": "thay thế cho"}
+{"s_qid": "Q56407178", "s_label": "Viken", "o_qid": "Q50615", "o_label": "Akershus", "start": 2020, "end": 2020, "relation": "P1365", "r_label": "thay thế cho"}
+{"s_qid": "Q56407178", "s_label": "Viken", "o_qid": "Q50618", "o_label": "Buskerud", "start": 2020, "end": null, "relation": "P1365", "r_label": "thay thế cho"}
+{"s_qid": "Q56407178", "s_label": "Viken", "o_qid": "Q50614", "o_label": "Østfold", "start": 2020, "end": null, "relation": "P1365", "r_label": "thay thế cho"}

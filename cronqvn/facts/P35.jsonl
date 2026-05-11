@@ -1,0 +1,100 @@
+{"s_qid": "Q148", "s_label": "Trung Quốc", "o_qid": "Q15031", "o_label": "Tập Cận Bình", "start": 2013, "end": null, "relation": "P35", "r_label": "nguyên thủ quốc gia"}
+{"s_qid": "Q148", "s_label": "Trung Quốc", "o_qid": "Q16597", "o_label": "Giang Trạch Dân", "start": 1993, "end": 2003, "relation": "P35", "r_label": "nguyên thủ quốc gia"}
+{"s_qid": "Q155", "s_label": "Brasil", "o_qid": "Q37181", "o_label": "Luiz Inácio Lula da Silva", "start": 2003, "end": 2010, "relation": "P35", "r_label": "nguyên thủ quốc gia"}
+{"s_qid": "Q155", "s_label": "Brasil", "o_qid": "Q37181", "o_label": "Luiz Inácio Lula da Silva", "start": 2023, "end": null, "relation": "P35", "r_label": "nguyên thủ quốc gia"}
+{"s_qid": "Q183", "s_label": "Đức", "o_qid": "Q2571", "o_label": "Walter Scheel", "start": 1974, "end": 1979, "relation": "P35", "r_label": "nguyên thủ quốc gia"}
+{"s_qid": "Q183", "s_label": "Đức", "o_qid": "Q2567", "o_label": "Richard von Weizsäcker", "start": 1984, "end": 1994, "relation": "P35", "r_label": "nguyên thủ quốc gia"}
+{"s_qid": "Q183", "s_label": "Đức", "o_qid": "Q2551", "o_label": "Johannes Rau", "start": 1999, "end": 2004, "relation": "P35", "r_label": "nguyên thủ quốc gia"}
+{"s_qid": "Q183", "s_label": "Đức", "o_qid": "Q2538", "o_label": "Joachim Gauck", "start": 2012, "end": 2017, "relation": "P35", "r_label": "nguyên thủ quốc gia"}
+{"s_qid": "Q183", "s_label": "Đức", "o_qid": "Q76658", "o_label": "Frank-Walter Steinmeier", "start": 2017, "end": null, "relation": "P35", "r_label": "nguyên thủ quốc gia"}
+{"s_qid": "Q298", "s_label": "Chile", "o_qid": "Q320", "o_label": "Michelle Bachelet", "start": 2006, "end": 2010, "relation": "P35", "r_label": "nguyên thủ quốc gia"}
+{"s_qid": "Q298", "s_label": "Chile", "o_qid": "Q320", "o_label": "Michelle Bachelet", "start": 2014, "end": 2018, "relation": "P35", "r_label": "nguyên thủ quốc gia"}
+{"s_qid": "Q801", "s_label": "Israel", "o_qid": "Q57410", "o_label": "Shimon Peres", "start": 2007, "end": 2014, "relation": "P35", "r_label": "nguyên thủ quốc gia"}
+{"s_qid": "Q869", "s_label": "Thái Lan", "o_qid": "Q548733", "o_label": "Vajiralongkorn", "start": 2016, "end": null, "relation": "P35", "r_label": "nguyên thủ quốc gia"}
+{"s_qid": "Q7318", "s_label": "Đức Quốc Xã", "o_qid": "Q352", "o_label": "Adolf Hitler", "start": 1934, "end": 1945, "relation": "P35", "r_label": "nguyên thủ quốc gia"}
+{"s_qid": "Q1206012", "s_label": "German Reich", "o_qid": "Q352", "o_label": "Adolf Hitler", "start": 1934, "end": 1945, "relation": "P35", "r_label": "nguyên thủ quốc gia"}
+{"s_qid": "Q30", "s_label": "Hoa Kỳ", "o_qid": "Q22686", "o_label": "Donald Trump", "start": 2025, "end": null, "relation": "P35", "r_label": "nguyên thủ quốc gia"}
+{"s_qid": "Q38", "s_label": "Ý", "o_qid": "Q1220", "o_label": "Giorgio Napolitano", "start": 2006, "end": 2015, "relation": "P35", "r_label": "nguyên thủ quốc gia"}
+{"s_qid": "Q38", "s_label": "Ý", "o_qid": "Q3956186", "o_label": "Sergio Mattarella", "start": 2015, "end": null, "relation": "P35", "r_label": "nguyên thủ quốc gia"}
+{"s_qid": "Q213", "s_label": "Séc", "o_qid": "Q36233", "o_label": "Václav Havel", "start": 1993, "end": 2003, "relation": "P35", "r_label": "nguyên thủ quốc gia"}
+{"s_qid": "Q235", "s_label": "Monaco", "o_qid": "Q3910", "o_label": "Albert II của Monaco", "start": 2005, "end": null, "relation": "P35", "r_label": "nguyên thủ quốc gia"}
+{"s_qid": "Q242", "s_label": "Belize", "o_qid": "Q43274", "o_label": "Charles III", "start": 2022, "end": null, "relation": "P35", "r_label": "nguyên thủ quốc gia"}
+{"s_qid": "Q242", "s_label": "Belize", "o_qid": "Q9682", "o_label": "Elizabeth II", "start": 1952, "end": 2022, "relation": "P35", "r_label": "nguyên thủ quốc gia"}
+{"s_qid": "Q252", "s_label": "Indonesia", "o_qid": "Q76127", "o_label": "Sukarno", "start": 1945, "end": 1967, "relation": "P35", "r_label": "nguyên thủ quốc gia"}
+{"s_qid": "Q252", "s_label": "Indonesia", "o_qid": "Q44819", "o_label": "Suharto", "start": 1967, "end": 1998, "relation": "P35", "r_label": "nguyên thủ quốc gia"}
+{"s_qid": "Q252", "s_label": "Indonesia", "o_qid": "Q76156", "o_label": "Jusuf Habibie", "start": 1998, "end": 1999, "relation": "P35", "r_label": "nguyên thủ quốc gia"}
+{"s_qid": "Q252", "s_label": "Indonesia", "o_qid": "Q76167", "o_label": "Abdurrahman Wahid", "start": 1999, "end": 2001, "relation": "P35", "r_label": "nguyên thủ quốc gia"}
+{"s_qid": "Q252", "s_label": "Indonesia", "o_qid": "Q76179", "o_label": "Megawati Sukarnoputri", "start": 2001, "end": 2004, "relation": "P35", "r_label": "nguyên thủ quốc gia"}
+{"s_qid": "Q252", "s_label": "Indonesia", "o_qid": "Q57405", "o_label": "Susilo Bambang Yudhoyono", "start": 2004, "end": 2014, "relation": "P35", "r_label": "nguyên thủ quốc gia"}
+{"s_qid": "Q252", "s_label": "Indonesia", "o_qid": "Q3318231", "o_label": "Joko Widodo", "start": 2014, "end": 2024, "relation": "P35", "r_label": "nguyên thủ quốc gia"}
+{"s_qid": "Q664", "s_label": "New Zealand", "o_qid": "Q9682", "o_label": "Elizabeth II", "start": 1952, "end": 2022, "relation": "P35", "r_label": "nguyên thủ quốc gia"}
+{"s_qid": "Q664", "s_label": "New Zealand", "o_qid": "Q43274", "o_label": "Charles III", "start": 2022, "end": null, "relation": "P35", "r_label": "nguyên thủ quốc gia"}
+{"s_qid": "Q34266", "s_label": "Đế quốc Nga", "o_qid": "Q36450", "o_label": "Ekaterina II của Nga", "start": 1762, "end": 1796, "relation": "P35", "r_label": "nguyên thủ quốc gia"}
+{"s_qid": "Q34266", "s_label": "Đế quốc Nga", "o_qid": "Q130734", "o_label": "Nikolai I của Nga", "start": 1825, "end": 1855, "relation": "P35", "r_label": "nguyên thủ quốc gia"}
+{"s_qid": "Q34266", "s_label": "Đế quốc Nga", "o_qid": "Q120180", "o_label": "Aleksandr III của Nga", "start": 1881, "end": 1894, "relation": "P35", "r_label": "nguyên thủ quốc gia"}
+{"s_qid": "Q1775277", "s_label": "Lãnh thổ tự trị Ấn Độ", "o_qid": "Q280856", "o_label": "George VI", "start": 1947, "end": 1950, "relation": "P35", "r_label": "nguyên thủ quốc gia"}
+{"s_qid": "Q145", "s_label": "Vương quốc Liên hiệp Anh và Bắc Ireland", "o_qid": "Q43274", "o_label": "Charles III", "start": 2022, "end": null, "relation": "P35", "r_label": "nguyên thủ quốc gia"}
+{"s_qid": "Q145", "s_label": "Vương quốc Liên hiệp Anh và Bắc Ireland", "o_qid": "Q9682", "o_label": "Elizabeth II", "start": 1952, "end": 2022, "relation": "P35", "r_label": "nguyên thủ quốc gia"}
+{"s_qid": "Q145", "s_label": "Vương quốc Liên hiệp Anh và Bắc Ireland", "o_qid": "Q280856", "o_label": "George VI", "start": 1936, "end": 1952, "relation": "P35", "r_label": "nguyên thủ quốc gia"}
+{"s_qid": "Q145", "s_label": "Vương quốc Liên hiệp Anh và Bắc Ireland", "o_qid": "Q590227", "o_label": "Edward VIII của Anh", "start": 1936, "end": 1936, "relation": "P35", "r_label": "nguyên thủ quốc gia"}
+{"s_qid": "Q145", "s_label": "Vương quốc Liên hiệp Anh và Bắc Ireland", "o_qid": "Q269412", "o_label": "George V của Anh", "start": null, "end": 1936, "relation": "P35", "r_label": "nguyên thủ quốc gia"}
+{"s_qid": "Q781", "s_label": "Antigua và Barbuda", "o_qid": "Q43274", "o_label": "Charles III", "start": 2022, "end": null, "relation": "P35", "r_label": "nguyên thủ quốc gia"}
+{"s_qid": "Q1952", "s_label": "Nova Scotia", "o_qid": "Q43274", "o_label": "Charles III", "start": 2024, "end": null, "relation": "P35", "r_label": "nguyên thủ quốc gia"}
+{"s_qid": "Q1965", "s_label": "New Brunswick", "o_qid": "Q43274", "o_label": "Charles III", "start": 2022, "end": null, "relation": "P35", "r_label": "nguyên thủ quốc gia"}
+{"s_qid": "Q230791", "s_label": "Vương quốc Scotland", "o_qid": "Q81506", "o_label": "Charles I của Anh", "start": 1625, "end": 1649, "relation": "P35", "r_label": "nguyên thủ quốc gia"}
+{"s_qid": "Q230791", "s_label": "Vương quốc Scotland", "o_qid": "Q122553", "o_label": "Charles II của Anh", "start": 1660, "end": 1685, "relation": "P35", "r_label": "nguyên thủ quốc gia"}
+{"s_qid": "Q230791", "s_label": "Vương quốc Scotland", "o_qid": "Q122553", "o_label": "Charles II của Anh", "start": 1649, "end": 1651, "relation": "P35", "r_label": "nguyên thủ quốc gia"}
+{"s_qid": "Q159", "s_label": "Nga", "o_qid": "Q34453", "o_label": "Boris Nikolayevich Yeltsin", "start": 1991, "end": 1999, "relation": "P35", "r_label": "nguyên thủ quốc gia"}
+{"s_qid": "Q159", "s_label": "Nga", "o_qid": "Q7747", "o_label": "Vladimir Putin", "start": 2000, "end": 2008, "relation": "P35", "r_label": "nguyên thủ quốc gia"}
+{"s_qid": "Q159", "s_label": "Nga", "o_qid": "Q7747", "o_label": "Vladimir Putin", "start": 2012, "end": null, "relation": "P35", "r_label": "nguyên thủ quốc gia"}
+{"s_qid": "Q241", "s_label": "Cuba", "o_qid": "Q11256", "o_label": "Fidel Castro", "start": 1976, "end": 2008, "relation": "P35", "r_label": "nguyên thủ quốc gia"}
+{"s_qid": "Q408", "s_label": "Úc", "o_qid": "Q9682", "o_label": "Elizabeth II", "start": 1952, "end": 2022, "relation": "P35", "r_label": "nguyên thủ quốc gia"}
+{"s_qid": "Q408", "s_label": "Úc", "o_qid": "Q43274", "o_label": "Charles III", "start": 2022, "end": null, "relation": "P35", "r_label": "nguyên thủ quốc gia"}
+{"s_qid": "Q1951", "s_label": "Alberta", "o_qid": "Q9682", "o_label": "Elizabeth II", "start": 1952, "end": 2022, "relation": "P35", "r_label": "nguyên thủ quốc gia"}
+{"s_qid": "Q1951", "s_label": "Alberta", "o_qid": "Q269412", "o_label": "George V của Anh", "start": 1910, "end": 1936, "relation": "P35", "r_label": "nguyên thủ quốc gia"}
+{"s_qid": "Q1951", "s_label": "Alberta", "o_qid": "Q590227", "o_label": "Edward VIII của Anh", "start": 1936, "end": 1936, "relation": "P35", "r_label": "nguyên thủ quốc gia"}
+{"s_qid": "Q1951", "s_label": "Alberta", "o_qid": "Q280856", "o_label": "George VI", "start": 1936, "end": 1952, "relation": "P35", "r_label": "nguyên thủ quốc gia"}
+{"s_qid": "Q1951", "s_label": "Alberta", "o_qid": "Q43274", "o_label": "Charles III", "start": 2022, "end": null, "relation": "P35", "r_label": "nguyên thủ quốc gia"}
+{"s_qid": "Q1989", "s_label": "Saskatchewan", "o_qid": "Q43274", "o_label": "Charles III", "start": 2022, "end": null, "relation": "P35", "r_label": "nguyên thủ quốc gia"}
+{"s_qid": "Q33946", "s_label": "Tiệp Khắc", "o_qid": "Q78492", "o_label": "Tomáš Garrigue Masaryk", "start": 1918, "end": 1935, "relation": "P35", "r_label": "nguyên thủ quốc gia"}
+{"s_qid": "Q33946", "s_label": "Tiệp Khắc", "o_qid": "Q36233", "o_label": "Václav Havel", "start": 1989, "end": 1992, "relation": "P35", "r_label": "nguyên thủ quốc gia"}
+{"s_qid": "Q33", "s_label": "Phần Lan", "o_qid": "Q152306", "o_label": "Carl Gustaf Emil Mannerheim", "start": 1944, "end": 1946, "relation": "P35", "r_label": "nguyên thủ quốc gia"}
+{"s_qid": "Q33", "s_label": "Phần Lan", "o_qid": "Q179858", "o_label": "Urho Kekkonen", "start": 1956, "end": 1982, "relation": "P35", "r_label": "nguyên thủ quốc gia"}
+{"s_qid": "Q33", "s_label": "Phần Lan", "o_qid": "Q29021", "o_label": "Mauno Koivisto", "start": 1982, "end": 1994, "relation": "P35", "r_label": "nguyên thủ quốc gia"}
+{"s_qid": "Q33", "s_label": "Phần Lan", "o_qid": "Q29230", "o_label": "Martti Ahtisaari", "start": 1994, "end": 2000, "relation": "P35", "r_label": "nguyên thủ quốc gia"}
+{"s_qid": "Q33", "s_label": "Phần Lan", "o_qid": "Q29207", "o_label": "Sauli Niinistö", "start": 2012, "end": 2024, "relation": "P35", "r_label": "nguyên thủ quốc gia"}
+{"s_qid": "Q55", "s_label": "Hà Lan", "o_qid": "Q154952", "o_label": "Willem-Alexander, Hoàng tử xứ Orange", "start": 2013, "end": null, "relation": "P35", "r_label": "nguyên thủ quốc gia"}
+{"s_qid": "Q218", "s_label": "România", "o_qid": "Q80504", "o_label": "Nicolae Ceauşescu", "start": 1974, "end": 1989, "relation": "P35", "r_label": "nguyên thủ quốc gia"}
+{"s_qid": "Q218", "s_label": "România", "o_qid": "Q80504", "o_label": "Nicolae Ceauşescu", "start": 1967, "end": 1974, "relation": "P35", "r_label": "nguyên thủ quốc gia"}
+{"s_qid": "Q228", "s_label": "Andorra", "o_qid": "Q329", "o_label": "Nicolas Sarkozy", "start": 2005, "end": 2012, "relation": "P35", "r_label": "nguyên thủ quốc gia"}
+{"s_qid": "Q244", "s_label": "Barbados", "o_qid": "Q9682", "o_label": "Elizabeth II", "start": 1966, "end": 2021, "relation": "P35", "r_label": "nguyên thủ quốc gia"}
+{"s_qid": "Q21", "s_label": "Anh", "o_qid": "Q43274", "o_label": "Charles III", "start": 2022, "end": null, "relation": "P35", "r_label": "nguyên thủ quốc gia"}
+{"s_qid": "Q34", "s_label": "Thụy Điển", "o_qid": "Q45068", "o_label": "Carl XVI Gustaf của Thụy Điển", "start": 1973, "end": null, "relation": "P35", "r_label": "nguyên thủ quốc gia"}
+{"s_qid": "Q37", "s_label": "Litva", "o_qid": "Q153167", "o_label": "Valdas Adamkus", "start": 1998, "end": 2003, "relation": "P35", "r_label": "nguyên thủ quốc gia"}
+{"s_qid": "Q37", "s_label": "Litva", "o_qid": "Q153167", "o_label": "Valdas Adamkus", "start": 2004, "end": 2009, "relation": "P35", "r_label": "nguyên thủ quốc gia"}
+{"s_qid": "Q760", "s_label": "Saint Lucia", "o_qid": "Q9682", "o_label": "Elizabeth II", "start": 1979, "end": 2022, "relation": "P35", "r_label": "nguyên thủ quốc gia"}
+{"s_qid": "Q760", "s_label": "Saint Lucia", "o_qid": "Q43274", "o_label": "Charles III", "start": 2022, "end": null, "relation": "P35", "r_label": "nguyên thủ quốc gia"}
+{"s_qid": "Q15180", "s_label": "Liên Xô", "o_qid": "Q186185", "o_label": "Kliment Yefremovich Voroshilov", "start": 1953, "end": 1960, "relation": "P35", "r_label": "nguyên thủ quốc gia"}
+{"s_qid": "Q15180", "s_label": "Liên Xô", "o_qid": "Q765165", "o_label": "Leonid Ilyich Brezhnev", "start": 1960, "end": 1964, "relation": "P35", "r_label": "nguyên thủ quốc gia"}
+{"s_qid": "Q15180", "s_label": "Liên Xô", "o_qid": "Q765165", "o_label": "Leonid Ilyich Brezhnev", "start": 1977, "end": 1982, "relation": "P35", "r_label": "nguyên thủ quốc gia"}
+{"s_qid": "Q15180", "s_label": "Liên Xô", "o_qid": "Q30487", "o_label": "Mikhail Sergeyevich Gorbachyov", "start": 1988, "end": 1991, "relation": "P35", "r_label": "nguyên thủ quốc gia"}
+{"s_qid": "Q16", "s_label": "Canada", "o_qid": "Q9439", "o_label": "Victoria của Liên hiệp Anh", "start": 1867, "end": 1901, "relation": "P35", "r_label": "nguyên thủ quốc gia"}
+{"s_qid": "Q16", "s_label": "Canada", "o_qid": "Q269412", "o_label": "George V của Anh", "start": 1910, "end": 1936, "relation": "P35", "r_label": "nguyên thủ quốc gia"}
+{"s_qid": "Q16", "s_label": "Canada", "o_qid": "Q590227", "o_label": "Edward VIII của Anh", "start": 1936, "end": 1936, "relation": "P35", "r_label": "nguyên thủ quốc gia"}
+{"s_qid": "Q16", "s_label": "Canada", "o_qid": "Q280856", "o_label": "George VI", "start": 1936, "end": 1952, "relation": "P35", "r_label": "nguyên thủ quốc gia"}
+{"s_qid": "Q16", "s_label": "Canada", "o_qid": "Q9682", "o_label": "Elizabeth II", "start": 1952, "end": 2022, "relation": "P35", "r_label": "nguyên thủ quốc gia"}
+{"s_qid": "Q16", "s_label": "Canada", "o_qid": "Q43274", "o_label": "Charles III", "start": 2022, "end": null, "relation": "P35", "r_label": "nguyên thủ quốc gia"}
+{"s_qid": "Q29", "s_label": "Tây Ban Nha", "o_qid": "Q191045", "o_label": "Felipe", "start": 2014, "end": null, "relation": "P35", "r_label": "nguyên thủ quốc gia"}
+{"s_qid": "Q29", "s_label": "Tây Ban Nha", "o_qid": "Q19943", "o_label": "Juan Carlos I", "start": 1975, "end": 2014, "relation": "P35", "r_label": "nguyên thủ quốc gia"}
+{"s_qid": "Q142", "s_label": "Pháp", "o_qid": "Q329", "o_label": "Nicolas Sarkozy", "start": 2007, "end": 2012, "relation": "P35", "r_label": "nguyên thủ quốc gia"}
+{"s_qid": "Q142", "s_label": "Pháp", "o_qid": "Q2105", "o_label": "Jacques Chirac", "start": 1995, "end": 2007, "relation": "P35", "r_label": "nguyên thủ quốc gia"}
+{"s_qid": "Q142", "s_label": "Pháp", "o_qid": "Q2124", "o_label": "Valéry Giscard d'Estaing", "start": 1974, "end": 1981, "relation": "P35", "r_label": "nguyên thủ quốc gia"}
+{"s_qid": "Q227", "s_label": "Azerbaijan", "o_qid": "Q57371", "o_label": "Ilham Aliyev", "start": 2003, "end": null, "relation": "P35", "r_label": "nguyên thủ quốc gia"}
+{"s_qid": "Q766", "s_label": "Jamaica", "o_qid": "Q43274", "o_label": "Charles III", "start": 2022, "end": null, "relation": "P35", "r_label": "nguyên thủ quốc gia"}
+{"s_qid": "Q766", "s_label": "Jamaica", "o_qid": "Q9682", "o_label": "Elizabeth II", "start": 1952, "end": 2022, "relation": "P35", "r_label": "nguyên thủ quốc gia"}
+{"s_qid": "Q778", "s_label": "Bahamas", "o_qid": "Q43274", "o_label": "Charles III", "start": 2022, "end": null, "relation": "P35", "r_label": "nguyên thủ quốc gia"}
+{"s_qid": "Q29999", "s_label": "Vương quốc Hà Lan", "o_qid": "Q154952", "o_label": "Willem-Alexander, Hoàng tử xứ Orange", "start": 2013, "end": null, "relation": "P35", "r_label": "nguyên thủ quốc gia"}
+{"s_qid": "Q146600", "s_label": "Vương quốc Ả Rập Syria", "o_qid": "Q12097", "o_label": "vua", "start": 1920, "end": 1920, "relation": "P35", "r_label": "nguyên thủ quốc gia"}
+{"s_qid": "Q174193", "s_label": "Vương quốc Liên hiệp Anh và Ireland", "o_qid": "Q130586", "o_label": "George IV của Anh", "start": 1820, "end": 1830, "relation": "P35", "r_label": "nguyên thủ quốc gia"}
+{"s_qid": "Q174193", "s_label": "Vương quốc Liên hiệp Anh và Ireland", "o_qid": "Q9439", "o_label": "Victoria của Liên hiệp Anh", "start": 1837, "end": 1901, "relation": "P35", "r_label": "nguyên thủ quốc gia"}
+{"s_qid": "Q174193", "s_label": "Vương quốc Liên hiệp Anh và Ireland", "o_qid": "Q269412", "o_label": "George V của Anh", "start": 1910, "end": null, "relation": "P35", "r_label": "nguyên thủ quốc gia"}

@@ -1,0 +1,64 @@
+{"s_qid": "Q155", "s_label": "Brasil", "o_qid": "Q37181", "o_label": "Luiz Inácio Lula da Silva", "start": 2023, "end": null, "relation": "P6", "r_label": "người đứng đầu chính quyền"}
+{"s_qid": "Q183", "s_label": "Đức", "o_qid": "Q2492", "o_label": "Konrad Adenauer", "start": 1949, "end": 1963, "relation": "P6", "r_label": "người đứng đầu chính quyền"}
+{"s_qid": "Q183", "s_label": "Đức", "o_qid": "Q2514", "o_label": "Willy Brandt", "start": 1969, "end": 1974, "relation": "P6", "r_label": "người đứng đầu chính quyền"}
+{"s_qid": "Q183", "s_label": "Đức", "o_qid": "Q2571", "o_label": "Walter Scheel", "start": 1974, "end": 1974, "relation": "P6", "r_label": "người đứng đầu chính quyền"}
+{"s_qid": "Q183", "s_label": "Đức", "o_qid": "Q2516", "o_label": "Helmut Schmidt", "start": 1974, "end": 1982, "relation": "P6", "r_label": "người đứng đầu chính quyền"}
+{"s_qid": "Q183", "s_label": "Đức", "o_qid": "Q2518", "o_label": "Helmut Kohl", "start": 1982, "end": 1998, "relation": "P6", "r_label": "người đứng đầu chính quyền"}
+{"s_qid": "Q183", "s_label": "Đức", "o_qid": "Q567", "o_label": "Angela Merkel", "start": 2005, "end": 2021, "relation": "P6", "r_label": "người đứng đầu chính quyền"}
+{"s_qid": "Q183", "s_label": "Đức", "o_qid": "Q61053", "o_label": "Olaf Scholz", "start": 2021, "end": 2025, "relation": "P6", "r_label": "người đứng đầu chính quyền"}
+{"s_qid": "Q801", "s_label": "Israel", "o_qid": "Q43723", "o_label": "Benjamin Netanyahu", "start": 2009, "end": 2021, "relation": "P6", "r_label": "người đứng đầu chính quyền"}
+{"s_qid": "Q801", "s_label": "Israel", "o_qid": "Q57410", "o_label": "Shimon Peres", "start": 1984, "end": 1986, "relation": "P6", "r_label": "người đứng đầu chính quyền"}
+{"s_qid": "Q801", "s_label": "Israel", "o_qid": "Q57410", "o_label": "Shimon Peres", "start": 1995, "end": 1996, "relation": "P6", "r_label": "người đứng đầu chính quyền"}
+{"s_qid": "Q801", "s_label": "Israel", "o_qid": "Q43723", "o_label": "Benjamin Netanyahu", "start": 1996, "end": 1999, "relation": "P6", "r_label": "người đứng đầu chính quyền"}
+{"s_qid": "Q801", "s_label": "Israel", "o_qid": "Q43723", "o_label": "Benjamin Netanyahu", "start": 2022, "end": null, "relation": "P6", "r_label": "người đứng đầu chính quyền"}
+{"s_qid": "Q30", "s_label": "Hoa Kỳ", "o_qid": "Q23", "o_label": "George Washington", "start": 1789, "end": 1797, "relation": "P6", "r_label": "người đứng đầu chính quyền"}
+{"s_qid": "Q30", "s_label": "Hoa Kỳ", "o_qid": "Q34296", "o_label": "Woodrow Wilson", "start": 1913, "end": 1921, "relation": "P6", "r_label": "người đứng đầu chính quyền"}
+{"s_qid": "Q30", "s_label": "Hoa Kỳ", "o_qid": "Q8007", "o_label": "Franklin D. Roosevelt", "start": 1933, "end": 1945, "relation": "P6", "r_label": "người đứng đầu chính quyền"}
+{"s_qid": "Q30", "s_label": "Hoa Kỳ", "o_qid": "Q9916", "o_label": "Dwight D. Eisenhower", "start": 1953, "end": 1961, "relation": "P6", "r_label": "người đứng đầu chính quyền"}
+{"s_qid": "Q30", "s_label": "Hoa Kỳ", "o_qid": "Q9696", "o_label": "John F. Kennedy", "start": 1961, "end": 1963, "relation": "P6", "r_label": "người đứng đầu chính quyền"}
+{"s_qid": "Q30", "s_label": "Hoa Kỳ", "o_qid": "Q9640", "o_label": "Lyndon B. Johnson", "start": 1963, "end": 1969, "relation": "P6", "r_label": "người đứng đầu chính quyền"}
+{"s_qid": "Q30", "s_label": "Hoa Kỳ", "o_qid": "Q9588", "o_label": "Richard Nixon", "start": 1969, "end": 1974, "relation": "P6", "r_label": "người đứng đầu chính quyền"}
+{"s_qid": "Q30", "s_label": "Hoa Kỳ", "o_qid": "Q9582", "o_label": "Gerald Ford", "start": 1974, "end": 1977, "relation": "P6", "r_label": "người đứng đầu chính quyền"}
+{"s_qid": "Q30", "s_label": "Hoa Kỳ", "o_qid": "Q23685", "o_label": "Jimmy Carter", "start": 1977, "end": 1981, "relation": "P6", "r_label": "người đứng đầu chính quyền"}
+{"s_qid": "Q30", "s_label": "Hoa Kỳ", "o_qid": "Q9960", "o_label": "Ronald Reagan", "start": 1981, "end": 1989, "relation": "P6", "r_label": "người đứng đầu chính quyền"}
+{"s_qid": "Q30", "s_label": "Hoa Kỳ", "o_qid": "Q23505", "o_label": "George H. W. Bush", "start": 1989, "end": 1993, "relation": "P6", "r_label": "người đứng đầu chính quyền"}
+{"s_qid": "Q30", "s_label": "Hoa Kỳ", "o_qid": "Q1124", "o_label": "Bill Clinton", "start": 1993, "end": 2001, "relation": "P6", "r_label": "người đứng đầu chính quyền"}
+{"s_qid": "Q30", "s_label": "Hoa Kỳ", "o_qid": "Q207", "o_label": "George W. Bush", "start": 2001, "end": 2009, "relation": "P6", "r_label": "người đứng đầu chính quyền"}
+{"s_qid": "Q30", "s_label": "Hoa Kỳ", "o_qid": "Q76", "o_label": "Barack Obama", "start": 2009, "end": 2017, "relation": "P6", "r_label": "người đứng đầu chính quyền"}
+{"s_qid": "Q30", "s_label": "Hoa Kỳ", "o_qid": "Q22686", "o_label": "Donald Trump", "start": 2017, "end": 2021, "relation": "P6", "r_label": "người đứng đầu chính quyền"}
+{"s_qid": "Q30", "s_label": "Hoa Kỳ", "o_qid": "Q6279", "o_label": "Joe Biden", "start": 2021, "end": 2025, "relation": "P6", "r_label": "người đứng đầu chính quyền"}
+{"s_qid": "Q30", "s_label": "Hoa Kỳ", "o_qid": "Q22686", "o_label": "Donald Trump", "start": 2025, "end": null, "relation": "P6", "r_label": "người đứng đầu chính quyền"}
+{"s_qid": "Q38", "s_label": "Ý", "o_qid": "Q11860", "o_label": "Silvio Berlusconi", "start": 2008, "end": 2011, "relation": "P6", "r_label": "người đứng đầu chính quyền"}
+{"s_qid": "Q38", "s_label": "Ý", "o_qid": "Q11860", "o_label": "Silvio Berlusconi", "start": 2005, "end": 2006, "relation": "P6", "r_label": "người đứng đầu chính quyền"}
+{"s_qid": "Q38", "s_label": "Ý", "o_qid": "Q11860", "o_label": "Silvio Berlusconi", "start": 2001, "end": 2005, "relation": "P6", "r_label": "người đứng đầu chính quyền"}
+{"s_qid": "Q38", "s_label": "Ý", "o_qid": "Q11860", "o_label": "Silvio Berlusconi", "start": 1994, "end": 1995, "relation": "P6", "r_label": "người đứng đầu chính quyền"}
+{"s_qid": "Q38", "s_label": "Ý", "o_qid": "Q50005", "o_label": "Giulio Andreotti", "start": 1991, "end": 1992, "relation": "P6", "r_label": "người đứng đầu chính quyền"}
+{"s_qid": "Q38", "s_label": "Ý", "o_qid": "Q50005", "o_label": "Giulio Andreotti", "start": 1989, "end": 1991, "relation": "P6", "r_label": "người đứng đầu chính quyền"}
+{"s_qid": "Q38", "s_label": "Ý", "o_qid": "Q50005", "o_label": "Giulio Andreotti", "start": 1979, "end": 1979, "relation": "P6", "r_label": "người đứng đầu chính quyền"}
+{"s_qid": "Q38", "s_label": "Ý", "o_qid": "Q50005", "o_label": "Giulio Andreotti", "start": 1978, "end": 1979, "relation": "P6", "r_label": "người đứng đầu chính quyền"}
+{"s_qid": "Q38", "s_label": "Ý", "o_qid": "Q50005", "o_label": "Giulio Andreotti", "start": 1976, "end": 1978, "relation": "P6", "r_label": "người đứng đầu chính quyền"}
+{"s_qid": "Q38", "s_label": "Ý", "o_qid": "Q50005", "o_label": "Giulio Andreotti", "start": 1972, "end": 1973, "relation": "P6", "r_label": "người đứng đầu chính quyền"}
+{"s_qid": "Q38", "s_label": "Ý", "o_qid": "Q50005", "o_label": "Giulio Andreotti", "start": 1972, "end": 1972, "relation": "P6", "r_label": "người đứng đầu chính quyền"}
+{"s_qid": "Q38", "s_label": "Ý", "o_qid": "Q312058", "o_label": "Emilio Colombo", "start": 1970, "end": 1972, "relation": "P6", "r_label": "người đứng đầu chính quyền"}
+{"s_qid": "Q2107", "s_label": "Wuppertal", "o_qid": "Q2551", "o_label": "Johannes Rau", "start": 1969, "end": 1970, "relation": "P6", "r_label": "người đứng đầu chính quyền"}
+{"s_qid": "Q64", "s_label": "Berlin", "o_qid": "Q2514", "o_label": "Willy Brandt", "start": 1957, "end": 1966, "relation": "P6", "r_label": "người đứng đầu chính quyền"}
+{"s_qid": "Q64", "s_label": "Berlin", "o_qid": "Q2567", "o_label": "Richard von Weizsäcker", "start": 1981, "end": 1984, "relation": "P6", "r_label": "người đứng đầu chính quyền"}
+{"s_qid": "Q145", "s_label": "Vương quốc Liên hiệp Anh và Bắc Ireland", "o_qid": "Q7416", "o_label": "Margaret Thatcher", "start": 1979, "end": 1990, "relation": "P6", "r_label": "người đứng đầu chính quyền"}
+{"s_qid": "Q145", "s_label": "Vương quốc Liên hiệp Anh và Bắc Ireland", "o_qid": "Q8016", "o_label": "Winston Churchill", "start": 1951, "end": 1955, "relation": "P6", "r_label": "người đứng đầu chính quyền"}
+{"s_qid": "Q145", "s_label": "Vương quốc Liên hiệp Anh và Bắc Ireland", "o_qid": "Q8016", "o_label": "Winston Churchill", "start": 1940, "end": 1945, "relation": "P6", "r_label": "người đứng đầu chính quyền"}
+{"s_qid": "Q229", "s_label": "Cộng hòa Síp", "o_qid": "Q57334", "o_label": "Dimitris Christofias", "start": null, "end": 2013, "relation": "P6", "r_label": "người đứng đầu chính quyền"}
+{"s_qid": "Q2184", "s_label": "Cộng hòa Xã hội chủ nghĩa Xô viết Liên bang Nga", "o_qid": "Q1394", "o_label": "Vladimir Ilyich Lenin", "start": 1922, "end": 1924, "relation": "P6", "r_label": "người đứng đầu chính quyền"}
+{"s_qid": "Q2184", "s_label": "Cộng hòa Xã hội chủ nghĩa Xô viết Liên bang Nga", "o_qid": "Q34453", "o_label": "Boris Nikolayevich Yeltsin", "start": 1991, "end": 1992, "relation": "P6", "r_label": "người đứng đầu chính quyền"}
+{"s_qid": "Q3112580", "s_label": "Government of South Australia", "o_qid": "Q7615025", "o_label": "Steven Marshall", "start": 2018, "end": null, "relation": "P6", "r_label": "người đứng đầu chính quyền"}
+{"s_qid": "Q90", "s_label": "Paris", "o_qid": "Q2105", "o_label": "Jacques Chirac", "start": 1977, "end": 1995, "relation": "P6", "r_label": "người đứng đầu chính quyền"}
+{"s_qid": "Q159", "s_label": "Nga", "o_qid": "Q34453", "o_label": "Boris Nikolayevich Yeltsin", "start": 1991, "end": 1992, "relation": "P6", "r_label": "người đứng đầu chính quyền"}
+{"s_qid": "Q159", "s_label": "Nga", "o_qid": "Q7747", "o_label": "Vladimir Putin", "start": 1999, "end": 2000, "relation": "P6", "r_label": "người đứng đầu chính quyền"}
+{"s_qid": "Q159", "s_label": "Nga", "o_qid": "Q7747", "o_label": "Vladimir Putin", "start": 2008, "end": 2012, "relation": "P6", "r_label": "người đứng đầu chính quyền"}
+{"s_qid": "Q1408", "s_label": "New Jersey", "o_qid": "Q34296", "o_label": "Woodrow Wilson", "start": 1911, "end": 1913, "relation": "P6", "r_label": "người đứng đầu chính quyền"}
+{"s_qid": "Q17", "s_label": "Nhật Bản", "o_qid": "Q359480", "o_label": "Kishida Fumio", "start": 2021, "end": 2024, "relation": "P6", "r_label": "người đứng đầu chính quyền"}
+{"s_qid": "Q836", "s_label": "Myanma", "o_qid": "Q36740", "o_label": "Aung San Suu Kyi", "start": 2016, "end": 2021, "relation": "P6", "r_label": "người đứng đầu chính quyền"}
+{"s_qid": "Q1055", "s_label": "Hamburg", "o_qid": "Q61053", "o_label": "Olaf Scholz", "start": 2011, "end": 2018, "relation": "P6", "r_label": "người đứng đầu chính quyền"}
+{"s_qid": "Q15180", "s_label": "Liên Xô", "o_qid": "Q1394", "o_label": "Vladimir Ilyich Lenin", "start": 1923, "end": 1924, "relation": "P6", "r_label": "người đứng đầu chính quyền"}
+{"s_qid": "Q15180", "s_label": "Liên Xô", "o_qid": "Q855", "o_label": "Iosif Vissarionovich Stalin", "start": 1941, "end": 1953, "relation": "P6", "r_label": "người đứng đầu chính quyền"}
+{"s_qid": "Q2305208", "s_label": "Nga Xô viết", "o_qid": "Q1394", "o_label": "Vladimir Ilyich Lenin", "start": 1917, "end": 1924, "relation": "P6", "r_label": "người đứng đầu chính quyền"}
+{"s_qid": "Q980", "s_label": "Bayern", "o_qid": "Q44620", "o_label": "Franz Josef Strauß", "start": 1978, "end": 1988, "relation": "P6", "r_label": "người đứng đầu chính quyền"}

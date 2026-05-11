@@ -1,0 +1,116 @@
+{"s_qid": "Q169889", "s_label": "American Broadcasting Company", "o_qid": "Q7414", "o_label": "Công ty Walt Disney", "start": 1996, "end": null, "relation": "P749", "r_label": "tổ chức mẹ"}
+{"s_qid": "Q776223", "s_label": "Fac Medecine", "o_qid": "Q2476558", "o_label": "Languedoc Roussillon Universities", "start": 2014, "end": null, "relation": "P749", "r_label": "tổ chức mẹ"}
+{"s_qid": "Q859363", "s_label": "Viện Nghiên cứu Chính trị Paris", "o_qid": "Q3491149", "o_label": "Sorbonne Paris Cité University (group)", "start": 2015, "end": null, "relation": "P749", "r_label": "tổ chức mẹ"}
+{"s_qid": "Q1235608", "s_label": "Trường Đại học Paris VII", "o_qid": "Q3491149", "o_label": "Sorbonne Paris Cité University (group)", "start": 2015, "end": null, "relation": "P749", "r_label": "tổ chức mẹ"}
+{"s_qid": "Q1335294", "s_label": "AstraZeneca (United States)", "o_qid": "Q731938", "o_label": "AstraZeneca", "start": 2007, "end": null, "relation": "P749", "r_label": "tổ chức mẹ"}
+{"s_qid": "Q1784954", "s_label": "University of Le Havre", "o_qid": "Q3343880", "o_label": "Normandy University", "start": 2015, "end": null, "relation": "P749", "r_label": "tổ chức mẹ"}
+{"s_qid": "Q1794356", "s_label": "Viện Kurchatov", "o_qid": "Q83172", "o_label": "Viện Hàn lâm Khoa học Nga", "start": 1991, "end": 2008, "relation": "P749", "r_label": "tổ chức mẹ"}
+{"s_qid": "Q1794356", "s_label": "Viện Kurchatov", "o_qid": "Q2370801", "o_label": "Viện Hàn lâm Khoa học Liên Xô", "start": null, "end": 1991, "relation": "P749", "r_label": "tổ chức mẹ"}
+{"s_qid": "Q3395117", "s_label": "Instituto Español de Oceanografía", "o_qid": "Q1024362", "o_label": "Spanish National Research Council", "start": 2021, "end": null, "relation": "P749", "r_label": "tổ chức mẹ"}
+{"s_qid": "Q7374408", "s_label": "Royal Liverpool University Hospital", "o_qid": "Q7374407", "o_label": "Royal Liverpool and Broadgreen University Hospitals NHS Trust", "start": 1995, "end": 2019, "relation": "P749", "r_label": "tổ chức mẹ"}
+{"s_qid": "Q98112081", "s_label": "Paris-Saclay Faculty of Sciences", "o_qid": "Q13531686", "o_label": "Đại học Paris-Saclay", "start": null, "end": 2020, "relation": "P749", "r_label": "tổ chức mẹ"}
+{"s_qid": "Q273626", "s_label": "Trường Bách khoa Paris", "o_qid": "Q13531686", "o_label": "Đại học Paris-Saclay", "start": 2015, "end": 2019, "relation": "P749", "r_label": "tổ chức mẹ"}
+{"s_qid": "Q273638", "s_label": "Trường Lý Hóa Công nghiệp Paris - ESPCI Paris", "o_qid": "Q1163431", "o_label": "PSL Research University", "start": 2015, "end": null, "relation": "P749", "r_label": "tổ chức mẹ"}
+{"s_qid": "Q287072", "s_label": "University of Burgundy Europe", "o_qid": "Q3359833", "o_label": "Burgundy - Franche-Comté University Group", "start": 2015, "end": null, "relation": "P749", "r_label": "tổ chức mẹ"}
+{"s_qid": "Q829449", "s_label": "Marie and Louis Pasteur University", "o_qid": "Q3359833", "o_label": "Burgundy - Franche-Comté University Group", "start": 2015, "end": 2024, "relation": "P749", "r_label": "tổ chức mẹ"}
+{"s_qid": "Q1189954", "s_label": "École nationale supérieure des mines de Paris", "o_qid": "Q1163431", "o_label": "PSL Research University", "start": 2015, "end": null, "relation": "P749", "r_label": "tổ chức mẹ"}
+{"s_qid": "Q1665106", "s_label": "National Institute for Agricultural Research", "o_qid": "Q13531686", "o_label": "Đại học Paris-Saclay", "start": 2015, "end": null, "relation": "P749", "r_label": "tổ chức mẹ"}
+{"s_qid": "Q2076679", "s_label": "Montreal Locomotive Works", "o_qid": "Q383589", "o_label": "American Locomotive Company", "start": 1904, "end": 1969, "relation": "P749", "r_label": "tổ chức mẹ"}
+{"s_qid": "Q2991466", "s_label": "Côte d'Azur Observatory", "o_qid": "Q19370961", "o_label": "University of Côte d'Azur", "start": 2015, "end": null, "relation": "P749", "r_label": "tổ chức mẹ"}
+{"s_qid": "Q3551755", "s_label": "University of the Littoral Opal Coast", "o_qid": "Q1322289", "o_label": "University of Lille", "start": 2015, "end": 2019, "relation": "P749", "r_label": "tổ chức mẹ"}
+{"s_qid": "Q7373850", "s_label": "Royal Brompton Hospital", "o_qid": "Q17019348", "o_label": "Royal Brompton & Harefield NHS Foundation Trust", "start": 1998, "end": null, "relation": "P749", "r_label": "tổ chức mẹ"}
+{"s_qid": "Q7694901", "s_label": "Tehran University of Medical Sciences", "o_qid": "Q737835", "o_label": "University of Tehran", "start": 1934, "end": 1986, "relation": "P749", "r_label": "tổ chức mẹ"}
+{"s_qid": "Q15733006", "s_label": "DeepMind", "o_qid": "Q20800404", "o_label": "Alphabet", "start": 2015, "end": null, "relation": "P749", "r_label": "tổ chức mẹ"}
+{"s_qid": "Q15733006", "s_label": "DeepMind", "o_qid": "Q95", "o_label": "Google", "start": 2014, "end": 2015, "relation": "P749", "r_label": "tổ chức mẹ"}
+{"s_qid": "Q4027", "s_label": "Jean Moulin University - Lyon 3", "o_qid": "Q10176", "o_label": "Đại học Lyon", "start": 2015, "end": null, "relation": "P749", "r_label": "tổ chức mẹ"}
+{"s_qid": "Q4032", "s_label": "Đại học Claude Bernard Lyon 1", "o_qid": "Q10176", "o_label": "Đại học Lyon", "start": 2015, "end": null, "relation": "P749", "r_label": "tổ chức mẹ"}
+{"s_qid": "Q4041", "s_label": "Lumière University Lyon 2", "o_qid": "Q10176", "o_label": "Đại học Lyon", "start": 2015, "end": null, "relation": "P749", "r_label": "tổ chức mẹ"}
+{"s_qid": "Q46974", "s_label": "Canadian Pacific Railway", "o_qid": "Q117706368", "o_label": "Canadian Pacific Kansas City", "start": 2001, "end": null, "relation": "P749", "r_label": "tổ chức mẹ"}
+{"s_qid": "Q273523", "s_label": "École nationale des ponts et chaussées", "o_qid": "Q3551472", "o_label": "University of Paris-Est", "start": 2015, "end": null, "relation": "P749", "r_label": "tổ chức mẹ"}
+{"s_qid": "Q273535", "s_label": "HEC Paris", "o_qid": "Q13531686", "o_label": "Đại học Paris-Saclay", "start": 2015, "end": 2019, "relation": "P749", "r_label": "tổ chức mẹ"}
+{"s_qid": "Q273600", "s_label": "École nationale vétérinaire d'Alfort", "o_qid": "Q3551472", "o_label": "University of Paris-Est", "start": 2015, "end": null, "relation": "P749", "r_label": "tổ chức mẹ"}
+{"s_qid": "Q494247", "s_label": "University of Rouen-Normandy", "o_qid": "Q3343880", "o_label": "Normandy University", "start": 2015, "end": null, "relation": "P749", "r_label": "tổ chức mẹ"}
+{"s_qid": "Q1141586", "s_label": "University Lille-III", "o_qid": "Q1322289", "o_label": "University of Lille", "start": 2015, "end": 2017, "relation": "P749", "r_label": "tổ chức mẹ"}
+{"s_qid": "Q1155944", "s_label": "Université Paris-Descartes", "o_qid": "Q3491149", "o_label": "Sorbonne Paris Cité University (group)", "start": 2015, "end": null, "relation": "P749", "r_label": "tổ chức mẹ"}
+{"s_qid": "Q1198571", "s_label": "Đại học Nice Sophia Antipolis", "o_qid": "Q19370961", "o_label": "University of Côte d'Azur", "start": 2015, "end": 2019, "relation": "P749", "r_label": "tổ chức mẹ"}
+{"s_qid": "Q1587855", "s_label": "École des hautes études en santé publique", "o_qid": "Q3491149", "o_label": "Sorbonne Paris Cité University (group)", "start": 2015, "end": null, "relation": "P749", "r_label": "tổ chức mẹ"}
+{"s_qid": "Q1633976", "s_label": "The Roslin Institute", "o_qid": "Q160302", "o_label": "Đại học Edinburgh", "start": 2007, "end": null, "relation": "P749", "r_label": "tổ chức mẹ"}
+{"s_qid": "Q1780212", "s_label": "Université Sorbonne Paris Nord", "o_qid": "Q3491149", "o_label": "Sorbonne Paris Cité University (group)", "start": 2015, "end": null, "relation": "P749", "r_label": "tổ chức mẹ"}
+{"s_qid": "Q2011495", "s_label": "Vulcan Foundry", "o_qid": "Q1342845", "o_label": "English Electric", "start": 1957, "end": null, "relation": "P749", "r_label": "tổ chức mẹ"}
+{"s_qid": "Q2344683", "s_label": "Stephen F. Austin State University", "o_qid": "Q2140391", "o_label": "University of Texas System", "start": 2023, "end": null, "relation": "P749", "r_label": "tổ chức mẹ"}
+{"s_qid": "Q2496121", "s_label": "University of Nîmes", "o_qid": "Q2476558", "o_label": "Languedoc Roussillon Universities", "start": 2014, "end": null, "relation": "P749", "r_label": "tổ chức mẹ"}
+{"s_qid": "Q3152060", "s_label": "Paris Institute of Earth Physics", "o_qid": "Q3491149", "o_label": "Sorbonne Paris Cité University (group)", "start": 2015, "end": null, "relation": "P749", "r_label": "tổ chức mẹ"}
+{"s_qid": "Q3152211", "s_label": "Paris Brain Institute", "o_qid": "Q41497113", "o_label": "Đại học Sorbonne", "start": 2018, "end": null, "relation": "P749", "r_label": "tổ chức mẹ"}
+{"s_qid": "Q3152211", "s_label": "Paris Brain Institute", "o_qid": "Q280413", "o_label": "Trung tâm Nghiên cứu Khoa học Quốc gia Pháp", "start": 2009, "end": null, "relation": "P749", "r_label": "tổ chức mẹ"}
+{"s_qid": "Q3152211", "s_label": "Paris Brain Institute", "o_qid": "Q2867205", "o_label": "Assistance Publique – Hôpitaux de Paris", "start": 2009, "end": null, "relation": "P749", "r_label": "tổ chức mẹ"}
+{"s_qid": "Q3152211", "s_label": "Paris Brain Institute", "o_qid": "Q1474517", "o_label": "Institut national de la santé et de la recherche médicale", "start": 2009, "end": null, "relation": "P749", "r_label": "tổ chức mẹ"}
+{"s_qid": "Q6973751", "s_label": "National Institute on Drug Abuse", "o_qid": "Q390551", "o_label": "Viện Y tế Quốc gia", "start": 1992, "end": null, "relation": "P749", "r_label": "tổ chức mẹ"}
+{"s_qid": "Q27988140", "s_label": "The New School for Social Research", "o_qid": "Q599316", "o_label": "The New School", "start": 1934, "end": null, "relation": "P749", "r_label": "tổ chức mẹ"}
+{"s_qid": "Q217365", "s_label": "Bell Labs", "o_qid": "Q35476", "o_label": "AT&T", "start": 1925, "end": 1996, "relation": "P749", "r_label": "tổ chức mẹ"}
+{"s_qid": "Q623154", "s_label": "Jean Monnet University", "o_qid": "Q10176", "o_label": "Đại học Lyon", "start": 2015, "end": null, "relation": "P749", "r_label": "tổ chức mẹ"}
+{"s_qid": "Q638859", "s_label": "Mills College at Northeastern University", "o_qid": "Q37548", "o_label": "Đại học Northeastern", "start": 2022, "end": null, "relation": "P749", "r_label": "tổ chức mẹ"}
+{"s_qid": "Q980688", "s_label": "Université Paris-Est-Créteil-Val-de-Marne", "o_qid": "Q3551472", "o_label": "University of Paris-Est", "start": 2015, "end": null, "relation": "P749", "r_label": "tổ chức mẹ"}
+{"s_qid": "Q1135990", "s_label": "Trường nghệ thuật trang trí quốc gia", "o_qid": "Q1163431", "o_label": "PSL Research University", "start": 2025, "end": null, "relation": "P749", "r_label": "tổ chức mẹ"}
+{"s_qid": "Q1161072", "s_label": "Wigner Research Centre for Physics", "o_qid": "Q265058", "o_label": "Viện hàn lâm Khoa học Hungary", "start": null, "end": 2019, "relation": "P749", "r_label": "tổ chức mẹ"}
+{"s_qid": "Q1531014", "s_label": "University of Évry Val d'Essonne", "o_qid": "Q13531686", "o_label": "Đại học Paris-Saclay", "start": null, "end": 2020, "relation": "P749", "r_label": "tổ chức mẹ"}
+{"s_qid": "Q1546437", "s_label": "Paris Dauphine", "o_qid": "Q1163431", "o_label": "PSL Research University", "start": 2015, "end": null, "relation": "P749", "r_label": "tổ chức mẹ"}
+{"s_qid": "Q1636837", "s_label": "Instituto Superior Técnico", "o_qid": "Q1122926", "o_label": "Đại học Lisboa", "start": 2013, "end": null, "relation": "P749", "r_label": "tổ chức mẹ"}
+{"s_qid": "Q2963665", "s_label": "École nationale supérieure de chimie de Paris", "o_qid": "Q1163431", "o_label": "PSL Research University", "start": 2015, "end": null, "relation": "P749", "r_label": "tổ chức mẹ"}
+{"s_qid": "Q30299486", "s_label": "Research Centre Inria Sophia Antipolis - Méditerranée", "o_qid": "Q19370961", "o_label": "University of Côte d'Azur", "start": 2015, "end": null, "relation": "P749", "r_label": "tổ chức mẹ"}
+{"s_qid": "Q180419", "s_label": "Nature Portfolio", "o_qid": "Q21096327", "o_label": "Springer Nature", "start": 2015, "end": null, "relation": "P749", "r_label": "tổ chức mẹ"}
+{"s_qid": "Q568554", "s_label": "University of Caen Normandy", "o_qid": "Q3343880", "o_label": "Normandy University", "start": 2015, "end": null, "relation": "P749", "r_label": "tổ chức mẹ"}
+{"s_qid": "Q777039", "s_label": "Guy's Hospital", "o_qid": "Q16993504", "o_label": "Guy's and St Thomas' NHS Foundation Trust", "start": 1993, "end": null, "relation": "P749", "r_label": "tổ chức mẹ"}
+{"s_qid": "Q1430113", "s_label": "Institut national des langues et civilisations orientales", "o_qid": "Q3491149", "o_label": "Sorbonne Paris Cité University (group)", "start": 2015, "end": 2019, "relation": "P749", "r_label": "tổ chức mẹ"}
+{"s_qid": "Q1548539", "s_label": "Polytechnic University of Hauts-de-France", "o_qid": "Q1322289", "o_label": "University of Lille", "start": 2015, "end": 2019, "relation": "P749", "r_label": "tổ chức mẹ"}
+{"s_qid": "Q2451973", "s_label": "Curie Institute", "o_qid": "Q1163431", "o_label": "PSL Research University", "start": 2015, "end": null, "relation": "P749", "r_label": "tổ chức mẹ"}
+{"s_qid": "Q5535322", "s_label": "Spanish Geological Survey", "o_qid": "Q1024362", "o_label": "Spanish National Research Council", "start": 2021, "end": null, "relation": "P749", "r_label": "tổ chức mẹ"}
+{"s_qid": "Q10302945", "s_label": "ITQB NOVA", "o_qid": "Q1979891", "o_label": "NOVA University Lisbon", "start": 1993, "end": null, "relation": "P749", "r_label": "tổ chức mẹ"}
+{"s_qid": "Q16821236", "s_label": "National Institute on Alcohol Abuse and Alcoholism", "o_qid": "Q390551", "o_label": "Viện Y tế Quốc gia", "start": 1992, "end": null, "relation": "P749", "r_label": "tổ chức mẹ"}
+{"s_qid": "Q94701341", "s_label": "Semmelweis University Faculty of Medicine", "o_qid": "Q277681", "o_label": "Semmelweis University", "start": 1951, "end": null, "relation": "P749", "r_label": "tổ chức mẹ"}
+{"s_qid": "Q94701341", "s_label": "Semmelweis University Faculty of Medicine", "o_qid": "Q390287", "o_label": "Đại học Eötvös Loránd", "start": 1769, "end": 1951, "relation": "P749", "r_label": "tổ chức mẹ"}
+{"s_qid": "Q43250", "s_label": "Gestapo", "o_qid": "Q152698", "o_label": "Reich Main Security Office", "start": 1939, "end": 1945, "relation": "P749", "r_label": "tổ chức mẹ"}
+{"s_qid": "Q273593", "s_label": "Beaux-Arts de Paris", "o_qid": "Q1163431", "o_label": "PSL Research University", "start": 2015, "end": null, "relation": "P749", "r_label": "tổ chức mẹ"}
+{"s_qid": "Q273604", "s_label": "École normale supérieure Paris-Saclay", "o_qid": "Q13531686", "o_label": "Đại học Paris-Saclay", "start": 2015, "end": 2020, "relation": "P749", "r_label": "tổ chức mẹ"}
+{"s_qid": "Q304872", "s_label": "University of Perpignan", "o_qid": "Q2476558", "o_label": "Languedoc Roussillon Universities", "start": 2015, "end": null, "relation": "P749", "r_label": "tổ chức mẹ"}
+{"s_qid": "Q546118", "s_label": "Đại học Paris-Sorbonne", "o_qid": "Q3491150", "o_label": "Sorbonne Universités", "start": 2015, "end": 2017, "relation": "P749", "r_label": "tổ chức mẹ"}
+{"s_qid": "Q590201", "s_label": "Đại học Toulouse 1", "o_qid": "Q20669873", "o_label": "University of Toulouse", "start": 2015, "end": null, "relation": "P749", "r_label": "tổ chức mẹ"}
+{"s_qid": "Q838454", "s_label": "École nationale supérieure de techniques avancées", "o_qid": "Q13531686", "o_label": "Đại học Paris-Saclay", "start": 2014, "end": 2017, "relation": "P749", "r_label": "tổ chức mẹ"}
+{"s_qid": "Q955647", "s_label": "Joseph Fourier University", "o_qid": "Q3551589", "o_label": "Community Grenoble Alpes University", "start": 2015, "end": 2016, "relation": "P749", "r_label": "tổ chức mẹ"}
+{"s_qid": "Q1273188", "s_label": "Toulouse III - Paul Sabatier University", "o_qid": "Q20669873", "o_label": "University of Toulouse", "start": 2015, "end": null, "relation": "P749", "r_label": "tổ chức mẹ"}
+{"s_qid": "Q1616573", "s_label": "Stendhal University", "o_qid": "Q3551589", "o_label": "Community Grenoble Alpes University", "start": 2015, "end": 2016, "relation": "P749", "r_label": "tổ chức mẹ"}
+{"s_qid": "Q1933558", "s_label": "University Toulouse - Jean Jaurès", "o_qid": "Q20669873", "o_label": "University of Toulouse", "start": 2015, "end": null, "relation": "P749", "r_label": "tổ chức mẹ"}
+{"s_qid": "Q2388377", "s_label": "Institut de chimie des substances naturelles", "o_qid": "Q1480643", "o_label": "Trường Đại học Paris XI", "start": null, "end": 2020, "relation": "P749", "r_label": "tổ chức mẹ"}
+{"s_qid": "Q3214478", "s_label": "Laboratoire de physique théorique", "o_qid": "Q1480643", "o_label": "Trường Đại học Paris XI", "start": null, "end": 2020, "relation": "P749", "r_label": "tổ chức mẹ"}
+{"s_qid": "Q11509930", "s_label": "University Lille-II", "o_qid": "Q1322289", "o_label": "University of Lille", "start": 2015, "end": 2017, "relation": "P749", "r_label": "tổ chức mẹ"}
+{"s_qid": "Q16511698", "s_label": "Laboratoire Albert Fert", "o_qid": "Q1480643", "o_label": "Trường Đại học Paris XI", "start": null, "end": 2020, "relation": "P749", "r_label": "tổ chức mẹ"}
+{"s_qid": "Q39311438", "s_label": "Đại học Hoàng gia Tokyo", "o_qid": "Q7842", "o_label": "Đại học Tokyo", "start": 1949, "end": 1962, "relation": "P749", "r_label": "tổ chức mẹ"}
+{"s_qid": "Q90272039", "s_label": "Paris-Saclay Medical School", "o_qid": "Q13531686", "o_label": "Đại học Paris-Saclay", "start": null, "end": 2020, "relation": "P749", "r_label": "tổ chức mẹ"}
+{"s_qid": "Q90272039", "s_label": "Paris-Saclay Medical School", "o_qid": "Q109409389", "o_label": "Đại học Paris-Saclay", "start": 2020, "end": null, "relation": "P749", "r_label": "tổ chức mẹ"}
+{"s_qid": "Q95", "s_label": "Google", "o_qid": "Q20800404", "o_label": "Alphabet", "start": 2015, "end": null, "relation": "P749", "r_label": "tổ chức mẹ"}
+{"s_qid": "Q83259", "s_label": "École normale supérieure", "o_qid": "Q1163431", "o_label": "PSL Research University", "start": 2015, "end": null, "relation": "P749", "r_label": "tổ chức mẹ"}
+{"s_qid": "Q164946", "s_label": "St Bartholomew's Hospital", "o_qid": "Q4865798", "o_label": "Barts Health NHS Trust", "start": 2012, "end": null, "relation": "P749", "r_label": "tổ chức mẹ"}
+{"s_qid": "Q485593", "s_label": "RedHat", "o_qid": "Q37156", "o_label": "IBM", "start": 2019, "end": null, "relation": "P749", "r_label": "tổ chức mẹ"}
+{"s_qid": "Q500740", "s_label": "Lille University of Science and Technology", "o_qid": "Q1322289", "o_label": "University of Lille", "start": 2015, "end": 2017, "relation": "P749", "r_label": "tổ chức mẹ"}
+{"s_qid": "Q637387", "s_label": "Shahid Beheshti University of Medical Sciences", "o_qid": "Q609586", "o_label": "Shahid Beheshti University", "start": 1961, "end": 1988, "relation": "P749", "r_label": "tổ chức mẹ"}
+{"s_qid": "Q898448", "s_label": "École Supérieure d'Optique, Paris-Saclay University", "o_qid": "Q13531686", "o_label": "Đại học Paris-Saclay", "start": 2015, "end": 2020, "relation": "P749", "r_label": "tổ chức mẹ"}
+{"s_qid": "Q1129820", "s_label": "Cooper Hewitt, Smithsonian Design Museum", "o_qid": "Q131626", "o_label": "Viện Smithsonian", "start": 1968, "end": null, "relation": "P749", "r_label": "tổ chức mẹ"}
+{"s_qid": "Q1144549", "s_label": "Université Pierre-et-Marie-Curie", "o_qid": "Q3491150", "o_label": "Sorbonne Universités", "start": 2015, "end": 2017, "relation": "P749", "r_label": "tổ chức mẹ"}
+{"s_qid": "Q1480643", "s_label": "Trường Đại học Paris XI", "o_qid": "Q13531686", "o_label": "Đại học Paris-Saclay", "start": 2015, "end": null, "relation": "P749", "r_label": "tổ chức mẹ"}
+{"s_qid": "Q1499947", "s_label": "Gembloux Agro-Bio Tech", "o_qid": "Q1334582", "o_label": "Đại học Liège", "start": 2009, "end": null, "relation": "P749", "r_label": "tổ chức mẹ"}
+{"s_qid": "Q1502740", "s_label": "Genzyme", "o_qid": "Q158205", "o_label": "Sanofi", "start": 2011, "end": null, "relation": "P749", "r_label": "tổ chức mẹ"}
+{"s_qid": "Q2000147", "s_label": "Pierre Mendès-France University", "o_qid": "Q3551589", "o_label": "Community Grenoble Alpes University", "start": 2015, "end": 2016, "relation": "P749", "r_label": "tổ chức mẹ"}
+{"s_qid": "Q2912244", "s_label": "Paul-Valéry University (Montpellier, 1970-2024)", "o_qid": "Q2476558", "o_label": "Languedoc Roussillon Universities", "start": 2014, "end": 2019, "relation": "P749", "r_label": "tổ chức mẹ"}
+{"s_qid": "Q11985226", "s_label": "Protestant Theological Faculty – Charles University", "o_qid": "Q31519", "o_label": "Đại học Karl ở Praha", "start": 1990, "end": null, "relation": "P749", "r_label": "tổ chức mẹ"}
+{"s_qid": "Q19203245", "s_label": "CentraleSupélec", "o_qid": "Q13531686", "o_label": "Đại học Paris-Saclay", "start": null, "end": 2020, "relation": "P749", "r_label": "tổ chức mẹ"}
+{"s_qid": "Q19203245", "s_label": "CentraleSupélec", "o_qid": "Q109409389", "o_label": "Đại học Paris-Saclay", "start": 2020, "end": null, "relation": "P749", "r_label": "tổ chức mẹ"}
+{"s_qid": "Q186638", "s_label": "Đại học Versailles", "o_qid": "Q13531686", "o_label": "Đại học Paris-Saclay", "start": 2015, "end": 2020, "relation": "P749", "r_label": "tổ chức mẹ"}
+{"s_qid": "Q461340", "s_label": "Đài thiên văn Paris", "o_qid": "Q1163431", "o_label": "PSL Research University", "start": 2015, "end": null, "relation": "P749", "r_label": "tổ chức mẹ"}
+{"s_qid": "Q542511", "s_label": "Hoechst", "o_qid": "Q158205", "o_label": "Sanofi", "start": 2004, "end": null, "relation": "P749", "r_label": "tổ chức mẹ"}
+{"s_qid": "Q568501", "s_label": "Electro-Motive Diesel", "o_qid": "Q81965", "o_label": "General Motors", "start": 1930, "end": 2005, "relation": "P749", "r_label": "tổ chức mẹ"}
+{"s_qid": "Q855639", "s_label": "Dow Chemical Company", "o_qid": "Q221062", "o_label": "DuPont", "start": 2017, "end": 2019, "relation": "P749", "r_label": "tổ chức mẹ"}
+{"s_qid": "Q1637105", "s_label": "AgroParisTech, Paris-Saclay University", "o_qid": "Q13531686", "o_label": "Đại học Paris-Saclay", "start": 2015, "end": 2020, "relation": "P749", "r_label": "tổ chức mẹ"}
+{"s_qid": "Q1665121", "s_label": "Grenoble Institute of Technology", "o_qid": "Q3551589", "o_label": "Community Grenoble Alpes University", "start": 2015, "end": null, "relation": "P749", "r_label": "tổ chức mẹ"}
+{"s_qid": "Q1810862", "s_label": "Lebedev Physical Institute", "o_qid": "Q2370801", "o_label": "Viện Hàn lâm Khoa học Liên Xô", "start": 1934, "end": 1991, "relation": "P749", "r_label": "tổ chức mẹ"}
+{"s_qid": "Q1967405", "s_label": "National Institute of Mental Health", "o_qid": "Q390551", "o_label": "Viện Y tế Quốc gia", "start": 1949, "end": null, "relation": "P749", "r_label": "tổ chức mẹ"}
+{"s_qid": "Q7374196", "s_label": "Royal Free Hospital", "o_qid": "Q7374195", "o_label": "Royal Free London NHS Foundation Trust", "start": 1990, "end": null, "relation": "P749", "r_label": "tổ chức mẹ"}
+{"s_qid": "Q10302873", "s_label": "IHMT NOVA", "o_qid": "Q1979891", "o_label": "NOVA University Lisbon", "start": 1980, "end": null, "relation": "P749", "r_label": "tổ chức mẹ"}

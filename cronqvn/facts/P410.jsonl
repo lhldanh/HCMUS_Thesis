@@ -1,0 +1,159 @@
+{"s_qid": "Q62626", "s_label": "Albrecht Brandi", "o_qid": "Q22814748", "o_label": "Korvettenkapitän", "start": 1944, "end": null, "relation": "P410", "r_label": "quân hàm"}
+{"s_qid": "Q62626", "s_label": "Albrecht Brandi", "o_qid": "Q1561545", "o_label": "captain lieutenant", "start": 1942, "end": null, "relation": "P410", "r_label": "quân hàm"}
+{"s_qid": "Q62626", "s_label": "Albrecht Brandi", "o_qid": "Q457271", "o_label": "lieutenant", "start": 1939, "end": null, "relation": "P410", "r_label": "quân hàm"}
+{"s_qid": "Q62626", "s_label": "Albrecht Brandi", "o_qid": "Q1642186", "o_label": "Leutnant zur See", "start": 1938, "end": null, "relation": "P410", "r_label": "quân hàm"}
+{"s_qid": "Q62626", "s_label": "Albrecht Brandi", "o_qid": "Q15837256", "o_label": "Oberfähnrich zur See", "start": 1938, "end": null, "relation": "P410", "r_label": "quân hàm"}
+{"s_qid": "Q62626", "s_label": "Albrecht Brandi", "o_qid": "Q15811059", "o_label": "Fähnrich zur See", "start": 1936, "end": null, "relation": "P410", "r_label": "quân hàm"}
+{"s_qid": "Q62626", "s_label": "Albrecht Brandi", "o_qid": "Q20157601", "o_label": "Seekadett", "start": 1935, "end": null, "relation": "P410", "r_label": "quân hàm"}
+{"s_qid": "Q62626", "s_label": "Albrecht Brandi", "o_qid": "Q329741", "o_label": "officer candidate", "start": 1935, "end": null, "relation": "P410", "r_label": "quân hàm"}
+{"s_qid": "Q157451", "s_label": "Heydar Alirza oglu Aliyev", "o_qid": "Q104680", "o_label": "đại tá", "start": 1965, "end": null, "relation": "P410", "r_label": "quân hàm"}
+{"s_qid": "Q157451", "s_label": "Heydar Alirza oglu Aliyev", "o_qid": "Q157148", "o_label": "thiếu tướng", "start": 1967, "end": null, "relation": "P410", "r_label": "quân hàm"}
+{"s_qid": "Q313832", "s_label": "Grand Duke Konstantin Konstantinovich of Russia", "o_qid": "Q10813665", "o_label": "praporshchik", "start": 1865, "end": 1865, "relation": "P410", "r_label": "quân hàm"}
+{"s_qid": "Q313832", "s_label": "Grand Duke Konstantin Konstantinovich of Russia", "o_qid": "Q186024", "o_label": "trung úy", "start": 1878, "end": 1878, "relation": "P410", "r_label": "quân hàm"}
+{"s_qid": "Q313832", "s_label": "Grand Duke Konstantin Konstantinovich of Russia", "o_qid": "Q19100", "o_label": "đại úy", "start": 1887, "end": 1887, "relation": "P410", "r_label": "quân hàm"}
+{"s_qid": "Q313832", "s_label": "Grand Duke Konstantin Konstantinovich of Russia", "o_qid": "Q104680", "o_label": "đại tá", "start": 1891, "end": 1891, "relation": "P410", "r_label": "quân hàm"}
+{"s_qid": "Q313832", "s_label": "Grand Duke Konstantin Konstantinovich of Russia", "o_qid": "Q157148", "o_label": "thiếu tướng", "start": 1894, "end": 1894, "relation": "P410", "r_label": "quân hàm"}
+{"s_qid": "Q313832", "s_label": "Grand Duke Konstantin Konstantinovich of Russia", "o_qid": "Q152951", "o_label": "trung tướng", "start": 1901, "end": 1901, "relation": "P410", "r_label": "quân hàm"}
+{"s_qid": "Q7327", "s_label": "Yuri Alekseievich Gagarin", "o_qid": "Q104680", "o_label": "đại tá", "start": 1963, "end": null, "relation": "P410", "r_label": "quân hàm"}
+{"s_qid": "Q7327", "s_label": "Yuri Alekseievich Gagarin", "o_qid": "Q13099720", "o_label": "podpolkovnik", "start": 1962, "end": 1963, "relation": "P410", "r_label": "quân hàm"}
+{"s_qid": "Q7327", "s_label": "Yuri Alekseievich Gagarin", "o_qid": "Q983927", "o_label": "thiếu tá", "start": 1961, "end": 1962, "relation": "P410", "r_label": "quân hàm"}
+{"s_qid": "Q7327", "s_label": "Yuri Alekseievich Gagarin", "o_qid": "Q330459", "o_label": "thượng úy", "start": 1959, "end": 1961, "relation": "P410", "r_label": "quân hàm"}
+{"s_qid": "Q7327", "s_label": "Yuri Alekseievich Gagarin", "o_qid": "Q186024", "o_label": "trung úy", "start": 1957, "end": 1959, "relation": "P410", "r_label": "quân hàm"}
+{"s_qid": "Q9960", "s_label": "Ronald Reagan", "o_qid": "Q158668", "o_label": "binh nhì", "start": 1937, "end": 1937, "relation": "P410", "r_label": "quân hàm"}
+{"s_qid": "Q9960", "s_label": "Ronald Reagan", "o_qid": "Q56826567", "o_label": "second lieutenant", "start": 1937, "end": 1943, "relation": "P410", "r_label": "quân hàm"}
+{"s_qid": "Q9960", "s_label": "Ronald Reagan", "o_qid": "Q20715023", "o_label": "first lieutenant", "start": 1943, "end": 1943, "relation": "P410", "r_label": "quân hàm"}
+{"s_qid": "Q159582", "s_label": "Aleksandr Ivanovich Pokryshkin", "o_qid": "Q330459", "o_label": "thượng úy", "start": 1939, "end": null, "relation": "P410", "r_label": "quân hàm"}
+{"s_qid": "Q159582", "s_label": "Aleksandr Ivanovich Pokryshkin", "o_qid": "Q19100", "o_label": "đại úy", "start": 1942, "end": null, "relation": "P410", "r_label": "quân hàm"}
+{"s_qid": "Q159582", "s_label": "Aleksandr Ivanovich Pokryshkin", "o_qid": "Q983927", "o_label": "thiếu tá", "start": 1943, "end": null, "relation": "P410", "r_label": "quân hàm"}
+{"s_qid": "Q159582", "s_label": "Aleksandr Ivanovich Pokryshkin", "o_qid": "Q104680", "o_label": "đại tá", "start": 1944, "end": null, "relation": "P410", "r_label": "quân hàm"}
+{"s_qid": "Q159582", "s_label": "Aleksandr Ivanovich Pokryshkin", "o_qid": "Q18405354", "o_label": "Air Force major general", "start": 1953, "end": null, "relation": "P410", "r_label": "quân hàm"}
+{"s_qid": "Q9696", "s_label": "John F. Kennedy", "o_qid": "Q186024", "o_label": "trung úy", "start": 1943, "end": 1945, "relation": "P410", "r_label": "quân hàm"}
+{"s_qid": "Q9696", "s_label": "John F. Kennedy", "o_qid": "Q14595679", "o_label": "ensign", "start": 1941, "end": 1942, "relation": "P410", "r_label": "quân hàm"}
+{"s_qid": "Q152316", "s_label": "Hoàng tử Harry xứ Wales", "o_qid": "Q5036510", "o_label": "captain", "start": 2011, "end": null, "relation": "P410", "r_label": "quân hàm"}
+{"s_qid": "Q152316", "s_label": "Hoàng tử Harry xứ Wales", "o_qid": "Q186024", "o_label": "trung úy", "start": 2008, "end": null, "relation": "P410", "r_label": "quân hàm"}
+{"s_qid": "Q152316", "s_label": "Hoàng tử Harry xứ Wales", "o_qid": "Q4896145", "o_label": "major", "start": 2018, "end": null, "relation": "P410", "r_label": "quân hàm"}
+{"s_qid": "Q3888783", "s_label": "José-Apeles Santolaria de Puey y Cruells", "o_qid": "Q19100", "o_label": "đại úy", "start": 2021, "end": 2021, "relation": "P410", "r_label": "quân hàm"}
+{"s_qid": "Q69475", "s_label": "Karl-Heinz Moehle", "o_qid": "Q22814748", "o_label": "Korvettenkapitän", "start": 1943, "end": null, "relation": "P410", "r_label": "quân hàm"}
+{"s_qid": "Q69475", "s_label": "Karl-Heinz Moehle", "o_qid": "Q1561545", "o_label": "captain lieutenant", "start": 1939, "end": 1943, "relation": "P410", "r_label": "quân hàm"}
+{"s_qid": "Q69475", "s_label": "Karl-Heinz Moehle", "o_qid": "Q457271", "o_label": "lieutenant", "start": 1936, "end": 1939, "relation": "P410", "r_label": "quân hàm"}
+{"s_qid": "Q69475", "s_label": "Karl-Heinz Moehle", "o_qid": "Q1642186", "o_label": "Leutnant zur See", "start": 1934, "end": 1936, "relation": "P410", "r_label": "quân hàm"}
+{"s_qid": "Q69475", "s_label": "Karl-Heinz Moehle", "o_qid": "Q15837256", "o_label": "Oberfähnrich zur See", "start": 1934, "end": 1934, "relation": "P410", "r_label": "quân hàm"}
+{"s_qid": "Q69475", "s_label": "Karl-Heinz Moehle", "o_qid": "Q15811059", "o_label": "Fähnrich zur See", "start": 1932, "end": 1934, "relation": "P410", "r_label": "quân hàm"}
+{"s_qid": "Q69475", "s_label": "Karl-Heinz Moehle", "o_qid": "Q20157601", "o_label": "Seekadett", "start": 1930, "end": 1931, "relation": "P410", "r_label": "quân hàm"}
+{"s_qid": "Q69475", "s_label": "Karl-Heinz Moehle", "o_qid": "Q329741", "o_label": "officer candidate", "start": 1930, "end": 1930, "relation": "P410", "r_label": "quân hàm"}
+{"s_qid": "Q69475", "s_label": "Karl-Heinz Moehle", "o_qid": "Q4991371", "o_label": "người lính", "start": 1930, "end": 1945, "relation": "P410", "r_label": "quân hàm"}
+{"s_qid": "Q8016", "s_label": "Winston Churchill", "o_qid": "Q12799162", "o_label": "colonel", "start": 1940, "end": null, "relation": "P410", "r_label": "quân hàm"}
+{"s_qid": "Q8016", "s_label": "Winston Churchill", "o_qid": "Q4368198", "o_label": "Lieutenant Colonel", "start": 1916, "end": 1916, "relation": "P410", "r_label": "quân hàm"}
+{"s_qid": "Q8016", "s_label": "Winston Churchill", "o_qid": "Q316498", "o_label": "cadet", "start": null, "end": 1895, "relation": "P410", "r_label": "quân hàm"}
+{"s_qid": "Q8016", "s_label": "Winston Churchill", "o_qid": "Q56826567", "o_label": "second lieutenant", "start": 1895, "end": null, "relation": "P410", "r_label": "quân hàm"}
+{"s_qid": "Q8016", "s_label": "Winston Churchill", "o_qid": "Q4896145", "o_label": "major", "start": 1905, "end": null, "relation": "P410", "r_label": "quân hàm"}
+{"s_qid": "Q8016", "s_label": "Winston Churchill", "o_qid": "Q5036510", "o_label": "captain", "start": 1902, "end": 1905, "relation": "P410", "r_label": "quân hàm"}
+{"s_qid": "Q91146", "s_label": "Karl-Heinz Marbach", "o_qid": "Q329741", "o_label": "officer candidate", "start": 1937, "end": 1937, "relation": "P410", "r_label": "quân hàm"}
+{"s_qid": "Q91146", "s_label": "Karl-Heinz Marbach", "o_qid": "Q20157601", "o_label": "Seekadett", "start": 1937, "end": 1938, "relation": "P410", "r_label": "quân hàm"}
+{"s_qid": "Q91146", "s_label": "Karl-Heinz Marbach", "o_qid": "Q15811059", "o_label": "Fähnrich zur See", "start": 1938, "end": 1939, "relation": "P410", "r_label": "quân hàm"}
+{"s_qid": "Q91146", "s_label": "Karl-Heinz Marbach", "o_qid": "Q15837256", "o_label": "Oberfähnrich zur See", "start": 1939, "end": 1939, "relation": "P410", "r_label": "quân hàm"}
+{"s_qid": "Q91146", "s_label": "Karl-Heinz Marbach", "o_qid": "Q1642186", "o_label": "Leutnant zur See", "start": 1939, "end": 1941, "relation": "P410", "r_label": "quân hàm"}
+{"s_qid": "Q91146", "s_label": "Karl-Heinz Marbach", "o_qid": "Q457271", "o_label": "lieutenant", "start": 1941, "end": 1944, "relation": "P410", "r_label": "quân hàm"}
+{"s_qid": "Q91146", "s_label": "Karl-Heinz Marbach", "o_qid": "Q1561545", "o_label": "captain lieutenant", "start": 1944, "end": null, "relation": "P410", "r_label": "quân hàm"}
+{"s_qid": "Q91146", "s_label": "Karl-Heinz Marbach", "o_qid": "Q23021923", "o_label": "Kapitänleutnant", "start": 1944, "end": null, "relation": "P410", "r_label": "quân hàm"}
+{"s_qid": "Q91146", "s_label": "Karl-Heinz Marbach", "o_qid": "Q4991371", "o_label": "người lính", "start": 1937, "end": 1945, "relation": "P410", "r_label": "quân hàm"}
+{"s_qid": "Q167573", "s_label": "Mikhail Timofeyevich Kalashnikov", "o_qid": "Q152951", "o_label": "trung tướng", "start": 1999, "end": null, "relation": "P410", "r_label": "quân hàm"}
+{"s_qid": "Q167573", "s_label": "Mikhail Timofeyevich Kalashnikov", "o_qid": "Q157148", "o_label": "thiếu tướng", "start": 1994, "end": null, "relation": "P410", "r_label": "quân hàm"}
+{"s_qid": "Q167573", "s_label": "Mikhail Timofeyevich Kalashnikov", "o_qid": "Q104680", "o_label": "đại tá", "start": 1969, "end": null, "relation": "P410", "r_label": "quân hàm"}
+{"s_qid": "Q167573", "s_label": "Mikhail Timofeyevich Kalashnikov", "o_qid": "Q157696", "o_label": "trung sĩ", "start": 1940, "end": null, "relation": "P410", "r_label": "quân hàm"}
+{"s_qid": "Q204338", "s_label": "Rodion Yakovlevich Malinovsky", "o_qid": "Q104680", "o_label": "đại tá", "start": 1936, "end": null, "relation": "P410", "r_label": "quân hàm"}
+{"s_qid": "Q204338", "s_label": "Rodion Yakovlevich Malinovsky", "o_qid": "Q524750", "o_label": "Kombrig", "start": 1938, "end": null, "relation": "P410", "r_label": "quân hàm"}
+{"s_qid": "Q204338", "s_label": "Rodion Yakovlevich Malinovsky", "o_qid": "Q157148", "o_label": "thiếu tướng", "start": 1940, "end": null, "relation": "P410", "r_label": "quân hàm"}
+{"s_qid": "Q204338", "s_label": "Rodion Yakovlevich Malinovsky", "o_qid": "Q152951", "o_label": "trung tướng", "start": 1941, "end": null, "relation": "P410", "r_label": "quân hàm"}
+{"s_qid": "Q204338", "s_label": "Rodion Yakovlevich Malinovsky", "o_qid": "Q155327", "o_label": "thượng tướng", "start": 1943, "end": null, "relation": "P410", "r_label": "quân hàm"}
+{"s_qid": "Q204338", "s_label": "Rodion Yakovlevich Malinovsky", "o_qid": "Q157696", "o_label": "trung sĩ", "start": 1918, "end": 1918, "relation": "P410", "r_label": "quân hàm"}
+{"s_qid": "Q40482", "s_label": "Konstantin Konstantinovich Rokossovsky", "o_qid": "Q157148", "o_label": "thiếu tướng", "start": 1940, "end": null, "relation": "P410", "r_label": "quân hàm"}
+{"s_qid": "Q40482", "s_label": "Konstantin Konstantinovich Rokossovsky", "o_qid": "Q152951", "o_label": "trung tướng", "start": 1941, "end": null, "relation": "P410", "r_label": "quân hàm"}
+{"s_qid": "Q40482", "s_label": "Konstantin Konstantinovich Rokossovsky", "o_qid": "Q155327", "o_label": "thượng tướng", "start": 1943, "end": null, "relation": "P410", "r_label": "quân hàm"}
+{"s_qid": "Q120180", "s_label": "Aleksandr III của Nga", "o_qid": "Q10813665", "o_label": "praporshchik", "start": 1852, "end": null, "relation": "P410", "r_label": "quân hàm"}
+{"s_qid": "Q120180", "s_label": "Aleksandr III của Nga", "o_qid": "Q2397385", "o_label": "podporuchik", "start": 1853, "end": null, "relation": "P410", "r_label": "quân hàm"}
+{"s_qid": "Q120180", "s_label": "Aleksandr III của Nga", "o_qid": "Q15055248", "o_label": "poruchik", "start": 1855, "end": null, "relation": "P410", "r_label": "quân hàm"}
+{"s_qid": "Q120180", "s_label": "Aleksandr III của Nga", "o_qid": "Q19100", "o_label": "đại úy", "start": 1862, "end": null, "relation": "P410", "r_label": "quân hàm"}
+{"s_qid": "Q120180", "s_label": "Aleksandr III của Nga", "o_qid": "Q104680", "o_label": "đại tá", "start": 1863, "end": null, "relation": "P410", "r_label": "quân hàm"}
+{"s_qid": "Q120180", "s_label": "Aleksandr III của Nga", "o_qid": "Q157148", "o_label": "thiếu tướng", "start": 1865, "end": null, "relation": "P410", "r_label": "quân hàm"}
+{"s_qid": "Q120180", "s_label": "Aleksandr III của Nga", "o_qid": "Q152951", "o_label": "trung tướng", "start": 1868, "end": null, "relation": "P410", "r_label": "quân hàm"}
+{"s_qid": "Q150894", "s_label": "Aleksandr Mikhaylovich Vasilevskiy", "o_qid": "Q10813665", "o_label": "praporshchik", "start": 1915, "end": null, "relation": "P410", "r_label": "quân hàm"}
+{"s_qid": "Q150894", "s_label": "Aleksandr Mikhaylovich Vasilevskiy", "o_qid": "Q104680", "o_label": "đại tá", "start": 1936, "end": null, "relation": "P410", "r_label": "quân hàm"}
+{"s_qid": "Q150894", "s_label": "Aleksandr Mikhaylovich Vasilevskiy", "o_qid": "Q524750", "o_label": "Kombrig", "start": 1938, "end": null, "relation": "P410", "r_label": "quân hàm"}
+{"s_qid": "Q150894", "s_label": "Aleksandr Mikhaylovich Vasilevskiy", "o_qid": "Q157148", "o_label": "thiếu tướng", "start": 1940, "end": null, "relation": "P410", "r_label": "quân hàm"}
+{"s_qid": "Q150894", "s_label": "Aleksandr Mikhaylovich Vasilevskiy", "o_qid": "Q152951", "o_label": "trung tướng", "start": 1941, "end": null, "relation": "P410", "r_label": "quân hàm"}
+{"s_qid": "Q150894", "s_label": "Aleksandr Mikhaylovich Vasilevskiy", "o_qid": "Q155327", "o_label": "thượng tướng", "start": 1942, "end": null, "relation": "P410", "r_label": "quân hàm"}
+{"s_qid": "Q154952", "s_label": "Willem-Alexander, Hoàng tử xứ Orange", "o_qid": "Q837582", "o_label": "lieutenant commander", "start": 1995, "end": 1995, "relation": "P410", "r_label": "quân hàm"}
+{"s_qid": "Q154952", "s_label": "Willem-Alexander, Hoàng tử xứ Orange", "o_qid": "Q6620231", "o_label": "commander", "start": 1997, "end": 1997, "relation": "P410", "r_label": "quân hàm"}
+{"s_qid": "Q154952", "s_label": "Willem-Alexander, Hoàng tử xứ Orange", "o_qid": "Q493898", "o_label": "trung tá", "start": 1997, "end": 1997, "relation": "P410", "r_label": "quân hàm"}
+{"s_qid": "Q154952", "s_label": "Willem-Alexander, Hoàng tử xứ Orange", "o_qid": "Q152956", "o_label": "chuẩn tướng", "start": 2005, "end": 2005, "relation": "P410", "r_label": "quân hàm"}
+{"s_qid": "Q154952", "s_label": "Willem-Alexander, Hoàng tử xứ Orange", "o_qid": "Q11912077", "o_label": "squadron leader", "start": 1995, "end": 1995, "relation": "P410", "r_label": "quân hàm"}
+{"s_qid": "Q154952", "s_label": "Willem-Alexander, Hoàng tử xứ Orange", "o_qid": "Q104680", "o_label": "đại tá", "start": 2001, "end": 2001, "relation": "P410", "r_label": "quân hàm"}
+{"s_qid": "Q154952", "s_label": "Willem-Alexander, Hoàng tử xứ Orange", "o_qid": "Q983927", "o_label": "thiếu tá", "start": 1995, "end": 1995, "relation": "P410", "r_label": "quân hàm"}
+{"s_qid": "Q185024", "s_label": "Ivan Stepanovich Koniev", "o_qid": "Q152951", "o_label": "trung tướng", "start": 1940, "end": null, "relation": "P410", "r_label": "quân hàm"}
+{"s_qid": "Q185024", "s_label": "Ivan Stepanovich Koniev", "o_qid": "Q155327", "o_label": "thượng tướng", "start": 1941, "end": null, "relation": "P410", "r_label": "quân hàm"}
+{"s_qid": "Q7747", "s_label": "Vladimir Putin", "o_qid": "Q13099720", "o_label": "podpolkovnik", "start": 1999, "end": null, "relation": "P410", "r_label": "quân hàm"}
+{"s_qid": "Q8442", "s_label": "Otto von Bismarck", "o_qid": "Q186024", "o_label": "trung úy", "start": 1841, "end": null, "relation": "P410", "r_label": "quân hàm"}
+{"s_qid": "Q48048", "s_label": "Ivan Ignatyevich Yakubovsky", "o_qid": "Q186024", "o_label": "trung úy", "start": 1936, "end": null, "relation": "P410", "r_label": "quân hàm"}
+{"s_qid": "Q48048", "s_label": "Ivan Ignatyevich Yakubovsky", "o_qid": "Q330459", "o_label": "thượng úy", "start": 1939, "end": null, "relation": "P410", "r_label": "quân hàm"}
+{"s_qid": "Q48048", "s_label": "Ivan Ignatyevich Yakubovsky", "o_qid": "Q19100", "o_label": "đại úy", "start": 1940, "end": null, "relation": "P410", "r_label": "quân hàm"}
+{"s_qid": "Q48048", "s_label": "Ivan Ignatyevich Yakubovsky", "o_qid": "Q983927", "o_label": "thiếu tá", "start": 1941, "end": null, "relation": "P410", "r_label": "quân hàm"}
+{"s_qid": "Q48048", "s_label": "Ivan Ignatyevich Yakubovsky", "o_qid": "Q13099720", "o_label": "podpolkovnik", "start": 1942, "end": null, "relation": "P410", "r_label": "quân hàm"}
+{"s_qid": "Q48048", "s_label": "Ivan Ignatyevich Yakubovsky", "o_qid": "Q104680", "o_label": "đại tá", "start": 1942, "end": null, "relation": "P410", "r_label": "quân hàm"}
+{"s_qid": "Q48048", "s_label": "Ivan Ignatyevich Yakubovsky", "o_qid": "Q155327", "o_label": "thượng tướng", "start": 1958, "end": null, "relation": "P410", "r_label": "quân hàm"}
+{"s_qid": "Q131691", "s_label": "Arthur Wellesley, Công tước thứ nhất của Wellington", "o_qid": "Q105753983", "o_label": "Thống chế Nga", "start": 1818, "end": null, "relation": "P410", "r_label": "quân hàm"}
+{"s_qid": "Q286312", "s_label": "Wolfgang Lüth", "o_qid": "Q329741", "o_label": "officer candidate", "start": 1933, "end": null, "relation": "P410", "r_label": "quân hàm"}
+{"s_qid": "Q286312", "s_label": "Wolfgang Lüth", "o_qid": "Q20157601", "o_label": "Seekadett", "start": 1933, "end": null, "relation": "P410", "r_label": "quân hàm"}
+{"s_qid": "Q286312", "s_label": "Wolfgang Lüth", "o_qid": "Q15811059", "o_label": "Fähnrich zur See", "start": 1934, "end": null, "relation": "P410", "r_label": "quân hàm"}
+{"s_qid": "Q286312", "s_label": "Wolfgang Lüth", "o_qid": "Q15837256", "o_label": "Oberfähnrich zur See", "start": 1936, "end": null, "relation": "P410", "r_label": "quân hàm"}
+{"s_qid": "Q286312", "s_label": "Wolfgang Lüth", "o_qid": "Q1642186", "o_label": "Leutnant zur See", "start": 1936, "end": null, "relation": "P410", "r_label": "quân hàm"}
+{"s_qid": "Q286312", "s_label": "Wolfgang Lüth", "o_qid": "Q457271", "o_label": "lieutenant", "start": 1938, "end": null, "relation": "P410", "r_label": "quân hàm"}
+{"s_qid": "Q286312", "s_label": "Wolfgang Lüth", "o_qid": "Q1561545", "o_label": "captain lieutenant", "start": 1941, "end": null, "relation": "P410", "r_label": "quân hàm"}
+{"s_qid": "Q286312", "s_label": "Wolfgang Lüth", "o_qid": "Q163500", "o_label": "đại tá", "start": 1944, "end": null, "relation": "P410", "r_label": "quân hàm"}
+{"s_qid": "Q286312", "s_label": "Wolfgang Lüth", "o_qid": "Q4991371", "o_label": "người lính", "start": 1933, "end": 1945, "relation": "P410", "r_label": "quân hàm"}
+{"s_qid": "Q439990", "s_label": "Thanom Kittikachorn", "o_qid": "Q83460", "o_label": "đại tướng", "start": 1958, "end": 1964, "relation": "P410", "r_label": "quân hàm"}
+{"s_qid": "Q439990", "s_label": "Thanom Kittikachorn", "o_qid": "Q152951", "o_label": "trung tướng", "start": 1955, "end": 1958, "relation": "P410", "r_label": "quân hàm"}
+{"s_qid": "Q439990", "s_label": "Thanom Kittikachorn", "o_qid": "Q157148", "o_label": "thiếu tướng", "start": 1951, "end": 1955, "relation": "P410", "r_label": "quân hàm"}
+{"s_qid": "Q439990", "s_label": "Thanom Kittikachorn", "o_qid": "Q104680", "o_label": "đại tá", "start": 1948, "end": 1951, "relation": "P410", "r_label": "quân hàm"}
+{"s_qid": "Q439990", "s_label": "Thanom Kittikachorn", "o_qid": "Q493898", "o_label": "trung tá", "start": 1944, "end": 1948, "relation": "P410", "r_label": "quân hàm"}
+{"s_qid": "Q439990", "s_label": "Thanom Kittikachorn", "o_qid": "Q983927", "o_label": "thiếu tá", "start": 1943, "end": 1944, "relation": "P410", "r_label": "quân hàm"}
+{"s_qid": "Q439990", "s_label": "Thanom Kittikachorn", "o_qid": "Q19100", "o_label": "đại úy", "start": 1938, "end": 1943, "relation": "P410", "r_label": "quân hàm"}
+{"s_qid": "Q439990", "s_label": "Thanom Kittikachorn", "o_qid": "Q186024", "o_label": "trung úy", "start": 1935, "end": 1938, "relation": "P410", "r_label": "quân hàm"}
+{"s_qid": "Q439990", "s_label": "Thanom Kittikachorn", "o_qid": "Q56826567", "o_label": "second lieutenant", "start": 1930, "end": 1935, "relation": "P410", "r_label": "quân hàm"}
+{"s_qid": "Q44371", "s_label": "Valentina Vladimirovna Tereshkova", "o_qid": "Q152951", "o_label": "trung tướng", "start": 2025, "end": 2025, "relation": "P410", "r_label": "quân hàm"}
+{"s_qid": "Q57253", "s_label": "Otto Kretschmer", "o_qid": "Q329741", "o_label": "officer candidate", "start": 1930, "end": 1930, "relation": "P410", "r_label": "quân hàm"}
+{"s_qid": "Q57253", "s_label": "Otto Kretschmer", "o_qid": "Q20157601", "o_label": "Seekadett", "start": 1930, "end": 1930, "relation": "P410", "r_label": "quân hàm"}
+{"s_qid": "Q57253", "s_label": "Otto Kretschmer", "o_qid": "Q15811059", "o_label": "Fähnrich zur See", "start": 1932, "end": 1932, "relation": "P410", "r_label": "quân hàm"}
+{"s_qid": "Q57253", "s_label": "Otto Kretschmer", "o_qid": "Q15837256", "o_label": "Oberfähnrich zur See", "start": 1934, "end": 1934, "relation": "P410", "r_label": "quân hàm"}
+{"s_qid": "Q57253", "s_label": "Otto Kretschmer", "o_qid": "Q1642186", "o_label": "Leutnant zur See", "start": 1934, "end": 1934, "relation": "P410", "r_label": "quân hàm"}
+{"s_qid": "Q57253", "s_label": "Otto Kretschmer", "o_qid": "Q457271", "o_label": "lieutenant", "start": 1936, "end": 1936, "relation": "P410", "r_label": "quân hàm"}
+{"s_qid": "Q57253", "s_label": "Otto Kretschmer", "o_qid": "Q1561545", "o_label": "captain lieutenant", "start": 1939, "end": 1939, "relation": "P410", "r_label": "quân hàm"}
+{"s_qid": "Q57253", "s_label": "Otto Kretschmer", "o_qid": "Q22815070", "o_label": "Fregattenkapitän", "start": 1944, "end": 1944, "relation": "P410", "r_label": "quân hàm"}
+{"s_qid": "Q61001", "s_label": "Erich Topp", "o_qid": "Q156945", "o_label": "Chuẩn Đô đốc", "start": 1966, "end": null, "relation": "P410", "r_label": "quân hàm"}
+{"s_qid": "Q61001", "s_label": "Erich Topp", "o_qid": "Q163500", "o_label": "đại tá", "start": 1959, "end": null, "relation": "P410", "r_label": "quân hàm"}
+{"s_qid": "Q61001", "s_label": "Erich Topp", "o_qid": "Q1561545", "o_label": "captain lieutenant", "start": 1941, "end": null, "relation": "P410", "r_label": "quân hàm"}
+{"s_qid": "Q61001", "s_label": "Erich Topp", "o_qid": "Q457271", "o_label": "lieutenant", "start": 1939, "end": null, "relation": "P410", "r_label": "quân hàm"}
+{"s_qid": "Q61001", "s_label": "Erich Topp", "o_qid": "Q1642186", "o_label": "Leutnant zur See", "start": 1937, "end": null, "relation": "P410", "r_label": "quân hàm"}
+{"s_qid": "Q61001", "s_label": "Erich Topp", "o_qid": "Q15837256", "o_label": "Oberfähnrich zur See", "start": 1937, "end": null, "relation": "P410", "r_label": "quân hàm"}
+{"s_qid": "Q61001", "s_label": "Erich Topp", "o_qid": "Q15811059", "o_label": "Fähnrich zur See", "start": 1935, "end": null, "relation": "P410", "r_label": "quân hàm"}
+{"s_qid": "Q61001", "s_label": "Erich Topp", "o_qid": "Q329741", "o_label": "officer candidate", "start": 1934, "end": null, "relation": "P410", "r_label": "quân hàm"}
+{"s_qid": "Q74129", "s_label": "Hans-Rudolf Rösing", "o_qid": "Q156945", "o_label": "Chuẩn Đô đốc", "start": 1962, "end": 1965, "relation": "P410", "r_label": "quân hàm"}
+{"s_qid": "Q74129", "s_label": "Hans-Rudolf Rösing", "o_qid": "Q22815070", "o_label": "Fregattenkapitän", "start": 1943, "end": 1943, "relation": "P410", "r_label": "quân hàm"}
+{"s_qid": "Q74129", "s_label": "Hans-Rudolf Rösing", "o_qid": "Q22814748", "o_label": "Korvettenkapitän", "start": 1939, "end": 1943, "relation": "P410", "r_label": "quân hàm"}
+{"s_qid": "Q74129", "s_label": "Hans-Rudolf Rösing", "o_qid": "Q1561545", "o_label": "captain lieutenant", "start": 1935, "end": 1939, "relation": "P410", "r_label": "quân hàm"}
+{"s_qid": "Q74129", "s_label": "Hans-Rudolf Rösing", "o_qid": "Q457271", "o_label": "lieutenant", "start": 1930, "end": 1935, "relation": "P410", "r_label": "quân hàm"}
+{"s_qid": "Q74129", "s_label": "Hans-Rudolf Rösing", "o_qid": "Q1642186", "o_label": "Leutnant zur See", "start": 1928, "end": 1930, "relation": "P410", "r_label": "quân hàm"}
+{"s_qid": "Q74129", "s_label": "Hans-Rudolf Rösing", "o_qid": "Q15837256", "o_label": "Oberfähnrich zur See", "start": 1928, "end": 1928, "relation": "P410", "r_label": "quân hàm"}
+{"s_qid": "Q74129", "s_label": "Hans-Rudolf Rösing", "o_qid": "Q15811059", "o_label": "Fähnrich zur See", "start": 1926, "end": 1928, "relation": "P410", "r_label": "quân hàm"}
+{"s_qid": "Q74129", "s_label": "Hans-Rudolf Rösing", "o_qid": "Q20157601", "o_label": "Seekadett", "start": 1925, "end": 1926, "relation": "P410", "r_label": "quân hàm"}
+{"s_qid": "Q74129", "s_label": "Hans-Rudolf Rösing", "o_qid": "Q329741", "o_label": "officer candidate", "start": 1924, "end": 1925, "relation": "P410", "r_label": "quân hàm"}
+{"s_qid": "Q74129", "s_label": "Hans-Rudolf Rösing", "o_qid": "Q163500", "o_label": "đại tá", "start": 1943, "end": null, "relation": "P410", "r_label": "quân hàm"}
+{"s_qid": "Q152306", "s_label": "Carl Gustaf Emil Mannerheim", "o_qid": "Q152951", "o_label": "trung tướng", "start": 1917, "end": 1917, "relation": "P410", "r_label": "quân hàm"}
+{"s_qid": "Q165544", "s_label": "Władysław Anders", "o_qid": "Q13099720", "o_label": "podpolkovnik", "start": 1919, "end": null, "relation": "P410", "r_label": "quân hàm"}
+{"s_qid": "Q165544", "s_label": "Władysław Anders", "o_qid": "Q983927", "o_label": "thiếu tá", "start": 1920, "end": null, "relation": "P410", "r_label": "quân hàm"}
+{"s_qid": "Q165544", "s_label": "Władysław Anders", "o_qid": "Q13099720", "o_label": "podpolkovnik", "start": 1920, "end": null, "relation": "P410", "r_label": "quân hàm"}
+{"s_qid": "Q165544", "s_label": "Władysław Anders", "o_qid": "Q104680", "o_label": "đại tá", "start": 1924, "end": null, "relation": "P410", "r_label": "quân hàm"}
+{"s_qid": "Q165544", "s_label": "Władysław Anders", "o_qid": "Q2487961", "o_label": "tướng sư đoàn", "start": 1941, "end": null, "relation": "P410", "r_label": "quân hàm"}
+{"s_qid": "Q765165", "s_label": "Leonid Ilyich Brezhnev", "o_qid": "Q104680", "o_label": "đại tá", "start": 1942, "end": null, "relation": "P410", "r_label": "quân hàm"}
+{"s_qid": "Q765165", "s_label": "Leonid Ilyich Brezhnev", "o_qid": "Q157148", "o_label": "thiếu tướng", "start": 1944, "end": null, "relation": "P410", "r_label": "quân hàm"}
+{"s_qid": "Q765165", "s_label": "Leonid Ilyich Brezhnev", "o_qid": "Q152951", "o_label": "trung tướng", "start": 1953, "end": null, "relation": "P410", "r_label": "quân hàm"}

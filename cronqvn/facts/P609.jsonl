@@ -1,0 +1,22 @@
+{"s_qid": "Q1756389", "s_label": "Route nationale 138", "o_qid": "Q30974", "o_label": "Rouen", "start": null, "end": 1978, "relation": "P609", "r_label": "điểm cuối cùng"}
+{"s_qid": "Q1756389", "s_label": "Route nationale 138", "o_qid": "Q288", "o_label": "Tours", "start": 1978, "end": 2006, "relation": "P609", "r_label": "điểm cuối cùng"}
+{"s_qid": "Q1756389", "s_label": "Route nationale 138", "o_qid": "Q30974", "o_label": "Rouen", "start": 1978, "end": 2006, "relation": "P609", "r_label": "điểm cuối cùng"}
+{"s_qid": "Q1756389", "s_label": "Route nationale 138", "o_qid": "Q30974", "o_label": "Rouen", "start": 2006, "end": null, "relation": "P609", "r_label": "điểm cuối cùng"}
+{"s_qid": "Q2170359", "s_label": "Route nationale 73", "o_qid": "Q37776", "o_label": "Besançon", "start": 1978, "end": null, "relation": "P609", "r_label": "điểm cuối cùng"}
+{"s_qid": "Q1044097", "s_label": "Route nationale 6", "o_qid": "Q90", "o_label": "Paris", "start": 1978, "end": 2006, "relation": "P609", "r_label": "điểm cuối cùng"}
+{"s_qid": "Q1044097", "s_label": "Route nationale 6", "o_qid": "Q165154", "o_label": "Vương quốc Sardigna", "start": null, "end": 1860, "relation": "P609", "r_label": "điểm cuối cùng"}
+{"s_qid": "Q1276695", "s_label": "Route nationale 5", "o_qid": "Q90", "o_label": "Paris", "start": null, "end": 1978, "relation": "P609", "r_label": "điểm cuối cùng"}
+{"s_qid": "Q1276695", "s_label": "Route nationale 5", "o_qid": "Q544212", "o_label": "Poligny", "start": 2006, "end": null, "relation": "P609", "r_label": "điểm cuối cùng"}
+{"s_qid": "Q7388209", "s_label": "S1 (Nuremberg)", "o_qid": "Q3936", "o_label": "Bamberg", "start": 2010, "end": null, "relation": "P609", "r_label": "điểm cuối cùng"}
+{"s_qid": "Q1296370", "s_label": "Route nationale 83", "o_qid": "Q456", "o_label": "Lyon", "start": null, "end": 1990, "relation": "P609", "r_label": "điểm cuối cùng"}
+{"s_qid": "Q1296370", "s_label": "Route nationale 83", "o_qid": "Q6602", "o_label": "Strasbourg", "start": 1978, "end": 2006, "relation": "P609", "r_label": "điểm cuối cùng"}
+{"s_qid": "Q548015", "s_label": "Route nationale 113", "o_qid": "Q7880", "o_label": "Toulouse", "start": null, "end": 1949, "relation": "P609", "r_label": "điểm cuối cùng"}
+{"s_qid": "Q548015", "s_label": "Route nationale 113", "o_qid": "Q23482", "o_label": "Mạc-xây", "start": 1949, "end": 2006, "relation": "P609", "r_label": "điểm cuối cùng"}
+{"s_qid": "Q548015", "s_label": "Route nationale 113", "o_qid": "Q1479", "o_label": "Bordeaux", "start": 1949, "end": 2006, "relation": "P609", "r_label": "điểm cuối cùng"}
+{"s_qid": "Q645836", "s_label": "Route nationale 43", "o_qid": "Q22690", "o_label": "Metz", "start": 1978, "end": 2006, "relation": "P609", "r_label": "điểm cuối cùng"}
+{"s_qid": "Q1897083", "s_label": "Route nationale 10", "o_qid": "Q90", "o_label": "Paris", "start": null, "end": 2006, "relation": "P609", "r_label": "điểm cuối cùng"}
+{"s_qid": "Q399668", "s_label": "Route nationale 7", "o_qid": "Q90", "o_label": "Paris", "start": null, "end": 2006, "relation": "P609", "r_label": "điểm cuối cùng"}
+{"s_qid": "Q399668", "s_label": "Route nationale 7", "o_qid": "Q165154", "o_label": "Vương quốc Sardigna", "start": null, "end": 1860, "relation": "P609", "r_label": "điểm cuối cùng"}
+{"s_qid": "Q399668", "s_label": "Route nationale 7", "o_qid": "Q6397", "o_label": "Avignon", "start": 2006, "end": 2024, "relation": "P609", "r_label": "điểm cuối cùng"}
+{"s_qid": "Q2399860", "s_label": "Route nationale 19", "o_qid": "Q90", "o_label": "Paris", "start": 1837, "end": 2006, "relation": "P609", "r_label": "điểm cuối cùng"}
+{"s_qid": "Q386060", "s_label": "Route nationale 20", "o_qid": "Q90", "o_label": "Paris", "start": null, "end": 2006, "relation": "P609", "r_label": "điểm cuối cùng"}

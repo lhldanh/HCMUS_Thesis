@@ -1,0 +1,28 @@
+{"s_qid": "Q1049", "s_label": "Sudan", "o_qid": "Q6760", "o_label": "UTC+3", "start": null, "end": 2017, "relation": "P421", "r_label": "nằm trong múi giờ"}
+{"s_qid": "Q1049", "s_label": "Sudan", "o_qid": "Q6723", "o_label": "UTC+2", "start": 2017, "end": null, "relation": "P421", "r_label": "nằm trong múi giờ"}
+{"s_qid": "Q1449780", "s_label": "Bogen", "o_qid": "Q6723", "o_label": "UTC+2", "start": 1940, "end": 1949, "relation": "P421", "r_label": "nằm trong múi giờ"}
+{"s_qid": "Q948", "s_label": "Tunisia", "o_qid": "Q6723", "o_label": "UTC+2", "start": null, "end": 2008, "relation": "P421", "r_label": "nằm trong múi giờ"}
+{"s_qid": "Q1023140", "s_label": "Osmangazi", "o_qid": "Q20988530", "o_label": "Giờ ở Thổ Nhĩ Kỳ", "start": 2018, "end": null, "relation": "P421", "r_label": "nằm trong múi giờ"}
+{"s_qid": "Q1023140", "s_label": "Osmangazi", "o_qid": "Q6760", "o_label": "UTC+3", "start": 2018, "end": null, "relation": "P421", "r_label": "nằm trong múi giờ"}
+{"s_qid": "Q914", "s_label": "Volgograd", "o_qid": "Q6779", "o_label": "UTC+4", "start": 2018, "end": 2020, "relation": "P421", "r_label": "nằm trong múi giờ"}
+{"s_qid": "Q914", "s_label": "Volgograd", "o_qid": "Q6760", "o_label": "UTC+3", "start": null, "end": 2020, "relation": "P421", "r_label": "nằm trong múi giờ"}
+{"s_qid": "Q3927", "s_label": "Astrakhan", "o_qid": "Q6779", "o_label": "UTC+4", "start": 2018, "end": null, "relation": "P421", "r_label": "nằm trong múi giờ"}
+{"s_qid": "Q3927", "s_label": "Astrakhan", "o_qid": "Q6760", "o_label": "UTC+3", "start": null, "end": 2018, "relation": "P421", "r_label": "nằm trong múi giờ"}
+{"s_qid": "Q3927", "s_label": "Astrakhan", "o_qid": "Q842320", "o_label": "Giờ Moskva", "start": null, "end": 2016, "relation": "P421", "r_label": "nằm trong múi giờ"}
+{"s_qid": "Q3927", "s_label": "Astrakhan", "o_qid": "Q2350893", "o_label": "Giờ Samara", "start": 2016, "end": null, "relation": "P421", "r_label": "nằm trong múi giờ"}
+{"s_qid": "Q17070", "s_label": "Réunion", "o_qid": "Q6779", "o_label": "UTC+4", "start": 1979, "end": null, "relation": "P421", "r_label": "nằm trong múi giờ"}
+{"s_qid": "Q1341", "s_label": "Tolyatti", "o_qid": "Q6779", "o_label": "UTC+4", "start": 2014, "end": null, "relation": "P421", "r_label": "nằm trong múi giờ"}
+{"s_qid": "Q1341", "s_label": "Tolyatti", "o_qid": "Q842320", "o_label": "Giờ Moskva", "start": 2010, "end": 2014, "relation": "P421", "r_label": "nằm trong múi giờ"}
+{"s_qid": "Q1341", "s_label": "Tolyatti", "o_qid": "Q2350893", "o_label": "Giờ Samara", "start": 2014, "end": null, "relation": "P421", "r_label": "nằm trong múi giờ"}
+{"s_qid": "Q1341", "s_label": "Tolyatti", "o_qid": "Q842320", "o_label": "Giờ Moskva", "start": 1989, "end": 1991, "relation": "P421", "r_label": "nằm trong múi giờ"}
+{"s_qid": "Q3819", "s_label": "Volgograd", "o_qid": "Q2350893", "o_label": "Giờ Samara", "start": 2018, "end": 2020, "relation": "P421", "r_label": "nằm trong múi giờ"}
+{"s_qid": "Q3819", "s_label": "Volgograd", "o_qid": "Q842320", "o_label": "Giờ Moskva", "start": null, "end": 2018, "relation": "P421", "r_label": "nằm trong múi giờ"}
+{"s_qid": "Q3819", "s_label": "Volgograd", "o_qid": "Q842320", "o_label": "Giờ Moskva", "start": 2020, "end": null, "relation": "P421", "r_label": "nằm trong múi giờ"}
+{"s_qid": "Q842320", "s_label": "Giờ Moskva", "o_qid": "Q6760", "o_label": "UTC+3", "start": 2014, "end": null, "relation": "P421", "r_label": "nằm trong múi giờ"}
+{"s_qid": "Q842320", "s_label": "Giờ Moskva", "o_qid": "Q6779", "o_label": "UTC+4", "start": 2011, "end": 2014, "relation": "P421", "r_label": "nằm trong múi giờ"}
+{"s_qid": "Q142", "s_label": "Pháp", "o_qid": "Q6723", "o_label": "UTC+2", "start": 1979, "end": null, "relation": "P421", "r_label": "nằm trong múi giờ"}
+{"s_qid": "Q142", "s_label": "Pháp", "o_qid": "Q6779", "o_label": "UTC+4", "start": 1979, "end": null, "relation": "P421", "r_label": "nằm trong múi giờ"}
+{"s_qid": "Q142", "s_label": "Pháp", "o_qid": "Q6760", "o_label": "UTC+3", "start": 1979, "end": null, "relation": "P421", "r_label": "nằm trong múi giờ"}
+{"s_qid": "Q10439", "s_label": "Bayreuth", "o_qid": "Q6723", "o_label": "UTC+2", "start": 1940, "end": 1949, "relation": "P421", "r_label": "nằm trong múi giờ"}
+{"s_qid": "Q2183942", "s_label": "Nilüfer", "o_qid": "Q20988530", "o_label": "Giờ ở Thổ Nhĩ Kỳ", "start": 2018, "end": null, "relation": "P421", "r_label": "nằm trong múi giờ"}
+{"s_qid": "Q2183942", "s_label": "Nilüfer", "o_qid": "Q6760", "o_label": "UTC+3", "start": 2018, "end": null, "relation": "P421", "r_label": "nằm trong múi giờ"}

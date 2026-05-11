@@ -1,0 +1,5 @@
+{"s_qid": "Q41421", "s_label": "Michael Jordan", "o_qid": "Q128109", "o_label": "Chicago Bulls", "start": 1984, "end": 1984, "relation": "P647", "r_label": "drafted by"}
+{"s_qid": "Q295345", "s_label": "Jaromír Jágr", "o_qid": "Q193643", "o_label": "Pittsburgh Penguins", "start": 1990, "end": 1990, "relation": "P647", "r_label": "drafted by"}
+{"s_qid": "Q25369", "s_label": "Kobe Bryant", "o_qid": "Q163480", "o_label": "Charlotte Hornets", "start": 1996, "end": 1996, "relation": "P647", "r_label": "drafted by"}
+{"s_qid": "Q193020", "s_label": "Tim Duncan", "o_qid": "Q159729", "o_label": "San Antonio Spurs", "start": 1997, "end": 1997, "relation": "P647", "r_label": "drafted by"}
+{"s_qid": "Q36159", "s_label": "LeBron James", "o_qid": "Q162990", "o_label": "Cleveland Cavaliers", "start": 2003, "end": 2003, "relation": "P647", "r_label": "drafted by"}

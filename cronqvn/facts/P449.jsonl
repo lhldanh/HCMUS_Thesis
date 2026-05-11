@@ -1,0 +1,4 @@
+{"s_qid": "Q3577037", "s_label": "The West Wing", "o_qid": "Q13974", "o_label": "NBC", "start": 1999, "end": 2006, "relation": "P449", "r_label": "đài phát ban đầu"}
+{"s_qid": "Q1145764", "s_label": "Guiding Light (phim)", "o_qid": "Q43380", "o_label": "CBS", "start": 1952, "end": 2009, "relation": "P449", "r_label": "đài phát ban đầu"}
+{"s_qid": "Q11598", "s_label": "Arrested Development", "o_qid": "Q166419", "o_label": "Công ty Truyền thông Fox", "start": 2003, "end": 2006, "relation": "P449", "r_label": "đài phát ban đầu"}
+{"s_qid": "Q11598", "s_label": "Arrested Development", "o_qid": "Q907311", "o_label": "Netflix", "start": 2013, "end": null, "relation": "P449", "r_label": "đài phát ban đầu"}

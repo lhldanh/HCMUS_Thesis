@@ -1,0 +1,5 @@
+{"s_qid": "Q192334", "s_label": "Đại học North Carolina tại Chapel Hill", "o_qid": "Q61061", "o_label": "hiệu trưởng", "start": 1945, "end": null, "relation": "P2388", "r_label": "chức vụ lãnh đạo"}
+{"s_qid": "Q192334", "s_label": "Đại học North Carolina tại Chapel Hill", "o_qid": "Q1255921", "o_label": "chủ tịch", "start": 1803, "end": 1932, "relation": "P2388", "r_label": "chức vụ lãnh đạo"}
+{"s_qid": "Q517449", "s_label": "Chamber of Deputies", "o_qid": "Q51625452", "o_label": "President of the Chamber of Deputies", "start": 1848, "end": 1856, "relation": "P2388", "r_label": "chức vụ lãnh đạo"}
+{"s_qid": "Q517449", "s_label": "Chamber of Deputies", "o_qid": "Q51625452", "o_label": "President of the Chamber of Deputies", "start": 1868, "end": null, "relation": "P2388", "r_label": "chức vụ lãnh đạo"}
+{"s_qid": "Q1164334", "s_label": "DR", "o_qid": "Q1501800", "o_label": "director general", "start": 1959, "end": null, "relation": "P2388", "r_label": "chức vụ lãnh đạo"}

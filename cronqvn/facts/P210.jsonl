@@ -1,0 +1,9 @@
+{"s_qid": "Q148", "s_label": "Trung Quốc", "o_qid": "Q16597", "o_label": "Giang Trạch Dân", "start": 1989, "end": 2002, "relation": "P210", "r_label": "bí thư đảng ủy"}
+{"s_qid": "Q148", "s_label": "Trung Quốc", "o_qid": "Q15031", "o_label": "Tập Cận Bình", "start": 2012, "end": null, "relation": "P210", "r_label": "bí thư đảng ủy"}
+{"s_qid": "Q241", "s_label": "Cuba", "o_qid": "Q11256", "o_label": "Fidel Castro", "start": 1965, "end": 2011, "relation": "P210", "r_label": "bí thư đảng ủy"}
+{"s_qid": "Q14924303", "s_label": "Forza Italia", "o_qid": "Q11860", "o_label": "Silvio Berlusconi", "start": 2013, "end": null, "relation": "P210", "r_label": "bí thư đảng ủy"}
+{"s_qid": "Q215350", "s_label": "Forza Italia", "o_qid": "Q11860", "o_label": "Silvio Berlusconi", "start": 1994, "end": 2009, "relation": "P210", "r_label": "bí thư đảng ủy"}
+{"s_qid": "Q15180", "s_label": "Liên Xô", "o_qid": "Q855", "o_label": "Iosif Vissarionovich Stalin", "start": null, "end": 1953, "relation": "P210", "r_label": "bí thư đảng ủy"}
+{"s_qid": "Q15180", "s_label": "Liên Xô", "o_qid": "Q765165", "o_label": "Leonid Ilyich Brezhnev", "start": 1964, "end": 1982, "relation": "P210", "r_label": "bí thư đảng ủy"}
+{"s_qid": "Q15180", "s_label": "Liên Xô", "o_qid": "Q30487", "o_label": "Mikhail Sergeyevich Gorbachyov", "start": 1985, "end": 1991, "relation": "P210", "r_label": "bí thư đảng ủy"}
+{"s_qid": "Q649", "s_label": "Moskva", "o_qid": "Q34453", "o_label": "Boris Nikolayevich Yeltsin", "start": 1985, "end": 1987, "relation": "P210", "r_label": "bí thư đảng ủy"}

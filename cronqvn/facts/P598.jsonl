@@ -1,0 +1,7 @@
+{"s_qid": "Q47906", "s_label": "Hermann Göring", "o_qid": "Q2564009", "o_label": "Luftwaffe", "start": 1935, "end": 1935, "relation": "P598", "r_label": "commander of (DEPRECATED)"}
+{"s_qid": "Q69475", "s_label": "Karl-Heinz Moehle", "o_qid": "Q1527672", "o_label": "5th U-boat Flotilla", "start": 1941, "end": 1945, "relation": "P598", "r_label": "commander of (DEPRECATED)"}
+{"s_qid": "Q286312", "s_label": "Wolfgang Lüth", "o_qid": "Q629622", "o_label": "22nd U-boat Flotilla", "start": 1944, "end": 1944, "relation": "P598", "r_label": "commander of (DEPRECATED)"}
+{"s_qid": "Q286312", "s_label": "Wolfgang Lüth", "o_qid": "Q881870", "o_label": "Naval Academy at Mürwik", "start": 1944, "end": 1945, "relation": "P598", "r_label": "commander of (DEPRECATED)"}
+{"s_qid": "Q74129", "s_label": "Hans-Rudolf Rösing", "o_qid": "Q1527672", "o_label": "5th U-boat Flotilla", "start": 1938, "end": 1939, "relation": "P598", "r_label": "commander of (DEPRECATED)"}
+{"s_qid": "Q74129", "s_label": "Hans-Rudolf Rösing", "o_qid": "Q261163", "o_label": "7th U-boat Flotilla", "start": 1940, "end": 1940, "relation": "P598", "r_label": "commander of (DEPRECATED)"}
+{"s_qid": "Q74129", "s_label": "Hans-Rudolf Rösing", "o_qid": "Q117829", "o_label": "3rd U-boat Flotilla", "start": 1941, "end": 1941, "relation": "P598", "r_label": "commander of (DEPRECATED)"}

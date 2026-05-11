@@ -1,0 +1,9 @@
+{"s_qid": "Q45670", "s_label": "Vương quốc Bồ Đào Nha", "o_qid": "Q1723031", "o_label": "Thủ tướng của Bồ Đào Nha", "start": 1834, "end": null, "relation": "P1313", "r_label": "chức vụ đứng đầu chính quyền"}
+{"s_qid": "Q43", "s_label": "Thổ Nhĩ Kỳ", "o_qid": "Q2430415", "o_label": "Thủ tướng Thổ Nhĩ Kỳ", "start": null, "end": 2018, "relation": "P1313", "r_label": "chức vụ đứng đầu chính quyền"}
+{"s_qid": "Q1492", "s_label": "Barcelona", "o_qid": "Q12155639", "o_label": "mayor of Barcelona", "start": 1835, "end": null, "relation": "P1313", "r_label": "chức vụ đứng đầu chính quyền"}
+{"s_qid": "Q90", "s_label": "Paris", "o_qid": "Q1465786", "o_label": "Prévôt des marchands de Paris", "start": null, "end": 1789, "relation": "P1313", "r_label": "chức vụ đứng đầu chính quyền"}
+{"s_qid": "Q1342", "s_label": "Pittsburgh", "o_qid": "Q19848507", "o_label": "mayor of Pittsburgh", "start": 1816, "end": null, "relation": "P1313", "r_label": "chức vụ đứng đầu chính quyền"}
+{"s_qid": "Q3447", "s_label": "Voronezh", "o_qid": "Q132050", "o_label": "thống đốc", "start": 1996, "end": null, "relation": "P1313", "r_label": "chức vụ đứng đầu chính quyền"}
+{"s_qid": "Q142", "s_label": "Pháp", "o_qid": "Q3409212", "o_label": "President of the Council", "start": null, "end": 1947, "relation": "P1313", "r_label": "chức vụ đứng đầu chính quyền"}
+{"s_qid": "Q1218", "s_label": "Jerusalem", "o_qid": "Q3364526", "o_label": "alderman", "start": 1967, "end": null, "relation": "P1313", "r_label": "chức vụ đứng đầu chính quyền"}
+{"s_qid": "Q661700", "s_label": "Sankt Andreasberg", "o_qid": "Q61742486", "o_label": "Mayor of Sankt Andreasberg", "start": null, "end": 2011, "relation": "P1313", "r_label": "chức vụ đứng đầu chính quyền"}

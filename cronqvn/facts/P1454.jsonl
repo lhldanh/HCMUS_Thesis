@@ -1,0 +1,47 @@
+{"s_qid": "Q83825", "s_label": "Vy", "o_qid": "Q15042660", "o_label": "aksjeselskap", "start": 2002, "end": null, "relation": "P1454", "r_label": "dạng luật pháp"}
+{"s_qid": "Q157464", "s_label": "KFC Uerdingen 05", "o_qid": "Q9299236", "o_label": "Registered association (eingetragener Verein)", "start": 1920, "end": null, "relation": "P1454", "r_label": "dạng luật pháp"}
+{"s_qid": "Q160236", "s_label": "Bảo tàng Nghệ thuật Metropolitan", "o_qid": "Q18325436", "o_label": "tổ chức 501(c)(3)", "start": 1994, "end": null, "relation": "P1454", "r_label": "dạng luật pháp"}
+{"s_qid": "Q7227384", "s_label": "Đại học Pomona", "o_qid": "Q18325436", "o_label": "tổ chức 501(c)(3)", "start": 1954, "end": null, "relation": "P1454", "r_label": "dạng luật pháp"}
+{"s_qid": "Q20723409", "s_label": "Kaysersberg-Vignoble", "o_qid": "Q2989454", "o_label": "commune nouvelle", "start": 2016, "end": null, "relation": "P1454", "r_label": "dạng luật pháp"}
+{"s_qid": "Q21294380", "s_label": "Haut-Valromey", "o_qid": "Q2989454", "o_label": "commune nouvelle", "start": 2016, "end": null, "relation": "P1454", "r_label": "dạng luật pháp"}
+{"s_qid": "Q59992286", "s_label": "Valromey-sur-Séran", "o_qid": "Q2989454", "o_label": "commune nouvelle", "start": 2019, "end": null, "relation": "P1454", "r_label": "dạng luật pháp"}
+{"s_qid": "Q123852858", "s_label": "Oullins-Pierre-Bénite", "o_qid": "Q2989454", "o_label": "commune nouvelle", "start": 2024, "end": null, "relation": "P1454", "r_label": "dạng luật pháp"}
+{"s_qid": "Q234021", "s_label": "Robert Bosch GmbH", "o_qid": "Q422062", "o_label": "Aktiengesellschaft", "start": 1917, "end": 1937, "relation": "P1454", "r_label": "dạng luật pháp"}
+{"s_qid": "Q282717", "s_label": "Gromov Flight Research Institute", "o_qid": "Q134161", "o_label": "công ty cổ phần", "start": 2012, "end": null, "relation": "P1454", "r_label": "dạng luật pháp"}
+{"s_qid": "Q24939763", "s_label": "Segré-en-Anjou Bleu", "o_qid": "Q2989454", "o_label": "commune nouvelle", "start": 2016, "end": null, "relation": "P1454", "r_label": "dạng luật pháp"}
+{"s_qid": "Q30281108", "s_label": "UMass Memorial Medical Center", "o_qid": "Q18325436", "o_label": "tổ chức 501(c)(3)", "start": 2000, "end": null, "relation": "P1454", "r_label": "dạng luật pháp"}
+{"s_qid": "Q110938829", "s_label": "Indigenous Performing Arts Alliance", "o_qid": "Q163740", "o_label": "tổ chức phi lợi nhuận", "start": 2005, "end": null, "relation": "P1454", "r_label": "dạng luật pháp"}
+{"s_qid": "Q697074", "s_label": "Fjord1", "o_qid": "Q15042660", "o_label": "aksjeselskap", "start": 2001, "end": 2017, "relation": "P1454", "r_label": "dạng luật pháp"}
+{"s_qid": "Q697074", "s_label": "Fjord1", "o_qid": "Q15042660", "o_label": "aksjeselskap", "start": 2021, "end": null, "relation": "P1454", "r_label": "dạng luật pháp"}
+{"s_qid": "Q1472068", "s_label": "Bệnh viện Johns Hopkins", "o_qid": "Q18325436", "o_label": "tổ chức 501(c)(3)", "start": 1948, "end": null, "relation": "P1454", "r_label": "dạng luật pháp"}
+{"s_qid": "Q1795504", "s_label": "Emlyon Business School", "o_qid": "Q18195767", "o_label": "Société anonyme", "start": 1872, "end": 1962, "relation": "P1454", "r_label": "dạng luật pháp"}
+{"s_qid": "Q1979720", "s_label": "PPF Group", "o_qid": "Q3742494", "o_label": "akciová společnost", "start": 2026, "end": null, "relation": "P1454", "r_label": "dạng luật pháp"}
+{"s_qid": "Q17013615", "s_label": "Association for Rural & Small Libraries", "o_qid": "Q18325436", "o_label": "tổ chức 501(c)(3)", "start": 2012, "end": null, "relation": "P1454", "r_label": "dạng luật pháp"}
+{"s_qid": "Q156578", "s_label": "Tập đoàn Volkswagen", "o_qid": "Q460178", "o_label": "Gesellschaft mit beschränkter Haftung", "start": 1937, "end": 1960, "relation": "P1454", "r_label": "dạng luật pháp"}
+{"s_qid": "Q156578", "s_label": "Tập đoàn Volkswagen", "o_qid": "Q422062", "o_label": "Aktiengesellschaft", "start": 1960, "end": null, "relation": "P1454", "r_label": "dạng luật pháp"}
+{"s_qid": "Q654762", "s_label": "Sotheby's", "o_qid": "Q1589009", "o_label": "công ty tư nhân", "start": 2019, "end": null, "relation": "P1454", "r_label": "dạng luật pháp"}
+{"s_qid": "Q1967852", "s_label": "Đại sảnh Danh vọng Phụ nữ Quốc gia", "o_qid": "Q18325436", "o_label": "tổ chức 501(c)(3)", "start": 1975, "end": null, "relation": "P1454", "r_label": "dạng luật pháp"}
+{"s_qid": "Q163580", "s_label": "Henschel & Sohn", "o_qid": "Q422062", "o_label": "Aktiengesellschaft", "start": 1964, "end": null, "relation": "P1454", "r_label": "dạng luật pháp"}
+{"s_qid": "Q30039410", "s_label": "Baugé-en-Anjou", "o_qid": "Q2989454", "o_label": "commune nouvelle", "start": 2016, "end": null, "relation": "P1454", "r_label": "dạng luật pháp"}
+{"s_qid": "Q57741710", "s_label": "Valserhône", "o_qid": "Q2989454", "o_label": "commune nouvelle", "start": 2019, "end": null, "relation": "P1454", "r_label": "dạng luật pháp"}
+{"s_qid": "Q201821", "s_label": "Finnair", "o_qid": "Q333920", "o_label": "osakeyhtiö", "start": null, "end": 1997, "relation": "P1454", "r_label": "dạng luật pháp"}
+{"s_qid": "Q666410", "s_label": "Finnish Academy of Science and Letters", "o_qid": "Q7383772", "o_label": "registered association", "start": 1921, "end": null, "relation": "P1454", "r_label": "dạng luật pháp"}
+{"s_qid": "Q21027217", "s_label": "Chemillé-en-Anjou", "o_qid": "Q2989454", "o_label": "commune nouvelle", "start": 2015, "end": null, "relation": "P1454", "r_label": "dạng luật pháp"}
+{"s_qid": "Q21027263", "s_label": "Sèvremoine", "o_qid": "Q2989454", "o_label": "commune nouvelle", "start": 2015, "end": null, "relation": "P1454", "r_label": "dạng luật pháp"}
+{"s_qid": "Q21294373", "s_label": "Gennes-Val-de-Loire", "o_qid": "Q2989454", "o_label": "commune nouvelle", "start": 2016, "end": 2017, "relation": "P1454", "r_label": "dạng luật pháp"}
+{"s_qid": "Q24940225", "s_label": "Val-Cenis", "o_qid": "Q2989454", "o_label": "commune nouvelle", "start": 2017, "end": null, "relation": "P1454", "r_label": "dạng luật pháp"}
+{"s_qid": "Q27098506", "s_label": "Saint-Pierre-en-Auge", "o_qid": "Q2989454", "o_label": "commune nouvelle", "start": 2017, "end": null, "relation": "P1454", "r_label": "dạng luật pháp"}
+{"s_qid": "Q27139740", "s_label": "Mézidon Vallée d'Auge", "o_qid": "Q2989454", "o_label": "commune nouvelle", "start": 2017, "end": null, "relation": "P1454", "r_label": "dạng luật pháp"}
+{"s_qid": "Q57782245", "s_label": "Évry-Courcouronnes", "o_qid": "Q2989454", "o_label": "commune nouvelle", "start": 2019, "end": null, "relation": "P1454", "r_label": "dạng luật pháp"}
+{"s_qid": "Q59729879", "s_label": "Plateau d'Hauteville", "o_qid": "Q2989454", "o_label": "commune nouvelle", "start": 2019, "end": null, "relation": "P1454", "r_label": "dạng luật pháp"}
+{"s_qid": "Q50189", "s_label": "Annecy", "o_qid": "Q2989454", "o_label": "commune nouvelle", "start": 2017, "end": null, "relation": "P1454", "r_label": "dạng luật pháp"}
+{"s_qid": "Q847499", "s_label": "1. FC Slovácko", "o_qid": "Q3742494", "o_label": "akciová společnost", "start": 2000, "end": null, "relation": "P1454", "r_label": "dạng luật pháp"}
+{"s_qid": "Q19861084", "s_label": "ORCID", "o_qid": "Q18325436", "o_label": "tổ chức 501(c)(3)", "start": 2013, "end": null, "relation": "P1454", "r_label": "dạng luật pháp"}
+{"s_qid": "Q28723557", "s_label": "Carentan-les-Marais", "o_qid": "Q2989454", "o_label": "commune nouvelle", "start": 2019, "end": null, "relation": "P1454", "r_label": "dạng luật pháp"}
+{"s_qid": "Q50810269", "s_label": "Les Sables-d'Olonne", "o_qid": "Q2989454", "o_label": "commune nouvelle", "start": 2019, "end": null, "relation": "P1454", "r_label": "dạng luật pháp"}
+{"s_qid": "Q542511", "s_label": "Hoechst", "o_qid": "Q134161", "o_label": "công ty cổ phần", "start": null, "end": 2005, "relation": "P1454", "r_label": "dạng luật pháp"}
+{"s_qid": "Q542511", "s_label": "Hoechst", "o_qid": "Q460178", "o_label": "Gesellschaft mit beschränkter Haftung", "start": 2005, "end": null, "relation": "P1454", "r_label": "dạng luật pháp"}
+{"s_qid": "Q1471477", "s_label": "Royal Museum of Fine Arts Antwerp", "o_qid": "Q510785", "o_label": "non-profit organisation", "start": 2019, "end": null, "relation": "P1454", "r_label": "dạng luật pháp"}
+{"s_qid": "Q2164222", "s_label": "Rollins College", "o_qid": "Q17084016", "o_label": "nonprofit corporation", "start": 1985, "end": null, "relation": "P1454", "r_label": "dạng luật pháp"}
+{"s_qid": "Q21008210", "s_label": "Cherbourg-en-Cotentin", "o_qid": "Q2989454", "o_label": "commune nouvelle", "start": 2016, "end": null, "relation": "P1454", "r_label": "dạng luật pháp"}
+{"s_qid": "Q21979810", "s_label": "Vire-Normandie", "o_qid": "Q2989454", "o_label": "commune nouvelle", "start": 2016, "end": null, "relation": "P1454", "r_label": "dạng luật pháp"}

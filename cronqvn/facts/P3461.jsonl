@@ -1,0 +1,17 @@
+{"s_qid": "Q42814", "s_label": "ETA", "o_qid": "Q30", "o_label": "Hoa Kỳ", "start": 1997, "end": null, "relation": "P3461", "r_label": "chỉ định là khủng bố bởi"}
+{"s_qid": "Q42814", "s_label": "ETA", "o_qid": "Q16", "o_label": "Canada", "start": 2003, "end": null, "relation": "P3461", "r_label": "chỉ định là khủng bố bởi"}
+{"s_qid": "Q42814", "s_label": "ETA", "o_qid": "Q458", "o_label": "Liên minh châu Âu", "start": 2001, "end": 2009, "relation": "P3461", "r_label": "chỉ định là khủng bố bởi"}
+{"s_qid": "Q42814", "s_label": "ETA", "o_qid": "Q145", "o_label": "Vương quốc Liên hiệp Anh và Bắc Ireland", "start": 2001, "end": null, "relation": "P3461", "r_label": "chỉ định là khủng bố bởi"}
+{"s_qid": "Q2429253", "s_label": "Nhà nước Hồi giáo ở Iraq và Levant", "o_qid": "Q159", "o_label": "Nga", "start": 2015, "end": null, "relation": "P3461", "r_label": "chỉ định là khủng bố bởi"}
+{"s_qid": "Q2429253", "s_label": "Nhà nước Hồi giáo ở Iraq và Levant", "o_qid": "Q30", "o_label": "Hoa Kỳ", "start": 2004, "end": null, "relation": "P3461", "r_label": "chỉ định là khủng bố bởi"}
+{"s_qid": "Q2429253", "s_label": "Nhà nước Hồi giáo ở Iraq và Levant", "o_qid": "Q145", "o_label": "Vương quốc Liên hiệp Anh và Bắc Ireland", "start": 2014, "end": null, "relation": "P3461", "r_label": "chỉ định là khủng bố bởi"}
+{"s_qid": "Q159", "s_label": "Nga", "o_qid": "Q212", "o_label": "Ukraina", "start": 2022, "end": null, "relation": "P3461", "r_label": "chỉ định là khủng bố bởi"}
+{"s_qid": "Q159", "s_label": "Nga", "o_qid": "Q37", "o_label": "Litva", "start": 2022, "end": null, "relation": "P3461", "r_label": "chỉ định là khủng bố bởi"}
+{"s_qid": "Q159", "s_label": "Nga", "o_qid": "Q211", "o_label": "Latvia", "start": 2022, "end": null, "relation": "P3461", "r_label": "chỉ định là khủng bố bởi"}
+{"s_qid": "Q159", "s_label": "Nga", "o_qid": "Q191", "o_label": "Estonia", "start": 2022, "end": null, "relation": "P3461", "r_label": "chỉ định là khủng bố bởi"}
+{"s_qid": "Q159", "s_label": "Nga", "o_qid": "Q213", "o_label": "Séc", "start": 2022, "end": null, "relation": "P3461", "r_label": "chỉ định là khủng bố bởi"}
+{"s_qid": "Q159", "s_label": "Nga", "o_qid": "Q939743", "o_label": "Hội đồng Nghị viện của Ủy hội châu Âu", "start": 2022, "end": null, "relation": "P3461", "r_label": "chỉ định là khủng bố bởi"}
+{"s_qid": "Q159", "s_label": "Nga", "o_qid": "Q7184", "o_label": "NATO", "start": 2022, "end": null, "relation": "P3461", "r_label": "chỉ định là khủng bố bởi"}
+{"s_qid": "Q159", "s_label": "Nga", "o_qid": "Q55", "o_label": "Hà Lan", "start": 2022, "end": null, "relation": "P3461", "r_label": "chỉ định là khủng bố bởi"}
+{"s_qid": "Q159", "s_label": "Nga", "o_qid": "Q36", "o_label": "Ba Lan", "start": 2022, "end": null, "relation": "P3461", "r_label": "chỉ định là khủng bố bởi"}
+{"s_qid": "Q159", "s_label": "Nga", "o_qid": "Q214", "o_label": "Slovakia", "start": 2023, "end": null, "relation": "P3461", "r_label": "chỉ định là khủng bố bởi"}

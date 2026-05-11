@@ -1,0 +1,21 @@
+{"s_qid": "Q29545", "s_label": "Kevin Durant", "o_qid": "Q84263196", "o_label": "COVID-19", "start": 2020, "end": null, "relation": "P1050", "r_label": "tình trạng sức khỏe"}
+{"s_qid": "Q1189", "s_label": "Usain Bolt", "o_qid": "Q84263196", "o_label": "COVID-19", "start": 2020, "end": 2020, "relation": "P1050", "r_label": "tình trạng sức khỏe"}
+{"s_qid": "Q3910", "s_label": "Albert II của Monaco", "o_qid": "Q84263196", "o_label": "COVID-19", "start": 2020, "end": null, "relation": "P1050", "r_label": "tình trạng sức khỏe"}
+{"s_qid": "Q9916", "s_label": "Dwight D. Eisenhower", "o_qid": "Q12152", "o_label": "nhồi máu cơ tim", "start": 1955, "end": 1955, "relation": "P1050", "r_label": "tình trạng sức khỏe"}
+{"s_qid": "Q9916", "s_label": "Dwight D. Eisenhower", "o_qid": "Q12202", "o_label": "tai biến mạch máu não", "start": 1957, "end": 1957, "relation": "P1050", "r_label": "tình trạng sức khỏe"}
+{"s_qid": "Q9916", "s_label": "Dwight D. Eisenhower", "o_qid": "Q12152", "o_label": "nhồi máu cơ tim", "start": 1965, "end": 1965, "relation": "P1050", "r_label": "tình trạng sức khỏe"}
+{"s_qid": "Q22686", "s_label": "Donald Trump", "o_qid": "Q84263196", "o_label": "COVID-19", "start": 2020, "end": null, "relation": "P1050", "r_label": "tình trạng sức khỏe"}
+{"s_qid": "Q6279", "s_label": "Joe Biden", "o_qid": "Q84263196", "o_label": "COVID-19", "start": 2022, "end": 2022, "relation": "P1050", "r_label": "tình trạng sức khỏe"}
+{"s_qid": "Q6279", "s_label": "Joe Biden", "o_qid": "Q84263196", "o_label": "COVID-19", "start": 2024, "end": 2024, "relation": "P1050", "r_label": "tình trạng sức khỏe"}
+{"s_qid": "Q9682", "s_label": "Elizabeth II", "o_qid": "Q84263196", "o_label": "COVID-19", "start": 2022, "end": 2022, "relation": "P1050", "r_label": "tình trạng sức khỏe"}
+{"s_qid": "Q36107", "s_label": "Muhammad Ali", "o_qid": "Q11085", "o_label": "bệnh Parkinson", "start": 1980, "end": null, "relation": "P1050", "r_label": "tình trạng sức khỏe"}
+{"s_qid": "Q548733", "s_label": "Vajiralongkorn", "o_qid": "Q84263196", "o_label": "COVID-19", "start": 2022, "end": 2022, "relation": "P1050", "r_label": "tình trạng sức khỏe"}
+{"s_qid": "Q43274", "s_label": "Charles III", "o_qid": "Q84263196", "o_label": "COVID-19", "start": 2020, "end": null, "relation": "P1050", "r_label": "tình trạng sức khỏe"}
+{"s_qid": "Q43274", "s_label": "Charles III", "o_qid": "Q84263196", "o_label": "COVID-19", "start": 2022, "end": 2022, "relation": "P1050", "r_label": "tình trạng sức khỏe"}
+{"s_qid": "Q78061707", "s_label": "Simon Villeneuve", "o_qid": "Q84263196", "o_label": "COVID-19", "start": 2023, "end": 2023, "relation": "P1050", "r_label": "tình trạng sức khỏe"}
+{"s_qid": "Q36812", "s_label": "William, Thân vương xứ Wales", "o_qid": "Q84263196", "o_label": "COVID-19", "start": 2020, "end": null, "relation": "P1050", "r_label": "tình trạng sức khỏe"}
+{"s_qid": "Q76", "s_label": "Barack Obama", "o_qid": "Q84263196", "o_label": "COVID-19", "start": 2022, "end": 2022, "relation": "P1050", "r_label": "tình trạng sức khỏe"}
+{"s_qid": "Q11571", "s_label": "Cristiano Ronaldo", "o_qid": "Q84263196", "o_label": "COVID-19", "start": 2020, "end": 2020, "relation": "P1050", "r_label": "tình trạng sức khỏe"}
+{"s_qid": "Q29230", "s_label": "Martti Ahtisaari", "o_qid": "Q84263196", "o_label": "COVID-19", "start": 2020, "end": 2020, "relation": "P1050", "r_label": "tình trạng sức khỏe"}
+{"s_qid": "Q57334", "s_label": "Dimitris Christofias", "o_qid": "Q12152", "o_label": "nhồi máu cơ tim", "start": 1982, "end": 1982, "relation": "P1050", "r_label": "tình trạng sức khỏe"}
+{"s_qid": "Q57334", "s_label": "Dimitris Christofias", "o_qid": "Q41861", "o_label": "cao huyết áp", "start": 1994, "end": 1994, "relation": "P1050", "r_label": "tình trạng sức khỏe"}

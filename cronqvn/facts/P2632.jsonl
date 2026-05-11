@@ -1,0 +1,3 @@
+{"s_qid": "Q47906", "s_label": "Hermann Göring", "o_qid": "Q187725", "o_label": "Nuremberg Court Prison", "start": 1945, "end": 1946, "relation": "P2632", "r_label": "nơi giam giữ"}
+{"s_qid": "Q69475", "s_label": "Karl-Heinz Moehle", "o_qid": "Q145", "o_label": "Vương quốc Liên hiệp Anh và Bắc Ireland", "start": 1946, "end": 1949, "relation": "P2632", "r_label": "nơi giam giữ"}
+{"s_qid": "Q43403395", "s_label": "trial of James Welch", "o_qid": "Q23436", "o_label": "Edinburgh", "start": 1662, "end": 1662, "relation": "P2632", "r_label": "nơi giam giữ"}

@@ -1,0 +1,40 @@
+{"s_qid": "Q9588", "s_label": "Richard Nixon", "o_qid": "Q11220", "o_label": "Hải quân Hoa Kỳ", "start": 1942, "end": 1946, "relation": "P241", "r_label": "quân chủng"}
+{"s_qid": "Q62626", "s_label": "Albrecht Brandi", "o_qid": "Q151701", "o_label": "Hải quân Đức Quốc xã", "start": 1935, "end": null, "relation": "P241", "r_label": "quân chủng"}
+{"s_qid": "Q9582", "s_label": "Gerald Ford", "o_qid": "Q11220", "o_label": "Hải quân Hoa Kỳ", "start": 1942, "end": 1946, "relation": "P241", "r_label": "quân chủng"}
+{"s_qid": "Q9640", "s_label": "Lyndon B. Johnson", "o_qid": "Q11220", "o_label": "Hải quân Hoa Kỳ", "start": 1941, "end": 1942, "relation": "P241", "r_label": "quân chủng"}
+{"s_qid": "Q9960", "s_label": "Ronald Reagan", "o_qid": "Q2036662", "o_label": "United States Army Reserve", "start": 1937, "end": 1942, "relation": "P241", "r_label": "quân chủng"}
+{"s_qid": "Q9960", "s_label": "Ronald Reagan", "o_qid": "Q9212", "o_label": "Lục quân Hoa Kỳ", "start": 1942, "end": 1945, "relation": "P241", "r_label": "quân chủng"}
+{"s_qid": "Q9960", "s_label": "Ronald Reagan", "o_qid": "Q2036662", "o_label": "United States Army Reserve", "start": 1945, "end": 1947, "relation": "P241", "r_label": "quân chủng"}
+{"s_qid": "Q22815070", "s_label": "Fregattenkapitän", "o_qid": "Q151701", "o_label": "Hải quân Đức Quốc xã", "start": 1935, "end": 1945, "relation": "P241", "r_label": "quân chủng"}
+{"s_qid": "Q9696", "s_label": "John F. Kennedy", "o_qid": "Q11220", "o_label": "Hải quân Hoa Kỳ", "start": 1941, "end": 1945, "relation": "P241", "r_label": "quân chủng"}
+{"s_qid": "Q9916", "s_label": "Dwight D. Eisenhower", "o_qid": "Q9212", "o_label": "Lục quân Hoa Kỳ", "start": 1915, "end": 1959, "relation": "P241", "r_label": "quân chủng"}
+{"s_qid": "Q9916", "s_label": "Dwight D. Eisenhower", "o_qid": "Q9212", "o_label": "Lục quân Hoa Kỳ", "start": null, "end": 1969, "relation": "P241", "r_label": "quân chủng"}
+{"s_qid": "Q152316", "s_label": "Hoàng tử Harry xứ Wales", "o_qid": "Q222595", "o_label": "Lục quân Anh", "start": 2005, "end": 2015, "relation": "P241", "r_label": "quân chủng"}
+{"s_qid": "Q4573", "s_label": "Sean Connery", "o_qid": "Q172771", "o_label": "Hải quân Hoàng gia Anh", "start": 1946, "end": 1949, "relation": "P241", "r_label": "quân chủng"}
+{"s_qid": "Q69475", "s_label": "Karl-Heinz Moehle", "o_qid": "Q643834", "o_label": "Reichsmarine", "start": 1930, "end": 1935, "relation": "P241", "r_label": "quân chủng"}
+{"s_qid": "Q69475", "s_label": "Karl-Heinz Moehle", "o_qid": "Q151701", "o_label": "Hải quân Đức Quốc xã", "start": 1935, "end": 1945, "relation": "P241", "r_label": "quân chủng"}
+{"s_qid": "Q91146", "s_label": "Karl-Heinz Marbach", "o_qid": "Q151701", "o_label": "Hải quân Đức Quốc xã", "start": 1937, "end": 1945, "relation": "P241", "r_label": "quân chủng"}
+{"s_qid": "Q204338", "s_label": "Rodion Yakovlevich Malinovsky", "o_qid": "Q1078222", "o_label": "Quân đội Đế quốc Nga", "start": 1914, "end": 1917, "relation": "P241", "r_label": "quân chủng"}
+{"s_qid": "Q204338", "s_label": "Rodion Yakovlevich Malinovsky", "o_qid": "Q251395", "o_label": "Hồng Quân", "start": 1919, "end": null, "relation": "P241", "r_label": "quân chủng"}
+{"s_qid": "Q40482", "s_label": "Konstantin Konstantinovich Rokossovsky", "o_qid": "Q1078222", "o_label": "Quân đội Đế quốc Nga", "start": 1914, "end": 1917, "relation": "P241", "r_label": "quân chủng"}
+{"s_qid": "Q40482", "s_label": "Konstantin Konstantinovich Rokossovsky", "o_qid": "Q251395", "o_label": "Hồng Quân", "start": 1918, "end": null, "relation": "P241", "r_label": "quân chủng"}
+{"s_qid": "Q150894", "s_label": "Aleksandr Mikhaylovich Vasilevskiy", "o_qid": "Q1078222", "o_label": "Quân đội Đế quốc Nga", "start": 1915, "end": 1917, "relation": "P241", "r_label": "quân chủng"}
+{"s_qid": "Q150894", "s_label": "Aleksandr Mikhaylovich Vasilevskiy", "o_qid": "Q251395", "o_label": "Hồng Quân", "start": 1919, "end": null, "relation": "P241", "r_label": "quân chủng"}
+{"s_qid": "Q185024", "s_label": "Ivan Stepanovich Koniev", "o_qid": "Q1078222", "o_label": "Quân đội Đế quốc Nga", "start": 1916, "end": null, "relation": "P241", "r_label": "quân chủng"}
+{"s_qid": "Q185024", "s_label": "Ivan Stepanovich Koniev", "o_qid": "Q251395", "o_label": "Hồng Quân", "start": 1918, "end": null, "relation": "P241", "r_label": "quân chủng"}
+{"s_qid": "Q23505", "s_label": "George H. W. Bush", "o_qid": "Q11220", "o_label": "Hải quân Hoa Kỳ", "start": 1942, "end": 1945, "relation": "P241", "r_label": "quân chủng"}
+{"s_qid": "Q131285", "s_label": "John Williams", "o_qid": "Q11223", "o_label": "Không quân Hoa Kỳ", "start": 1951, "end": 1955, "relation": "P241", "r_label": "quân chủng"}
+{"s_qid": "Q131691", "s_label": "Arthur Wellesley, Công tước thứ nhất của Wellington", "o_qid": "Q222595", "o_label": "Lục quân Anh", "start": 1787, "end": null, "relation": "P241", "r_label": "quân chủng"}
+{"s_qid": "Q286312", "s_label": "Wolfgang Lüth", "o_qid": "Q151701", "o_label": "Hải quân Đức Quốc xã", "start": 1935, "end": 1945, "relation": "P241", "r_label": "quân chủng"}
+{"s_qid": "Q286312", "s_label": "Wolfgang Lüth", "o_qid": "Q643834", "o_label": "Reichsmarine", "start": 1933, "end": 1935, "relation": "P241", "r_label": "quân chủng"}
+{"s_qid": "Q5036510", "s_label": "captain", "o_qid": "Q165862", "o_label": "Không quân Hoàng gia Anh", "start": 1918, "end": 1919, "relation": "P241", "r_label": "quân chủng"}
+{"s_qid": "Q57253", "s_label": "Otto Kretschmer", "o_qid": "Q643834", "o_label": "Reichsmarine", "start": 1930, "end": 1935, "relation": "P241", "r_label": "quân chủng"}
+{"s_qid": "Q57253", "s_label": "Otto Kretschmer", "o_qid": "Q151701", "o_label": "Hải quân Đức Quốc xã", "start": 1935, "end": 1941, "relation": "P241", "r_label": "quân chủng"}
+{"s_qid": "Q61001", "s_label": "Erich Topp", "o_qid": "Q643834", "o_label": "Reichsmarine", "start": 1934, "end": 1935, "relation": "P241", "r_label": "quân chủng"}
+{"s_qid": "Q61001", "s_label": "Erich Topp", "o_qid": "Q151701", "o_label": "Hải quân Đức Quốc xã", "start": 1935, "end": 1945, "relation": "P241", "r_label": "quân chủng"}
+{"s_qid": "Q74129", "s_label": "Hans-Rudolf Rösing", "o_qid": "Q151701", "o_label": "Hải quân Đức Quốc xã", "start": 1935, "end": null, "relation": "P241", "r_label": "quân chủng"}
+{"s_qid": "Q104049", "s_label": "Sidney Poitier", "o_qid": "Q9212", "o_label": "Lục quân Hoa Kỳ", "start": 1943, "end": 1944, "relation": "P241", "r_label": "quân chủng"}
+{"s_qid": "Q152306", "s_label": "Carl Gustaf Emil Mannerheim", "o_qid": "Q1078222", "o_label": "Quân đội Đế quốc Nga", "start": 1887, "end": 1917, "relation": "P241", "r_label": "quân chủng"}
+{"s_qid": "Q165544", "s_label": "Władysław Anders", "o_qid": "Q1078222", "o_label": "Quân đội Đế quốc Nga", "start": 1913, "end": 1917, "relation": "P241", "r_label": "quân chủng"}
+{"s_qid": "Q186185", "s_label": "Kliment Yefremovich Voroshilov", "o_qid": "Q251395", "o_label": "Hồng Quân", "start": 1918, "end": null, "relation": "P241", "r_label": "quân chủng"}
+{"s_qid": "Q210599", "s_label": "2nd U-boat Flotilla", "o_qid": "Q151701", "o_label": "Hải quân Đức Quốc xã", "start": 1936, "end": 1944, "relation": "P241", "r_label": "quân chủng"}

@@ -1,0 +1,36 @@
+{"s_qid": "Q869", "s_label": "Thái Lan", "o_qid": "Q432", "o_label": "Hồi giáo", "start": 2021, "end": 2021, "relation": "P140", "r_label": "tôn giáo"}
+{"s_qid": "Q869", "s_label": "Thái Lan", "o_qid": "Q5043", "o_label": "Kitô giáo", "start": 2021, "end": 2021, "relation": "P140", "r_label": "tôn giáo"}
+{"s_qid": "Q6998", "s_label": "Freising", "o_qid": "Q1841", "o_label": "Công giáo", "start": 2023, "end": 2023, "relation": "P140", "r_label": "tôn giáo"}
+{"s_qid": "Q6998", "s_label": "Freising", "o_qid": "Q23540", "o_label": "Kháng Cách", "start": 2023, "end": 2023, "relation": "P140", "r_label": "tôn giáo"}
+{"s_qid": "Q6998", "s_label": "Freising", "o_qid": "Q75809", "o_label": "Giáo hội Luther", "start": 2023, "end": 2023, "relation": "P140", "r_label": "tôn giáo"}
+{"s_qid": "Q12548", "s_label": "Đế quốc La Mã Thần thánh", "o_qid": "Q75809", "o_label": "Giáo hội Luther", "start": 1555, "end": null, "relation": "P140", "r_label": "tôn giáo"}
+{"s_qid": "Q12548", "s_label": "Đế quốc La Mã Thần thánh", "o_qid": "Q101849", "o_label": "thần học Calvin", "start": 1648, "end": null, "relation": "P140", "r_label": "tôn giáo"}
+{"s_qid": "Q106508", "s_label": "Gérard Depardieu", "o_qid": "Q3333484", "o_label": "Chính thống giáo Đông phương", "start": 2020, "end": null, "relation": "P140", "r_label": "tôn giáo"}
+{"s_qid": "Q1166025", "s_label": "Christian Democratic Party", "o_qid": "Q5043", "o_label": "Kitô giáo", "start": 1933, "end": 2013, "relation": "P140", "r_label": "tôn giáo"}
+{"s_qid": "Q1394", "s_label": "Vladimir Ilyich Lenin", "o_qid": "Q3333484", "o_label": "Chính thống giáo Đông phương", "start": null, "end": 1886, "relation": "P140", "r_label": "tôn giáo"}
+{"s_qid": "Q56189", "s_label": "Lise Meitner", "o_qid": "Q9268", "o_label": "Do Thái giáo", "start": 1878, "end": 1908, "relation": "P140", "r_label": "tôn giáo"}
+{"s_qid": "Q72334", "s_label": "Toni Morrison", "o_qid": "Q1841", "o_label": "Công giáo", "start": 1943, "end": null, "relation": "P140", "r_label": "tôn giáo"}
+{"s_qid": "Q78492", "s_label": "Tomáš Garrigue Masaryk", "o_qid": "Q11985224", "o_label": "Evangelical Church in Austria (1781-1918)", "start": 1880, "end": 1918, "relation": "P140", "r_label": "tôn giáo"}
+{"s_qid": "Q78492", "s_label": "Tomáš Garrigue Masaryk", "o_qid": "Q782911", "o_label": "Evangelical Church of Czech Brethren", "start": 1918, "end": 1937, "relation": "P140", "r_label": "tôn giáo"}
+{"s_qid": "Q7416", "s_label": "Margaret Thatcher", "o_qid": "Q6423963", "o_label": "Anh giáo", "start": 1951, "end": null, "relation": "P140", "r_label": "tôn giáo"}
+{"s_qid": "Q38370", "s_label": "Henry VIII của Anh", "o_qid": "Q6423963", "o_label": "Anh giáo", "start": 1534, "end": null, "relation": "P140", "r_label": "tôn giáo"}
+{"s_qid": "Q146246", "s_label": "Francia", "o_qid": "Q9592", "o_label": "Giáo hội Công giáo", "start": 496, "end": null, "relation": "P140", "r_label": "tôn giáo"}
+{"s_qid": "Q295345", "s_label": "Jaromír Jágr", "o_qid": "Q3333484", "o_label": "Chính thống giáo Đông phương", "start": 2001, "end": null, "relation": "P140", "r_label": "tôn giáo"}
+{"s_qid": "Q937", "s_label": "Albert Einstein", "o_qid": "Q9268", "o_label": "Do Thái giáo", "start": 1879, "end": 1891, "relation": "P140", "r_label": "tôn giáo"}
+{"s_qid": "Q17455", "s_label": "John von Neumann", "o_qid": "Q9268", "o_label": "Do Thái giáo", "start": null, "end": 1930, "relation": "P140", "r_label": "tôn giáo"}
+{"s_qid": "Q17455", "s_label": "John von Neumann", "o_qid": "Q5043", "o_label": "Kitô giáo", "start": 1930, "end": null, "relation": "P140", "r_label": "tôn giáo"}
+{"s_qid": "Q17455", "s_label": "John von Neumann", "o_qid": "Q1841", "o_label": "Công giáo", "start": 1930, "end": null, "relation": "P140", "r_label": "tôn giáo"}
+{"s_qid": "Q34851", "s_label": "Elizabeth Taylor", "o_qid": "Q9268", "o_label": "Do Thái giáo", "start": 1959, "end": null, "relation": "P140", "r_label": "tôn giáo"}
+{"s_qid": "Q154952", "s_label": "Willem-Alexander, Hoàng tử xứ Orange", "o_qid": "Q515880", "o_label": "Dutch Reformed Church", "start": 1967, "end": 2004, "relation": "P140", "r_label": "tôn giáo"}
+{"s_qid": "Q78061707", "s_label": "Simon Villeneuve", "o_qid": "Q1841", "o_label": "Công giáo", "start": null, "end": 1990, "relation": "P140", "r_label": "tôn giáo"}
+{"s_qid": "Q96", "s_label": "México", "o_qid": "Q1841", "o_label": "Công giáo", "start": 2020, "end": 2020, "relation": "P140", "r_label": "tôn giáo"}
+{"s_qid": "Q96", "s_label": "México", "o_qid": "Q58721", "o_label": "không tôn giáo", "start": 2020, "end": 2020, "relation": "P140", "r_label": "tôn giáo"}
+{"s_qid": "Q230", "s_label": "Gruzia", "o_qid": "Q5043", "o_label": "Kitô giáo", "start": 319, "end": null, "relation": "P140", "r_label": "tôn giáo"}
+{"s_qid": "Q884", "s_label": "Hàn Quốc", "o_qid": "Q23540", "o_label": "Kháng Cách", "start": 2015, "end": 2015, "relation": "P140", "r_label": "tôn giáo"}
+{"s_qid": "Q884", "s_label": "Hàn Quốc", "o_qid": "Q1841", "o_label": "Công giáo", "start": 2015, "end": 2015, "relation": "P140", "r_label": "tôn giáo"}
+{"s_qid": "Q36450", "s_label": "Ekaterina II của Nga", "o_qid": "Q75809", "o_label": "Giáo hội Luther", "start": null, "end": 1744, "relation": "P140", "r_label": "tôn giáo"}
+{"s_qid": "Q49683", "s_label": "Đại Công quốc Litva", "o_qid": "Q1841", "o_label": "Công giáo", "start": 1385, "end": null, "relation": "P140", "r_label": "tôn giáo"}
+{"s_qid": "Q61758", "s_label": "Lazarus Fuchs", "o_qid": "Q9268", "o_label": "Do Thái giáo", "start": null, "end": 1860, "relation": "P140", "r_label": "tôn giáo"}
+{"s_qid": "Q130742", "s_label": "Alanis Morissette", "o_qid": "Q1841", "o_label": "Công giáo", "start": null, "end": 2005, "relation": "P140", "r_label": "tôn giáo"}
+{"s_qid": "Q165544", "s_label": "Władysław Anders", "o_qid": "Q9592", "o_label": "Giáo hội Công giáo", "start": 1942, "end": null, "relation": "P140", "r_label": "tôn giáo"}
+{"s_qid": "Q165544", "s_label": "Władysław Anders", "o_qid": "Q1841", "o_label": "Công giáo", "start": 1942, "end": null, "relation": "P140", "r_label": "tôn giáo"}

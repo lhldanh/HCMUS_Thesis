@@ -1,0 +1,71 @@
+{"s_qid": "Q62626", "s_label": "Albrecht Brandi", "o_qid": "Q47064", "o_label": "quân nhân", "start": 1935, "end": null, "relation": "P106", "r_label": "nghề nghiệp"}
+{"s_qid": "Q62626", "s_label": "Albrecht Brandi", "o_qid": "Q4991371", "o_label": "người lính", "start": 1935, "end": null, "relation": "P106", "r_label": "nghề nghiệp"}
+{"s_qid": "Q2631653", "s_label": "Gian Piero Ventura", "o_qid": "Q937857", "o_label": "cầu thủ bóng đá", "start": null, "end": 1978, "relation": "P106", "r_label": "nghề nghiệp"}
+{"s_qid": "Q989", "s_label": "Giáo hoàng Gioan Phaolô II", "o_qid": "Q1469535", "o_label": "Latin Catholic priest", "start": 1946, "end": 2005, "relation": "P106", "r_label": "nghề nghiệp"}
+{"s_qid": "Q989", "s_label": "Giáo hoàng Gioan Phaolô II", "o_qid": "Q611644", "o_label": "giám mục Công giáo", "start": 1958, "end": 2005, "relation": "P106", "r_label": "nghề nghiệp"}
+{"s_qid": "Q9640", "s_label": "Lyndon B. Johnson", "o_qid": "Q37226", "o_label": "giáo viên", "start": 1928, "end": 1931, "relation": "P106", "r_label": "nghề nghiệp"}
+{"s_qid": "Q9960", "s_label": "Ronald Reagan", "o_qid": "Q189290", "o_label": "sĩ quan quân đội", "start": 1942, "end": 1945, "relation": "P106", "r_label": "nghề nghiệp"}
+{"s_qid": "Q9960", "s_label": "Ronald Reagan", "o_qid": "Q33999", "o_label": "diễn viên", "start": 1937, "end": 1960, "relation": "P106", "r_label": "nghề nghiệp"}
+{"s_qid": "Q10132", "s_label": "Rafael Nadal", "o_qid": "Q10833314", "o_label": "tennis player", "start": 2001, "end": 2024, "relation": "P106", "r_label": "nghề nghiệp"}
+{"s_qid": "Q11459", "s_label": "Serena Williams", "o_qid": "Q10833314", "o_label": "tennis player", "start": 1997, "end": null, "relation": "P106", "r_label": "nghề nghiệp"}
+{"s_qid": "Q152316", "s_label": "Hoàng tử Harry xứ Wales", "o_qid": "Q189290", "o_label": "sĩ quan quân đội", "start": 2004, "end": null, "relation": "P106", "r_label": "nghề nghiệp"}
+{"s_qid": "Q3158033", "s_label": "Jacques-Olivier Boudon", "o_qid": "Q1622272", "o_label": "giảng viên đại học", "start": 1998, "end": null, "relation": "P106", "r_label": "nghề nghiệp"}
+{"s_qid": "Q3888783", "s_label": "José-Apeles Santolaria de Puey y Cruells", "o_qid": "Q250867", "o_label": "linh mục", "start": 1993, "end": null, "relation": "P106", "r_label": "nghề nghiệp"}
+{"s_qid": "Q3888783", "s_label": "José-Apeles Santolaria de Puey y Cruells", "o_qid": "Q1930187", "o_label": "nhà báo", "start": 1984, "end": null, "relation": "P106", "r_label": "nghề nghiệp"}
+{"s_qid": "Q3888783", "s_label": "José-Apeles Santolaria de Puey y Cruells", "o_qid": "Q947873", "o_label": "người dẫn chương trình truyền hình", "start": 1997, "end": null, "relation": "P106", "r_label": "nghề nghiệp"}
+{"s_qid": "Q3888783", "s_label": "José-Apeles Santolaria de Puey y Cruells", "o_qid": "Q40348", "o_label": "luật sư", "start": 1991, "end": null, "relation": "P106", "r_label": "nghề nghiệp"}
+{"s_qid": "Q3888783", "s_label": "José-Apeles Santolaria de Puey y Cruells", "o_qid": "Q36180", "o_label": "nhà văn", "start": 1997, "end": null, "relation": "P106", "r_label": "nghề nghiệp"}
+{"s_qid": "Q3888783", "s_label": "José-Apeles Santolaria de Puey y Cruells", "o_qid": "Q10800557", "o_label": "diễn viên điện ảnh", "start": 2015, "end": null, "relation": "P106", "r_label": "nghề nghiệp"}
+{"s_qid": "Q3888783", "s_label": "José-Apeles Santolaria de Puey y Cruells", "o_qid": "Q2259451", "o_label": "diễn viên sân khấu", "start": 1997, "end": 1997, "relation": "P106", "r_label": "nghề nghiệp"}
+{"s_qid": "Q3888783", "s_label": "José-Apeles Santolaria de Puey y Cruells", "o_qid": "Q177220", "o_label": "ca sĩ", "start": 2022, "end": null, "relation": "P106", "r_label": "nghề nghiệp"}
+{"s_qid": "Q3888783", "s_label": "José-Apeles Santolaria de Puey y Cruells", "o_qid": "Q47064", "o_label": "quân nhân", "start": 2006, "end": null, "relation": "P106", "r_label": "nghề nghiệp"}
+{"s_qid": "Q3888783", "s_label": "José-Apeles Santolaria de Puey y Cruells", "o_qid": "Q4610556", "o_label": "người mẫu", "start": 1997, "end": 1998, "relation": "P106", "r_label": "nghề nghiệp"}
+{"s_qid": "Q64712781", "s_label": "Maurice Agulhon", "o_qid": "Q5669847", "o_label": "giáo sư tập sự", "start": 1957, "end": 1963, "relation": "P106", "r_label": "nghề nghiệp"}
+{"s_qid": "Q64712781", "s_label": "Maurice Agulhon", "o_qid": "Q462390", "o_label": "docent", "start": 1967, "end": 1969, "relation": "P106", "r_label": "nghề nghiệp"}
+{"s_qid": "Q64712781", "s_label": "Maurice Agulhon", "o_qid": "Q1622272", "o_label": "giảng viên đại học", "start": 1969, "end": 1972, "relation": "P106", "r_label": "nghề nghiệp"}
+{"s_qid": "Q94355513", "s_label": "Isabel Bader", "o_qid": "Q974144", "o_label": "nhà sư phạm", "start": 1949, "end": 1977, "relation": "P106", "r_label": "nghề nghiệp"}
+{"s_qid": "Q38370", "s_label": "Henry VIII của Anh", "o_qid": "Q116", "o_label": "quân chủ", "start": 1509, "end": 1547, "relation": "P106", "r_label": "nghề nghiệp"}
+{"s_qid": "Q69475", "s_label": "Karl-Heinz Moehle", "o_qid": "Q47064", "o_label": "quân nhân", "start": 1930, "end": 1945, "relation": "P106", "r_label": "nghề nghiệp"}
+{"s_qid": "Q295345", "s_label": "Jaromír Jágr", "o_qid": "Q11774891", "o_label": "ice hockey player", "start": 1988, "end": 2026, "relation": "P106", "r_label": "nghề nghiệp"}
+{"s_qid": "Q336977", "s_label": "Guido Gezelle", "o_qid": "Q2251335", "o_label": "giáo viên nhà trường", "start": 1854, "end": 1899, "relation": "P106", "r_label": "nghề nghiệp"}
+{"s_qid": "Q336977", "s_label": "Guido Gezelle", "o_qid": "Q250867", "o_label": "linh mục", "start": 1854, "end": 1899, "relation": "P106", "r_label": "nghề nghiệp"}
+{"s_qid": "Q336977", "s_label": "Guido Gezelle", "o_qid": "Q1753370", "o_label": "curate", "start": 1865, "end": 1889, "relation": "P106", "r_label": "nghề nghiệp"}
+{"s_qid": "Q336977", "s_label": "Guido Gezelle", "o_qid": "Q121594", "o_label": "giáo sư", "start": 1860, "end": 1865, "relation": "P106", "r_label": "nghề nghiệp"}
+{"s_qid": "Q336977", "s_label": "Guido Gezelle", "o_qid": "Q2113250", "o_label": "phó hiệu trưởng", "start": 1861, "end": 1865, "relation": "P106", "r_label": "nghề nghiệp"}
+{"s_qid": "Q937", "s_label": "Albert Einstein", "o_qid": "Q1622272", "o_label": "giảng viên đại học", "start": 1909, "end": null, "relation": "P106", "r_label": "nghề nghiệp"}
+{"s_qid": "Q91146", "s_label": "Karl-Heinz Marbach", "o_qid": "Q47064", "o_label": "quân nhân", "start": 1937, "end": 1945, "relation": "P106", "r_label": "nghề nghiệp"}
+{"s_qid": "Q91146", "s_label": "Karl-Heinz Marbach", "o_qid": "Q15978655", "o_label": "chuyên gia tư vấn", "start": 1960, "end": 1960, "relation": "P106", "r_label": "nghề nghiệp"}
+{"s_qid": "Q91146", "s_label": "Karl-Heinz Marbach", "o_qid": "Q15978655", "o_label": "chuyên gia tư vấn", "start": 1960, "end": 1980, "relation": "P106", "r_label": "nghề nghiệp"}
+{"s_qid": "Q486359", "s_label": "Pacquiao", "o_qid": "Q82955", "o_label": "chính khách", "start": 2007, "end": null, "relation": "P106", "r_label": "nghề nghiệp"}
+{"s_qid": "Q486359", "s_label": "Pacquiao", "o_qid": "Q33999", "o_label": "diễn viên", "start": 2005, "end": null, "relation": "P106", "r_label": "nghề nghiệp"}
+{"s_qid": "Q486359", "s_label": "Pacquiao", "o_qid": "Q177220", "o_label": "ca sĩ", "start": 2006, "end": 2015, "relation": "P106", "r_label": "nghề nghiệp"}
+{"s_qid": "Q1080952", "s_label": "Nedo Sonetti", "o_qid": "Q937857", "o_label": "cầu thủ bóng đá", "start": null, "end": 1973, "relation": "P106", "r_label": "nghề nghiệp"}
+{"s_qid": "Q29207", "s_label": "Sauli Niinistö", "o_qid": "Q40348", "o_label": "luật sư", "start": 1978, "end": 1988, "relation": "P106", "r_label": "nghề nghiệp"}
+{"s_qid": "Q29207", "s_label": "Sauli Niinistö", "o_qid": "Q16533", "o_label": "thẩm phán", "start": 1976, "end": 1988, "relation": "P106", "r_label": "nghề nghiệp"}
+{"s_qid": "Q767691", "s_label": "Jean Delumeau", "o_qid": "Q92924928", "o_label": "director of studies", "start": 1963, "end": 1978, "relation": "P106", "r_label": "nghề nghiệp"}
+{"s_qid": "Q767691", "s_label": "Jean Delumeau", "o_qid": "Q462390", "o_label": "docent", "start": 1955, "end": null, "relation": "P106", "r_label": "nghề nghiệp"}
+{"s_qid": "Q767691", "s_label": "Jean Delumeau", "o_qid": "Q5758653", "o_label": "giáo viên trung học", "start": 1947, "end": 1948, "relation": "P106", "r_label": "nghề nghiệp"}
+{"s_qid": "Q767691", "s_label": "Jean Delumeau", "o_qid": "Q5758653", "o_label": "giáo viên trung học", "start": 1950, "end": 1954, "relation": "P106", "r_label": "nghề nghiệp"}
+{"s_qid": "Q1361997", "s_label": "Alain Corbin", "o_qid": "Q1622272", "o_label": "giảng viên đại học", "start": 1968, "end": 2005, "relation": "P106", "r_label": "nghề nghiệp"}
+{"s_qid": "Q1361997", "s_label": "Alain Corbin", "o_qid": "Q5758653", "o_label": "giáo viên trung học", "start": 1959, "end": 1967, "relation": "P106", "r_label": "nghề nghiệp"}
+{"s_qid": "Q1361997", "s_label": "Alain Corbin", "o_qid": "Q357813", "o_label": "adjunct professor", "start": 1953, "end": 1959, "relation": "P106", "r_label": "nghề nghiệp"}
+{"s_qid": "Q78061707", "s_label": "Simon Villeneuve", "o_qid": "Q357813", "o_label": "adjunct professor", "start": 2013, "end": 2016, "relation": "P106", "r_label": "nghề nghiệp"}
+{"s_qid": "Q5598", "s_label": "Rembrandt", "o_qid": "Q1028181", "o_label": "họa sĩ", "start": 1625, "end": 1669, "relation": "P106", "r_label": "nghề nghiệp"}
+{"s_qid": "Q39803", "s_label": "Mario Vargas Llosa", "o_qid": "Q2526255", "o_label": "đạo diễn phim", "start": 1976, "end": 1976, "relation": "P106", "r_label": "nghề nghiệp"}
+{"s_qid": "Q43723", "s_label": "Benjamin Netanyahu", "o_qid": "Q47064", "o_label": "quân nhân", "start": 1967, "end": 1972, "relation": "P106", "r_label": "nghề nghiệp"}
+{"s_qid": "Q44496", "s_label": "Andrei Chikatilo", "o_qid": "Q2251335", "o_label": "giáo viên nhà trường", "start": 1970, "end": null, "relation": "P106", "r_label": "nghề nghiệp"}
+{"s_qid": "Q286312", "s_label": "Wolfgang Lüth", "o_qid": "Q47064", "o_label": "quân nhân", "start": 1933, "end": 1945, "relation": "P106", "r_label": "nghề nghiệp"}
+{"s_qid": "Q822895", "s_label": "Bernardino Drovetti", "o_qid": "Q4991371", "o_label": "người lính", "start": 1796, "end": 1802, "relation": "P106", "r_label": "nghề nghiệp"}
+{"s_qid": "Q1930973", "s_label": "Michel Vovelle", "o_qid": "Q1622272", "o_label": "giảng viên đại học", "start": 1972, "end": 1983, "relation": "P106", "r_label": "nghề nghiệp"}
+{"s_qid": "Q1930973", "s_label": "Michel Vovelle", "o_qid": "Q5669847", "o_label": "giáo sư tập sự", "start": 1956, "end": 1965, "relation": "P106", "r_label": "nghề nghiệp"}
+{"s_qid": "Q1930973", "s_label": "Michel Vovelle", "o_qid": "Q1650915", "o_label": "nhà nghiên cứu", "start": 1969, "end": 1970, "relation": "P106", "r_label": "nghề nghiệp"}
+{"s_qid": "Q1930973", "s_label": "Michel Vovelle", "o_qid": "Q1569495", "o_label": "giảng viên", "start": 1970, "end": 1971, "relation": "P106", "r_label": "nghề nghiệp"}
+{"s_qid": "Q1930973", "s_label": "Michel Vovelle", "o_qid": "Q462390", "o_label": "docent", "start": 1971, "end": 1972, "relation": "P106", "r_label": "nghề nghiệp"}
+{"s_qid": "Q76", "s_label": "Barack Obama", "o_qid": "Q40348", "o_label": "luật sư", "start": 1991, "end": null, "relation": "P106", "r_label": "nghề nghiệp"}
+{"s_qid": "Q57253", "s_label": "Otto Kretschmer", "o_qid": "Q10669499", "o_label": "naval officer", "start": 1930, "end": 1941, "relation": "P106", "r_label": "nghề nghiệp"}
+{"s_qid": "Q57253", "s_label": "Otto Kretschmer", "o_qid": "Q10669499", "o_label": "naval officer", "start": 1956, "end": 1970, "relation": "P106", "r_label": "nghề nghiệp"}
+{"s_qid": "Q61001", "s_label": "Erich Topp", "o_qid": "Q48282", "o_label": "sinh viên", "start": 1946, "end": 1950, "relation": "P106", "r_label": "nghề nghiệp"}
+{"s_qid": "Q74129", "s_label": "Hans-Rudolf Rösing", "o_qid": "Q4991371", "o_label": "người lính", "start": 1924, "end": 1945, "relation": "P106", "r_label": "nghề nghiệp"}
+{"s_qid": "Q74129", "s_label": "Hans-Rudolf Rösing", "o_qid": "Q4991371", "o_label": "người lính", "start": 1956, "end": 1965, "relation": "P106", "r_label": "nghề nghiệp"}
+{"s_qid": "Q235068", "s_label": "Claudio Ranieri", "o_qid": "Q937857", "o_label": "cầu thủ bóng đá", "start": null, "end": 1986, "relation": "P106", "r_label": "nghề nghiệp"}
+{"s_qid": "Q2537282", "s_label": "Luigi Simoni", "o_qid": "Q937857", "o_label": "cầu thủ bóng đá", "start": null, "end": 1974, "relation": "P106", "r_label": "nghề nghiệp"}

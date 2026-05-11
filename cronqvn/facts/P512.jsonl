@@ -1,0 +1,73 @@
+{"s_qid": "Q2567", "s_label": "Richard von Weizsäcker", "o_qid": "Q849697", "o_label": "tiến sĩ", "start": 1955, "end": 1955, "relation": "P512", "r_label": "học vị"}
+{"s_qid": "Q76658", "s_label": "Frank-Walter Steinmeier", "o_qid": "Q959320", "o_label": "Doctor of Laws", "start": 1991, "end": 1991, "relation": "P512", "r_label": "học vị"}
+{"s_qid": "Q169452", "s_label": "Shaquille O'Neal", "o_qid": "Q837184", "o_label": "Doctor of Education", "start": 2012, "end": 2012, "relation": "P512", "r_label": "học vị"}
+{"s_qid": "Q234928", "s_label": "Alice Bradley Sheldon", "o_qid": "Q849697", "o_label": "tiến sĩ", "start": 1967, "end": 1967, "relation": "P512", "r_label": "học vị"}
+{"s_qid": "Q711542", "s_label": "René Rémond", "o_qid": "Q849697", "o_label": "tiến sĩ", "start": 1958, "end": 1958, "relation": "P512", "r_label": "học vị"}
+{"s_qid": "Q2966146", "s_label": "Christophe Charle", "o_qid": "Q849697", "o_label": "tiến sĩ", "start": 1986, "end": 1986, "relation": "P512", "r_label": "học vị"}
+{"s_qid": "Q2966146", "s_label": "Christophe Charle", "o_qid": "Q849697", "o_label": "tiến sĩ", "start": 1975, "end": 1975, "relation": "P512", "r_label": "học vị"}
+{"s_qid": "Q6294", "s_label": "Hillary Clinton", "o_qid": "Q163727", "o_label": "cử nhân", "start": 1969, "end": 1969, "relation": "P512", "r_label": "học vị"}
+{"s_qid": "Q6294", "s_label": "Hillary Clinton", "o_qid": "Q1540185", "o_label": "Juris Doctor", "start": 1973, "end": 1973, "relation": "P512", "r_label": "học vị"}
+{"s_qid": "Q17714", "s_label": "Stephen Hawking", "o_qid": "Q1765120", "o_label": "Cử nhân Nghệ thuật", "start": 1962, "end": 1962, "relation": "P512", "r_label": "học vị"}
+{"s_qid": "Q17714", "s_label": "Stephen Hawking", "o_qid": "Q849697", "o_label": "tiến sĩ", "start": 1966, "end": 1966, "relation": "P512", "r_label": "học vị"}
+{"s_qid": "Q26321", "s_label": "Elizabeth Blackburn", "o_qid": "Q752297", "o_label": "Tiến sĩ Triết học", "start": 1975, "end": 1975, "relation": "P512", "r_label": "học vị"}
+{"s_qid": "Q40640", "s_label": "Ray Bradbury", "o_qid": "Q11415564", "o_label": "tiến sĩ danh dự", "start": 2003, "end": 2003, "relation": "P512", "r_label": "học vị"}
+{"s_qid": "Q40640", "s_label": "Ray Bradbury", "o_qid": "Q11415564", "o_label": "tiến sĩ danh dự", "start": 2005, "end": 2005, "relation": "P512", "r_label": "học vị"}
+{"s_qid": "Q40640", "s_label": "Ray Bradbury", "o_qid": "Q11415564", "o_label": "tiến sĩ danh dự", "start": 2009, "end": 2009, "relation": "P512", "r_label": "học vị"}
+{"s_qid": "Q103835", "s_label": "Peter Debye", "o_qid": "Q752297", "o_label": "Tiến sĩ Triết học", "start": 1908, "end": 1908, "relation": "P512", "r_label": "học vị"}
+{"s_qid": "Q155794", "s_label": "Hans Bethe", "o_qid": "Q849697", "o_label": "tiến sĩ", "start": 1928, "end": 1928, "relation": "P512", "r_label": "học vị"}
+{"s_qid": "Q907372", "s_label": "Alexander Pavlovich Vinogradov", "o_qid": "Q17281079", "o_label": "Doctor of Sciences in Chemistry", "start": 1935, "end": null, "relation": "P512", "r_label": "học vị"}
+{"s_qid": "Q17457", "s_label": "Donald Knuth", "o_qid": "Q752297", "o_label": "Tiến sĩ Triết học", "start": 1963, "end": 1963, "relation": "P512", "r_label": "học vị"}
+{"s_qid": "Q22686", "s_label": "Donald Trump", "o_qid": "Q787674", "o_label": "Cử nhân Khoa học", "start": 1968, "end": 1968, "relation": "P512", "r_label": "học vị"}
+{"s_qid": "Q47087", "s_label": "Arthur C. Clarke", "o_qid": "Q837343", "o_label": "Tiến sĩ Văn học", "start": 1988, "end": 1988, "relation": "P512", "r_label": "học vị"}
+{"s_qid": "Q56189", "s_label": "Lise Meitner", "o_qid": "Q752297", "o_label": "Tiến sĩ Triết học", "start": 1905, "end": 1905, "relation": "P512", "r_label": "học vị"}
+{"s_qid": "Q71031", "s_label": "Robert Bunsen", "o_qid": "Q17281079", "o_label": "Doctor of Sciences in Chemistry", "start": 1831, "end": 1831, "relation": "P512", "r_label": "học vị"}
+{"s_qid": "Q71031", "s_label": "Robert Bunsen", "o_qid": "Q121594", "o_label": "giáo sư", "start": 1834, "end": 1834, "relation": "P512", "r_label": "học vị"}
+{"s_qid": "Q72334", "s_label": "Toni Morrison", "o_qid": "Q2091008", "o_label": "Thạc sĩ Nghệ thuật", "start": 1955, "end": 1955, "relation": "P512", "r_label": "học vị"}
+{"s_qid": "Q72334", "s_label": "Toni Morrison", "o_qid": "Q1765120", "o_label": "Cử nhân Nghệ thuật", "start": 1953, "end": 1953, "relation": "P512", "r_label": "học vị"}
+{"s_qid": "Q539544", "s_label": "Jerzy Neyman", "o_qid": "Q752297", "o_label": "Tiến sĩ Triết học", "start": 1924, "end": 1924, "relation": "P512", "r_label": "học vị"}
+{"s_qid": "Q539544", "s_label": "Jerzy Neyman", "o_qid": "Q308678", "o_label": "habilitation à diriger les recherches", "start": 1927, "end": 1927, "relation": "P512", "r_label": "học vị"}
+{"s_qid": "Q3158033", "s_label": "Jacques-Olivier Boudon", "o_qid": "Q849697", "o_label": "tiến sĩ", "start": 1991, "end": 1991, "relation": "P512", "r_label": "học vị"}
+{"s_qid": "Q3158033", "s_label": "Jacques-Olivier Boudon", "o_qid": "Q105476330", "o_label": "Habilitation à diriger les recherches", "start": 1997, "end": 1997, "relation": "P512", "r_label": "học vị"}
+{"s_qid": "Q3167748", "s_label": "Jean-Marie Mayeur", "o_qid": "Q3033550", "o_label": "doctorate in France", "start": 1967, "end": 1967, "relation": "P512", "r_label": "học vị"}
+{"s_qid": "Q64712781", "s_label": "Maurice Agulhon", "o_qid": "Q849697", "o_label": "tiến sĩ", "start": 1969, "end": 1969, "relation": "P512", "r_label": "học vị"}
+{"s_qid": "Q64712781", "s_label": "Maurice Agulhon", "o_qid": "Q3029069", "o_label": "DES", "start": 1957, "end": 1957, "relation": "P512", "r_label": "học vị"}
+{"s_qid": "Q5354", "s_label": "Ernst Mayr", "o_qid": "Q849697", "o_label": "tiến sĩ", "start": 1926, "end": 1926, "relation": "P512", "r_label": "học vị"}
+{"s_qid": "Q57245", "s_label": "Ernst Kummer", "o_qid": "Q752297", "o_label": "Tiến sĩ Triết học", "start": 1831, "end": 1831, "relation": "P512", "r_label": "học vị"}
+{"s_qid": "Q295406", "s_label": "Roger Zelazny", "o_qid": "Q2091008", "o_label": "Thạc sĩ Nghệ thuật", "start": 1962, "end": 1962, "relation": "P512", "r_label": "học vị"}
+{"s_qid": "Q707137", "s_label": "Mikhail Lavrentyev", "o_qid": "Q18002832", "o_label": "candidate of Sciences in Physics and Mathematics", "start": 1927, "end": null, "relation": "P512", "r_label": "học vị"}
+{"s_qid": "Q707137", "s_label": "Mikhail Lavrentyev", "o_qid": "Q17281125", "o_label": "Doctor in Engineering", "start": 1934, "end": null, "relation": "P512", "r_label": "học vị"}
+{"s_qid": "Q707137", "s_label": "Mikhail Lavrentyev", "o_qid": "Q17281097", "o_label": "Doctor of Sciences in Physics and Mathematics", "start": 1935, "end": null, "relation": "P512", "r_label": "học vị"}
+{"s_qid": "Q59747239", "s_label": "Tze Leung Lai", "o_qid": "Q752297", "o_label": "Tiến sĩ Triết học", "start": 1971, "end": 1971, "relation": "P512", "r_label": "học vị"}
+{"s_qid": "Q15935", "s_label": "Kanye West", "o_qid": "Q209896", "o_label": "honorary degree", "start": 2015, "end": 2015, "relation": "P512", "r_label": "học vị"}
+{"s_qid": "Q57371", "s_label": "Ilham Aliyev", "o_qid": "Q18523811", "o_label": "Phó tiến sĩ Khoa học lịch sử", "start": 1985, "end": 1985, "relation": "P512", "r_label": "học vị"}
+{"s_qid": "Q61774", "s_label": "Franz Ernst Neumann", "o_qid": "Q752297", "o_label": "Tiến sĩ Triết học", "start": 1825, "end": 1825, "relation": "P512", "r_label": "học vị"}
+{"s_qid": "Q167573", "s_label": "Mikhail Timofeyevich Kalashnikov", "o_qid": "Q17281125", "o_label": "Doctor in Engineering", "start": 1971, "end": 1971, "relation": "P512", "r_label": "học vị"}
+{"s_qid": "Q193803", "s_label": "Roger Penrose", "o_qid": "Q752297", "o_label": "Tiến sĩ Triết học", "start": 1957, "end": 1957, "relation": "P512", "r_label": "học vị"}
+{"s_qid": "Q193803", "s_label": "Roger Penrose", "o_qid": "Q209896", "o_label": "honorary degree", "start": 2005, "end": 2005, "relation": "P512", "r_label": "học vị"}
+{"s_qid": "Q193803", "s_label": "Roger Penrose", "o_qid": "Q209896", "o_label": "honorary degree", "start": 2005, "end": 2005, "relation": "P512", "r_label": "học vị"}
+{"s_qid": "Q193803", "s_label": "Roger Penrose", "o_qid": "Q209896", "o_label": "honorary degree", "start": 2006, "end": 2006, "relation": "P512", "r_label": "học vị"}
+{"s_qid": "Q193803", "s_label": "Roger Penrose", "o_qid": "Q2248352", "o_label": "Tiến sĩ khoa học", "start": 1994, "end": 1994, "relation": "P512", "r_label": "học vị"}
+{"s_qid": "Q315414", "s_label": "Israel Gelfand", "o_qid": "Q17281097", "o_label": "Doctor of Sciences in Physics and Mathematics", "start": 1940, "end": 1940, "relation": "P512", "r_label": "học vị"}
+{"s_qid": "Q3479201", "s_label": "Serge Berstein", "o_qid": "Q3033550", "o_label": "doctorate in France", "start": 1976, "end": 1976, "relation": "P512", "r_label": "học vị"}
+{"s_qid": "Q57283", "s_label": "Emil Artin", "o_qid": "Q752297", "o_label": "Tiến sĩ Triết học", "start": 1921, "end": 1921, "relation": "P512", "r_label": "học vị"}
+{"s_qid": "Q57283", "s_label": "Emil Artin", "o_qid": "Q308678", "o_label": "habilitation à diriger les recherches", "start": 1923, "end": 1923, "relation": "P512", "r_label": "học vị"}
+{"s_qid": "Q1361997", "s_label": "Alain Corbin", "o_qid": "Q3033550", "o_label": "doctorate in France", "start": 1968, "end": 1968, "relation": "P512", "r_label": "học vị"}
+{"s_qid": "Q1361997", "s_label": "Alain Corbin", "o_qid": "Q3033550", "o_label": "doctorate in France", "start": 1973, "end": 1973, "relation": "P512", "r_label": "học vị"}
+{"s_qid": "Q3084178", "s_label": "François Caron", "o_qid": "Q3033550", "o_label": "doctorate in France", "start": 1969, "end": 1969, "relation": "P512", "r_label": "học vị"}
+{"s_qid": "Q78061707", "s_label": "Simon Villeneuve", "o_qid": "Q787674", "o_label": "Cử nhân Khoa học", "start": 2002, "end": 2002, "relation": "P512", "r_label": "học vị"}
+{"s_qid": "Q78061707", "s_label": "Simon Villeneuve", "o_qid": "Q950900", "o_label": "Thạc sĩ Khoa học", "start": 2005, "end": 2005, "relation": "P512", "r_label": "học vị"}
+{"s_qid": "Q7747", "s_label": "Vladimir Putin", "o_qid": "Q17744738", "o_label": "Candidate of Economic Sciences", "start": 1997, "end": 1997, "relation": "P512", "r_label": "học vị"}
+{"s_qid": "Q29021", "s_label": "Mauno Koivisto", "o_qid": "Q10495231", "o_label": "Licentiate of Philosophy", "start": 1953, "end": 1953, "relation": "P512", "r_label": "học vị"}
+{"s_qid": "Q29021", "s_label": "Mauno Koivisto", "o_qid": "Q752297", "o_label": "Tiến sĩ Triết học", "start": 1956, "end": 1956, "relation": "P512", "r_label": "học vị"}
+{"s_qid": "Q43723", "s_label": "Benjamin Netanyahu", "o_qid": "Q787674", "o_label": "Cử nhân Khoa học", "start": 1975, "end": 1975, "relation": "P512", "r_label": "học vị"}
+{"s_qid": "Q43723", "s_label": "Benjamin Netanyahu", "o_qid": "Q950900", "o_label": "Thạc sĩ Khoa học", "start": 1977, "end": 1977, "relation": "P512", "r_label": "học vị"}
+{"s_qid": "Q164396", "s_label": "Victor Ambartsumian", "o_qid": "Q17281097", "o_label": "Doctor of Sciences in Physics and Mathematics", "start": 1935, "end": 1935, "relation": "P512", "r_label": "học vị"}
+{"s_qid": "Q454925", "s_label": "Nikolai Bogolyubov", "o_qid": "Q17281097", "o_label": "Doctor of Sciences in Physics and Mathematics", "start": 1930, "end": 1930, "relation": "P512", "r_label": "học vị"}
+{"s_qid": "Q2704774", "s_label": "Borys Paton", "o_qid": "Q17281125", "o_label": "Doctor in Engineering", "start": 1952, "end": 1952, "relation": "P512", "r_label": "học vị"}
+{"s_qid": "Q2856642", "s_label": "Antoine Prost", "o_qid": "Q3033550", "o_label": "doctorate in France", "start": 1963, "end": 1963, "relation": "P512", "r_label": "học vị"}
+{"s_qid": "Q2856642", "s_label": "Antoine Prost", "o_qid": "Q3033550", "o_label": "doctorate in France", "start": 1975, "end": 1975, "relation": "P512", "r_label": "học vị"}
+{"s_qid": "Q44371", "s_label": "Valentina Vladimirovna Tereshkova", "o_qid": "Q18071588", "o_label": "Candidate of Technical Sciences", "start": 1977, "end": 1977, "relation": "P512", "r_label": "học vị"}
+{"s_qid": "Q83297", "s_label": "John William Strutt, nam tước Rayleigh thứ 3", "o_qid": "Q1765120", "o_label": "Cử nhân Nghệ thuật", "start": 1865, "end": 1865, "relation": "P512", "r_label": "học vị"}
+{"s_qid": "Q83297", "s_label": "John William Strutt, nam tước Rayleigh thứ 3", "o_qid": "Q2091008", "o_label": "Thạc sĩ Nghệ thuật", "start": 1868, "end": 1868, "relation": "P512", "r_label": "học vị"}
+{"s_qid": "Q153224", "s_label": "Andrey Nikolaevich Kolmogorov", "o_qid": "Q17281097", "o_label": "Doctor of Sciences in Physics and Mathematics", "start": 1935, "end": 1935, "relation": "P512", "r_label": "học vị"}
+{"s_qid": "Q164384", "s_label": "Theodore von Kármán", "o_qid": "Q752297", "o_label": "Tiến sĩ Triết học", "start": 1908, "end": 1908, "relation": "P512", "r_label": "học vị"}

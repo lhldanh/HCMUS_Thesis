@@ -1,0 +1,27 @@
+{"s_qid": "Q19943", "s_label": "Juan Carlos I", "o_qid": "Q669458", "o_label": "Bệ hạ", "start": 1975, "end": null, "relation": "P511", "r_label": "tiền tố kính ngữ"}
+{"s_qid": "Q19943", "s_label": "Juan Carlos I", "o_qid": "Q1252328", "o_label": "Royal Highness", "start": 1938, "end": 1975, "relation": "P511", "r_label": "tiền tố kính ngữ"}
+{"s_qid": "Q158861", "s_label": "Rama V", "o_qid": "Q669458", "o_label": "Bệ hạ", "start": 1868, "end": null, "relation": "P511", "r_label": "tiền tố kính ngữ"}
+{"s_qid": "Q158861", "s_label": "Rama V", "o_qid": "Q1252328", "o_label": "Royal Highness", "start": 1853, "end": 1868, "relation": "P511", "r_label": "tiền tố kính ngữ"}
+{"s_qid": "Q590227", "s_label": "Edward VIII của Anh", "o_qid": "Q1252328", "o_label": "Royal Highness", "start": 1898, "end": 1936, "relation": "P511", "r_label": "tiền tố kính ngữ"}
+{"s_qid": "Q590227", "s_label": "Edward VIII của Anh", "o_qid": "Q669458", "o_label": "Bệ hạ", "start": 1936, "end": 1936, "relation": "P511", "r_label": "tiền tố kính ngữ"}
+{"s_qid": "Q590227", "s_label": "Edward VIII của Anh", "o_qid": "Q1252328", "o_label": "Royal Highness", "start": 1936, "end": 1972, "relation": "P511", "r_label": "tiền tố kính ngữ"}
+{"s_qid": "Q280856", "s_label": "George VI", "o_qid": "Q669458", "o_label": "Bệ hạ", "start": 1936, "end": null, "relation": "P511", "r_label": "tiền tố kính ngữ"}
+{"s_qid": "Q280856", "s_label": "George VI", "o_qid": "Q1252328", "o_label": "Royal Highness", "start": 1898, "end": 1936, "relation": "P511", "r_label": "tiền tố kính ngữ"}
+{"s_qid": "Q9439", "s_label": "Victoria của Liên hiệp Anh", "o_qid": "Q669458", "o_label": "Bệ hạ", "start": 1837, "end": null, "relation": "P511", "r_label": "tiền tố kính ngữ"}
+{"s_qid": "Q9439", "s_label": "Victoria của Liên hiệp Anh", "o_qid": "Q1252328", "o_label": "Royal Highness", "start": 1819, "end": 1837, "relation": "P511", "r_label": "tiền tố kính ngữ"}
+{"s_qid": "Q9682", "s_label": "Elizabeth II", "o_qid": "Q669458", "o_label": "Bệ hạ", "start": 1952, "end": null, "relation": "P511", "r_label": "tiền tố kính ngữ"}
+{"s_qid": "Q9682", "s_label": "Elizabeth II", "o_qid": "Q1252328", "o_label": "Royal Highness", "start": 1926, "end": 1952, "relation": "P511", "r_label": "tiền tố kính ngữ"}
+{"s_qid": "Q61774", "s_label": "Franz Ernst Neumann", "o_qid": "Q11165895", "o_label": "Geheimrat", "start": 1894, "end": 1894, "relation": "P511", "r_label": "tiền tố kính ngữ"}
+{"s_qid": "Q269412", "s_label": "George V của Anh", "o_qid": "Q669458", "o_label": "Bệ hạ", "start": 1910, "end": null, "relation": "P511", "r_label": "tiền tố kính ngữ"}
+{"s_qid": "Q269412", "s_label": "George V của Anh", "o_qid": "Q1252328", "o_label": "Royal Highness", "start": 1865, "end": 1910, "relation": "P511", "r_label": "tiền tố kính ngữ"}
+{"s_qid": "Q548733", "s_label": "Vajiralongkorn", "o_qid": "Q669458", "o_label": "Bệ hạ", "start": 2016, "end": null, "relation": "P511", "r_label": "tiền tố kính ngữ"}
+{"s_qid": "Q548733", "s_label": "Vajiralongkorn", "o_qid": "Q1252328", "o_label": "Royal Highness", "start": 1952, "end": 2016, "relation": "P511", "r_label": "tiền tố kính ngữ"}
+{"s_qid": "Q43274", "s_label": "Charles III", "o_qid": "Q669458", "o_label": "Bệ hạ", "start": 2022, "end": null, "relation": "P511", "r_label": "tiền tố kính ngữ"}
+{"s_qid": "Q154952", "s_label": "Willem-Alexander, Hoàng tử xứ Orange", "o_qid": "Q669458", "o_label": "Bệ hạ", "start": 2013, "end": null, "relation": "P511", "r_label": "tiền tố kính ngữ"}
+{"s_qid": "Q154952", "s_label": "Willem-Alexander, Hoàng tử xứ Orange", "o_qid": "Q1252328", "o_label": "Royal Highness", "start": 1967, "end": 2013, "relation": "P511", "r_label": "tiền tố kính ngữ"}
+{"s_qid": "Q36812", "s_label": "William, Thân vương xứ Wales", "o_qid": "Q1252328", "o_label": "Royal Highness", "start": 1982, "end": null, "relation": "P511", "r_label": "tiền tố kính ngữ"}
+{"s_qid": "Q45068", "s_label": "Carl XVI Gustaf của Thụy Điển", "o_qid": "Q669458", "o_label": "Bệ hạ", "start": 1973, "end": null, "relation": "P511", "r_label": "tiền tố kính ngữ"}
+{"s_qid": "Q45068", "s_label": "Carl XVI Gustaf của Thụy Điển", "o_qid": "Q1252328", "o_label": "Royal Highness", "start": 1946, "end": 1973, "relation": "P511", "r_label": "tiền tố kính ngữ"}
+{"s_qid": "Q855252", "s_label": "Bhumibol Adulyadej", "o_qid": "Q669458", "o_label": "Bệ hạ", "start": 1946, "end": null, "relation": "P511", "r_label": "tiền tố kính ngữ"}
+{"s_qid": "Q855252", "s_label": "Bhumibol Adulyadej", "o_qid": "Q1252328", "o_label": "Royal Highness", "start": 1935, "end": 1946, "relation": "P511", "r_label": "tiền tố kính ngữ"}
+{"s_qid": "Q191045", "s_label": "Felipe", "o_qid": "Q669458", "o_label": "Bệ hạ", "start": 2014, "end": null, "relation": "P511", "r_label": "tiền tố kính ngữ"}
