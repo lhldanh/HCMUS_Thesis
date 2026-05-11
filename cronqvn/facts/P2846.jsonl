@@ -1,5 +1,0 @@
-{"s_qid": "Q1751987", "s_label": "Berne", "o_qid": "Q24192067", "o_label": "wheelchair accessible", "start": 2015, "end": null, "relation": "P2846", "r_label": "disabled accessibility"}
-{"s_qid": "Q564970", "s_label": "Munich Pasing", "o_qid": "Q24192067", "o_label": "wheelchair accessible", "start": 2014, "end": null, "relation": "P2846", "r_label": "disabled accessibility"}
-{"s_qid": "Q3107709", "s_label": "Musée de Picardie", "o_qid": "Q24192069", "o_label": "wheelchair inaccessible", "start": 2016, "end": null, "relation": "P2846", "r_label": "disabled accessibility"}
-{"s_qid": "Q6670081", "s_label": "London Buses route 38", "o_qid": "Q24192067", "o_label": "wheelchair accessible", "start": 2005, "end": null, "relation": "P2846", "r_label": "disabled accessibility"}
-{"s_qid": "Q6670017", "s_label": "London Buses route 24", "o_qid": "Q24192067", "o_label": "wheelchair accessible", "start": 2002, "end": null, "relation": "P2846", "r_label": "disabled accessibility"}

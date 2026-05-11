@@ -1,2 +1,0 @@
-{"s_qid": "Q5034639", "s_label": "Cape Canaveral Light", "s_lang": "en", "o_qid": "Q76904", "o_label": "dầu hỏa", "o_lang": "vi", "start": 1885, "end": 1931, "relation": "P618", "r_label": "nguồn năng lượng", "r_lang": "vi"}
-{"s_qid": "Q5034639", "s_label": "Cape Canaveral Light", "s_lang": "en", "o_qid": "Q12725", "o_label": "điện", "o_lang": "vi", "start": 1931, "end": null, "relation": "P618", "r_label": "nguồn năng lượng", "r_lang": "vi"}

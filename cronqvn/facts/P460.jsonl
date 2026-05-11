@@ -1,3 +1,0 @@
-{"s_qid": "Q12544", "s_label": "Đế quốc Đông La Mã", "s_lang": "vi", "o_qid": "Q2277", "o_label": "Đế quốc La Mã", "o_lang": "vi", "start": 476, "end": null, "relation": "P460", "r_label": "được xem là đồng nghĩa với", "r_lang": "vi"}
-{"s_qid": "Q2277", "s_label": "Đế quốc La Mã", "s_lang": "vi", "o_qid": "Q12544", "o_label": "Đế quốc Đông La Mã", "o_lang": "vi", "start": 476, "end": null, "relation": "P460", "r_label": "được xem là đồng nghĩa với", "r_lang": "vi"}
-{"s_qid": "Q110700581", "s_label": "Head of the Presidium of the National Council of the Capital City of Warsaw", "s_lang": "en", "o_qid": "Q6627774", "o_label": "Mayor of Warsaw", "o_lang": "en", "start": null, "end": 1973, "relation": "P460", "r_label": "được xem là đồng nghĩa với", "r_lang": "vi"}

@@ -1,8 +1,0 @@
-{"s_qid": "Q193701", "s_label": "SpaceX", "o_qid": "Q1557944", "o_label": "Gwynne Shotwell", "start": 2008, "end": null, "relation": "P1789", "r_label": "chief operating officer"}
-{"s_qid": "Q121368443", "s_label": "MI6 Station in Tehran", "o_qid": "Q1086853", "o_label": "Montague Woodhouse, 5th Baron Terrington", "start": 1951, "end": 1952, "relation": "P1789", "r_label": "chief operating officer"}
-{"s_qid": "Q121368443", "s_label": "MI6 Station in Tehran", "o_qid": "Q75937467", "o_label": "Ian McCredie", "start": 1982, "end": 1982, "relation": "P1789", "r_label": "chief operating officer"}
-{"s_qid": "Q121618581", "s_label": "Period.", "o_qid": "Q120897764", "o_label": "Arnaud Maillard", "start": 2019, "end": null, "relation": "P1789", "r_label": "chief operating officer"}
-{"s_qid": "Q51709", "s_label": "Foursquare Labs, Inc.", "o_qid": "Q28912967", "o_label": "Jeffrey Glueck", "start": null, "end": 2016, "relation": "P1789", "r_label": "chief operating officer"}
-{"s_qid": "Q106517839", "s_label": "Loopsider", "o_qid": "Q120897764", "o_label": "Arnaud Maillard", "start": 2018, "end": null, "relation": "P1789", "r_label": "chief operating officer"}
-{"s_qid": "Q380", "s_label": "Meta", "o_qid": "Q234653", "o_label": "Sheryl Sandberg", "start": 2008, "end": 2022, "relation": "P1789", "r_label": "chief operating officer"}
-{"s_qid": "Q120906773", "s_label": "Hupster", "o_qid": "Q120897764", "o_label": "Arnaud Maillard", "start": 2023, "end": null, "relation": "P1789", "r_label": "chief operating officer"}

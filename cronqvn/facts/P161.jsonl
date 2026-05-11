@@ -1,5 +1,0 @@
-{"s_qid": "Q564345", "s_label": "Person of Interest", "s_lang": "vi", "o_qid": "Q235511", "o_label": "Taraji P. Henson", "o_lang": "vi", "start": 2011, "end": 2015, "relation": "P161", "r_label": "diễn viên", "r_lang": "vi"}
-{"s_qid": "Q85748936", "s_label": "Bridgerton", "s_lang": "vi", "o_qid": "Q161819", "o_label": "Julie Andrews", "o_lang": "vi", "start": 2020, "end": null, "relation": "P161", "r_label": "diễn viên", "r_lang": "vi"}
-{"s_qid": "Q218567", "s_label": "Law & Order: Special Victims Unit", "s_lang": "en", "o_qid": "Q275964", "o_label": "Mariska Hargitay", "o_lang": "en", "start": 1999, "end": null, "relation": "P161", "r_label": "diễn viên", "r_lang": "vi"}
-{"s_qid": "Q13979", "s_label": "Saturday Night Live", "s_lang": "vi", "o_qid": "Q105221", "o_label": "Dan Aykroyd", "o_lang": "vi", "start": 1975, "end": 1979, "relation": "P161", "r_label": "diễn viên", "r_lang": "vi"}
-{"s_qid": "Q13979", "s_label": "Saturday Night Live", "s_lang": "vi", "o_qid": "Q83287", "o_label": "Selena Gomez", "o_lang": "vi", "start": 2016, "end": 2022, "relation": "P161", "r_label": "diễn viên", "r_lang": "vi"}

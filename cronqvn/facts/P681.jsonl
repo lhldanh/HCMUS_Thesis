@@ -1,4 +1,0 @@
-{"s_qid": "Q62623723", "s_label": "RAS small monomeric GTPase, putative", "s_lang": "en", "o_qid": "Q14349455", "o_label": "membrane", "o_lang": "en", "start": 2016, "end": 2016, "relation": "P681", "r_label": "thành phần tế bào", "r_lang": "vi"}
-{"s_qid": "Q62623723", "s_label": "RAS small monomeric GTPase, putative", "s_lang": "en", "o_qid": "Q3824358", "o_label": "nội bào", "o_lang": "vi", "start": 2016, "end": 2016, "relation": "P681", "r_label": "thành phần tế bào", "r_lang": "vi"}
-{"s_qid": "Q62916082", "s_label": "CAP-Gly protein 1", "s_lang": "en", "o_qid": "Q14762603", "o_label": "cytoplasmic microtubule", "o_lang": "en", "start": 2019, "end": 2019, "relation": "P681", "r_label": "thành phần tế bào", "r_lang": "vi"}
-{"s_qid": "Q62916087", "s_label": "CAP-Gly protein 1", "s_lang": "en", "o_qid": "Q14762603", "o_label": "cytoplasmic microtubule", "o_lang": "en", "start": 2019, "end": 2019, "relation": "P681", "r_label": "thành phần tế bào", "r_lang": "vi"}

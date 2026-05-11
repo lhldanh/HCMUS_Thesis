@@ -1,6 +1,0 @@
-{"s_qid": "Q285512", "s_label": "Midori", "o_qid": "Q111893936", "o_label": "Floorp", "start": 2023, "end": null, "relation": "P144", "r_label": "dựa trên"}
-{"s_qid": "Q111893936", "s_label": "Floorp", "o_qid": "Q698", "o_label": "Mozilla Firebird", "start": null, "end": 2022, "relation": "P144", "r_label": "dựa trên"}
-{"s_qid": "Q111893936", "s_label": "Floorp", "o_qid": "Q698", "o_label": "Mozilla Firebird", "start": 2022, "end": 2025, "relation": "P144", "r_label": "dựa trên"}
-{"s_qid": "Q111893936", "s_label": "Floorp", "o_qid": "Q698", "o_label": "Mozilla Firebird", "start": 2025, "end": null, "relation": "P144", "r_label": "dựa trên"}
-{"s_qid": "Q116209589", "s_label": "Bravo Bravissimo Club", "o_qid": "Q3643955", "o_label": "Bravo Bravissimo", "start": 1991, "end": 2001, "relation": "P144", "r_label": "dựa trên"}
-{"s_qid": "Q116621711", "s_label": "BRIEF Editor Emulator", "o_qid": "Q116621775", "o_label": "CRiSP Editor Emulator", "start": 2018, "end": null, "relation": "P144", "r_label": "dựa trên"}

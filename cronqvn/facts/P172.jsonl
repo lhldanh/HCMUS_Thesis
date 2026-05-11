@@ -1,8 +1,0 @@
-{"s_qid": "Q212", "s_label": "Ukraina", "o_qid": "Q44806", "o_label": "người Ukraina", "start": 2001, "end": 2001, "relation": "P172", "r_label": "dân tộc"}
-{"s_qid": "Q212", "s_label": "Ukraina", "o_qid": "Q7325", "o_label": "người Do Thái", "start": 2001, "end": 2001, "relation": "P172", "r_label": "dân tộc"}
-{"s_qid": "Q159", "s_label": "Nga", "o_qid": "Q44806", "o_label": "người Ukraina", "start": 2010, "end": 2010, "relation": "P172", "r_label": "dân tộc"}
-{"s_qid": "Q138796494", "s_label": "Samuel Pollack", "o_qid": "Q7325", "o_label": "người Do Thái", "start": 1922, "end": null, "relation": "P172", "r_label": "dân tộc"}
-{"s_qid": "Q399", "s_label": "Armenia", "o_qid": "Q79797", "o_label": "người Armenia", "start": 2011, "end": 2011, "relation": "P172", "r_label": "dân tộc"}
-{"s_qid": "Q837", "s_label": "Nepal", "o_qid": "Q47740", "o_label": "người Hồi giáo", "start": 2011, "end": 2011, "relation": "P172", "r_label": "dân tộc"}
-{"s_qid": "Q138796805", "s_label": "Bertha Pollack", "o_qid": "Q7325", "o_label": "người Do Thái", "start": 1939, "end": 1939, "relation": "P172", "r_label": "dân tộc"}
-{"s_qid": "Q227", "s_label": "Azerbaijan", "o_qid": "Q79797", "o_label": "người Armenia", "start": 2009, "end": 2009, "relation": "P172", "r_label": "dân tộc"}

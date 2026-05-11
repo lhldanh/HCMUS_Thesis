@@ -1,4 +1,0 @@
-{"s_qid": "Q3095500", "s_label": "Canora", "s_lang": "en", "o_qid": "Q392496", "o_label": "Exo", "o_lang": "vi", "start": null, "end": 2020, "relation": "P16", "r_label": "hệ thống vận tải", "r_lang": "vi"}
-{"s_qid": "Q3095500", "s_label": "Canora", "s_lang": "en", "o_qid": "Q19582331", "o_label": "Réseau express métropolitain", "o_lang": "en", "start": 2025, "end": null, "relation": "P16", "r_label": "hệ thống vận tải", "r_lang": "vi"}
-{"s_qid": "Q3095515", "s_label": "Grand-Moulin", "s_lang": "en", "o_qid": "Q392496", "o_label": "Exo", "o_lang": "vi", "start": null, "end": 2020, "relation": "P16", "r_label": "hệ thống vận tải", "r_lang": "vi"}
-{"s_qid": "Q3095515", "s_label": "Grand-Moulin", "s_lang": "en", "o_qid": "Q19582331", "o_label": "Réseau express métropolitain", "o_lang": "en", "start": 2025, "end": null, "relation": "P16", "r_label": "hệ thống vận tải", "r_lang": "vi"}

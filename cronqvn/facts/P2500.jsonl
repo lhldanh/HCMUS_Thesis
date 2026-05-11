@@ -1,5 +1,0 @@
-{"s_qid": "Q1362411", "s_label": "USL Championship", "s_lang": "en", "o_qid": "Q30636616", "o_label": "USL League One", "o_lang": "en", "start": 2019, "end": null, "relation": "P2500", "r_label": "league level below", "r_lang": "en"}
-{"s_qid": "Q82595", "s_label": "Giải vô địch bóng đá Đức", "s_lang": "vi", "o_qid": "Q152665", "o_label": "2. Bundesliga", "o_lang": "vi", "start": 1981, "end": null, "relation": "P2500", "r_label": "league level below", "r_lang": "en"}
-{"s_qid": "Q5100359", "s_label": "K League 2", "s_lang": "vi", "o_qid": "Q84614633", "o_label": "K3 League", "o_lang": "vi", "start": 2020, "end": null, "relation": "P2500", "r_label": "league level below", "r_lang": "en"}
-{"s_qid": "Q152665", "s_label": "2. Bundesliga", "s_lang": "vi", "o_qid": "Q154069", "o_label": "3. Liga", "o_lang": "vi", "start": 2008, "end": null, "relation": "P2500", "r_label": "league level below", "r_lang": "en"}
-{"s_qid": "Q18543", "s_label": "Major League Soccer", "s_lang": "vi", "o_qid": "Q1362411", "o_label": "USL Championship", "o_lang": "en", "start": 2017, "end": null, "relation": "P2500", "r_label": "league level below", "r_lang": "en"}

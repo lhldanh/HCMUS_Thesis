@@ -1,6 +1,0 @@
-{"s_qid": "Q205028", "s_label": "Iron Man 2", "s_lang": "vi", "o_qid": "Q159846", "o_label": "Paramount Pictures", "o_lang": "vi", "start": 2009, "end": 2013, "relation": "P750", "r_label": "nhà phân phối", "r_lang": "vi"}
-{"s_qid": "Q217020", "s_label": "Thor", "s_lang": "vi", "o_qid": "Q159846", "o_label": "Paramount Pictures", "o_lang": "vi", "start": 2009, "end": 2013, "relation": "P750", "r_label": "nhà phân phối", "r_lang": "vi"}
-{"s_qid": "Q61478103", "s_label": "Apex Legends", "s_lang": "vi", "o_qid": "Q337535", "o_label": "Steam", "o_lang": "en", "start": 2020, "end": null, "relation": "P750", "r_label": "nhà phân phối", "r_lang": "vi"}
-{"s_qid": "Q85748936", "s_label": "Bridgerton", "s_lang": "vi", "o_qid": "Q907311", "o_label": "Netflix", "o_lang": "en", "start": 2020, "end": null, "relation": "P750", "r_label": "nhà phân phối", "r_lang": "vi"}
-{"s_qid": "Q35752", "s_label": "WWE Superstars", "s_lang": "vi", "o_qid": "Q1630304", "o_label": "Hulu", "o_lang": "vi", "start": 2012, "end": 2016, "relation": "P750", "r_label": "nhà phân phối", "r_lang": "vi"}
-{"s_qid": "Q192724", "s_label": "Người Sắt", "s_lang": "vi", "o_qid": "Q159846", "o_label": "Paramount Pictures", "o_lang": "vi", "start": 2007, "end": 2013, "relation": "P750", "r_label": "nhà phân phối", "r_lang": "vi"}

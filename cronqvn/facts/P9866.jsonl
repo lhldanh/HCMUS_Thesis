@@ -1,9 +1,0 @@
-{"s_qid": "Q107214683", "s_label": "Forza Horizon 5", "s_lang": "vi", "o_qid": "Q23005403", "o_label": "All", "o_lang": "en", "start": 2021, "end": null, "relation": "P9866", "r_label": "GRAC rating", "r_lang": "en"}
-{"s_qid": "Q349375", "s_label": "Fortnite", "s_lang": "en", "o_qid": "Q23005408", "o_label": "12+", "o_lang": "en", "start": 2017, "end": null, "relation": "P9866", "r_label": "GRAC rating", "r_lang": "en"}
-{"s_qid": "Q1986744", "s_label": "The Last of Us", "s_lang": "vi", "o_qid": "Q23005411", "o_label": "18+", "o_lang": "en", "start": 2013, "end": null, "relation": "P9866", "r_label": "GRAC rating", "r_lang": "en"}
-{"s_qid": "Q64566657", "s_label": "Animal Crossing: New Horizons", "s_lang": "vi", "o_qid": "Q23005403", "o_label": "All", "o_lang": "en", "start": 2019, "end": null, "relation": "P9866", "r_label": "GRAC rating", "r_lang": "en"}
-{"s_qid": "Q124357469", "s_label": "Balatro", "s_lang": "en", "o_qid": "Q23005410", "o_label": "15+", "o_lang": "en", "start": 2025, "end": null, "relation": "P9866", "r_label": "GRAC rating", "r_lang": "en"}
-{"s_qid": "Q64826862", "s_label": "Elden Ring", "s_lang": "vi", "o_qid": "Q23005411", "o_label": "18+", "o_lang": "en", "start": 2021, "end": null, "relation": "P9866", "r_label": "GRAC rating", "r_lang": "en"}
-{"s_qid": "Q99397916", "s_label": "God of War Ragnarök", "s_lang": "vi", "o_qid": "Q23005411", "o_label": "18+", "o_lang": "en", "start": 2022, "end": null, "relation": "P9866", "r_label": "GRAC rating", "r_lang": "en"}
-{"s_qid": "Q27950674", "s_label": "The Last of Us II", "s_lang": "vi", "o_qid": "Q23005411", "o_label": "18+", "o_lang": "en", "start": 2020, "end": null, "relation": "P9866", "r_label": "GRAC rating", "r_lang": "en"}
-{"s_qid": "Q96216443", "s_label": "Horizon Forbidden West", "s_lang": "en", "o_qid": "Q23005411", "o_label": "18+", "o_lang": "en", "start": 2021, "end": null, "relation": "P9866", "r_label": "GRAC rating", "r_lang": "en"}
