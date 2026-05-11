@@ -1,0 +1,129 @@
+{"s_qid": "Q799113", "s_label": "Baden VII (old)", "o_qid": "Q2037045", "o_label": "4-4-0", "start": 1846, "end": 1855, "relation": "P2978", "r_label": "wheel arrangement"}
+{"s_qid": "Q799113", "s_label": "Baden VII (old)", "o_qid": "Q26234622", "o_label": "2-4-0T", "start": 1855, "end": 1869, "relation": "P2978", "r_label": "wheel arrangement"}
+{"s_qid": "Q799131", "s_label": "Baden XIV (old)", "o_qid": "Q64134", "o_label": "0-4-0", "start": 1866, "end": 1886, "relation": "P2978", "r_label": "wheel arrangement"}
+{"s_qid": "Q36612664", "s_label": "Londonderry, Seaham and Sunderland Railway  no. 1", "o_qid": "Q2922269", "o_label": "0-6-0", "start": 1868, "end": 1878, "relation": "P2978", "r_label": "wheel arrangement"}
+{"s_qid": "Q36612664", "s_label": "Londonderry, Seaham and Sunderland Railway  no. 1", "o_qid": "Q26212271", "o_label": "0-6-0T", "start": 1878, "end": null, "relation": "P2978", "r_label": "wheel arrangement"}
+{"s_qid": "Q40686624", "s_label": "LSWR 177-class no. 189", "o_qid": "Q37706100", "o_label": "2-4-0WT", "start": 1863, "end": 1885, "relation": "P2978", "r_label": "wheel arrangement"}
+{"s_qid": "Q40686624", "s_label": "LSWR 177-class no. 189", "o_qid": "Q2036617", "o_label": "2-4-0", "start": 1885, "end": null, "relation": "P2978", "r_label": "wheel arrangement"}
+{"s_qid": "Q799115", "s_label": "Baden V (old)", "o_qid": "Q2036617", "o_label": "2-4-0", "start": 1845, "end": 1854, "relation": "P2978", "r_label": "wheel arrangement"}
+{"s_qid": "Q799115", "s_label": "Baden V (old)", "o_qid": "Q2036496", "o_label": "2-2-2", "start": 1854, "end": null, "relation": "P2978", "r_label": "wheel arrangement"}
+{"s_qid": "Q3206103", "s_label": "LNWR 3020 “Cornwall”", "o_qid": "Q2036496", "o_label": "2-2-2", "start": 1847, "end": 1848, "relation": "P2978", "r_label": "wheel arrangement"}
+{"s_qid": "Q3206103", "s_label": "LNWR 3020 “Cornwall”", "o_qid": "Q2036496", "o_label": "2-2-2", "start": 1858, "end": null, "relation": "P2978", "r_label": "wheel arrangement"}
+{"s_qid": "Q36622320", "s_label": "Londonderry, Seaham and Sunderland Railway no. 14", "o_qid": "Q2922269", "o_label": "0-6-0", "start": 1862, "end": 1882, "relation": "P2978", "r_label": "wheel arrangement"}
+{"s_qid": "Q36622320", "s_label": "Londonderry, Seaham and Sunderland Railway no. 14", "o_qid": "Q36621644", "o_label": "0-6-0ST", "start": 1882, "end": null, "relation": "P2978", "r_label": "wheel arrangement"}
+{"s_qid": "Q40228410", "s_label": "LSWR 177-class no. 179", "o_qid": "Q37706100", "o_label": "2-4-0WT", "start": 1863, "end": 1884, "relation": "P2978", "r_label": "wheel arrangement"}
+{"s_qid": "Q40228410", "s_label": "LSWR 177-class no. 179", "o_qid": "Q2036617", "o_label": "2-4-0", "start": 1884, "end": null, "relation": "P2978", "r_label": "wheel arrangement"}
+{"s_qid": "Q40229504", "s_label": "LSWR 177-class no. 181", "o_qid": "Q37706100", "o_label": "2-4-0WT", "start": 1863, "end": 1884, "relation": "P2978", "r_label": "wheel arrangement"}
+{"s_qid": "Q40229504", "s_label": "LSWR 177-class no. 181", "o_qid": "Q2036617", "o_label": "2-4-0", "start": 1884, "end": null, "relation": "P2978", "r_label": "wheel arrangement"}
+{"s_qid": "Q40251485", "s_label": "LSWR 177-class no. 184", "o_qid": "Q37706100", "o_label": "2-4-0WT", "start": 1863, "end": 1885, "relation": "P2978", "r_label": "wheel arrangement"}
+{"s_qid": "Q40251485", "s_label": "LSWR 177-class no. 184", "o_qid": "Q2036617", "o_label": "2-4-0", "start": 1885, "end": null, "relation": "P2978", "r_label": "wheel arrangement"}
+{"s_qid": "Q41667372", "s_label": "LSWR 177-class no. 210", "o_qid": "Q37706100", "o_label": "2-4-0WT", "start": 1866, "end": 1886, "relation": "P2978", "r_label": "wheel arrangement"}
+{"s_qid": "Q41667372", "s_label": "LSWR 177-class no. 210", "o_qid": "Q2036617", "o_label": "2-4-0", "start": 1886, "end": null, "relation": "P2978", "r_label": "wheel arrangement"}
+{"s_qid": "Q42308066", "s_label": "LSWR 177-class no. 213", "o_qid": "Q37706100", "o_label": "2-4-0WT", "start": 1866, "end": 1887, "relation": "P2978", "r_label": "wheel arrangement"}
+{"s_qid": "Q42308066", "s_label": "LSWR 177-class no. 213", "o_qid": "Q2036617", "o_label": "2-4-0", "start": 1887, "end": 1896, "relation": "P2978", "r_label": "wheel arrangement"}
+{"s_qid": "Q43273706", "s_label": "GWR Iron Duke-class 2-2-2 locomotive “Great Western”", "o_qid": "Q2036496", "o_label": "2-2-2", "start": 1846, "end": 1840, "relation": "P2978", "r_label": "wheel arrangement"}
+{"s_qid": "Q113119192", "s_label": "GWR No. 9", "o_qid": "Q2036496", "o_label": "2-2-2", "start": 1884, "end": null, "relation": "P2978", "r_label": "wheel arrangement"}
+{"s_qid": "Q799064", "s_label": "Baden II (old)", "o_qid": "Q2036496", "o_label": "2-2-2", "start": 1843, "end": 1854, "relation": "P2978", "r_label": "wheel arrangement"}
+{"s_qid": "Q2506526", "s_label": "VSB Ec 2/5", "o_qid": "Q2922269", "o_label": "0-6-0", "start": 1874, "end": null, "relation": "P2978", "r_label": "wheel arrangement"}
+{"s_qid": "Q36620906", "s_label": "Londonderry, Seaham and Sunderland Railway no. 10", "o_qid": "Q2922269", "o_label": "0-6-0", "start": 1859, "end": 1881, "relation": "P2978", "r_label": "wheel arrangement"}
+{"s_qid": "Q36620906", "s_label": "Londonderry, Seaham and Sunderland Railway no. 10", "o_qid": "Q36621644", "o_label": "0-6-0ST", "start": 1881, "end": null, "relation": "P2978", "r_label": "wheel arrangement"}
+{"s_qid": "Q40249173", "s_label": "LSWR 177-class no. 183", "o_qid": "Q37706100", "o_label": "2-4-0WT", "start": 1863, "end": 1884, "relation": "P2978", "r_label": "wheel arrangement"}
+{"s_qid": "Q40249173", "s_label": "LSWR 177-class no. 183", "o_qid": "Q2036617", "o_label": "2-4-0", "start": 1884, "end": null, "relation": "P2978", "r_label": "wheel arrangement"}
+{"s_qid": "Q41535290", "s_label": "LSWR 177-class no. 196", "o_qid": "Q37706100", "o_label": "2-4-0WT", "start": 1864, "end": 1884, "relation": "P2978", "r_label": "wheel arrangement"}
+{"s_qid": "Q41535290", "s_label": "LSWR 177-class no. 196", "o_qid": "Q2036617", "o_label": "2-4-0", "start": 1884, "end": null, "relation": "P2978", "r_label": "wheel arrangement"}
+{"s_qid": "Q62975725", "s_label": "Furness Railway No. 25", "o_qid": "Q64134", "o_label": "0-4-0", "start": 1865, "end": 1870, "relation": "P2978", "r_label": "wheel arrangement"}
+{"s_qid": "Q66100936", "s_label": "South Australian Railways L class", "o_qid": "Q26233816", "o_label": "4-4-0T", "start": 1879, "end": 1881, "relation": "P2978", "r_label": "wheel arrangement"}
+{"s_qid": "Q66100936", "s_label": "South Australian Railways L class", "o_qid": "Q2037045", "o_label": "4-4-0", "start": 1880, "end": null, "relation": "P2978", "r_label": "wheel arrangement"}
+{"s_qid": "Q113128655", "s_label": "GWR 1833", "o_qid": "Q26212271", "o_label": "0-6-0T", "start": 1882, "end": 1884, "relation": "P2978", "r_label": "wheel arrangement"}
+{"s_qid": "Q113128655", "s_label": "GWR 1833", "o_qid": "Q2922269", "o_label": "0-6-0", "start": 1884, "end": null, "relation": "P2978", "r_label": "wheel arrangement"}
+{"s_qid": "Q5514942", "s_label": "GWR 3521 Class", "o_qid": "Q2037045", "o_label": "4-4-0", "start": 1899, "end": 1934, "relation": "P2978", "r_label": "wheel arrangement"}
+{"s_qid": "Q6460058", "s_label": "LSWR 46 class", "o_qid": "Q26233816", "o_label": "4-4-0T", "start": 1879, "end": 1886, "relation": "P2978", "r_label": "wheel arrangement"}
+{"s_qid": "Q9023467", "s_label": "FCNEA 11 “Yatay”", "o_qid": "Q2922269", "o_label": "0-6-0", "start": 1889, "end": 1910, "relation": "P2978", "r_label": "wheel arrangement"}
+{"s_qid": "Q40225783", "s_label": "LSWR 177-class no. 177", "o_qid": "Q37706100", "o_label": "2-4-0WT", "start": 1863, "end": 1884, "relation": "P2978", "r_label": "wheel arrangement"}
+{"s_qid": "Q40225783", "s_label": "LSWR 177-class no. 177", "o_qid": "Q2036617", "o_label": "2-4-0", "start": 1884, "end": null, "relation": "P2978", "r_label": "wheel arrangement"}
+{"s_qid": "Q40251871", "s_label": "LSWR 177-class no. 185", "o_qid": "Q37706100", "o_label": "2-4-0WT", "start": 1863, "end": 1886, "relation": "P2978", "r_label": "wheel arrangement"}
+{"s_qid": "Q40251871", "s_label": "LSWR 177-class no. 185", "o_qid": "Q2036617", "o_label": "2-4-0", "start": 1886, "end": null, "relation": "P2978", "r_label": "wheel arrangement"}
+{"s_qid": "Q41566674", "s_label": "LSWR 177-class no. 207", "o_qid": "Q37706100", "o_label": "2-4-0WT", "start": 1865, "end": 1886, "relation": "P2978", "r_label": "wheel arrangement"}
+{"s_qid": "Q41566674", "s_label": "LSWR 177-class no. 207", "o_qid": "Q2036617", "o_label": "2-4-0", "start": 1886, "end": null, "relation": "P2978", "r_label": "wheel arrangement"}
+{"s_qid": "Q62975103", "s_label": "Furness Railway No. 20", "o_qid": "Q64134", "o_label": "0-4-0", "start": 1863, "end": 1870, "relation": "P2978", "r_label": "wheel arrangement"}
+{"s_qid": "Q62975103", "s_label": "Furness Railway No. 20", "o_qid": "Q64134", "o_label": "0-4-0", "start": 1999, "end": null, "relation": "P2978", "r_label": "wheel arrangement"}
+{"s_qid": "Q799065", "s_label": "Baden IV b", "o_qid": "Q2036617", "o_label": "2-4-0", "start": 1873, "end": 1892, "relation": "P2978", "r_label": "wheel arrangement"}
+{"s_qid": "Q799116", "s_label": "Baden VI (old)", "o_qid": "Q2922269", "o_label": "0-6-0", "start": 1845, "end": 1854, "relation": "P2978", "r_label": "wheel arrangement"}
+{"s_qid": "Q799116", "s_label": "Baden VI (old)", "o_qid": "Q2036617", "o_label": "2-4-0", "start": 1854, "end": null, "relation": "P2978", "r_label": "wheel arrangement"}
+{"s_qid": "Q1333521", "s_label": "Alsace-Lorraine P 3", "o_qid": "Q2036617", "o_label": "2-4-0", "start": 1906, "end": 1912, "relation": "P2978", "r_label": "wheel arrangement"}
+{"s_qid": "Q1333521", "s_label": "Alsace-Lorraine P 3", "o_qid": "Q2037045", "o_label": "4-4-0", "start": 1912, "end": null, "relation": "P2978", "r_label": "wheel arrangement"}
+{"s_qid": "Q2495416", "s_label": "HSM Castor, Pollux, Amstel, and Maas", "o_qid": "Q2036496", "o_label": "2-2-2", "start": 1861, "end": 1881, "relation": "P2978", "r_label": "wheel arrangement"}
+{"s_qid": "Q39775764", "s_label": "North Devon Railway “Dart”", "o_qid": "Q2036496", "o_label": "2-2-2", "start": 1855, "end": 1867, "relation": "P2978", "r_label": "wheel arrangement"}
+{"s_qid": "Q39775764", "s_label": "North Devon Railway “Dart”", "o_qid": "Q2036617", "o_label": "2-4-0", "start": 1868, "end": null, "relation": "P2978", "r_label": "wheel arrangement"}
+{"s_qid": "Q40252298", "s_label": "LSWR 177-class no. 186", "o_qid": "Q37706100", "o_label": "2-4-0WT", "start": 1863, "end": 1885, "relation": "P2978", "r_label": "wheel arrangement"}
+{"s_qid": "Q40252298", "s_label": "LSWR 177-class no. 186", "o_qid": "Q2036617", "o_label": "2-4-0", "start": 1885, "end": null, "relation": "P2978", "r_label": "wheel arrangement"}
+{"s_qid": "Q40590385", "s_label": "LSWR 177-class no. 187", "o_qid": "Q37706100", "o_label": "2-4-0WT", "start": 1863, "end": 1884, "relation": "P2978", "r_label": "wheel arrangement"}
+{"s_qid": "Q40590385", "s_label": "LSWR 177-class no. 187", "o_qid": "Q2036617", "o_label": "2-4-0", "start": 1884, "end": null, "relation": "P2978", "r_label": "wheel arrangement"}
+{"s_qid": "Q41566145", "s_label": "LSWR 177-class no. 204", "o_qid": "Q37706100", "o_label": "2-4-0WT", "start": 1865, "end": 1886, "relation": "P2978", "r_label": "wheel arrangement"}
+{"s_qid": "Q41566145", "s_label": "LSWR 177-class no. 204", "o_qid": "Q2036617", "o_label": "2-4-0", "start": 1886, "end": null, "relation": "P2978", "r_label": "wheel arrangement"}
+{"s_qid": "Q41667271", "s_label": "LSWR 177-class no. 209", "o_qid": "Q37706100", "o_label": "2-4-0WT", "start": 1866, "end": 1887, "relation": "P2978", "r_label": "wheel arrangement"}
+{"s_qid": "Q41667271", "s_label": "LSWR 177-class no. 209", "o_qid": "Q2036617", "o_label": "2-4-0", "start": 1887, "end": null, "relation": "P2978", "r_label": "wheel arrangement"}
+{"s_qid": "Q62019297", "s_label": "L&YR Class 23 752", "o_qid": "Q2922269", "o_label": "0-6-0", "start": 1881, "end": 1896, "relation": "P2978", "r_label": "wheel arrangement"}
+{"s_qid": "Q62019297", "s_label": "L&YR Class 23 752", "o_qid": "Q36621644", "o_label": "0-6-0ST", "start": 1896, "end": null, "relation": "P2978", "r_label": "wheel arrangement"}
+{"s_qid": "Q36620674", "s_label": "Londonderry, Seaham and Sunderland Railway no. 9", "o_qid": "Q2036617", "o_label": "2-4-0", "start": 1856, "end": 1880, "relation": "P2978", "r_label": "wheel arrangement"}
+{"s_qid": "Q36620674", "s_label": "Londonderry, Seaham and Sunderland Railway no. 9", "o_qid": "Q26234622", "o_label": "2-4-0T", "start": 1880, "end": null, "relation": "P2978", "r_label": "wheel arrangement"}
+{"s_qid": "Q41006181", "s_label": "LSWR 177-class no. 191", "o_qid": "Q37706100", "o_label": "2-4-0WT", "start": 1863, "end": 1885, "relation": "P2978", "r_label": "wheel arrangement"}
+{"s_qid": "Q41006181", "s_label": "LSWR 177-class no. 191", "o_qid": "Q2036617", "o_label": "2-4-0", "start": 1885, "end": null, "relation": "P2978", "r_label": "wheel arrangement"}
+{"s_qid": "Q41006890", "s_label": "LSWR 177-class no. 192", "o_qid": "Q37706100", "o_label": "2-4-0WT", "start": 1863, "end": 1885, "relation": "P2978", "r_label": "wheel arrangement"}
+{"s_qid": "Q41006890", "s_label": "LSWR 177-class no. 192", "o_qid": "Q2036617", "o_label": "2-4-0", "start": 1885, "end": null, "relation": "P2978", "r_label": "wheel arrangement"}
+{"s_qid": "Q41350450", "s_label": "LSWR 177-class no. 195", "o_qid": "Q37706100", "o_label": "2-4-0WT", "start": 1864, "end": 1884, "relation": "P2978", "r_label": "wheel arrangement"}
+{"s_qid": "Q41350450", "s_label": "LSWR 177-class no. 195", "o_qid": "Q2036617", "o_label": "2-4-0", "start": 1884, "end": null, "relation": "P2978", "r_label": "wheel arrangement"}
+{"s_qid": "Q41566533", "s_label": "LSWR 177-class no. 206", "o_qid": "Q37706100", "o_label": "2-4-0WT", "start": 1865, "end": 1887, "relation": "P2978", "r_label": "wheel arrangement"}
+{"s_qid": "Q41566533", "s_label": "LSWR 177-class no. 206", "o_qid": "Q2036617", "o_label": "2-4-0", "start": 1887, "end": null, "relation": "P2978", "r_label": "wheel arrangement"}
+{"s_qid": "Q42308073", "s_label": "LSWR 177-class no. 214", "o_qid": "Q37706100", "o_label": "2-4-0WT", "start": 1866, "end": 1886, "relation": "P2978", "r_label": "wheel arrangement"}
+{"s_qid": "Q42308073", "s_label": "LSWR 177-class no. 214", "o_qid": "Q2036617", "o_label": "2-4-0", "start": 1886, "end": 1896, "relation": "P2978", "r_label": "wheel arrangement"}
+{"s_qid": "Q42308147", "s_label": "LSWR 177-class no. 217", "o_qid": "Q37706100", "o_label": "2-4-0WT", "start": 1866, "end": 1887, "relation": "P2978", "r_label": "wheel arrangement"}
+{"s_qid": "Q42308147", "s_label": "LSWR 177-class no. 217", "o_qid": "Q2036617", "o_label": "2-4-0", "start": 1887, "end": 1896, "relation": "P2978", "r_label": "wheel arrangement"}
+{"s_qid": "Q799103", "s_label": "Baden VIII (old)", "o_qid": "Q2036496", "o_label": "2-2-2", "start": 1847, "end": 1854, "relation": "P2978", "r_label": "wheel arrangement"}
+{"s_qid": "Q799103", "s_label": "Baden VIII (old)", "o_qid": "Q2036617", "o_label": "2-4-0", "start": 1854, "end": 1865, "relation": "P2978", "r_label": "wheel arrangement"}
+{"s_qid": "Q799103", "s_label": "Baden VIII (old)", "o_qid": "Q26234622", "o_label": "2-4-0T", "start": 1865, "end": null, "relation": "P2978", "r_label": "wheel arrangement"}
+{"s_qid": "Q1254419", "s_label": "SStB – Chiapovano to Javornik", "o_qid": "Q2922269", "o_label": "0-6-0", "start": 1871, "end": null, "relation": "P2978", "r_label": "wheel arrangement"}
+{"s_qid": "Q1827083", "s_label": "NCS 16 to 20", "o_qid": "Q2036617", "o_label": "2-4-0", "start": 1874, "end": 1905, "relation": "P2978", "r_label": "wheel arrangement"}
+{"s_qid": "Q1827083", "s_label": "NCS 16 to 20", "o_qid": "Q2037045", "o_label": "4-4-0", "start": 1897, "end": 1916, "relation": "P2978", "r_label": "wheel arrangement"}
+{"s_qid": "Q40227647", "s_label": "LSWR 177-class no. 178", "o_qid": "Q37706100", "o_label": "2-4-0WT", "start": 1863, "end": 1884, "relation": "P2978", "r_label": "wheel arrangement"}
+{"s_qid": "Q40227647", "s_label": "LSWR 177-class no. 178", "o_qid": "Q2036617", "o_label": "2-4-0", "start": 1884, "end": null, "relation": "P2978", "r_label": "wheel arrangement"}
+{"s_qid": "Q40246387", "s_label": "LSWR 177-class no. 182", "o_qid": "Q37706100", "o_label": "2-4-0WT", "start": 1863, "end": 1883, "relation": "P2978", "r_label": "wheel arrangement"}
+{"s_qid": "Q40246387", "s_label": "LSWR 177-class no. 182", "o_qid": "Q2036617", "o_label": "2-4-0", "start": 1883, "end": null, "relation": "P2978", "r_label": "wheel arrangement"}
+{"s_qid": "Q41008066", "s_label": "LSWR 177-class no. 193", "o_qid": "Q37706100", "o_label": "2-4-0WT", "start": 1863, "end": 1884, "relation": "P2978", "r_label": "wheel arrangement"}
+{"s_qid": "Q41008066", "s_label": "LSWR 177-class no. 193", "o_qid": "Q2036617", "o_label": "2-4-0", "start": 1884, "end": null, "relation": "P2978", "r_label": "wheel arrangement"}
+{"s_qid": "Q41008742", "s_label": "LSWR 177-class no. 194", "o_qid": "Q37706100", "o_label": "2-4-0WT", "start": 1863, "end": 1884, "relation": "P2978", "r_label": "wheel arrangement"}
+{"s_qid": "Q41008742", "s_label": "LSWR 177-class no. 194", "o_qid": "Q2036617", "o_label": "2-4-0", "start": 1884, "end": null, "relation": "P2978", "r_label": "wheel arrangement"}
+{"s_qid": "Q41562942", "s_label": "LSWR 177-class no. 200", "o_qid": "Q37706100", "o_label": "2-4-0WT", "start": 1864, "end": 1885, "relation": "P2978", "r_label": "wheel arrangement"}
+{"s_qid": "Q41562942", "s_label": "LSWR 177-class no. 200", "o_qid": "Q2036617", "o_label": "2-4-0", "start": 1885, "end": null, "relation": "P2978", "r_label": "wheel arrangement"}
+{"s_qid": "Q42308123", "s_label": "LSWR 177-class no. 215", "o_qid": "Q37706100", "o_label": "2-4-0WT", "start": 1866, "end": 1886, "relation": "P2978", "r_label": "wheel arrangement"}
+{"s_qid": "Q42308123", "s_label": "LSWR 177-class no. 215", "o_qid": "Q2036617", "o_label": "2-4-0", "start": 1886, "end": 1897, "relation": "P2978", "r_label": "wheel arrangement"}
+{"s_qid": "Q116995339", "s_label": "Paris à Rouen No. 33 “St. Pierre”", "o_qid": "Q2036496", "o_label": "2-2-2", "start": 1945, "end": null, "relation": "P2978", "r_label": "wheel arrangement"}
+{"s_qid": "Q2378403", "s_label": "Sächsisch-Baiersche Eisenbahn – Elephant and Leopard", "o_qid": "Q2036617", "o_label": "2-4-0", "start": 1844, "end": 1856, "relation": "P2978", "r_label": "wheel arrangement"}
+{"s_qid": "Q2378403", "s_label": "Sächsisch-Baiersche Eisenbahn – Elephant and Leopard", "o_qid": "Q26234622", "o_label": "2-4-0T", "start": 1856, "end": null, "relation": "P2978", "r_label": "wheel arrangement"}
+{"s_qid": "Q2754854", "s_label": "NCS 1 to 12", "o_qid": "Q2036617", "o_label": "2-4-0", "start": 1863, "end": 1899, "relation": "P2978", "r_label": "wheel arrangement"}
+{"s_qid": "Q2754854", "s_label": "NCS 1 to 12", "o_qid": "Q26234622", "o_label": "2-4-0T", "start": 1892, "end": null, "relation": "P2978", "r_label": "wheel arrangement"}
+{"s_qid": "Q4864641", "s_label": "Barry Railway Class C", "o_qid": "Q26234622", "o_label": "2-4-0T", "start": 1889, "end": 1926, "relation": "P2978", "r_label": "wheel arrangement"}
+{"s_qid": "Q18708269", "s_label": "NER Class G", "o_qid": "Q2036617", "o_label": "2-4-0", "start": 1887, "end": 1904, "relation": "P2978", "r_label": "wheel arrangement"}
+{"s_qid": "Q18708269", "s_label": "NER Class G", "o_qid": "Q2037045", "o_label": "4-4-0", "start": 1900, "end": 1935, "relation": "P2978", "r_label": "wheel arrangement"}
+{"s_qid": "Q24892153", "s_label": "South Australian Railways locomotives 1–3", "o_qid": "Q37706100", "o_label": "2-4-0WT", "start": 1855, "end": 1869, "relation": "P2978", "r_label": "wheel arrangement"}
+{"s_qid": "Q24892153", "s_label": "South Australian Railways locomotives 1–3", "o_qid": "Q2036617", "o_label": "2-4-0", "start": 1869, "end": null, "relation": "P2978", "r_label": "wheel arrangement"}
+{"s_qid": "Q28448654", "s_label": "LCDR Aeolus class", "o_qid": "Q2037045", "o_label": "4-4-0", "start": 1860, "end": 1873, "relation": "P2978", "r_label": "wheel arrangement"}
+{"s_qid": "Q28448654", "s_label": "LCDR Aeolus class", "o_qid": "Q26234622", "o_label": "2-4-0T", "start": 1872, "end": null, "relation": "P2978", "r_label": "wheel arrangement"}
+{"s_qid": "Q36620106", "s_label": "Londonderry, Seaham and Sunderland Railway no. 8", "o_qid": "Q2036617", "o_label": "2-4-0", "start": 1856, "end": 1878, "relation": "P2978", "r_label": "wheel arrangement"}
+{"s_qid": "Q36620106", "s_label": "Londonderry, Seaham and Sunderland Railway no. 8", "o_qid": "Q26234622", "o_label": "2-4-0T", "start": 1878, "end": null, "relation": "P2978", "r_label": "wheel arrangement"}
+{"s_qid": "Q36621148", "s_label": "Londonderry, Seaham and Sunderland Railway no. 11", "o_qid": "Q2922269", "o_label": "0-6-0", "start": 1860, "end": 1880, "relation": "P2978", "r_label": "wheel arrangement"}
+{"s_qid": "Q36621148", "s_label": "Londonderry, Seaham and Sunderland Railway no. 11", "o_qid": "Q36621644", "o_label": "0-6-0ST", "start": 1880, "end": null, "relation": "P2978", "r_label": "wheel arrangement"}
+{"s_qid": "Q36621502", "s_label": "Londonderry, Seaham and Sunderland Railway no. 12", "o_qid": "Q2922269", "o_label": "0-6-0", "start": 1860, "end": 1877, "relation": "P2978", "r_label": "wheel arrangement"}
+{"s_qid": "Q36621502", "s_label": "Londonderry, Seaham and Sunderland Railway no. 12", "o_qid": "Q36621644", "o_label": "0-6-0ST", "start": 1877, "end": null, "relation": "P2978", "r_label": "wheel arrangement"}
+{"s_qid": "Q36622097", "s_label": "Londonderry, Seaham and Sunderland Railway no. 13", "o_qid": "Q2922269", "o_label": "0-6-0", "start": 1862, "end": 1877, "relation": "P2978", "r_label": "wheel arrangement"}
+{"s_qid": "Q36622097", "s_label": "Londonderry, Seaham and Sunderland Railway no. 13", "o_qid": "Q26212271", "o_label": "0-6-0T", "start": 1877, "end": null, "relation": "P2978", "r_label": "wheel arrangement"}
+{"s_qid": "Q38042991", "s_label": "LSWR no. 134 “Ironsides”", "o_qid": "Q2036496", "o_label": "2-2-2", "start": 1855, "end": 1856, "relation": "P2978", "r_label": "wheel arrangement"}
+{"s_qid": "Q38042991", "s_label": "LSWR no. 134 “Ironsides”", "o_qid": "Q2036617", "o_label": "2-4-0", "start": 1856, "end": 1885, "relation": "P2978", "r_label": "wheel arrangement"}
+{"s_qid": "Q40229062", "s_label": "LSWR 177-class no. 180", "o_qid": "Q37706100", "o_label": "2-4-0WT", "start": 1863, "end": 1884, "relation": "P2978", "r_label": "wheel arrangement"}
+{"s_qid": "Q40229062", "s_label": "LSWR 177-class no. 180", "o_qid": "Q2036617", "o_label": "2-4-0", "start": 1884, "end": null, "relation": "P2978", "r_label": "wheel arrangement"}
+{"s_qid": "Q40672360", "s_label": "LSWR 177-class no. 188", "o_qid": "Q37706100", "o_label": "2-4-0WT", "start": 1863, "end": 1884, "relation": "P2978", "r_label": "wheel arrangement"}
+{"s_qid": "Q40672360", "s_label": "LSWR 177-class no. 188", "o_qid": "Q2036617", "o_label": "2-4-0", "start": 1884, "end": null, "relation": "P2978", "r_label": "wheel arrangement"}
+{"s_qid": "Q40703780", "s_label": "LSWR 177-class no. 190", "o_qid": "Q37706100", "o_label": "2-4-0WT", "start": 1863, "end": 1883, "relation": "P2978", "r_label": "wheel arrangement"}
+{"s_qid": "Q40703780", "s_label": "LSWR 177-class no. 190", "o_qid": "Q2036617", "o_label": "2-4-0", "start": 1883, "end": null, "relation": "P2978", "r_label": "wheel arrangement"}
+{"s_qid": "Q41667711", "s_label": "LSWR 177-class no. 212", "o_qid": "Q37706100", "o_label": "2-4-0WT", "start": 1866, "end": 1887, "relation": "P2978", "r_label": "wheel arrangement"}
+{"s_qid": "Q41667711", "s_label": "LSWR 177-class no. 212", "o_qid": "Q2036617", "o_label": "2-4-0", "start": 1887, "end": null, "relation": "P2978", "r_label": "wheel arrangement"}

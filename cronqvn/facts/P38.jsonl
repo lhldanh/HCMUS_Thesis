@@ -1,37 +1,66 @@
-{"s_qid": "Q31", "s_label": "Bỉ", "o_qid": "Q4916", "o_label": "Euro", "start": 1999, "end": null, "relation": "P38", "r_label": "đơn vị tiền tệ"}
-{"s_qid": "Q45", "s_label": "Bồ Đào Nha", "o_qid": "Q4916", "o_label": "Euro", "start": 1999, "end": null, "relation": "P38", "r_label": "đơn vị tiền tệ"}
-{"s_qid": "Q183", "s_label": "Đức", "o_qid": "Q4916", "o_label": "Euro", "start": 2002, "end": null, "relation": "P38", "r_label": "đơn vị tiền tệ"}
-{"s_qid": "Q233", "s_label": "Malta", "o_qid": "Q4916", "o_label": "Euro", "start": 2008, "end": null, "relation": "P38", "r_label": "đơn vị tiền tệ"}
-{"s_qid": "Q38", "s_label": "Ý", "o_qid": "Q4916", "o_label": "Euro", "start": 2002, "end": null, "relation": "P38", "r_label": "đơn vị tiền tệ"}
-{"s_qid": "Q235", "s_label": "Monaco", "o_qid": "Q4916", "o_label": "Euro", "start": 1999, "end": null, "relation": "P38", "r_label": "đơn vị tiền tệ"}
-{"s_qid": "Q37024", "s_label": "Serbia và Montenegro", "o_qid": "Q4916", "o_label": "Euro", "start": 2002, "end": 2006, "relation": "P38", "r_label": "đơn vị tiền tệ"}
-{"s_qid": "Q27", "s_label": "Ireland", "o_qid": "Q4916", "o_label": "Euro", "start": 1999, "end": null, "relation": "P38", "r_label": "đơn vị tiền tệ"}
-{"s_qid": "Q229", "s_label": "Cộng hòa Síp", "o_qid": "Q4916", "o_label": "Euro", "start": 2008, "end": null, "relation": "P38", "r_label": "đơn vị tiền tệ"}
-{"s_qid": "Q736", "s_label": "Ecuador", "o_qid": "Q4917", "o_label": "đô la Mỹ", "start": 2000, "end": null, "relation": "P38", "r_label": "đơn vị tiền tệ"}
-{"s_qid": "Q17070", "s_label": "Réunion", "o_qid": "Q4916", "o_label": "Euro", "start": 2002, "end": null, "relation": "P38", "r_label": "đơn vị tiền tệ"}
-{"s_qid": "Q211", "s_label": "Latvia", "o_qid": "Q4916", "o_label": "Euro", "start": 2014, "end": null, "relation": "P38", "r_label": "đơn vị tiền tệ"}
-{"s_qid": "Q214", "s_label": "Slovakia", "o_qid": "Q4916", "o_label": "Euro", "start": 2009, "end": null, "relation": "P38", "r_label": "đơn vị tiền tệ"}
-{"s_qid": "Q224", "s_label": "Croatia", "o_qid": "Q4916", "o_label": "Euro", "start": 2023, "end": null, "relation": "P38", "r_label": "đơn vị tiền tệ"}
-{"s_qid": "Q458", "s_label": "Liên minh châu Âu", "o_qid": "Q4916", "o_label": "Euro", "start": 1999, "end": null, "relation": "P38", "r_label": "đơn vị tiền tệ"}
-{"s_qid": "Q33", "s_label": "Phần Lan", "o_qid": "Q4916", "o_label": "Euro", "start": 1999, "end": null, "relation": "P38", "r_label": "đơn vị tiền tệ"}
-{"s_qid": "Q55", "s_label": "Hà Lan", "o_qid": "Q4916", "o_label": "Euro", "start": 1999, "end": null, "relation": "P38", "r_label": "đơn vị tiền tệ"}
-{"s_qid": "Q55", "s_label": "Hà Lan", "o_qid": "Q4917", "o_label": "đô la Mỹ", "start": 2011, "end": null, "relation": "P38", "r_label": "đơn vị tiền tệ"}
-{"s_qid": "Q228", "s_label": "Andorra", "o_qid": "Q4916", "o_label": "Euro", "start": 2000, "end": null, "relation": "P38", "r_label": "đơn vị tiền tệ"}
-{"s_qid": "Q1014", "s_label": "Liberia", "o_qid": "Q4917", "o_label": "đô la Mỹ", "start": 1943, "end": null, "relation": "P38", "r_label": "đơn vị tiền tệ"}
-{"s_qid": "Q37", "s_label": "Litva", "o_qid": "Q4916", "o_label": "Euro", "start": 2015, "end": null, "relation": "P38", "r_label": "đơn vị tiền tệ"}
-{"s_qid": "Q41", "s_label": "Hy Lạp", "o_qid": "Q4916", "o_label": "Euro", "start": 2002, "end": null, "relation": "P38", "r_label": "đơn vị tiền tệ"}
-{"s_qid": "Q191", "s_label": "Estonia", "o_qid": "Q4916", "o_label": "Euro", "start": 2011, "end": null, "relation": "P38", "r_label": "đơn vị tiền tệ"}
-{"s_qid": "Q215", "s_label": "Slovenia", "o_qid": "Q4916", "o_label": "Euro", "start": 2007, "end": null, "relation": "P38", "r_label": "đơn vị tiền tệ"}
-{"s_qid": "Q238", "s_label": "San Marino", "o_qid": "Q4916", "o_label": "Euro", "start": 1999, "end": null, "relation": "P38", "r_label": "đơn vị tiền tệ"}
-{"s_qid": "Q792", "s_label": "El Salvador", "o_qid": "Q4917", "o_label": "đô la Mỹ", "start": 2001, "end": null, "relation": "P38", "r_label": "đơn vị tiền tệ"}
-{"s_qid": "Q954", "s_label": "Zimbabwe", "o_qid": "Q4917", "o_label": "đô la Mỹ", "start": 2016, "end": null, "relation": "P38", "r_label": "đơn vị tiền tệ"}
-{"s_qid": "Q1246", "s_label": "Kosovo", "o_qid": "Q4916", "o_label": "Euro", "start": 2002, "end": null, "relation": "P38", "r_label": "đơn vị tiền tệ"}
-{"s_qid": "Q29", "s_label": "Tây Ban Nha", "o_qid": "Q4916", "o_label": "Euro", "start": 1999, "end": null, "relation": "P38", "r_label": "đơn vị tiền tệ"}
-{"s_qid": "Q142", "s_label": "Pháp", "o_qid": "Q4916", "o_label": "Euro", "start": 1999, "end": null, "relation": "P38", "r_label": "đơn vị tiền tệ"}
-{"s_qid": "Q29999", "s_label": "Vương quốc Hà Lan", "o_qid": "Q4916", "o_label": "Euro", "start": 1999, "end": null, "relation": "P38", "r_label": "đơn vị tiền tệ"}
-{"s_qid": "Q29999", "s_label": "Vương quốc Hà Lan", "o_qid": "Q4917", "o_label": "đô la Mỹ", "start": 2011, "end": null, "relation": "P38", "r_label": "đơn vị tiền tệ"}
-{"s_qid": "Q33405", "s_label": "Little Rock", "o_qid": "Q4917", "o_label": "đô la Mỹ", "start": 1821, "end": 1861, "relation": "P38", "r_label": "đơn vị tiền tệ"}
-{"s_qid": "Q33405", "s_label": "Little Rock", "o_qid": "Q4917", "o_label": "đô la Mỹ", "start": 1863, "end": null, "relation": "P38", "r_label": "đơn vị tiền tệ"}
-{"s_qid": "Q32", "s_label": "Luxembourg", "o_qid": "Q4916", "o_label": "Euro", "start": 1999, "end": null, "relation": "P38", "r_label": "đơn vị tiền tệ"}
-{"s_qid": "Q40", "s_label": "Áo", "o_qid": "Q4916", "o_label": "Euro", "start": 1999, "end": null, "relation": "P38", "r_label": "đơn vị tiền tệ"}
-{"s_qid": "Q219", "s_label": "Bulgaria", "o_qid": "Q4916", "o_label": "Euro", "start": 2026, "end": null, "relation": "P38", "r_label": "đơn vị tiền tệ"}
+{"s_qid": "Q31", "s_label": "Bỉ", "s_lang": "vi", "o_qid": "Q4916", "o_label": "Euro", "o_lang": "vi", "start": 1999, "end": null, "relation": "P38", "r_label": "đơn vị tiền tệ", "r_lang": "vi"}
+{"s_qid": "Q45", "s_label": "Bồ Đào Nha", "s_lang": "vi", "o_qid": "Q4916", "o_label": "Euro", "o_lang": "vi", "start": 1999, "end": null, "relation": "P38", "r_label": "đơn vị tiền tệ", "r_lang": "vi"}
+{"s_qid": "Q183", "s_label": "Đức", "s_lang": "vi", "o_qid": "Q16068", "o_label": "Mác Đức", "o_lang": "vi", "start": 1948, "end": 2001, "relation": "P38", "r_label": "đơn vị tiền tệ", "r_lang": "vi"}
+{"s_qid": "Q183", "s_label": "Đức", "s_lang": "vi", "o_qid": "Q4916", "o_label": "Euro", "o_lang": "vi", "start": 2002, "end": null, "relation": "P38", "r_label": "đơn vị tiền tệ", "r_lang": "vi"}
+{"s_qid": "Q233", "s_label": "Malta", "s_lang": "vi", "o_qid": "Q4916", "o_label": "Euro", "o_lang": "vi", "start": 2008, "end": null, "relation": "P38", "r_label": "đơn vị tiền tệ", "r_lang": "vi"}
+{"s_qid": "Q140388", "s_label": "Zagreb Stock Exchange", "s_lang": "en", "o_qid": "Q4916", "o_label": "Euro", "o_lang": "vi", "start": 2023, "end": null, "relation": "P38", "r_label": "đơn vị tiền tệ", "r_lang": "vi"}
+{"s_qid": "Q713750", "s_label": "Tây Đức", "s_lang": "vi", "o_qid": "Q16068", "o_label": "Mác Đức", "o_lang": "vi", "start": 1949, "end": 1990, "relation": "P38", "r_label": "đơn vị tiền tệ", "r_lang": "vi"}
+{"s_qid": "Q28124876", "s_label": "Ilmspan", "s_lang": "vi", "o_qid": "Q4916", "o_label": "Euro", "o_lang": "vi", "start": 2002, "end": null, "relation": "P38", "r_label": "đơn vị tiền tệ", "r_lang": "vi"}
+{"s_qid": "Q28124876", "s_label": "Ilmspan", "s_lang": "vi", "o_qid": "Q16068", "o_label": "Mác Đức", "o_lang": "vi", "start": 1948, "end": 2002, "relation": "P38", "r_label": "đơn vị tiền tệ", "r_lang": "vi"}
+{"s_qid": "Q38", "s_label": "Ý", "s_lang": "vi", "o_qid": "Q4916", "o_label": "Euro", "o_lang": "vi", "start": 2002, "end": null, "relation": "P38", "r_label": "đơn vị tiền tệ", "r_lang": "vi"}
+{"s_qid": "Q235", "s_label": "Monaco", "s_lang": "vi", "o_qid": "Q4916", "o_label": "Euro", "o_lang": "vi", "start": 1999, "end": null, "relation": "P38", "r_label": "đơn vị tiền tệ", "r_lang": "vi"}
+{"s_qid": "Q31747", "s_label": "Nhà nước tự do Ireland", "s_lang": "vi", "o_qid": "Q25224", "o_label": "bảng Anh", "o_lang": "vi", "start": 1922, "end": 1928, "relation": "P38", "r_label": "đơn vị tiền tệ", "r_lang": "vi"}
+{"s_qid": "Q37024", "s_label": "Serbia và Montenegro", "s_lang": "vi", "o_qid": "Q16068", "o_label": "Mác Đức", "o_lang": "vi", "start": 1999, "end": 2002, "relation": "P38", "r_label": "đơn vị tiền tệ", "r_lang": "vi"}
+{"s_qid": "Q37024", "s_label": "Serbia và Montenegro", "s_lang": "vi", "o_qid": "Q4916", "o_label": "Euro", "o_lang": "vi", "start": 2002, "end": 2006, "relation": "P38", "r_label": "đơn vị tiền tệ", "r_lang": "vi"}
+{"s_qid": "Q27", "s_label": "Ireland", "s_lang": "vi", "o_qid": "Q4916", "o_label": "Euro", "o_lang": "vi", "start": 1999, "end": null, "relation": "P38", "r_label": "đơn vị tiền tệ", "r_lang": "vi"}
+{"s_qid": "Q229", "s_label": "Cộng hòa Síp", "s_lang": "vi", "o_qid": "Q4916", "o_label": "Euro", "o_lang": "vi", "start": 2008, "end": null, "relation": "P38", "r_label": "đơn vị tiền tệ", "r_lang": "vi"}
+{"s_qid": "Q736", "s_label": "Ecuador", "s_lang": "vi", "o_qid": "Q4917", "o_label": "đô la Mỹ", "o_lang": "vi", "start": 2000, "end": null, "relation": "P38", "r_label": "đơn vị tiền tệ", "r_lang": "vi"}
+{"s_qid": "Q17070", "s_label": "Réunion", "s_lang": "vi", "o_qid": "Q4916", "o_label": "Euro", "o_lang": "vi", "start": 2002, "end": null, "relation": "P38", "r_label": "đơn vị tiền tệ", "r_lang": "vi"}
+{"s_qid": "Q61289", "s_label": "Quận Jefferson", "s_lang": "vi", "o_qid": "Q4917", "o_label": "đô la Mỹ", "o_lang": "vi", "start": 1829, "end": 1861, "relation": "P38", "r_label": "đơn vị tiền tệ", "r_lang": "vi"}
+{"s_qid": "Q61289", "s_label": "Quận Jefferson", "s_lang": "vi", "o_qid": "Q4917", "o_label": "đô la Mỹ", "o_lang": "vi", "start": 1863, "end": null, "relation": "P38", "r_label": "đơn vị tiền tệ", "r_lang": "vi"}
+{"s_qid": "Q211", "s_label": "Latvia", "s_lang": "vi", "o_qid": "Q4916", "o_label": "Euro", "o_lang": "vi", "start": 2014, "end": null, "relation": "P38", "r_label": "đơn vị tiền tệ", "r_lang": "vi"}
+{"s_qid": "Q214", "s_label": "Slovakia", "s_lang": "vi", "o_qid": "Q4916", "o_label": "Euro", "o_lang": "vi", "start": 2009, "end": null, "relation": "P38", "r_label": "đơn vị tiền tệ", "r_lang": "vi"}
+{"s_qid": "Q224", "s_label": "Croatia", "s_lang": "vi", "o_qid": "Q4916", "o_label": "Euro", "o_lang": "vi", "start": 2023, "end": null, "relation": "P38", "r_label": "đơn vị tiền tệ", "r_lang": "vi"}
+{"s_qid": "Q408", "s_label": "Úc", "s_lang": "vi", "o_qid": "Q25224", "o_label": "bảng Anh", "o_lang": "vi", "start": 1901, "end": 1910, "relation": "P38", "r_label": "đơn vị tiền tệ", "r_lang": "vi"}
+{"s_qid": "Q458", "s_label": "Liên minh châu Âu", "s_lang": "vi", "o_qid": "Q4916", "o_label": "Euro", "o_lang": "vi", "start": 1999, "end": null, "relation": "P38", "r_label": "đơn vị tiền tệ", "r_lang": "vi"}
+{"s_qid": "Q458", "s_label": "Liên minh châu Âu", "s_lang": "vi", "o_qid": "Q16068", "o_label": "Mác Đức", "o_lang": "vi", "start": 1957, "end": 2001, "relation": "P38", "r_label": "đơn vị tiền tệ", "r_lang": "vi"}
+{"s_qid": "Q458", "s_label": "Liên minh châu Âu", "s_lang": "vi", "o_qid": "Q25224", "o_label": "bảng Anh", "o_lang": "vi", "start": 1973, "end": 2020, "relation": "P38", "r_label": "đơn vị tiền tệ", "r_lang": "vi"}
+{"s_qid": "Q162222", "s_label": "German Federal Bank", "s_lang": "en", "o_qid": "Q16068", "o_label": "Mác Đức", "o_lang": "vi", "start": null, "end": 2002, "relation": "P38", "r_label": "đơn vị tiền tệ", "r_lang": "vi"}
+{"s_qid": "Q162222", "s_label": "German Federal Bank", "s_lang": "en", "o_qid": "Q4916", "o_label": "Euro", "o_lang": "vi", "start": 1999, "end": null, "relation": "P38", "r_label": "đơn vị tiền tệ", "r_lang": "vi"}
+{"s_qid": "Q212429", "s_label": "Lãnh thổ chính quốc Pháp", "s_lang": "vi", "o_qid": "Q4916", "o_label": "Euro", "o_lang": "vi", "start": 1999, "end": null, "relation": "P38", "r_label": "đơn vị tiền tệ", "r_lang": "vi"}
+{"s_qid": "Q806700", "s_label": "Bank of Greece", "s_lang": "en", "o_qid": "Q4916", "o_label": "Euro", "o_lang": "vi", "start": 2002, "end": null, "relation": "P38", "r_label": "đơn vị tiền tệ", "r_lang": "vi"}
+{"s_qid": "Q806950", "s_label": "Bank of France", "s_lang": "en", "o_qid": "Q4916", "o_label": "Euro", "o_lang": "vi", "start": 1999, "end": null, "relation": "P38", "r_label": "đơn vị tiền tệ", "r_lang": "vi"}
+{"s_qid": "Q33", "s_label": "Phần Lan", "s_lang": "vi", "o_qid": "Q4916", "o_label": "Euro", "o_lang": "vi", "start": 1999, "end": null, "relation": "P38", "r_label": "đơn vị tiền tệ", "r_lang": "vi"}
+{"s_qid": "Q55", "s_label": "Hà Lan", "s_lang": "vi", "o_qid": "Q4916", "o_label": "Euro", "o_lang": "vi", "start": 1999, "end": null, "relation": "P38", "r_label": "đơn vị tiền tệ", "r_lang": "vi"}
+{"s_qid": "Q55", "s_label": "Hà Lan", "s_lang": "vi", "o_qid": "Q4917", "o_label": "đô la Mỹ", "o_lang": "vi", "start": 2011, "end": null, "relation": "P38", "r_label": "đơn vị tiền tệ", "r_lang": "vi"}
+{"s_qid": "Q228", "s_label": "Andorra", "s_lang": "vi", "o_qid": "Q4916", "o_label": "Euro", "o_lang": "vi", "start": 2000, "end": null, "relation": "P38", "r_label": "đơn vị tiền tệ", "r_lang": "vi"}
+{"s_qid": "Q1014", "s_label": "Liberia", "s_lang": "vi", "o_qid": "Q4917", "o_label": "đô la Mỹ", "o_lang": "vi", "start": 1943, "end": null, "relation": "P38", "r_label": "đơn vị tiền tệ", "r_lang": "vi"}
+{"s_qid": "Q12258", "s_label": "Sabadell", "s_lang": "vi", "o_qid": "Q4916", "o_label": "Euro", "o_lang": "vi", "start": 2002, "end": null, "relation": "P38", "r_label": "đơn vị tiền tệ", "r_lang": "vi"}
+{"s_qid": "Q16957", "s_label": "Cộng hòa Dân chủ Đức", "s_lang": "vi", "o_qid": "Q16068", "o_label": "Mác Đức", "o_lang": "vi", "start": 1990, "end": null, "relation": "P38", "r_label": "đơn vị tiền tệ", "r_lang": "vi"}
+{"s_qid": "Q806176", "s_label": "Bank of Italy", "s_lang": "en", "o_qid": "Q4916", "o_label": "Euro", "o_lang": "vi", "start": 1999, "end": null, "relation": "P38", "r_label": "đơn vị tiền tệ", "r_lang": "vi"}
+{"s_qid": "Q37", "s_label": "Litva", "s_lang": "vi", "o_qid": "Q4916", "o_label": "Euro", "o_lang": "vi", "start": 2015, "end": null, "relation": "P38", "r_label": "đơn vị tiền tệ", "r_lang": "vi"}
+{"s_qid": "Q41", "s_label": "Hy Lạp", "s_lang": "vi", "o_qid": "Q4916", "o_label": "Euro", "o_lang": "vi", "start": 2002, "end": null, "relation": "P38", "r_label": "đơn vị tiền tệ", "r_lang": "vi"}
+{"s_qid": "Q191", "s_label": "Estonia", "s_lang": "vi", "o_qid": "Q4916", "o_label": "Euro", "o_lang": "vi", "start": 2011, "end": null, "relation": "P38", "r_label": "đơn vị tiền tệ", "r_lang": "vi"}
+{"s_qid": "Q215", "s_label": "Slovenia", "s_lang": "vi", "o_qid": "Q4916", "o_label": "Euro", "o_lang": "vi", "start": 2007, "end": null, "relation": "P38", "r_label": "đơn vị tiền tệ", "r_lang": "vi"}
+{"s_qid": "Q237", "s_label": "Thành Vatican", "s_lang": "vi", "o_qid": "Q4916", "o_label": "Euro", "o_lang": "vi", "start": 1999, "end": null, "relation": "P38", "r_label": "đơn vị tiền tệ", "r_lang": "vi"}
+{"s_qid": "Q238", "s_label": "San Marino", "s_lang": "vi", "o_qid": "Q4916", "o_label": "Euro", "o_lang": "vi", "start": 1999, "end": null, "relation": "P38", "r_label": "đơn vị tiền tệ", "r_lang": "vi"}
+{"s_qid": "Q792", "s_label": "El Salvador", "s_lang": "vi", "o_qid": "Q4917", "o_label": "đô la Mỹ", "o_lang": "vi", "start": 2001, "end": null, "relation": "P38", "r_label": "đơn vị tiền tệ", "r_lang": "vi"}
+{"s_qid": "Q954", "s_label": "Zimbabwe", "s_lang": "vi", "o_qid": "Q4917", "o_label": "đô la Mỹ", "o_lang": "vi", "start": 2016, "end": null, "relation": "P38", "r_label": "đơn vị tiền tệ", "r_lang": "vi"}
+{"s_qid": "Q1246", "s_label": "Kosovo", "s_lang": "vi", "o_qid": "Q4916", "o_label": "Euro", "o_lang": "vi", "start": 2002, "end": null, "relation": "P38", "r_label": "đơn vị tiền tệ", "r_lang": "vi"}
+{"s_qid": "Q5689", "s_label": "Åland", "s_lang": "vi", "o_qid": "Q4916", "o_label": "Euro", "o_lang": "vi", "start": 2002, "end": null, "relation": "P38", "r_label": "đơn vị tiền tệ", "r_lang": "vi"}
+{"s_qid": "Q25", "s_label": "Wales", "s_lang": "vi", "o_qid": "Q25224", "o_label": "bảng Anh", "o_lang": "vi", "start": 1971, "end": null, "relation": "P38", "r_label": "đơn vị tiền tệ", "r_lang": "vi"}
+{"s_qid": "Q29", "s_label": "Tây Ban Nha", "s_lang": "vi", "o_qid": "Q4916", "o_label": "Euro", "o_lang": "vi", "start": 1999, "end": null, "relation": "P38", "r_label": "đơn vị tiền tệ", "r_lang": "vi"}
+{"s_qid": "Q142", "s_label": "Pháp", "s_lang": "vi", "o_qid": "Q4916", "o_label": "Euro", "o_lang": "vi", "start": 1999, "end": null, "relation": "P38", "r_label": "đơn vị tiền tệ", "r_lang": "vi"}
+{"s_qid": "Q29999", "s_label": "Vương quốc Hà Lan", "s_lang": "vi", "o_qid": "Q4916", "o_label": "Euro", "o_lang": "vi", "start": 1999, "end": null, "relation": "P38", "r_label": "đơn vị tiền tệ", "r_lang": "vi"}
+{"s_qid": "Q29999", "s_label": "Vương quốc Hà Lan", "s_lang": "vi", "o_qid": "Q4917", "o_label": "đô la Mỹ", "o_lang": "vi", "start": 2011, "end": null, "relation": "P38", "r_label": "đơn vị tiền tệ", "r_lang": "vi"}
+{"s_qid": "Q33405", "s_label": "Little Rock", "s_lang": "vi", "o_qid": "Q4917", "o_label": "đô la Mỹ", "o_lang": "vi", "start": 1821, "end": 1861, "relation": "P38", "r_label": "đơn vị tiền tệ", "r_lang": "vi"}
+{"s_qid": "Q33405", "s_label": "Little Rock", "s_lang": "vi", "o_qid": "Q4917", "o_label": "đô la Mỹ", "o_lang": "vi", "start": 1863, "end": null, "relation": "P38", "r_label": "đơn vị tiền tệ", "r_lang": "vi"}
+{"s_qid": "Q28124875", "s_label": "Gerchsheim", "s_lang": "vi", "o_qid": "Q4916", "o_label": "Euro", "o_lang": "vi", "start": 2002, "end": null, "relation": "P38", "r_label": "đơn vị tiền tệ", "r_lang": "vi"}
+{"s_qid": "Q28124875", "s_label": "Gerchsheim", "s_lang": "vi", "o_qid": "Q16068", "o_label": "Mác Đức", "o_lang": "vi", "start": 1948, "end": 2002, "relation": "P38", "r_label": "đơn vị tiền tệ", "r_lang": "vi"}
+{"s_qid": "Q61928556", "s_label": "Rauenberg", "s_lang": "en", "o_qid": "Q4916", "o_label": "Euro", "o_lang": "vi", "start": 2002, "end": null, "relation": "P38", "r_label": "đơn vị tiền tệ", "r_lang": "vi"}
+{"s_qid": "Q61928556", "s_label": "Rauenberg", "s_lang": "en", "o_qid": "Q16068", "o_label": "Mác Đức", "o_lang": "vi", "start": 1948, "end": 2002, "relation": "P38", "r_label": "đơn vị tiền tệ", "r_lang": "vi"}
+{"s_qid": "Q32", "s_label": "Luxembourg", "s_lang": "vi", "o_qid": "Q4916", "o_label": "Euro", "o_lang": "vi", "start": 1999, "end": null, "relation": "P38", "r_label": "đơn vị tiền tệ", "r_lang": "vi"}
+{"s_qid": "Q40", "s_label": "Áo", "s_lang": "vi", "o_qid": "Q4916", "o_label": "Euro", "o_lang": "vi", "start": 1999, "end": null, "relation": "P38", "r_label": "đơn vị tiền tệ", "r_lang": "vi"}
+{"s_qid": "Q219", "s_label": "Bulgaria", "s_lang": "vi", "o_qid": "Q4916", "o_label": "Euro", "o_lang": "vi", "start": 2026, "end": null, "relation": "P38", "r_label": "đơn vị tiền tệ", "r_lang": "vi"}
+{"s_qid": "Q11959", "s_label": "Alicante", "s_lang": "vi", "o_qid": "Q4916", "o_label": "Euro", "o_lang": "vi", "start": 2002, "end": null, "relation": "P38", "r_label": "đơn vị tiền tệ", "r_lang": "vi"}
+{"s_qid": "Q174193", "s_label": "Vương quốc Liên hiệp Anh và Ireland", "s_lang": "vi", "o_qid": "Q25224", "o_label": "bảng Anh", "o_lang": "vi", "start": 1801, "end": null, "relation": "P38", "r_label": "đơn vị tiền tệ", "r_lang": "vi"}

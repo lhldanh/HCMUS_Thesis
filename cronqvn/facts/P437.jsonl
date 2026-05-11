@@ -1,0 +1,19 @@
+{"s_qid": "Q381431", "s_label": "Dernières Nouvelles d'Alsace", "o_qid": "Q1261026", "o_label": "ấn phẩm", "start": 1877, "end": null, "relation": "P437", "r_label": "phương tiện phân phối"}
+{"s_qid": "Q381431", "s_label": "Dernières Nouvelles d'Alsace", "o_qid": "Q1714118", "o_label": "tác phẩm trên Internet", "start": 1995, "end": null, "relation": "P437", "r_label": "phương tiện phân phối"}
+{"s_qid": "Q15724481", "s_label": "Gastrointestinal Endoscopy", "o_qid": "Q1261026", "o_label": "ấn phẩm", "start": 1965, "end": 2018, "relation": "P437", "r_label": "phương tiện phân phối"}
+{"s_qid": "Q124822465", "s_label": "Deerfield Beach Observer", "o_qid": "Q1261026", "o_label": "ấn phẩm", "start": null, "end": 2019, "relation": "P437", "r_label": "phương tiện phân phối"}
+{"s_qid": "Q124822465", "s_label": "Deerfield Beach Observer", "o_qid": "Q269415", "o_label": "phân phối kỹ thuật số", "start": 2009, "end": null, "relation": "P437", "r_label": "phương tiện phân phối"}
+{"s_qid": "Q131279666", "s_label": "Shelterforce", "o_qid": "Q1261026", "o_label": "ấn phẩm", "start": 1975, "end": 2020, "relation": "P437", "r_label": "phương tiện phân phối"}
+{"s_qid": "Q131279666", "s_label": "Shelterforce", "o_qid": "Q269415", "o_label": "phân phối kỹ thuật số", "start": 1996, "end": null, "relation": "P437", "r_label": "phương tiện phân phối"}
+{"s_qid": "Q138333513", "s_label": "Journal of Pacific Archaeology", "o_qid": "Q1261026", "o_label": "ấn phẩm", "start": null, "end": 2024, "relation": "P437", "r_label": "phương tiện phân phối"}
+{"s_qid": "Q138333513", "s_label": "Journal of Pacific Archaeology", "o_qid": "Q1714118", "o_label": "tác phẩm trên Internet", "start": 2025, "end": null, "relation": "P437", "r_label": "phương tiện phân phối"}
+{"s_qid": "Q386632", "s_label": "Warzone 2100", "o_qid": "Q34467", "o_label": "CD", "start": null, "end": 2000, "relation": "P437", "r_label": "phương tiện phân phối"}
+{"s_qid": "Q948624", "s_label": "Le Naturaliste Canadien", "o_qid": "Q1261026", "o_label": "ấn phẩm", "start": 1868, "end": 2020, "relation": "P437", "r_label": "phương tiện phân phối"}
+{"s_qid": "Q110099166", "s_label": "Communication, Politics & Culture", "o_qid": "Q1261026", "o_label": "ấn phẩm", "start": 2008, "end": 2010, "relation": "P437", "r_label": "phương tiện phân phối"}
+{"s_qid": "Q110099166", "s_label": "Communication, Politics & Culture", "o_qid": "Q1714118", "o_label": "tác phẩm trên Internet", "start": 2008, "end": 2016, "relation": "P437", "r_label": "phương tiện phân phối"}
+{"s_qid": "Q64225675", "s_label": "Advances in Librarianship", "o_qid": "Q1261026", "o_label": "ấn phẩm", "start": 1970, "end": null, "relation": "P437", "r_label": "phương tiện phân phối"}
+{"s_qid": "Q64225675", "s_label": "Advances in Librarianship", "o_qid": "Q1714118", "o_label": "tác phẩm trên Internet", "start": 1999, "end": null, "relation": "P437", "r_label": "phương tiện phân phối"}
+{"s_qid": "Q15716652", "s_label": "Medicine", "o_qid": "Q1261026", "o_label": "ấn phẩm", "start": 1922, "end": 2012, "relation": "P437", "r_label": "phương tiện phân phối"}
+{"s_qid": "Q16981622", "s_label": "The Games Machine", "o_qid": "Q5294", "o_label": "DVD", "start": 2003, "end": 2011, "relation": "P437", "r_label": "phương tiện phân phối"}
+{"s_qid": "Q125445898", "s_label": "Broke", "o_qid": "Q723685", "o_label": "video theo yêu cầu", "start": 2025, "end": null, "relation": "P437", "r_label": "phương tiện phân phối"}
+{"s_qid": "Q125445898", "s_label": "Broke", "o_qid": "Q5294", "o_label": "DVD", "start": 2025, "end": null, "relation": "P437", "r_label": "phương tiện phân phối"}

@@ -1,1 +1,3 @@
-{"s_qid": "Q112167214", "s_label": "Herschelstraße 31", "o_qid": "Q56557591", "o_label": "preserved", "start": 2023, "end": 2023, "relation": "P5816", "r_label": "tình trạng bảo tồn"}
+{"s_qid": "Q112167214", "s_label": "Herschelstraße 31", "s_lang": "en", "o_qid": "Q56557591", "o_label": "preserved", "o_lang": "en", "start": 2023, "end": 2023, "relation": "P5816", "r_label": "tình trạng bảo tồn", "r_lang": "vi"}
+{"s_qid": "Q123136064", "s_label": "Dieterichsstraße 28, Hannover", "s_lang": "en", "o_qid": "Q56557591", "o_label": "preserved", "o_lang": "en", "start": 23, "end": 23, "relation": "P5816", "r_label": "tình trạng bảo tồn", "r_lang": "vi"}
+{"s_qid": "Q1798918", "s_label": "Nhà thờ Dòng Tên ở Warszawa", "s_lang": "vi", "o_qid": "Q63187954", "o_label": "structure under reconstruction", "o_lang": "en", "start": 1949, "end": 1957, "relation": "P5816", "r_label": "tình trạng bảo tồn", "r_lang": "vi"}

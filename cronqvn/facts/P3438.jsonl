@@ -1,0 +1,3 @@
+{"s_qid": "Q1430657", "s_label": "Executive Transport Wing (German Air Force)", "s_lang": "en", "o_qid": "Q190211", "o_label": "Douglas DC-3", "o_lang": "vi", "start": 1957, "end": 1976, "relation": "P3438", "r_label": "phương tiện giao thông thường dùng", "r_lang": "vi"}
+{"s_qid": "Q78061707", "s_label": "Simon Villeneuve", "s_lang": "vi", "o_qid": "Q11442", "o_label": "xe đạp", "o_lang": "vi", "start": 1980, "end": null, "relation": "P3438", "r_label": "phương tiện giao thông thường dùng", "r_lang": "vi"}
+{"s_qid": "Q106065421", "s_label": "Pascal Martinolli", "s_lang": "en", "o_qid": "Q11442", "o_label": "xe đạp", "o_lang": "vi", "start": 1980, "end": null, "relation": "P3438", "r_label": "phương tiện giao thông thường dùng", "r_lang": "vi"}

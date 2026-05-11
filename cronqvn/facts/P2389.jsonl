@@ -1,0 +1,3 @@
+{"s_qid": "Q991848", "s_label": "Archbishop of Esztergom", "s_lang": "en", "o_qid": "Q4785831", "o_label": "Roman Catholic Archdiocese of Esztergom", "o_lang": "en", "start": null, "end": 1993, "relation": "P2389", "r_label": "lãnh đạo của", "r_lang": "vi"}
+{"s_qid": "Q17010253", "s_label": "Minister of Fisheries and Seafood", "s_lang": "en", "o_qid": "Q18177740", "o_label": "Ministry of Trade, Industry and Fisheries", "o_lang": "en", "start": 2014, "end": null, "relation": "P2389", "r_label": "lãnh đạo của", "r_lang": "vi"}
+{"s_qid": "Q17279086", "s_label": "thị trưởng Bắc Kinh", "s_lang": "vi", "o_qid": "Q7334692", "o_label": "Thuận Thiên", "o_lang": "vi", "start": 1912, "end": 1914, "relation": "P2389", "r_label": "lãnh đạo của", "r_lang": "vi"}

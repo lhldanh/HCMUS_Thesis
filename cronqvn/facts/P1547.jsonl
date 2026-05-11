@@ -1,0 +1,3 @@
+{"s_qid": "Q132774200", "s_label": "Wikibase Faceted Search", "o_qid": "Q21679301", "o_label": "Wikibase Repository", "start": 2025, "end": 2025, "relation": "P1547", "r_label": "cần phần mềm"}
+{"s_qid": "Q22712965", "s_label": "Chameleon", "o_qid": "Q21676802", "o_label": "Bootstrap", "start": 2019, "end": 2019, "relation": "P1547", "r_label": "cần phần mềm"}
+{"s_qid": "Q21676802", "s_label": "Bootstrap", "o_qid": "Q124366031", "o_label": "MediaWiki SCSS library", "start": 2024, "end": 2024, "relation": "P1547", "r_label": "cần phần mềm"}

@@ -1,0 +1,4 @@
+{"s_qid": "Q5471024", "s_label": "Fort DeRussy", "o_qid": "Q2172035", "o_label": "Rock Creek Park", "start": 1890, "end": null, "relation": "P3018", "r_label": "nằm trong khu bảo tồn thiên nhiên"}
+{"s_qid": "Q113363481", "s_label": "Sinking Spring Farm", "o_qid": "Q181471", "o_label": "Abraham Lincoln Birthplace National Historical Park", "start": 1916, "end": null, "relation": "P3018", "r_label": "nằm trong khu bảo tồn thiên nhiên"}
+{"s_qid": "Q202175", "s_label": "Đảo Ellis", "o_qid": "Q359939", "o_label": "Tượng đài Quốc gia Tượng Nữ thần Tự do", "start": 1965, "end": null, "relation": "P3018", "r_label": "nằm trong khu bảo tồn thiên nhiên"}
+{"s_qid": "Q1070564", "s_label": "Chesapeake and Ohio Canal", "o_qid": "Q5092894", "o_label": "Chesapeake and Ohio Canal National Historical Park", "start": 1966, "end": null, "relation": "P3018", "r_label": "nằm trong khu bảo tồn thiên nhiên"}

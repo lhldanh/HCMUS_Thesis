@@ -1,0 +1,22 @@
+{"s_qid": "Q746271", "s_label": "Szentgotthárd Abbey", "o_qid": "Q385567", "o_label": "Rein Abbey", "start": 1448, "end": 1532, "relation": "P612", "r_label": "mother house"}
+{"s_qid": "Q746271", "s_label": "Szentgotthárd Abbey", "o_qid": "Q897647", "o_label": "Zirc Abbey", "start": 1878, "end": 1950, "relation": "P612", "r_label": "mother house"}
+{"s_qid": "Q1138210", "s_label": "Melleray Abbey", "o_qid": "Q843261", "o_label": "Cîteaux Abbey", "start": 1898, "end": null, "relation": "P612", "r_label": "mother house"}
+{"s_qid": "Q1506285", "s_label": "Abbaye Notre-Dame du Landais", "o_qid": "Q978905", "o_label": "L'Aumône Abbey", "start": 1129, "end": 1791, "relation": "P612", "r_label": "mother house"}
+{"s_qid": "Q506046", "s_label": "Stična abbey", "o_qid": "Q385567", "o_label": "Rein Abbey", "start": 1136, "end": 1784, "relation": "P612", "r_label": "mother house"}
+{"s_qid": "Q860569", "s_label": "Chiaravalle Abbey", "o_qid": "Q647070", "o_label": "Clairvaux Abbey", "start": 1135, "end": 1791, "relation": "P612", "r_label": "mother house"}
+{"s_qid": "Q1554179", "s_label": "Monastery of Santa María de la Sierra", "o_qid": "Q843261", "o_label": "Cîteaux Abbey", "start": 1212, "end": 1498, "relation": "P612", "r_label": "mother house"}
+{"s_qid": "Q2820750", "s_label": "Valvisciolo Abbey", "o_qid": "Q833129", "o_label": "Casamari Abbey", "start": 1864, "end": null, "relation": "P612", "r_label": "mother house"}
+{"s_qid": "Q1552535", "s_label": "Monastery of Carracedo", "o_qid": "Q843261", "o_label": "Cîteaux Abbey", "start": 1203, "end": 1791, "relation": "P612", "r_label": "mother house"}
+{"s_qid": "Q1776039", "s_label": "Badia di Sant'Andrea", "o_qid": "Q843261", "o_label": "Cîteaux Abbey", "start": 1131, "end": 1569, "relation": "P612", "r_label": "mother house"}
+{"s_qid": "Q1305084", "s_label": "Real Monasterio de San Martín de Castañeda", "o_qid": "Q1552535", "o_label": "Monastery of Carracedo", "start": 1245, "end": 1835, "relation": "P612", "r_label": "mother house"}
+{"s_qid": "Q1775473", "s_label": "Abbey of the Thanks-God", "o_qid": "Q1385053", "o_label": "Abbaye Notre-Dame-de-la-Charité", "start": 1139, "end": 1791, "relation": "P612", "r_label": "mother house"}
+{"s_qid": "Q181700", "s_label": "Aiguebelle Abbey", "o_qid": "Q546628", "o_label": "Morimond Abbey", "start": 1137, "end": 1791, "relation": "P612", "r_label": "mother house"}
+{"s_qid": "Q1551380", "s_label": "Belleau Abbey", "o_qid": "Q546628", "o_label": "Morimond Abbey", "start": 1242, "end": 1567, "relation": "P612", "r_label": "mother house"}
+{"s_qid": "Q1551380", "s_label": "Belleau Abbey", "o_qid": "Q647070", "o_label": "Clairvaux Abbey", "start": 1567, "end": 1790, "relation": "P612", "r_label": "mother house"}
+{"s_qid": "Q1775065", "s_label": "Abbaye de Boquen (Plénée-Jugon, France)", "o_qid": "Q1229179", "o_label": "Tamié Abbey", "start": 1937, "end": 1973, "relation": "P612", "r_label": "mother house"}
+{"s_qid": "Q63524", "s_label": "Royal Abbey of Hautecombe", "o_qid": "Q647070", "o_label": "Clairvaux Abbey", "start": 1225, "end": 1792, "relation": "P612", "r_label": "mother house"}
+{"s_qid": "Q63524", "s_label": "Royal Abbey of Hautecombe", "o_qid": "Q1245463", "o_label": "Sénanque Abbey", "start": 1864, "end": 1922, "relation": "P612", "r_label": "mother house"}
+{"s_qid": "Q746867", "s_label": "Whitland Abbey", "o_qid": "Q647070", "o_label": "Clairvaux Abbey", "start": 1140, "end": 1539, "relation": "P612", "r_label": "mother house"}
+{"s_qid": "Q833129", "s_label": "Casamari Abbey", "o_qid": "Q647070", "o_label": "Clairvaux Abbey", "start": 1149, "end": 1791, "relation": "P612", "r_label": "mother house"}
+{"s_qid": "Q897647", "s_label": "Zirc Abbey", "o_qid": "Q647070", "o_label": "Clairvaux Abbey", "start": 1182, "end": 1527, "relation": "P612", "r_label": "mother house"}
+{"s_qid": "Q1775223", "s_label": "Abbey of Santa Maria, Follina", "o_qid": "Q860569", "o_label": "Chiaravalle Abbey", "start": 1146, "end": 1573, "relation": "P612", "r_label": "mother house"}

@@ -1,0 +1,8 @@
+{"s_qid": "Q183", "s_label": "Đức", "o_qid": "Q114028189", "o_label": "Day of the German Unity", "start": 1954, "end": 1990, "relation": "P832", "r_label": "ngày lễ công cộng"}
+{"s_qid": "Q183", "s_label": "Đức", "o_qid": "Q157582", "o_label": "Ngày thống nhất nước Đức", "start": 1990, "end": null, "relation": "P832", "r_label": "ngày lễ công cộng"}
+{"s_qid": "Q213", "s_label": "Séc", "o_qid": "Q47499", "o_label": "Ngày Quốc tế Lao động", "start": 1951, "end": null, "relation": "P832", "r_label": "ngày lễ công cộng"}
+{"s_qid": "Q213", "s_label": "Séc", "o_qid": "Q19809", "o_label": "Lễ Giáng sinh", "start": 1925, "end": null, "relation": "P832", "r_label": "ngày lễ công cộng"}
+{"s_qid": "Q64", "s_label": "Berlin", "o_qid": "Q38964", "o_label": "Ngày Quốc tế Phụ nữ", "start": 2019, "end": null, "relation": "P832", "r_label": "ngày lễ công cộng"}
+{"s_qid": "Q34", "s_label": "Thụy Điển", "o_qid": "Q47499", "o_label": "Ngày Quốc tế Lao động", "start": 1939, "end": null, "relation": "P832", "r_label": "ngày lễ công cộng"}
+{"s_qid": "Q142", "s_label": "Pháp", "o_qid": "Q162691", "o_label": "Lễ Đức Mẹ Lên Trời", "start": 1638, "end": null, "relation": "P832", "r_label": "ngày lễ công cộng"}
+{"s_qid": "Q142", "s_label": "Pháp", "o_qid": "Q47499", "o_label": "Ngày Quốc tế Lao động", "start": 1948, "end": null, "relation": "P832", "r_label": "ngày lễ công cộng"}

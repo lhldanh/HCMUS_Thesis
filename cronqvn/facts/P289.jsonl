@@ -1,0 +1,6 @@
+{"s_qid": "Q16466328", "s_label": "HMCS Outremont", "o_qid": "Q2500278", "o_label": "River-class frigate", "start": 1943, "end": 1945, "relation": "P289", "r_label": "lớp tàu"}
+{"s_qid": "Q15631920", "s_label": "HMS Avon", "o_qid": "Q2500278", "o_label": "River-class frigate", "start": 1943, "end": null, "relation": "P289", "r_label": "lớp tàu"}
+{"s_qid": "Q16995984", "s_label": "HMCS Lauzon", "o_qid": "Q2500278", "o_label": "River-class frigate", "start": 1944, "end": 1945, "relation": "P289", "r_label": "lớp tàu"}
+{"s_qid": "Q11860925", "s_label": "HMS Awe", "o_qid": "Q2500278", "o_label": "River-class frigate", "start": 1943, "end": null, "relation": "P289", "r_label": "lớp tàu"}
+{"s_qid": "Q10515250", "s_label": "HSwMS Vinga", "o_qid": "Q1433093", "o_label": "Landsort-class mine countermeasures vessel", "start": null, "end": 2009, "relation": "P289", "r_label": "lớp tàu"}
+{"s_qid": "Q10515250", "s_label": "HSwMS Vinga", "o_qid": "Q10548373", "o_label": "Koster-class mine countermeasures vessel", "start": 2009, "end": null, "relation": "P289", "r_label": "lớp tàu"}

@@ -1,0 +1,107 @@
+{"s_qid": "Q925808", "s_label": "Moscow Ring Road", "o_qid": "Q22657", "o_label": "bê tông", "start": 1960, "end": 1990, "relation": "P186", "r_label": "chất liệu"}
+{"s_qid": "Q1242882", "s_label": "Doppelbrücke", "o_qid": "Q287", "o_label": "gỗ", "start": 1822, "end": 1867, "relation": "P186", "r_label": "chất liệu"}
+{"s_qid": "Q1242882", "s_label": "Doppelbrücke", "o_qid": "Q22731", "o_label": "stone", "start": 1867, "end": null, "relation": "P186", "r_label": "chất liệu"}
+{"s_qid": "Q1367052", "s_label": "Thành Gifu", "o_qid": "Q184190", "o_label": "bê tông cốt thép", "start": 1956, "end": 1956, "relation": "P186", "r_label": "chất liệu"}
+{"s_qid": "Q2363048", "s_label": "Place Viger", "o_qid": "Q40089", "o_label": "gạch", "start": 1896, "end": 1898, "relation": "P186", "r_label": "chất liệu"}
+{"s_qid": "Q2363048", "s_label": "Place Viger", "o_qid": "Q22731", "o_label": "stone", "start": 1896, "end": 1898, "relation": "P186", "r_label": "chất liệu"}
+{"s_qid": "Q2363048", "s_label": "Place Viger", "o_qid": "Q11427", "o_label": "thép", "start": 1954, "end": 1955, "relation": "P186", "r_label": "chất liệu"}
+{"s_qid": "Q2508238", "s_label": "Ngọn hải đăng Cape Hatteras", "o_qid": "Q184190", "o_label": "bê tông cốt thép", "start": 1999, "end": null, "relation": "P186", "r_label": "chất liệu"}
+{"s_qid": "Q61753797", "s_label": "grand calvaire d'Orvault", "o_qid": "Q287", "o_label": "gỗ", "start": 1877, "end": 1894, "relation": "P186", "r_label": "chất liệu"}
+{"s_qid": "Q61753797", "s_label": "grand calvaire d'Orvault", "o_qid": "Q184190", "o_label": "bê tông cốt thép", "start": 1894, "end": null, "relation": "P186", "r_label": "chất liệu"}
+{"s_qid": "Q61768902", "s_label": "fire station Schöneberg 4400", "o_qid": "Q40089", "o_label": "gạch", "start": 1896, "end": 1896, "relation": "P186", "r_label": "chất liệu"}
+{"s_qid": "Q61768902", "s_label": "fire station Schöneberg 4400", "o_qid": "Q41177", "o_label": "đá hoa cương", "start": 1896, "end": 1896, "relation": "P186", "r_label": "chất liệu"}
+{"s_qid": "Q61768902", "s_label": "fire station Schöneberg 4400", "o_qid": "Q13085", "o_label": "cát kết", "start": 1896, "end": 1896, "relation": "P186", "r_label": "chất liệu"}
+{"s_qid": "Q89503830", "s_label": "The Met Fifth Avenue", "o_qid": "Q23757", "o_label": "đá vôi", "start": 1926, "end": null, "relation": "P186", "r_label": "chất liệu"}
+{"s_qid": "Q117793264", "s_label": "Paintings of the Church of Santa Caterina d'Alessandria (Pisa)", "o_qid": "Q175166", "o_label": "Màu keo", "start": 1903, "end": 1903, "relation": "P186", "r_label": "chất liệu"}
+{"s_qid": "Q117793264", "s_label": "Paintings of the Church of Santa Caterina d'Alessandria (Pisa)", "o_qid": "Q175166", "o_label": "Màu keo", "start": 1568, "end": 1568, "relation": "P186", "r_label": "chất liệu"}
+{"s_qid": "Q117793264", "s_label": "Paintings of the Church of Santa Caterina d'Alessandria (Pisa)", "o_qid": "Q106857709", "o_label": "panel", "start": 1903, "end": 1903, "relation": "P186", "r_label": "chất liệu"}
+{"s_qid": "Q117793264", "s_label": "Paintings of the Church of Santa Caterina d'Alessandria (Pisa)", "o_qid": "Q106857709", "o_label": "panel", "start": 1568, "end": 1568, "relation": "P186", "r_label": "chất liệu"}
+{"s_qid": "Q117794267", "s_label": "painting of the Church San Nicola (Pisa)", "o_qid": "Q175166", "o_label": "Màu keo", "start": 1903, "end": 1903, "relation": "P186", "r_label": "chất liệu"}
+{"s_qid": "Q117794267", "s_label": "painting of the Church San Nicola (Pisa)", "o_qid": "Q175166", "o_label": "Màu keo", "start": 1568, "end": 1568, "relation": "P186", "r_label": "chất liệu"}
+{"s_qid": "Q117794267", "s_label": "painting of the Church San Nicola (Pisa)", "o_qid": "Q106857709", "o_label": "panel", "start": 1903, "end": 1903, "relation": "P186", "r_label": "chất liệu"}
+{"s_qid": "Q117794267", "s_label": "painting of the Church San Nicola (Pisa)", "o_qid": "Q106857709", "o_label": "panel", "start": 1568, "end": 1568, "relation": "P186", "r_label": "chất liệu"}
+{"s_qid": "Q117834476", "s_label": "Saint Peter", "o_qid": "Q40861", "o_label": "cẩm thạch", "start": 1903, "end": 1903, "relation": "P186", "r_label": "chất liệu"}
+{"s_qid": "Q117834476", "s_label": "Saint Peter", "o_qid": "Q40861", "o_label": "cẩm thạch", "start": 1568, "end": 1568, "relation": "P186", "r_label": "chất liệu"}
+{"s_qid": "Q117848207", "s_label": "Angel", "o_qid": "Q287", "o_label": "gỗ", "start": 1903, "end": 1903, "relation": "P186", "r_label": "chất liệu"}
+{"s_qid": "Q117848207", "s_label": "Angel", "o_qid": "Q287", "o_label": "gỗ", "start": 1568, "end": 1568, "relation": "P186", "r_label": "chất liệu"}
+{"s_qid": "Q117856921", "s_label": "Jesus and St John the Baptist as children", "o_qid": "Q40861", "o_label": "cẩm thạch", "start": 1903, "end": 1903, "relation": "P186", "r_label": "chất liệu"}
+{"s_qid": "Q117856921", "s_label": "Jesus and St John the Baptist as children", "o_qid": "Q40861", "o_label": "cẩm thạch", "start": 1568, "end": 1568, "relation": "P186", "r_label": "chất liệu"}
+{"s_qid": "Q118140309", "s_label": "Portrait of Giuliano de' Medici", "o_qid": "Q34095", "o_label": "đồng điếu", "start": 1841, "end": 1841, "relation": "P186", "r_label": "chất liệu"}
+{"s_qid": "Q24084031", "s_label": "New York Stock Exchange Building", "o_qid": "Q40861", "o_label": "cẩm thạch", "start": 1903, "end": 1936, "relation": "P186", "r_label": "chất liệu"}
+{"s_qid": "Q64349427", "s_label": "Rietzneuendorf village church", "o_qid": "Q287", "o_label": "gỗ", "start": 1707, "end": 1707, "relation": "P186", "r_label": "chất liệu"}
+{"s_qid": "Q122875496", "s_label": "Atlas carrying the Globe", "o_qid": "Q708", "o_label": "chì", "start": 1754, "end": 1777, "relation": "P186", "r_label": "chất liệu"}
+{"s_qid": "Q122875496", "s_label": "Atlas carrying the Globe", "o_qid": "Q753", "o_label": "đồng", "start": 1777, "end": 1777, "relation": "P186", "r_label": "chất liệu"}
+{"s_qid": "Q122875496", "s_label": "Atlas carrying the Globe", "o_qid": "Q897", "o_label": "vàng", "start": null, "end": 2008, "relation": "P186", "r_label": "chất liệu"}
+{"s_qid": "Q12418", "s_label": "Mona Lisa", "o_qid": "Q287", "o_label": "gỗ", "start": 1951, "end": null, "relation": "P186", "r_label": "chất liệu"}
+{"s_qid": "Q5472261", "s_label": "Fort Washington Park", "o_qid": "Q40089", "o_label": "gạch", "start": 1808, "end": 1808, "relation": "P186", "r_label": "chất liệu"}
+{"s_qid": "Q5472261", "s_label": "Fort Washington Park", "o_qid": "Q22731", "o_label": "stone", "start": 1808, "end": 1808, "relation": "P186", "r_label": "chất liệu"}
+{"s_qid": "Q5472261", "s_label": "Fort Washington Park", "o_qid": "Q22657", "o_label": "bê tông", "start": 1890, "end": 1890, "relation": "P186", "r_label": "chất liệu"}
+{"s_qid": "Q5472261", "s_label": "Fort Washington Park", "o_qid": "Q11427", "o_label": "thép", "start": 1890, "end": 1890, "relation": "P186", "r_label": "chất liệu"}
+{"s_qid": "Q5882034", "s_label": "Holly Hill", "o_qid": "Q287", "o_label": "gỗ", "start": 1698, "end": 1699, "relation": "P186", "r_label": "chất liệu"}
+{"s_qid": "Q5882034", "s_label": "Holly Hill", "o_qid": "Q40089", "o_label": "gạch", "start": 1730, "end": 1730, "relation": "P186", "r_label": "chất liệu"}
+{"s_qid": "Q6091259", "s_label": "Old Pueyrredón Bridge", "o_qid": "Q677", "o_label": "sắt", "start": 1931, "end": 1931, "relation": "P186", "r_label": "chất liệu"}
+{"s_qid": "Q6091259", "s_label": "Old Pueyrredón Bridge", "o_qid": "Q287", "o_label": "gỗ", "start": 1791, "end": 1791, "relation": "P186", "r_label": "chất liệu"}
+{"s_qid": "Q6091259", "s_label": "Old Pueyrredón Bridge", "o_qid": "Q677", "o_label": "sắt", "start": 1871, "end": 1871, "relation": "P186", "r_label": "chất liệu"}
+{"s_qid": "Q6091259", "s_label": "Old Pueyrredón Bridge", "o_qid": "Q287", "o_label": "gỗ", "start": 1885, "end": 1885, "relation": "P186", "r_label": "chất liệu"}
+{"s_qid": "Q6091259", "s_label": "Old Pueyrredón Bridge", "o_qid": "Q677", "o_label": "sắt", "start": 1903, "end": 1903, "relation": "P186", "r_label": "chất liệu"}
+{"s_qid": "Q117187975", "s_label": "Church of St Michael", "o_qid": "Q22731", "o_label": "stone", "start": 1958, "end": 1998, "relation": "P186", "r_label": "chất liệu"}
+{"s_qid": "Q117187975", "s_label": "Church of St Michael", "o_qid": "Q287", "o_label": "gỗ", "start": 1998, "end": null, "relation": "P186", "r_label": "chất liệu"}
+{"s_qid": "Q117286770", "s_label": "Predella by Pontormo", "o_qid": "Q106857709", "o_label": "panel", "start": 1841, "end": 1841, "relation": "P186", "r_label": "chất liệu"}
+{"s_qid": "Q120416063", "s_label": "railway viaduct in Sebnitz", "o_qid": "Q22731", "o_label": "stone", "start": null, "end": 1984, "relation": "P186", "r_label": "chất liệu"}
+{"s_qid": "Q120416063", "s_label": "railway viaduct in Sebnitz", "o_qid": "Q22657", "o_label": "bê tông", "start": 1991, "end": null, "relation": "P186", "r_label": "chất liệu"}
+{"s_qid": "Q1606863", "s_label": "Henry House", "o_qid": "Q287", "o_label": "gỗ", "start": 1870, "end": 1870, "relation": "P186", "r_label": "chất liệu"}
+{"s_qid": "Q2351999", "s_label": "Stora Fjäderägg lighthouse", "o_qid": "Q22657", "o_label": "bê tông", "start": 1914, "end": null, "relation": "P186", "r_label": "chất liệu"}
+{"s_qid": "Q2545172", "s_label": "Maghariba Bridge", "o_qid": "Q287", "o_label": "gỗ", "start": 2004, "end": null, "relation": "P186", "r_label": "chất liệu"}
+{"s_qid": "Q107560422", "s_label": "Wedel-Jarlsbergmonumentet", "o_qid": "Q758", "o_label": "kẽm", "start": null, "end": 2007, "relation": "P186", "r_label": "chất liệu"}
+{"s_qid": "Q107560422", "s_label": "Wedel-Jarlsbergmonumentet", "o_qid": "Q34095", "o_label": "đồng điếu", "start": 2007, "end": null, "relation": "P186", "r_label": "chất liệu"}
+{"s_qid": "Q177128", "s_label": "Medal \"For the Defence of Odessa\"", "o_qid": "Q172587", "o_label": "thép không gỉ", "start": 1943, "end": 1943, "relation": "P186", "r_label": "chất liệu"}
+{"s_qid": "Q177128", "s_label": "Medal \"For the Defence of Odessa\"", "o_qid": "Q39782", "o_label": "đồng thau", "start": 1943, "end": null, "relation": "P186", "r_label": "chất liệu"}
+{"s_qid": "Q1196273", "s_label": "Thành Fushimi", "o_qid": "Q22731", "o_label": "stone", "start": 1594, "end": 1623, "relation": "P186", "r_label": "chất liệu"}
+{"s_qid": "Q1196273", "s_label": "Thành Fushimi", "o_qid": "Q184190", "o_label": "bê tông cốt thép", "start": 1964, "end": null, "relation": "P186", "r_label": "chất liệu"}
+{"s_qid": "Q2620186", "s_label": "Washington State Capitol", "o_qid": "Q22731", "o_label": "stone", "start": 1928, "end": 1949, "relation": "P186", "r_label": "chất liệu"}
+{"s_qid": "Q2620186", "s_label": "Washington State Capitol", "o_qid": "Q11427", "o_label": "thép", "start": 1949, "end": null, "relation": "P186", "r_label": "chất liệu"}
+{"s_qid": "Q28036807", "s_label": "railway viaduct in Sebnitz", "o_qid": "Q22731", "o_label": "stone", "start": null, "end": 1984, "relation": "P186", "r_label": "chất liệu"}
+{"s_qid": "Q28036807", "s_label": "railway viaduct in Sebnitz", "o_qid": "Q22657", "o_label": "bê tông", "start": 1989, "end": null, "relation": "P186", "r_label": "chất liệu"}
+{"s_qid": "Q109390972", "s_label": "Presbytère de Sainte-Florence", "o_qid": "Q287", "o_label": "gỗ", "start": 1910, "end": 1941, "relation": "P186", "r_label": "chất liệu"}
+{"s_qid": "Q117848333", "s_label": "Tomb of Beata Villana", "o_qid": "Q40861", "o_label": "cẩm thạch", "start": 1903, "end": 1903, "relation": "P186", "r_label": "chất liệu"}
+{"s_qid": "Q117848333", "s_label": "Tomb of Beata Villana", "o_qid": "Q40861", "o_label": "cẩm thạch", "start": 1568, "end": 1568, "relation": "P186", "r_label": "chất liệu"}
+{"s_qid": "Q3396739", "s_label": "pont Saint-Michel", "o_qid": "Q184190", "o_label": "bê tông cốt thép", "start": 1961, "end": 1961, "relation": "P186", "r_label": "chất liệu"}
+{"s_qid": "Q7836795", "s_label": "Treasury Building", "o_qid": "Q13085", "o_label": "cát kết", "start": null, "end": 1908, "relation": "P186", "r_label": "chất liệu"}
+{"s_qid": "Q12001508", "s_label": "Sluppen Bridge", "o_qid": "Q11427", "o_label": "thép", "start": 1954, "end": null, "relation": "P186", "r_label": "chất liệu"}
+{"s_qid": "Q12001508", "s_label": "Sluppen Bridge", "o_qid": "Q287", "o_label": "gỗ", "start": 1864, "end": 1954, "relation": "P186", "r_label": "chất liệu"}
+{"s_qid": "Q28089443", "s_label": "Church in Zützen", "o_qid": "Q40089", "o_label": "gạch", "start": 1909, "end": 1909, "relation": "P186", "r_label": "chất liệu"}
+{"s_qid": "Q117794329", "s_label": "Paintings of the church and monastery Santa Croce in Fossabanda", "o_qid": "Q175166", "o_label": "Màu keo", "start": 1903, "end": 1903, "relation": "P186", "r_label": "chất liệu"}
+{"s_qid": "Q117794329", "s_label": "Paintings of the church and monastery Santa Croce in Fossabanda", "o_qid": "Q175166", "o_label": "Màu keo", "start": 1568, "end": 1568, "relation": "P186", "r_label": "chất liệu"}
+{"s_qid": "Q117794329", "s_label": "Paintings of the church and monastery Santa Croce in Fossabanda", "o_qid": "Q106857709", "o_label": "panel", "start": 1903, "end": 1903, "relation": "P186", "r_label": "chất liệu"}
+{"s_qid": "Q117794329", "s_label": "Paintings of the church and monastery Santa Croce in Fossabanda", "o_qid": "Q106857709", "o_label": "panel", "start": 1568, "end": 1568, "relation": "P186", "r_label": "chất liệu"}
+{"s_qid": "Q117834496", "s_label": "Saint Paul", "o_qid": "Q40861", "o_label": "cẩm thạch", "start": 1903, "end": 1903, "relation": "P186", "r_label": "chất liệu"}
+{"s_qid": "Q117834496", "s_label": "Saint Paul", "o_qid": "Q40861", "o_label": "cẩm thạch", "start": 1568, "end": 1568, "relation": "P186", "r_label": "chất liệu"}
+{"s_qid": "Q736526", "s_label": "shilling", "o_qid": "Q1090", "o_label": "bạc", "start": null, "end": 1816, "relation": "P186", "r_label": "chất liệu"}
+{"s_qid": "Q736526", "s_label": "shilling", "o_qid": "Q1090", "o_label": "bạc", "start": 1816, "end": 1920, "relation": "P186", "r_label": "chất liệu"}
+{"s_qid": "Q736526", "s_label": "shilling", "o_qid": "Q1090", "o_label": "bạc", "start": 1920, "end": 1946, "relation": "P186", "r_label": "chất liệu"}
+{"s_qid": "Q736526", "s_label": "shilling", "o_qid": "Q649090", "o_label": "Đồng niken", "start": 1947, "end": null, "relation": "P186", "r_label": "chất liệu"}
+{"s_qid": "Q1439830", "s_label": "one pound coin", "o_qid": "Q753", "o_label": "đồng", "start": 1983, "end": 2017, "relation": "P186", "r_label": "chất liệu"}
+{"s_qid": "Q1439830", "s_label": "one pound coin", "o_qid": "Q758", "o_label": "kẽm", "start": 1983, "end": 2017, "relation": "P186", "r_label": "chất liệu"}
+{"s_qid": "Q1439830", "s_label": "one pound coin", "o_qid": "Q744", "o_label": "niken", "start": 1983, "end": 2017, "relation": "P186", "r_label": "chất liệu"}
+{"s_qid": "Q1439830", "s_label": "one pound coin", "o_qid": "Q39782", "o_label": "đồng thau", "start": 2017, "end": null, "relation": "P186", "r_label": "chất liệu"}
+{"s_qid": "Q1439830", "s_label": "one pound coin", "o_qid": "Q744", "o_label": "niken", "start": 2017, "end": null, "relation": "P186", "r_label": "chất liệu"}
+{"s_qid": "Q6309927", "s_label": "The Gallup Building", "o_qid": "Q40089", "o_label": "gạch", "start": 1870, "end": null, "relation": "P186", "r_label": "chất liệu"}
+{"s_qid": "Q44419323", "s_label": "Ledskär lighthouse", "o_qid": "Q677", "o_label": "sắt", "start": null, "end": 1988, "relation": "P186", "r_label": "chất liệu"}
+{"s_qid": "Q118851146", "s_label": "Gelada", "o_qid": "Q41177", "o_label": "đá hoa cương", "start": 2003, "end": null, "relation": "P186", "r_label": "chất liệu"}
+{"s_qid": "Q118851146", "s_label": "Gelada", "o_qid": "Q23757", "o_label": "đá vôi", "start": null, "end": 2003, "relation": "P186", "r_label": "chất liệu"}
+{"s_qid": "Q3205071", "s_label": "L'Âme de la France", "o_qid": "Q34095", "o_label": "đồng điếu", "start": 1930, "end": 1930, "relation": "P186", "r_label": "chất liệu"}
+{"s_qid": "Q3205071", "s_label": "L'Âme de la France", "o_qid": "Q22731", "o_label": "stone", "start": 1922, "end": 1922, "relation": "P186", "r_label": "chất liệu"}
+{"s_qid": "Q4966907", "s_label": "Bridgnorth Cliff Railway", "o_qid": "Q287", "o_label": "gỗ", "start": 1892, "end": 1955, "relation": "P186", "r_label": "chất liệu"}
+{"s_qid": "Q4966907", "s_label": "Bridgnorth Cliff Railway", "o_qid": "Q663", "o_label": "nhôm", "start": 1955, "end": null, "relation": "P186", "r_label": "chất liệu"}
+{"s_qid": "Q7591087", "s_label": "St. Paul's Episcopal Church", "o_qid": "Q40089", "o_label": "gạch", "start": 1775, "end": 1775, "relation": "P186", "r_label": "chất liệu"}
+{"s_qid": "Q12902420", "s_label": "Triumph of St. Thomas Aquinas", "o_qid": "Q175166", "o_label": "Màu keo", "start": 1568, "end": 1568, "relation": "P186", "r_label": "chất liệu"}
+{"s_qid": "Q12902420", "s_label": "Triumph of St. Thomas Aquinas", "o_qid": "Q175166", "o_label": "Màu keo", "start": 1903, "end": 1903, "relation": "P186", "r_label": "chất liệu"}
+{"s_qid": "Q116304364", "s_label": "Stonehouse Pool Viaduct", "o_qid": "Q22731", "o_label": "stone", "start": 1859, "end": null, "relation": "P186", "r_label": "chất liệu"}
+{"s_qid": "Q116304364", "s_label": "Stonehouse Pool Viaduct", "o_qid": "Q287", "o_label": "gỗ", "start": 1859, "end": 1908, "relation": "P186", "r_label": "chất liệu"}
+{"s_qid": "Q116304364", "s_label": "Stonehouse Pool Viaduct", "o_qid": "Q40089", "o_label": "gạch", "start": 1908, "end": null, "relation": "P186", "r_label": "chất liệu"}
+{"s_qid": "Q116304364", "s_label": "Stonehouse Pool Viaduct", "o_qid": "Q677", "o_label": "sắt", "start": 1908, "end": null, "relation": "P186", "r_label": "chất liệu"}
+{"s_qid": "Q116695962", "s_label": "Keyham Viaduct", "o_qid": "Q287", "o_label": "gỗ", "start": 1859, "end": 1900, "relation": "P186", "r_label": "chất liệu"}
+{"s_qid": "Q116695962", "s_label": "Keyham Viaduct", "o_qid": "Q677", "o_label": "sắt", "start": 1900, "end": 1937, "relation": "P186", "r_label": "chất liệu"}
+{"s_qid": "Q116695962", "s_label": "Keyham Viaduct", "o_qid": "Q11427", "o_label": "thép", "start": 1937, "end": null, "relation": "P186", "r_label": "chất liệu"}
+{"s_qid": "Q117820391", "s_label": "Eucharistic tabernacle in Siena Cathedral", "o_qid": "Q34095", "o_label": "đồng điếu", "start": 1903, "end": 1903, "relation": "P186", "r_label": "chất liệu"}
+{"s_qid": "Q117820391", "s_label": "Eucharistic tabernacle in Siena Cathedral", "o_qid": "Q34095", "o_label": "đồng điếu", "start": 1568, "end": 1568, "relation": "P186", "r_label": "chất liệu"}

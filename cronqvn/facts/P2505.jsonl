@@ -1,0 +1,40 @@
+{"s_qid": "Q435550", "s_label": "Alte Elsterbrücke", "o_qid": "Q34442", "o_label": "đường", "start": null, "end": 1973, "relation": "P2505", "r_label": "carries thoroughfare"}
+{"s_qid": "Q6473808", "s_label": "Laigh Milton Viaduct", "o_qid": "Q5004679", "o_label": "path", "start": 1846, "end": null, "relation": "P2505", "r_label": "carries thoroughfare"}
+{"s_qid": "Q9372419", "s_label": "Gabriela Narutowicza Viaduct", "o_qid": "Q9211416", "o_label": "Voivodeship road 433", "start": 2016, "end": null, "relation": "P2505", "r_label": "carries thoroughfare"}
+{"s_qid": "Q9372419", "s_label": "Gabriela Narutowicza Viaduct", "o_qid": "Q1089985", "o_label": "National road 11", "start": 1986, "end": 2014, "relation": "P2505", "r_label": "carries thoroughfare"}
+{"s_qid": "Q49273209", "s_label": "Kuechenholzallee railway bridge", "o_qid": "Q802632", "o_label": "Leipzig-Plagwitz–Markkleeberg-Gaschwitz railway", "start": null, "end": 2018, "relation": "P2505", "r_label": "carries thoroughfare"}
+{"s_qid": "Q111318118", "s_label": "Hornnes bridge", "o_qid": "Q1769317", "o_label": "Setesdal Line", "start": 1896, "end": 1962, "relation": "P2505", "r_label": "carries thoroughfare"}
+{"s_qid": "Q111318118", "s_label": "Hornnes bridge", "o_qid": "Q10547376", "o_label": "municipal road", "start": 1969, "end": null, "relation": "P2505", "r_label": "carries thoroughfare"}
+{"s_qid": "Q113627869", "s_label": "Mjøndalslokket bridge", "o_qid": "Q389245", "o_label": "Randsfjorden Line", "start": null, "end": 2008, "relation": "P2505", "r_label": "carries thoroughfare"}
+{"s_qid": "Q113627869", "s_label": "Mjøndalslokket bridge", "o_qid": "Q1577458", "o_label": "Sørlandet Line", "start": 2008, "end": null, "relation": "P2505", "r_label": "carries thoroughfare"}
+{"s_qid": "Q122782929", "s_label": "Omegabrücke (Frankfurt, Germany)", "o_qid": "Q20986886", "o_label": "54", "start": 2021, "end": 2023, "relation": "P2505", "r_label": "carries thoroughfare"}
+{"s_qid": "Q123530148", "s_label": "Lusatian Neisse Bridge (Forst/Olszyna)", "o_qid": "Q429300", "o_label": "Đường cao tốc A18 (Ba Lan)", "start": 2023, "end": null, "relation": "P2505", "r_label": "carries thoroughfare"}
+{"s_qid": "Q134572612", "s_label": "Errekilen bridge", "o_qid": "Q1769317", "o_label": "Setesdal Line", "start": 1896, "end": 1962, "relation": "P2505", "r_label": "carries thoroughfare"}
+{"s_qid": "Q2465864", "s_label": "Tyne Bridge", "o_qid": "Q34442", "o_label": "đường", "start": 1977, "end": 1990, "relation": "P2505", "r_label": "carries thoroughfare"}
+{"s_qid": "Q11785867", "s_label": "Widawski Bridge", "o_qid": "Q25415684", "o_label": "E83 road in Poland", "start": null, "end": 1980, "relation": "P2505", "r_label": "carries thoroughfare"}
+{"s_qid": "Q11785867", "s_label": "Widawski Bridge", "o_qid": "Q694271", "o_label": "National road 5", "start": 1980, "end": 2017, "relation": "P2505", "r_label": "carries thoroughfare"}
+{"s_qid": "Q11785867", "s_label": "Widawski Bridge", "o_qid": "Q1375834", "o_label": "European route E261", "start": 1980, "end": 2017, "relation": "P2505", "r_label": "carries thoroughfare"}
+{"s_qid": "Q49231627", "s_label": "former railway bridge across August-Bebel-Straße in Chemnitz, Germany", "o_qid": "Q802846", "o_label": "Neukieritzsch–Chemnitz Hbf railway", "start": null, "end": 2014, "relation": "P2505", "r_label": "carries thoroughfare"}
+{"s_qid": "Q323310", "s_label": "Mont Blanc Tunnel", "o_qid": "Q3444857", "o_label": "Route nationale 205", "start": 1978, "end": null, "relation": "P2505", "r_label": "carries thoroughfare"}
+{"s_qid": "Q15107752", "s_label": "Blackhall Railway Viaduct", "o_qid": "Q7125176", "o_label": "Paisley Canal Line", "start": 1885, "end": null, "relation": "P2505", "r_label": "carries thoroughfare"}
+{"s_qid": "Q19389170", "s_label": "Skårland tunnel", "o_qid": "Q1769317", "o_label": "Setesdal Line", "start": 1920, "end": 1962, "relation": "P2505", "r_label": "carries thoroughfare"}
+{"s_qid": "Q49273489", "s_label": "Dieskaustraße railway bridge", "o_qid": "Q802632", "o_label": "Leipzig-Plagwitz–Markkleeberg-Gaschwitz railway", "start": null, "end": 2018, "relation": "P2505", "r_label": "carries thoroughfare"}
+{"s_qid": "Q77780263", "s_label": "Crubenmore Bridge", "o_qid": "Q105046445", "o_label": "unclassified road", "start": 1975, "end": null, "relation": "P2505", "r_label": "carries thoroughfare"}
+{"s_qid": "Q130236895", "s_label": "Jacques-Cartier River railway bridge", "o_qid": "Q112076709", "o_label": "Saint-Raymond Subdivision", "start": null, "end": 1990, "relation": "P2505", "r_label": "carries thoroughfare"}
+{"s_qid": "Q11785957", "s_label": "Cầu Łazienkowski", "o_qid": "Q694287", "o_label": "National road 2", "start": 1986, "end": 2013, "relation": "P2505", "r_label": "carries thoroughfare"}
+{"s_qid": "Q11785957", "s_label": "Cầu Łazienkowski", "o_qid": "Q56196401", "o_label": "European route E30 in Poland", "start": 1980, "end": 2013, "relation": "P2505", "r_label": "carries thoroughfare"}
+{"s_qid": "Q11785957", "s_label": "Cầu Łazienkowski", "o_qid": "Q9211114", "o_label": "E8 road in Poland", "start": null, "end": 1980, "relation": "P2505", "r_label": "carries thoroughfare"}
+{"s_qid": "Q11871372", "s_label": "Kiiminkijoki Bridge", "o_qid": "Q2006658", "o_label": "Main road 4", "start": 1954, "end": 1993, "relation": "P2505", "r_label": "carries thoroughfare"}
+{"s_qid": "Q117313319", "s_label": "Midford Viaduct", "o_qid": "Q7559923", "o_label": "Somerset and Dorset Joint Railway", "start": 1874, "end": null, "relation": "P2505", "r_label": "carries thoroughfare"}
+{"s_qid": "Q136943230", "s_label": "footbridge at Burgau weir (Jena, Thuringia)", "o_qid": "Q3352369", "o_label": "đường đi bộ", "start": null, "end": 2012, "relation": "P2505", "r_label": "carries thoroughfare"}
+{"s_qid": "Q17776513", "s_label": "Old Bridge of Awe", "o_qid": "Q34442", "o_label": "đường", "start": null, "end": 1992, "relation": "P2505", "r_label": "carries thoroughfare"}
+{"s_qid": "Q3396687", "s_label": "Chief William Commanda Bridge", "o_qid": "Q728937", "o_label": "tuyến đường sắt", "start": 1880, "end": null, "relation": "P2505", "r_label": "carries thoroughfare"}
+{"s_qid": "Q9255051", "s_label": "Obrzyca river overpass", "o_qid": "Q9211416", "o_label": "Voivodeship road 433", "start": 2016, "end": null, "relation": "P2505", "r_label": "carries thoroughfare"}
+{"s_qid": "Q9255051", "s_label": "Obrzyca river overpass", "o_qid": "Q1089985", "o_label": "National road 11", "start": 2000, "end": 2014, "relation": "P2505", "r_label": "carries thoroughfare"}
+{"s_qid": "Q19383081", "s_label": "Nomeland tunnel", "o_qid": "Q1769317", "o_label": "Setesdal Line", "start": 1920, "end": 1962, "relation": "P2505", "r_label": "carries thoroughfare"}
+{"s_qid": "Q59484923", "s_label": "Passerelle de la chute Montmorency", "o_qid": "Q34442", "o_label": "đường", "start": null, "end": 1993, "relation": "P2505", "r_label": "carries thoroughfare"}
+{"s_qid": "Q113385737", "s_label": "Gosford Bridge", "o_qid": "Q112076709", "o_label": "Saint-Raymond Subdivision", "start": 1880, "end": 1910, "relation": "P2505", "r_label": "carries thoroughfare"}
+{"s_qid": "Q130245231", "s_label": "Gjevingåsen tunnel", "o_qid": "Q512662", "o_label": "Meråker Line", "start": 1881, "end": 2008, "relation": "P2505", "r_label": "carries thoroughfare"}
+{"s_qid": "Q130245231", "s_label": "Gjevingåsen tunnel", "o_qid": "Q1634815", "o_label": "Nordland Line", "start": 2008, "end": 2011, "relation": "P2505", "r_label": "carries thoroughfare"}
+{"s_qid": "Q130245231", "s_label": "Gjevingåsen tunnel", "o_qid": "Q130219825", "o_label": "Trondheim–Hell railway line", "start": 1881, "end": 2011, "relation": "P2505", "r_label": "carries thoroughfare"}
+{"s_qid": "Q136306163", "s_label": "Côte Joyeuse railway bridge", "o_qid": "Q112076709", "o_label": "Saint-Raymond Subdivision", "start": null, "end": 1990, "relation": "P2505", "r_label": "carries thoroughfare"}

@@ -1,3 +1,4 @@
-{"s_qid": "Q312439", "s_label": "Eastern Medal", "o_qid": "Q7318", "o_label": "Đức Quốc Xã", "start": 1942, "end": 1944, "relation": "P495", "r_label": "quốc gia xuất xứ"}
-{"s_qid": "Q136342801", "s_label": "Boursier de la fondation Lambert Darchis", "o_qid": "Q15864", "o_label": "Vương quốc Liên hiệp Hà Lan", "start": 1815, "end": 1830, "relation": "P495", "r_label": "quốc gia xuất xứ"}
-{"s_qid": "Q136342801", "s_label": "Boursier de la fondation Lambert Darchis", "o_qid": "Q31", "o_label": "Bỉ", "start": 1830, "end": null, "relation": "P495", "r_label": "quốc gia xuất xứ"}
+{"s_qid": "Q312439", "s_label": "Eastern Medal", "s_lang": "en", "o_qid": "Q7318", "o_label": "Đức Quốc Xã", "o_lang": "vi", "start": 1942, "end": 1944, "relation": "P495", "r_label": "quốc gia xuất xứ", "r_lang": "vi"}
+{"s_qid": "Q136342801", "s_label": "Boursier de la fondation Lambert Darchis", "s_lang": "en", "o_qid": "Q15864", "o_label": "Vương quốc Liên hiệp Hà Lan", "o_lang": "vi", "start": 1815, "end": 1830, "relation": "P495", "r_label": "quốc gia xuất xứ", "r_lang": "vi"}
+{"s_qid": "Q136342801", "s_label": "Boursier de la fondation Lambert Darchis", "s_lang": "en", "o_qid": "Q31", "o_label": "Bỉ", "o_lang": "vi", "start": 1830, "end": null, "relation": "P495", "r_label": "quốc gia xuất xứ", "r_lang": "vi"}
+{"s_qid": "Q1788876", "s_label": "War Merit Cross", "s_lang": "en", "o_qid": "Q1206012", "o_label": "German Reich", "o_lang": "vi", "start": 1939, "end": 1945, "relation": "P495", "r_label": "quốc gia xuất xứ", "r_lang": "vi"}

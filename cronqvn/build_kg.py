@@ -364,24 +364,31 @@ def step4_filter_entities(facts: list[dict]) -> tuple[list[dict], set[str]]:
 
 def write_cache(facts: list[dict], labels: dict[str, dict],
                 needed: set[str], rel_labels: dict[str, dict]) -> None:
-    def lab(qid: str) -> str:
+    def lab(qid: str) -> tuple[str, str]:
         d = labels[qid]
-        return d.get("vi") or d.get("en")
+        if d.get("vi"):
+            return d["vi"], "vi"
+        return d.get("en"), "en"
 
-    def rel_lab(pid: str) -> Optional[str]:
+    def rel_lab(pid: str) -> tuple[Optional[str], Optional[str]]:
         d = rel_labels.get(pid)
         if not d:
-            return None
-        return d.get("vi") or d.get("en")
+            return None, None
+        if d.get("vi"):
+            return d["vi"], "vi"
+        return d.get("en"), "en"
 
     by_rel: dict[str, list[dict]] = defaultdict(list)
     for f in facts:
         pid = f["relation"]
+        s_label, s_lang = lab(f["s_qid"])
+        o_label, o_lang = lab(f["o_qid"])
+        r_label, r_lang = rel_lab(pid)
         by_rel[pid].append({
-            "s_qid": f["s_qid"], "s_label": lab(f["s_qid"]),
-            "o_qid": f["o_qid"], "o_label": lab(f["o_qid"]),
+            "s_qid": f["s_qid"], "s_label": s_label, "s_lang": s_lang,
+            "o_qid": f["o_qid"], "o_label": o_label, "o_lang": o_lang,
             "start": f["start"], "end": f["end"],
-            "relation": pid, "r_label": rel_lab(pid),
+            "relation": pid, "r_label": r_label, "r_lang": r_lang,
         })
 
     cache = Path(CACHE_DIR)

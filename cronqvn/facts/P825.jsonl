@@ -1,0 +1,35 @@
+{"s_qid": "Q136383812", "s_label": "Sint Verenakerk", "o_qid": "Q128267", "o_label": "Thánh Giuse", "start": 1953, "end": 2025, "relation": "P825", "r_label": "dành riêng cho"}
+{"s_qid": "Q136383812", "s_label": "Sint Verenakerk", "o_qid": "Q345", "o_label": "Maria", "start": 2025, "end": null, "relation": "P825", "r_label": "dành riêng cho"}
+{"s_qid": "Q2049869", "s_label": "Tancredo Neves Pantheon of Fatherland and Freedom", "o_qid": "Q939", "o_label": "Pedro I của Brasil", "start": 1999, "end": null, "relation": "P825", "r_label": "dành riêng cho"}
+{"s_qid": "Q2049869", "s_label": "Tancredo Neves Pantheon of Fatherland and Freedom", "o_qid": "Q712089", "o_label": "Luís Alves de Lima e Silva, Duke of Caxias", "start": 2003, "end": null, "relation": "P825", "r_label": "dành riêng cho"}
+{"s_qid": "Q2049869", "s_label": "Tancredo Neves Pantheon of Fatherland and Freedom", "o_qid": "Q379631", "o_label": "José Bonifácio de Andrada e Silva", "start": 2007, "end": null, "relation": "P825", "r_label": "dành riêng cho"}
+{"s_qid": "Q3982235", "s_label": "Teatro Comunale di Modena", "o_qid": "Q37615", "o_label": "Luciano Pavarotti", "start": 2007, "end": null, "relation": "P825", "r_label": "dành riêng cho"}
+{"s_qid": "Q3982235", "s_label": "Teatro Comunale di Modena", "o_qid": "Q231600", "o_label": "Mirella Freni", "start": 2021, "end": null, "relation": "P825", "r_label": "dành riêng cho"}
+{"s_qid": "Q6738080", "s_label": "Major General John A. Logan", "o_qid": "Q954410", "o_label": "John A. Logan", "start": 1901, "end": 1901, "relation": "P825", "r_label": "dành riêng cho"}
+{"s_qid": "Q7594614", "s_label": "St Mary and St Mercurius Coptic Orthodox Church", "o_qid": "Q345", "o_label": "Maria", "start": 1992, "end": null, "relation": "P825", "r_label": "dành riêng cho"}
+{"s_qid": "Q122200475", "s_label": "Chapel of the Sagrada Familia", "o_qid": "Q128267", "o_label": "Thánh Giuse", "start": 1800, "end": 1959, "relation": "P825", "r_label": "dành riêng cho"}
+{"s_qid": "Q153312", "s_label": "Sân vận động Tưởng niệm Robert F. Kennedy", "o_qid": "Q25310", "o_label": "Robert F. Kennedy", "start": 1969, "end": null, "relation": "P825", "r_label": "dành riêng cho"}
+{"s_qid": "Q2901276", "s_label": "Dag Hammarskjöld Library", "o_qid": "Q1267", "o_label": "Dag Hammarskjöld", "start": 1961, "end": 1961, "relation": "P825", "r_label": "dành riêng cho"}
+{"s_qid": "Q110463540", "s_label": "The golden full", "o_qid": "Q4457", "o_label": "Franz Beckenbauer", "start": 2015, "end": 2015, "relation": "P825", "r_label": "dành riêng cho"}
+{"s_qid": "Q110463540", "s_label": "The golden full", "o_qid": "Q22686", "o_label": "Donald Trump", "start": 2015, "end": 2015, "relation": "P825", "r_label": "dành riêng cho"}
+{"s_qid": "Q110463540", "s_label": "The golden full", "o_qid": "Q18176756", "o_label": "Björn Höcke", "start": 2015, "end": 2015, "relation": "P825", "r_label": "dành riêng cho"}
+{"s_qid": "Q110463540", "s_label": "The golden full", "o_qid": "Q66048", "o_label": "Deutsche Bank", "start": 2016, "end": 2016, "relation": "P825", "r_label": "dành riêng cho"}
+{"s_qid": "Q110463540", "s_label": "The golden full", "o_qid": "Q156578", "o_label": "Tập đoàn Volkswagen", "start": 2016, "end": 2016, "relation": "P825", "r_label": "dành riêng cho"}
+{"s_qid": "Q110463540", "s_label": "The golden full", "o_qid": "Q6721203", "o_label": "Alternative für Deutschland", "start": 2016, "end": 2016, "relation": "P825", "r_label": "dành riêng cho"}
+{"s_qid": "Q110463540", "s_label": "The golden full", "o_qid": "Q61051", "o_label": "Winfried Kretschmann", "start": 2016, "end": 2016, "relation": "P825", "r_label": "dành riêng cho"}
+{"s_qid": "Q110463540", "s_label": "The golden full", "o_qid": "Q57956", "o_label": "Günther Oettinger", "start": 2016, "end": 2016, "relation": "P825", "r_label": "dành riêng cho"}
+{"s_qid": "Q110463540", "s_label": "The golden full", "o_qid": "Q7747", "o_label": "Vladimir Putin", "start": 2016, "end": 2016, "relation": "P825", "r_label": "dành riêng cho"}
+{"s_qid": "Q110463540", "s_label": "The golden full", "o_qid": "Q39259", "o_label": "Recep Tayyip Erdoğan", "start": 2016, "end": 2016, "relation": "P825", "r_label": "dành riêng cho"}
+{"s_qid": "Q1699980", "s_label": "John Ericsson National Memorial", "o_qid": "Q435290", "o_label": "John Ericsson", "start": 1926, "end": 1926, "relation": "P825", "r_label": "dành riêng cho"}
+{"s_qid": "Q3682887", "s_label": "St. Isidore's Collegiate Church", "o_qid": "Q163900", "o_label": "Phanxicô Xaviê", "start": null, "end": 1767, "relation": "P825", "r_label": "dành riêng cho"}
+{"s_qid": "Q20529110", "s_label": "Finno-Ugric Capital of Culture", "o_qid": "Q146317", "o_label": "Veszprém", "start": 2016, "end": 2016, "relation": "P825", "r_label": "dành riêng cho"}
+{"s_qid": "Q20529110", "s_label": "Finno-Ugric Capital of Culture", "o_qid": "Q321784", "o_label": "Abja-Paluoja", "start": 2021, "end": 2021, "relation": "P825", "r_label": "dành riêng cho"}
+{"s_qid": "Q20529110", "s_label": "Finno-Ugric Capital of Culture", "o_qid": "Q939771", "o_label": "Kuhmo", "start": 2023, "end": 2023, "relation": "P825", "r_label": "dành riêng cho"}
+{"s_qid": "Q20529110", "s_label": "Finno-Ugric Capital of Culture", "o_qid": "Q102158", "o_label": "Narva", "start": 2025, "end": 2025, "relation": "P825", "r_label": "dành riêng cho"}
+{"s_qid": "Q24238585", "s_label": "Santa Maria delle Grazie, Pesaro", "o_qid": "Q676555", "o_label": "Phanxicô thành Assisi", "start": 1270, "end": 1922, "relation": "P825", "r_label": "dành riêng cho"}
+{"s_qid": "Q24238585", "s_label": "Santa Maria delle Grazie, Pesaro", "o_qid": "Q33923", "o_label": "Thánh Phêrô", "start": 1150, "end": 1270, "relation": "P825", "r_label": "dành riêng cho"}
+{"s_qid": "Q5117811", "s_label": "Church of the Assumption", "o_qid": "Q345", "o_label": "Maria", "start": 1859, "end": 1883, "relation": "P825", "r_label": "dành riêng cho"}
+{"s_qid": "Q5117811", "s_label": "Church of the Assumption", "o_qid": "Q162691", "o_label": "Lễ Đức Mẹ Lên Trời", "start": 1883, "end": null, "relation": "P825", "r_label": "dành riêng cho"}
+{"s_qid": "Q1571266", "s_label": "Ulysses S. Grant Memorial", "o_qid": "Q34836", "o_label": "Ulysses Simpson Grant", "start": 1922, "end": null, "relation": "P825", "r_label": "dành riêng cho"}
+{"s_qid": "Q1798918", "s_label": "Nhà thờ Dòng Tên ở Warszawa", "o_qid": "Q44281", "o_label": "Inhaxiô thành Loyola", "start": 1626, "end": 1836, "relation": "P825", "r_label": "dành riêng cho"}
+{"s_qid": "Q26668105", "s_label": "Church of St. Basil and St. Paisios, Lincoln", "o_qid": "Q44258", "o_label": "Basiliô Cả", "start": 2021, "end": null, "relation": "P825", "r_label": "dành riêng cho"}

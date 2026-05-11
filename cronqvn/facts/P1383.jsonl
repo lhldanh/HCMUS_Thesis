@@ -1,0 +1,4 @@
+{"s_qid": "Q2927470", "s_label": "Buckingham", "s_lang": "en", "o_qid": "Q3297802", "o_label": "Masson-Angers", "o_lang": "en", "start": 1975, "end": 1980, "relation": "P1383", "r_label": "bao gồm khu dân cư", "r_lang": "vi"}
+{"s_qid": "Q141844", "s_label": "Gatineau", "s_lang": "vi", "o_qid": "Q2927470", "o_label": "Buckingham", "o_lang": "en", "start": 2002, "end": null, "relation": "P1383", "r_label": "bao gồm khu dân cư", "r_lang": "vi"}
+{"s_qid": "Q141844", "s_label": "Gatineau", "s_lang": "vi", "o_qid": "Q3297802", "o_label": "Masson-Angers", "o_lang": "en", "start": 2002, "end": null, "relation": "P1383", "r_label": "bao gồm khu dân cư", "r_lang": "vi"}
+{"s_qid": "Q892526", "s_label": "Groningen", "s_lang": "en", "o_qid": "Q849566", "o_label": "Ten Boer", "o_lang": "vi", "start": 2019, "end": null, "relation": "P1383", "r_label": "bao gồm khu dân cư", "r_lang": "vi"}

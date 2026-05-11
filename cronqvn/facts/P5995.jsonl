@@ -1,0 +1,49 @@
+{"s_qid": "Q378628", "s_label": "England men’s national rugby union team", "o_qid": "Q2567426", "o_label": "Canterbury of New Zealand", "start": 2012, "end": 2020, "relation": "P5995", "r_label": "kit supplier"}
+{"s_qid": "Q378628", "s_label": "England men’s national rugby union team", "o_qid": "Q652047", "o_label": "Umbro", "start": 2020, "end": 2024, "relation": "P5995", "r_label": "kit supplier"}
+{"s_qid": "Q378628", "s_label": "England men’s national rugby union team", "o_qid": "Q483915", "o_label": "Nike", "start": 1997, "end": 2012, "relation": "P5995", "r_label": "kit supplier"}
+{"s_qid": "Q3942387", "s_label": "Rugby Colorno", "o_qid": "Q1439645", "o_label": "Macron", "start": 2013, "end": null, "relation": "P5995", "r_label": "kit supplier"}
+{"s_qid": "Q12278", "s_label": "Sporting de Gijón", "o_qid": "Q483915", "o_label": "Nike", "start": 2016, "end": 2022, "relation": "P5995", "r_label": "kit supplier"}
+{"s_qid": "Q12278", "s_label": "Sporting de Gijón", "o_qid": "Q157064", "o_label": "Puma SE", "start": 2022, "end": null, "relation": "P5995", "r_label": "kit supplier"}
+{"s_qid": "Q609885", "s_label": "Georgia men’s national rugby union team", "o_qid": "Q2567426", "o_label": "Canterbury of New Zealand", "start": null, "end": 2021, "relation": "P5995", "r_label": "kit supplier"}
+{"s_qid": "Q609885", "s_label": "Georgia men’s national rugby union team", "o_qid": "Q1439645", "o_label": "Macron", "start": 2021, "end": null, "relation": "P5995", "r_label": "kit supplier"}
+{"s_qid": "Q775805", "s_label": "Đội tuyển bóng đá nữ quốc gia Ý", "o_qid": "Q3895", "o_label": "Adidas", "start": 2023, "end": null, "relation": "P5995", "r_label": "kit supplier"}
+{"s_qid": "Q2982210", "s_label": "Sporting de Gijón B", "o_qid": "Q157064", "o_label": "Puma SE", "start": 2022, "end": null, "relation": "P5995", "r_label": "kit supplier"}
+{"s_qid": "Q112672372", "s_label": "Delay Sports Berlin", "o_qid": "Q3895", "o_label": "Adidas", "start": 2022, "end": null, "relation": "P5995", "r_label": "kit supplier"}
+{"s_qid": "Q181903", "s_label": "Đội tuyển bóng đá quốc gia Algérie", "o_qid": "Q3895", "o_label": "Adidas", "start": 2015, "end": null, "relation": "P5995", "r_label": "kit supplier"}
+{"s_qid": "Q695374", "s_label": "Germany national rugby union team", "o_qid": "Q1439645", "o_label": "Macron", "start": 2018, "end": null, "relation": "P5995", "r_label": "kit supplier"}
+{"s_qid": "Q807749", "s_label": "Barbarian FC", "o_qid": "Q1439645", "o_label": "Macron", "start": 2024, "end": null, "relation": "P5995", "r_label": "kit supplier"}
+{"s_qid": "Q950674", "s_label": "Zebre", "o_qid": "Q1439645", "o_label": "Macron", "start": 2019, "end": 2023, "relation": "P5995", "r_label": "kit supplier"}
+{"s_qid": "Q950674", "s_label": "Zebre", "o_qid": "Q2567426", "o_label": "Canterbury of New Zealand", "start": 2023, "end": null, "relation": "P5995", "r_label": "kit supplier"}
+{"s_qid": "Q61740138", "s_label": "Rugby Colorno", "o_qid": "Q1439645", "o_label": "Macron", "start": 2013, "end": null, "relation": "P5995", "r_label": "kit supplier"}
+{"s_qid": "Q74030", "s_label": "Football Bourg-en-Bresse Péronnas 01", "o_qid": "Q3895", "o_label": "Adidas", "start": 2015, "end": 2018, "relation": "P5995", "r_label": "kit supplier"}
+{"s_qid": "Q74030", "s_label": "Football Bourg-en-Bresse Péronnas 01", "o_qid": "Q483915", "o_label": "Nike", "start": 2018, "end": null, "relation": "P5995", "r_label": "kit supplier"}
+{"s_qid": "Q113135", "s_label": "Italy national rugby union team", "o_qid": "Q3895", "o_label": "Adidas", "start": 1983, "end": 1987, "relation": "P5995", "r_label": "kit supplier"}
+{"s_qid": "Q113135", "s_label": "Italy national rugby union team", "o_qid": "Q2567426", "o_label": "Canterbury of New Zealand", "start": 2000, "end": 2001, "relation": "P5995", "r_label": "kit supplier"}
+{"s_qid": "Q113135", "s_label": "Italy national rugby union team", "o_qid": "Q3895", "o_label": "Adidas", "start": 2012, "end": 2017, "relation": "P5995", "r_label": "kit supplier"}
+{"s_qid": "Q113135", "s_label": "Italy national rugby union team", "o_qid": "Q1439645", "o_label": "Macron", "start": 2017, "end": null, "relation": "P5995", "r_label": "kit supplier"}
+{"s_qid": "Q1471265", "s_label": "USA Perpignan", "o_qid": "Q3895", "o_label": "Adidas", "start": 2019, "end": null, "relation": "P5995", "r_label": "kit supplier"}
+{"s_qid": "Q2129100", "s_label": "Maccabi Haifa F.C.", "o_qid": "Q3895", "o_label": "Adidas", "start": 1983, "end": 1992, "relation": "P5995", "r_label": "kit supplier"}
+{"s_qid": "Q2129100", "s_label": "Maccabi Haifa F.C.", "o_qid": "Q483915", "o_label": "Nike", "start": 1996, "end": 1998, "relation": "P5995", "r_label": "kit supplier"}
+{"s_qid": "Q2129100", "s_label": "Maccabi Haifa F.C.", "o_qid": "Q157064", "o_label": "Puma SE", "start": 2004, "end": 2007, "relation": "P5995", "r_label": "kit supplier"}
+{"s_qid": "Q2129100", "s_label": "Maccabi Haifa F.C.", "o_qid": "Q483915", "o_label": "Nike", "start": 2011, "end": null, "relation": "P5995", "r_label": "kit supplier"}
+{"s_qid": "Q3589715", "s_label": "England women's national rugby union team", "o_qid": "Q2567426", "o_label": "Canterbury of New Zealand", "start": 2015, "end": 2020, "relation": "P5995", "r_label": "kit supplier"}
+{"s_qid": "Q3589715", "s_label": "England women's national rugby union team", "o_qid": "Q652047", "o_label": "Umbro", "start": 2020, "end": null, "relation": "P5995", "r_label": "kit supplier"}
+{"s_qid": "Q113758359", "s_label": "Blues Women", "o_qid": "Q3895", "o_label": "Adidas", "start": 2022, "end": null, "relation": "P5995", "r_label": "kit supplier"}
+{"s_qid": "Q134916", "s_label": "Đội tuyển bóng đá quốc gia Uruguay", "o_qid": "Q157064", "o_label": "Puma SE", "start": 2007, "end": 2023, "relation": "P5995", "r_label": "kit supplier"}
+{"s_qid": "Q134916", "s_label": "Đội tuyển bóng đá quốc gia Uruguay", "o_qid": "Q483915", "o_label": "Nike", "start": 2024, "end": null, "relation": "P5995", "r_label": "kit supplier"}
+{"s_qid": "Q134916", "s_label": "Đội tuyển bóng đá quốc gia Uruguay", "o_qid": "Q3895", "o_label": "Adidas", "start": 1974, "end": 1983, "relation": "P5995", "r_label": "kit supplier"}
+{"s_qid": "Q134916", "s_label": "Đội tuyển bóng đá quốc gia Uruguay", "o_qid": "Q1066156", "o_label": "Le Coq sportif", "start": 1983, "end": 1987, "relation": "P5995", "r_label": "kit supplier"}
+{"s_qid": "Q134916", "s_label": "Đội tuyển bóng đá quốc gia Uruguay", "o_qid": "Q157064", "o_label": "Puma SE", "start": 1987, "end": 1991, "relation": "P5995", "r_label": "kit supplier"}
+{"s_qid": "Q134916", "s_label": "Đội tuyển bóng đá quốc gia Uruguay", "o_qid": "Q3895", "o_label": "Adidas", "start": 1998, "end": 1999, "relation": "P5995", "r_label": "kit supplier"}
+{"s_qid": "Q538747", "s_label": "Scarlets", "o_qid": "Q1439645", "o_label": "Macron", "start": 2017, "end": 2022, "relation": "P5995", "r_label": "kit supplier"}
+{"s_qid": "Q695008", "s_label": "FC Viktoria Köln", "o_qid": "Q157064", "o_label": "Puma SE", "start": 2018, "end": 2021, "relation": "P5995", "r_label": "kit supplier"}
+{"s_qid": "Q818698", "s_label": "FK Velež Mostar", "o_qid": "Q157064", "o_label": "Puma SE", "start": 2024, "end": null, "relation": "P5995", "r_label": "kit supplier"}
+{"s_qid": "Q917973", "s_label": "Bristol Bears", "o_qid": "Q652047", "o_label": "Umbro", "start": 2020, "end": null, "relation": "P5995", "r_label": "kit supplier"}
+{"s_qid": "Q483020", "s_label": "Paris Saint-Germain", "o_qid": "Q483915", "o_label": "Nike", "start": 1989, "end": null, "relation": "P5995", "r_label": "kit supplier"}
+{"s_qid": "Q113635298", "s_label": "Chiefs Manawa", "o_qid": "Q3895", "o_label": "Adidas", "start": 2022, "end": null, "relation": "P5995", "r_label": "kit supplier"}
+{"s_qid": "Q7156", "s_label": "F.C. Barcelona", "o_qid": "Q483915", "o_label": "Nike", "start": 1998, "end": null, "relation": "P5995", "r_label": "kit supplier"}
+{"s_qid": "Q238593", "s_label": "D.C. United", "o_qid": "Q3895", "o_label": "Adidas", "start": 1996, "end": null, "relation": "P5995", "r_label": "kit supplier"}
+{"s_qid": "Q297901", "s_label": "ASM Clermont Auvergne", "o_qid": "Q2031485", "o_label": "Under Armour", "start": null, "end": 2020, "relation": "P5995", "r_label": "kit supplier"}
+{"s_qid": "Q1134669", "s_label": "Fiji national rugby union team", "o_qid": "Q483915", "o_label": "Nike", "start": 2021, "end": null, "relation": "P5995", "r_label": "kit supplier"}
+{"s_qid": "Q1480459", "s_label": "Füchse Berlin", "o_qid": "Q157064", "o_label": "Puma SE", "start": 2020, "end": null, "relation": "P5995", "r_label": "kit supplier"}
+{"s_qid": "Q36181789", "s_label": "Rugby Club I Medicei", "o_qid": "Q1439645", "o_label": "Macron", "start": 2015, "end": 2021, "relation": "P5995", "r_label": "kit supplier"}

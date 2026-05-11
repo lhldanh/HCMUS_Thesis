@@ -1,0 +1,9 @@
+{"s_qid": "Q132774200", "s_label": "Wikibase Faceted Search", "o_qid": "Q59", "o_label": "PHP", "start": 2025, "end": 2025, "relation": "P277", "r_label": "ngôn ngữ lập trình"}
+{"s_qid": "Q22712965", "s_label": "Chameleon", "o_qid": "Q59", "o_label": "PHP", "start": 2025, "end": 2025, "relation": "P277", "r_label": "ngôn ngữ lập trình"}
+{"s_qid": "Q21676802", "s_label": "Bootstrap", "o_qid": "Q59", "o_label": "PHP", "start": 2024, "end": 2024, "relation": "P277", "r_label": "ngôn ngữ lập trình"}
+{"s_qid": "Q1136", "s_label": "Reddit", "o_qid": "Q28865", "o_label": "Python", "start": 2005, "end": null, "relation": "P277", "r_label": "ngôn ngữ lập trình"}
+{"s_qid": "Q20728", "s_label": "Semantic MediaWiki", "o_qid": "Q59", "o_label": "PHP", "start": 2025, "end": 2025, "relation": "P277", "r_label": "ngôn ngữ lập trình"}
+{"s_qid": "Q124366031", "s_label": "MediaWiki SCSS library", "o_qid": "Q59", "o_label": "PHP", "start": 2025, "end": 2025, "relation": "P277", "r_label": "ngôn ngữ lập trình"}
+{"s_qid": "Q1147042", "s_label": "GCompris", "o_qid": "Q28865", "o_label": "Python", "start": 2000, "end": 2017, "relation": "P277", "r_label": "ngôn ngữ lập trình"}
+{"s_qid": "Q110040867", "s_label": "Dopamine", "o_qid": "Q978185", "o_label": "TypeScript", "start": 2021, "end": null, "relation": "P277", "r_label": "ngôn ngữ lập trình"}
+{"s_qid": "Q124455442", "s_label": "SPARQL", "o_qid": "Q59", "o_label": "PHP", "start": 2023, "end": 2023, "relation": "P277", "r_label": "ngôn ngữ lập trình"}

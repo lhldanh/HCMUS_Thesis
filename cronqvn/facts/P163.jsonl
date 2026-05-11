@@ -1,0 +1,4 @@
+{"s_qid": "Q1494", "s_label": "Mississippi", "o_qid": "Q96761402", "o_label": "lá cờ Mississippi năm 1894", "start": null, "end": 2020, "relation": "P163", "r_label": "lá cờ"}
+{"s_qid": "Q7887623", "s_label": "United Colonies", "o_qid": "Q2509336", "o_label": "Continental Union Flag", "start": 1775, "end": 1776, "relation": "P163", "r_label": "lá cờ"}
+{"s_qid": "Q1588", "s_label": "Louisiana", "o_qid": "Q97536600", "o_label": "flag of Louisiana", "start": 1861, "end": 1868, "relation": "P163", "r_label": "lá cờ"}
+{"s_qid": "Q9866", "s_label": "Sint-Michielsgestel", "o_qid": "Q93293201", "o_label": "flag of Sint-Michielsgestel", "start": 1963, "end": 1996, "relation": "P163", "r_label": "lá cờ"}

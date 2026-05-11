@@ -1,3 +1,8 @@
-{"s_qid": "Q19877", "s_label": "Museo Egizio", "o_qid": "Q1543615", "o_label": "gratis", "start": 2021, "end": 2021, "relation": "P2848", "r_label": "Wi-Fi access"}
-{"s_qid": "Q1376", "s_label": "Musée Saint-Raymond", "o_qid": "Q1543615", "o_label": "gratis", "start": 2016, "end": null, "relation": "P2848", "r_label": "Wi-Fi access"}
-{"s_qid": "Q16335902", "s_label": "Pinacoteca \"Giuseppe De Nittis\"", "o_qid": "Q1543615", "o_label": "gratis", "start": 2021, "end": 2021, "relation": "P2848", "r_label": "Wi-Fi access"}
+{"s_qid": "Q19877", "s_label": "Museo Egizio", "s_lang": "en", "o_qid": "Q1543615", "o_label": "gratis", "o_lang": "en", "start": 2021, "end": 2021, "relation": "P2848", "r_label": "Wi-Fi access", "r_lang": "en"}
+{"s_qid": "Q338523", "s_label": "Học viện San Luca", "s_lang": "vi", "o_qid": "Q1543615", "o_label": "gratis", "o_lang": "en", "start": 2021, "end": 2021, "relation": "P2848", "r_label": "Wi-Fi access", "r_lang": "en"}
+{"s_qid": "Q1080108", "s_label": "Galleria Nazionale delle Marche", "s_lang": "en", "o_qid": "Q1543615", "o_label": "gratis", "o_lang": "en", "start": 2021, "end": 2021, "relation": "P2848", "r_label": "Wi-Fi access", "r_lang": "en"}
+{"s_qid": "Q913148", "s_label": "Hospital of Santa Maria Nuova", "s_lang": "en", "o_qid": "Q1543615", "o_label": "gratis", "o_lang": "en", "start": 2021, "end": 2021, "relation": "P2848", "r_label": "Wi-Fi access", "r_lang": "en"}
+{"s_qid": "Q1376", "s_label": "Musée Saint-Raymond", "s_lang": "en", "o_qid": "Q1543615", "o_label": "gratis", "o_lang": "en", "start": 2016, "end": null, "relation": "P2848", "r_label": "Wi-Fi access", "r_lang": "en"}
+{"s_qid": "Q338367", "s_label": "Accademia Carrara", "s_lang": "en", "o_qid": "Q1543615", "o_label": "gratis", "o_lang": "en", "start": 2021, "end": 2021, "relation": "P2848", "r_label": "Wi-Fi access", "r_lang": "en"}
+{"s_qid": "Q1492387", "s_label": "Galleria Nazionale d'Arte Moderna e Contemporanea di Roma", "s_lang": "en", "o_qid": "Q1543615", "o_label": "gratis", "o_lang": "en", "start": 2021, "end": 2021, "relation": "P2848", "r_label": "Wi-Fi access", "r_lang": "en"}
+{"s_qid": "Q16335902", "s_label": "Pinacoteca \"Giuseppe De Nittis\"", "s_lang": "en", "o_qid": "Q1543615", "o_label": "gratis", "o_lang": "en", "start": 2021, "end": 2021, "relation": "P2848", "r_label": "Wi-Fi access", "r_lang": "en"}

@@ -1,0 +1,16 @@
+{"s_qid": "Q46138", "s_label": "USCGC Burton Island", "o_qid": "Q1132216", "o_label": "Bofors 40 mm", "start": 1946, "end": 1966, "relation": "P520", "r_label": "vũ khí"}
+{"s_qid": "Q1344146", "s_label": "HSwMS Fylgia", "o_qid": "Q10397340", "o_label": "57 mm m/89 gun", "start": null, "end": 1941, "relation": "P520", "r_label": "vũ khí"}
+{"s_qid": "Q1344146", "s_label": "HSwMS Fylgia", "o_qid": "Q10397340", "o_label": "57 mm m/89 gun", "start": 1941, "end": null, "relation": "P520", "r_label": "vũ khí"}
+{"s_qid": "Q1344146", "s_label": "HSwMS Fylgia", "o_qid": "Q1132216", "o_label": "Bofors 40 mm", "start": 1941, "end": null, "relation": "P520", "r_label": "vũ khí"}
+{"s_qid": "Q1349330", "s_label": "HSwMS Manligheten", "o_qid": "Q10397340", "o_label": "57 mm m/89 gun", "start": null, "end": 1941, "relation": "P520", "r_label": "vũ khí"}
+{"s_qid": "Q1349330", "s_label": "HSwMS Manligheten", "o_qid": "Q1132216", "o_label": "Bofors 40 mm", "start": 1941, "end": null, "relation": "P520", "r_label": "vũ khí"}
+{"s_qid": "Q10335797", "s_label": "Príncipe Real", "o_qid": "Q81103", "o_label": "Súng thần công", "start": 1793, "end": 1793, "relation": "P520", "r_label": "vũ khí"}
+{"s_qid": "Q10335797", "s_label": "Príncipe Real", "o_qid": "Q81103", "o_label": "Súng thần công", "start": 1805, "end": 1805, "relation": "P520", "r_label": "vũ khí"}
+{"s_qid": "Q1342496", "s_label": "HSwMS Oscar II", "o_qid": "Q10397340", "o_label": "57 mm m/89 gun", "start": null, "end": 1939, "relation": "P520", "r_label": "vũ khí"}
+{"s_qid": "Q10513270", "s_label": "HSwMS Jägaren", "o_qid": "Q1132216", "o_label": "Bofors 40 mm", "start": 2010, "end": null, "relation": "P520", "r_label": "vũ khí"}
+{"s_qid": "Q2301393", "s_label": "Allen M. Sumner", "o_qid": "Q1132216", "o_label": "Bofors 40 mm", "start": null, "end": 1950, "relation": "P520", "r_label": "vũ khí"}
+{"s_qid": "Q860057", "s_label": "USS Langley", "o_qid": "Q11436", "o_label": "khí cụ bay", "start": 1922, "end": 1922, "relation": "P520", "r_label": "vũ khí"}
+{"s_qid": "Q1259156", "s_label": "HSwMS Dristigheten", "o_qid": "Q10397340", "o_label": "57 mm m/89 gun", "start": null, "end": 1927, "relation": "P520", "r_label": "vũ khí"}
+{"s_qid": "Q1259156", "s_label": "HSwMS Dristigheten", "o_qid": "Q1132216", "o_label": "Bofors 40 mm", "start": 1927, "end": null, "relation": "P520", "r_label": "vũ khí"}
+{"s_qid": "Q2708050", "s_label": "NRP Vasco da Gama", "o_qid": "Q81103", "o_label": "Súng thần công", "start": 1876, "end": 1876, "relation": "P520", "r_label": "vũ khí"}
+{"s_qid": "Q2708050", "s_label": "NRP Vasco da Gama", "o_qid": "Q81103", "o_label": "Súng thần công", "start": 1901, "end": 1901, "relation": "P520", "r_label": "vũ khí"}

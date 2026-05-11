@@ -1,0 +1,111 @@
+{"s_qid": "Q2508238", "s_label": "Ngọn hải đăng Cape Hatteras", "o_qid": "Q24629112", "o_label": "first order Fresnel lens", "start": 1870, "end": 1970, "relation": "P9597", "r_label": "type of lens"}
+{"s_qid": "Q10474994", "s_label": "Djursten lighthouse", "o_qid": "Q1087850", "o_label": "parabolic reflector", "start": null, "end": 1882, "relation": "P9597", "r_label": "type of lens"}
+{"s_qid": "Q10474994", "s_label": "Djursten lighthouse", "o_qid": "Q24629169", "o_label": "third order Fresnel lens", "start": 1882, "end": null, "relation": "P9597", "r_label": "type of lens"}
+{"s_qid": "Q10678575", "s_label": "Stenkyrkehuk lighthouse", "o_qid": "Q24629169", "o_label": "third order Fresnel lens", "start": null, "end": 1960, "relation": "P9597", "r_label": "type of lens"}
+{"s_qid": "Q10678575", "s_label": "Stenkyrkehuk lighthouse", "o_qid": "Q24629112", "o_label": "first order Fresnel lens", "start": 1960, "end": 1991, "relation": "P9597", "r_label": "type of lens"}
+{"s_qid": "Q10678575", "s_label": "Stenkyrkehuk lighthouse", "o_qid": "Q24629348", "o_label": "sixth order Fresnel lens", "start": 1991, "end": null, "relation": "P9597", "r_label": "type of lens"}
+{"s_qid": "Q10681295", "s_label": "Storkläppen Lighthouse", "o_qid": "Q24628998", "o_label": "fifth order Fresnel lens", "start": null, "end": 1931, "relation": "P9597", "r_label": "type of lens"}
+{"s_qid": "Q10681295", "s_label": "Storkläppen Lighthouse", "o_qid": "Q24629281", "o_label": "fourth order Fresnel lens", "start": 1931, "end": null, "relation": "P9597", "r_label": "type of lens"}
+{"s_qid": "Q10727264", "s_label": "Ölands Södra Grund", "o_qid": "Q24629169", "o_label": "third order Fresnel lens", "start": null, "end": 1969, "relation": "P9597", "r_label": "type of lens"}
+{"s_qid": "Q39867552", "s_label": "Malmö Inner lighthouse", "o_qid": "Q24629281", "o_label": "fourth order Fresnel lens", "start": null, "end": 1928, "relation": "P9597", "r_label": "type of lens"}
+{"s_qid": "Q39867552", "s_label": "Malmö Inner lighthouse", "o_qid": "Q24629169", "o_label": "third order Fresnel lens", "start": 1928, "end": null, "relation": "P9597", "r_label": "type of lens"}
+{"s_qid": "Q40322292", "s_label": "Segerstad lighthouse", "o_qid": "Q24629169", "o_label": "third order Fresnel lens", "start": null, "end": 1967, "relation": "P9597", "r_label": "type of lens"}
+{"s_qid": "Q40322292", "s_label": "Segerstad lighthouse", "o_qid": "Q24629281", "o_label": "fourth order Fresnel lens", "start": 1967, "end": null, "relation": "P9597", "r_label": "type of lens"}
+{"s_qid": "Q41692510", "s_label": "Holmögadd", "o_qid": "Q1087850", "o_label": "parabolic reflector", "start": null, "end": 1896, "relation": "P9597", "r_label": "type of lens"}
+{"s_qid": "Q41692510", "s_label": "Holmögadd", "o_qid": "Q24629169", "o_label": "third order Fresnel lens", "start": 1896, "end": null, "relation": "P9597", "r_label": "type of lens"}
+{"s_qid": "Q4913574", "s_label": "Biloxi Light", "o_qid": "Q24629281", "o_label": "fourth order Fresnel lens", "start": 1848, "end": null, "relation": "P9597", "r_label": "type of lens"}
+{"s_qid": "Q4913574", "s_label": "Biloxi Light", "o_qid": "Q24628998", "o_label": "fifth order Fresnel lens", "start": 1926, "end": null, "relation": "P9597", "r_label": "type of lens"}
+{"s_qid": "Q10707121", "s_label": "Tylö lighthouse", "o_qid": "Q24629169", "o_label": "third order Fresnel lens", "start": null, "end": 2010, "relation": "P9597", "r_label": "type of lens"}
+{"s_qid": "Q30313106", "s_label": "Storjungfrun lighthouse", "o_qid": "Q24629169", "o_label": "third order Fresnel lens", "start": 1853, "end": 1943, "relation": "P9597", "r_label": "type of lens"}
+{"s_qid": "Q30313106", "s_label": "Storjungfrun lighthouse", "o_qid": "Q24629134", "o_label": "second order Fresnel lens", "start": 1943, "end": null, "relation": "P9597", "r_label": "type of lens"}
+{"s_qid": "Q38712696", "s_label": "Utgrunden lighthouse", "o_qid": "Q24629169", "o_label": "third order Fresnel lens", "start": null, "end": 2003, "relation": "P9597", "r_label": "type of lens"}
+{"s_qid": "Q39130556", "s_label": "Furö lighthouse", "o_qid": "Q108563988", "o_label": "sidereal reflector", "start": null, "end": 1887, "relation": "P9597", "r_label": "type of lens"}
+{"s_qid": "Q39130556", "s_label": "Furö lighthouse", "o_qid": "Q24628998", "o_label": "fifth order Fresnel lens", "start": 1887, "end": null, "relation": "P9597", "r_label": "type of lens"}
+{"s_qid": "Q39131733", "s_label": "Djurö lighthouse", "o_qid": "Q1087850", "o_label": "parabolic reflector", "start": null, "end": 1951, "relation": "P9597", "r_label": "type of lens"}
+{"s_qid": "Q39131733", "s_label": "Djurö lighthouse", "o_qid": "Q24629281", "o_label": "fourth order Fresnel lens", "start": 1951, "end": null, "relation": "P9597", "r_label": "type of lens"}
+{"s_qid": "Q111513211", "s_label": "Hallstavik lower light", "o_qid": "Q24629348", "o_label": "sixth order Fresnel lens", "start": null, "end": 1964, "relation": "P9597", "r_label": "type of lens"}
+{"s_qid": "Q111513211", "s_label": "Hallstavik lower light", "o_qid": "Q1087850", "o_label": "parabolic reflector", "start": 1964, "end": null, "relation": "P9597", "r_label": "type of lens"}
+{"s_qid": "Q1235762", "s_label": "Kapelludden lighthouse", "o_qid": "Q24629134", "o_label": "second order Fresnel lens", "start": null, "end": 1967, "relation": "P9597", "r_label": "type of lens"}
+{"s_qid": "Q1235762", "s_label": "Kapelludden lighthouse", "o_qid": "Q24629169", "o_label": "third order Fresnel lens", "start": 1967, "end": null, "relation": "P9597", "r_label": "type of lens"}
+{"s_qid": "Q5034639", "s_label": "Cape Canaveral Light", "o_qid": "Q24629112", "o_label": "first order Fresnel lens", "start": 1868, "end": 1993, "relation": "P9597", "r_label": "type of lens"}
+{"s_qid": "Q9367535", "s_label": "Utklippan lighthouse", "o_qid": "Q24629134", "o_label": "second order Fresnel lens", "start": null, "end": 1972, "relation": "P9597", "r_label": "type of lens"}
+{"s_qid": "Q38124814", "s_label": "Örskär lighthouse", "o_qid": "Q1087850", "o_label": "parabolic reflector", "start": null, "end": 1925, "relation": "P9597", "r_label": "type of lens"}
+{"s_qid": "Q38124814", "s_label": "Örskär lighthouse", "o_qid": "Q24629169", "o_label": "third order Fresnel lens", "start": 1925, "end": null, "relation": "P9597", "r_label": "type of lens"}
+{"s_qid": "Q45732567", "s_label": "Eggegrund West lighthouse", "o_qid": "Q108563988", "o_label": "sidereal reflector", "start": null, "end": 1884, "relation": "P9597", "r_label": "type of lens"}
+{"s_qid": "Q45732567", "s_label": "Eggegrund West lighthouse", "o_qid": "Q24629281", "o_label": "fourth order Fresnel lens", "start": 1884, "end": null, "relation": "P9597", "r_label": "type of lens"}
+{"s_qid": "Q2351999", "s_label": "Stora Fjäderägg lighthouse", "o_qid": "Q1087850", "o_label": "parabolic reflector", "start": null, "end": 1914, "relation": "P9597", "r_label": "type of lens"}
+{"s_qid": "Q2351999", "s_label": "Stora Fjäderägg lighthouse", "o_qid": "Q24629169", "o_label": "third order Fresnel lens", "start": 1921, "end": 1955, "relation": "P9597", "r_label": "type of lens"}
+{"s_qid": "Q2351999", "s_label": "Stora Fjäderägg lighthouse", "o_qid": "Q24629281", "o_label": "fourth order Fresnel lens", "start": 1955, "end": null, "relation": "P9597", "r_label": "type of lens"}
+{"s_qid": "Q7071390", "s_label": "När lighthouse", "o_qid": "Q24629169", "o_label": "third order Fresnel lens", "start": null, "end": 1936, "relation": "P9597", "r_label": "type of lens"}
+{"s_qid": "Q7071390", "s_label": "När lighthouse", "o_qid": "Q24629281", "o_label": "fourth order Fresnel lens", "start": 1936, "end": null, "relation": "P9597", "r_label": "type of lens"}
+{"s_qid": "Q7666295", "s_label": "Söderarm lighthouse", "o_qid": "Q1087850", "o_label": "parabolic reflector", "start": null, "end": 1928, "relation": "P9597", "r_label": "type of lens"}
+{"s_qid": "Q7666295", "s_label": "Söderarm lighthouse", "o_qid": "Q24629169", "o_label": "third order Fresnel lens", "start": 1928, "end": null, "relation": "P9597", "r_label": "type of lens"}
+{"s_qid": "Q10438713", "s_label": "Bönan old lighthouse", "o_qid": "Q24629348", "o_label": "sixth order Fresnel lens", "start": 1891, "end": null, "relation": "P9597", "r_label": "type of lens"}
+{"s_qid": "Q10438713", "s_label": "Bönan old lighthouse", "o_qid": "Q108563988", "o_label": "sidereal reflector", "start": null, "end": 1891, "relation": "P9597", "r_label": "type of lens"}
+{"s_qid": "Q10532070", "s_label": "Hållö lighthouse", "o_qid": "Q1087850", "o_label": "parabolic reflector", "start": null, "end": 1868, "relation": "P9597", "r_label": "type of lens"}
+{"s_qid": "Q10532070", "s_label": "Hållö lighthouse", "o_qid": "Q24629134", "o_label": "second order Fresnel lens", "start": 1868, "end": 1969, "relation": "P9597", "r_label": "type of lens"}
+{"s_qid": "Q15618802", "s_label": "Lundy North Lighthouse", "o_qid": "Q24629112", "o_label": "first order Fresnel lens", "start": 1897, "end": 1971, "relation": "P9597", "r_label": "type of lens"}
+{"s_qid": "Q15618802", "s_label": "Lundy North Lighthouse", "o_qid": "Q24629281", "o_label": "fourth order Fresnel lens", "start": 1971, "end": 1991, "relation": "P9597", "r_label": "type of lens"}
+{"s_qid": "Q24641188", "s_label": "Stora Karlsö lighthouse", "o_qid": "Q24629169", "o_label": "third order Fresnel lens", "start": null, "end": 1974, "relation": "P9597", "r_label": "type of lens"}
+{"s_qid": "Q24641188", "s_label": "Stora Karlsö lighthouse", "o_qid": "Q24629281", "o_label": "fourth order Fresnel lens", "start": 1986, "end": null, "relation": "P9597", "r_label": "type of lens"}
+{"s_qid": "Q32275526", "s_label": "Lakholmen lighthouse", "o_qid": "Q24629281", "o_label": "fourth order Fresnel lens", "start": null, "end": 1993, "relation": "P9597", "r_label": "type of lens"}
+{"s_qid": "Q32275526", "s_label": "Lakholmen lighthouse", "o_qid": "Q24629348", "o_label": "sixth order Fresnel lens", "start": 1993, "end": null, "relation": "P9597", "r_label": "type of lens"}
+{"s_qid": "Q38673957", "s_label": "Buskär old lighthouse", "o_qid": "Q108563988", "o_label": "sidereal reflector", "start": null, "end": 1878, "relation": "P9597", "r_label": "type of lens"}
+{"s_qid": "Q38673957", "s_label": "Buskär old lighthouse", "o_qid": "Q24628998", "o_label": "fifth order Fresnel lens", "start": 1878, "end": null, "relation": "P9597", "r_label": "type of lens"}
+{"s_qid": "Q42045757", "s_label": "Otterbäcken upper light", "o_qid": "Q1087850", "o_label": "parabolic reflector", "start": null, "end": 1951, "relation": "P9597", "r_label": "type of lens"}
+{"s_qid": "Q42045757", "s_label": "Otterbäcken upper light", "o_qid": "Q24629348", "o_label": "sixth order Fresnel lens", "start": 1951, "end": null, "relation": "P9597", "r_label": "type of lens"}
+{"s_qid": "Q111513212", "s_label": "Hallstavik upper light", "o_qid": "Q24629348", "o_label": "sixth order Fresnel lens", "start": null, "end": 1964, "relation": "P9597", "r_label": "type of lens"}
+{"s_qid": "Q111513212", "s_label": "Hallstavik upper light", "o_qid": "Q1087850", "o_label": "parabolic reflector", "start": 1964, "end": null, "relation": "P9597", "r_label": "type of lens"}
+{"s_qid": "Q1821451", "s_label": "Ngọn hải đăng của Landsort", "o_qid": "Q1087850", "o_label": "parabolic reflector", "start": 1840, "end": 1870, "relation": "P9597", "r_label": "type of lens"}
+{"s_qid": "Q1821451", "s_label": "Ngọn hải đăng của Landsort", "o_qid": "Q24629134", "o_label": "second order Fresnel lens", "start": 1870, "end": 1938, "relation": "P9597", "r_label": "type of lens"}
+{"s_qid": "Q1821451", "s_label": "Ngọn hải đăng của Landsort", "o_qid": "Q24629169", "o_label": "third order Fresnel lens", "start": 1938, "end": null, "relation": "P9597", "r_label": "type of lens"}
+{"s_qid": "Q4992706", "s_label": "Falsterbo lighthouse", "o_qid": "Q24629134", "o_label": "second order Fresnel lens", "start": 1843, "end": null, "relation": "P9597", "r_label": "type of lens"}
+{"s_qid": "Q7810653", "s_label": "Tjärven lighthouse", "o_qid": "Q24629281", "o_label": "fourth order Fresnel lens", "start": null, "end": 1952, "relation": "P9597", "r_label": "type of lens"}
+{"s_qid": "Q7810653", "s_label": "Tjärven lighthouse", "o_qid": "Q24629169", "o_label": "third order Fresnel lens", "start": 1953, "end": null, "relation": "P9597", "r_label": "type of lens"}
+{"s_qid": "Q37756916", "s_label": "Malören lighthouse", "o_qid": "Q108563988", "o_label": "sidereal reflector", "start": null, "end": 1892, "relation": "P9597", "r_label": "type of lens"}
+{"s_qid": "Q37756916", "s_label": "Malören lighthouse", "o_qid": "Q24629281", "o_label": "fourth order Fresnel lens", "start": 1910, "end": null, "relation": "P9597", "r_label": "type of lens"}
+{"s_qid": "Q5612092", "s_label": "Grundkallen lighthouse", "o_qid": "Q24629348", "o_label": "sixth order Fresnel lens", "start": 1992, "end": null, "relation": "P9597", "r_label": "type of lens"}
+{"s_qid": "Q5612869", "s_label": "Grönskär lighthouse", "o_qid": "Q24629169", "o_label": "third order Fresnel lens", "start": 1845, "end": 1961, "relation": "P9597", "r_label": "type of lens"}
+{"s_qid": "Q7651711", "s_label": "Svartklubben lighthouse", "o_qid": "Q1087850", "o_label": "parabolic reflector", "start": 1842, "end": 1897, "relation": "P9597", "r_label": "type of lens"}
+{"s_qid": "Q7651711", "s_label": "Svartklubben lighthouse", "o_qid": "Q24629281", "o_label": "fourth order Fresnel lens", "start": 1897, "end": null, "relation": "P9597", "r_label": "type of lens"}
+{"s_qid": "Q10524998", "s_label": "Hoburg lighthouse", "o_qid": "Q24629112", "o_label": "first order Fresnel lens", "start": 1915, "end": null, "relation": "P9597", "r_label": "type of lens"}
+{"s_qid": "Q10524998", "s_label": "Hoburg lighthouse", "o_qid": "Q1087850", "o_label": "parabolic reflector", "start": null, "end": 1914, "relation": "P9597", "r_label": "type of lens"}
+{"s_qid": "Q37800916", "s_label": "Nidingen twin lighthouses", "o_qid": "Q24629169", "o_label": "third order Fresnel lens", "start": 1846, "end": null, "relation": "P9597", "r_label": "type of lens"}
+{"s_qid": "Q40732874", "s_label": "Hjortens udde", "o_qid": "Q108563988", "o_label": "sidereal reflector", "start": null, "end": 1895, "relation": "P9597", "r_label": "type of lens"}
+{"s_qid": "Q40732874", "s_label": "Hjortens udde", "o_qid": "Q1087850", "o_label": "parabolic reflector", "start": 1895, "end": 1954, "relation": "P9597", "r_label": "type of lens"}
+{"s_qid": "Q40732874", "s_label": "Hjortens udde", "o_qid": "Q24629281", "o_label": "fourth order Fresnel lens", "start": 1954, "end": null, "relation": "P9597", "r_label": "type of lens"}
+{"s_qid": "Q42044667", "s_label": "Otterbäcken lower light", "o_qid": "Q1087850", "o_label": "parabolic reflector", "start": null, "end": 1951, "relation": "P9597", "r_label": "type of lens"}
+{"s_qid": "Q42044667", "s_label": "Otterbäcken lower light", "o_qid": "Q24629348", "o_label": "sixth order Fresnel lens", "start": 1951, "end": null, "relation": "P9597", "r_label": "type of lens"}
+{"s_qid": "Q44833556", "s_label": "Skrivareklippan old lighthouse", "o_qid": "Q24629169", "o_label": "third order Fresnel lens", "start": null, "end": 1913, "relation": "P9597", "r_label": "type of lens"}
+{"s_qid": "Q44833556", "s_label": "Skrivareklippan old lighthouse", "o_qid": "Q24629348", "o_label": "sixth order Fresnel lens", "start": 1913, "end": null, "relation": "P9597", "r_label": "type of lens"}
+{"s_qid": "Q959479", "s_label": "Pater Noster lighthouse", "o_qid": "Q24629112", "o_label": "first order Fresnel lens", "start": null, "end": 1964, "relation": "P9597", "r_label": "type of lens"}
+{"s_qid": "Q959479", "s_label": "Pater Noster lighthouse", "o_qid": "Q24629281", "o_label": "fourth order Fresnel lens", "start": 1964, "end": null, "relation": "P9597", "r_label": "type of lens"}
+{"s_qid": "Q5511494", "s_label": "Fårö lighthouse", "o_qid": "Q1087850", "o_label": "parabolic reflector", "start": null, "end": 1891, "relation": "P9597", "r_label": "type of lens"}
+{"s_qid": "Q5511494", "s_label": "Fårö lighthouse", "o_qid": "Q24629112", "o_label": "first order Fresnel lens", "start": 1891, "end": 1976, "relation": "P9597", "r_label": "type of lens"}
+{"s_qid": "Q5511494", "s_label": "Fårö lighthouse", "o_qid": "Q24629281", "o_label": "fourth order Fresnel lens", "start": 1976, "end": null, "relation": "P9597", "r_label": "type of lens"}
+{"s_qid": "Q15618804", "s_label": "Lundy South Lighthouse", "o_qid": "Q24629112", "o_label": "first order Fresnel lens", "start": 1897, "end": 1962, "relation": "P9597", "r_label": "type of lens"}
+{"s_qid": "Q15618804", "s_label": "Lundy South Lighthouse", "o_qid": "Q24629281", "o_label": "fourth order Fresnel lens", "start": 1962, "end": 1994, "relation": "P9597", "r_label": "type of lens"}
+{"s_qid": "Q28374792", "s_label": "Ystad Inner lighthouse", "o_qid": "Q24629281", "o_label": "fourth order Fresnel lens", "start": null, "end": 1975, "relation": "P9597", "r_label": "type of lens"}
+{"s_qid": "Q28376242", "s_label": "Östergarn old lighthouse", "o_qid": "Q24629169", "o_label": "third order Fresnel lens", "start": 1849, "end": 1919, "relation": "P9597", "r_label": "type of lens"}
+{"s_qid": "Q41441200", "s_label": "Gran lighthouse", "o_qid": "Q24628998", "o_label": "fifth order Fresnel lens", "start": null, "end": 1932, "relation": "P9597", "r_label": "type of lens"}
+{"s_qid": "Q41441200", "s_label": "Gran lighthouse", "o_qid": "Q24629281", "o_label": "fourth order Fresnel lens", "start": 1932, "end": null, "relation": "P9597", "r_label": "type of lens"}
+{"s_qid": "Q712299", "s_label": "Långe Jan", "o_qid": "Q24629134", "o_label": "second order Fresnel lens", "start": 1845, "end": 1906, "relation": "P9597", "r_label": "type of lens"}
+{"s_qid": "Q712299", "s_label": "Långe Jan", "o_qid": "Q24629169", "o_label": "third order Fresnel lens", "start": 1906, "end": null, "relation": "P9597", "r_label": "type of lens"}
+{"s_qid": "Q7565258", "s_label": "Souter Lighthouse", "o_qid": "Q24629169", "o_label": "third order Fresnel lens", "start": 1871, "end": 1914, "relation": "P9597", "r_label": "type of lens"}
+{"s_qid": "Q7565258", "s_label": "Souter Lighthouse", "o_qid": "Q24629112", "o_label": "first order Fresnel lens", "start": 1914, "end": null, "relation": "P9597", "r_label": "type of lens"}
+{"s_qid": "Q10480255", "s_label": "Eggegrund lighthouse", "o_qid": "Q24629281", "o_label": "fourth order Fresnel lens", "start": 1977, "end": null, "relation": "P9597", "r_label": "type of lens"}
+{"s_qid": "Q10480255", "s_label": "Eggegrund lighthouse", "o_qid": "Q24629169", "o_label": "third order Fresnel lens", "start": null, "end": 1977, "relation": "P9597", "r_label": "type of lens"}
+{"s_qid": "Q11899745", "s_label": "Utö Lighthouse", "o_qid": "Q1087850", "o_label": "parabolic reflector", "start": null, "end": 1881, "relation": "P9597", "r_label": "type of lens"}
+{"s_qid": "Q11899745", "s_label": "Utö Lighthouse", "o_qid": "Q24629112", "o_label": "first order Fresnel lens", "start": 1906, "end": null, "relation": "P9597", "r_label": "type of lens"}
+{"s_qid": "Q21167425", "s_label": "Godnatt", "o_qid": "Q24629348", "o_label": "sixth order Fresnel lens", "start": 1977, "end": null, "relation": "P9597", "r_label": "type of lens"}
+{"s_qid": "Q21167425", "s_label": "Godnatt", "o_qid": "Q24629281", "o_label": "fourth order Fresnel lens", "start": null, "end": 1960, "relation": "P9597", "r_label": "type of lens"}
+{"s_qid": "Q37880773", "s_label": "Rödkallen old lighthouse", "o_qid": "Q24629112", "o_label": "first order Fresnel lens", "start": 1893, "end": null, "relation": "P9597", "r_label": "type of lens"}
+{"s_qid": "Q37880773", "s_label": "Rödkallen old lighthouse", "o_qid": "Q1087850", "o_label": "parabolic reflector", "start": null, "end": 1893, "relation": "P9597", "r_label": "type of lens"}
+{"s_qid": "Q39118934", "s_label": "Häradskär lighthouse", "o_qid": "Q24629112", "o_label": "first order Fresnel lens", "start": null, "end": 1968, "relation": "P9597", "r_label": "type of lens"}
+{"s_qid": "Q39118934", "s_label": "Häradskär lighthouse", "o_qid": "Q24629169", "o_label": "third order Fresnel lens", "start": 1968, "end": null, "relation": "P9597", "r_label": "type of lens"}
+{"s_qid": "Q39145498", "s_label": "Nordkoster North lighthouse", "o_qid": "Q1087850", "o_label": "parabolic reflector", "start": null, "end": 1854, "relation": "P9597", "r_label": "type of lens"}
+{"s_qid": "Q39145498", "s_label": "Nordkoster North lighthouse", "o_qid": "Q24629281", "o_label": "fourth order Fresnel lens", "start": 1854, "end": 1891, "relation": "P9597", "r_label": "type of lens"}
+{"s_qid": "Q43315561", "s_label": "Korsö tower", "o_qid": "Q1087850", "o_label": "parabolic reflector", "start": null, "end": 1869, "relation": "P9597", "r_label": "type of lens"}
+{"s_qid": "Q43315561", "s_label": "Korsö tower", "o_qid": "Q24629281", "o_label": "fourth order Fresnel lens", "start": 1869, "end": 1882, "relation": "P9597", "r_label": "type of lens"}
+{"s_qid": "Q111302670", "s_label": "Cape Canaveral Light", "o_qid": "Q1087850", "o_label": "parabolic reflector", "start": 1849, "end": 1861, "relation": "P9597", "r_label": "type of lens"}
+{"s_qid": "Q111302670", "s_label": "Cape Canaveral Light", "o_qid": "Q24629281", "o_label": "fourth order Fresnel lens", "start": 1867, "end": 1868, "relation": "P9597", "r_label": "type of lens"}

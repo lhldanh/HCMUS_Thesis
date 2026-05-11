@@ -1,0 +1,31 @@
+{"s_qid": "Q9365271", "s_label": "Hetmańska Street", "o_qid": "Q9211186", "o_label": "Voivodeship road 196", "start": 2016, "end": null, "relation": "P1382", "r_label": "trùng lặp một phần với"}
+{"s_qid": "Q9365271", "s_label": "Hetmańska Street", "o_qid": "Q694271", "o_label": "National road 5", "start": 1986, "end": 2012, "relation": "P1382", "r_label": "trùng lặp một phần với"}
+{"s_qid": "Q9365271", "s_label": "Hetmańska Street", "o_qid": "Q1089985", "o_label": "National road 11", "start": 1986, "end": 2014, "relation": "P1382", "r_label": "trùng lặp một phần với"}
+{"s_qid": "Q9365271", "s_label": "Hetmańska Street", "o_qid": "Q1375834", "o_label": "European route E261", "start": 1980, "end": 2012, "relation": "P1382", "r_label": "trùng lặp một phần với"}
+{"s_qid": "Q9365271", "s_label": "Hetmańska Street", "o_qid": "Q25415684", "o_label": "E83 road in Poland", "start": 1970, "end": 1985, "relation": "P1382", "r_label": "trùng lặp một phần với"}
+{"s_qid": "Q43222455", "s_label": "president of the General Council of the Judiciary", "o_qid": "Q29934477", "o_label": "president of the Supreme Court of Spain", "start": 1980, "end": null, "relation": "P1382", "r_label": "trùng lặp một phần với"}
+{"s_qid": "Q123466178", "s_label": "Utah State Route 5", "o_qid": "Q2506796", "o_label": "U.S. Route 89 in Utah", "start": 1926, "end": null, "relation": "P1382", "r_label": "trùng lặp một phần với"}
+{"s_qid": "Q123466178", "s_label": "Utah State Route 5", "o_qid": "Q123457076", "o_label": "U.S. Route 30S (Idaho–Utah–Wyoming) in Utah", "start": 1926, "end": null, "relation": "P1382", "r_label": "trùng lặp một phần với"}
+{"s_qid": "Q110156524", "s_label": "U.S. Route 160 in Utah", "o_qid": "Q123411385", "o_label": "Utah State Route 9", "start": 1939, "end": 1970, "relation": "P1382", "r_label": "trùng lặp một phần với"}
+{"s_qid": "Q122750335", "s_label": "U.S. Route 50 Alternate in Utah", "o_qid": "Q63046506", "o_label": "U.S. Route 91 in Utah", "start": 1926, "end": 1974, "relation": "P1382", "r_label": "trùng lặp một phần với"}
+{"s_qid": "Q113257687", "s_label": "Manitowoc–Ludington ferry", "o_qid": "Q2351158", "o_label": "U.S. Route 10 in Michigan", "start": 2005, "end": null, "relation": "P1382", "r_label": "trùng lặp một phần với"}
+{"s_qid": "Q1089813", "s_label": "National road 14", "o_qid": "Q694287", "o_label": "National road 2", "start": 2010, "end": 2012, "relation": "P1382", "r_label": "trùng lặp một phần với"}
+{"s_qid": "Q1089813", "s_label": "National road 14", "o_qid": "Q56196401", "o_label": "European route E30 in Poland", "start": 2010, "end": 2012, "relation": "P1382", "r_label": "trùng lặp một phần với"}
+{"s_qid": "Q1089813", "s_label": "National road 14", "o_qid": "Q143701", "o_label": "Quốc lộ 1 (Ba Lan)", "start": 2012, "end": 2016, "relation": "P1382", "r_label": "trùng lặp một phần với"}
+{"s_qid": "Q1089813", "s_label": "National road 14", "o_qid": "Q429422", "o_label": "Đường cao tốc A2 (Ba Lan)", "start": 2024, "end": null, "relation": "P1382", "r_label": "trùng lặp một phần với"}
+{"s_qid": "Q9211600", "s_label": "Voivodeship road 628", "o_qid": "Q107379592", "o_label": "Płowiecka Street", "start": 2023, "end": null, "relation": "P1382", "r_label": "trùng lặp một phần với"}
+{"s_qid": "Q123411385", "s_label": "Utah State Route 9", "o_qid": "Q123416470", "o_label": "U.S. Route 163 in Utah", "start": 1970, "end": null, "relation": "P1382", "r_label": "trùng lặp một phần với"}
+{"s_qid": "Q123411385", "s_label": "Utah State Route 9", "o_qid": "Q123417824", "o_label": "U.S. Route 666 in Utah", "start": 1970, "end": null, "relation": "P1382", "r_label": "trùng lặp một phần với"}
+{"s_qid": "Q123411385", "s_label": "Utah State Route 9", "o_qid": "Q110156524", "o_label": "U.S. Route 160 in Utah", "start": 1939, "end": 1970, "relation": "P1382", "r_label": "trùng lặp một phần với"}
+{"s_qid": "Q107379592", "s_label": "Płowiecka Street", "o_qid": "Q694287", "o_label": "National road 2", "start": 1986, "end": 2021, "relation": "P1382", "r_label": "trùng lặp một phần với"}
+{"s_qid": "Q107379592", "s_label": "Płowiecka Street", "o_qid": "Q56196401", "o_label": "European route E30 in Poland", "start": 1985, "end": 2021, "relation": "P1382", "r_label": "trùng lặp một phần với"}
+{"s_qid": "Q107379592", "s_label": "Płowiecka Street", "o_qid": "Q9211114", "o_label": "E8 road in Poland", "start": 1962, "end": 1985, "relation": "P1382", "r_label": "trùng lặp một phần với"}
+{"s_qid": "Q107379592", "s_label": "Płowiecka Street", "o_qid": "Q9211600", "o_label": "Voivodeship road 628", "start": 2023, "end": null, "relation": "P1382", "r_label": "trùng lặp một phần với"}
+{"s_qid": "Q2351158", "s_label": "U.S. Route 10 in Michigan", "o_qid": "Q113257687", "o_label": "Manitowoc–Ludington ferry", "start": 2005, "end": null, "relation": "P1382", "r_label": "trùng lặp một phần với"}
+{"s_qid": "Q29934477", "s_label": "president of the Supreme Court of Spain", "o_qid": "Q43222455", "o_label": "president of the General Council of the Judiciary", "start": 1980, "end": null, "relation": "P1382", "r_label": "trùng lặp một phần với"}
+{"s_qid": "Q8080538", "s_label": "Đại lộ Łazienkowska", "o_qid": "Q694287", "o_label": "National road 2", "start": 1986, "end": 2013, "relation": "P1382", "r_label": "trùng lặp một phần với"}
+{"s_qid": "Q8080538", "s_label": "Đại lộ Łazienkowska", "o_qid": "Q56196401", "o_label": "European route E30 in Poland", "start": 1986, "end": 2013, "relation": "P1382", "r_label": "trùng lặp một phần với"}
+{"s_qid": "Q8080538", "s_label": "Đại lộ Łazienkowska", "o_qid": "Q9211114", "o_label": "E8 road in Poland", "start": 1970, "end": 1980, "relation": "P1382", "r_label": "trùng lặp một phần với"}
+{"s_qid": "Q9365312", "s_label": "Dąbrowskiego Street", "o_qid": "Q1138989", "o_label": "National road 92", "start": 2005, "end": null, "relation": "P1382", "r_label": "trùng lặp một phần với"}
+{"s_qid": "Q9365312", "s_label": "Dąbrowskiego Street", "o_qid": "Q694287", "o_label": "National road 2", "start": 1986, "end": 2005, "relation": "P1382", "r_label": "trùng lặp một phần với"}
+{"s_qid": "Q9365312", "s_label": "Dąbrowskiego Street", "o_qid": "Q56196401", "o_label": "European route E30 in Poland", "start": 1980, "end": 2005, "relation": "P1382", "r_label": "trùng lặp một phần với"}

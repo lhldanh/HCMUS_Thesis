@@ -1,0 +1,798 @@
+{"s_qid": "Q1928986", "s_label": "Michael Redmond", "o_qid": "Q23008964", "o_label": "1 dan in go", "start": 1981, "end": 1981, "relation": "P468", "r_label": "đẳng cấp"}
+{"s_qid": "Q1928986", "s_label": "Michael Redmond", "o_qid": "Q23008961", "o_label": "2 dan in go", "start": 1981, "end": 1983, "relation": "P468", "r_label": "đẳng cấp"}
+{"s_qid": "Q1928986", "s_label": "Michael Redmond", "o_qid": "Q23008960", "o_label": "3 dan in go", "start": 1983, "end": 1984, "relation": "P468", "r_label": "đẳng cấp"}
+{"s_qid": "Q1928986", "s_label": "Michael Redmond", "o_qid": "Q23008956", "o_label": "4 dan", "start": 1984, "end": 1985, "relation": "P468", "r_label": "đẳng cấp"}
+{"s_qid": "Q1928986", "s_label": "Michael Redmond", "o_qid": "Q23008953", "o_label": "5 dan", "start": 1985, "end": 1988, "relation": "P468", "r_label": "đẳng cấp"}
+{"s_qid": "Q1928986", "s_label": "Michael Redmond", "o_qid": "Q23008946", "o_label": "6 dan", "start": 1988, "end": 1990, "relation": "P468", "r_label": "đẳng cấp"}
+{"s_qid": "Q1928986", "s_label": "Michael Redmond", "o_qid": "Q23008939", "o_label": "7 dan", "start": 1990, "end": 1996, "relation": "P468", "r_label": "đẳng cấp"}
+{"s_qid": "Q1928986", "s_label": "Michael Redmond", "o_qid": "Q23008935", "o_label": "8 dan", "start": 1996, "end": 2000, "relation": "P468", "r_label": "đẳng cấp"}
+{"s_qid": "Q1928986", "s_label": "Michael Redmond", "o_qid": "Q12036922", "o_label": "9 dan", "start": 2000, "end": null, "relation": "P468", "r_label": "đẳng cấp"}
+{"s_qid": "Q2657055", "s_label": "Utaro Hashimoto", "o_qid": "Q23008964", "o_label": "1 dan in go", "start": 1922, "end": 1923, "relation": "P468", "r_label": "đẳng cấp"}
+{"s_qid": "Q2657055", "s_label": "Utaro Hashimoto", "o_qid": "Q23008961", "o_label": "2 dan in go", "start": 1923, "end": 1924, "relation": "P468", "r_label": "đẳng cấp"}
+{"s_qid": "Q2657055", "s_label": "Utaro Hashimoto", "o_qid": "Q23008960", "o_label": "3 dan in go", "start": 1924, "end": 1925, "relation": "P468", "r_label": "đẳng cấp"}
+{"s_qid": "Q2657055", "s_label": "Utaro Hashimoto", "o_qid": "Q23008956", "o_label": "4 dan", "start": 1925, "end": 1933, "relation": "P468", "r_label": "đẳng cấp"}
+{"s_qid": "Q2657055", "s_label": "Utaro Hashimoto", "o_qid": "Q23008953", "o_label": "5 dan", "start": 1933, "end": 1936, "relation": "P468", "r_label": "đẳng cấp"}
+{"s_qid": "Q2657055", "s_label": "Utaro Hashimoto", "o_qid": "Q23008946", "o_label": "6 dan", "start": 1936, "end": 1940, "relation": "P468", "r_label": "đẳng cấp"}
+{"s_qid": "Q2657055", "s_label": "Utaro Hashimoto", "o_qid": "Q23008939", "o_label": "7 dan", "start": 1940, "end": 1946, "relation": "P468", "r_label": "đẳng cấp"}
+{"s_qid": "Q2657055", "s_label": "Utaro Hashimoto", "o_qid": "Q23008935", "o_label": "8 dan", "start": 1946, "end": 1954, "relation": "P468", "r_label": "đẳng cấp"}
+{"s_qid": "Q2657055", "s_label": "Utaro Hashimoto", "o_qid": "Q12036922", "o_label": "9 dan", "start": 1954, "end": null, "relation": "P468", "r_label": "đẳng cấp"}
+{"s_qid": "Q2975990", "s_label": "Shinji Takao", "o_qid": "Q23008964", "o_label": "1 dan in go", "start": 1991, "end": 1992, "relation": "P468", "r_label": "đẳng cấp"}
+{"s_qid": "Q2975990", "s_label": "Shinji Takao", "o_qid": "Q23008961", "o_label": "2 dan in go", "start": 1992, "end": 1993, "relation": "P468", "r_label": "đẳng cấp"}
+{"s_qid": "Q2975990", "s_label": "Shinji Takao", "o_qid": "Q23008960", "o_label": "3 dan in go", "start": 1993, "end": 1994, "relation": "P468", "r_label": "đẳng cấp"}
+{"s_qid": "Q2975990", "s_label": "Shinji Takao", "o_qid": "Q23008956", "o_label": "4 dan", "start": 1994, "end": 1996, "relation": "P468", "r_label": "đẳng cấp"}
+{"s_qid": "Q2975990", "s_label": "Shinji Takao", "o_qid": "Q23008953", "o_label": "5 dan", "start": 1996, "end": 1998, "relation": "P468", "r_label": "đẳng cấp"}
+{"s_qid": "Q2975990", "s_label": "Shinji Takao", "o_qid": "Q23008946", "o_label": "6 dan", "start": 1998, "end": 2000, "relation": "P468", "r_label": "đẳng cấp"}
+{"s_qid": "Q2975990", "s_label": "Shinji Takao", "o_qid": "Q23008939", "o_label": "7 dan", "start": 2000, "end": 2002, "relation": "P468", "r_label": "đẳng cấp"}
+{"s_qid": "Q2975990", "s_label": "Shinji Takao", "o_qid": "Q23008935", "o_label": "8 dan", "start": 2002, "end": 2005, "relation": "P468", "r_label": "đẳng cấp"}
+{"s_qid": "Q2975990", "s_label": "Shinji Takao", "o_qid": "Q12036922", "o_label": "9 dan", "start": 2005, "end": null, "relation": "P468", "r_label": "đẳng cấp"}
+{"s_qid": "Q5433576", "s_label": "Fan Tingyu", "o_qid": "Q23008964", "o_label": "1 dan in go", "start": 2008, "end": 2009, "relation": "P468", "r_label": "đẳng cấp"}
+{"s_qid": "Q5433576", "s_label": "Fan Tingyu", "o_qid": "Q23008961", "o_label": "2 dan in go", "start": 2009, "end": 2010, "relation": "P468", "r_label": "đẳng cấp"}
+{"s_qid": "Q5433576", "s_label": "Fan Tingyu", "o_qid": "Q23008960", "o_label": "3 dan in go", "start": 2010, "end": 2013, "relation": "P468", "r_label": "đẳng cấp"}
+{"s_qid": "Q5433576", "s_label": "Fan Tingyu", "o_qid": "Q12036922", "o_label": "9 dan", "start": 2013, "end": null, "relation": "P468", "r_label": "đẳng cấp"}
+{"s_qid": "Q6149105", "s_label": "Pak Chi-eun", "o_qid": "Q23008964", "o_label": "1 dan in go", "start": 1997, "end": 1999, "relation": "P468", "r_label": "đẳng cấp"}
+{"s_qid": "Q6149105", "s_label": "Pak Chi-eun", "o_qid": "Q23008961", "o_label": "2 dan in go", "start": 1999, "end": 2000, "relation": "P468", "r_label": "đẳng cấp"}
+{"s_qid": "Q6149105", "s_label": "Pak Chi-eun", "o_qid": "Q23008960", "o_label": "3 dan in go", "start": 2000, "end": 2003, "relation": "P468", "r_label": "đẳng cấp"}
+{"s_qid": "Q6149105", "s_label": "Pak Chi-eun", "o_qid": "Q23008956", "o_label": "4 dan", "start": 2003, "end": 2004, "relation": "P468", "r_label": "đẳng cấp"}
+{"s_qid": "Q6149105", "s_label": "Pak Chi-eun", "o_qid": "Q23008953", "o_label": "5 dan", "start": 2004, "end": 2005, "relation": "P468", "r_label": "đẳng cấp"}
+{"s_qid": "Q6149105", "s_label": "Pak Chi-eun", "o_qid": "Q23008946", "o_label": "6 dan", "start": 2005, "end": 2007, "relation": "P468", "r_label": "đẳng cấp"}
+{"s_qid": "Q6149105", "s_label": "Pak Chi-eun", "o_qid": "Q23008939", "o_label": "7 dan", "start": 2007, "end": 2007, "relation": "P468", "r_label": "đẳng cấp"}
+{"s_qid": "Q6149105", "s_label": "Pak Chi-eun", "o_qid": "Q23008935", "o_label": "8 dan", "start": 2007, "end": 2008, "relation": "P468", "r_label": "đẳng cấp"}
+{"s_qid": "Q6149105", "s_label": "Pak Chi-eun", "o_qid": "Q12036922", "o_label": "9 dan", "start": 2008, "end": null, "relation": "P468", "r_label": "đẳng cấp"}
+{"s_qid": "Q8048377", "s_label": "Yang Dingxin", "o_qid": "Q23008964", "o_label": "1 dan in go", "start": 2008, "end": 2010, "relation": "P468", "r_label": "đẳng cấp"}
+{"s_qid": "Q8048377", "s_label": "Yang Dingxin", "o_qid": "Q23008961", "o_label": "2 dan in go", "start": 2010, "end": 2011, "relation": "P468", "r_label": "đẳng cấp"}
+{"s_qid": "Q8048377", "s_label": "Yang Dingxin", "o_qid": "Q23008960", "o_label": "3 dan in go", "start": 2011, "end": 2016, "relation": "P468", "r_label": "đẳng cấp"}
+{"s_qid": "Q8048377", "s_label": "Yang Dingxin", "o_qid": "Q23008956", "o_label": "4 dan", "start": 2016, "end": 2016, "relation": "P468", "r_label": "đẳng cấp"}
+{"s_qid": "Q8048377", "s_label": "Yang Dingxin", "o_qid": "Q23008953", "o_label": "5 dan", "start": 2016, "end": 2017, "relation": "P468", "r_label": "đẳng cấp"}
+{"s_qid": "Q8048377", "s_label": "Yang Dingxin", "o_qid": "Q23008946", "o_label": "6 dan", "start": 2017, "end": 2018, "relation": "P468", "r_label": "đẳng cấp"}
+{"s_qid": "Q8048377", "s_label": "Yang Dingxin", "o_qid": "Q23008939", "o_label": "7 dan", "start": 2018, "end": 2019, "relation": "P468", "r_label": "đẳng cấp"}
+{"s_qid": "Q8048377", "s_label": "Yang Dingxin", "o_qid": "Q23008935", "o_label": "8 dan", "start": 2019, "end": 2019, "relation": "P468", "r_label": "đẳng cấp"}
+{"s_qid": "Q8048377", "s_label": "Yang Dingxin", "o_qid": "Q12036922", "o_label": "9 dan", "start": 2019, "end": null, "relation": "P468", "r_label": "đẳng cấp"}
+{"s_qid": "Q10499350", "s_label": "Mi Yuting", "o_qid": "Q23008964", "o_label": "1 dan in go", "start": 2007, "end": 2009, "relation": "P468", "r_label": "đẳng cấp"}
+{"s_qid": "Q10499350", "s_label": "Mi Yuting", "o_qid": "Q23008961", "o_label": "2 dan in go", "start": 2009, "end": 2010, "relation": "P468", "r_label": "đẳng cấp"}
+{"s_qid": "Q10499350", "s_label": "Mi Yuting", "o_qid": "Q23008960", "o_label": "3 dan in go", "start": 2010, "end": 2012, "relation": "P468", "r_label": "đẳng cấp"}
+{"s_qid": "Q10499350", "s_label": "Mi Yuting", "o_qid": "Q23008956", "o_label": "4 dan", "start": 2012, "end": 2013, "relation": "P468", "r_label": "đẳng cấp"}
+{"s_qid": "Q10499350", "s_label": "Mi Yuting", "o_qid": "Q12036922", "o_label": "9 dan", "start": 2013, "end": null, "relation": "P468", "r_label": "đẳng cấp"}
+{"s_qid": "Q11459895", "s_label": "Terumi Koyama", "o_qid": "Q23008964", "o_label": "1 dan in go", "start": 1987, "end": 1989, "relation": "P468", "r_label": "đẳng cấp"}
+{"s_qid": "Q11459895", "s_label": "Terumi Koyama", "o_qid": "Q23008961", "o_label": "2 dan in go", "start": 1989, "end": 1992, "relation": "P468", "r_label": "đẳng cấp"}
+{"s_qid": "Q11459895", "s_label": "Terumi Koyama", "o_qid": "Q23008960", "o_label": "3 dan in go", "start": 1992, "end": 1994, "relation": "P468", "r_label": "đẳng cấp"}
+{"s_qid": "Q11459895", "s_label": "Terumi Koyama", "o_qid": "Q23008956", "o_label": "4 dan", "start": 1994, "end": 1996, "relation": "P468", "r_label": "đẳng cấp"}
+{"s_qid": "Q11459895", "s_label": "Terumi Koyama", "o_qid": "Q23008953", "o_label": "5 dan", "start": 1996, "end": 2009, "relation": "P468", "r_label": "đẳng cấp"}
+{"s_qid": "Q11459895", "s_label": "Terumi Koyama", "o_qid": "Q23008946", "o_label": "6 dan", "start": 2009, "end": null, "relation": "P468", "r_label": "đẳng cấp"}
+{"s_qid": "Q11483334", "s_label": "Tomoya Hirata", "o_qid": "Q23008964", "o_label": "1 dan in go", "start": 2009, "end": 2011, "relation": "P468", "r_label": "đẳng cấp"}
+{"s_qid": "Q11483334", "s_label": "Tomoya Hirata", "o_qid": "Q23008961", "o_label": "2 dan in go", "start": 2011, "end": 2012, "relation": "P468", "r_label": "đẳng cấp"}
+{"s_qid": "Q11483334", "s_label": "Tomoya Hirata", "o_qid": "Q23008960", "o_label": "3 dan in go", "start": 2012, "end": 2015, "relation": "P468", "r_label": "đẳng cấp"}
+{"s_qid": "Q11483334", "s_label": "Tomoya Hirata", "o_qid": "Q23008956", "o_label": "4 dan", "start": 2015, "end": 2015, "relation": "P468", "r_label": "đẳng cấp"}
+{"s_qid": "Q11483334", "s_label": "Tomoya Hirata", "o_qid": "Q23008939", "o_label": "7 dan", "start": 2015, "end": null, "relation": "P468", "r_label": "đẳng cấp"}
+{"s_qid": "Q11624485", "s_label": "Kazunari Fujisawa", "o_qid": "Q23008964", "o_label": "1 dan in go", "start": 1981, "end": 1982, "relation": "P468", "r_label": "đẳng cấp"}
+{"s_qid": "Q11624485", "s_label": "Kazunari Fujisawa", "o_qid": "Q23008961", "o_label": "2 dan in go", "start": 1982, "end": 1984, "relation": "P468", "r_label": "đẳng cấp"}
+{"s_qid": "Q11624485", "s_label": "Kazunari Fujisawa", "o_qid": "Q23008960", "o_label": "3 dan in go", "start": 1984, "end": 1988, "relation": "P468", "r_label": "đẳng cấp"}
+{"s_qid": "Q11624485", "s_label": "Kazunari Fujisawa", "o_qid": "Q23008956", "o_label": "4 dan", "start": 1988, "end": 1990, "relation": "P468", "r_label": "đẳng cấp"}
+{"s_qid": "Q11624485", "s_label": "Kazunari Fujisawa", "o_qid": "Q23008953", "o_label": "5 dan", "start": 1990, "end": 1993, "relation": "P468", "r_label": "đẳng cấp"}
+{"s_qid": "Q11624485", "s_label": "Kazunari Fujisawa", "o_qid": "Q23008946", "o_label": "6 dan", "start": 1993, "end": 1996, "relation": "P468", "r_label": "đẳng cấp"}
+{"s_qid": "Q11624485", "s_label": "Kazunari Fujisawa", "o_qid": "Q23008939", "o_label": "7 dan", "start": 1996, "end": 1999, "relation": "P468", "r_label": "đẳng cấp"}
+{"s_qid": "Q11624485", "s_label": "Kazunari Fujisawa", "o_qid": "Q23008935", "o_label": "8 dan", "start": 1999, "end": null, "relation": "P468", "r_label": "đẳng cấp"}
+{"s_qid": "Q11647096", "s_label": "Kim Seong-ryong", "o_qid": "Q12036922", "o_label": "9 dan", "start": 2004, "end": null, "relation": "P468", "r_label": "đẳng cấp"}
+{"s_qid": "Q11647096", "s_label": "Kim Seong-ryong", "o_qid": "Q23008935", "o_label": "8 dan", "start": 2003, "end": 2004, "relation": "P468", "r_label": "đẳng cấp"}
+{"s_qid": "Q11647096", "s_label": "Kim Seong-ryong", "o_qid": "Q23008939", "o_label": "7 dan", "start": 2001, "end": 2003, "relation": "P468", "r_label": "đẳng cấp"}
+{"s_qid": "Q11647096", "s_label": "Kim Seong-ryong", "o_qid": "Q23008946", "o_label": "6 dan", "start": 2000, "end": 2001, "relation": "P468", "r_label": "đẳng cấp"}
+{"s_qid": "Q11647096", "s_label": "Kim Seong-ryong", "o_qid": "Q23008953", "o_label": "5 dan", "start": 1997, "end": 2000, "relation": "P468", "r_label": "đẳng cấp"}
+{"s_qid": "Q16181030", "s_label": "Byun Sangil", "o_qid": "Q23008964", "o_label": "1 dan in go", "start": 2012, "end": 2012, "relation": "P468", "r_label": "đẳng cấp"}
+{"s_qid": "Q16181030", "s_label": "Byun Sangil", "o_qid": "Q23008961", "o_label": "2 dan in go", "start": 2012, "end": 2014, "relation": "P468", "r_label": "đẳng cấp"}
+{"s_qid": "Q16181030", "s_label": "Byun Sangil", "o_qid": "Q23008960", "o_label": "3 dan in go", "start": 2014, "end": 2015, "relation": "P468", "r_label": "đẳng cấp"}
+{"s_qid": "Q16181030", "s_label": "Byun Sangil", "o_qid": "Q23008956", "o_label": "4 dan", "start": 2015, "end": 2016, "relation": "P468", "r_label": "đẳng cấp"}
+{"s_qid": "Q16181030", "s_label": "Byun Sangil", "o_qid": "Q23008953", "o_label": "5 dan", "start": 2016, "end": 2017, "relation": "P468", "r_label": "đẳng cấp"}
+{"s_qid": "Q16181030", "s_label": "Byun Sangil", "o_qid": "Q23008946", "o_label": "6 dan", "start": 2017, "end": 2018, "relation": "P468", "r_label": "đẳng cấp"}
+{"s_qid": "Q16181030", "s_label": "Byun Sangil", "o_qid": "Q23008939", "o_label": "7 dan", "start": 2018, "end": 2018, "relation": "P468", "r_label": "đẳng cấp"}
+{"s_qid": "Q16181030", "s_label": "Byun Sangil", "o_qid": "Q12036922", "o_label": "9 dan", "start": 2018, "end": null, "relation": "P468", "r_label": "đẳng cấp"}
+{"s_qid": "Q16182554", "s_label": "Lee Ji-hyun", "o_qid": "Q23008964", "o_label": "1 dan in go", "start": 2010, "end": 2011, "relation": "P468", "r_label": "đẳng cấp"}
+{"s_qid": "Q16182554", "s_label": "Lee Ji-hyun", "o_qid": "Q23008961", "o_label": "2 dan in go", "start": 2011, "end": 2012, "relation": "P468", "r_label": "đẳng cấp"}
+{"s_qid": "Q16182554", "s_label": "Lee Ji-hyun", "o_qid": "Q23008960", "o_label": "3 dan in go", "start": 2012, "end": 2013, "relation": "P468", "r_label": "đẳng cấp"}
+{"s_qid": "Q16182554", "s_label": "Lee Ji-hyun", "o_qid": "Q23008956", "o_label": "4 dan", "start": 2013, "end": 2015, "relation": "P468", "r_label": "đẳng cấp"}
+{"s_qid": "Q16182554", "s_label": "Lee Ji-hyun", "o_qid": "Q23008953", "o_label": "5 dan", "start": 2015, "end": 2016, "relation": "P468", "r_label": "đẳng cấp"}
+{"s_qid": "Q16182554", "s_label": "Lee Ji-hyun", "o_qid": "Q23008946", "o_label": "6 dan", "start": 2016, "end": 2018, "relation": "P468", "r_label": "đẳng cấp"}
+{"s_qid": "Q16182554", "s_label": "Lee Ji-hyun", "o_qid": "Q23008939", "o_label": "7 dan", "start": 2018, "end": 2018, "relation": "P468", "r_label": "đẳng cấp"}
+{"s_qid": "Q16182554", "s_label": "Lee Ji-hyun", "o_qid": "Q12036922", "o_label": "9 dan", "start": 2018, "end": null, "relation": "P468", "r_label": "đẳng cấp"}
+{"s_qid": "Q16261505", "s_label": "Moon Dowon", "o_qid": "Q23008964", "o_label": "1 dan in go", "start": 2008, "end": 2009, "relation": "P468", "r_label": "đẳng cấp"}
+{"s_qid": "Q16261505", "s_label": "Moon Dowon", "o_qid": "Q23008961", "o_label": "2 dan in go", "start": 2009, "end": 2013, "relation": "P468", "r_label": "đẳng cấp"}
+{"s_qid": "Q16261505", "s_label": "Moon Dowon", "o_qid": "Q23008960", "o_label": "3 dan in go", "start": 2013, "end": null, "relation": "P468", "r_label": "đẳng cấp"}
+{"s_qid": "Q20039688", "s_label": "Hsu Chia-yuan", "o_qid": "Q23008964", "o_label": "1 dan in go", "start": 2013, "end": 2014, "relation": "P468", "r_label": "đẳng cấp"}
+{"s_qid": "Q20039688", "s_label": "Hsu Chia-yuan", "o_qid": "Q23008961", "o_label": "2 dan in go", "start": 2014, "end": 2015, "relation": "P468", "r_label": "đẳng cấp"}
+{"s_qid": "Q20039688", "s_label": "Hsu Chia-yuan", "o_qid": "Q23008960", "o_label": "3 dan in go", "start": 2015, "end": 2016, "relation": "P468", "r_label": "đẳng cấp"}
+{"s_qid": "Q20039688", "s_label": "Hsu Chia-yuan", "o_qid": "Q23008956", "o_label": "4 dan", "start": 2016, "end": 2017, "relation": "P468", "r_label": "đẳng cấp"}
+{"s_qid": "Q20039688", "s_label": "Hsu Chia-yuan", "o_qid": "Q23008939", "o_label": "7 dan", "start": 2017, "end": 2018, "relation": "P468", "r_label": "đẳng cấp"}
+{"s_qid": "Q20039688", "s_label": "Hsu Chia-yuan", "o_qid": "Q23008935", "o_label": "8 dan", "start": 2018, "end": 2021, "relation": "P468", "r_label": "đẳng cấp"}
+{"s_qid": "Q20039688", "s_label": "Hsu Chia-yuan", "o_qid": "Q12036922", "o_label": "9 dan", "start": 2021, "end": null, "relation": "P468", "r_label": "đẳng cấp"}
+{"s_qid": "Q24856194", "s_label": "Ko Suah", "o_qid": "Q23008964", "o_label": "1 dan in go", "start": 2006, "end": 2007, "relation": "P468", "r_label": "đẳng cấp"}
+{"s_qid": "Q24856194", "s_label": "Ko Suah", "o_qid": "Q23008961", "o_label": "2 dan in go", "start": 2007, "end": 2015, "relation": "P468", "r_label": "đẳng cấp"}
+{"s_qid": "Q24856194", "s_label": "Ko Suah", "o_qid": "Q23008960", "o_label": "3 dan in go", "start": 2015, "end": null, "relation": "P468", "r_label": "đẳng cấp"}
+{"s_qid": "Q25252384", "s_label": "Yang Kaiwen", "o_qid": "Q23008964", "o_label": "1 dan in go", "start": 2010, "end": 2012, "relation": "P468", "r_label": "đẳng cấp"}
+{"s_qid": "Q25252384", "s_label": "Yang Kaiwen", "o_qid": "Q23008961", "o_label": "2 dan in go", "start": 2012, "end": 2013, "relation": "P468", "r_label": "đẳng cấp"}
+{"s_qid": "Q25252384", "s_label": "Yang Kaiwen", "o_qid": "Q23008960", "o_label": "3 dan in go", "start": 2013, "end": 2014, "relation": "P468", "r_label": "đẳng cấp"}
+{"s_qid": "Q25252384", "s_label": "Yang Kaiwen", "o_qid": "Q23008956", "o_label": "4 dan", "start": 2014, "end": 2017, "relation": "P468", "r_label": "đẳng cấp"}
+{"s_qid": "Q25252384", "s_label": "Yang Kaiwen", "o_qid": "Q23008953", "o_label": "5 dan", "start": 2017, "end": 2018, "relation": "P468", "r_label": "đẳng cấp"}
+{"s_qid": "Q25252384", "s_label": "Yang Kaiwen", "o_qid": "Q23008946", "o_label": "6 dan", "start": 2018, "end": 2019, "relation": "P468", "r_label": "đẳng cấp"}
+{"s_qid": "Q25252384", "s_label": "Yang Kaiwen", "o_qid": "Q23008939", "o_label": "7 dan", "start": 2019, "end": null, "relation": "P468", "r_label": "đẳng cấp"}
+{"s_qid": "Q25252473", "s_label": "Yuichi Hirose", "o_qid": "Q23008964", "o_label": "1 dan in go", "start": 2016, "end": 2017, "relation": "P468", "r_label": "đẳng cấp"}
+{"s_qid": "Q25252473", "s_label": "Yuichi Hirose", "o_qid": "Q23008961", "o_label": "2 dan in go", "start": 2017, "end": 2019, "relation": "P468", "r_label": "đẳng cấp"}
+{"s_qid": "Q25252473", "s_label": "Yuichi Hirose", "o_qid": "Q23008960", "o_label": "3 dan in go", "start": 2019, "end": 2020, "relation": "P468", "r_label": "đẳng cấp"}
+{"s_qid": "Q25252473", "s_label": "Yuichi Hirose", "o_qid": "Q23008956", "o_label": "4 dan", "start": 2020, "end": 2021, "relation": "P468", "r_label": "đẳng cấp"}
+{"s_qid": "Q25252473", "s_label": "Yuichi Hirose", "o_qid": "Q23008953", "o_label": "5 dan", "start": 2021, "end": null, "relation": "P468", "r_label": "đẳng cấp"}
+{"s_qid": "Q65051299", "s_label": "Huang Chunqi", "o_qid": "Q23008964", "o_label": "1 dan in go", "start": 2018, "end": 2019, "relation": "P468", "r_label": "đẳng cấp"}
+{"s_qid": "Q65051299", "s_label": "Huang Chunqi", "o_qid": "Q23008961", "o_label": "2 dan in go", "start": 2019, "end": 2019, "relation": "P468", "r_label": "đẳng cấp"}
+{"s_qid": "Q65051299", "s_label": "Huang Chunqi", "o_qid": "Q23008960", "o_label": "3 dan in go", "start": 2019, "end": 2019, "relation": "P468", "r_label": "đẳng cấp"}
+{"s_qid": "Q65051299", "s_label": "Huang Chunqi", "o_qid": "Q23008956", "o_label": "4 dan", "start": 2019, "end": null, "relation": "P468", "r_label": "đẳng cấp"}
+{"s_qid": "Q96694991", "s_label": "Kim Eunji", "o_qid": "Q23008964", "o_label": "1 dan in go", "start": 2020, "end": 2020, "relation": "P468", "r_label": "đẳng cấp"}
+{"s_qid": "Q96694991", "s_label": "Kim Eunji", "o_qid": "Q23008961", "o_label": "2 dan in go", "start": 2020, "end": 2022, "relation": "P468", "r_label": "đẳng cấp"}
+{"s_qid": "Q96694991", "s_label": "Kim Eunji", "o_qid": "Q23008960", "o_label": "3 dan in go", "start": 2022, "end": 2022, "relation": "P468", "r_label": "đẳng cấp"}
+{"s_qid": "Q96694991", "s_label": "Kim Eunji", "o_qid": "Q23008956", "o_label": "4 dan", "start": 2022, "end": 2022, "relation": "P468", "r_label": "đẳng cấp"}
+{"s_qid": "Q96694991", "s_label": "Kim Eunji", "o_qid": "Q23008953", "o_label": "5 dan", "start": 2022, "end": 2023, "relation": "P468", "r_label": "đẳng cấp"}
+{"s_qid": "Q96694991", "s_label": "Kim Eunji", "o_qid": "Q23008946", "o_label": "6 dan", "start": 2023, "end": null, "relation": "P468", "r_label": "đẳng cấp"}
+{"s_qid": "Q101919082", "s_label": "Lu Yu-Hua", "o_qid": "Q23008964", "o_label": "1 dan in go", "start": 2019, "end": 2019, "relation": "P468", "r_label": "đẳng cấp"}
+{"s_qid": "Q101919082", "s_label": "Lu Yu-Hua", "o_qid": "Q23008960", "o_label": "3 dan in go", "start": 2019, "end": 2022, "relation": "P468", "r_label": "đẳng cấp"}
+{"s_qid": "Q101919082", "s_label": "Lu Yu-Hua", "o_qid": "Q23008956", "o_label": "4 dan", "start": 2022, "end": null, "relation": "P468", "r_label": "đẳng cấp"}
+{"s_qid": "Q486559", "s_label": "Lee Sedol", "o_qid": "Q12036922", "o_label": "9 dan", "start": 2003, "end": null, "relation": "P468", "r_label": "đẳng cấp"}
+{"s_qid": "Q486559", "s_label": "Lee Sedol", "o_qid": "Q23008964", "o_label": "1 dan in go", "start": 1995, "end": 1998, "relation": "P468", "r_label": "đẳng cấp"}
+{"s_qid": "Q486559", "s_label": "Lee Sedol", "o_qid": "Q23008961", "o_label": "2 dan in go", "start": 1998, "end": 2000, "relation": "P468", "r_label": "đẳng cấp"}
+{"s_qid": "Q486559", "s_label": "Lee Sedol", "o_qid": "Q23008960", "o_label": "3 dan in go", "start": 2000, "end": 2003, "relation": "P468", "r_label": "đẳng cấp"}
+{"s_qid": "Q486559", "s_label": "Lee Sedol", "o_qid": "Q23008946", "o_label": "6 dan", "start": 2003, "end": 2003, "relation": "P468", "r_label": "đẳng cấp"}
+{"s_qid": "Q486559", "s_label": "Lee Sedol", "o_qid": "Q23008939", "o_label": "7 dan", "start": 2003, "end": 2003, "relation": "P468", "r_label": "đẳng cấp"}
+{"s_qid": "Q2635256", "s_label": "Hideo Otake", "o_qid": "Q23008964", "o_label": "1 dan in go", "start": 1956, "end": 1957, "relation": "P468", "r_label": "đẳng cấp"}
+{"s_qid": "Q2635256", "s_label": "Hideo Otake", "o_qid": "Q23008961", "o_label": "2 dan in go", "start": 1957, "end": 1958, "relation": "P468", "r_label": "đẳng cấp"}
+{"s_qid": "Q2635256", "s_label": "Hideo Otake", "o_qid": "Q23008960", "o_label": "3 dan in go", "start": 1958, "end": 1959, "relation": "P468", "r_label": "đẳng cấp"}
+{"s_qid": "Q2635256", "s_label": "Hideo Otake", "o_qid": "Q23008956", "o_label": "4 dan", "start": 1959, "end": 1961, "relation": "P468", "r_label": "đẳng cấp"}
+{"s_qid": "Q2635256", "s_label": "Hideo Otake", "o_qid": "Q23008953", "o_label": "5 dan", "start": 1961, "end": 1963, "relation": "P468", "r_label": "đẳng cấp"}
+{"s_qid": "Q2635256", "s_label": "Hideo Otake", "o_qid": "Q23008946", "o_label": "6 dan", "start": 1963, "end": 1965, "relation": "P468", "r_label": "đẳng cấp"}
+{"s_qid": "Q2635256", "s_label": "Hideo Otake", "o_qid": "Q23008939", "o_label": "7 dan", "start": 1965, "end": 1967, "relation": "P468", "r_label": "đẳng cấp"}
+{"s_qid": "Q2635256", "s_label": "Hideo Otake", "o_qid": "Q23008935", "o_label": "8 dan", "start": 1967, "end": 1970, "relation": "P468", "r_label": "đẳng cấp"}
+{"s_qid": "Q2635256", "s_label": "Hideo Otake", "o_qid": "Q12036922", "o_label": "9 dan", "start": 1970, "end": null, "relation": "P468", "r_label": "đẳng cấp"}
+{"s_qid": "Q4922257", "s_label": "Joanne Missingham", "o_qid": "Q23008964", "o_label": "1 dan in go", "start": 2008, "end": 2010, "relation": "P468", "r_label": "đẳng cấp"}
+{"s_qid": "Q4922257", "s_label": "Joanne Missingham", "o_qid": "Q23008961", "o_label": "2 dan in go", "start": 2010, "end": 2011, "relation": "P468", "r_label": "đẳng cấp"}
+{"s_qid": "Q4922257", "s_label": "Joanne Missingham", "o_qid": "Q23008953", "o_label": "5 dan", "start": 2011, "end": 2012, "relation": "P468", "r_label": "đẳng cấp"}
+{"s_qid": "Q4922257", "s_label": "Joanne Missingham", "o_qid": "Q23008946", "o_label": "6 dan", "start": 2012, "end": 2015, "relation": "P468", "r_label": "đẳng cấp"}
+{"s_qid": "Q4922257", "s_label": "Joanne Missingham", "o_qid": "Q23008939", "o_label": "7 dan", "start": 2015, "end": null, "relation": "P468", "r_label": "đẳng cấp"}
+{"s_qid": "Q5969776", "s_label": "Shigeaki Yokota", "o_qid": "Q23008964", "o_label": "1 dan in go", "start": 1983, "end": 1983, "relation": "P468", "r_label": "đẳng cấp"}
+{"s_qid": "Q5969776", "s_label": "Shigeaki Yokota", "o_qid": "Q23008961", "o_label": "2 dan in go", "start": 1983, "end": 1984, "relation": "P468", "r_label": "đẳng cấp"}
+{"s_qid": "Q5969776", "s_label": "Shigeaki Yokota", "o_qid": "Q23008960", "o_label": "3 dan in go", "start": 1984, "end": 1985, "relation": "P468", "r_label": "đẳng cấp"}
+{"s_qid": "Q5969776", "s_label": "Shigeaki Yokota", "o_qid": "Q23008956", "o_label": "4 dan", "start": 1985, "end": 1986, "relation": "P468", "r_label": "đẳng cấp"}
+{"s_qid": "Q5969776", "s_label": "Shigeaki Yokota", "o_qid": "Q23008953", "o_label": "5 dan", "start": 1986, "end": 1988, "relation": "P468", "r_label": "đẳng cấp"}
+{"s_qid": "Q5969776", "s_label": "Shigeaki Yokota", "o_qid": "Q23008946", "o_label": "6 dan", "start": 1988, "end": 1990, "relation": "P468", "r_label": "đẳng cấp"}
+{"s_qid": "Q5969776", "s_label": "Shigeaki Yokota", "o_qid": "Q23008939", "o_label": "7 dan", "start": 1990, "end": 1992, "relation": "P468", "r_label": "đẳng cấp"}
+{"s_qid": "Q5969776", "s_label": "Shigeaki Yokota", "o_qid": "Q23008935", "o_label": "8 dan", "start": 1992, "end": 1995, "relation": "P468", "r_label": "đẳng cấp"}
+{"s_qid": "Q5969776", "s_label": "Shigeaki Yokota", "o_qid": "Q12036922", "o_label": "9 dan", "start": 1995, "end": null, "relation": "P468", "r_label": "đẳng cấp"}
+{"s_qid": "Q11537486", "s_label": "Yōko Kuwabara", "o_qid": "Q23008964", "o_label": "1 dan in go", "start": 1996, "end": 1996, "relation": "P468", "r_label": "đẳng cấp"}
+{"s_qid": "Q11537486", "s_label": "Yōko Kuwabara", "o_qid": "Q23008961", "o_label": "2 dan in go", "start": 1996, "end": 1997, "relation": "P468", "r_label": "đẳng cấp"}
+{"s_qid": "Q11537486", "s_label": "Yōko Kuwabara", "o_qid": "Q23008960", "o_label": "3 dan in go", "start": 1997, "end": 1998, "relation": "P468", "r_label": "đẳng cấp"}
+{"s_qid": "Q11537486", "s_label": "Yōko Kuwabara", "o_qid": "Q23008956", "o_label": "4 dan", "start": 1998, "end": 2000, "relation": "P468", "r_label": "đẳng cấp"}
+{"s_qid": "Q11537486", "s_label": "Yōko Kuwabara", "o_qid": "Q23008953", "o_label": "5 dan", "start": 2000, "end": 2010, "relation": "P468", "r_label": "đẳng cấp"}
+{"s_qid": "Q11537486", "s_label": "Yōko Kuwabara", "o_qid": "Q23008946", "o_label": "6 dan", "start": 2010, "end": null, "relation": "P468", "r_label": "đẳng cấp"}
+{"s_qid": "Q22974752", "s_label": "Lee Changseok", "o_qid": "Q23008964", "o_label": "1 dan in go", "start": 2015, "end": 2015, "relation": "P468", "r_label": "đẳng cấp"}
+{"s_qid": "Q22974752", "s_label": "Lee Changseok", "o_qid": "Q23008961", "o_label": "2 dan in go", "start": 2015, "end": 2016, "relation": "P468", "r_label": "đẳng cấp"}
+{"s_qid": "Q22974752", "s_label": "Lee Changseok", "o_qid": "Q23008960", "o_label": "3 dan in go", "start": 2016, "end": 2017, "relation": "P468", "r_label": "đẳng cấp"}
+{"s_qid": "Q22974752", "s_label": "Lee Changseok", "o_qid": "Q23008956", "o_label": "4 dan", "start": 2017, "end": 2019, "relation": "P468", "r_label": "đẳng cấp"}
+{"s_qid": "Q22974752", "s_label": "Lee Changseok", "o_qid": "Q23008953", "o_label": "5 dan", "start": 2019, "end": 2020, "relation": "P468", "r_label": "đẳng cấp"}
+{"s_qid": "Q22974752", "s_label": "Lee Changseok", "o_qid": "Q23008946", "o_label": "6 dan", "start": 2020, "end": 2021, "relation": "P468", "r_label": "đẳng cấp"}
+{"s_qid": "Q22974752", "s_label": "Lee Changseok", "o_qid": "Q23008939", "o_label": "7 dan", "start": 2021, "end": null, "relation": "P468", "r_label": "đẳng cấp"}
+{"s_qid": "Q24645000", "s_label": "O Keii", "o_qid": "Q23008964", "o_label": "1 dan in go", "start": 2008, "end": 2012, "relation": "P468", "r_label": "đẳng cấp"}
+{"s_qid": "Q24645000", "s_label": "O Keii", "o_qid": "Q23008961", "o_label": "2 dan in go", "start": 2012, "end": 2017, "relation": "P468", "r_label": "đẳng cấp"}
+{"s_qid": "Q24645000", "s_label": "O Keii", "o_qid": "Q23008960", "o_label": "3 dan in go", "start": 2017, "end": null, "relation": "P468", "r_label": "đẳng cấp"}
+{"s_qid": "Q25252413", "s_label": "Katsuya Motoki", "o_qid": "Q23008964", "o_label": "1 dan in go", "start": 2011, "end": 2013, "relation": "P468", "r_label": "đẳng cấp"}
+{"s_qid": "Q25252413", "s_label": "Katsuya Motoki", "o_qid": "Q23008961", "o_label": "2 dan in go", "start": 2013, "end": 2014, "relation": "P468", "r_label": "đẳng cấp"}
+{"s_qid": "Q25252413", "s_label": "Katsuya Motoki", "o_qid": "Q23008960", "o_label": "3 dan in go", "start": 2014, "end": 2015, "relation": "P468", "r_label": "đẳng cấp"}
+{"s_qid": "Q25252413", "s_label": "Katsuya Motoki", "o_qid": "Q23008939", "o_label": "7 dan", "start": 2015, "end": 2017, "relation": "P468", "r_label": "đẳng cấp"}
+{"s_qid": "Q25252413", "s_label": "Katsuya Motoki", "o_qid": "Q23008935", "o_label": "8 dan", "start": 2017, "end": null, "relation": "P468", "r_label": "đẳng cấp"}
+{"s_qid": "Q25252445", "s_label": "Cho Riyu", "o_qid": "Q23008964", "o_label": "1 dan in go", "start": 1997, "end": 1997, "relation": "P468", "r_label": "đẳng cấp"}
+{"s_qid": "Q25252445", "s_label": "Cho Riyu", "o_qid": "Q23008961", "o_label": "2 dan in go", "start": 1997, "end": 1999, "relation": "P468", "r_label": "đẳng cấp"}
+{"s_qid": "Q25252445", "s_label": "Cho Riyu", "o_qid": "Q23008960", "o_label": "3 dan in go", "start": 1999, "end": 2000, "relation": "P468", "r_label": "đẳng cấp"}
+{"s_qid": "Q25252445", "s_label": "Cho Riyu", "o_qid": "Q23008956", "o_label": "4 dan", "start": 2000, "end": 2001, "relation": "P468", "r_label": "đẳng cấp"}
+{"s_qid": "Q25252445", "s_label": "Cho Riyu", "o_qid": "Q23008953", "o_label": "5 dan", "start": 2001, "end": 2002, "relation": "P468", "r_label": "đẳng cấp"}
+{"s_qid": "Q25252445", "s_label": "Cho Riyu", "o_qid": "Q23008946", "o_label": "6 dan", "start": 2002, "end": 2004, "relation": "P468", "r_label": "đẳng cấp"}
+{"s_qid": "Q25252445", "s_label": "Cho Riyu", "o_qid": "Q23008939", "o_label": "7 dan", "start": 2004, "end": 2011, "relation": "P468", "r_label": "đẳng cấp"}
+{"s_qid": "Q25252445", "s_label": "Cho Riyu", "o_qid": "Q23008935", "o_label": "8 dan", "start": 2011, "end": null, "relation": "P468", "r_label": "đẳng cấp"}
+{"s_qid": "Q25252724", "s_label": "Shiho Hoshiai", "o_qid": "Q23008964", "o_label": "1 dan in go", "start": 2013, "end": 2017, "relation": "P468", "r_label": "đẳng cấp"}
+{"s_qid": "Q25252724", "s_label": "Shiho Hoshiai", "o_qid": "Q23008961", "o_label": "2 dan in go", "start": 2017, "end": 2021, "relation": "P468", "r_label": "đẳng cấp"}
+{"s_qid": "Q25252724", "s_label": "Shiho Hoshiai", "o_qid": "Q23008960", "o_label": "3 dan in go", "start": 2021, "end": null, "relation": "P468", "r_label": "đẳng cấp"}
+{"s_qid": "Q48204231", "s_label": "Asami Ueno", "o_qid": "Q23008964", "o_label": "1 dan in go", "start": 2016, "end": 2018, "relation": "P468", "r_label": "đẳng cấp"}
+{"s_qid": "Q48204231", "s_label": "Asami Ueno", "o_qid": "Q23008961", "o_label": "2 dan in go", "start": 2018, "end": 2019, "relation": "P468", "r_label": "đẳng cấp"}
+{"s_qid": "Q48204231", "s_label": "Asami Ueno", "o_qid": "Q23008960", "o_label": "3 dan in go", "start": 2019, "end": 2021, "relation": "P468", "r_label": "đẳng cấp"}
+{"s_qid": "Q48204231", "s_label": "Asami Ueno", "o_qid": "Q23008956", "o_label": "4 dan", "start": 2021, "end": null, "relation": "P468", "r_label": "đẳng cấp"}
+{"s_qid": "Q61100557", "s_label": "Sim Jaeik", "o_qid": "Q23008964", "o_label": "1 dan in go", "start": 2017, "end": 2018, "relation": "P468", "r_label": "đẳng cấp"}
+{"s_qid": "Q61100557", "s_label": "Sim Jaeik", "o_qid": "Q23008961", "o_label": "2 dan in go", "start": 2018, "end": 2019, "relation": "P468", "r_label": "đẳng cấp"}
+{"s_qid": "Q61100557", "s_label": "Sim Jaeik", "o_qid": "Q23008960", "o_label": "3 dan in go", "start": 2019, "end": null, "relation": "P468", "r_label": "đẳng cấp"}
+{"s_qid": "Q113577706", "s_label": "Jung Jun-woo", "o_qid": "Q23008964", "o_label": "1 dan in go", "start": 2022, "end": null, "relation": "P468", "r_label": "đẳng cấp"}
+{"s_qid": "Q113577706", "s_label": "Jung Jun-woo", "o_qid": "Q23008961", "o_label": "2 dan in go", "start": 2023, "end": null, "relation": "P468", "r_label": "đẳng cấp"}
+{"s_qid": "Q113577706", "s_label": "Jung Jun-woo", "o_qid": "Q23008960", "o_label": "3 dan in go", "start": 2025, "end": null, "relation": "P468", "r_label": "đẳng cấp"}
+{"s_qid": "Q113577706", "s_label": "Jung Jun-woo", "o_qid": "Q23008956", "o_label": "4 dan", "start": 2026, "end": null, "relation": "P468", "r_label": "đẳng cấp"}
+{"s_qid": "Q24473", "s_label": "Fan Weijing", "o_qid": "Q23008960", "o_label": "3 dan in go", "start": 2017, "end": null, "relation": "P468", "r_label": "đẳng cấp"}
+{"s_qid": "Q24473", "s_label": "Fan Weijing", "o_qid": "Q23008964", "o_label": "1 dan in go", "start": 2002, "end": 2007, "relation": "P468", "r_label": "đẳng cấp"}
+{"s_qid": "Q24473", "s_label": "Fan Weijing", "o_qid": "Q23008961", "o_label": "2 dan in go", "start": 2007, "end": 2017, "relation": "P468", "r_label": "đẳng cấp"}
+{"s_qid": "Q486652", "s_label": "Won Seong-jin", "o_qid": "Q23008964", "o_label": "1 dan in go", "start": 1998, "end": 2000, "relation": "P468", "r_label": "đẳng cấp"}
+{"s_qid": "Q486652", "s_label": "Won Seong-jin", "o_qid": "Q23008960", "o_label": "3 dan in go", "start": 2000, "end": 2001, "relation": "P468", "r_label": "đẳng cấp"}
+{"s_qid": "Q486652", "s_label": "Won Seong-jin", "o_qid": "Q23008956", "o_label": "4 dan", "start": 2001, "end": 2003, "relation": "P468", "r_label": "đẳng cấp"}
+{"s_qid": "Q486652", "s_label": "Won Seong-jin", "o_qid": "Q23008953", "o_label": "5 dan", "start": 2003, "end": 2004, "relation": "P468", "r_label": "đẳng cấp"}
+{"s_qid": "Q486652", "s_label": "Won Seong-jin", "o_qid": "Q23008946", "o_label": "6 dan", "start": 2004, "end": 2006, "relation": "P468", "r_label": "đẳng cấp"}
+{"s_qid": "Q486652", "s_label": "Won Seong-jin", "o_qid": "Q23008939", "o_label": "7 dan", "start": 2006, "end": 2007, "relation": "P468", "r_label": "đẳng cấp"}
+{"s_qid": "Q486652", "s_label": "Won Seong-jin", "o_qid": "Q23008935", "o_label": "8 dan", "start": 2007, "end": 2007, "relation": "P468", "r_label": "đẳng cấp"}
+{"s_qid": "Q486652", "s_label": "Won Seong-jin", "o_qid": "Q12036922", "o_label": "9 dan", "start": 2007, "end": null, "relation": "P468", "r_label": "đẳng cấp"}
+{"s_qid": "Q711900", "s_label": "Shei Imin", "o_qid": "Q23008946", "o_label": "6 dan", "start": 2012, "end": null, "relation": "P468", "r_label": "đẳng cấp"}
+{"s_qid": "Q711900", "s_label": "Shei Imin", "o_qid": "Q23008964", "o_label": "1 dan in go", "start": 2004, "end": 2005, "relation": "P468", "r_label": "đẳng cấp"}
+{"s_qid": "Q711900", "s_label": "Shei Imin", "o_qid": "Q23008961", "o_label": "2 dan in go", "start": 2005, "end": 2006, "relation": "P468", "r_label": "đẳng cấp"}
+{"s_qid": "Q711900", "s_label": "Shei Imin", "o_qid": "Q23008960", "o_label": "3 dan in go", "start": 2006, "end": 2008, "relation": "P468", "r_label": "đẳng cấp"}
+{"s_qid": "Q711900", "s_label": "Shei Imin", "o_qid": "Q23008956", "o_label": "4 dan", "start": 2008, "end": 2010, "relation": "P468", "r_label": "đẳng cấp"}
+{"s_qid": "Q711900", "s_label": "Shei Imin", "o_qid": "Q23008953", "o_label": "5 dan", "start": 2010, "end": 2012, "relation": "P468", "r_label": "đẳng cấp"}
+{"s_qid": "Q2982270", "s_label": "Yuta Iyama", "o_qid": "Q23008964", "o_label": "1 dan in go", "start": 2002, "end": 2002, "relation": "P468", "r_label": "đẳng cấp"}
+{"s_qid": "Q2982270", "s_label": "Yuta Iyama", "o_qid": "Q23008961", "o_label": "2 dan in go", "start": 2002, "end": 2003, "relation": "P468", "r_label": "đẳng cấp"}
+{"s_qid": "Q2982270", "s_label": "Yuta Iyama", "o_qid": "Q23008960", "o_label": "3 dan in go", "start": 2003, "end": 2005, "relation": "P468", "r_label": "đẳng cấp"}
+{"s_qid": "Q2982270", "s_label": "Yuta Iyama", "o_qid": "Q23008956", "o_label": "4 dan", "start": 2005, "end": 2005, "relation": "P468", "r_label": "đẳng cấp"}
+{"s_qid": "Q2982270", "s_label": "Yuta Iyama", "o_qid": "Q23008939", "o_label": "7 dan", "start": 2005, "end": 2008, "relation": "P468", "r_label": "đẳng cấp"}
+{"s_qid": "Q2982270", "s_label": "Yuta Iyama", "o_qid": "Q23008935", "o_label": "8 dan", "start": 2008, "end": 2009, "relation": "P468", "r_label": "đẳng cấp"}
+{"s_qid": "Q2982270", "s_label": "Yuta Iyama", "o_qid": "Q12036922", "o_label": "9 dan", "start": 2009, "end": null, "relation": "P468", "r_label": "đẳng cấp"}
+{"s_qid": "Q3156397", "s_label": "Kaoru Iwamoto", "o_qid": "Q23008964", "o_label": "1 dan in go", "start": 1917, "end": 1919, "relation": "P468", "r_label": "đẳng cấp"}
+{"s_qid": "Q3156397", "s_label": "Kaoru Iwamoto", "o_qid": "Q23008961", "o_label": "2 dan in go", "start": 1919, "end": 1920, "relation": "P468", "r_label": "đẳng cấp"}
+{"s_qid": "Q3156397", "s_label": "Kaoru Iwamoto", "o_qid": "Q23008960", "o_label": "3 dan in go", "start": 1920, "end": 1922, "relation": "P468", "r_label": "đẳng cấp"}
+{"s_qid": "Q3156397", "s_label": "Kaoru Iwamoto", "o_qid": "Q23008956", "o_label": "4 dan", "start": 1922, "end": 1925, "relation": "P468", "r_label": "đẳng cấp"}
+{"s_qid": "Q3156397", "s_label": "Kaoru Iwamoto", "o_qid": "Q23008953", "o_label": "5 dan", "start": 1925, "end": 1926, "relation": "P468", "r_label": "đẳng cấp"}
+{"s_qid": "Q3156397", "s_label": "Kaoru Iwamoto", "o_qid": "Q23008946", "o_label": "6 dan", "start": 1926, "end": 1941, "relation": "P468", "r_label": "đẳng cấp"}
+{"s_qid": "Q3156397", "s_label": "Kaoru Iwamoto", "o_qid": "Q23008939", "o_label": "7 dan", "start": 1941, "end": 1948, "relation": "P468", "r_label": "đẳng cấp"}
+{"s_qid": "Q3156397", "s_label": "Kaoru Iwamoto", "o_qid": "Q23008935", "o_label": "8 dan", "start": 1948, "end": 1967, "relation": "P468", "r_label": "đẳng cấp"}
+{"s_qid": "Q3156397", "s_label": "Kaoru Iwamoto", "o_qid": "Q12036922", "o_label": "9 dan", "start": 1967, "end": null, "relation": "P468", "r_label": "đẳng cấp"}
+{"s_qid": "Q4516989", "s_label": "Cho Hyeyeon", "o_qid": "Q23008964", "o_label": "1 dan in go", "start": 1997, "end": 1999, "relation": "P468", "r_label": "đẳng cấp"}
+{"s_qid": "Q4516989", "s_label": "Cho Hyeyeon", "o_qid": "Q23008961", "o_label": "2 dan in go", "start": 2000, "end": 2000, "relation": "P468", "r_label": "đẳng cấp"}
+{"s_qid": "Q4516989", "s_label": "Cho Hyeyeon", "o_qid": "Q23008960", "o_label": "3 dan in go", "start": 2000, "end": 2003, "relation": "P468", "r_label": "đẳng cấp"}
+{"s_qid": "Q4516989", "s_label": "Cho Hyeyeon", "o_qid": "Q23008956", "o_label": "4 dan", "start": 2003, "end": 2004, "relation": "P468", "r_label": "đẳng cấp"}
+{"s_qid": "Q4516989", "s_label": "Cho Hyeyeon", "o_qid": "Q23008953", "o_label": "5 dan", "start": 2004, "end": 2005, "relation": "P468", "r_label": "đẳng cấp"}
+{"s_qid": "Q4516989", "s_label": "Cho Hyeyeon", "o_qid": "Q23008946", "o_label": "6 dan", "start": 2005, "end": 2006, "relation": "P468", "r_label": "đẳng cấp"}
+{"s_qid": "Q4516989", "s_label": "Cho Hyeyeon", "o_qid": "Q23008939", "o_label": "7 dan", "start": 2006, "end": 2008, "relation": "P468", "r_label": "đẳng cấp"}
+{"s_qid": "Q4516989", "s_label": "Cho Hyeyeon", "o_qid": "Q23008935", "o_label": "8 dan", "start": 2008, "end": 2010, "relation": "P468", "r_label": "đẳng cấp"}
+{"s_qid": "Q4516989", "s_label": "Cho Hyeyeon", "o_qid": "Q12036922", "o_label": "9 dan", "start": 2010, "end": null, "relation": "P468", "r_label": "đẳng cấp"}
+{"s_qid": "Q7267626", "s_label": "Qian Yuping", "o_qid": "Q23008956", "o_label": "4 dan", "start": 1982, "end": 1982, "relation": "P468", "r_label": "đẳng cấp"}
+{"s_qid": "Q7267626", "s_label": "Qian Yuping", "o_qid": "Q23008953", "o_label": "5 dan", "start": 1982, "end": 1983, "relation": "P468", "r_label": "đẳng cấp"}
+{"s_qid": "Q7267626", "s_label": "Qian Yuping", "o_qid": "Q23008946", "o_label": "6 dan", "start": 1983, "end": 1985, "relation": "P468", "r_label": "đẳng cấp"}
+{"s_qid": "Q7267626", "s_label": "Qian Yuping", "o_qid": "Q23008939", "o_label": "7 dan", "start": 1985, "end": 1986, "relation": "P468", "r_label": "đẳng cấp"}
+{"s_qid": "Q7267626", "s_label": "Qian Yuping", "o_qid": "Q23008935", "o_label": "8 dan", "start": 1986, "end": 1987, "relation": "P468", "r_label": "đẳng cấp"}
+{"s_qid": "Q7267626", "s_label": "Qian Yuping", "o_qid": "Q12036922", "o_label": "9 dan", "start": 1987, "end": null, "relation": "P468", "r_label": "đẳng cấp"}
+{"s_qid": "Q8986563", "s_label": "Lian Xiao", "o_qid": "Q23008935", "o_label": "8 dan", "start": 2017, "end": 2017, "relation": "P468", "r_label": "đẳng cấp"}
+{"s_qid": "Q8986563", "s_label": "Lian Xiao", "o_qid": "Q23008939", "o_label": "7 dan", "start": 2013, "end": 2017, "relation": "P468", "r_label": "đẳng cấp"}
+{"s_qid": "Q8986563", "s_label": "Lian Xiao", "o_qid": "Q12036922", "o_label": "9 dan", "start": 2017, "end": null, "relation": "P468", "r_label": "đẳng cấp"}
+{"s_qid": "Q8986563", "s_label": "Lian Xiao", "o_qid": "Q23008964", "o_label": "1 dan in go", "start": 2007, "end": 2008, "relation": "P468", "r_label": "đẳng cấp"}
+{"s_qid": "Q8986563", "s_label": "Lian Xiao", "o_qid": "Q23008961", "o_label": "2 dan in go", "start": 2008, "end": 2009, "relation": "P468", "r_label": "đẳng cấp"}
+{"s_qid": "Q8986563", "s_label": "Lian Xiao", "o_qid": "Q23008960", "o_label": "3 dan in go", "start": 2009, "end": 2010, "relation": "P468", "r_label": "đẳng cấp"}
+{"s_qid": "Q8986563", "s_label": "Lian Xiao", "o_qid": "Q23008956", "o_label": "4 dan", "start": 2010, "end": 2013, "relation": "P468", "r_label": "đẳng cấp"}
+{"s_qid": "Q9092623", "s_label": "Zhang Xuan", "o_qid": "Q23008956", "o_label": "4 dan", "start": 1982, "end": null, "relation": "P468", "r_label": "đẳng cấp"}
+{"s_qid": "Q9092623", "s_label": "Zhang Xuan", "o_qid": "Q23008935", "o_label": "8 dan", "start": 1997, "end": null, "relation": "P468", "r_label": "đẳng cấp"}
+{"s_qid": "Q11415879", "s_label": "Chiaki Mukai", "o_qid": "Q23008964", "o_label": "1 dan in go", "start": 2004, "end": 2007, "relation": "P468", "r_label": "đẳng cấp"}
+{"s_qid": "Q11415879", "s_label": "Chiaki Mukai", "o_qid": "Q23008961", "o_label": "2 dan in go", "start": 2007, "end": 2009, "relation": "P468", "r_label": "đẳng cấp"}
+{"s_qid": "Q11415879", "s_label": "Chiaki Mukai", "o_qid": "Q23008960", "o_label": "3 dan in go", "start": 2009, "end": 2010, "relation": "P468", "r_label": "đẳng cấp"}
+{"s_qid": "Q11415879", "s_label": "Chiaki Mukai", "o_qid": "Q23008956", "o_label": "4 dan", "start": 2010, "end": 2012, "relation": "P468", "r_label": "đẳng cấp"}
+{"s_qid": "Q11415879", "s_label": "Chiaki Mukai", "o_qid": "Q23008953", "o_label": "5 dan", "start": 2012, "end": 2021, "relation": "P468", "r_label": "đẳng cấp"}
+{"s_qid": "Q11415879", "s_label": "Chiaki Mukai", "o_qid": "Q23008946", "o_label": "6 dan", "start": 2021, "end": null, "relation": "P468", "r_label": "đẳng cấp"}
+{"s_qid": "Q12587374", "s_label": "Kim Miri", "o_qid": "Q23008964", "o_label": "1 dan in go", "start": 2008, "end": 2011, "relation": "P468", "r_label": "đẳng cấp"}
+{"s_qid": "Q12587374", "s_label": "Kim Miri", "o_qid": "Q23008961", "o_label": "2 dan in go", "start": 2011, "end": 2014, "relation": "P468", "r_label": "đẳng cấp"}
+{"s_qid": "Q12587374", "s_label": "Kim Miri", "o_qid": "Q23008960", "o_label": "3 dan in go", "start": 2014, "end": 2018, "relation": "P468", "r_label": "đẳng cấp"}
+{"s_qid": "Q12587374", "s_label": "Kim Miri", "o_qid": "Q23008956", "o_label": "4 dan", "start": 2018, "end": null, "relation": "P468", "r_label": "đẳng cấp"}
+{"s_qid": "Q16160030", "s_label": "Shin Min-jun", "o_qid": "Q23008964", "o_label": "1 dan in go", "start": 2012, "end": 2014, "relation": "P468", "r_label": "đẳng cấp"}
+{"s_qid": "Q16160030", "s_label": "Shin Min-jun", "o_qid": "Q23008961", "o_label": "2 dan in go", "start": 2014, "end": 2015, "relation": "P468", "r_label": "đẳng cấp"}
+{"s_qid": "Q16160030", "s_label": "Shin Min-jun", "o_qid": "Q23008960", "o_label": "3 dan in go", "start": 2015, "end": 2016, "relation": "P468", "r_label": "đẳng cấp"}
+{"s_qid": "Q16160030", "s_label": "Shin Min-jun", "o_qid": "Q23008956", "o_label": "4 dan", "start": 2016, "end": 2016, "relation": "P468", "r_label": "đẳng cấp"}
+{"s_qid": "Q16160030", "s_label": "Shin Min-jun", "o_qid": "Q23008953", "o_label": "5 dan", "start": 2016, "end": 2017, "relation": "P468", "r_label": "đẳng cấp"}
+{"s_qid": "Q16160030", "s_label": "Shin Min-jun", "o_qid": "Q23008946", "o_label": "6 dan", "start": 2017, "end": 2018, "relation": "P468", "r_label": "đẳng cấp"}
+{"s_qid": "Q16160030", "s_label": "Shin Min-jun", "o_qid": "Q23008939", "o_label": "7 dan", "start": 2018, "end": 2018, "relation": "P468", "r_label": "đẳng cấp"}
+{"s_qid": "Q16160030", "s_label": "Shin Min-jun", "o_qid": "Q23008935", "o_label": "8 dan", "start": 2018, "end": 2018, "relation": "P468", "r_label": "đẳng cấp"}
+{"s_qid": "Q16160030", "s_label": "Shin Min-jun", "o_qid": "Q12036922", "o_label": "9 dan", "start": 2018, "end": null, "relation": "P468", "r_label": "đẳng cấp"}
+{"s_qid": "Q16262307", "s_label": "Kha Khiết", "o_qid": "Q12036922", "o_label": "9 dan", "start": 2015, "end": null, "relation": "P468", "r_label": "đẳng cấp"}
+{"s_qid": "Q16262307", "s_label": "Kha Khiết", "o_qid": "Q23008964", "o_label": "1 dan in go", "start": 2008, "end": 2010, "relation": "P468", "r_label": "đẳng cấp"}
+{"s_qid": "Q16262307", "s_label": "Kha Khiết", "o_qid": "Q23008961", "o_label": "2 dan in go", "start": 2010, "end": 2011, "relation": "P468", "r_label": "đẳng cấp"}
+{"s_qid": "Q16262307", "s_label": "Kha Khiết", "o_qid": "Q23008960", "o_label": "3 dan in go", "start": 2011, "end": 2012, "relation": "P468", "r_label": "đẳng cấp"}
+{"s_qid": "Q16262307", "s_label": "Kha Khiết", "o_qid": "Q23008956", "o_label": "4 dan", "start": 2012, "end": 2015, "relation": "P468", "r_label": "đẳng cấp"}
+{"s_qid": "Q22973181", "s_label": "Kim Cheayoung", "o_qid": "Q23008964", "o_label": "1 dan in go", "start": 2011, "end": 2014, "relation": "P468", "r_label": "đẳng cấp"}
+{"s_qid": "Q22973181", "s_label": "Kim Cheayoung", "o_qid": "Q23008961", "o_label": "2 dan in go", "start": 2014, "end": 2017, "relation": "P468", "r_label": "đẳng cấp"}
+{"s_qid": "Q22973181", "s_label": "Kim Cheayoung", "o_qid": "Q23008960", "o_label": "3 dan in go", "start": 2017, "end": 2018, "relation": "P468", "r_label": "đẳng cấp"}
+{"s_qid": "Q22973181", "s_label": "Kim Cheayoung", "o_qid": "Q23008956", "o_label": "4 dan", "start": 2018, "end": 2018, "relation": "P468", "r_label": "đẳng cấp"}
+{"s_qid": "Q22973181", "s_label": "Kim Cheayoung", "o_qid": "Q23008953", "o_label": "5 dan", "start": 2018, "end": 2020, "relation": "P468", "r_label": "đẳng cấp"}
+{"s_qid": "Q22973181", "s_label": "Kim Cheayoung", "o_qid": "Q23008946", "o_label": "6 dan", "start": 2020, "end": null, "relation": "P468", "r_label": "đẳng cấp"}
+{"s_qid": "Q25252410", "s_label": "Xie Ke", "o_qid": "Q12036922", "o_label": "9 dan", "start": 2021, "end": null, "relation": "P468", "r_label": "đẳng cấp"}
+{"s_qid": "Q25252410", "s_label": "Xie Ke", "o_qid": "Q23008935", "o_label": "8 dan", "start": 2019, "end": 2021, "relation": "P468", "r_label": "đẳng cấp"}
+{"s_qid": "Q25252410", "s_label": "Xie Ke", "o_qid": "Q23008939", "o_label": "7 dan", "start": 2019, "end": 2019, "relation": "P468", "r_label": "đẳng cấp"}
+{"s_qid": "Q25252410", "s_label": "Xie Ke", "o_qid": "Q23008946", "o_label": "6 dan", "start": 2018, "end": 2019, "relation": "P468", "r_label": "đẳng cấp"}
+{"s_qid": "Q25252410", "s_label": "Xie Ke", "o_qid": "Q23008953", "o_label": "5 dan", "start": 2017, "end": 2018, "relation": "P468", "r_label": "đẳng cấp"}
+{"s_qid": "Q25252410", "s_label": "Xie Ke", "o_qid": "Q23008956", "o_label": "4 dan", "start": 2017, "end": 2017, "relation": "P468", "r_label": "đẳng cấp"}
+{"s_qid": "Q25252410", "s_label": "Xie Ke", "o_qid": "Q23008960", "o_label": "3 dan in go", "start": 2017, "end": 2017, "relation": "P468", "r_label": "đẳng cấp"}
+{"s_qid": "Q25252410", "s_label": "Xie Ke", "o_qid": "Q23008961", "o_label": "2 dan in go", "start": 2015, "end": 2017, "relation": "P468", "r_label": "đẳng cấp"}
+{"s_qid": "Q25252410", "s_label": "Xie Ke", "o_qid": "Q23008964", "o_label": "1 dan in go", "start": 2013, "end": 2015, "relation": "P468", "r_label": "đẳng cấp"}
+{"s_qid": "Q25252541", "s_label": "Hsu Hao-Hung", "o_qid": "Q23008964", "o_label": "1 dan in go", "start": 2013, "end": 2014, "relation": "P468", "r_label": "đẳng cấp"}
+{"s_qid": "Q25252541", "s_label": "Hsu Hao-Hung", "o_qid": "Q23008961", "o_label": "2 dan in go", "start": 2014, "end": 2016, "relation": "P468", "r_label": "đẳng cấp"}
+{"s_qid": "Q25252541", "s_label": "Hsu Hao-Hung", "o_qid": "Q23008960", "o_label": "3 dan in go", "start": 2016, "end": 2017, "relation": "P468", "r_label": "đẳng cấp"}
+{"s_qid": "Q25252541", "s_label": "Hsu Hao-Hung", "o_qid": "Q23008956", "o_label": "4 dan", "start": 2017, "end": 2017, "relation": "P468", "r_label": "đẳng cấp"}
+{"s_qid": "Q25252541", "s_label": "Hsu Hao-Hung", "o_qid": "Q23008953", "o_label": "5 dan", "start": 2017, "end": 2019, "relation": "P468", "r_label": "đẳng cấp"}
+{"s_qid": "Q25252541", "s_label": "Hsu Hao-Hung", "o_qid": "Q23008946", "o_label": "6 dan", "start": 2019, "end": 2020, "relation": "P468", "r_label": "đẳng cấp"}
+{"s_qid": "Q25252541", "s_label": "Hsu Hao-Hung", "o_qid": "Q23008939", "o_label": "7 dan", "start": 2020, "end": 2022, "relation": "P468", "r_label": "đẳng cấp"}
+{"s_qid": "Q25252541", "s_label": "Hsu Hao-Hung", "o_qid": "Q23008935", "o_label": "8 dan", "start": 2022, "end": 2022, "relation": "P468", "r_label": "đẳng cấp"}
+{"s_qid": "Q25252541", "s_label": "Hsu Hao-Hung", "o_qid": "Q12036922", "o_label": "9 dan", "start": 2022, "end": null, "relation": "P468", "r_label": "đẳng cấp"}
+{"s_qid": "Q63963392", "s_label": "Moon Min-jong", "o_qid": "Q23008964", "o_label": "1 dan in go", "start": 2017, "end": 2019, "relation": "P468", "r_label": "đẳng cấp"}
+{"s_qid": "Q63963392", "s_label": "Moon Min-jong", "o_qid": "Q23008961", "o_label": "2 dan in go", "start": 2019, "end": 2020, "relation": "P468", "r_label": "đẳng cấp"}
+{"s_qid": "Q63963392", "s_label": "Moon Min-jong", "o_qid": "Q23008960", "o_label": "3 dan in go", "start": 2020, "end": 2021, "relation": "P468", "r_label": "đẳng cấp"}
+{"s_qid": "Q63963392", "s_label": "Moon Min-jong", "o_qid": "Q23008956", "o_label": "4 dan", "start": 2021, "end": null, "relation": "P468", "r_label": "đẳng cấp"}
+{"s_qid": "Q94719408", "s_label": "Shin Jaewon", "o_qid": "Q23008964", "o_label": "1 dan in go", "start": 2019, "end": 2020, "relation": "P468", "r_label": "đẳng cấp"}
+{"s_qid": "Q94719408", "s_label": "Shin Jaewon", "o_qid": "Q23008961", "o_label": "2 dan in go", "start": 2020, "end": 2021, "relation": "P468", "r_label": "đẳng cấp"}
+{"s_qid": "Q94719408", "s_label": "Shin Jaewon", "o_qid": "Q23008960", "o_label": "3 dan in go", "start": 2021, "end": null, "relation": "P468", "r_label": "đẳng cấp"}
+{"s_qid": "Q100254886", "s_label": "Kotaro Seki", "o_qid": "Q23008964", "o_label": "1 dan in go", "start": 2017, "end": 2018, "relation": "P468", "r_label": "đẳng cấp"}
+{"s_qid": "Q100254886", "s_label": "Kotaro Seki", "o_qid": "Q23008961", "o_label": "2 dan in go", "start": 2018, "end": 2019, "relation": "P468", "r_label": "đẳng cấp"}
+{"s_qid": "Q100254886", "s_label": "Kotaro Seki", "o_qid": "Q23008960", "o_label": "3 dan in go", "start": 2020, "end": 2021, "relation": "P468", "r_label": "đẳng cấp"}
+{"s_qid": "Q100254886", "s_label": "Kotaro Seki", "o_qid": "Q23008956", "o_label": "4 dan", "start": 2021, "end": 2021, "relation": "P468", "r_label": "đẳng cấp"}
+{"s_qid": "Q100254886", "s_label": "Kotaro Seki", "o_qid": "Q23008939", "o_label": "7 dan", "start": 2021, "end": 2021, "relation": "P468", "r_label": "đẳng cấp"}
+{"s_qid": "Q100254886", "s_label": "Kotaro Seki", "o_qid": "Q23008935", "o_label": "8 dan", "start": 2021, "end": null, "relation": "P468", "r_label": "đẳng cấp"}
+{"s_qid": "Q3198525", "s_label": "Hideki Komatsu", "o_qid": "Q23008964", "o_label": "1 dan in go", "start": 1981, "end": 1981, "relation": "P468", "r_label": "đẳng cấp"}
+{"s_qid": "Q3198525", "s_label": "Hideki Komatsu", "o_qid": "Q23008961", "o_label": "2 dan in go", "start": 1981, "end": 1982, "relation": "P468", "r_label": "đẳng cấp"}
+{"s_qid": "Q3198525", "s_label": "Hideki Komatsu", "o_qid": "Q23008960", "o_label": "3 dan in go", "start": 1982, "end": 1983, "relation": "P468", "r_label": "đẳng cấp"}
+{"s_qid": "Q3198525", "s_label": "Hideki Komatsu", "o_qid": "Q23008956", "o_label": "4 dan", "start": 1983, "end": 1985, "relation": "P468", "r_label": "đẳng cấp"}
+{"s_qid": "Q3198525", "s_label": "Hideki Komatsu", "o_qid": "Q23008953", "o_label": "5 dan", "start": 1985, "end": 1987, "relation": "P468", "r_label": "đẳng cấp"}
+{"s_qid": "Q3198525", "s_label": "Hideki Komatsu", "o_qid": "Q23008946", "o_label": "6 dan", "start": 1987, "end": 1989, "relation": "P468", "r_label": "đẳng cấp"}
+{"s_qid": "Q3198525", "s_label": "Hideki Komatsu", "o_qid": "Q23008939", "o_label": "7 dan", "start": 1989, "end": 1992, "relation": "P468", "r_label": "đẳng cấp"}
+{"s_qid": "Q3198525", "s_label": "Hideki Komatsu", "o_qid": "Q23008935", "o_label": "8 dan", "start": 1992, "end": 1995, "relation": "P468", "r_label": "đẳng cấp"}
+{"s_qid": "Q3198525", "s_label": "Hideki Komatsu", "o_qid": "Q12036922", "o_label": "9 dan", "start": 1995, "end": null, "relation": "P468", "r_label": "đẳng cấp"}
+{"s_qid": "Q3502954", "s_label": "Atsushi Tsuruyama", "o_qid": "Q23008946", "o_label": "6 dan", "start": 2005, "end": 2010, "relation": "P468", "r_label": "đẳng cấp"}
+{"s_qid": "Q3502954", "s_label": "Atsushi Tsuruyama", "o_qid": "Q23008939", "o_label": "7 dan", "start": 2010, "end": 2019, "relation": "P468", "r_label": "đẳng cấp"}
+{"s_qid": "Q3502954", "s_label": "Atsushi Tsuruyama", "o_qid": "Q23008964", "o_label": "1 dan in go", "start": 1999, "end": 1999, "relation": "P468", "r_label": "đẳng cấp"}
+{"s_qid": "Q3502954", "s_label": "Atsushi Tsuruyama", "o_qid": "Q23008961", "o_label": "2 dan in go", "start": 1999, "end": 2000, "relation": "P468", "r_label": "đẳng cấp"}
+{"s_qid": "Q3502954", "s_label": "Atsushi Tsuruyama", "o_qid": "Q23008960", "o_label": "3 dan in go", "start": 2000, "end": 2001, "relation": "P468", "r_label": "đẳng cấp"}
+{"s_qid": "Q3502954", "s_label": "Atsushi Tsuruyama", "o_qid": "Q23008956", "o_label": "4 dan", "start": 2001, "end": 2003, "relation": "P468", "r_label": "đẳng cấp"}
+{"s_qid": "Q3502954", "s_label": "Atsushi Tsuruyama", "o_qid": "Q23008953", "o_label": "5 dan", "start": 2003, "end": 2005, "relation": "P468", "r_label": "đẳng cấp"}
+{"s_qid": "Q3502954", "s_label": "Atsushi Tsuruyama", "o_qid": "Q23008935", "o_label": "8 dan", "start": 2019, "end": null, "relation": "P468", "r_label": "đẳng cấp"}
+{"s_qid": "Q6141800", "s_label": "Park Jung-sang", "o_qid": "Q23008964", "o_label": "1 dan in go", "start": 2000, "end": 2001, "relation": "P468", "r_label": "đẳng cấp"}
+{"s_qid": "Q6141800", "s_label": "Park Jung-sang", "o_qid": "Q23008961", "o_label": "2 dan in go", "start": 2001, "end": 2002, "relation": "P468", "r_label": "đẳng cấp"}
+{"s_qid": "Q6141800", "s_label": "Park Jung-sang", "o_qid": "Q23008960", "o_label": "3 dan in go", "start": 2002, "end": 2003, "relation": "P468", "r_label": "đẳng cấp"}
+{"s_qid": "Q6141800", "s_label": "Park Jung-sang", "o_qid": "Q23008956", "o_label": "4 dan", "start": 2003, "end": 2005, "relation": "P468", "r_label": "đẳng cấp"}
+{"s_qid": "Q6141800", "s_label": "Park Jung-sang", "o_qid": "Q23008953", "o_label": "5 dan", "start": 2005, "end": 2006, "relation": "P468", "r_label": "đẳng cấp"}
+{"s_qid": "Q6141800", "s_label": "Park Jung-sang", "o_qid": "Q23008946", "o_label": "6 dan", "start": 2006, "end": 2006, "relation": "P468", "r_label": "đẳng cấp"}
+{"s_qid": "Q6141800", "s_label": "Park Jung-sang", "o_qid": "Q23008939", "o_label": "7 dan", "start": 2006, "end": 2006, "relation": "P468", "r_label": "đẳng cấp"}
+{"s_qid": "Q6141800", "s_label": "Park Jung-sang", "o_qid": "Q12036922", "o_label": "9 dan", "start": 2006, "end": null, "relation": "P468", "r_label": "đẳng cấp"}
+{"s_qid": "Q11399096", "s_label": "Keiko Katō", "o_qid": "Q23008964", "o_label": "1 dan in go", "start": 1999, "end": 1999, "relation": "P468", "r_label": "đẳng cấp"}
+{"s_qid": "Q11399096", "s_label": "Keiko Katō", "o_qid": "Q23008961", "o_label": "2 dan in go", "start": 1999, "end": 2000, "relation": "P468", "r_label": "đẳng cấp"}
+{"s_qid": "Q11399096", "s_label": "Keiko Katō", "o_qid": "Q23008960", "o_label": "3 dan in go", "start": 2000, "end": 2001, "relation": "P468", "r_label": "đẳng cấp"}
+{"s_qid": "Q11399096", "s_label": "Keiko Katō", "o_qid": "Q23008956", "o_label": "4 dan", "start": 2001, "end": 2006, "relation": "P468", "r_label": "đẳng cấp"}
+{"s_qid": "Q11399096", "s_label": "Keiko Katō", "o_qid": "Q23008953", "o_label": "5 dan", "start": 2006, "end": 2008, "relation": "P468", "r_label": "đẳng cấp"}
+{"s_qid": "Q11399096", "s_label": "Keiko Katō", "o_qid": "Q23008946", "o_label": "6 dan", "start": 2008, "end": null, "relation": "P468", "r_label": "đẳng cấp"}
+{"s_qid": "Q11463577", "s_label": "Kazuko Konishi", "o_qid": "Q23008964", "o_label": "1 dan in go", "start": 1989, "end": 1990, "relation": "P468", "r_label": "đẳng cấp"}
+{"s_qid": "Q11463577", "s_label": "Kazuko Konishi", "o_qid": "Q23008961", "o_label": "2 dan in go", "start": 1990, "end": 1991, "relation": "P468", "r_label": "đẳng cấp"}
+{"s_qid": "Q11463577", "s_label": "Kazuko Konishi", "o_qid": "Q23008960", "o_label": "3 dan in go", "start": 1991, "end": 1993, "relation": "P468", "r_label": "đẳng cấp"}
+{"s_qid": "Q11463577", "s_label": "Kazuko Konishi", "o_qid": "Q23008956", "o_label": "4 dan", "start": 1993, "end": 1995, "relation": "P468", "r_label": "đẳng cấp"}
+{"s_qid": "Q11463577", "s_label": "Kazuko Konishi", "o_qid": "Q23008953", "o_label": "5 dan", "start": 1995, "end": 1997, "relation": "P468", "r_label": "đẳng cấp"}
+{"s_qid": "Q11463577", "s_label": "Kazuko Konishi", "o_qid": "Q23008946", "o_label": "6 dan", "start": 1997, "end": 2001, "relation": "P468", "r_label": "đẳng cấp"}
+{"s_qid": "Q11463577", "s_label": "Kazuko Konishi", "o_qid": "Q23008939", "o_label": "7 dan", "start": 2001, "end": 2004, "relation": "P468", "r_label": "đẳng cấp"}
+{"s_qid": "Q11463577", "s_label": "Kazuko Konishi", "o_qid": "Q23008935", "o_label": "8 dan", "start": 2004, "end": null, "relation": "P468", "r_label": "đẳng cấp"}
+{"s_qid": "Q11477181", "s_label": "Choi Jeong", "o_qid": "Q23008964", "o_label": "1 dan in go", "start": 2010, "end": 2012, "relation": "P468", "r_label": "đẳng cấp"}
+{"s_qid": "Q11477181", "s_label": "Choi Jeong", "o_qid": "Q23008961", "o_label": "2 dan in go", "start": 2012, "end": 2013, "relation": "P468", "r_label": "đẳng cấp"}
+{"s_qid": "Q11477181", "s_label": "Choi Jeong", "o_qid": "Q23008960", "o_label": "3 dan in go", "start": 2013, "end": 2013, "relation": "P468", "r_label": "đẳng cấp"}
+{"s_qid": "Q11477181", "s_label": "Choi Jeong", "o_qid": "Q23008956", "o_label": "4 dan", "start": 2013, "end": 2014, "relation": "P468", "r_label": "đẳng cấp"}
+{"s_qid": "Q11477181", "s_label": "Choi Jeong", "o_qid": "Q23008953", "o_label": "5 dan", "start": 2014, "end": 2015, "relation": "P468", "r_label": "đẳng cấp"}
+{"s_qid": "Q11477181", "s_label": "Choi Jeong", "o_qid": "Q23008946", "o_label": "6 dan", "start": 2015, "end": 2016, "relation": "P468", "r_label": "đẳng cấp"}
+{"s_qid": "Q11477181", "s_label": "Choi Jeong", "o_qid": "Q23008939", "o_label": "7 dan", "start": 2016, "end": 2017, "relation": "P468", "r_label": "đẳng cấp"}
+{"s_qid": "Q11477181", "s_label": "Choi Jeong", "o_qid": "Q23008935", "o_label": "8 dan", "start": 2017, "end": 2018, "relation": "P468", "r_label": "đẳng cấp"}
+{"s_qid": "Q11477181", "s_label": "Choi Jeong", "o_qid": "Q12036922", "o_label": "9 dan", "start": 2018, "end": null, "relation": "P468", "r_label": "đẳng cấp"}
+{"s_qid": "Q11564431", "s_label": "Tomochika Mizokami", "o_qid": "Q23008964", "o_label": "1 dan in go", "start": 1993, "end": 1993, "relation": "P468", "r_label": "đẳng cấp"}
+{"s_qid": "Q11564431", "s_label": "Tomochika Mizokami", "o_qid": "Q23008961", "o_label": "2 dan in go", "start": 1993, "end": 1994, "relation": "P468", "r_label": "đẳng cấp"}
+{"s_qid": "Q11564431", "s_label": "Tomochika Mizokami", "o_qid": "Q23008960", "o_label": "3 dan in go", "start": 1994, "end": 1995, "relation": "P468", "r_label": "đẳng cấp"}
+{"s_qid": "Q11564431", "s_label": "Tomochika Mizokami", "o_qid": "Q23008956", "o_label": "4 dan", "start": 1995, "end": 1997, "relation": "P468", "r_label": "đẳng cấp"}
+{"s_qid": "Q11564431", "s_label": "Tomochika Mizokami", "o_qid": "Q23008953", "o_label": "5 dan", "start": 1997, "end": 1998, "relation": "P468", "r_label": "đẳng cấp"}
+{"s_qid": "Q11564431", "s_label": "Tomochika Mizokami", "o_qid": "Q23008946", "o_label": "6 dan", "start": 1998, "end": 2000, "relation": "P468", "r_label": "đẳng cấp"}
+{"s_qid": "Q11564431", "s_label": "Tomochika Mizokami", "o_qid": "Q23008939", "o_label": "7 dan", "start": 2000, "end": 2005, "relation": "P468", "r_label": "đẳng cấp"}
+{"s_qid": "Q11564431", "s_label": "Tomochika Mizokami", "o_qid": "Q23008935", "o_label": "8 dan", "start": 2005, "end": 2014, "relation": "P468", "r_label": "đẳng cấp"}
+{"s_qid": "Q11564431", "s_label": "Tomochika Mizokami", "o_qid": "Q12036922", "o_label": "9 dan", "start": 2014, "end": null, "relation": "P468", "r_label": "đẳng cấp"}
+{"s_qid": "Q12053065", "s_label": "Yu Zhiying", "o_qid": "Q23008964", "o_label": "1 dan in go", "start": 2010, "end": 2011, "relation": "P468", "r_label": "đẳng cấp"}
+{"s_qid": "Q12053065", "s_label": "Yu Zhiying", "o_qid": "Q23008961", "o_label": "2 dan in go", "start": 2011, "end": 2013, "relation": "P468", "r_label": "đẳng cấp"}
+{"s_qid": "Q12053065", "s_label": "Yu Zhiying", "o_qid": "Q23008956", "o_label": "4 dan", "start": 2013, "end": 2015, "relation": "P468", "r_label": "đẳng cấp"}
+{"s_qid": "Q12053065", "s_label": "Yu Zhiying", "o_qid": "Q23008953", "o_label": "5 dan", "start": 2015, "end": 2017, "relation": "P468", "r_label": "đẳng cấp"}
+{"s_qid": "Q12053065", "s_label": "Yu Zhiying", "o_qid": "Q23008946", "o_label": "6 dan", "start": 2017, "end": null, "relation": "P468", "r_label": "đẳng cấp"}
+{"s_qid": "Q16261432", "s_label": "Li Xuanhao", "o_qid": "Q23008964", "o_label": "1 dan in go", "start": 2008, "end": 2009, "relation": "P468", "r_label": "đẳng cấp"}
+{"s_qid": "Q16261432", "s_label": "Li Xuanhao", "o_qid": "Q23008939", "o_label": "7 dan", "start": 2017, "end": 2020, "relation": "P468", "r_label": "đẳng cấp"}
+{"s_qid": "Q16261432", "s_label": "Li Xuanhao", "o_qid": "Q23008935", "o_label": "8 dan", "start": 2020, "end": null, "relation": "P468", "r_label": "đẳng cấp"}
+{"s_qid": "Q16261432", "s_label": "Li Xuanhao", "o_qid": "Q23008961", "o_label": "2 dan in go", "start": 2009, "end": 2010, "relation": "P468", "r_label": "đẳng cấp"}
+{"s_qid": "Q16261432", "s_label": "Li Xuanhao", "o_qid": "Q23008960", "o_label": "3 dan in go", "start": 2010, "end": 2012, "relation": "P468", "r_label": "đẳng cấp"}
+{"s_qid": "Q16261432", "s_label": "Li Xuanhao", "o_qid": "Q23008956", "o_label": "4 dan", "start": 2012, "end": 2013, "relation": "P468", "r_label": "đẳng cấp"}
+{"s_qid": "Q16261432", "s_label": "Li Xuanhao", "o_qid": "Q23008953", "o_label": "5 dan", "start": 2013, "end": 2016, "relation": "P468", "r_label": "đẳng cấp"}
+{"s_qid": "Q16261432", "s_label": "Li Xuanhao", "o_qid": "Q23008946", "o_label": "6 dan", "start": 2016, "end": 2017, "relation": "P468", "r_label": "đẳng cấp"}
+{"s_qid": "Q16262394", "s_label": "Huang Yunsong", "o_qid": "Q23008939", "o_label": "7 dan", "start": 2019, "end": null, "relation": "P468", "r_label": "đẳng cấp"}
+{"s_qid": "Q16262394", "s_label": "Huang Yunsong", "o_qid": "Q23008964", "o_label": "1 dan in go", "start": 2010, "end": 2011, "relation": "P468", "r_label": "đẳng cấp"}
+{"s_qid": "Q16262394", "s_label": "Huang Yunsong", "o_qid": "Q23008961", "o_label": "2 dan in go", "start": 2011, "end": 2012, "relation": "P468", "r_label": "đẳng cấp"}
+{"s_qid": "Q16262394", "s_label": "Huang Yunsong", "o_qid": "Q23008960", "o_label": "3 dan in go", "start": 2012, "end": 2014, "relation": "P468", "r_label": "đẳng cấp"}
+{"s_qid": "Q16262394", "s_label": "Huang Yunsong", "o_qid": "Q23008956", "o_label": "4 dan", "start": 2014, "end": 2016, "relation": "P468", "r_label": "đẳng cấp"}
+{"s_qid": "Q16262394", "s_label": "Huang Yunsong", "o_qid": "Q23008953", "o_label": "5 dan", "start": 2016, "end": 2016, "relation": "P468", "r_label": "đẳng cấp"}
+{"s_qid": "Q16262394", "s_label": "Huang Yunsong", "o_qid": "Q23008946", "o_label": "6 dan", "start": 2016, "end": 2019, "relation": "P468", "r_label": "đẳng cấp"}
+{"s_qid": "Q22974626", "s_label": "Yoo Oh-seong", "o_qid": "Q23008964", "o_label": "1 dan in go", "start": 2013, "end": 2014, "relation": "P468", "r_label": "đẳng cấp"}
+{"s_qid": "Q22974626", "s_label": "Yoo Oh-seong", "o_qid": "Q23008961", "o_label": "2 dan in go", "start": 2014, "end": 2015, "relation": "P468", "r_label": "đẳng cấp"}
+{"s_qid": "Q22974626", "s_label": "Yoo Oh-seong", "o_qid": "Q23008960", "o_label": "3 dan in go", "start": 2015, "end": 2016, "relation": "P468", "r_label": "đẳng cấp"}
+{"s_qid": "Q22974626", "s_label": "Yoo Oh-seong", "o_qid": "Q23008956", "o_label": "4 dan", "start": 2016, "end": 2018, "relation": "P468", "r_label": "đẳng cấp"}
+{"s_qid": "Q22974626", "s_label": "Yoo Oh-seong", "o_qid": "Q23008953", "o_label": "5 dan", "start": 2018, "end": 2020, "relation": "P468", "r_label": "đẳng cấp"}
+{"s_qid": "Q22974626", "s_label": "Yoo Oh-seong", "o_qid": "Q23008946", "o_label": "6 dan", "start": 2020, "end": null, "relation": "P468", "r_label": "đẳng cấp"}
+{"s_qid": "Q25252416", "s_label": "Toramaru Shibano", "o_qid": "Q23008964", "o_label": "1 dan in go", "start": 2014, "end": 2015, "relation": "P468", "r_label": "đẳng cấp"}
+{"s_qid": "Q25252416", "s_label": "Toramaru Shibano", "o_qid": "Q23008961", "o_label": "2 dan in go", "start": 2015, "end": 2016, "relation": "P468", "r_label": "đẳng cấp"}
+{"s_qid": "Q25252416", "s_label": "Toramaru Shibano", "o_qid": "Q23008960", "o_label": "3 dan in go", "start": 2016, "end": 2017, "relation": "P468", "r_label": "đẳng cấp"}
+{"s_qid": "Q25252416", "s_label": "Toramaru Shibano", "o_qid": "Q23008939", "o_label": "7 dan", "start": 2017, "end": 2019, "relation": "P468", "r_label": "đẳng cấp"}
+{"s_qid": "Q25252416", "s_label": "Toramaru Shibano", "o_qid": "Q23008935", "o_label": "8 dan", "start": 2019, "end": 2019, "relation": "P468", "r_label": "đẳng cấp"}
+{"s_qid": "Q25252416", "s_label": "Toramaru Shibano", "o_qid": "Q12036922", "o_label": "9 dan", "start": 2019, "end": null, "relation": "P468", "r_label": "đẳng cấp"}
+{"s_qid": "Q25252526", "s_label": "Atsushi Sada", "o_qid": "Q23008964", "o_label": "1 dan in go", "start": 2012, "end": 2014, "relation": "P468", "r_label": "đẳng cấp"}
+{"s_qid": "Q25252526", "s_label": "Atsushi Sada", "o_qid": "Q23008961", "o_label": "2 dan in go", "start": 2014, "end": 2016, "relation": "P468", "r_label": "đẳng cấp"}
+{"s_qid": "Q25252526", "s_label": "Atsushi Sada", "o_qid": "Q23008960", "o_label": "3 dan in go", "start": 2016, "end": 2019, "relation": "P468", "r_label": "đẳng cấp"}
+{"s_qid": "Q25252526", "s_label": "Atsushi Sada", "o_qid": "Q23008956", "o_label": "4 dan", "start": 2019, "end": 2020, "relation": "P468", "r_label": "đẳng cấp"}
+{"s_qid": "Q25252526", "s_label": "Atsushi Sada", "o_qid": "Q23008939", "o_label": "7 dan", "start": 2020, "end": null, "relation": "P468", "r_label": "đẳng cấp"}
+{"s_qid": "Q25252588", "s_label": "Lai Jyun-Fu", "o_qid": "Q23008964", "o_label": "1 dan in go", "start": 2016, "end": 2016, "relation": "P468", "r_label": "đẳng cấp"}
+{"s_qid": "Q25252588", "s_label": "Lai Jyun-Fu", "o_qid": "Q23008961", "o_label": "2 dan in go", "start": 2016, "end": 2018, "relation": "P468", "r_label": "đẳng cấp"}
+{"s_qid": "Q25252588", "s_label": "Lai Jyun-Fu", "o_qid": "Q23008960", "o_label": "3 dan in go", "start": 2018, "end": 2019, "relation": "P468", "r_label": "đẳng cấp"}
+{"s_qid": "Q25252588", "s_label": "Lai Jyun-Fu", "o_qid": "Q23008956", "o_label": "4 dan", "start": 2019, "end": 2020, "relation": "P468", "r_label": "đẳng cấp"}
+{"s_qid": "Q25252588", "s_label": "Lai Jyun-Fu", "o_qid": "Q23008953", "o_label": "5 dan", "start": 2020, "end": null, "relation": "P468", "r_label": "đẳng cấp"}
+{"s_qid": "Q25252629", "s_label": "Eiko Nyu", "o_qid": "Q23008964", "o_label": "1 dan in go", "start": 2015, "end": 2017, "relation": "P468", "r_label": "đẳng cấp"}
+{"s_qid": "Q25252629", "s_label": "Eiko Nyu", "o_qid": "Q23008961", "o_label": "2 dan in go", "start": 2017, "end": 2020, "relation": "P468", "r_label": "đẳng cấp"}
+{"s_qid": "Q25252629", "s_label": "Eiko Nyu", "o_qid": "Q23008960", "o_label": "3 dan in go", "start": 2020, "end": 2022, "relation": "P468", "r_label": "đẳng cấp"}
+{"s_qid": "Q25252629", "s_label": "Eiko Nyu", "o_qid": "Q23008956", "o_label": "4 dan", "start": 2022, "end": null, "relation": "P468", "r_label": "đẳng cấp"}
+{"s_qid": "Q79404523", "s_label": "Lee Yeon", "o_qid": "Q23008964", "o_label": "1 dan in go", "start": 2018, "end": 2020, "relation": "P468", "r_label": "đẳng cấp"}
+{"s_qid": "Q79404523", "s_label": "Lee Yeon", "o_qid": "Q23008961", "o_label": "2 dan in go", "start": 2020, "end": 2021, "relation": "P468", "r_label": "đẳng cấp"}
+{"s_qid": "Q79404523", "s_label": "Lee Yeon", "o_qid": "Q23008960", "o_label": "3 dan in go", "start": 2021, "end": null, "relation": "P468", "r_label": "đẳng cấp"}
+{"s_qid": "Q102106760", "s_label": "Naomi Kanno", "o_qid": "Q23008964", "o_label": "1 dan in go", "start": 1985, "end": 1987, "relation": "P468", "r_label": "đẳng cấp"}
+{"s_qid": "Q102106760", "s_label": "Naomi Kanno", "o_qid": "Q23008961", "o_label": "2 dan in go", "start": 1987, "end": 2000, "relation": "P468", "r_label": "đẳng cấp"}
+{"s_qid": "Q102106760", "s_label": "Naomi Kanno", "o_qid": "Q23008960", "o_label": "3 dan in go", "start": 2000, "end": null, "relation": "P468", "r_label": "đẳng cấp"}
+{"s_qid": "Q541005", "s_label": "Ngô Thanh Nguyên", "o_qid": "Q23008960", "o_label": "3 dan in go", "start": 1929, "end": 1930, "relation": "P468", "r_label": "đẳng cấp"}
+{"s_qid": "Q541005", "s_label": "Ngô Thanh Nguyên", "o_qid": "Q23008956", "o_label": "4 dan", "start": 1930, "end": 1932, "relation": "P468", "r_label": "đẳng cấp"}
+{"s_qid": "Q541005", "s_label": "Ngô Thanh Nguyên", "o_qid": "Q23008953", "o_label": "5 dan", "start": 1932, "end": 1934, "relation": "P468", "r_label": "đẳng cấp"}
+{"s_qid": "Q541005", "s_label": "Ngô Thanh Nguyên", "o_qid": "Q23008946", "o_label": "6 dan", "start": 1934, "end": 1939, "relation": "P468", "r_label": "đẳng cấp"}
+{"s_qid": "Q541005", "s_label": "Ngô Thanh Nguyên", "o_qid": "Q23008939", "o_label": "7 dan", "start": 1939, "end": 1942, "relation": "P468", "r_label": "đẳng cấp"}
+{"s_qid": "Q541005", "s_label": "Ngô Thanh Nguyên", "o_qid": "Q23008935", "o_label": "8 dan", "start": 1942, "end": 1950, "relation": "P468", "r_label": "đẳng cấp"}
+{"s_qid": "Q541005", "s_label": "Ngô Thanh Nguyên", "o_qid": "Q12036922", "o_label": "9 dan", "start": 1950, "end": null, "relation": "P468", "r_label": "đẳng cấp"}
+{"s_qid": "Q840169", "s_label": "Zhou Heyang", "o_qid": "Q23008964", "o_label": "1 dan in go", "start": 1988, "end": 1989, "relation": "P468", "r_label": "đẳng cấp"}
+{"s_qid": "Q840169", "s_label": "Zhou Heyang", "o_qid": "Q23008961", "o_label": "2 dan in go", "start": 1989, "end": 1990, "relation": "P468", "r_label": "đẳng cấp"}
+{"s_qid": "Q840169", "s_label": "Zhou Heyang", "o_qid": "Q23008960", "o_label": "3 dan in go", "start": 1990, "end": 1992, "relation": "P468", "r_label": "đẳng cấp"}
+{"s_qid": "Q840169", "s_label": "Zhou Heyang", "o_qid": "Q23008956", "o_label": "4 dan", "start": 1992, "end": 1994, "relation": "P468", "r_label": "đẳng cấp"}
+{"s_qid": "Q840169", "s_label": "Zhou Heyang", "o_qid": "Q23008953", "o_label": "5 dan", "start": 1994, "end": 1995, "relation": "P468", "r_label": "đẳng cấp"}
+{"s_qid": "Q840169", "s_label": "Zhou Heyang", "o_qid": "Q23008946", "o_label": "6 dan", "start": 1995, "end": 1997, "relation": "P468", "r_label": "đẳng cấp"}
+{"s_qid": "Q840169", "s_label": "Zhou Heyang", "o_qid": "Q23008939", "o_label": "7 dan", "start": 1997, "end": 1999, "relation": "P468", "r_label": "đẳng cấp"}
+{"s_qid": "Q840169", "s_label": "Zhou Heyang", "o_qid": "Q23008935", "o_label": "8 dan", "start": 1999, "end": 2001, "relation": "P468", "r_label": "đẳng cấp"}
+{"s_qid": "Q840169", "s_label": "Zhou Heyang", "o_qid": "Q12036922", "o_label": "9 dan", "start": 2001, "end": null, "relation": "P468", "r_label": "đẳng cấp"}
+{"s_qid": "Q2599301", "s_label": "Yukari Yoshihara", "o_qid": "Q23008964", "o_label": "1 dan in go", "start": 1996, "end": 1998, "relation": "P468", "r_label": "đẳng cấp"}
+{"s_qid": "Q2599301", "s_label": "Yukari Yoshihara", "o_qid": "Q23008961", "o_label": "2 dan in go", "start": 1998, "end": 1999, "relation": "P468", "r_label": "đẳng cấp"}
+{"s_qid": "Q2599301", "s_label": "Yukari Yoshihara", "o_qid": "Q23008960", "o_label": "3 dan in go", "start": 1999, "end": 2000, "relation": "P468", "r_label": "đẳng cấp"}
+{"s_qid": "Q2599301", "s_label": "Yukari Yoshihara", "o_qid": "Q23008956", "o_label": "4 dan", "start": 2000, "end": 2002, "relation": "P468", "r_label": "đẳng cấp"}
+{"s_qid": "Q2599301", "s_label": "Yukari Yoshihara", "o_qid": "Q23008953", "o_label": "5 dan", "start": 2002, "end": 2013, "relation": "P468", "r_label": "đẳng cấp"}
+{"s_qid": "Q2599301", "s_label": "Yukari Yoshihara", "o_qid": "Q23008946", "o_label": "6 dan", "start": 2013, "end": null, "relation": "P468", "r_label": "đẳng cấp"}
+{"s_qid": "Q5946471", "s_label": "Tan Xiao", "o_qid": "Q23008964", "o_label": "1 dan in go", "start": 2004, "end": 2005, "relation": "P468", "r_label": "đẳng cấp"}
+{"s_qid": "Q5946471", "s_label": "Tan Xiao", "o_qid": "Q23008961", "o_label": "2 dan in go", "start": 2005, "end": 2007, "relation": "P468", "r_label": "đẳng cấp"}
+{"s_qid": "Q5946471", "s_label": "Tan Xiao", "o_qid": "Q23008960", "o_label": "3 dan in go", "start": 2007, "end": 2007, "relation": "P468", "r_label": "đẳng cấp"}
+{"s_qid": "Q5946471", "s_label": "Tan Xiao", "o_qid": "Q23008956", "o_label": "4 dan", "start": 2007, "end": 2009, "relation": "P468", "r_label": "đẳng cấp"}
+{"s_qid": "Q5946471", "s_label": "Tan Xiao", "o_qid": "Q23008953", "o_label": "5 dan", "start": 2009, "end": 2012, "relation": "P468", "r_label": "đẳng cấp"}
+{"s_qid": "Q5946471", "s_label": "Tan Xiao", "o_qid": "Q23008939", "o_label": "7 dan", "start": 2012, "end": 2017, "relation": "P468", "r_label": "đẳng cấp"}
+{"s_qid": "Q5946471", "s_label": "Tan Xiao", "o_qid": "Q12036922", "o_label": "9 dan", "start": 2017, "end": null, "relation": "P468", "r_label": "đẳng cấp"}
+{"s_qid": "Q9042835", "s_label": "Shi Yue", "o_qid": "Q23008964", "o_label": "1 dan in go", "start": 2003, "end": 2004, "relation": "P468", "r_label": "đẳng cấp"}
+{"s_qid": "Q9042835", "s_label": "Shi Yue", "o_qid": "Q23008961", "o_label": "2 dan in go", "start": 2004, "end": 2006, "relation": "P468", "r_label": "đẳng cấp"}
+{"s_qid": "Q9042835", "s_label": "Shi Yue", "o_qid": "Q23008960", "o_label": "3 dan in go", "start": 2006, "end": 2007, "relation": "P468", "r_label": "đẳng cấp"}
+{"s_qid": "Q9042835", "s_label": "Shi Yue", "o_qid": "Q23008956", "o_label": "4 dan", "start": 2007, "end": 2010, "relation": "P468", "r_label": "đẳng cấp"}
+{"s_qid": "Q9042835", "s_label": "Shi Yue", "o_qid": "Q23008953", "o_label": "5 dan", "start": 2010, "end": 2013, "relation": "P468", "r_label": "đẳng cấp"}
+{"s_qid": "Q9042835", "s_label": "Shi Yue", "o_qid": "Q12036922", "o_label": "9 dan", "start": 2013, "end": null, "relation": "P468", "r_label": "đẳng cấp"}
+{"s_qid": "Q16098393", "s_label": "Choi Kihoon", "o_qid": "Q23008964", "o_label": "1 dan in go", "start": 2006, "end": null, "relation": "P468", "r_label": "đẳng cấp"}
+{"s_qid": "Q16098393", "s_label": "Choi Kihoon", "o_qid": "Q23008961", "o_label": "2 dan in go", "start": 2008, "end": null, "relation": "P468", "r_label": "đẳng cấp"}
+{"s_qid": "Q16098393", "s_label": "Choi Kihoon", "o_qid": "Q23008960", "o_label": "3 dan in go", "start": 2009, "end": null, "relation": "P468", "r_label": "đẳng cấp"}
+{"s_qid": "Q16098393", "s_label": "Choi Kihoon", "o_qid": "Q23008956", "o_label": "4 dan", "start": 2011, "end": null, "relation": "P468", "r_label": "đẳng cấp"}
+{"s_qid": "Q16098393", "s_label": "Choi Kihoon", "o_qid": "Q23008953", "o_label": "5 dan", "start": 2014, "end": null, "relation": "P468", "r_label": "đẳng cấp"}
+{"s_qid": "Q16098393", "s_label": "Choi Kihoon", "o_qid": "Q23008946", "o_label": "6 dan", "start": 2018, "end": null, "relation": "P468", "r_label": "đẳng cấp"}
+{"s_qid": "Q16098393", "s_label": "Choi Kihoon", "o_qid": "Q23008939", "o_label": "7 dan", "start": 2022, "end": null, "relation": "P468", "r_label": "đẳng cấp"}
+{"s_qid": "Q16098393", "s_label": "Choi Kihoon", "o_qid": "Q23008935", "o_label": "8 dan", "start": 2026, "end": null, "relation": "P468", "r_label": "đẳng cấp"}
+{"s_qid": "Q21059807", "s_label": "Yun Youngmin", "o_qid": "Q23008964", "o_label": "1 dan in go", "start": 1991, "end": 2003, "relation": "P468", "r_label": "đẳng cấp"}
+{"s_qid": "Q21059807", "s_label": "Yun Youngmin", "o_qid": "Q23008961", "o_label": "2 dan in go", "start": 2003, "end": 2009, "relation": "P468", "r_label": "đẳng cấp"}
+{"s_qid": "Q21059807", "s_label": "Yun Youngmin", "o_qid": "Q23008960", "o_label": "3 dan in go", "start": 2009, "end": null, "relation": "P468", "r_label": "đẳng cấp"}
+{"s_qid": "Q22972718", "s_label": "Kang Seung-min", "o_qid": "Q23008964", "o_label": "1 dan in go", "start": 2010, "end": 2011, "relation": "P468", "r_label": "đẳng cấp"}
+{"s_qid": "Q22972718", "s_label": "Kang Seung-min", "o_qid": "Q23008961", "o_label": "2 dan in go", "start": 2011, "end": 2013, "relation": "P468", "r_label": "đẳng cấp"}
+{"s_qid": "Q22972718", "s_label": "Kang Seung-min", "o_qid": "Q23008960", "o_label": "3 dan in go", "start": 2013, "end": 2015, "relation": "P468", "r_label": "đẳng cấp"}
+{"s_qid": "Q22972718", "s_label": "Kang Seung-min", "o_qid": "Q23008956", "o_label": "4 dan", "start": 2015, "end": 2016, "relation": "P468", "r_label": "đẳng cấp"}
+{"s_qid": "Q22972718", "s_label": "Kang Seung-min", "o_qid": "Q23008953", "o_label": "5 dan", "start": 2016, "end": 2018, "relation": "P468", "r_label": "đẳng cấp"}
+{"s_qid": "Q22972718", "s_label": "Kang Seung-min", "o_qid": "Q23008946", "o_label": "6 dan", "start": 2018, "end": null, "relation": "P468", "r_label": "đẳng cấp"}
+{"s_qid": "Q25252530", "s_label": "Kim Dayoung", "o_qid": "Q23008964", "o_label": "1 dan in go", "start": 2015, "end": 2017, "relation": "P468", "r_label": "đẳng cấp"}
+{"s_qid": "Q25252530", "s_label": "Kim Dayoung", "o_qid": "Q23008961", "o_label": "2 dan in go", "start": 2017, "end": 2017, "relation": "P468", "r_label": "đẳng cấp"}
+{"s_qid": "Q25252530", "s_label": "Kim Dayoung", "o_qid": "Q23008960", "o_label": "3 dan in go", "start": 2017, "end": 2020, "relation": "P468", "r_label": "đẳng cấp"}
+{"s_qid": "Q25252530", "s_label": "Kim Dayoung", "o_qid": "Q23008956", "o_label": "4 dan", "start": 2020, "end": null, "relation": "P468", "r_label": "đẳng cấp"}
+{"s_qid": "Q25252555", "s_label": "Shen Peiran", "o_qid": "Q23008964", "o_label": "1 dan in go", "start": 2014, "end": 2016, "relation": "P468", "r_label": "đẳng cấp"}
+{"s_qid": "Q25252555", "s_label": "Shen Peiran", "o_qid": "Q23008961", "o_label": "2 dan in go", "start": 2016, "end": 2017, "relation": "P468", "r_label": "đẳng cấp"}
+{"s_qid": "Q25252555", "s_label": "Shen Peiran", "o_qid": "Q23008960", "o_label": "3 dan in go", "start": 2017, "end": 2018, "relation": "P468", "r_label": "đẳng cấp"}
+{"s_qid": "Q25252555", "s_label": "Shen Peiran", "o_qid": "Q23008956", "o_label": "4 dan", "start": 2018, "end": 2018, "relation": "P468", "r_label": "đẳng cấp"}
+{"s_qid": "Q25252555", "s_label": "Shen Peiran", "o_qid": "Q23008953", "o_label": "5 dan", "start": 2018, "end": 2019, "relation": "P468", "r_label": "đẳng cấp"}
+{"s_qid": "Q25252555", "s_label": "Shen Peiran", "o_qid": "Q23008946", "o_label": "6 dan", "start": 2019, "end": null, "relation": "P468", "r_label": "đẳng cấp"}
+{"s_qid": "Q25252664", "s_label": "Yu Li-Chun", "o_qid": "Q23008964", "o_label": "1 dan in go", "start": 2014, "end": 2017, "relation": "P468", "r_label": "đẳng cấp"}
+{"s_qid": "Q25252664", "s_label": "Yu Li-Chun", "o_qid": "Q23008961", "o_label": "2 dan in go", "start": 2017, "end": 2019, "relation": "P468", "r_label": "đẳng cấp"}
+{"s_qid": "Q25252664", "s_label": "Yu Li-Chun", "o_qid": "Q23008960", "o_label": "3 dan in go", "start": 2019, "end": null, "relation": "P468", "r_label": "đẳng cấp"}
+{"s_qid": "Q25252744", "s_label": "Su Sheng-Fang", "o_qid": "Q23008964", "o_label": "1 dan in go", "start": 2011, "end": 2011, "relation": "P468", "r_label": "đẳng cấp"}
+{"s_qid": "Q25252744", "s_label": "Su Sheng-Fang", "o_qid": "Q23008961", "o_label": "2 dan in go", "start": 2011, "end": 2016, "relation": "P468", "r_label": "đẳng cấp"}
+{"s_qid": "Q25252744", "s_label": "Su Sheng-Fang", "o_qid": "Q23008960", "o_label": "3 dan in go", "start": 2016, "end": null, "relation": "P468", "r_label": "đẳng cấp"}
+{"s_qid": "Q104721893", "s_label": "Liang Yadi", "o_qid": "Q23008964", "o_label": "1 dan in go", "start": 1989, "end": 1990, "relation": "P468", "r_label": "đẳng cấp"}
+{"s_qid": "Q104721893", "s_label": "Liang Yadi", "o_qid": "Q23008961", "o_label": "2 dan in go", "start": 1990, "end": null, "relation": "P468", "r_label": "đẳng cấp"}
+{"s_qid": "Q486589", "s_label": "Kim Ji-seok", "o_qid": "Q23008964", "o_label": "1 dan in go", "start": 2003, "end": 2005, "relation": "P468", "r_label": "đẳng cấp"}
+{"s_qid": "Q486589", "s_label": "Kim Ji-seok", "o_qid": "Q23008961", "o_label": "2 dan in go", "start": 2005, "end": 2006, "relation": "P468", "r_label": "đẳng cấp"}
+{"s_qid": "Q486589", "s_label": "Kim Ji-seok", "o_qid": "Q23008960", "o_label": "3 dan in go", "start": 2006, "end": 2007, "relation": "P468", "r_label": "đẳng cấp"}
+{"s_qid": "Q486589", "s_label": "Kim Ji-seok", "o_qid": "Q23008956", "o_label": "4 dan", "start": 2007, "end": 2009, "relation": "P468", "r_label": "đẳng cấp"}
+{"s_qid": "Q486589", "s_label": "Kim Ji-seok", "o_qid": "Q23008953", "o_label": "5 dan", "start": 2009, "end": 2009, "relation": "P468", "r_label": "đẳng cấp"}
+{"s_qid": "Q486589", "s_label": "Kim Ji-seok", "o_qid": "Q23008946", "o_label": "6 dan", "start": 2009, "end": 2010, "relation": "P468", "r_label": "đẳng cấp"}
+{"s_qid": "Q486589", "s_label": "Kim Ji-seok", "o_qid": "Q23008939", "o_label": "7 dan", "start": 2010, "end": 2012, "relation": "P468", "r_label": "đẳng cấp"}
+{"s_qid": "Q486589", "s_label": "Kim Ji-seok", "o_qid": "Q23008935", "o_label": "8 dan", "start": 2012, "end": 2013, "relation": "P468", "r_label": "đẳng cấp"}
+{"s_qid": "Q486589", "s_label": "Kim Ji-seok", "o_qid": "Q12036922", "o_label": "9 dan", "start": 2013, "end": null, "relation": "P468", "r_label": "đẳng cấp"}
+{"s_qid": "Q492828", "s_label": "Park Jeong-hwan", "o_qid": "Q12036922", "o_label": "9 dan", "start": 2010, "end": null, "relation": "P468", "r_label": "đẳng cấp"}
+{"s_qid": "Q492828", "s_label": "Park Jeong-hwan", "o_qid": "Q23008964", "o_label": "1 dan in go", "start": 2006, "end": 2007, "relation": "P468", "r_label": "đẳng cấp"}
+{"s_qid": "Q492828", "s_label": "Park Jeong-hwan", "o_qid": "Q23008961", "o_label": "2 dan in go", "start": 2007, "end": 2008, "relation": "P468", "r_label": "đẳng cấp"}
+{"s_qid": "Q492828", "s_label": "Park Jeong-hwan", "o_qid": "Q23008960", "o_label": "3 dan in go", "start": 2008, "end": 2009, "relation": "P468", "r_label": "đẳng cấp"}
+{"s_qid": "Q492828", "s_label": "Park Jeong-hwan", "o_qid": "Q23008956", "o_label": "4 dan", "start": 2009, "end": 2009, "relation": "P468", "r_label": "đẳng cấp"}
+{"s_qid": "Q492828", "s_label": "Park Jeong-hwan", "o_qid": "Q23008953", "o_label": "5 dan", "start": 2009, "end": 2010, "relation": "P468", "r_label": "đẳng cấp"}
+{"s_qid": "Q492828", "s_label": "Park Jeong-hwan", "o_qid": "Q23008939", "o_label": "7 dan", "start": 2010, "end": 2010, "relation": "P468", "r_label": "đẳng cấp"}
+{"s_qid": "Q492828", "s_label": "Park Jeong-hwan", "o_qid": "Q23008935", "o_label": "8 dan", "start": 2010, "end": 2010, "relation": "P468", "r_label": "đẳng cấp"}
+{"s_qid": "Q713174", "s_label": "Cho U", "o_qid": "Q23008964", "o_label": "1 dan in go", "start": 1994, "end": 1994, "relation": "P468", "r_label": "đẳng cấp"}
+{"s_qid": "Q713174", "s_label": "Cho U", "o_qid": "Q23008961", "o_label": "2 dan in go", "start": 1994, "end": 1995, "relation": "P468", "r_label": "đẳng cấp"}
+{"s_qid": "Q713174", "s_label": "Cho U", "o_qid": "Q23008960", "o_label": "3 dan in go", "start": 1995, "end": 1996, "relation": "P468", "r_label": "đẳng cấp"}
+{"s_qid": "Q713174", "s_label": "Cho U", "o_qid": "Q23008956", "o_label": "4 dan", "start": 1996, "end": 1997, "relation": "P468", "r_label": "đẳng cấp"}
+{"s_qid": "Q713174", "s_label": "Cho U", "o_qid": "Q23008953", "o_label": "5 dan", "start": 1997, "end": 1999, "relation": "P468", "r_label": "đẳng cấp"}
+{"s_qid": "Q713174", "s_label": "Cho U", "o_qid": "Q23008946", "o_label": "6 dan", "start": 1999, "end": 2001, "relation": "P468", "r_label": "đẳng cấp"}
+{"s_qid": "Q713174", "s_label": "Cho U", "o_qid": "Q23008939", "o_label": "7 dan", "start": 2001, "end": 2003, "relation": "P468", "r_label": "đẳng cấp"}
+{"s_qid": "Q713174", "s_label": "Cho U", "o_qid": "Q23008935", "o_label": "8 dan", "start": 2003, "end": 2003, "relation": "P468", "r_label": "đẳng cấp"}
+{"s_qid": "Q713174", "s_label": "Cho U", "o_qid": "Q12036922", "o_label": "9 dan", "start": 2003, "end": null, "relation": "P468", "r_label": "đẳng cấp"}
+{"s_qid": "Q2980808", "s_label": "Norimoto Yoda", "o_qid": "Q23008964", "o_label": "1 dan in go", "start": 1980, "end": 1981, "relation": "P468", "r_label": "đẳng cấp"}
+{"s_qid": "Q2980808", "s_label": "Norimoto Yoda", "o_qid": "Q23008961", "o_label": "2 dan in go", "start": 1981, "end": 1981, "relation": "P468", "r_label": "đẳng cấp"}
+{"s_qid": "Q2980808", "s_label": "Norimoto Yoda", "o_qid": "Q23008960", "o_label": "3 dan in go", "start": 1981, "end": 1982, "relation": "P468", "r_label": "đẳng cấp"}
+{"s_qid": "Q2980808", "s_label": "Norimoto Yoda", "o_qid": "Q23008956", "o_label": "4 dan", "start": 1982, "end": 1983, "relation": "P468", "r_label": "đẳng cấp"}
+{"s_qid": "Q2980808", "s_label": "Norimoto Yoda", "o_qid": "Q23008953", "o_label": "5 dan", "start": 1983, "end": 1985, "relation": "P468", "r_label": "đẳng cấp"}
+{"s_qid": "Q2980808", "s_label": "Norimoto Yoda", "o_qid": "Q23008946", "o_label": "6 dan", "start": 1985, "end": 1987, "relation": "P468", "r_label": "đẳng cấp"}
+{"s_qid": "Q2980808", "s_label": "Norimoto Yoda", "o_qid": "Q23008939", "o_label": "7 dan", "start": 1987, "end": 1990, "relation": "P468", "r_label": "đẳng cấp"}
+{"s_qid": "Q2980808", "s_label": "Norimoto Yoda", "o_qid": "Q23008935", "o_label": "8 dan", "start": 1990, "end": 1993, "relation": "P468", "r_label": "đẳng cấp"}
+{"s_qid": "Q2980808", "s_label": "Norimoto Yoda", "o_qid": "Q12036922", "o_label": "9 dan", "start": 1993, "end": null, "relation": "P468", "r_label": "đẳng cấp"}
+{"s_qid": "Q7497827", "s_label": "Shinya Nakamura", "o_qid": "Q23008964", "o_label": "1 dan in go", "start": 1991, "end": 1991, "relation": "P468", "r_label": "đẳng cấp"}
+{"s_qid": "Q7497827", "s_label": "Shinya Nakamura", "o_qid": "Q23008961", "o_label": "2 dan in go", "start": 1991, "end": 1992, "relation": "P468", "r_label": "đẳng cấp"}
+{"s_qid": "Q7497827", "s_label": "Shinya Nakamura", "o_qid": "Q23008960", "o_label": "3 dan in go", "start": 1992, "end": 1993, "relation": "P468", "r_label": "đẳng cấp"}
+{"s_qid": "Q7497827", "s_label": "Shinya Nakamura", "o_qid": "Q23008956", "o_label": "4 dan", "start": 1993, "end": 1994, "relation": "P468", "r_label": "đẳng cấp"}
+{"s_qid": "Q7497827", "s_label": "Shinya Nakamura", "o_qid": "Q23008953", "o_label": "5 dan", "start": 1994, "end": 1996, "relation": "P468", "r_label": "đẳng cấp"}
+{"s_qid": "Q7497827", "s_label": "Shinya Nakamura", "o_qid": "Q23008946", "o_label": "6 dan", "start": 1996, "end": 1998, "relation": "P468", "r_label": "đẳng cấp"}
+{"s_qid": "Q7497827", "s_label": "Shinya Nakamura", "o_qid": "Q23008939", "o_label": "7 dan", "start": 1998, "end": 2001, "relation": "P468", "r_label": "đẳng cấp"}
+{"s_qid": "Q7497827", "s_label": "Shinya Nakamura", "o_qid": "Q23008935", "o_label": "8 dan", "start": 2001, "end": 2012, "relation": "P468", "r_label": "đẳng cấp"}
+{"s_qid": "Q7497827", "s_label": "Shinya Nakamura", "o_qid": "Q12036922", "o_label": "9 dan", "start": 2012, "end": null, "relation": "P468", "r_label": "đẳng cấp"}
+{"s_qid": "Q9338501", "s_label": "Hsiao Cheng-Hao", "o_qid": "Q23008964", "o_label": "1 dan in go", "start": 2001, "end": 2002, "relation": "P468", "r_label": "đẳng cấp"}
+{"s_qid": "Q9338501", "s_label": "Hsiao Cheng-Hao", "o_qid": "Q23008961", "o_label": "2 dan in go", "start": 2002, "end": 2004, "relation": "P468", "r_label": "đẳng cấp"}
+{"s_qid": "Q9338501", "s_label": "Hsiao Cheng-Hao", "o_qid": "Q23008960", "o_label": "3 dan in go", "start": 2004, "end": 2005, "relation": "P468", "r_label": "đẳng cấp"}
+{"s_qid": "Q9338501", "s_label": "Hsiao Cheng-Hao", "o_qid": "Q23008956", "o_label": "4 dan", "start": 2005, "end": 2005, "relation": "P468", "r_label": "đẳng cấp"}
+{"s_qid": "Q9338501", "s_label": "Hsiao Cheng-Hao", "o_qid": "Q23008953", "o_label": "5 dan", "start": 2005, "end": 2008, "relation": "P468", "r_label": "đẳng cấp"}
+{"s_qid": "Q9338501", "s_label": "Hsiao Cheng-Hao", "o_qid": "Q23008946", "o_label": "6 dan", "start": 2008, "end": 2009, "relation": "P468", "r_label": "đẳng cấp"}
+{"s_qid": "Q9338501", "s_label": "Hsiao Cheng-Hao", "o_qid": "Q23008939", "o_label": "7 dan", "start": 2009, "end": 2012, "relation": "P468", "r_label": "đẳng cấp"}
+{"s_qid": "Q9338501", "s_label": "Hsiao Cheng-Hao", "o_qid": "Q23008935", "o_label": "8 dan", "start": 2012, "end": 2014, "relation": "P468", "r_label": "đẳng cấp"}
+{"s_qid": "Q9338501", "s_label": "Hsiao Cheng-Hao", "o_qid": "Q12036922", "o_label": "9 dan", "start": 2014, "end": null, "relation": "P468", "r_label": "đẳng cấp"}
+{"s_qid": "Q11352459", "s_label": "Ichiriki Ryō", "o_qid": "Q23008964", "o_label": "1 dan in go", "start": 2010, "end": 2011, "relation": "P468", "r_label": "đẳng cấp"}
+{"s_qid": "Q11352459", "s_label": "Ichiriki Ryō", "o_qid": "Q23008961", "o_label": "2 dan in go", "start": 2012, "end": 2012, "relation": "P468", "r_label": "đẳng cấp"}
+{"s_qid": "Q11352459", "s_label": "Ichiriki Ryō", "o_qid": "Q23008960", "o_label": "3 dan in go", "start": 2013, "end": 2013, "relation": "P468", "r_label": "đẳng cấp"}
+{"s_qid": "Q11352459", "s_label": "Ichiriki Ryō", "o_qid": "Q23008956", "o_label": "4 dan", "start": 2014, "end": 2014, "relation": "P468", "r_label": "đẳng cấp"}
+{"s_qid": "Q11352459", "s_label": "Ichiriki Ryō", "o_qid": "Q23008939", "o_label": "7 dan", "start": 2014, "end": 2017, "relation": "P468", "r_label": "đẳng cấp"}
+{"s_qid": "Q11352459", "s_label": "Ichiriki Ryō", "o_qid": "Q23008935", "o_label": "8 dan", "start": 2017, "end": 2020, "relation": "P468", "r_label": "đẳng cấp"}
+{"s_qid": "Q11352459", "s_label": "Ichiriki Ryō", "o_qid": "Q12036922", "o_label": "9 dan", "start": 2020, "end": null, "relation": "P468", "r_label": "đẳng cấp"}
+{"s_qid": "Q11469940", "s_label": "Tadanao Yamamori", "o_qid": "Q23008964", "o_label": "1 dan in go", "start": 2000, "end": 2000, "relation": "P468", "r_label": "đẳng cấp"}
+{"s_qid": "Q11469940", "s_label": "Tadanao Yamamori", "o_qid": "Q23008961", "o_label": "2 dan in go", "start": 2000, "end": 2001, "relation": "P468", "r_label": "đẳng cấp"}
+{"s_qid": "Q11469940", "s_label": "Tadanao Yamamori", "o_qid": "Q23008960", "o_label": "3 dan in go", "start": 2001, "end": 2002, "relation": "P468", "r_label": "đẳng cấp"}
+{"s_qid": "Q11469940", "s_label": "Tadanao Yamamori", "o_qid": "Q23008956", "o_label": "4 dan", "start": 2002, "end": 2004, "relation": "P468", "r_label": "đẳng cấp"}
+{"s_qid": "Q11469940", "s_label": "Tadanao Yamamori", "o_qid": "Q23008953", "o_label": "5 dan", "start": 2004, "end": 2010, "relation": "P468", "r_label": "đẳng cấp"}
+{"s_qid": "Q11469940", "s_label": "Tadanao Yamamori", "o_qid": "Q23008946", "o_label": "6 dan", "start": 2010, "end": 2019, "relation": "P468", "r_label": "đẳng cấp"}
+{"s_qid": "Q11469940", "s_label": "Tadanao Yamamori", "o_qid": "Q23008939", "o_label": "7 dan", "start": 2019, "end": null, "relation": "P468", "r_label": "đẳng cấp"}
+{"s_qid": "Q16262385", "s_label": "Tao Xinran", "o_qid": "Q23008946", "o_label": "6 dan", "start": 2016, "end": 2018, "relation": "P468", "r_label": "đẳng cấp"}
+{"s_qid": "Q16262385", "s_label": "Tao Xinran", "o_qid": "Q23008939", "o_label": "7 dan", "start": 2018, "end": 2019, "relation": "P468", "r_label": "đẳng cấp"}
+{"s_qid": "Q16262385", "s_label": "Tao Xinran", "o_qid": "Q23008935", "o_label": "8 dan", "start": 2019, "end": 2021, "relation": "P468", "r_label": "đẳng cấp"}
+{"s_qid": "Q16262385", "s_label": "Tao Xinran", "o_qid": "Q12036922", "o_label": "9 dan", "start": 2021, "end": null, "relation": "P468", "r_label": "đẳng cấp"}
+{"s_qid": "Q16262385", "s_label": "Tao Xinran", "o_qid": "Q23008964", "o_label": "1 dan in go", "start": 2006, "end": 2008, "relation": "P468", "r_label": "đẳng cấp"}
+{"s_qid": "Q16262385", "s_label": "Tao Xinran", "o_qid": "Q23008961", "o_label": "2 dan in go", "start": 2008, "end": 2009, "relation": "P468", "r_label": "đẳng cấp"}
+{"s_qid": "Q16262385", "s_label": "Tao Xinran", "o_qid": "Q23008960", "o_label": "3 dan in go", "start": 2009, "end": 2010, "relation": "P468", "r_label": "đẳng cấp"}
+{"s_qid": "Q16262385", "s_label": "Tao Xinran", "o_qid": "Q23008956", "o_label": "4 dan", "start": 2010, "end": 2013, "relation": "P468", "r_label": "đẳng cấp"}
+{"s_qid": "Q16262385", "s_label": "Tao Xinran", "o_qid": "Q23008953", "o_label": "5 dan", "start": 2013, "end": 2016, "relation": "P468", "r_label": "đẳng cấp"}
+{"s_qid": "Q16264640", "s_label": "Wang Yuan-Jyun", "o_qid": "Q23008964", "o_label": "1 dan in go", "start": 2007, "end": 2009, "relation": "P468", "r_label": "đẳng cấp"}
+{"s_qid": "Q16264640", "s_label": "Wang Yuan-Jyun", "o_qid": "Q23008961", "o_label": "2 dan in go", "start": 2009, "end": 2010, "relation": "P468", "r_label": "đẳng cấp"}
+{"s_qid": "Q16264640", "s_label": "Wang Yuan-Jyun", "o_qid": "Q23008960", "o_label": "3 dan in go", "start": 2010, "end": 2011, "relation": "P468", "r_label": "đẳng cấp"}
+{"s_qid": "Q16264640", "s_label": "Wang Yuan-Jyun", "o_qid": "Q23008956", "o_label": "4 dan", "start": 2011, "end": 2012, "relation": "P468", "r_label": "đẳng cấp"}
+{"s_qid": "Q16264640", "s_label": "Wang Yuan-Jyun", "o_qid": "Q23008953", "o_label": "5 dan", "start": 2012, "end": 2013, "relation": "P468", "r_label": "đẳng cấp"}
+{"s_qid": "Q16264640", "s_label": "Wang Yuan-Jyun", "o_qid": "Q23008946", "o_label": "6 dan", "start": 2013, "end": 2013, "relation": "P468", "r_label": "đẳng cấp"}
+{"s_qid": "Q16264640", "s_label": "Wang Yuan-Jyun", "o_qid": "Q23008939", "o_label": "7 dan", "start": 2013, "end": 2016, "relation": "P468", "r_label": "đẳng cấp"}
+{"s_qid": "Q16264640", "s_label": "Wang Yuan-Jyun", "o_qid": "Q23008935", "o_label": "8 dan", "start": 2016, "end": 2018, "relation": "P468", "r_label": "đẳng cấp"}
+{"s_qid": "Q16264640", "s_label": "Wang Yuan-Jyun", "o_qid": "Q12036922", "o_label": "9 dan", "start": 2018, "end": null, "relation": "P468", "r_label": "đẳng cấp"}
+{"s_qid": "Q16799636", "s_label": "Kim Myoung-hoon", "o_qid": "Q23008964", "o_label": "1 dan in go", "start": 2014, "end": 2015, "relation": "P468", "r_label": "đẳng cấp"}
+{"s_qid": "Q16799636", "s_label": "Kim Myoung-hoon", "o_qid": "Q23008961", "o_label": "2 dan in go", "start": 2015, "end": 2015, "relation": "P468", "r_label": "đẳng cấp"}
+{"s_qid": "Q16799636", "s_label": "Kim Myoung-hoon", "o_qid": "Q23008960", "o_label": "3 dan in go", "start": 2015, "end": 2016, "relation": "P468", "r_label": "đẳng cấp"}
+{"s_qid": "Q16799636", "s_label": "Kim Myoung-hoon", "o_qid": "Q23008956", "o_label": "4 dan", "start": 2016, "end": 2017, "relation": "P468", "r_label": "đẳng cấp"}
+{"s_qid": "Q16799636", "s_label": "Kim Myoung-hoon", "o_qid": "Q23008953", "o_label": "5 dan", "start": 2017, "end": 2017, "relation": "P468", "r_label": "đẳng cấp"}
+{"s_qid": "Q16799636", "s_label": "Kim Myoung-hoon", "o_qid": "Q23008946", "o_label": "6 dan", "start": 2017, "end": 2019, "relation": "P468", "r_label": "đẳng cấp"}
+{"s_qid": "Q16799636", "s_label": "Kim Myoung-hoon", "o_qid": "Q23008939", "o_label": "7 dan", "start": 2019, "end": 2020, "relation": "P468", "r_label": "đẳng cấp"}
+{"s_qid": "Q16799636", "s_label": "Kim Myoung-hoon", "o_qid": "Q23008935", "o_label": "8 dan", "start": 2020, "end": null, "relation": "P468", "r_label": "đẳng cấp"}
+{"s_qid": "Q25252424", "s_label": "Han Yizhou", "o_qid": "Q23008964", "o_label": "1 dan in go", "start": 2010, "end": 2011, "relation": "P468", "r_label": "đẳng cấp"}
+{"s_qid": "Q25252424", "s_label": "Han Yizhou", "o_qid": "Q23008961", "o_label": "2 dan in go", "start": 2011, "end": 2013, "relation": "P468", "r_label": "đẳng cấp"}
+{"s_qid": "Q25252424", "s_label": "Han Yizhou", "o_qid": "Q23008960", "o_label": "3 dan in go", "start": 2013, "end": 2014, "relation": "P468", "r_label": "đẳng cấp"}
+{"s_qid": "Q25252424", "s_label": "Han Yizhou", "o_qid": "Q23008956", "o_label": "4 dan", "start": 2014, "end": 2016, "relation": "P468", "r_label": "đẳng cấp"}
+{"s_qid": "Q25252424", "s_label": "Han Yizhou", "o_qid": "Q23008953", "o_label": "5 dan", "start": 2016, "end": 2017, "relation": "P468", "r_label": "đẳng cấp"}
+{"s_qid": "Q25252424", "s_label": "Han Yizhou", "o_qid": "Q23008946", "o_label": "6 dan", "start": 2017, "end": 2017, "relation": "P468", "r_label": "đẳng cấp"}
+{"s_qid": "Q25252424", "s_label": "Han Yizhou", "o_qid": "Q23008939", "o_label": "7 dan", "start": 2017, "end": null, "relation": "P468", "r_label": "đẳng cấp"}
+{"s_qid": "Q25252570", "s_label": "Gensho Shimoji", "o_qid": "Q23008964", "o_label": "1 dan in go", "start": 1981, "end": 1982, "relation": "P468", "r_label": "đẳng cấp"}
+{"s_qid": "Q25252570", "s_label": "Gensho Shimoji", "o_qid": "Q23008961", "o_label": "2 dan in go", "start": 1982, "end": 1984, "relation": "P468", "r_label": "đẳng cấp"}
+{"s_qid": "Q25252570", "s_label": "Gensho Shimoji", "o_qid": "Q23008960", "o_label": "3 dan in go", "start": 1984, "end": 1985, "relation": "P468", "r_label": "đẳng cấp"}
+{"s_qid": "Q25252570", "s_label": "Gensho Shimoji", "o_qid": "Q23008956", "o_label": "4 dan", "start": 1985, "end": 1988, "relation": "P468", "r_label": "đẳng cấp"}
+{"s_qid": "Q25252570", "s_label": "Gensho Shimoji", "o_qid": "Q23008953", "o_label": "5 dan", "start": 1988, "end": 1995, "relation": "P468", "r_label": "đẳng cấp"}
+{"s_qid": "Q25252570", "s_label": "Gensho Shimoji", "o_qid": "Q23008946", "o_label": "6 dan", "start": 1995, "end": 2013, "relation": "P468", "r_label": "đẳng cấp"}
+{"s_qid": "Q25252570", "s_label": "Gensho Shimoji", "o_qid": "Q23008939", "o_label": "7 dan", "start": 2013, "end": null, "relation": "P468", "r_label": "đẳng cấp"}
+{"s_qid": "Q25252594", "s_label": "Zhou Hongyu", "o_qid": "Q23008964", "o_label": "1 dan in go", "start": 2015, "end": 2016, "relation": "P468", "r_label": "đẳng cấp"}
+{"s_qid": "Q25252594", "s_label": "Zhou Hongyu", "o_qid": "Q23008961", "o_label": "2 dan in go", "start": 2016, "end": 2017, "relation": "P468", "r_label": "đẳng cấp"}
+{"s_qid": "Q25252594", "s_label": "Zhou Hongyu", "o_qid": "Q23008960", "o_label": "3 dan in go", "start": 2017, "end": 2018, "relation": "P468", "r_label": "đẳng cấp"}
+{"s_qid": "Q25252594", "s_label": "Zhou Hongyu", "o_qid": "Q23008956", "o_label": "4 dan", "start": 2018, "end": 2019, "relation": "P468", "r_label": "đẳng cấp"}
+{"s_qid": "Q25252594", "s_label": "Zhou Hongyu", "o_qid": "Q23008953", "o_label": "5 dan", "start": 2019, "end": 2019, "relation": "P468", "r_label": "đẳng cấp"}
+{"s_qid": "Q25252594", "s_label": "Zhou Hongyu", "o_qid": "Q23008946", "o_label": "6 dan", "start": 2019, "end": null, "relation": "P468", "r_label": "đẳng cấp"}
+{"s_qid": "Q25252687", "s_label": "Shungo Goto", "o_qid": "Q23008964", "o_label": "1 dan in go", "start": 1980, "end": 1981, "relation": "P468", "r_label": "đẳng cấp"}
+{"s_qid": "Q25252687", "s_label": "Shungo Goto", "o_qid": "Q23008961", "o_label": "2 dan in go", "start": 1981, "end": 1981, "relation": "P468", "r_label": "đẳng cấp"}
+{"s_qid": "Q25252687", "s_label": "Shungo Goto", "o_qid": "Q23008960", "o_label": "3 dan in go", "start": 1981, "end": 1982, "relation": "P468", "r_label": "đẳng cấp"}
+{"s_qid": "Q25252687", "s_label": "Shungo Goto", "o_qid": "Q23008956", "o_label": "4 dan", "start": 1982, "end": 1984, "relation": "P468", "r_label": "đẳng cấp"}
+{"s_qid": "Q25252687", "s_label": "Shungo Goto", "o_qid": "Q23008953", "o_label": "5 dan", "start": 1984, "end": 1985, "relation": "P468", "r_label": "đẳng cấp"}
+{"s_qid": "Q25252687", "s_label": "Shungo Goto", "o_qid": "Q23008946", "o_label": "6 dan", "start": 1985, "end": 1988, "relation": "P468", "r_label": "đẳng cấp"}
+{"s_qid": "Q25252687", "s_label": "Shungo Goto", "o_qid": "Q23008939", "o_label": "7 dan", "start": 1988, "end": 1990, "relation": "P468", "r_label": "đẳng cấp"}
+{"s_qid": "Q25252687", "s_label": "Shungo Goto", "o_qid": "Q23008935", "o_label": "8 dan", "start": 1990, "end": 1995, "relation": "P468", "r_label": "đẳng cấp"}
+{"s_qid": "Q25252687", "s_label": "Shungo Goto", "o_qid": "Q12036922", "o_label": "9 dan", "start": 1995, "end": null, "relation": "P468", "r_label": "đẳng cấp"}
+{"s_qid": "Q25252693", "s_label": "Masakazu Hara", "o_qid": "Q23008964", "o_label": "1 dan in go", "start": 2013, "end": 2016, "relation": "P468", "r_label": "đẳng cấp"}
+{"s_qid": "Q25252693", "s_label": "Masakazu Hara", "o_qid": "Q23008961", "o_label": "2 dan in go", "start": 2016, "end": 2019, "relation": "P468", "r_label": "đẳng cấp"}
+{"s_qid": "Q25252693", "s_label": "Masakazu Hara", "o_qid": "Q23008960", "o_label": "3 dan in go", "start": 2019, "end": null, "relation": "P468", "r_label": "đẳng cấp"}
+{"s_qid": "Q85880017", "s_label": "Hsu Ching-En", "o_qid": "Q23008964", "o_label": "1 dan in go", "start": 2019, "end": 2019, "relation": "P468", "r_label": "đẳng cấp"}
+{"s_qid": "Q85880017", "s_label": "Hsu Ching-En", "o_qid": "Q23008961", "o_label": "2 dan in go", "start": 2019, "end": 2020, "relation": "P468", "r_label": "đẳng cấp"}
+{"s_qid": "Q85880017", "s_label": "Hsu Ching-En", "o_qid": "Q23008960", "o_label": "3 dan in go", "start": 2020, "end": null, "relation": "P468", "r_label": "đẳng cấp"}
+{"s_qid": "Q94715146", "s_label": "Geum Jiwoo", "o_qid": "Q23008964", "o_label": "1 dan in go", "start": 2019, "end": 2020, "relation": "P468", "r_label": "đẳng cấp"}
+{"s_qid": "Q94715146", "s_label": "Geum Jiwoo", "o_qid": "Q23008961", "o_label": "2 dan in go", "start": 2020, "end": 2021, "relation": "P468", "r_label": "đẳng cấp"}
+{"s_qid": "Q94715146", "s_label": "Geum Jiwoo", "o_qid": "Q23008960", "o_label": "3 dan in go", "start": 2021, "end": null, "relation": "P468", "r_label": "đẳng cấp"}
+{"s_qid": "Q100712082", "s_label": "Masao Nishioka", "o_qid": "Q23008964", "o_label": "1 dan in go", "start": 2017, "end": 2019, "relation": "P468", "r_label": "đẳng cấp"}
+{"s_qid": "Q100712082", "s_label": "Masao Nishioka", "o_qid": "Q23008961", "o_label": "2 dan in go", "start": 2019, "end": 2022, "relation": "P468", "r_label": "đẳng cấp"}
+{"s_qid": "Q100712082", "s_label": "Masao Nishioka", "o_qid": "Q23008960", "o_label": "3 dan in go", "start": 2022, "end": null, "relation": "P468", "r_label": "đẳng cấp"}
+{"s_qid": "Q105619592", "s_label": "Hiromi Mizuno", "o_qid": "Q23008964", "o_label": "1 dan in go", "start": 1988, "end": 1988, "relation": "P468", "r_label": "đẳng cấp"}
+{"s_qid": "Q105619592", "s_label": "Hiromi Mizuno", "o_qid": "Q23008961", "o_label": "2 dan in go", "start": 1988, "end": 1991, "relation": "P468", "r_label": "đẳng cấp"}
+{"s_qid": "Q105619592", "s_label": "Hiromi Mizuno", "o_qid": "Q23008960", "o_label": "3 dan in go", "start": 1991, "end": 1993, "relation": "P468", "r_label": "đẳng cấp"}
+{"s_qid": "Q105619592", "s_label": "Hiromi Mizuno", "o_qid": "Q23008956", "o_label": "4 dan", "start": 1993, "end": 2009, "relation": "P468", "r_label": "đẳng cấp"}
+{"s_qid": "Q105619592", "s_label": "Hiromi Mizuno", "o_qid": "Q23008953", "o_label": "5 dan", "start": 2009, "end": null, "relation": "P468", "r_label": "đẳng cấp"}
+{"s_qid": "Q492821", "s_label": "Kang Dong-yun", "o_qid": "Q23008964", "o_label": "1 dan in go", "start": 2002, "end": 2003, "relation": "P468", "r_label": "đẳng cấp"}
+{"s_qid": "Q492821", "s_label": "Kang Dong-yun", "o_qid": "Q23008961", "o_label": "2 dan in go", "start": 2003, "end": 2004, "relation": "P468", "r_label": "đẳng cấp"}
+{"s_qid": "Q492821", "s_label": "Kang Dong-yun", "o_qid": "Q23008960", "o_label": "3 dan in go", "start": 2004, "end": 2005, "relation": "P468", "r_label": "đẳng cấp"}
+{"s_qid": "Q492821", "s_label": "Kang Dong-yun", "o_qid": "Q23008956", "o_label": "4 dan", "start": 2005, "end": 2006, "relation": "P468", "r_label": "đẳng cấp"}
+{"s_qid": "Q492821", "s_label": "Kang Dong-yun", "o_qid": "Q23008953", "o_label": "5 dan", "start": 2006, "end": 2007, "relation": "P468", "r_label": "đẳng cấp"}
+{"s_qid": "Q492821", "s_label": "Kang Dong-yun", "o_qid": "Q23008939", "o_label": "7 dan", "start": 2007, "end": 2008, "relation": "P468", "r_label": "đẳng cấp"}
+{"s_qid": "Q492821", "s_label": "Kang Dong-yun", "o_qid": "Q23008935", "o_label": "8 dan", "start": 2008, "end": 2008, "relation": "P468", "r_label": "đẳng cấp"}
+{"s_qid": "Q492821", "s_label": "Kang Dong-yun", "o_qid": "Q12036922", "o_label": "9 dan", "start": 2008, "end": null, "relation": "P468", "r_label": "đẳng cấp"}
+{"s_qid": "Q714498", "s_label": "Honinbō Shūsai", "o_qid": "Q23008964", "o_label": "1 dan in go", "start": 1886, "end": 1891, "relation": "P468", "r_label": "đẳng cấp"}
+{"s_qid": "Q714498", "s_label": "Honinbō Shūsai", "o_qid": "Q23008961", "o_label": "2 dan in go", "start": 1891, "end": 1892, "relation": "P468", "r_label": "đẳng cấp"}
+{"s_qid": "Q714498", "s_label": "Honinbō Shūsai", "o_qid": "Q23008956", "o_label": "4 dan", "start": 1892, "end": 1897, "relation": "P468", "r_label": "đẳng cấp"}
+{"s_qid": "Q714498", "s_label": "Honinbō Shūsai", "o_qid": "Q23008953", "o_label": "5 dan", "start": 1897, "end": 1900, "relation": "P468", "r_label": "đẳng cấp"}
+{"s_qid": "Q714498", "s_label": "Honinbō Shūsai", "o_qid": "Q23008946", "o_label": "6 dan", "start": 1900, "end": 1905, "relation": "P468", "r_label": "đẳng cấp"}
+{"s_qid": "Q714498", "s_label": "Honinbō Shūsai", "o_qid": "Q23008939", "o_label": "7 dan", "start": 1905, "end": 1911, "relation": "P468", "r_label": "đẳng cấp"}
+{"s_qid": "Q714498", "s_label": "Honinbō Shūsai", "o_qid": "Q23008935", "o_label": "8 dan", "start": 1911, "end": 1914, "relation": "P468", "r_label": "đẳng cấp"}
+{"s_qid": "Q714498", "s_label": "Honinbō Shūsai", "o_qid": "Q12036922", "o_label": "9 dan", "start": 1914, "end": null, "relation": "P468", "r_label": "đẳng cấp"}
+{"s_qid": "Q8061124", "s_label": "Yumiko Okada", "o_qid": "Q23008964", "o_label": "1 dan in go", "start": 1989, "end": 1992, "relation": "P468", "r_label": "đẳng cấp"}
+{"s_qid": "Q8061124", "s_label": "Yumiko Okada", "o_qid": "Q23008961", "o_label": "2 dan in go", "start": 1992, "end": 1994, "relation": "P468", "r_label": "đẳng cấp"}
+{"s_qid": "Q8061124", "s_label": "Yumiko Okada", "o_qid": "Q23008960", "o_label": "3 dan in go", "start": 1994, "end": 1996, "relation": "P468", "r_label": "đẳng cấp"}
+{"s_qid": "Q8061124", "s_label": "Yumiko Okada", "o_qid": "Q23008956", "o_label": "4 dan", "start": 1996, "end": 2001, "relation": "P468", "r_label": "đẳng cấp"}
+{"s_qid": "Q8061124", "s_label": "Yumiko Okada", "o_qid": "Q23008953", "o_label": "5 dan", "start": 2001, "end": 2003, "relation": "P468", "r_label": "đẳng cấp"}
+{"s_qid": "Q8061124", "s_label": "Yumiko Okada", "o_qid": "Q23008946", "o_label": "6 dan", "start": 2003, "end": null, "relation": "P468", "r_label": "đẳng cấp"}
+{"s_qid": "Q11624577", "s_label": "Rina Fujisawa", "o_qid": "Q23008964", "o_label": "1 dan in go", "start": 2010, "end": 2013, "relation": "P468", "r_label": "đẳng cấp"}
+{"s_qid": "Q11624577", "s_label": "Rina Fujisawa", "o_qid": "Q23008961", "o_label": "2 dan in go", "start": 2013, "end": 2015, "relation": "P468", "r_label": "đẳng cấp"}
+{"s_qid": "Q11624577", "s_label": "Rina Fujisawa", "o_qid": "Q23008960", "o_label": "3 dan in go", "start": 2015, "end": 2018, "relation": "P468", "r_label": "đẳng cấp"}
+{"s_qid": "Q11624577", "s_label": "Rina Fujisawa", "o_qid": "Q23008956", "o_label": "4 dan", "start": 2018, "end": 2021, "relation": "P468", "r_label": "đẳng cấp"}
+{"s_qid": "Q11624577", "s_label": "Rina Fujisawa", "o_qid": "Q23008953", "o_label": "5 dan", "start": 2021, "end": null, "relation": "P468", "r_label": "đẳng cấp"}
+{"s_qid": "Q11648542", "s_label": "Shinji Suzuki", "o_qid": "Q23008964", "o_label": "1 dan in go", "start": 2008, "end": 2010, "relation": "P468", "r_label": "đẳng cấp"}
+{"s_qid": "Q11648542", "s_label": "Shinji Suzuki", "o_qid": "Q23008961", "o_label": "2 dan in go", "start": 2010, "end": 2011, "relation": "P468", "r_label": "đẳng cấp"}
+{"s_qid": "Q11648542", "s_label": "Shinji Suzuki", "o_qid": "Q23008960", "o_label": "3 dan in go", "start": 2011, "end": 2013, "relation": "P468", "r_label": "đẳng cấp"}
+{"s_qid": "Q11648542", "s_label": "Shinji Suzuki", "o_qid": "Q23008956", "o_label": "4 dan", "start": 2013, "end": 2015, "relation": "P468", "r_label": "đẳng cấp"}
+{"s_qid": "Q11648542", "s_label": "Shinji Suzuki", "o_qid": "Q23008953", "o_label": "5 dan", "start": 2015, "end": 2016, "relation": "P468", "r_label": "đẳng cấp"}
+{"s_qid": "Q11648542", "s_label": "Shinji Suzuki", "o_qid": "Q23008946", "o_label": "6 dan", "start": 2016, "end": 2017, "relation": "P468", "r_label": "đẳng cấp"}
+{"s_qid": "Q11648542", "s_label": "Shinji Suzuki", "o_qid": "Q23008939", "o_label": "7 dan", "start": 2017, "end": null, "relation": "P468", "r_label": "đẳng cấp"}
+{"s_qid": "Q15913674", "s_label": "Li Qincheng", "o_qid": "Q23008964", "o_label": "1 dan in go", "start": 2009, "end": 2016, "relation": "P468", "r_label": "đẳng cấp"}
+{"s_qid": "Q15913674", "s_label": "Li Qincheng", "o_qid": "Q23008961", "o_label": "2 dan in go", "start": 2016, "end": 2016, "relation": "P468", "r_label": "đẳng cấp"}
+{"s_qid": "Q15913674", "s_label": "Li Qincheng", "o_qid": "Q12036922", "o_label": "9 dan", "start": 2017, "end": null, "relation": "P468", "r_label": "đẳng cấp"}
+{"s_qid": "Q16161993", "s_label": "Shin Jin-seo", "o_qid": "Q23008964", "o_label": "1 dan in go", "start": 2012, "end": 2013, "relation": "P468", "r_label": "đẳng cấp"}
+{"s_qid": "Q16161993", "s_label": "Shin Jin-seo", "o_qid": "Q23008961", "o_label": "2 dan in go", "start": 2013, "end": 2015, "relation": "P468", "r_label": "đẳng cấp"}
+{"s_qid": "Q16161993", "s_label": "Shin Jin-seo", "o_qid": "Q23008960", "o_label": "3 dan in go", "start": 2015, "end": 2015, "relation": "P468", "r_label": "đẳng cấp"}
+{"s_qid": "Q16161993", "s_label": "Shin Jin-seo", "o_qid": "Q23008953", "o_label": "5 dan", "start": 2015, "end": 2016, "relation": "P468", "r_label": "đẳng cấp"}
+{"s_qid": "Q16161993", "s_label": "Shin Jin-seo", "o_qid": "Q23008946", "o_label": "6 dan", "start": 2016, "end": 2017, "relation": "P468", "r_label": "đẳng cấp"}
+{"s_qid": "Q16161993", "s_label": "Shin Jin-seo", "o_qid": "Q23008939", "o_label": "7 dan", "start": 2017, "end": 2017, "relation": "P468", "r_label": "đẳng cấp"}
+{"s_qid": "Q16161993", "s_label": "Shin Jin-seo", "o_qid": "Q23008935", "o_label": "8 dan", "start": 2017, "end": 2018, "relation": "P468", "r_label": "đẳng cấp"}
+{"s_qid": "Q16161993", "s_label": "Shin Jin-seo", "o_qid": "Q12036922", "o_label": "9 dan", "start": 2018, "end": null, "relation": "P468", "r_label": "đẳng cấp"}
+{"s_qid": "Q19657369", "s_label": "Oh Yu-jin", "o_qid": "Q23008964", "o_label": "1 dan in go", "start": 2012, "end": 2015, "relation": "P468", "r_label": "đẳng cấp"}
+{"s_qid": "Q19657369", "s_label": "Oh Yu-jin", "o_qid": "Q23008961", "o_label": "2 dan in go", "start": 2015, "end": 2016, "relation": "P468", "r_label": "đẳng cấp"}
+{"s_qid": "Q19657369", "s_label": "Oh Yu-jin", "o_qid": "Q23008960", "o_label": "3 dan in go", "start": 2016, "end": 2016, "relation": "P468", "r_label": "đẳng cấp"}
+{"s_qid": "Q19657369", "s_label": "Oh Yu-jin", "o_qid": "Q23008956", "o_label": "4 dan", "start": 2016, "end": 2016, "relation": "P468", "r_label": "đẳng cấp"}
+{"s_qid": "Q19657369", "s_label": "Oh Yu-jin", "o_qid": "Q23008953", "o_label": "5 dan", "start": 2016, "end": 2018, "relation": "P468", "r_label": "đẳng cấp"}
+{"s_qid": "Q19657369", "s_label": "Oh Yu-jin", "o_qid": "Q23008946", "o_label": "6 dan", "start": 2018, "end": null, "relation": "P468", "r_label": "đẳng cấp"}
+{"s_qid": "Q22130185", "s_label": "Hong Malgeunsaem", "o_qid": "Q23008964", "o_label": "1 dan in go", "start": 2009, "end": 2013, "relation": "P468", "r_label": "đẳng cấp"}
+{"s_qid": "Q22130185", "s_label": "Hong Malgeunsaem", "o_qid": "Q23008961", "o_label": "2 dan in go", "start": 2013, "end": 2016, "relation": "P468", "r_label": "đẳng cấp"}
+{"s_qid": "Q22130185", "s_label": "Hong Malgeunsaem", "o_qid": "Q23008960", "o_label": "3 dan in go", "start": 2016, "end": 2019, "relation": "P468", "r_label": "đẳng cấp"}
+{"s_qid": "Q22130185", "s_label": "Hong Malgeunsaem", "o_qid": "Q23008956", "o_label": "4 dan", "start": 2019, "end": null, "relation": "P468", "r_label": "đẳng cấp"}
+{"s_qid": "Q22975317", "s_label": "Han Taehee", "o_qid": "Q23008964", "o_label": "1 dan in go", "start": 2010, "end": null, "relation": "P468", "r_label": "đẳng cấp"}
+{"s_qid": "Q22975317", "s_label": "Han Taehee", "o_qid": "Q23008961", "o_label": "2 dan in go", "start": 2011, "end": null, "relation": "P468", "r_label": "đẳng cấp"}
+{"s_qid": "Q22975317", "s_label": "Han Taehee", "o_qid": "Q23008960", "o_label": "3 dan in go", "start": 2012, "end": null, "relation": "P468", "r_label": "đẳng cấp"}
+{"s_qid": "Q22975317", "s_label": "Han Taehee", "o_qid": "Q23008956", "o_label": "4 dan", "start": 2014, "end": null, "relation": "P468", "r_label": "đẳng cấp"}
+{"s_qid": "Q22975317", "s_label": "Han Taehee", "o_qid": "Q23008953", "o_label": "5 dan", "start": 2015, "end": null, "relation": "P468", "r_label": "đẳng cấp"}
+{"s_qid": "Q22975317", "s_label": "Han Taehee", "o_qid": "Q23008946", "o_label": "6 dan", "start": 2017, "end": null, "relation": "P468", "r_label": "đẳng cấp"}
+{"s_qid": "Q22975317", "s_label": "Han Taehee", "o_qid": "Q23008939", "o_label": "7 dan", "start": 2020, "end": null, "relation": "P468", "r_label": "đẳng cấp"}
+{"s_qid": "Q22975317", "s_label": "Han Taehee", "o_qid": "Q23008935", "o_label": "8 dan", "start": 2023, "end": null, "relation": "P468", "r_label": "đẳng cấp"}
+{"s_qid": "Q22975317", "s_label": "Han Taehee", "o_qid": "Q12036922", "o_label": "9 dan", "start": 2026, "end": null, "relation": "P468", "r_label": "đẳng cấp"}
+{"s_qid": "Q25252545", "s_label": "Naoyuki Nakane", "o_qid": "Q23008964", "o_label": "1 dan in go", "start": 1988, "end": 1989, "relation": "P468", "r_label": "đẳng cấp"}
+{"s_qid": "Q25252545", "s_label": "Naoyuki Nakane", "o_qid": "Q23008961", "o_label": "2 dan in go", "start": 1989, "end": 1990, "relation": "P468", "r_label": "đẳng cấp"}
+{"s_qid": "Q25252545", "s_label": "Naoyuki Nakane", "o_qid": "Q23008960", "o_label": "3 dan in go", "start": 1990, "end": 1992, "relation": "P468", "r_label": "đẳng cấp"}
+{"s_qid": "Q25252545", "s_label": "Naoyuki Nakane", "o_qid": "Q23008956", "o_label": "4 dan", "start": 1992, "end": 1995, "relation": "P468", "r_label": "đẳng cấp"}
+{"s_qid": "Q25252545", "s_label": "Naoyuki Nakane", "o_qid": "Q23008953", "o_label": "5 dan", "start": 1995, "end": 1998, "relation": "P468", "r_label": "đẳng cấp"}
+{"s_qid": "Q25252545", "s_label": "Naoyuki Nakane", "o_qid": "Q23008946", "o_label": "6 dan", "start": 1998, "end": 2000, "relation": "P468", "r_label": "đẳng cấp"}
+{"s_qid": "Q25252545", "s_label": "Naoyuki Nakane", "o_qid": "Q23008939", "o_label": "7 dan", "start": 2000, "end": 2003, "relation": "P468", "r_label": "đẳng cấp"}
+{"s_qid": "Q25252545", "s_label": "Naoyuki Nakane", "o_qid": "Q23008935", "o_label": "8 dan", "start": 2003, "end": 2016, "relation": "P468", "r_label": "đẳng cấp"}
+{"s_qid": "Q25252545", "s_label": "Naoyuki Nakane", "o_qid": "Q12036922", "o_label": "9 dan", "start": 2016, "end": null, "relation": "P468", "r_label": "đẳng cấp"}
+{"s_qid": "Q25252773", "s_label": "Chiaki Tamura", "o_qid": "Q23008964", "o_label": "1 dan in go", "start": 2003, "end": 2005, "relation": "P468", "r_label": "đẳng cấp"}
+{"s_qid": "Q25252773", "s_label": "Chiaki Tamura", "o_qid": "Q23008961", "o_label": "2 dan in go", "start": 2005, "end": 2012, "relation": "P468", "r_label": "đẳng cấp"}
+{"s_qid": "Q25252773", "s_label": "Chiaki Tamura", "o_qid": "Q23008960", "o_label": "3 dan in go", "start": 2012, "end": null, "relation": "P468", "r_label": "đẳng cấp"}
+{"s_qid": "Q26898554", "s_label": "Ryan Li", "o_qid": "Q23008964", "o_label": "1 dan in go", "start": 2015, "end": null, "relation": "P468", "r_label": "đẳng cấp"}
+{"s_qid": "Q60491588", "s_label": "Sumire Nakamura", "o_qid": "Q23008964", "o_label": "1 dan in go", "start": 2019, "end": 2021, "relation": "P468", "r_label": "đẳng cấp"}
+{"s_qid": "Q60491588", "s_label": "Sumire Nakamura", "o_qid": "Q23008961", "o_label": "2 dan in go", "start": 2021, "end": 2022, "relation": "P468", "r_label": "đẳng cấp"}
+{"s_qid": "Q60491588", "s_label": "Sumire Nakamura", "o_qid": "Q23008960", "o_label": "3 dan in go", "start": 2022, "end": null, "relation": "P468", "r_label": "đẳng cấp"}
+{"s_qid": "Q60491588", "s_label": "Sumire Nakamura", "o_qid": "Q23008956", "o_label": "4 dan", "start": 2025, "end": null, "relation": "P468", "r_label": "đẳng cấp"}
+{"s_qid": "Q60491588", "s_label": "Sumire Nakamura", "o_qid": "Q23008953", "o_label": "5 dan", "start": 2026, "end": null, "relation": "P468", "r_label": "đẳng cấp"}
+{"s_qid": "Q60491588", "s_label": "Sumire Nakamura", "o_qid": "Q23008946", "o_label": "6 dan", "start": 2026, "end": null, "relation": "P468", "r_label": "đẳng cấp"}
+{"s_qid": "Q109801415", "s_label": "Im Jin-wook", "o_qid": "Q23008964", "o_label": "1 dan in go", "start": 2021, "end": 2022, "relation": "P468", "r_label": "đẳng cấp"}
+{"s_qid": "Q109801415", "s_label": "Im Jin-wook", "o_qid": "Q23008961", "o_label": "2 dan in go", "start": 2022, "end": 2022, "relation": "P468", "r_label": "đẳng cấp"}
+{"s_qid": "Q109801415", "s_label": "Im Jin-wook", "o_qid": "Q23008960", "o_label": "3 dan in go", "start": 2022, "end": null, "relation": "P468", "r_label": "đẳng cấp"}
+{"s_qid": "Q712158", "s_label": "Rissei Ō", "o_qid": "Q23008964", "o_label": "1 dan in go", "start": 1972, "end": 1973, "relation": "P468", "r_label": "đẳng cấp"}
+{"s_qid": "Q712158", "s_label": "Rissei Ō", "o_qid": "Q23008961", "o_label": "2 dan in go", "start": 1973, "end": 1975, "relation": "P468", "r_label": "đẳng cấp"}
+{"s_qid": "Q712158", "s_label": "Rissei Ō", "o_qid": "Q23008960", "o_label": "3 dan in go", "start": 1975, "end": 1976, "relation": "P468", "r_label": "đẳng cấp"}
+{"s_qid": "Q712158", "s_label": "Rissei Ō", "o_qid": "Q23008956", "o_label": "4 dan", "start": 1976, "end": 1978, "relation": "P468", "r_label": "đẳng cấp"}
+{"s_qid": "Q712158", "s_label": "Rissei Ō", "o_qid": "Q23008953", "o_label": "5 dan", "start": 1978, "end": 1981, "relation": "P468", "r_label": "đẳng cấp"}
+{"s_qid": "Q712158", "s_label": "Rissei Ō", "o_qid": "Q23008946", "o_label": "6 dan", "start": 1981, "end": 1982, "relation": "P468", "r_label": "đẳng cấp"}
+{"s_qid": "Q712158", "s_label": "Rissei Ō", "o_qid": "Q23008939", "o_label": "7 dan", "start": 1982, "end": 1985, "relation": "P468", "r_label": "đẳng cấp"}
+{"s_qid": "Q712158", "s_label": "Rissei Ō", "o_qid": "Q23008935", "o_label": "8 dan", "start": 1985, "end": 1988, "relation": "P468", "r_label": "đẳng cấp"}
+{"s_qid": "Q712158", "s_label": "Rissei Ō", "o_qid": "Q12036922", "o_label": "9 dan", "start": 1988, "end": null, "relation": "P468", "r_label": "đẳng cấp"}
+{"s_qid": "Q2824118", "s_label": "Toshimasa Adachi", "o_qid": "Q23008964", "o_label": "1 dan in go", "start": 2009, "end": 2011, "relation": "P468", "r_label": "đẳng cấp"}
+{"s_qid": "Q2824118", "s_label": "Toshimasa Adachi", "o_qid": "Q23008961", "o_label": "2 dan in go", "start": 2011, "end": 2014, "relation": "P468", "r_label": "đẳng cấp"}
+{"s_qid": "Q2824118", "s_label": "Toshimasa Adachi", "o_qid": "Q23008960", "o_label": "3 dan in go", "start": 2014, "end": 2016, "relation": "P468", "r_label": "đẳng cấp"}
+{"s_qid": "Q2824118", "s_label": "Toshimasa Adachi", "o_qid": "Q23008956", "o_label": "4 dan", "start": 2016, "end": 2018, "relation": "P468", "r_label": "đẳng cấp"}
+{"s_qid": "Q2824118", "s_label": "Toshimasa Adachi", "o_qid": "Q23008953", "o_label": "5 dan", "start": 2018, "end": 2019, "relation": "P468", "r_label": "đẳng cấp"}
+{"s_qid": "Q2824118", "s_label": "Toshimasa Adachi", "o_qid": "Q23008946", "o_label": "6 dan", "start": 2019, "end": 2020, "relation": "P468", "r_label": "đẳng cấp"}
+{"s_qid": "Q2824118", "s_label": "Toshimasa Adachi", "o_qid": "Q23008939", "o_label": "7 dan", "start": 2020, "end": null, "relation": "P468", "r_label": "đẳng cấp"}
+{"s_qid": "Q3004683", "s_label": "Chen Yaoye", "o_qid": "Q12036922", "o_label": "9 dan", "start": 2007, "end": null, "relation": "P468", "r_label": "đẳng cấp"}
+{"s_qid": "Q3004683", "s_label": "Chen Yaoye", "o_qid": "Q23008964", "o_label": "1 dan in go", "start": 2000, "end": 2001, "relation": "P468", "r_label": "đẳng cấp"}
+{"s_qid": "Q3004683", "s_label": "Chen Yaoye", "o_qid": "Q23008961", "o_label": "2 dan in go", "start": 2001, "end": 2002, "relation": "P468", "r_label": "đẳng cấp"}
+{"s_qid": "Q3004683", "s_label": "Chen Yaoye", "o_qid": "Q23008960", "o_label": "3 dan in go", "start": 2002, "end": 2004, "relation": "P468", "r_label": "đẳng cấp"}
+{"s_qid": "Q3004683", "s_label": "Chen Yaoye", "o_qid": "Q23008956", "o_label": "4 dan", "start": 2004, "end": 2005, "relation": "P468", "r_label": "đẳng cấp"}
+{"s_qid": "Q3004683", "s_label": "Chen Yaoye", "o_qid": "Q23008953", "o_label": "5 dan", "start": 2005, "end": 2007, "relation": "P468", "r_label": "đẳng cấp"}
+{"s_qid": "Q9367031", "s_label": "Chin Kaei", "o_qid": "Q23008953", "o_label": "5 dan", "start": 1987, "end": 1989, "relation": "P468", "r_label": "đẳng cấp"}
+{"s_qid": "Q9367031", "s_label": "Chin Kaei", "o_qid": "Q23008946", "o_label": "6 dan", "start": 1989, "end": 1991, "relation": "P468", "r_label": "đẳng cấp"}
+{"s_qid": "Q9367031", "s_label": "Chin Kaei", "o_qid": "Q23008939", "o_label": "7 dan", "start": 1991, "end": 1993, "relation": "P468", "r_label": "đẳng cấp"}
+{"s_qid": "Q9367031", "s_label": "Chin Kaei", "o_qid": "Q23008935", "o_label": "8 dan", "start": 1993, "end": 1996, "relation": "P468", "r_label": "đẳng cấp"}
+{"s_qid": "Q9367031", "s_label": "Chin Kaei", "o_qid": "Q12036922", "o_label": "9 dan", "start": 1996, "end": null, "relation": "P468", "r_label": "đẳng cấp"}
+{"s_qid": "Q11427487", "s_label": "Mitsunari Horimoto", "o_qid": "Q23008964", "o_label": "1 dan in go", "start": 2006, "end": 2009, "relation": "P468", "r_label": "đẳng cấp"}
+{"s_qid": "Q11427487", "s_label": "Mitsunari Horimoto", "o_qid": "Q23008961", "o_label": "2 dan in go", "start": 2009, "end": 2012, "relation": "P468", "r_label": "đẳng cấp"}
+{"s_qid": "Q11427487", "s_label": "Mitsunari Horimoto", "o_qid": "Q23008960", "o_label": "3 dan in go", "start": 2012, "end": 2016, "relation": "P468", "r_label": "đẳng cấp"}
+{"s_qid": "Q11427487", "s_label": "Mitsunari Horimoto", "o_qid": "Q23008956", "o_label": "4 dan", "start": 2016, "end": 2021, "relation": "P468", "r_label": "đẳng cấp"}
+{"s_qid": "Q11427487", "s_label": "Mitsunari Horimoto", "o_qid": "Q23008953", "o_label": "5 dan", "start": 2021, "end": null, "relation": "P468", "r_label": "đẳng cấp"}
+{"s_qid": "Q11566597", "s_label": "Taiki Seto", "o_qid": "Q23008964", "o_label": "1 dan in go", "start": 2000, "end": 2000, "relation": "P468", "r_label": "đẳng cấp"}
+{"s_qid": "Q11566597", "s_label": "Taiki Seto", "o_qid": "Q23008961", "o_label": "2 dan in go", "start": 2000, "end": 2001, "relation": "P468", "r_label": "đẳng cấp"}
+{"s_qid": "Q11566597", "s_label": "Taiki Seto", "o_qid": "Q23008960", "o_label": "3 dan in go", "start": 2001, "end": 2002, "relation": "P468", "r_label": "đẳng cấp"}
+{"s_qid": "Q11566597", "s_label": "Taiki Seto", "o_qid": "Q23008956", "o_label": "4 dan", "start": 2002, "end": 2003, "relation": "P468", "r_label": "đẳng cấp"}
+{"s_qid": "Q11566597", "s_label": "Taiki Seto", "o_qid": "Q23008953", "o_label": "5 dan", "start": 2003, "end": 2004, "relation": "P468", "r_label": "đẳng cấp"}
+{"s_qid": "Q11566597", "s_label": "Taiki Seto", "o_qid": "Q23008946", "o_label": "6 dan", "start": 2004, "end": 2009, "relation": "P468", "r_label": "đẳng cấp"}
+{"s_qid": "Q11566597", "s_label": "Taiki Seto", "o_qid": "Q23008939", "o_label": "7 dan", "start": 2009, "end": 2016, "relation": "P468", "r_label": "đẳng cấp"}
+{"s_qid": "Q11566597", "s_label": "Taiki Seto", "o_qid": "Q23008935", "o_label": "8 dan", "start": 2016, "end": null, "relation": "P468", "r_label": "đẳng cấp"}
+{"s_qid": "Q17361577", "s_label": "Lin Chun-Yen", "o_qid": "Q23008964", "o_label": "1 dan in go", "start": 2010, "end": 2010, "relation": "P468", "r_label": "đẳng cấp"}
+{"s_qid": "Q17361577", "s_label": "Lin Chun-Yen", "o_qid": "Q23008961", "o_label": "2 dan in go", "start": 2010, "end": 2011, "relation": "P468", "r_label": "đẳng cấp"}
+{"s_qid": "Q17361577", "s_label": "Lin Chun-Yen", "o_qid": "Q23008960", "o_label": "3 dan in go", "start": 2011, "end": 2012, "relation": "P468", "r_label": "đẳng cấp"}
+{"s_qid": "Q17361577", "s_label": "Lin Chun-Yen", "o_qid": "Q23008953", "o_label": "5 dan", "start": 2012, "end": 2013, "relation": "P468", "r_label": "đẳng cấp"}
+{"s_qid": "Q17361577", "s_label": "Lin Chun-Yen", "o_qid": "Q23008946", "o_label": "6 dan", "start": 2013, "end": 2016, "relation": "P468", "r_label": "đẳng cấp"}
+{"s_qid": "Q17361577", "s_label": "Lin Chun-Yen", "o_qid": "Q23008939", "o_label": "7 dan", "start": 2016, "end": 2019, "relation": "P468", "r_label": "đẳng cấp"}
+{"s_qid": "Q17361577", "s_label": "Lin Chun-Yen", "o_qid": "Q23008935", "o_label": "8 dan", "start": 2019, "end": null, "relation": "P468", "r_label": "đẳng cấp"}
+{"s_qid": "Q17682960", "s_label": "Park Changmyeong", "o_qid": "Q23008964", "o_label": "1 dan in go", "start": 2014, "end": 2017, "relation": "P468", "r_label": "đẳng cấp"}
+{"s_qid": "Q17682960", "s_label": "Park Changmyeong", "o_qid": "Q23008961", "o_label": "2 dan in go", "start": 2017, "end": 2020, "relation": "P468", "r_label": "đẳng cấp"}
+{"s_qid": "Q17682960", "s_label": "Park Changmyeong", "o_qid": "Q23008960", "o_label": "3 dan in go", "start": 2020, "end": null, "relation": "P468", "r_label": "đẳng cấp"}
+{"s_qid": "Q25252394", "s_label": "Ding Hao", "o_qid": "Q23008964", "o_label": "1 dan in go", "start": 2013, "end": 2014, "relation": "P468", "r_label": "đẳng cấp"}
+{"s_qid": "Q25252394", "s_label": "Ding Hao", "o_qid": "Q23008953", "o_label": "5 dan", "start": 2017, "end": 2019, "relation": "P468", "r_label": "đẳng cấp"}
+{"s_qid": "Q25252394", "s_label": "Ding Hao", "o_qid": "Q23008946", "o_label": "6 dan", "start": 2019, "end": 2020, "relation": "P468", "r_label": "đẳng cấp"}
+{"s_qid": "Q25252394", "s_label": "Ding Hao", "o_qid": "Q23008939", "o_label": "7 dan", "start": 2020, "end": 2021, "relation": "P468", "r_label": "đẳng cấp"}
+{"s_qid": "Q25252394", "s_label": "Ding Hao", "o_qid": "Q23008961", "o_label": "2 dan in go", "start": 2014, "end": 2015, "relation": "P468", "r_label": "đẳng cấp"}
+{"s_qid": "Q25252394", "s_label": "Ding Hao", "o_qid": "Q23008960", "o_label": "3 dan in go", "start": 2015, "end": 2016, "relation": "P468", "r_label": "đẳng cấp"}
+{"s_qid": "Q25252394", "s_label": "Ding Hao", "o_qid": "Q23008956", "o_label": "4 dan", "start": 2016, "end": 2017, "relation": "P468", "r_label": "đẳng cấp"}
+{"s_qid": "Q25252394", "s_label": "Ding Hao", "o_qid": "Q23008935", "o_label": "8 dan", "start": 2021, "end": 2021, "relation": "P468", "r_label": "đẳng cấp"}
+{"s_qid": "Q25252394", "s_label": "Ding Hao", "o_qid": "Q12036922", "o_label": "9 dan", "start": 2021, "end": null, "relation": "P468", "r_label": "đẳng cấp"}
+{"s_qid": "Q25252596", "s_label": "Yoshifumi Endo", "o_qid": "Q23008964", "o_label": "1 dan in go", "start": 1990, "end": 1991, "relation": "P468", "r_label": "đẳng cấp"}
+{"s_qid": "Q25252596", "s_label": "Yoshifumi Endo", "o_qid": "Q23008961", "o_label": "2 dan in go", "start": 1991, "end": 1992, "relation": "P468", "r_label": "đẳng cấp"}
+{"s_qid": "Q25252596", "s_label": "Yoshifumi Endo", "o_qid": "Q23008960", "o_label": "3 dan in go", "start": 1992, "end": 1993, "relation": "P468", "r_label": "đẳng cấp"}
+{"s_qid": "Q25252596", "s_label": "Yoshifumi Endo", "o_qid": "Q23008956", "o_label": "4 dan", "start": 1993, "end": 1994, "relation": "P468", "r_label": "đẳng cấp"}
+{"s_qid": "Q25252596", "s_label": "Yoshifumi Endo", "o_qid": "Q23008953", "o_label": "5 dan", "start": 1994, "end": 1999, "relation": "P468", "r_label": "đẳng cấp"}
+{"s_qid": "Q25252596", "s_label": "Yoshifumi Endo", "o_qid": "Q23008946", "o_label": "6 dan", "start": 1999, "end": 2002, "relation": "P468", "r_label": "đẳng cấp"}
+{"s_qid": "Q25252596", "s_label": "Yoshifumi Endo", "o_qid": "Q23008939", "o_label": "7 dan", "start": 2002, "end": 2019, "relation": "P468", "r_label": "đẳng cấp"}
+{"s_qid": "Q25252596", "s_label": "Yoshifumi Endo", "o_qid": "Q23008935", "o_label": "8 dan", "start": 2019, "end": null, "relation": "P468", "r_label": "đẳng cấp"}
+{"s_qid": "Q101894295", "s_label": "Chen Feng", "o_qid": "Q23008964", "o_label": "1 dan in go", "start": 2004, "end": 2007, "relation": "P468", "r_label": "đẳng cấp"}
+{"s_qid": "Q101894295", "s_label": "Chen Feng", "o_qid": "Q23008961", "o_label": "2 dan in go", "start": 2007, "end": 2010, "relation": "P468", "r_label": "đẳng cấp"}
+{"s_qid": "Q101894295", "s_label": "Chen Feng", "o_qid": "Q23008960", "o_label": "3 dan in go", "start": 2010, "end": 2014, "relation": "P468", "r_label": "đẳng cấp"}
+{"s_qid": "Q101894295", "s_label": "Chen Feng", "o_qid": "Q23008956", "o_label": "4 dan", "start": 2014, "end": 2018, "relation": "P468", "r_label": "đẳng cấp"}
+{"s_qid": "Q101894295", "s_label": "Chen Feng", "o_qid": "Q23008953", "o_label": "5 dan", "start": 2018, "end": null, "relation": "P468", "r_label": "đẳng cấp"}

@@ -1,0 +1,13 @@
+{"s_qid": "Q110128765", "s_label": "Partygate", "o_qid": "Q22087294", "o_label": "Simon Case", "start": 2021, "end": 2021, "relation": "P1840", "r_label": "investigated by"}
+{"s_qid": "Q317485", "s_label": "Pekka Haavisto", "o_qid": "Q643412", "o_label": "Quốc hội Phần Lan", "start": 2020, "end": 2020, "relation": "P1840", "r_label": "investigated by"}
+{"s_qid": "Q573565", "s_label": "Những vụ án ấu dâm của Giáo hội Công giáo Rôma", "o_qid": "Q1817856", "o_label": "ProPublica", "start": 2020, "end": 2020, "relation": "P1840", "r_label": "investigated by"}
+{"s_qid": "Q573565", "s_label": "Những vụ án ấu dâm của Giáo hội Công giáo Rôma", "o_qid": "Q595564", "o_label": "Houston Chronicle", "start": 2020, "end": 2020, "relation": "P1840", "r_label": "investigated by"}
+{"s_qid": "Q573565", "s_label": "Những vụ án ấu dâm của Giáo hội Công giáo Rôma", "o_qid": "Q50009", "o_label": "El País", "start": 2021, "end": 2021, "relation": "P1840", "r_label": "investigated by"}
+{"s_qid": "Q573565", "s_label": "Những vụ án ấu dâm của Giáo hội Công giáo Rôma", "o_qid": "Q824451", "o_label": "Boston Globe", "start": 2002, "end": 2002, "relation": "P1840", "r_label": "investigated by"}
+{"s_qid": "Q573565", "s_label": "Những vụ án ấu dâm của Giáo hội Công giáo Rôma", "o_qid": "Q8333", "o_label": "Cục Điều tra Liên bang", "start": 2022, "end": 2022, "relation": "P1840", "r_label": "investigated by"}
+{"s_qid": "Q640317", "s_label": "Tổng giáo phận New Orleans", "o_qid": "Q8333", "o_label": "Cục Điều tra Liên bang", "start": 2022, "end": null, "relation": "P1840", "r_label": "investigated by"}
+{"s_qid": "Q15128575", "s_label": "Gurlitt hoard", "o_qid": "Q9212", "o_label": "Lục quân Hoa Kỳ", "start": 1945, "end": 1945, "relation": "P1840", "r_label": "investigated by"}
+{"s_qid": "Q113036726", "s_label": "Erwin Lenz", "o_qid": "Q43250", "o_label": "Gestapo", "start": 1937, "end": 1937, "relation": "P1840", "r_label": "investigated by"}
+{"s_qid": "Q1062514", "s_label": "Congregation of the Legionaries of Christ", "o_qid": "Q16166292", "o_label": "Liên đoàn nhà báo điều tra quốc tế", "start": 2021, "end": 2021, "relation": "P1840", "r_label": "investigated by"}
+{"s_qid": "Q1062514", "s_label": "Congregation of the Legionaries of Christ", "o_qid": "Q159583", "o_label": "Tòa Thánh", "start": 2010, "end": null, "relation": "P1840", "r_label": "investigated by"}
+{"s_qid": "Q1365314", "s_label": "Tổng giáo phận Philadelphia", "o_qid": "Q1553390", "o_label": "Bộ Tư pháp Hoa Kỳ", "start": 2018, "end": 2018, "relation": "P1840", "r_label": "investigated by"}

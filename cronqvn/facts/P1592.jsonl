@@ -1,0 +1,14 @@
+{"s_qid": "Q61659169", "s_label": "tribunal civil du Vigan", "o_qid": "Q55768310", "o_label": "Michel Jouve", "start": 1881, "end": 1883, "relation": "P1592", "r_label": "prosecutor"}
+{"s_qid": "Q3000985", "s_label": "Court of Appeal of Versailles", "o_qid": "Q590109", "o_label": "Bruno Cotte", "start": 1990, "end": 1990, "relation": "P1592", "r_label": "prosecutor"}
+{"s_qid": "Q61147755", "s_label": "tribunal civil de Nîmes", "o_qid": "Q118067253", "o_label": "Jean-Marie Langlois", "start": 1911, "end": 1917, "relation": "P1592", "r_label": "prosecutor"}
+{"s_qid": "Q61147755", "s_label": "tribunal civil de Nîmes", "o_qid": "Q118067253", "o_label": "Jean-Marie Langlois", "start": 1898, "end": 1902, "relation": "P1592", "r_label": "prosecutor"}
+{"s_qid": "Q61147755", "s_label": "tribunal civil de Nîmes", "o_qid": "Q60334200", "o_label": "Jules Escalier-Ladevèze", "start": 1849, "end": 1863, "relation": "P1592", "r_label": "prosecutor"}
+{"s_qid": "Q61147755", "s_label": "tribunal civil de Nîmes", "o_qid": "Q55761548", "o_label": "Léonce Maurin", "start": 1844, "end": 1848, "relation": "P1592", "r_label": "prosecutor"}
+{"s_qid": "Q61147755", "s_label": "tribunal civil de Nîmes", "o_qid": "Q56640701", "o_label": "Casimir Liquier", "start": 1832, "end": 1844, "relation": "P1592", "r_label": "prosecutor"}
+{"s_qid": "Q61147755", "s_label": "tribunal civil de Nîmes", "o_qid": "Q60333422", "o_label": "Barthélemy Gonnet", "start": 1822, "end": 1824, "relation": "P1592", "r_label": "prosecutor"}
+{"s_qid": "Q61659165", "s_label": "tribunal civil d'Uzès", "o_qid": "Q61639724", "o_label": "Louis de Robernier", "start": 1831, "end": 1831, "relation": "P1592", "r_label": "prosecutor"}
+{"s_qid": "Q61659165", "s_label": "tribunal civil d'Uzès", "o_qid": "Q56640701", "o_label": "Casimir Liquier", "start": 1831, "end": 1831, "relation": "P1592", "r_label": "prosecutor"}
+{"s_qid": "Q61664334", "s_label": "tribunal civil d'Alès", "o_qid": "Q61639561", "o_label": "Félix Bonnes", "start": 1919, "end": 1922, "relation": "P1592", "r_label": "prosecutor"}
+{"s_qid": "Q61664334", "s_label": "tribunal civil d'Alès", "o_qid": "Q3271623", "o_label": "Léonce de Castelnau", "start": 1873, "end": 1875, "relation": "P1592", "r_label": "prosecutor"}
+{"s_qid": "Q61664334", "s_label": "tribunal civil d'Alès", "o_qid": "Q60334200", "o_label": "Jules Escalier-Ladevèze", "start": 1837, "end": 1849, "relation": "P1592", "r_label": "prosecutor"}
+{"s_qid": "Q61664334", "s_label": "tribunal civil d'Alès", "o_qid": "Q65645632", "o_label": "Ricard-Saint-Hilaire", "start": 1811, "end": 1816, "relation": "P1592", "r_label": "prosecutor"}

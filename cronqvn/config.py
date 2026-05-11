@@ -40,11 +40,11 @@ RELATIONS = {
     "P6":   {"verb": "đứng đầu chính phủ của", "noun": "chính phủ", "en": "head of government"},
     "P102": {"verb": "là thành viên của",      "noun": "đảng",      "en": "member of political party"},
     "P488": {"verb": "là chủ tịch của",        "noun": "tổ chức",   "en": "chairperson"},
-    "P1308":{"verb": "giữ vị trí",             "noun": "vị trí",    "en": "officeholder"},
+    "P1308": {"verb": "giữ vị trí",             "noun": "vị trí",    "en": "officeholder"},
 
     # Awards adjacent
-    "P1411":{"verb": "được đề cử",   "noun": "giải đề cử",     "en": "nominated for"},
-    "P1346":{"verb": "thắng",        "noun": "cuộc thi",        "en": "winner"},
+    "P1411": {"verb": "được đề cử",   "noun": "giải đề cử",     "en": "nominated for"},
+    "P1346": {"verb": "thắng",        "noun": "cuộc thi",        "en": "winner"},
 
     # Membership
     "P463": {"verb": "là thành viên của", "noun": "tổ chức",    "en": "member of"},
@@ -59,7 +59,7 @@ RELATIONS = {
 
     # Misc
     "P127": {"verb": "thuộc sở hữu của", "noun": "chủ sở hữu",   "en": "owned by"},
-    "P185": {"verb": "hướng dẫn",       "noun": "nghiên cứu sinh","en": "doctoral student"},
+    "P185": {"verb": "hướng dẫn",       "noun": "nghiên cứu sinh", "en": "doctoral student"},
 }
 
 # ---------- Question generation ----------
@@ -74,12 +74,11 @@ QTYPE_DISTRIBUTION = {
 
 # ---------- KG-build filters (tkbc-style, áp ở build_kg.py) ----------
 # Step 2: lọc relation hiếm — relation có < N statement bị bỏ
-BUILD_MIN_RELATION_FACTS = 200
+BUILD_MIN_RELATION_FACTS = 100
 # Step 3: lọc entity hiếm — entity xuất hiện < M fact bị bỏ
-BUILD_MIN_ENTITY_FACTS = 50
+BUILD_MIN_ENTITY_FACTS = 20
 
 # ---------- Question-gen filters (áp ở generate.py) ----------
 MAX_ANSWERS = 20
 MIN_LABEL_LEN = 3
 MIN_BEFORE_AFTER_GAP = 1
-

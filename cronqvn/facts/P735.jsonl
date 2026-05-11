@@ -1,0 +1,25 @@
+{"s_qid": "Q784368", "s_label": "John Saville", "o_qid": "Q4925477", "o_label": "John", "start": 1937, "end": null, "relation": "P735", "r_label": "tên"}
+{"s_qid": "Q214207", "s_label": "William Steinway", "o_qid": "Q12344159", "o_label": "William", "start": 1850, "end": null, "relation": "P735", "r_label": "tên"}
+{"s_qid": "Q724576", "s_label": "Christopher J. Priest", "o_qid": "Q1084472", "o_label": "Christopher", "start": 1993, "end": null, "relation": "P735", "r_label": "tên"}
+{"s_qid": "Q724576", "s_label": "Christopher J. Priest", "o_qid": "Q677191", "o_label": "James", "start": 1993, "end": null, "relation": "P735", "r_label": "tên"}
+{"s_qid": "Q724576", "s_label": "Christopher J. Priest", "o_qid": "Q1084472", "o_label": "Christopher", "start": 1961, "end": 1993, "relation": "P735", "r_label": "tên"}
+{"s_qid": "Q724576", "s_label": "Christopher J. Priest", "o_qid": "Q677191", "o_label": "James", "start": 1961, "end": 1993, "relation": "P735", "r_label": "tên"}
+{"s_qid": "Q104840460", "s_label": "Paul Zimmer", "o_qid": "Q4925623", "o_label": "Paul", "start": null, "end": 2019, "relation": "P735", "r_label": "tên"}
+{"s_qid": "Q118247148", "s_label": "Reverend Green", "o_qid": "Q4925477", "o_label": "John", "start": 2002, "end": 2002, "relation": "P735", "r_label": "tên"}
+{"s_qid": "Q123351", "s_label": "Michael Caine", "o_qid": "Q4927524", "o_label": "Michael", "start": 2016, "end": null, "relation": "P735", "r_label": "tên"}
+{"s_qid": "Q365144", "s_label": "Caitlyn Jenner", "o_qid": "Q12344159", "o_label": "William", "start": null, "end": 2015, "relation": "P735", "r_label": "tên"}
+{"s_qid": "Q468609", "s_label": "Paul B. Preciado", "o_qid": "Q4925623", "o_label": "Paul", "start": 2015, "end": null, "relation": "P735", "r_label": "tên"}
+{"s_qid": "Q84352", "s_label": "André Gorz", "o_qid": "Q4927937", "o_label": "Robert", "start": 1923, "end": 1923, "relation": "P735", "r_label": "tên"}
+{"s_qid": "Q127401579", "s_label": "Tamzin Hadasa Kelly", "o_qid": "Q16428906", "o_label": "Thomas", "start": 1996, "end": 2019, "relation": "P735", "r_label": "tên"}
+{"s_qid": "Q274286", "s_label": "Édouard Dhorme", "o_qid": "Q4925623", "o_label": "Paul", "start": 1899, "end": 1931, "relation": "P735", "r_label": "tên"}
+{"s_qid": "Q118247387", "s_label": "Dr. Black", "o_qid": "Q4925477", "o_label": "John", "start": 2002, "end": 2002, "relation": "P735", "r_label": "tên"}
+{"s_qid": "Q392", "s_label": "Bob Dylan", "o_qid": "Q4927937", "o_label": "Robert", "start": 1941, "end": null, "relation": "P735", "r_label": "tên"}
+{"s_qid": "Q8027", "s_label": "Martin Luther King", "o_qid": "Q4927524", "o_label": "Michael", "start": 1929, "end": 1934, "relation": "P735", "r_label": "tên"}
+{"s_qid": "Q1021713", "s_label": "Robert John McClure", "o_qid": "Q4925477", "o_label": "John", "start": 1811, "end": null, "relation": "P735", "r_label": "tên"}
+{"s_qid": "Q6178317", "s_label": "Jennifer Finney Boylan", "o_qid": "Q677191", "o_label": "James", "start": null, "end": 2001, "relation": "P735", "r_label": "tên"}
+{"s_qid": "Q8012144", "s_label": "William Henry Scott", "o_qid": "Q12344159", "o_label": "William", "start": 1939, "end": null, "relation": "P735", "r_label": "tên"}
+{"s_qid": "Q786526", "s_label": "T. Coraghessan Boyle", "o_qid": "Q4925477", "o_label": "John", "start": null, "end": 1965, "relation": "P735", "r_label": "tên"}
+{"s_qid": "Q15071710", "s_label": "Chris Beck", "o_qid": "Q1084472", "o_label": "Christopher", "start": 2022, "end": null, "relation": "P735", "r_label": "tên"}
+{"s_qid": "Q17995110", "s_label": "Jimmy Morales", "o_qid": "Q677191", "o_label": "James", "start": null, "end": 2011, "relation": "P735", "r_label": "tên"}
+{"s_qid": "Q18912759", "s_label": "Wilhelm Miller", "o_qid": "Q12344159", "o_label": "William", "start": 1919, "end": null, "relation": "P735", "r_label": "tên"}
+{"s_qid": "Q118245884", "s_label": "Colonel Mustard", "o_qid": "Q4927524", "o_label": "Michael", "start": 2002, "end": 2002, "relation": "P735", "r_label": "tên"}

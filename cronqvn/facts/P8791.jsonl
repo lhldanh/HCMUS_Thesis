@@ -1,0 +1,4 @@
+{"s_qid": "Q106298482", "s_label": "National Photographic Record", "o_qid": "Q238587", "o_label": "National Portrait Gallery", "start": 2005, "end": 2005, "relation": "P8791", "r_label": "digitised by"}
+{"s_qid": "Q19561606", "s_label": "Berliner Börsen-Zeitung", "o_qid": "Q170109", "o_label": "Berlin State Library", "start": 2008, "end": 2008, "relation": "P8791", "r_label": "digitised by"}
+{"s_qid": "Q821464", "s_label": "Berliner Börsen-Courier", "o_qid": "Q170109", "o_label": "Berlin State Library", "start": 2014, "end": 2014, "relation": "P8791", "r_label": "digitised by"}
+{"s_qid": "Q365266", "s_label": "Le Courrier", "o_qid": "Q679689", "o_label": "Geneva Library", "start": 1868, "end": 1979, "relation": "P8791", "r_label": "digitised by"}

@@ -1,0 +1,429 @@
+{"s_qid": "Q511316", "s_label": "Union Station", "o_qid": "Q16980634", "o_label": "International", "start": 1982, "end": 2004, "relation": "P1192", "r_label": "dịch vụ nối liền"}
+{"s_qid": "Q764465", "s_label": "Montparnasse – Bienvenüe", "o_qid": "Q50743", "o_label": "Paris Métro Line 4", "start": 1910, "end": null, "relation": "P1192", "r_label": "dịch vụ nối liền"}
+{"s_qid": "Q764465", "s_label": "Montparnasse – Bienvenüe", "o_qid": "Q50757", "o_label": "Paris Métro Line 12", "start": 1910, "end": null, "relation": "P1192", "r_label": "dịch vụ nối liền"}
+{"s_qid": "Q764465", "s_label": "Montparnasse – Bienvenüe", "o_qid": "Q50759", "o_label": "Paris Métro Line 13", "start": 1937, "end": null, "relation": "P1192", "r_label": "dịch vụ nối liền"}
+{"s_qid": "Q801074", "s_label": "Leipzig-Leutzsch railway station", "o_qid": "Q134609986", "o_label": "S10 (Central Germany)", "start": null, "end": 2025, "relation": "P1192", "r_label": "dịch vụ nối liền"}
+{"s_qid": "Q801427", "s_label": "Senftenberg railway station", "o_qid": "Q67993390", "o_label": "RB 24 (Berlin/Brandenburg)", "start": null, "end": 2022, "relation": "P1192", "r_label": "dịch vụ nối liền"}
+{"s_qid": "Q801427", "s_label": "Senftenberg railway station", "o_qid": "Q95186801", "o_label": "RE 7 (Berlin/Brandenburg)", "start": 2022, "end": null, "relation": "P1192", "r_label": "dịch vụ nối liền"}
+{"s_qid": "Q801427", "s_label": "Senftenberg railway station", "o_qid": "Q84436359", "o_label": "RB 49 (Brandenburg)", "start": 2022, "end": null, "relation": "P1192", "r_label": "dịch vụ nối liền"}
+{"s_qid": "Q1328711", "s_label": "Windsor Station", "o_qid": "Q504115", "o_label": "Adirondack", "start": null, "end": 1986, "relation": "P1192", "r_label": "dịch vụ nối liền"}
+{"s_qid": "Q1531481", "s_label": "Suburban Station", "o_qid": "Q5092823", "o_label": "Chesapeake", "start": null, "end": 1983, "relation": "P1192", "r_label": "dịch vụ nối liền"}
+{"s_qid": "Q1531481", "s_label": "Suburban Station", "o_qid": "Q606691", "o_label": "Keystone Service", "start": 1981, "end": 1988, "relation": "P1192", "r_label": "dịch vụ nối liền"}
+{"s_qid": "Q2201056", "s_label": "Union Station", "o_qid": "Q5461789", "o_label": "Floridian", "start": null, "end": 1975, "relation": "P1192", "r_label": "dịch vụ nối liền"}
+{"s_qid": "Q2201056", "s_label": "Union Station", "o_qid": "Q16980733", "o_label": "James Whitcomb Riley", "start": null, "end": 1974, "relation": "P1192", "r_label": "dịch vụ nối liền"}
+{"s_qid": "Q3095495", "s_label": "Bois-Franc", "o_qid": "Q3239101", "o_label": "exo6", "start": null, "end": 2020, "relation": "P1192", "r_label": "dịch vụ nối liền"}
+{"s_qid": "Q3095495", "s_label": "Bois-Franc", "o_qid": "Q121010882", "o_label": "A1 - Brossard", "start": 2025, "end": null, "relation": "P1192", "r_label": "dịch vụ nối liền"}
+{"s_qid": "Q3095495", "s_label": "Bois-Franc", "o_qid": "Q136417114", "o_label": "A4 - Deux-Montagnes", "start": 2025, "end": null, "relation": "P1192", "r_label": "dịch vụ nối liền"}
+{"s_qid": "Q3096056", "s_label": "Brampton GO Station", "o_qid": "Q16980634", "o_label": "International", "start": 1990, "end": 2004, "relation": "P1192", "r_label": "dịch vụ nối liền"}
+{"s_qid": "Q4818562", "s_label": "Attleboro station", "o_qid": "Q5034718", "o_label": "Cape Codder", "start": 1986, "end": 1988, "relation": "P1192", "r_label": "dịch vụ nối liền"}
+{"s_qid": "Q6749091", "s_label": "Mangoku-Ura Station", "o_qid": "Q17230945", "o_label": "Senseki-Tōhoku Line", "start": 2016, "end": null, "relation": "P1192", "r_label": "dịch vụ nối liền"}
+{"s_qid": "Q7207875", "s_label": "Poinciana station", "o_qid": "Q5461789", "o_label": "Floridian", "start": 1974, "end": 1975, "relation": "P1192", "r_label": "dịch vụ nối liền"}
+{"s_qid": "Q7207875", "s_label": "Poinciana station", "o_qid": "Q5069973", "o_label": "Champion", "start": 1974, "end": 1975, "relation": "P1192", "r_label": "dịch vụ nối liền"}
+{"s_qid": "Q7989332", "s_label": "Westmount station", "o_qid": "Q504115", "o_label": "Adirondack", "start": null, "end": 1983, "relation": "P1192", "r_label": "dịch vụ nối liền"}
+{"s_qid": "Q14550938", "s_label": "Glöwen station", "o_qid": "Q112992594", "o_label": "RE 8 (Berlin/Brandenburg)", "start": 2022, "end": null, "relation": "P1192", "r_label": "dịch vụ nối liền"}
+{"s_qid": "Q22032186", "s_label": "Walt Disney Hometown Museum", "o_qid": "Q770386", "o_label": "Southwest Chief", "start": null, "end": 1996, "relation": "P1192", "r_label": "dịch vụ nối liền"}
+{"s_qid": "Q22032186", "s_label": "Walt Disney Hometown Museum", "o_qid": "Q6671382", "o_label": "Lone Star", "start": null, "end": 1979, "relation": "P1192", "r_label": "dịch vụ nối liền"}
+{"s_qid": "Q53557558", "s_label": "S-Bahnhof Feucht Ost", "o_qid": "Q7388284", "o_label": "S3 (Nuremberg)", "start": null, "end": 2023, "relation": "P1192", "r_label": "dịch vụ nối liền"}
+{"s_qid": "Q53557558", "s_label": "S-Bahnhof Feucht Ost", "o_qid": "Q7388209", "o_label": "S1 (Nuremberg)", "start": 2023, "end": null, "relation": "P1192", "r_label": "dịch vụ nối liền"}
+{"s_qid": "Q53803037", "s_label": "Cottbus-Merzdorf railway stop", "o_qid": "Q84429153", "o_label": "RB 43 (Brandenburg)", "start": 2022, "end": null, "relation": "P1192", "r_label": "dịch vụ nối liền"}
+{"s_qid": "Q53803037", "s_label": "Cottbus-Merzdorf railway stop", "o_qid": "Q115920198", "o_label": "RE 10 (Brandenburg / Saxony)", "start": 2022, "end": null, "relation": "P1192", "r_label": "dịch vụ nối liền"}
+{"s_qid": "Q53826702", "s_label": "Kolkwitz Süd railway stop", "o_qid": "Q84429153", "o_label": "RB 43 (Brandenburg)", "start": 2022, "end": null, "relation": "P1192", "r_label": "dịch vụ nối liền"}
+{"s_qid": "Q54878720", "s_label": "Bahnhof Burgthann", "o_qid": "Q7388284", "o_label": "S3 (Nuremberg)", "start": null, "end": 2023, "relation": "P1192", "r_label": "dịch vụ nối liền"}
+{"s_qid": "Q54878720", "s_label": "Bahnhof Burgthann", "o_qid": "Q7388209", "o_label": "S1 (Nuremberg)", "start": 2023, "end": null, "relation": "P1192", "r_label": "dịch vụ nối liền"}
+{"s_qid": "Q62024544", "s_label": "Feucht-Moosbach", "o_qid": "Q7388248", "o_label": "S2 (Nuremberg)", "start": null, "end": 2023, "relation": "P1192", "r_label": "dịch vụ nối liền"}
+{"s_qid": "Q62024544", "s_label": "Feucht-Moosbach", "o_qid": "Q7388284", "o_label": "S3 (Nuremberg)", "start": 2023, "end": null, "relation": "P1192", "r_label": "dịch vụ nối liền"}
+{"s_qid": "Q78200398", "s_label": "Uebigau railway stop", "o_qid": "Q84429153", "o_label": "RB 43 (Brandenburg)", "start": 2022, "end": null, "relation": "P1192", "r_label": "dịch vụ nối liền"}
+{"s_qid": "Q90836741", "s_label": "Walpurgisstraße", "o_qid": "Q64022460", "o_label": "Tram line 8", "start": null, "end": 2024, "relation": "P1192", "r_label": "dịch vụ nối liền"}
+{"s_qid": "Q90836741", "s_label": "Walpurgisstraße", "o_qid": "Q93767104", "o_label": "tram line 9 (Dresden)", "start": null, "end": 2025, "relation": "P1192", "r_label": "dịch vụ nối liền"}
+{"s_qid": "Q90836741", "s_label": "Walpurgisstraße", "o_qid": "Q91660551", "o_label": "tram line 4", "start": 2025, "end": null, "relation": "P1192", "r_label": "dịch vụ nối liền"}
+{"s_qid": "Q91342253", "s_label": "Postplatz", "o_qid": "Q64022460", "o_label": "Tram line 8", "start": null, "end": 2024, "relation": "P1192", "r_label": "dịch vụ nối liền"}
+{"s_qid": "Q93629864", "s_label": "Krankenhaus Sankt Joseph Stift", "o_qid": "Q91660551", "o_label": "tram line 4", "start": null, "end": 2025, "relation": "P1192", "r_label": "dịch vụ nối liền"}
+{"s_qid": "Q93629864", "s_label": "Krankenhaus Sankt Joseph Stift", "o_qid": "Q93767104", "o_label": "tram line 9 (Dresden)", "start": 2025, "end": null, "relation": "P1192", "r_label": "dịch vụ nối liền"}
+{"s_qid": "Q93632315", "s_label": "Gottleubaer Straße", "o_qid": "Q91660551", "o_label": "tram line 4", "start": null, "end": 2025, "relation": "P1192", "r_label": "dịch vụ nối liền"}
+{"s_qid": "Q93632315", "s_label": "Gottleubaer Straße", "o_qid": "Q93767104", "o_label": "tram line 9 (Dresden)", "start": 2025, "end": null, "relation": "P1192", "r_label": "dịch vụ nối liền"}
+{"s_qid": "Q93633713", "s_label": "Wasserwerk Tolkewitz", "o_qid": "Q91660551", "o_label": "tram line 4", "start": null, "end": 2025, "relation": "P1192", "r_label": "dịch vụ nối liền"}
+{"s_qid": "Q93633713", "s_label": "Wasserwerk Tolkewitz", "o_qid": "Q93767104", "o_label": "tram line 9 (Dresden)", "start": 2025, "end": null, "relation": "P1192", "r_label": "dịch vụ nối liền"}
+{"s_qid": "Q106980598", "s_label": "Lauf West", "o_qid": "Q7388209", "o_label": "S1 (Nuremberg)", "start": null, "end": 2023, "relation": "P1192", "r_label": "dịch vụ nối liền"}
+{"s_qid": "Q106980598", "s_label": "Lauf West", "o_qid": "Q7388248", "o_label": "S2 (Nuremberg)", "start": 2023, "end": null, "relation": "P1192", "r_label": "dịch vụ nối liền"}
+{"s_qid": "Q300706", "s_label": "Aachen Central Station", "o_qid": "Q466985", "o_label": "Thalys", "start": 1997, "end": 2023, "relation": "P1192", "r_label": "dịch vụ nối liền"}
+{"s_qid": "Q300706", "s_label": "Aachen Central Station", "o_qid": "Q156013", "o_label": "Eurostar", "start": 2023, "end": null, "relation": "P1192", "r_label": "dịch vụ nối liền"}
+{"s_qid": "Q324562", "s_label": "Bad Kleinen", "o_qid": "Q15119419", "o_label": "RE 2 (Berlin/Brandenburg)", "start": null, "end": 2022, "relation": "P1192", "r_label": "dịch vụ nối liền"}
+{"s_qid": "Q324562", "s_label": "Bad Kleinen", "o_qid": "Q112992594", "o_label": "RE 8 (Berlin/Brandenburg)", "start": 2022, "end": null, "relation": "P1192", "r_label": "dịch vụ nối liền"}
+{"s_qid": "Q682569", "s_label": "Rostock Central Station", "o_qid": "Q61863762", "o_label": "RE 10", "start": 2019, "end": null, "relation": "P1192", "r_label": "dịch vụ nối liền"}
+{"s_qid": "Q682569", "s_label": "Rostock Central Station", "o_qid": "Q105550961", "o_label": "IC line 17", "start": 2019, "end": null, "relation": "P1192", "r_label": "dịch vụ nối liền"}
+{"s_qid": "Q800759", "s_label": "BER Airport station", "o_qid": "Q2090939", "o_label": "S45", "start": null, "end": 2025, "relation": "P1192", "r_label": "dịch vụ nối liền"}
+{"s_qid": "Q800759", "s_label": "BER Airport station", "o_qid": "Q4048677", "o_label": "S85", "start": 2025, "end": null, "relation": "P1192", "r_label": "dịch vụ nối liền"}
+{"s_qid": "Q801123", "s_label": "Luckau-Uckro railway station", "o_qid": "Q50374543", "o_label": "RE 5", "start": null, "end": 2022, "relation": "P1192", "r_label": "dịch vụ nối liền"}
+{"s_qid": "Q1137479", "s_label": "Shizukuishi Station", "o_qid": "Q220696", "o_label": "Akita Shinkansen", "start": 1997, "end": null, "relation": "P1192", "r_label": "dịch vụ nối liền"}
+{"s_qid": "Q3095500", "s_label": "Canora", "o_qid": "Q121010882", "o_label": "A1 - Brossard", "start": 2025, "end": null, "relation": "P1192", "r_label": "dịch vụ nối liền"}
+{"s_qid": "Q3095500", "s_label": "Canora", "o_qid": "Q136417114", "o_label": "A4 - Deux-Montagnes", "start": 2025, "end": null, "relation": "P1192", "r_label": "dịch vụ nối liền"}
+{"s_qid": "Q3095500", "s_label": "Canora", "o_qid": "Q3239152", "o_label": "Mascouche line", "start": 2014, "end": 2020, "relation": "P1192", "r_label": "dịch vụ nối liền"}
+{"s_qid": "Q3097681", "s_label": "Sarnia railway station", "o_qid": "Q16980634", "o_label": "International", "start": null, "end": 2004, "relation": "P1192", "r_label": "dịch vụ nối liền"}
+{"s_qid": "Q6867988", "s_label": "Minneapolis Great Northern Depot", "o_qid": "Q197764", "o_label": "Empire Builder", "start": null, "end": 1978, "relation": "P1192", "r_label": "dịch vụ nối liền"}
+{"s_qid": "Q6867988", "s_label": "Minneapolis Great Northern Depot", "o_qid": "Q7054859", "o_label": "North Coast Hiawatha", "start": null, "end": 1978, "relation": "P1192", "r_label": "dịch vụ nối liền"}
+{"s_qid": "Q7886079", "s_label": "Union Station", "o_qid": "Q5264059", "o_label": "Desert Wind", "start": null, "end": 1983, "relation": "P1192", "r_label": "dịch vụ nối liền"}
+{"s_qid": "Q49444464", "s_label": "Beilrode railway station", "o_qid": "Q115920198", "o_label": "RE 10 (Brandenburg / Saxony)", "start": 2022, "end": null, "relation": "P1192", "r_label": "dịch vụ nối liền"}
+{"s_qid": "Q49444464", "s_label": "Beilrode railway station", "o_qid": "Q115927564", "o_label": "RE 11 (Brandenburg / Saxony)", "start": 2022, "end": null, "relation": "P1192", "r_label": "dịch vụ nối liền"}
+{"s_qid": "Q50324285", "s_label": "Lübstorf railway station", "o_qid": "Q15119419", "o_label": "RE 2 (Berlin/Brandenburg)", "start": null, "end": 2022, "relation": "P1192", "r_label": "dịch vụ nối liền"}
+{"s_qid": "Q50324285", "s_label": "Lübstorf railway station", "o_qid": "Q112992594", "o_label": "RE 8 (Berlin/Brandenburg)", "start": 2022, "end": null, "relation": "P1192", "r_label": "dịch vụ nối liền"}
+{"s_qid": "Q50401045", "s_label": "Holthusen railway station", "o_qid": "Q15119419", "o_label": "RE 2 (Berlin/Brandenburg)", "start": null, "end": 2022, "relation": "P1192", "r_label": "dịch vụ nối liền"}
+{"s_qid": "Q50401045", "s_label": "Holthusen railway station", "o_qid": "Q112992594", "o_label": "RE 8 (Berlin/Brandenburg)", "start": 2022, "end": null, "relation": "P1192", "r_label": "dịch vụ nối liền"}
+{"s_qid": "Q50401049", "s_label": "Lüblow (Meckl) railway station", "o_qid": "Q15119419", "o_label": "RE 2 (Berlin/Brandenburg)", "start": null, "end": 2022, "relation": "P1192", "r_label": "dịch vụ nối liền"}
+{"s_qid": "Q50401049", "s_label": "Lüblow (Meckl) railway station", "o_qid": "Q112992594", "o_label": "RE 8 (Berlin/Brandenburg)", "start": 2022, "end": null, "relation": "P1192", "r_label": "dịch vụ nối liền"}
+{"s_qid": "Q91663798", "s_label": "Straßburger Platz", "o_qid": "Q91660551", "o_label": "tram line 4", "start": null, "end": 2025, "relation": "P1192", "r_label": "dịch vụ nối liền"}
+{"s_qid": "Q91663798", "s_label": "Straßburger Platz", "o_qid": "Q93767104", "o_label": "tram line 9 (Dresden)", "start": 2025, "end": null, "relation": "P1192", "r_label": "dịch vụ nối liền"}
+{"s_qid": "Q91663798", "s_label": "Straßburger Platz", "o_qid": "Q64022460", "o_label": "Tram line 8", "start": 2024, "end": null, "relation": "P1192", "r_label": "dịch vụ nối liền"}
+{"s_qid": "Q93632008", "s_label": "Pohlandplatz", "o_qid": "Q91660551", "o_label": "tram line 4", "start": null, "end": 2025, "relation": "P1192", "r_label": "dịch vụ nối liền"}
+{"s_qid": "Q93632008", "s_label": "Pohlandplatz", "o_qid": "Q93767104", "o_label": "tram line 9 (Dresden)", "start": 2025, "end": null, "relation": "P1192", "r_label": "dịch vụ nối liền"}
+{"s_qid": "Q93633190", "s_label": "Tolkewitz, Schulcampus", "o_qid": "Q91660551", "o_label": "tram line 4", "start": null, "end": 2025, "relation": "P1192", "r_label": "dịch vụ nối liền"}
+{"s_qid": "Q93633190", "s_label": "Tolkewitz, Schulcampus", "o_qid": "Q93767104", "o_label": "tram line 9 (Dresden)", "start": 2025, "end": null, "relation": "P1192", "r_label": "dịch vụ nối liền"}
+{"s_qid": "Q108677443", "s_label": "Jänschwalde Ost railway stop", "o_qid": "Q63412909", "o_label": "RB 11 (Berlin/Brandenburg)", "start": null, "end": 2022, "relation": "P1192", "r_label": "dịch vụ nối liền"}
+{"s_qid": "Q108677443", "s_label": "Jänschwalde Ost railway stop", "o_qid": "Q84429153", "o_label": "RB 43 (Brandenburg)", "start": 2022, "end": null, "relation": "P1192", "r_label": "dịch vụ nối liền"}
+{"s_qid": "Q108677443", "s_label": "Jänschwalde Ost railway stop", "o_qid": "Q115920198", "o_label": "RE 10 (Brandenburg / Saxony)", "start": 2022, "end": null, "relation": "P1192", "r_label": "dịch vụ nối liền"}
+{"s_qid": "Q445993", "s_label": "Frankfurt (Oder) railway station", "o_qid": "Q63412909", "o_label": "RB 11 (Berlin/Brandenburg)", "start": null, "end": 2022, "relation": "P1192", "r_label": "dịch vụ nối liền"}
+{"s_qid": "Q445993", "s_label": "Frankfurt (Oder) railway station", "o_qid": "Q84429153", "o_label": "RB 43 (Brandenburg)", "start": 2022, "end": null, "relation": "P1192", "r_label": "dịch vụ nối liền"}
+{"s_qid": "Q445993", "s_label": "Frankfurt (Oder) railway station", "o_qid": "Q115920198", "o_label": "RE 10 (Brandenburg / Saxony)", "start": 2022, "end": null, "relation": "P1192", "r_label": "dịch vụ nối liền"}
+{"s_qid": "Q800539", "s_label": "Blankenfelde railway station", "o_qid": "Q50374543", "o_label": "RE 5", "start": null, "end": 2022, "relation": "P1192", "r_label": "dịch vụ nối liền"}
+{"s_qid": "Q800539", "s_label": "Blankenfelde railway station", "o_qid": "Q95186801", "o_label": "RE 7 (Berlin/Brandenburg)", "start": null, "end": 2022, "relation": "P1192", "r_label": "dịch vụ nối liền"}
+{"s_qid": "Q800539", "s_label": "Blankenfelde railway station", "o_qid": "Q15195695", "o_label": "RB 10 (Berlin/Brandenburg)", "start": 2025, "end": null, "relation": "P1192", "r_label": "dịch vụ nối liền"}
+{"s_qid": "Q800711", "s_label": "Eilenburg railway station", "o_qid": "Q115920198", "o_label": "RE 10 (Brandenburg / Saxony)", "start": 2022, "end": null, "relation": "P1192", "r_label": "dịch vụ nối liền"}
+{"s_qid": "Q800711", "s_label": "Eilenburg railway station", "o_qid": "Q115927564", "o_label": "RE 11 (Brandenburg / Saxony)", "start": 2022, "end": null, "relation": "P1192", "r_label": "dịch vụ nối liền"}
+{"s_qid": "Q800855", "s_label": "Guben railway station", "o_qid": "Q63412909", "o_label": "RB 11 (Berlin/Brandenburg)", "start": null, "end": 2022, "relation": "P1192", "r_label": "dịch vụ nối liền"}
+{"s_qid": "Q800855", "s_label": "Guben railway station", "o_qid": "Q84429153", "o_label": "RB 43 (Brandenburg)", "start": 2022, "end": null, "relation": "P1192", "r_label": "dịch vụ nối liền"}
+{"s_qid": "Q800855", "s_label": "Guben railway station", "o_qid": "Q115920198", "o_label": "RE 10 (Brandenburg / Saxony)", "start": 2022, "end": null, "relation": "P1192", "r_label": "dịch vụ nối liền"}
+{"s_qid": "Q801141", "s_label": "Lübben (Spreewald) railway station", "o_qid": "Q67993390", "o_label": "RB 24 (Berlin/Brandenburg)", "start": null, "end": 2022, "relation": "P1192", "r_label": "dịch vụ nối liền"}
+{"s_qid": "Q801141", "s_label": "Lübben (Spreewald) railway station", "o_qid": "Q95186801", "o_label": "RE 7 (Berlin/Brandenburg)", "start": 2022, "end": null, "relation": "P1192", "r_label": "dịch vụ nối liền"}
+{"s_qid": "Q1137082", "s_label": "Tendō Station", "o_qid": "Q252048", "o_label": "Yamagata Shinkansen", "start": 1999, "end": null, "relation": "P1192", "r_label": "dịch vụ nối liền"}
+{"s_qid": "Q1188523", "s_label": "Shinjō Station", "o_qid": "Q252048", "o_label": "Yamagata Shinkansen", "start": 1999, "end": null, "relation": "P1192", "r_label": "dịch vụ nối liền"}
+{"s_qid": "Q5663515", "s_label": "Harpers Ferry station", "o_qid": "Q7494151", "o_label": "Shenandoah", "start": null, "end": 1981, "relation": "P1192", "r_label": "dịch vụ nối liền"}
+{"s_qid": "Q5695790", "s_label": "Hebita Station", "o_qid": "Q17230945", "o_label": "Senseki-Tōhoku Line", "start": 2015, "end": null, "relation": "P1192", "r_label": "dịch vụ nối liền"}
+{"s_qid": "Q7045673", "s_label": "Nobiru Station", "o_qid": "Q17230945", "o_label": "Senseki-Tōhoku Line", "start": 2015, "end": null, "relation": "P1192", "r_label": "dịch vụ nối liền"}
+{"s_qid": "Q7101490", "s_label": "Hood River Depot", "o_qid": "Q7196631", "o_label": "Pioneer", "start": null, "end": 1997, "relation": "P1192", "r_label": "dịch vụ nối liền"}
+{"s_qid": "Q7113566", "s_label": "Overbrook", "o_qid": "Q606691", "o_label": "Keystone Service", "start": null, "end": 1987, "relation": "P1192", "r_label": "dịch vụ nối liền"}
+{"s_qid": "Q7334146", "s_label": "Rikuzen-Yamashita Station", "o_qid": "Q17230945", "o_label": "Senseki-Tōhoku Line", "start": 2015, "end": null, "relation": "P1192", "r_label": "dịch vụ nối liền"}
+{"s_qid": "Q8027670", "s_label": "Wismar railway station", "o_qid": "Q15119419", "o_label": "RE 2 (Berlin/Brandenburg)", "start": null, "end": 2022, "relation": "P1192", "r_label": "dịch vụ nối liền"}
+{"s_qid": "Q8027670", "s_label": "Wismar railway station", "o_qid": "Q112992594", "o_label": "RE 8 (Berlin/Brandenburg)", "start": 2022, "end": null, "relation": "P1192", "r_label": "dịch vụ nối liền"}
+{"s_qid": "Q16981436", "s_label": "LIUNA Station", "o_qid": "Q592407", "o_label": "Maple Leaf", "start": null, "end": 1993, "relation": "P1192", "r_label": "dịch vụ nối liền"}
+{"s_qid": "Q18990335", "s_label": "Ishinomakiayumino Station", "o_qid": "Q17230945", "o_label": "Senseki-Tōhoku Line", "start": 2015, "end": null, "relation": "P1192", "r_label": "dịch vụ nối liền"}
+{"s_qid": "Q19428235", "s_label": "Paulinenaue railway station", "o_qid": "Q15119419", "o_label": "RE 2 (Berlin/Brandenburg)", "start": null, "end": 2022, "relation": "P1192", "r_label": "dịch vụ nối liền"}
+{"s_qid": "Q19428235", "s_label": "Paulinenaue railway station", "o_qid": "Q112992594", "o_label": "RE 8 (Berlin/Brandenburg)", "start": 2022, "end": null, "relation": "P1192", "r_label": "dịch vụ nối liền"}
+{"s_qid": "Q49445522", "s_label": "Taucha (b Leipzig) railway station", "o_qid": "Q115920198", "o_label": "RE 10 (Brandenburg / Saxony)", "start": 2022, "end": null, "relation": "P1192", "r_label": "dịch vụ nối liền"}
+{"s_qid": "Q49445522", "s_label": "Taucha (b Leipzig) railway station", "o_qid": "Q115927564", "o_label": "RE 11 (Brandenburg / Saxony)", "start": 2022, "end": null, "relation": "P1192", "r_label": "dịch vụ nối liền"}
+{"s_qid": "Q50388079", "s_label": "Schwerin Mitte railway station", "o_qid": "Q15119419", "o_label": "RE 2 (Berlin/Brandenburg)", "start": null, "end": 2022, "relation": "P1192", "r_label": "dịch vụ nối liền"}
+{"s_qid": "Q50388079", "s_label": "Schwerin Mitte railway station", "o_qid": "Q112992594", "o_label": "RE 8 (Berlin/Brandenburg)", "start": 2022, "end": null, "relation": "P1192", "r_label": "dịch vụ nối liền"}
+{"s_qid": "Q50401047", "s_label": "Rastow railway station", "o_qid": "Q15119419", "o_label": "RE 2 (Berlin/Brandenburg)", "start": null, "end": 2022, "relation": "P1192", "r_label": "dịch vụ nối liền"}
+{"s_qid": "Q50401047", "s_label": "Rastow railway station", "o_qid": "Q112992594", "o_label": "RE 8 (Berlin/Brandenburg)", "start": 2022, "end": null, "relation": "P1192", "r_label": "dịch vụ nối liền"}
+{"s_qid": "Q63254482", "s_label": "Brand Tropical Islands station", "o_qid": "Q67993390", "o_label": "RB 24 (Berlin/Brandenburg)", "start": null, "end": 2022, "relation": "P1192", "r_label": "dịch vụ nối liền"}
+{"s_qid": "Q63254482", "s_label": "Brand Tropical Islands station", "o_qid": "Q95186801", "o_label": "RE 7 (Berlin/Brandenburg)", "start": 2022, "end": null, "relation": "P1192", "r_label": "dịch vụ nối liền"}
+{"s_qid": "Q66361706", "s_label": "Dorf Mecklenburg station", "o_qid": "Q15119419", "o_label": "RE 2 (Berlin/Brandenburg)", "start": null, "end": 2022, "relation": "P1192", "r_label": "dịch vụ nối liền"}
+{"s_qid": "Q66361706", "s_label": "Dorf Mecklenburg station", "o_qid": "Q112992594", "o_label": "RE 8 (Berlin/Brandenburg)", "start": 2022, "end": null, "relation": "P1192", "r_label": "dịch vụ nối liền"}
+{"s_qid": "Q70228676", "s_label": "Bahnhof Kerkwitz", "o_qid": "Q63412909", "o_label": "RB 11 (Berlin/Brandenburg)", "start": null, "end": 2022, "relation": "P1192", "r_label": "dịch vụ nối liền"}
+{"s_qid": "Q70228676", "s_label": "Bahnhof Kerkwitz", "o_qid": "Q84429153", "o_label": "RB 43 (Brandenburg)", "start": 2022, "end": null, "relation": "P1192", "r_label": "dịch vụ nối liền"}
+{"s_qid": "Q70228676", "s_label": "Bahnhof Kerkwitz", "o_qid": "Q115920198", "o_label": "RE 10 (Brandenburg / Saxony)", "start": 2022, "end": null, "relation": "P1192", "r_label": "dịch vụ nối liền"}
+{"s_qid": "Q90840998", "s_label": "Pirnaischer Platz", "o_qid": "Q91660551", "o_label": "tram line 4", "start": null, "end": 2025, "relation": "P1192", "r_label": "dịch vụ nối liền"}
+{"s_qid": "Q90840998", "s_label": "Pirnaischer Platz", "o_qid": "Q93767104", "o_label": "tram line 9 (Dresden)", "start": 2025, "end": null, "relation": "P1192", "r_label": "dịch vụ nối liền"}
+{"s_qid": "Q91340789", "s_label": "Lennéplatz", "o_qid": "Q93767104", "o_label": "tram line 9 (Dresden)", "start": null, "end": 2025, "relation": "P1192", "r_label": "dịch vụ nối liền"}
+{"s_qid": "Q91340789", "s_label": "Lennéplatz", "o_qid": "Q91660551", "o_label": "tram line 4", "start": 2025, "end": null, "relation": "P1192", "r_label": "dịch vụ nối liền"}
+{"s_qid": "Q91340789", "s_label": "Lennéplatz", "o_qid": "Q64022460", "o_label": "Tram line 8", "start": 2024, "end": null, "relation": "P1192", "r_label": "dịch vụ nối liền"}
+{"s_qid": "Q91661258", "s_label": "Altmarkt", "o_qid": "Q91660551", "o_label": "tram line 4", "start": null, "end": 2025, "relation": "P1192", "r_label": "dịch vụ nối liền"}
+{"s_qid": "Q91661258", "s_label": "Altmarkt", "o_qid": "Q93767104", "o_label": "tram line 9 (Dresden)", "start": 2025, "end": null, "relation": "P1192", "r_label": "dịch vụ nối liền"}
+{"s_qid": "Q93630655", "s_label": "Mosenstraße", "o_qid": "Q91660551", "o_label": "tram line 4", "start": null, "end": 2025, "relation": "P1192", "r_label": "dịch vụ nối liền"}
+{"s_qid": "Q93630655", "s_label": "Mosenstraße", "o_qid": "Q93767104", "o_label": "tram line 9 (Dresden)", "start": 2025, "end": null, "relation": "P1192", "r_label": "dịch vụ nối liền"}
+{"s_qid": "Q111241067", "s_label": "Berlin Hauptbahnhof (Stadtbahn)", "o_qid": "Q95186801", "o_label": "RE 7 (Berlin/Brandenburg)", "start": 2022, "end": null, "relation": "P1192", "r_label": "dịch vụ nối liền"}
+{"s_qid": "Q111281514", "s_label": "Milford station", "o_qid": "Q5264059", "o_label": "Desert Wind", "start": 1983, "end": 1997, "relation": "P1192", "r_label": "dịch vụ nối liền"}
+{"s_qid": "Q112664473", "s_label": "Ellensburg", "o_qid": "Q197764", "o_label": "Empire Builder", "start": null, "end": 1981, "relation": "P1192", "r_label": "dịch vụ nối liền"}
+{"s_qid": "Q112664473", "s_label": "Ellensburg", "o_qid": "Q7054859", "o_label": "North Coast Hiawatha", "start": null, "end": 1973, "relation": "P1192", "r_label": "dịch vụ nối liền"}
+{"s_qid": "Q112669612", "s_label": "Auburn Northern Pacific Depot", "o_qid": "Q197764", "o_label": "Empire Builder", "start": null, "end": 1978, "relation": "P1192", "r_label": "dịch vụ nối liền"}
+{"s_qid": "Q112669612", "s_label": "Auburn Northern Pacific Depot", "o_qid": "Q7054859", "o_label": "North Coast Hiawatha", "start": null, "end": 1973, "relation": "P1192", "r_label": "dịch vụ nối liền"}
+{"s_qid": "Q3570", "s_label": "Washington Union Station", "o_qid": "Q7494151", "o_label": "Shenandoah", "start": null, "end": 1981, "relation": "P1192", "r_label": "dịch vụ nối liền"}
+{"s_qid": "Q3570", "s_label": "Washington Union Station", "o_qid": "Q5092823", "o_label": "Chesapeake", "start": null, "end": 1983, "relation": "P1192", "r_label": "dịch vụ nối liền"}
+{"s_qid": "Q11290", "s_label": "Grand Central Terminal", "o_qid": "Q989490", "o_label": "Empire Service", "start": null, "end": 1991, "relation": "P1192", "r_label": "dịch vụ nối liền"}
+{"s_qid": "Q11290", "s_label": "Grand Central Terminal", "o_qid": "Q504115", "o_label": "Adirondack", "start": null, "end": 1991, "relation": "P1192", "r_label": "dịch vụ nối liền"}
+{"s_qid": "Q11290", "s_label": "Grand Central Terminal", "o_qid": "Q592407", "o_label": "Maple Leaf", "start": null, "end": 1991, "relation": "P1192", "r_label": "dịch vụ nối liền"}
+{"s_qid": "Q324997", "s_label": "Cottbus central station", "o_qid": "Q63412909", "o_label": "RB 11 (Berlin/Brandenburg)", "start": null, "end": 2022, "relation": "P1192", "r_label": "dịch vụ nối liền"}
+{"s_qid": "Q324997", "s_label": "Cottbus central station", "o_qid": "Q115920198", "o_label": "RE 10 (Brandenburg / Saxony)", "start": 2022, "end": null, "relation": "P1192", "r_label": "dịch vụ nối liền"}
+{"s_qid": "Q703916", "s_label": "Leipzig Central Station", "o_qid": "Q115920198", "o_label": "RE 10 (Brandenburg / Saxony)", "start": 2022, "end": null, "relation": "P1192", "r_label": "dịch vụ nối liền"}
+{"s_qid": "Q703916", "s_label": "Leipzig Central Station", "o_qid": "Q115927564", "o_label": "RE 11 (Brandenburg / Saxony)", "start": 2022, "end": null, "relation": "P1192", "r_label": "dịch vụ nối liền"}
+{"s_qid": "Q703916", "s_label": "Leipzig Central Station", "o_qid": "Q134609986", "o_label": "S10 (Central Germany)", "start": null, "end": 2025, "relation": "P1192", "r_label": "dịch vụ nối liền"}
+{"s_qid": "Q800799", "s_label": "Fukushima Station", "o_qid": "Q252048", "o_label": "Yamagata Shinkansen", "start": 1992, "end": null, "relation": "P1192", "r_label": "dịch vụ nối liền"}
+{"s_qid": "Q801345", "s_label": "Rangsdorf railway station", "o_qid": "Q50374543", "o_label": "RE 5", "start": null, "end": 2022, "relation": "P1192", "r_label": "dịch vụ nối liền"}
+{"s_qid": "Q801345", "s_label": "Rangsdorf railway station", "o_qid": "Q95186801", "o_label": "RE 7 (Berlin/Brandenburg)", "start": null, "end": 2022, "relation": "P1192", "r_label": "dịch vụ nối liền"}
+{"s_qid": "Q801345", "s_label": "Rangsdorf railway station", "o_qid": "Q15195695", "o_label": "RB 10 (Berlin/Brandenburg)", "start": 2025, "end": null, "relation": "P1192", "r_label": "dịch vụ nối liền"}
+{"s_qid": "Q1053166", "s_label": "Murayama Station", "o_qid": "Q252048", "o_label": "Yamagata Shinkansen", "start": 1999, "end": null, "relation": "P1192", "r_label": "dịch vụ nối liền"}
+{"s_qid": "Q1135793", "s_label": "Yamagata Station", "o_qid": "Q252048", "o_label": "Yamagata Shinkansen", "start": 1992, "end": null, "relation": "P1192", "r_label": "dịch vụ nối liền"}
+{"s_qid": "Q1137108", "s_label": "Ōishida Station", "o_qid": "Q252048", "o_label": "Yamagata Shinkansen", "start": 1999, "end": null, "relation": "P1192", "r_label": "dịch vụ nối liền"}
+{"s_qid": "Q1148666", "s_label": "Montreal Central Station", "o_qid": "Q3239101", "o_label": "exo6", "start": null, "end": 2020, "relation": "P1192", "r_label": "dịch vụ nối liền"}
+{"s_qid": "Q1148666", "s_label": "Montreal Central Station", "o_qid": "Q3239152", "o_label": "Mascouche line", "start": null, "end": 2026, "relation": "P1192", "r_label": "dịch vụ nối liền"}
+{"s_qid": "Q3095512", "s_label": "Du Ruisseau", "o_qid": "Q3239101", "o_label": "exo6", "start": null, "end": 2020, "relation": "P1192", "r_label": "dịch vụ nối liền"}
+{"s_qid": "Q3095512", "s_label": "Du Ruisseau", "o_qid": "Q121010882", "o_label": "A1 - Brossard", "start": 2025, "end": null, "relation": "P1192", "r_label": "dịch vụ nối liền"}
+{"s_qid": "Q3095512", "s_label": "Du Ruisseau", "o_qid": "Q136417114", "o_label": "A4 - Deux-Montagnes", "start": 2025, "end": null, "relation": "P1192", "r_label": "dịch vụ nối liền"}
+{"s_qid": "Q4380631", "s_label": "Rockville station", "o_qid": "Q7494151", "o_label": "Shenandoah", "start": null, "end": 1981, "relation": "P1192", "r_label": "dịch vụ nối liền"}
+{"s_qid": "Q4865924", "s_label": "Baruth (Mark) railway station", "o_qid": "Q50374543", "o_label": "RE 5", "start": null, "end": 2022, "relation": "P1192", "r_label": "dịch vụ nối liền"}
+{"s_qid": "Q5259810", "s_label": "Rio Grande Depot", "o_qid": "Q5264059", "o_label": "Desert Wind", "start": null, "end": 1997, "relation": "P1192", "r_label": "dịch vụ nối liền"}
+{"s_qid": "Q5645882", "s_label": "Hammond–Whiting station", "o_qid": "Q7797720", "o_label": "Three Rivers", "start": null, "end": 2005, "relation": "P1192", "r_label": "dịch vụ nối liền"}
+{"s_qid": "Q6270003", "s_label": "Joliet Union Station", "o_qid": "Q770386", "o_label": "Southwest Chief", "start": null, "end": 2014, "relation": "P1192", "r_label": "dịch vụ nối liền"}
+{"s_qid": "Q7079923", "s_label": "Ogden Central Station", "o_qid": "Q5505779", "o_label": "FrontRunner", "start": 2008, "end": null, "relation": "P1192", "r_label": "dịch vụ nối liền"}
+{"s_qid": "Q7204105", "s_label": "Pleasant View", "o_qid": "Q5505779", "o_label": "FrontRunner", "start": null, "end": 2018, "relation": "P1192", "r_label": "dịch vụ nối liền"}
+{"s_qid": "Q7334129", "s_label": "Rikuzen-Inai Station", "o_qid": "Q17230945", "o_label": "Senseki-Tōhoku Line", "start": 2016, "end": null, "relation": "P1192", "r_label": "dịch vụ nối liền"}
+{"s_qid": "Q7334135", "s_label": "Rikuzen-Ono Station", "o_qid": "Q17230945", "o_label": "Senseki-Tōhoku Line", "start": 2015, "end": null, "relation": "P1192", "r_label": "dịch vụ nối liền"}
+{"s_qid": "Q8048091", "s_label": "Yamoto Station", "o_qid": "Q17230945", "o_label": "Senseki-Tōhoku Line", "start": 2015, "end": null, "relation": "P1192", "r_label": "dịch vụ nối liền"}
+{"s_qid": "Q11586500", "s_label": "Ishinomaki Station", "o_qid": "Q17230945", "o_label": "Senseki-Tōhoku Line", "start": 2015, "end": null, "relation": "P1192", "r_label": "dịch vụ nối liền"}
+{"s_qid": "Q11586500", "s_label": "Ishinomaki Station", "o_qid": "Q17230945", "o_label": "Senseki-Tōhoku Line", "start": 2016, "end": null, "relation": "P1192", "r_label": "dịch vụ nối liền"}
+{"s_qid": "Q15214284", "s_label": "Doberlug-Kirchhain railway station", "o_qid": "Q50374543", "o_label": "RE 5", "start": null, "end": 2022, "relation": "P1192", "r_label": "dịch vụ nối liền"}
+{"s_qid": "Q15214284", "s_label": "Doberlug-Kirchhain railway station", "o_qid": "Q105550961", "o_label": "IC line 17", "start": 2019, "end": null, "relation": "P1192", "r_label": "dịch vụ nối liền"}
+{"s_qid": "Q15214284", "s_label": "Doberlug-Kirchhain railway station", "o_qid": "Q84429153", "o_label": "RB 43 (Brandenburg)", "start": 2022, "end": null, "relation": "P1192", "r_label": "dịch vụ nối liền"}
+{"s_qid": "Q15214284", "s_label": "Doberlug-Kirchhain railway station", "o_qid": "Q115920198", "o_label": "RE 10 (Brandenburg / Saxony)", "start": 2022, "end": null, "relation": "P1192", "r_label": "dịch vụ nối liền"}
+{"s_qid": "Q19760049", "s_label": "Hartmannshof", "o_qid": "Q7388209", "o_label": "S1 (Nuremberg)", "start": null, "end": 2023, "relation": "P1192", "r_label": "dịch vụ nối liền"}
+{"s_qid": "Q19760049", "s_label": "Hartmannshof", "o_qid": "Q7388248", "o_label": "S2 (Nuremberg)", "start": 2023, "end": null, "relation": "P1192", "r_label": "dịch vụ nối liền"}
+{"s_qid": "Q53802343", "s_label": "Cottbus-Sandow railway stop", "o_qid": "Q84429153", "o_label": "RB 43 (Brandenburg)", "start": 2022, "end": null, "relation": "P1192", "r_label": "dịch vụ nối liền"}
+{"s_qid": "Q53802343", "s_label": "Cottbus-Sandow railway stop", "o_qid": "Q115920198", "o_label": "RE 10 (Brandenburg / Saxony)", "start": 2022, "end": null, "relation": "P1192", "r_label": "dịch vụ nối liền"}
+{"s_qid": "Q92039354", "s_label": "Friesack (Mark) railway station", "o_qid": "Q15119419", "o_label": "RE 2 (Berlin/Brandenburg)", "start": null, "end": 2022, "relation": "P1192", "r_label": "dịch vụ nối liền"}
+{"s_qid": "Q92039354", "s_label": "Friesack (Mark) railway station", "o_qid": "Q112992594", "o_label": "RE 8 (Berlin/Brandenburg)", "start": 2022, "end": null, "relation": "P1192", "r_label": "dịch vụ nối liền"}
+{"s_qid": "Q93630907", "s_label": "Spenerstraße", "o_qid": "Q91660551", "o_label": "tram line 4", "start": null, "end": 2025, "relation": "P1192", "r_label": "dịch vụ nối liền"}
+{"s_qid": "Q93630907", "s_label": "Spenerstraße", "o_qid": "Q93767104", "o_label": "tram line 9 (Dresden)", "start": 2025, "end": null, "relation": "P1192", "r_label": "dịch vụ nối liền"}
+{"s_qid": "Q98146356", "s_label": "Groß Köris railway stop", "o_qid": "Q67993390", "o_label": "RB 24 (Berlin/Brandenburg)", "start": null, "end": 2022, "relation": "P1192", "r_label": "dịch vụ nối liền"}
+{"s_qid": "Q98146356", "s_label": "Groß Köris railway stop", "o_qid": "Q95186801", "o_label": "RE 7 (Berlin/Brandenburg)", "start": 2022, "end": null, "relation": "P1192", "r_label": "dịch vụ nối liền"}
+{"s_qid": "Q106980586", "s_label": "Röthenbach-Steinberg", "o_qid": "Q7388209", "o_label": "S1 (Nuremberg)", "start": null, "end": 2023, "relation": "P1192", "r_label": "dịch vụ nối liền"}
+{"s_qid": "Q106980586", "s_label": "Röthenbach-Steinberg", "o_qid": "Q7388248", "o_label": "S2 (Nuremberg)", "start": 2023, "end": null, "relation": "P1192", "r_label": "dịch vụ nối liền"}
+{"s_qid": "Q115925941", "s_label": "Bahnsdorf railway stop", "o_qid": "Q84436359", "o_label": "RB 49 (Brandenburg)", "start": 2022, "end": null, "relation": "P1192", "r_label": "dịch vụ nối liền"}
+{"s_qid": "Q660045", "s_label": "Ostkreuz railway station", "o_qid": "Q100533383", "o_label": "Flughafen-Express", "start": null, "end": 2025, "relation": "P1192", "r_label": "dịch vụ nối liền"}
+{"s_qid": "Q660045", "s_label": "Ostkreuz railway station", "o_qid": "Q112992594", "o_label": "RE 8 (Berlin/Brandenburg)", "start": null, "end": 2025, "relation": "P1192", "r_label": "dịch vụ nối liền"}
+{"s_qid": "Q801381", "s_label": "Ruhland railway station", "o_qid": "Q84436359", "o_label": "RB 49 (Brandenburg)", "start": 2022, "end": null, "relation": "P1192", "r_label": "dịch vụ nối liền"}
+{"s_qid": "Q801381", "s_label": "Ruhland railway station", "o_qid": "Q115927564", "o_label": "RE 11 (Brandenburg / Saxony)", "start": 2022, "end": null, "relation": "P1192", "r_label": "dịch vụ nối liền"}
+{"s_qid": "Q801404", "s_label": "Ga Sapporo", "o_qid": "Q1074266", "o_label": "Chitose Line", "start": 1940, "end": null, "relation": "P1192", "r_label": "dịch vụ nối liền"}
+{"s_qid": "Q801404", "s_label": "Ga Sapporo", "o_qid": "Q1074233", "o_label": "Sasshō Line", "start": 1934, "end": null, "relation": "P1192", "r_label": "dịch vụ nối liền"}
+{"s_qid": "Q1137123", "s_label": "Takahata Station", "o_qid": "Q252048", "o_label": "Yamagata Shinkansen", "start": 1992, "end": null, "relation": "P1192", "r_label": "dịch vụ nối liền"}
+{"s_qid": "Q1316396", "s_label": "Akita Station", "o_qid": "Q220696", "o_label": "Akita Shinkansen", "start": 1997, "end": null, "relation": "P1192", "r_label": "dịch vụ nối liền"}
+{"s_qid": "Q1587655", "s_label": "Midway", "o_qid": "Q197764", "o_label": "Empire Builder", "start": null, "end": 2014, "relation": "P1192", "r_label": "dịch vụ nối liền"}
+{"s_qid": "Q2420839", "s_label": "Cuatro Caminos", "o_qid": "Q1826675", "o_label": "Madrid Metro Line 1", "start": 1919, "end": null, "relation": "P1192", "r_label": "dịch vụ nối liền"}
+{"s_qid": "Q2420839", "s_label": "Cuatro Caminos", "o_qid": "Q514227", "o_label": "Madrid Metro Line 6", "start": 1979, "end": null, "relation": "P1192", "r_label": "dịch vụ nối liền"}
+{"s_qid": "Q3095522", "s_label": "Ville-de-Mont-Royal", "o_qid": "Q121010882", "o_label": "A1 - Brossard", "start": 2025, "end": null, "relation": "P1192", "r_label": "dịch vụ nối liền"}
+{"s_qid": "Q3095522", "s_label": "Ville-de-Mont-Royal", "o_qid": "Q136417114", "o_label": "A4 - Deux-Montagnes", "start": 2025, "end": null, "relation": "P1192", "r_label": "dịch vụ nối liền"}
+{"s_qid": "Q3095522", "s_label": "Ville-de-Mont-Royal", "o_qid": "Q3239101", "o_label": "exo6", "start": null, "end": 2020, "relation": "P1192", "r_label": "dịch vụ nối liền"}
+{"s_qid": "Q3095522", "s_label": "Ville-de-Mont-Royal", "o_qid": "Q3239152", "o_label": "Mascouche line", "start": 2014, "end": 2020, "relation": "P1192", "r_label": "dịch vụ nối liền"}
+{"s_qid": "Q3095527", "s_label": "Montréal-Ouest station", "o_qid": "Q504115", "o_label": "Adirondack", "start": null, "end": 1983, "relation": "P1192", "r_label": "dịch vụ nối liền"}
+{"s_qid": "Q3095538", "s_label": "Pierrefonds-Roxboro", "o_qid": "Q3239101", "o_label": "exo6", "start": null, "end": 2020, "relation": "P1192", "r_label": "dịch vụ nối liền"}
+{"s_qid": "Q3095538", "s_label": "Pierrefonds-Roxboro", "o_qid": "Q121010882", "o_label": "A1 - Brossard", "start": 2025, "end": null, "relation": "P1192", "r_label": "dịch vụ nối liền"}
+{"s_qid": "Q3095538", "s_label": "Pierrefonds-Roxboro", "o_qid": "Q136417114", "o_label": "A4 - Deux-Montagnes", "start": 2025, "end": null, "relation": "P1192", "r_label": "dịch vụ nối liền"}
+{"s_qid": "Q3095554", "s_label": "Sainte-Dorothée", "o_qid": "Q3239101", "o_label": "exo6", "start": null, "end": 2020, "relation": "P1192", "r_label": "dịch vụ nối liền"}
+{"s_qid": "Q3095554", "s_label": "Sainte-Dorothée", "o_qid": "Q121010882", "o_label": "A1 - Brossard", "start": 2025, "end": null, "relation": "P1192", "r_label": "dịch vụ nối liền"}
+{"s_qid": "Q3095554", "s_label": "Sainte-Dorothée", "o_qid": "Q136417114", "o_label": "A4 - Deux-Montagnes", "start": 2025, "end": null, "relation": "P1192", "r_label": "dịch vụ nối liền"}
+{"s_qid": "Q3098274", "s_label": "Île-Bigras", "o_qid": "Q3239101", "o_label": "exo6", "start": null, "end": 2020, "relation": "P1192", "r_label": "dịch vụ nối liền"}
+{"s_qid": "Q3098274", "s_label": "Île-Bigras", "o_qid": "Q121010882", "o_label": "A1 - Brossard", "start": 2025, "end": null, "relation": "P1192", "r_label": "dịch vụ nối liền"}
+{"s_qid": "Q3098274", "s_label": "Île-Bigras", "o_qid": "Q136417114", "o_label": "A4 - Deux-Montagnes", "start": 2025, "end": null, "relation": "P1192", "r_label": "dịch vụ nối liền"}
+{"s_qid": "Q6348480", "s_label": "Halbe railway station", "o_qid": "Q67993390", "o_label": "RB 24 (Berlin/Brandenburg)", "start": null, "end": 2022, "relation": "P1192", "r_label": "dịch vụ nối liền"}
+{"s_qid": "Q6348480", "s_label": "Halbe railway station", "o_qid": "Q95186801", "o_label": "RE 7 (Berlin/Brandenburg)", "start": 2022, "end": null, "relation": "P1192", "r_label": "dịch vụ nối liền"}
+{"s_qid": "Q7091663", "s_label": "Ga Onagawa", "o_qid": "Q17230945", "o_label": "Senseki-Tōhoku Line", "start": 2016, "end": null, "relation": "P1192", "r_label": "dịch vụ nối liền"}
+{"s_qid": "Q7428529", "s_label": "Sawada Station", "o_qid": "Q17230945", "o_label": "Senseki-Tōhoku Line", "start": 2016, "end": null, "relation": "P1192", "r_label": "dịch vụ nối liền"}
+{"s_qid": "Q13522157", "s_label": "Karstädt station", "o_qid": "Q15119419", "o_label": "RE 2 (Berlin/Brandenburg)", "start": null, "end": 2022, "relation": "P1192", "r_label": "dịch vụ nối liền"}
+{"s_qid": "Q13522157", "s_label": "Karstädt station", "o_qid": "Q112992594", "o_label": "RE 8 (Berlin/Brandenburg)", "start": 2022, "end": null, "relation": "P1192", "r_label": "dịch vụ nối liền"}
+{"s_qid": "Q15529464", "s_label": "Falkenberg (Elster) railway station", "o_qid": "Q115920198", "o_label": "RE 10 (Brandenburg / Saxony)", "start": 2022, "end": null, "relation": "P1192", "r_label": "dịch vụ nối liền"}
+{"s_qid": "Q15529464", "s_label": "Falkenberg (Elster) railway station", "o_qid": "Q115927564", "o_label": "RE 11 (Brandenburg / Saxony)", "start": 2022, "end": null, "relation": "P1192", "r_label": "dịch vụ nối liền"}
+{"s_qid": "Q50401046", "s_label": "Sülstorf railway station", "o_qid": "Q15119419", "o_label": "RE 2 (Berlin/Brandenburg)", "start": null, "end": 2022, "relation": "P1192", "r_label": "dịch vụ nối liền"}
+{"s_qid": "Q50401046", "s_label": "Sülstorf railway station", "o_qid": "Q112992594", "o_label": "RE 8 (Berlin/Brandenburg)", "start": 2022, "end": null, "relation": "P1192", "r_label": "dịch vụ nối liền"}
+{"s_qid": "Q51644216", "s_label": "Bad Liebenwerda station", "o_qid": "Q84436359", "o_label": "RB 49 (Brandenburg)", "start": 2022, "end": null, "relation": "P1192", "r_label": "dịch vụ nối liền"}
+{"s_qid": "Q51644216", "s_label": "Bad Liebenwerda station", "o_qid": "Q115927564", "o_label": "RE 11 (Brandenburg / Saxony)", "start": 2022, "end": null, "relation": "P1192", "r_label": "dịch vụ nối liền"}
+{"s_qid": "Q55610617", "s_label": "Eisenhüttenstadt railway station", "o_qid": "Q63412909", "o_label": "RB 11 (Berlin/Brandenburg)", "start": null, "end": 2022, "relation": "P1192", "r_label": "dịch vụ nối liền"}
+{"s_qid": "Q55610617", "s_label": "Eisenhüttenstadt railway station", "o_qid": "Q84429153", "o_label": "RB 43 (Brandenburg)", "start": 2022, "end": null, "relation": "P1192", "r_label": "dịch vụ nối liền"}
+{"s_qid": "Q55610617", "s_label": "Eisenhüttenstadt railway station", "o_qid": "Q115920198", "o_label": "RE 10 (Brandenburg / Saxony)", "start": 2022, "end": null, "relation": "P1192", "r_label": "dịch vụ nối liền"}
+{"s_qid": "Q55638218", "s_label": "Zeesen railway stop", "o_qid": "Q67993390", "o_label": "RB 24 (Berlin/Brandenburg)", "start": null, "end": 2022, "relation": "P1192", "r_label": "dịch vụ nối liền"}
+{"s_qid": "Q55638218", "s_label": "Zeesen railway stop", "o_qid": "Q95186801", "o_label": "RE 7 (Berlin/Brandenburg)", "start": 2022, "end": null, "relation": "P1192", "r_label": "dịch vụ nối liền"}
+{"s_qid": "Q62024543", "s_label": "Ludersheim", "o_qid": "Q7388248", "o_label": "S2 (Nuremberg)", "start": null, "end": 2023, "relation": "P1192", "r_label": "dịch vụ nối liền"}
+{"s_qid": "Q62024543", "s_label": "Ludersheim", "o_qid": "Q7388284", "o_label": "S3 (Nuremberg)", "start": 2023, "end": null, "relation": "P1192", "r_label": "dịch vụ nối liền"}
+{"s_qid": "Q62589694", "s_label": "Bestensee railway station", "o_qid": "Q67993390", "o_label": "RB 24 (Berlin/Brandenburg)", "start": null, "end": 2022, "relation": "P1192", "r_label": "dịch vụ nối liền"}
+{"s_qid": "Q62589694", "s_label": "Bestensee railway station", "o_qid": "Q95186801", "o_label": "RE 7 (Berlin/Brandenburg)", "start": 2022, "end": null, "relation": "P1192", "r_label": "dịch vụ nối liền"}
+{"s_qid": "Q85799988", "s_label": "Schönwalde (Spreewald) railway stop", "o_qid": "Q67993390", "o_label": "RB 24 (Berlin/Brandenburg)", "start": null, "end": 2022, "relation": "P1192", "r_label": "dịch vụ nối liền"}
+{"s_qid": "Q85799988", "s_label": "Schönwalde (Spreewald) railway stop", "o_qid": "Q95186801", "o_label": "RE 7 (Berlin/Brandenburg)", "start": 2022, "end": null, "relation": "P1192", "r_label": "dịch vụ nối liền"}
+{"s_qid": "Q93632998", "s_label": "Striesen, Ludwig-Hartmann-Straße", "o_qid": "Q91660551", "o_label": "tram line 4", "start": null, "end": 2025, "relation": "P1192", "r_label": "dịch vụ nối liền"}
+{"s_qid": "Q93632998", "s_label": "Striesen, Ludwig-Hartmann-Straße", "o_qid": "Q93767104", "o_label": "tram line 9 (Dresden)", "start": 2025, "end": null, "relation": "P1192", "r_label": "dịch vụ nối liền"}
+{"s_qid": "Q93634013", "s_label": "Alttolkewitz", "o_qid": "Q91660551", "o_label": "tram line 4", "start": null, "end": 2025, "relation": "P1192", "r_label": "dịch vụ nối liền"}
+{"s_qid": "Q93634013", "s_label": "Alttolkewitz", "o_qid": "Q93767104", "o_label": "tram line 9 (Dresden)", "start": 2025, "end": null, "relation": "P1192", "r_label": "dịch vụ nối liền"}
+{"s_qid": "Q97681209", "s_label": "Breddin station", "o_qid": "Q15119419", "o_label": "RE 2 (Berlin/Brandenburg)", "start": null, "end": 2022, "relation": "P1192", "r_label": "dịch vụ nối liền"}
+{"s_qid": "Q97681209", "s_label": "Breddin station", "o_qid": "Q112992594", "o_label": "RE 8 (Berlin/Brandenburg)", "start": 2022, "end": null, "relation": "P1192", "r_label": "dịch vụ nối liền"}
+{"s_qid": "Q98147609", "s_label": "Lubolz railway stop", "o_qid": "Q67993390", "o_label": "RB 24 (Berlin/Brandenburg)", "start": null, "end": 2022, "relation": "P1192", "r_label": "dịch vụ nối liền"}
+{"s_qid": "Q98147609", "s_label": "Lubolz railway stop", "o_qid": "Q95186801", "o_label": "RE 7 (Berlin/Brandenburg)", "start": 2022, "end": null, "relation": "P1192", "r_label": "dịch vụ nối liền"}
+{"s_qid": "Q108677407", "s_label": "Jänschwalde railway stop", "o_qid": "Q63412909", "o_label": "RB 11 (Berlin/Brandenburg)", "start": null, "end": 2022, "relation": "P1192", "r_label": "dịch vụ nối liền"}
+{"s_qid": "Q108677407", "s_label": "Jänschwalde railway stop", "o_qid": "Q84429153", "o_label": "RB 43 (Brandenburg)", "start": 2022, "end": null, "relation": "P1192", "r_label": "dịch vụ nối liền"}
+{"s_qid": "Q108677407", "s_label": "Jänschwalde railway stop", "o_qid": "Q115920198", "o_label": "RE 10 (Brandenburg / Saxony)", "start": 2022, "end": null, "relation": "P1192", "r_label": "dịch vụ nối liền"}
+{"s_qid": "Q108677691", "s_label": "Drebkau railway station", "o_qid": "Q84436359", "o_label": "RB 49 (Brandenburg)", "start": 2022, "end": null, "relation": "P1192", "r_label": "dịch vụ nối liền"}
+{"s_qid": "Q113115660", "s_label": "Kraftwerk Finkenheerd railway stop", "o_qid": "Q63412909", "o_label": "RB 11 (Berlin/Brandenburg)", "start": null, "end": 2022, "relation": "P1192", "r_label": "dịch vụ nối liền"}
+{"s_qid": "Q113115660", "s_label": "Kraftwerk Finkenheerd railway stop", "o_qid": "Q84429153", "o_label": "RB 43 (Brandenburg)", "start": 2022, "end": null, "relation": "P1192", "r_label": "dịch vụ nối liền"}
+{"s_qid": "Q113115660", "s_label": "Kraftwerk Finkenheerd railway stop", "o_qid": "Q115920198", "o_label": "RE 10 (Brandenburg / Saxony)", "start": 2022, "end": null, "relation": "P1192", "r_label": "dịch vụ nối liền"}
+{"s_qid": "Q113115766", "s_label": "Coschen railway stop", "o_qid": "Q63412909", "o_label": "RB 11 (Berlin/Brandenburg)", "start": null, "end": 2022, "relation": "P1192", "r_label": "dịch vụ nối liền"}
+{"s_qid": "Q113115766", "s_label": "Coschen railway stop", "o_qid": "Q84429153", "o_label": "RB 43 (Brandenburg)", "start": 2022, "end": null, "relation": "P1192", "r_label": "dịch vụ nối liền"}
+{"s_qid": "Q113115766", "s_label": "Coschen railway stop", "o_qid": "Q115920198", "o_label": "RE 10 (Brandenburg / Saxony)", "start": 2022, "end": null, "relation": "P1192", "r_label": "dịch vụ nối liền"}
+{"s_qid": "Q320778", "s_label": "Wittenberge railway station", "o_qid": "Q15119419", "o_label": "RE 2 (Berlin/Brandenburg)", "start": null, "end": 2022, "relation": "P1192", "r_label": "dịch vụ nối liền"}
+{"s_qid": "Q320778", "s_label": "Wittenberge railway station", "o_qid": "Q112992594", "o_label": "RE 8 (Berlin/Brandenburg)", "start": 2022, "end": null, "relation": "P1192", "r_label": "dịch vụ nối liền"}
+{"s_qid": "Q322541", "s_label": "Bahnhof Neumarkt", "o_qid": "Q7388284", "o_label": "S3 (Nuremberg)", "start": null, "end": 2023, "relation": "P1192", "r_label": "dịch vụ nối liền"}
+{"s_qid": "Q322541", "s_label": "Bahnhof Neumarkt", "o_qid": "Q7388209", "o_label": "S1 (Nuremberg)", "start": 2023, "end": null, "relation": "P1192", "r_label": "dịch vụ nối liền"}
+{"s_qid": "Q536131", "s_label": "King Street Station", "o_qid": "Q7054859", "o_label": "North Coast Hiawatha", "start": null, "end": 1979, "relation": "P1192", "r_label": "dịch vụ nối liền"}
+{"s_qid": "Q536131", "s_label": "King Street Station", "o_qid": "Q7196631", "o_label": "Pioneer", "start": null, "end": 1997, "relation": "P1192", "r_label": "dịch vụ nối liền"}
+{"s_qid": "Q661069", "s_label": "Schönefeld (bei Berlin) railway station", "o_qid": "Q2090939", "o_label": "S45", "start": null, "end": 2025, "relation": "P1192", "r_label": "dịch vụ nối liền"}
+{"s_qid": "Q661069", "s_label": "Schönefeld (bei Berlin) railway station", "o_qid": "Q105550961", "o_label": "IC line 17", "start": 2020, "end": 2020, "relation": "P1192", "r_label": "dịch vụ nối liền"}
+{"s_qid": "Q661069", "s_label": "Schönefeld (bei Berlin) railway station", "o_qid": "Q67993390", "o_label": "RB 24 (Berlin/Brandenburg)", "start": null, "end": 2025, "relation": "P1192", "r_label": "dịch vụ nối liền"}
+{"s_qid": "Q661069", "s_label": "Schönefeld (bei Berlin) railway station", "o_qid": "Q4048677", "o_label": "S85", "start": 2025, "end": null, "relation": "P1192", "r_label": "dịch vụ nối liền"}
+{"s_qid": "Q800831", "s_label": "Grabow (Meckl) railway station", "o_qid": "Q15119419", "o_label": "RE 2 (Berlin/Brandenburg)", "start": null, "end": 2022, "relation": "P1192", "r_label": "dịch vụ nối liền"}
+{"s_qid": "Q800831", "s_label": "Grabow (Meckl) railway station", "o_qid": "Q112992594", "o_label": "RE 8 (Berlin/Brandenburg)", "start": 2022, "end": null, "relation": "P1192", "r_label": "dịch vụ nối liền"}
+{"s_qid": "Q921800", "s_label": "Pinar de Chamartín", "o_qid": "Q1826675", "o_label": "Madrid Metro Line 1", "start": 2007, "end": null, "relation": "P1192", "r_label": "dịch vụ nối liền"}
+{"s_qid": "Q921800", "s_label": "Pinar de Chamartín", "o_qid": "Q1826677", "o_label": "Madrid Metro Line 4", "start": 2007, "end": null, "relation": "P1192", "r_label": "dịch vụ nối liền"}
+{"s_qid": "Q1055345", "s_label": "Naebo Station", "o_qid": "Q1074266", "o_label": "Chitose Line", "start": 1926, "end": null, "relation": "P1192", "r_label": "dịch vụ nối liền"}
+{"s_qid": "Q1137025", "s_label": "Kakunodate Station", "o_qid": "Q220696", "o_label": "Akita Shinkansen", "start": 1997, "end": null, "relation": "P1192", "r_label": "dịch vụ nối liền"}
+{"s_qid": "Q1137142", "s_label": "Kaminoyama-Onsen Station", "o_qid": "Q252048", "o_label": "Yamagata Shinkansen", "start": 1992, "end": null, "relation": "P1192", "r_label": "dịch vụ nối liền"}
+{"s_qid": "Q3095560", "s_label": "Sunnybrooke", "o_qid": "Q3239101", "o_label": "exo6", "start": null, "end": 2020, "relation": "P1192", "r_label": "dịch vụ nối liền"}
+{"s_qid": "Q3095560", "s_label": "Sunnybrooke", "o_qid": "Q121010882", "o_label": "A1 - Brossard", "start": 2025, "end": null, "relation": "P1192", "r_label": "dịch vụ nối liền"}
+{"s_qid": "Q3095560", "s_label": "Sunnybrooke", "o_qid": "Q136417114", "o_label": "A4 - Deux-Montagnes", "start": 2025, "end": null, "relation": "P1192", "r_label": "dịch vụ nối liền"}
+{"s_qid": "Q5612896", "s_label": "Grünbergallee station", "o_qid": "Q2090939", "o_label": "S45", "start": null, "end": 2025, "relation": "P1192", "r_label": "dịch vụ nối liền"}
+{"s_qid": "Q5612896", "s_label": "Grünbergallee station", "o_qid": "Q4048677", "o_label": "S85", "start": 2025, "end": null, "relation": "P1192", "r_label": "dịch vụ nối liền"}
+{"s_qid": "Q7886093", "s_label": "Union Station", "o_qid": "Q654593", "o_label": "Pennsylvanian", "start": 1980, "end": null, "relation": "P1192", "r_label": "dịch vụ nối liền"}
+{"s_qid": "Q7886093", "s_label": "Union Station", "o_qid": "Q756629", "o_label": "Capitol Limited", "start": 1981, "end": null, "relation": "P1192", "r_label": "dịch vụ nối liền"}
+{"s_qid": "Q7886093", "s_label": "Union Station", "o_qid": "Q7797720", "o_label": "Three Rivers", "start": 1995, "end": 2005, "relation": "P1192", "r_label": "dịch vụ nối liền"}
+{"s_qid": "Q7972997", "s_label": "Watanoha Station", "o_qid": "Q17230945", "o_label": "Senseki-Tōhoku Line", "start": 2016, "end": null, "relation": "P1192", "r_label": "dịch vụ nối liền"}
+{"s_qid": "Q15785168", "s_label": "Elsterwerda-Biehla station", "o_qid": "Q84436359", "o_label": "RB 49 (Brandenburg)", "start": 2022, "end": null, "relation": "P1192", "r_label": "dịch vụ nối liền"}
+{"s_qid": "Q15785168", "s_label": "Elsterwerda-Biehla station", "o_qid": "Q115927564", "o_label": "RE 11 (Brandenburg / Saxony)", "start": 2022, "end": null, "relation": "P1192", "r_label": "dịch vụ nối liền"}
+{"s_qid": "Q51507718", "s_label": "Finsterwalde (Niederlausitz) railway station", "o_qid": "Q50374543", "o_label": "RE 5", "start": null, "end": 2022, "relation": "P1192", "r_label": "dịch vụ nối liền"}
+{"s_qid": "Q51507718", "s_label": "Finsterwalde (Niederlausitz) railway station", "o_qid": "Q112992594", "o_label": "RE 8 (Berlin/Brandenburg)", "start": 2022, "end": null, "relation": "P1192", "r_label": "dịch vụ nối liền"}
+{"s_qid": "Q51507718", "s_label": "Finsterwalde (Niederlausitz) railway station", "o_qid": "Q84429153", "o_label": "RB 43 (Brandenburg)", "start": 2022, "end": null, "relation": "P1192", "r_label": "dịch vụ nối liền"}
+{"s_qid": "Q51507718", "s_label": "Finsterwalde (Niederlausitz) railway station", "o_qid": "Q115920198", "o_label": "RE 10 (Brandenburg / Saxony)", "start": 2022, "end": null, "relation": "P1192", "r_label": "dịch vụ nối liền"}
+{"s_qid": "Q53785200", "s_label": "Calau (Niederlausitz) railway station", "o_qid": "Q67993390", "o_label": "RB 24 (Berlin/Brandenburg)", "start": null, "end": 2022, "relation": "P1192", "r_label": "dịch vụ nối liền"}
+{"s_qid": "Q53785200", "s_label": "Calau (Niederlausitz) railway station", "o_qid": "Q95186801", "o_label": "RE 7 (Berlin/Brandenburg)", "start": 2022, "end": null, "relation": "P1192", "r_label": "dịch vụ nối liền"}
+{"s_qid": "Q53785200", "s_label": "Calau (Niederlausitz) railway station", "o_qid": "Q84429153", "o_label": "RB 43 (Brandenburg)", "start": 2022, "end": null, "relation": "P1192", "r_label": "dịch vụ nối liền"}
+{"s_qid": "Q53785200", "s_label": "Calau (Niederlausitz) railway station", "o_qid": "Q115920198", "o_label": "RE 10 (Brandenburg / Saxony)", "start": 2022, "end": null, "relation": "P1192", "r_label": "dịch vụ nối liền"}
+{"s_qid": "Q54878629", "s_label": "Altdorf (b Nürnberg)", "o_qid": "Q7388248", "o_label": "S2 (Nuremberg)", "start": null, "end": 2023, "relation": "P1192", "r_label": "dịch vụ nối liền"}
+{"s_qid": "Q54878629", "s_label": "Altdorf (b Nürnberg)", "o_qid": "Q7388284", "o_label": "S3 (Nuremberg)", "start": 2023, "end": null, "relation": "P1192", "r_label": "dịch vụ nối liền"}
+{"s_qid": "Q55630137", "s_label": "Plessa railway stop", "o_qid": "Q84436359", "o_label": "RB 49 (Brandenburg)", "start": 2022, "end": null, "relation": "P1192", "r_label": "dịch vụ nối liền"}
+{"s_qid": "Q55630137", "s_label": "Plessa railway stop", "o_qid": "Q115927564", "o_label": "RE 11 (Brandenburg / Saxony)", "start": 2022, "end": null, "relation": "P1192", "r_label": "dịch vụ nối liền"}
+{"s_qid": "Q55973018", "s_label": "Wellmitz railway station", "o_qid": "Q63412909", "o_label": "RB 11 (Berlin/Brandenburg)", "start": null, "end": 2022, "relation": "P1192", "r_label": "dịch vụ nối liền"}
+{"s_qid": "Q55973018", "s_label": "Wellmitz railway station", "o_qid": "Q84429153", "o_label": "RB 43 (Brandenburg)", "start": 2022, "end": null, "relation": "P1192", "r_label": "dịch vụ nối liền"}
+{"s_qid": "Q55973018", "s_label": "Wellmitz railway station", "o_qid": "Q115920198", "o_label": "RE 10 (Brandenburg / Saxony)", "start": 2022, "end": null, "relation": "P1192", "r_label": "dịch vụ nối liền"}
+{"s_qid": "Q58068585", "s_label": "Ochenbruck", "o_qid": "Q7388284", "o_label": "S3 (Nuremberg)", "start": null, "end": 2023, "relation": "P1192", "r_label": "dịch vụ nối liền"}
+{"s_qid": "Q58068585", "s_label": "Ochenbruck", "o_qid": "Q7388209", "o_label": "S1 (Nuremberg)", "start": 2023, "end": null, "relation": "P1192", "r_label": "dịch vụ nối liền"}
+{"s_qid": "Q62024539", "s_label": "Altdorf West", "o_qid": "Q7388248", "o_label": "S2 (Nuremberg)", "start": null, "end": 2023, "relation": "P1192", "r_label": "dịch vụ nối liền"}
+{"s_qid": "Q62024539", "s_label": "Altdorf West", "o_qid": "Q7388284", "o_label": "S3 (Nuremberg)", "start": 2023, "end": null, "relation": "P1192", "r_label": "dịch vụ nối liền"}
+{"s_qid": "Q66371291", "s_label": "Medewitz (Mark) railway station", "o_qid": "Q95186801", "o_label": "RE 7 (Berlin/Brandenburg)", "start": 2022, "end": null, "relation": "P1192", "r_label": "dịch vụ nối liền"}
+{"s_qid": "Q85398760", "s_label": "Wiesenau railway stop", "o_qid": "Q63412909", "o_label": "RB 11 (Berlin/Brandenburg)", "start": null, "end": 2022, "relation": "P1192", "r_label": "dịch vụ nối liền"}
+{"s_qid": "Q85398760", "s_label": "Wiesenau railway stop", "o_qid": "Q84429153", "o_label": "RB 43 (Brandenburg)", "start": 2022, "end": null, "relation": "P1192", "r_label": "dịch vụ nối liền"}
+{"s_qid": "Q85398760", "s_label": "Wiesenau railway stop", "o_qid": "Q115920198", "o_label": "RE 10 (Brandenburg / Saxony)", "start": 2022, "end": null, "relation": "P1192", "r_label": "dịch vụ nối liền"}
+{"s_qid": "Q90834764", "s_label": "Hauptbahnhof Nord", "o_qid": "Q64022460", "o_label": "Tram line 8", "start": null, "end": 2024, "relation": "P1192", "r_label": "dịch vụ nối liền"}
+{"s_qid": "Q90834764", "s_label": "Hauptbahnhof Nord", "o_qid": "Q93767104", "o_label": "tram line 9 (Dresden)", "start": null, "end": 2025, "relation": "P1192", "r_label": "dịch vụ nối liền"}
+{"s_qid": "Q90834764", "s_label": "Hauptbahnhof Nord", "o_qid": "Q91660551", "o_label": "tram line 4", "start": 2025, "end": null, "relation": "P1192", "r_label": "dịch vụ nối liền"}
+{"s_qid": "Q91036612", "s_label": "Prager Straße", "o_qid": "Q93767104", "o_label": "tram line 9 (Dresden)", "start": null, "end": 2025, "relation": "P1192", "r_label": "dịch vụ nối liền"}
+{"s_qid": "Q91036612", "s_label": "Prager Straße", "o_qid": "Q64022460", "o_label": "Tram line 8", "start": null, "end": 2024, "relation": "P1192", "r_label": "dịch vụ nối liền"}
+{"s_qid": "Q91036612", "s_label": "Prager Straße", "o_qid": "Q91660551", "o_label": "tram line 4", "start": 2025, "end": null, "relation": "P1192", "r_label": "dịch vụ nối liền"}
+{"s_qid": "Q91663287", "s_label": "Deutsches Hygiene-Museum", "o_qid": "Q91660551", "o_label": "tram line 4", "start": null, "end": 2025, "relation": "P1192", "r_label": "dịch vụ nối liền"}
+{"s_qid": "Q91663287", "s_label": "Deutsches Hygiene-Museum", "o_qid": "Q93767104", "o_label": "tram line 9 (Dresden)", "start": 2025, "end": null, "relation": "P1192", "r_label": "dịch vụ nối liền"}
+{"s_qid": "Q93633105", "s_label": "Johannisfriedhof", "o_qid": "Q91660551", "o_label": "tram line 4", "start": null, "end": 2025, "relation": "P1192", "r_label": "dịch vụ nối liền"}
+{"s_qid": "Q93633105", "s_label": "Johannisfriedhof", "o_qid": "Q93767104", "o_label": "tram line 9 (Dresden)", "start": 2025, "end": null, "relation": "P1192", "r_label": "dịch vụ nối liền"}
+{"s_qid": "Q93634314", "s_label": "Hermann-Seidel-Straße", "o_qid": "Q91660551", "o_label": "tram line 4", "start": null, "end": 2025, "relation": "P1192", "r_label": "dịch vụ nối liền"}
+{"s_qid": "Q93634314", "s_label": "Hermann-Seidel-Straße", "o_qid": "Q93767104", "o_label": "tram line 9 (Dresden)", "start": 2025, "end": null, "relation": "P1192", "r_label": "dịch vụ nối liền"}
+{"s_qid": "Q93634620", "s_label": "Leubener Straße", "o_qid": "Q91660551", "o_label": "tram line 4", "start": null, "end": 2025, "relation": "P1192", "r_label": "dịch vụ nối liền"}
+{"s_qid": "Q93634620", "s_label": "Leubener Straße", "o_qid": "Q93767104", "o_label": "tram line 9 (Dresden)", "start": 2025, "end": null, "relation": "P1192", "r_label": "dịch vụ nối liền"}
+{"s_qid": "Q94765322", "s_label": "Zoo", "o_qid": "Q93767104", "o_label": "tram line 9 (Dresden)", "start": null, "end": 2025, "relation": "P1192", "r_label": "dịch vụ nối liền"}
+{"s_qid": "Q94765322", "s_label": "Zoo", "o_qid": "Q91660551", "o_label": "tram line 4", "start": 2025, "end": null, "relation": "P1192", "r_label": "dịch vụ nối liền"}
+{"s_qid": "Q106980644", "s_label": "Lauf (links Pegnitz)", "o_qid": "Q7388209", "o_label": "S1 (Nuremberg)", "start": null, "end": 2023, "relation": "P1192", "r_label": "dịch vụ nối liền"}
+{"s_qid": "Q106980644", "s_label": "Lauf (links Pegnitz)", "o_qid": "Q7388248", "o_label": "S2 (Nuremberg)", "start": 2023, "end": null, "relation": "P1192", "r_label": "dịch vụ nối liền"}
+{"s_qid": "Q113115752", "s_label": "Ziltendorf railway station", "o_qid": "Q63412909", "o_label": "RB 11 (Berlin/Brandenburg)", "start": null, "end": 2022, "relation": "P1192", "r_label": "dịch vụ nối liền"}
+{"s_qid": "Q113115752", "s_label": "Ziltendorf railway station", "o_qid": "Q84429153", "o_label": "RB 43 (Brandenburg)", "start": 2022, "end": null, "relation": "P1192", "r_label": "dịch vụ nối liền"}
+{"s_qid": "Q113115752", "s_label": "Ziltendorf railway station", "o_qid": "Q115920198", "o_label": "RE 10 (Brandenburg / Saxony)", "start": 2022, "end": null, "relation": "P1192", "r_label": "dịch vụ nối liền"}
+{"s_qid": "Q692529", "s_label": "Tazawako Station", "o_qid": "Q220696", "o_label": "Akita Shinkansen", "start": 1997, "end": null, "relation": "P1192", "r_label": "dịch vụ nối liền"}
+{"s_qid": "Q785390", "s_label": "Morioka Station", "o_qid": "Q220696", "o_label": "Akita Shinkansen", "start": 1997, "end": null, "relation": "P1192", "r_label": "dịch vụ nối liền"}
+{"s_qid": "Q801130", "s_label": "Ludwigslust railway station", "o_qid": "Q15119419", "o_label": "RE 2 (Berlin/Brandenburg)", "start": null, "end": 2022, "relation": "P1192", "r_label": "dịch vụ nối liền"}
+{"s_qid": "Q801130", "s_label": "Ludwigslust railway station", "o_qid": "Q112992594", "o_label": "RE 8 (Berlin/Brandenburg)", "start": 2022, "end": null, "relation": "P1192", "r_label": "dịch vụ nối liền"}
+{"s_qid": "Q801695", "s_label": "Ōsaki Station", "o_qid": "Q1372061", "o_label": "Tuyến Saikyō", "start": 2002, "end": null, "relation": "P1192", "r_label": "dịch vụ nối liền"}
+{"s_qid": "Q1052987", "s_label": "Ōmagari Station", "o_qid": "Q220696", "o_label": "Akita Shinkansen", "start": 1997, "end": null, "relation": "P1192", "r_label": "dịch vụ nối liền"}
+{"s_qid": "Q1137103", "s_label": "Akayu Station", "o_qid": "Q252048", "o_label": "Yamagata Shinkansen", "start": 1992, "end": null, "relation": "P1192", "r_label": "dịch vụ nối liền"}
+{"s_qid": "Q1285503", "s_label": "McGill", "o_qid": "Q121010882", "o_label": "A1 - Brossard", "start": 2025, "end": null, "relation": "P1192", "r_label": "dịch vụ nối liền"}
+{"s_qid": "Q1285503", "s_label": "McGill", "o_qid": "Q136417114", "o_label": "A4 - Deux-Montagnes", "start": 2025, "end": null, "relation": "P1192", "r_label": "dịch vụ nối liền"}
+{"s_qid": "Q2463399", "s_label": "Plaza de Castilla", "o_qid": "Q1826675", "o_label": "Madrid Metro Line 1", "start": 1961, "end": null, "relation": "P1192", "r_label": "dịch vụ nối liền"}
+{"s_qid": "Q2463399", "s_label": "Plaza de Castilla", "o_qid": "Q1475527", "o_label": "Madrid Metro Line 8", "start": 1982, "end": 1998, "relation": "P1192", "r_label": "dịch vụ nối liền"}
+{"s_qid": "Q2463399", "s_label": "Plaza de Castilla", "o_qid": "Q1760090", "o_label": "Madrid Metro Line 10", "start": 1998, "end": null, "relation": "P1192", "r_label": "dịch vụ nối liền"}
+{"s_qid": "Q2712145", "s_label": "Piraeus metro station", "o_qid": "Q6553119", "o_label": "Athens Metro Line 3", "start": 2022, "end": null, "relation": "P1192", "r_label": "dịch vụ nối liền"}
+{"s_qid": "Q3095509", "s_label": "Deux-Montagnes", "o_qid": "Q3239101", "o_label": "exo6", "start": null, "end": 2020, "relation": "P1192", "r_label": "dịch vụ nối liền"}
+{"s_qid": "Q3095509", "s_label": "Deux-Montagnes", "o_qid": "Q121010882", "o_label": "A1 - Brossard", "start": 2025, "end": null, "relation": "P1192", "r_label": "dịch vụ nối liền"}
+{"s_qid": "Q3095509", "s_label": "Deux-Montagnes", "o_qid": "Q136417114", "o_label": "A4 - Deux-Montagnes", "start": 2025, "end": null, "relation": "P1192", "r_label": "dịch vụ nối liền"}
+{"s_qid": "Q4746005", "s_label": "Amherst station", "o_qid": "Q6906386", "o_label": "Montrealer", "start": null, "end": 1995, "relation": "P1192", "r_label": "dịch vụ nối liền"}
+{"s_qid": "Q4980890", "s_label": "Bryn Mawr station", "o_qid": "Q606691", "o_label": "Keystone Service", "start": null, "end": 1988, "relation": "P1192", "r_label": "dịch vụ nối liền"}
+{"s_qid": "Q5602142", "s_label": "Greeley Union Pacific Railroad Depot", "o_qid": "Q7196631", "o_label": "Pioneer", "start": 1991, "end": null, "relation": "P1192", "r_label": "dịch vụ nối liền"}
+{"s_qid": "Q7355641", "s_label": "Rockville Railroad Station", "o_qid": "Q7494151", "o_label": "Shenandoah", "start": null, "end": 1981, "relation": "P1192", "r_label": "dịch vụ nối liền"}
+{"s_qid": "Q7677017", "s_label": "Takagimachi Station", "o_qid": "Q17230945", "o_label": "Senseki-Tōhoku Line", "start": 2015, "end": null, "relation": "P1192", "r_label": "dịch vụ nối liền"}
+{"s_qid": "Q7975991", "s_label": "Wayne", "o_qid": "Q606691", "o_label": "Keystone Service", "start": null, "end": 1987, "relation": "P1192", "r_label": "dịch vụ nối liền"}
+{"s_qid": "Q11790187", "s_label": "Nauen railway station", "o_qid": "Q112992594", "o_label": "RE 8 (Berlin/Brandenburg)", "start": 2022, "end": null, "relation": "P1192", "r_label": "dịch vụ nối liền"}
+{"s_qid": "Q14715876", "s_label": "Taunton", "o_qid": "Q5034718", "o_label": "Cape Codder", "start": null, "end": 1996, "relation": "P1192", "r_label": "dịch vụ nối liền"}
+{"s_qid": "Q19274501", "s_label": "Peitz Ost railway station", "o_qid": "Q63412909", "o_label": "RB 11 (Berlin/Brandenburg)", "start": null, "end": 2022, "relation": "P1192", "r_label": "dịch vụ nối liền"}
+{"s_qid": "Q19274501", "s_label": "Peitz Ost railway station", "o_qid": "Q84429153", "o_label": "RB 43 (Brandenburg)", "start": 2022, "end": null, "relation": "P1192", "r_label": "dịch vụ nối liền"}
+{"s_qid": "Q19274501", "s_label": "Peitz Ost railway station", "o_qid": "Q115920198", "o_label": "RE 10 (Brandenburg / Saxony)", "start": 2022, "end": null, "relation": "P1192", "r_label": "dịch vụ nối liền"}
+{"s_qid": "Q50324493", "s_label": "Moidentin railway station", "o_qid": "Q15119419", "o_label": "RE 2 (Berlin/Brandenburg)", "start": null, "end": 2022, "relation": "P1192", "r_label": "dịch vụ nối liền"}
+{"s_qid": "Q50324493", "s_label": "Moidentin railway station", "o_qid": "Q112992594", "o_label": "RE 8 (Berlin/Brandenburg)", "start": 2022, "end": null, "relation": "P1192", "r_label": "dịch vụ nối liền"}
+{"s_qid": "Q55630236", "s_label": "Bahnhof Pommelsbrunn", "o_qid": "Q7388209", "o_label": "S1 (Nuremberg)", "start": null, "end": 2023, "relation": "P1192", "r_label": "dịch vụ nối liền"}
+{"s_qid": "Q55630236", "s_label": "Bahnhof Pommelsbrunn", "o_qid": "Q7388248", "o_label": "S2 (Nuremberg)", "start": 2023, "end": null, "relation": "P1192", "r_label": "dịch vụ nối liền"}
+{"s_qid": "Q59136403", "s_label": "Sedlitz Ost railway stop", "o_qid": "Q67993390", "o_label": "RB 24 (Berlin/Brandenburg)", "start": null, "end": 2022, "relation": "P1192", "r_label": "dịch vụ nối liền"}
+{"s_qid": "Q59136403", "s_label": "Sedlitz Ost railway stop", "o_qid": "Q95186801", "o_label": "RE 7 (Berlin/Brandenburg)", "start": 2022, "end": null, "relation": "P1192", "r_label": "dịch vụ nối liền"}
+{"s_qid": "Q59136403", "s_label": "Sedlitz Ost railway stop", "o_qid": "Q84436359", "o_label": "RB 49 (Brandenburg)", "start": 2022, "end": null, "relation": "P1192", "r_label": "dịch vụ nối liền"}
+{"s_qid": "Q62015786", "s_label": "Winkelhaid", "o_qid": "Q7388248", "o_label": "S2 (Nuremberg)", "start": null, "end": 2023, "relation": "P1192", "r_label": "dịch vụ nối liền"}
+{"s_qid": "Q62015786", "s_label": "Winkelhaid", "o_qid": "Q7388284", "o_label": "S3 (Nuremberg)", "start": 2023, "end": null, "relation": "P1192", "r_label": "dịch vụ nối liền"}
+{"s_qid": "Q66898733", "s_label": "Bad Wilsnack station", "o_qid": "Q15119419", "o_label": "RE 2 (Berlin/Brandenburg)", "start": null, "end": 2022, "relation": "P1192", "r_label": "dịch vụ nối liền"}
+{"s_qid": "Q66898733", "s_label": "Bad Wilsnack station", "o_qid": "Q112992594", "o_label": "RE 8 (Berlin/Brandenburg)", "start": 2022, "end": null, "relation": "P1192", "r_label": "dịch vụ nối liền"}
+{"s_qid": "Q78768999", "s_label": "Torgau railway station", "o_qid": "Q115920198", "o_label": "RE 10 (Brandenburg / Saxony)", "start": 2022, "end": null, "relation": "P1192", "r_label": "dịch vụ nối liền"}
+{"s_qid": "Q78768999", "s_label": "Torgau railway station", "o_qid": "Q115927564", "o_label": "RE 11 (Brandenburg / Saxony)", "start": 2022, "end": null, "relation": "P1192", "r_label": "dịch vụ nối liền"}
+{"s_qid": "Q91037318", "s_label": "Gret-Palucca-Straße", "o_qid": "Q93767104", "o_label": "tram line 9 (Dresden)", "start": null, "end": 2025, "relation": "P1192", "r_label": "dịch vụ nối liền"}
+{"s_qid": "Q91037318", "s_label": "Gret-Palucca-Straße", "o_qid": "Q91660551", "o_label": "tram line 4", "start": 2025, "end": null, "relation": "P1192", "r_label": "dịch vụ nối liền"}
+{"s_qid": "Q91037318", "s_label": "Gret-Palucca-Straße", "o_qid": "Q64022460", "o_label": "Tram line 8", "start": 2024, "end": null, "relation": "P1192", "r_label": "dịch vụ nối liền"}
+{"s_qid": "Q93631503", "s_label": "Bergmannstraße", "o_qid": "Q91660551", "o_label": "tram line 4", "start": null, "end": 2025, "relation": "P1192", "r_label": "dịch vụ nối liền"}
+{"s_qid": "Q93631503", "s_label": "Bergmannstraße", "o_qid": "Q93767104", "o_label": "tram line 9 (Dresden)", "start": 2025, "end": null, "relation": "P1192", "r_label": "dịch vụ nối liền"}
+{"s_qid": "Q98148541", "s_label": "Luckaitztal railway stop", "o_qid": "Q67993390", "o_label": "RB 24 (Berlin/Brandenburg)", "start": null, "end": 2022, "relation": "P1192", "r_label": "dịch vụ nối liền"}
+{"s_qid": "Q98148541", "s_label": "Luckaitztal railway stop", "o_qid": "Q95186801", "o_label": "RE 7 (Berlin/Brandenburg)", "start": 2022, "end": null, "relation": "P1192", "r_label": "dịch vụ nối liền"}
+{"s_qid": "Q106980589", "s_label": "Röthenbach-Seespitze", "o_qid": "Q7388209", "o_label": "S1 (Nuremberg)", "start": null, "end": 2023, "relation": "P1192", "r_label": "dịch vụ nối liền"}
+{"s_qid": "Q106980589", "s_label": "Röthenbach-Seespitze", "o_qid": "Q7388248", "o_label": "S2 (Nuremberg)", "start": 2023, "end": null, "relation": "P1192", "r_label": "dịch vụ nối liền"}
+{"s_qid": "Q108677304", "s_label": "Teichland railway halt", "o_qid": "Q63412909", "o_label": "RB 11 (Berlin/Brandenburg)", "start": null, "end": 2022, "relation": "P1192", "r_label": "dịch vụ nối liền"}
+{"s_qid": "Q108677304", "s_label": "Teichland railway halt", "o_qid": "Q84429153", "o_label": "RB 43 (Brandenburg)", "start": 2022, "end": null, "relation": "P1192", "r_label": "dịch vụ nối liền"}
+{"s_qid": "Q108677304", "s_label": "Teichland railway halt", "o_qid": "Q115920198", "o_label": "RE 10 (Brandenburg / Saxony)", "start": 2022, "end": null, "relation": "P1192", "r_label": "dịch vụ nối liền"}
+{"s_qid": "Q108761747", "s_label": "Gollmitz (Niederlausitz) railway station", "o_qid": "Q84429153", "o_label": "RB 43 (Brandenburg)", "start": 2022, "end": null, "relation": "P1192", "r_label": "dịch vụ nối liền"}
+{"s_qid": "Q110438087", "s_label": "Neupetershain railway station", "o_qid": "Q84436359", "o_label": "RB 49 (Brandenburg)", "start": 2022, "end": null, "relation": "P1192", "r_label": "dịch vụ nối liền"}
+{"s_qid": "Q113115764", "s_label": "Neuzelle railway stop", "o_qid": "Q63412909", "o_label": "RB 11 (Berlin/Brandenburg)", "start": null, "end": 2022, "relation": "P1192", "r_label": "dịch vụ nối liền"}
+{"s_qid": "Q113115764", "s_label": "Neuzelle railway stop", "o_qid": "Q84429153", "o_label": "RB 43 (Brandenburg)", "start": 2022, "end": null, "relation": "P1192", "r_label": "dịch vụ nối liền"}
+{"s_qid": "Q113115764", "s_label": "Neuzelle railway stop", "o_qid": "Q115920198", "o_label": "RE 10 (Brandenburg / Saxony)", "start": 2022, "end": null, "relation": "P1192", "r_label": "dịch vụ nối liền"}
+{"s_qid": "Q117292886", "s_label": "Gondrellplatz", "o_qid": "Q138508668", "o_label": "Tram line 14 (Munich)", "start": 2026, "end": null, "relation": "P1192", "r_label": "dịch vụ nối liền"}
+{"s_qid": "Q117292886", "s_label": "Gondrellplatz", "o_qid": "Q138508668", "o_label": "Tram line 14 (Munich)", "start": 1980, "end": 1984, "relation": "P1192", "r_label": "dịch vụ nối liền"}
+{"s_qid": "Q464303", "s_label": "Schwerin Central Station", "o_qid": "Q15119419", "o_label": "RE 2 (Berlin/Brandenburg)", "start": null, "end": 2022, "relation": "P1192", "r_label": "dịch vụ nối liền"}
+{"s_qid": "Q464303", "s_label": "Schwerin Central Station", "o_qid": "Q112992594", "o_label": "RE 8 (Berlin/Brandenburg)", "start": 2022, "end": null, "relation": "P1192", "r_label": "dịch vụ nối liền"}
+{"s_qid": "Q682583", "s_label": "Nuremberg Central Station", "o_qid": "Q105550961", "o_label": "IC line 17", "start": 2019, "end": null, "relation": "P1192", "r_label": "dịch vụ nối liền"}
+{"s_qid": "Q1137040", "s_label": "Yonezawa Station", "o_qid": "Q252048", "o_label": "Yamagata Shinkansen", "start": 1992, "end": null, "relation": "P1192", "r_label": "dịch vụ nối liền"}
+{"s_qid": "Q1764199", "s_label": "Michigan Central Station", "o_qid": "Q7857993", "o_label": "Twilight Limited", "start": null, "end": 1988, "relation": "P1192", "r_label": "dịch vụ nối liền"}
+{"s_qid": "Q1766008", "s_label": "Sol", "o_qid": "Q1826675", "o_label": "Madrid Metro Line 1", "start": 1919, "end": null, "relation": "P1192", "r_label": "dịch vụ nối liền"}
+{"s_qid": "Q3095515", "s_label": "Grand-Moulin", "o_qid": "Q3239101", "o_label": "exo6", "start": null, "end": 2020, "relation": "P1192", "r_label": "dịch vụ nối liền"}
+{"s_qid": "Q3095515", "s_label": "Grand-Moulin", "o_qid": "Q121010882", "o_label": "A1 - Brossard", "start": 2025, "end": null, "relation": "P1192", "r_label": "dịch vụ nối liền"}
+{"s_qid": "Q3095515", "s_label": "Grand-Moulin", "o_qid": "Q136417114", "o_label": "A4 - Deux-Montagnes", "start": 2025, "end": null, "relation": "P1192", "r_label": "dịch vụ nối liền"}
+{"s_qid": "Q3095526", "s_label": "Montpellier", "o_qid": "Q3239101", "o_label": "exo6", "start": null, "end": 2020, "relation": "P1192", "r_label": "dịch vụ nối liền"}
+{"s_qid": "Q3095526", "s_label": "Montpellier", "o_qid": "Q121010882", "o_label": "A1 - Brossard", "start": 2025, "end": null, "relation": "P1192", "r_label": "dịch vụ nối liền"}
+{"s_qid": "Q3095526", "s_label": "Montpellier", "o_qid": "Q136417114", "o_label": "A4 - Deux-Montagnes", "start": 2025, "end": null, "relation": "P1192", "r_label": "dịch vụ nối liền"}
+{"s_qid": "Q5517392", "s_label": "Gaithersburg", "o_qid": "Q7494151", "o_label": "Shenandoah", "start": null, "end": 1981, "relation": "P1192", "r_label": "dịch vụ nối liền"}
+{"s_qid": "Q7227377", "s_label": "Pomona–North station", "o_qid": "Q770386", "o_label": "Southwest Chief", "start": null, "end": 1994, "relation": "P1192", "r_label": "dịch vụ nối liền"}
+{"s_qid": "Q7334125", "s_label": "Rikuzen-Akai Station", "o_qid": "Q17230945", "o_label": "Senseki-Tōhoku Line", "start": 2015, "end": null, "relation": "P1192", "r_label": "dịch vụ nối liền"}
+{"s_qid": "Q7899793", "s_label": "Urashuku Station", "o_qid": "Q17230945", "o_label": "Senseki-Tōhoku Line", "start": 2016, "end": null, "relation": "P1192", "r_label": "dịch vụ nối liền"}
+{"s_qid": "Q19835119", "s_label": "Neustadt (Dosse) station", "o_qid": "Q15119419", "o_label": "RE 2 (Berlin/Brandenburg)", "start": null, "end": 2022, "relation": "P1192", "r_label": "dịch vụ nối liền"}
+{"s_qid": "Q19835119", "s_label": "Neustadt (Dosse) station", "o_qid": "Q112992594", "o_label": "RE 8 (Berlin/Brandenburg)", "start": 2022, "end": null, "relation": "P1192", "r_label": "dịch vụ nối liền"}
+{"s_qid": "Q50401042", "s_label": "Schwerin Süd railway station", "o_qid": "Q15119419", "o_label": "RE 2 (Berlin/Brandenburg)", "start": null, "end": 2022, "relation": "P1192", "r_label": "dịch vụ nối liền"}
+{"s_qid": "Q50401042", "s_label": "Schwerin Süd railway station", "o_qid": "Q112992594", "o_label": "RE 8 (Berlin/Brandenburg)", "start": 2022, "end": null, "relation": "P1192", "r_label": "dịch vụ nối liền"}
+{"s_qid": "Q53803774", "s_label": "Cottbus-Willmersdorf Nord railway stop", "o_qid": "Q84429153", "o_label": "RB 43 (Brandenburg)", "start": 2022, "end": null, "relation": "P1192", "r_label": "dịch vụ nối liền"}
+{"s_qid": "Q53803774", "s_label": "Cottbus-Willmersdorf Nord railway stop", "o_qid": "Q115920198", "o_label": "RE 10 (Brandenburg / Saxony)", "start": 2022, "end": null, "relation": "P1192", "r_label": "dịch vụ nối liền"}
+{"s_qid": "Q93630434", "s_label": "Fetscherplatz", "o_qid": "Q91660551", "o_label": "tram line 4", "start": null, "end": 2025, "relation": "P1192", "r_label": "dịch vụ nối liền"}
+{"s_qid": "Q93630434", "s_label": "Fetscherplatz", "o_qid": "Q93767104", "o_label": "tram line 9 (Dresden)", "start": 2025, "end": null, "relation": "P1192", "r_label": "dịch vụ nối liền"}
+{"s_qid": "Q93632627", "s_label": "Striesen, Altenberger Straße", "o_qid": "Q91660551", "o_label": "tram line 4", "start": null, "end": 2025, "relation": "P1192", "r_label": "dịch vụ nối liền"}
+{"s_qid": "Q93632627", "s_label": "Striesen, Altenberger Straße", "o_qid": "Q93767104", "o_label": "tram line 9 (Dresden)", "start": 2025, "end": null, "relation": "P1192", "r_label": "dịch vụ nối liền"}
+{"s_qid": "Q98146558", "s_label": "Oderin railway stop", "o_qid": "Q67993390", "o_label": "RB 24 (Berlin/Brandenburg)", "start": null, "end": 2022, "relation": "P1192", "r_label": "dịch vụ nối liền"}
+{"s_qid": "Q98146558", "s_label": "Oderin railway stop", "o_qid": "Q95186801", "o_label": "RE 7 (Berlin/Brandenburg)", "start": 2022, "end": null, "relation": "P1192", "r_label": "dịch vụ nối liền"}
+{"s_qid": "Q98148731", "s_label": "Altdöbern railway station", "o_qid": "Q67993390", "o_label": "RB 24 (Berlin/Brandenburg)", "start": null, "end": 2022, "relation": "P1192", "r_label": "dịch vụ nối liền"}
+{"s_qid": "Q98148731", "s_label": "Altdöbern railway station", "o_qid": "Q95186801", "o_label": "RE 7 (Berlin/Brandenburg)", "start": 2022, "end": null, "relation": "P1192", "r_label": "dịch vụ nối liền"}
+{"s_qid": "Q98148766", "s_label": "Großräschen station", "o_qid": "Q67993390", "o_label": "RB 24 (Berlin/Brandenburg)", "start": null, "end": 2022, "relation": "P1192", "r_label": "dịch vụ nối liền"}
+{"s_qid": "Q98148766", "s_label": "Großräschen station", "o_qid": "Q95186801", "o_label": "RE 7 (Berlin/Brandenburg)", "start": 2022, "end": null, "relation": "P1192", "r_label": "dịch vụ nối liền"}
+{"s_qid": "Q106980576", "s_label": "Röthenbach (Pegnitz)", "o_qid": "Q7388209", "o_label": "S1 (Nuremberg)", "start": null, "end": 2023, "relation": "P1192", "r_label": "dịch vụ nối liền"}
+{"s_qid": "Q106980576", "s_label": "Röthenbach (Pegnitz)", "o_qid": "Q7388248", "o_label": "S2 (Nuremberg)", "start": 2023, "end": null, "relation": "P1192", "r_label": "dịch vụ nối liền"}
+{"s_qid": "Q108677615", "s_label": "Leuthen railway stop", "o_qid": "Q84436359", "o_label": "RB 49 (Brandenburg)", "start": 2022, "end": null, "relation": "P1192", "r_label": "dịch vụ nối liền"}
+{"s_qid": "Q108761688", "s_label": "Beutersitz railway station", "o_qid": "Q84429153", "o_label": "RB 43 (Brandenburg)", "start": 2022, "end": null, "relation": "P1192", "r_label": "dịch vụ nối liền"}
+{"s_qid": "Q111323608", "s_label": "Long-distance and regional railway station Berlin-Südkreuz", "o_qid": "Q105550961", "o_label": "IC line 17", "start": 2019, "end": null, "relation": "P1192", "r_label": "dịch vụ nối liền"}
+{"s_qid": "Q111323608", "s_label": "Long-distance and regional railway station Berlin-Südkreuz", "o_qid": "Q100533383", "o_label": "Flughafen-Express", "start": 2025, "end": null, "relation": "P1192", "r_label": "dịch vụ nối liền"}
+{"s_qid": "Q113115717", "s_label": "Finkenheerd railway stop", "o_qid": "Q63412909", "o_label": "RB 11 (Berlin/Brandenburg)", "start": null, "end": 2022, "relation": "P1192", "r_label": "dịch vụ nối liền"}
+{"s_qid": "Q113115717", "s_label": "Finkenheerd railway stop", "o_qid": "Q84429153", "o_label": "RB 43 (Brandenburg)", "start": 2022, "end": null, "relation": "P1192", "r_label": "dịch vụ nối liền"}
+{"s_qid": "Q113115717", "s_label": "Finkenheerd railway stop", "o_qid": "Q115920198", "o_label": "RE 10 (Brandenburg / Saxony)", "start": 2022, "end": null, "relation": "P1192", "r_label": "dịch vụ nối liền"}
+{"s_qid": "Q115925760", "s_label": "Lauchhammer railway station", "o_qid": "Q84436359", "o_label": "RB 49 (Brandenburg)", "start": 2022, "end": null, "relation": "P1192", "r_label": "dịch vụ nối liền"}
+{"s_qid": "Q115925760", "s_label": "Lauchhammer railway station", "o_qid": "Q115927564", "o_label": "RE 11 (Brandenburg / Saxony)", "start": 2022, "end": null, "relation": "P1192", "r_label": "dịch vụ nối liền"}
+{"s_qid": "Q115925959", "s_label": "Schwarzheide Ost railway stop", "o_qid": "Q84436359", "o_label": "RB 49 (Brandenburg)", "start": 2022, "end": null, "relation": "P1192", "r_label": "dịch vụ nối liền"}

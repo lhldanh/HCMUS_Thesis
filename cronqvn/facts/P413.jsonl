@@ -1,0 +1,14 @@
+{"s_qid": "Q173923", "s_label": "Ilija Petković", "o_qid": "Q193592", "o_label": "tiền vệ", "start": 2010, "end": null, "relation": "P413", "r_label": "vị trí trong đội"}
+{"s_qid": "Q3940027", "s_label": "Rodrigo Battaglia", "o_qid": "Q193592", "o_label": "tiền vệ", "start": 2011, "end": null, "relation": "P413", "r_label": "vị trí trong đội"}
+{"s_qid": "Q127661732", "s_label": "Allie Kelley", "o_qid": "Q1317534", "o_label": "goaltender", "start": 2023, "end": 2024, "relation": "P413", "r_label": "vị trí trong đội"}
+{"s_qid": "Q22096326", "s_label": "Shiann Darkangelo", "o_qid": "Q543457", "o_label": "forward", "start": 2011, "end": 2013, "relation": "P413", "r_label": "vị trí trong đội"}
+{"s_qid": "Q2015476", "s_label": "Hendrik Van Crombrugge", "o_qid": "Q584540", "o_label": "captain", "start": 2020, "end": null, "relation": "P413", "r_label": "vị trí trong đội"}
+{"s_qid": "Q126736326", "s_label": "Lisa Mullan", "o_qid": "Q543457", "o_label": "forward", "start": 2008, "end": 2012, "relation": "P413", "r_label": "vị trí trong đội"}
+{"s_qid": "Q372605", "s_label": "Nicolás Gaitán", "o_qid": "Q193592", "o_label": "tiền vệ", "start": 2018, "end": null, "relation": "P413", "r_label": "vị trí trong đội"}
+{"s_qid": "Q483137", "s_label": "Petr Čech", "o_qid": "Q1317534", "o_label": "goaltender", "start": 2019, "end": null, "relation": "P413", "r_label": "vị trí trong đội"}
+{"s_qid": "Q721149", "s_label": "Jose Carlos Araujo Nunes", "o_qid": "Q336286", "o_label": "hậu vệ", "start": 1996, "end": 2014, "relation": "P413", "r_label": "vị trí trong đội"}
+{"s_qid": "Q53624230", "s_label": "Ernst Rutschmann", "o_qid": "Q193592", "o_label": "tiền vệ", "start": 1973, "end": null, "relation": "P413", "r_label": "vị trí trong đội"}
+{"s_qid": "Q729021", "s_label": "Robert Herbin", "o_qid": "Q336286", "o_label": "hậu vệ", "start": 1966, "end": null, "relation": "P413", "r_label": "vị trí trong đội"}
+{"s_qid": "Q729021", "s_label": "Robert Herbin", "o_qid": "Q193592", "o_label": "tiền vệ", "start": null, "end": 1966, "relation": "P413", "r_label": "vị trí trong đội"}
+{"s_qid": "Q108491198", "s_label": "Federico Gatti", "o_qid": "Q336286", "o_label": "hậu vệ", "start": 2018, "end": null, "relation": "P413", "r_label": "vị trí trong đội"}
+{"s_qid": "Q108491198", "s_label": "Federico Gatti", "o_qid": "Q193592", "o_label": "tiền vệ", "start": null, "end": 2018, "relation": "P413", "r_label": "vị trí trong đội"}

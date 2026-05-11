@@ -1,0 +1,19 @@
+{"s_qid": "Q3353513", "s_label": "Eckerd Open", "o_qid": "Q198718", "o_label": "Sân đất nện", "start": 1971, "end": 1974, "relation": "P765", "r_label": "surface played on"}
+{"s_qid": "Q3353513", "s_label": "Eckerd Open", "o_qid": "Q1330871", "o_label": "Sân cứng", "start": 1977, "end": 1986, "relation": "P765", "r_label": "surface played on"}
+{"s_qid": "Q3353513", "s_label": "Eckerd Open", "o_qid": "Q198718", "o_label": "Sân đất nện", "start": 1987, "end": 1990, "relation": "P765", "r_label": "surface played on"}
+{"s_qid": "Q1980", "s_label": "Sân vận động Gerland", "o_qid": "Q207766", "o_label": "bãi cỏ", "start": 1913, "end": 2021, "relation": "P765", "r_label": "surface played on"}
+{"s_qid": "Q1980", "s_label": "Sân vận động Gerland", "o_qid": "Q311935", "o_label": "cỏ nhân tạo", "start": 2021, "end": null, "relation": "P765", "r_label": "surface played on"}
+{"s_qid": "Q132094039", "s_label": "KNUBA-Arena", "o_qid": "Q311935", "o_label": "cỏ nhân tạo", "start": 2021, "end": null, "relation": "P765", "r_label": "surface played on"}
+{"s_qid": "Q132094039", "s_label": "KNUBA-Arena", "o_qid": "Q207766", "o_label": "bãi cỏ", "start": null, "end": 2020, "relation": "P765", "r_label": "surface played on"}
+{"s_qid": "Q123577", "s_label": "Giải quần vợt Mỹ Mở rộng", "o_qid": "Q1330871", "o_label": "Sân cứng", "start": 1978, "end": null, "relation": "P765", "r_label": "surface played on"}
+{"s_qid": "Q123577", "s_label": "Giải quần vợt Mỹ Mở rộng", "o_qid": "Q198718", "o_label": "Sân đất nện", "start": 1975, "end": 1977, "relation": "P765", "r_label": "surface played on"}
+{"s_qid": "Q204496", "s_label": "Sân vận động Thiên niên kỷ", "o_qid": "Q207766", "o_label": "bãi cỏ", "start": 1999, "end": 2014, "relation": "P765", "r_label": "surface played on"}
+{"s_qid": "Q107573051", "s_label": "WTA Poland Open", "o_qid": "Q198718", "o_label": "Sân đất nện", "start": 2021, "end": 2022, "relation": "P765", "r_label": "surface played on"}
+{"s_qid": "Q107573051", "s_label": "WTA Poland Open", "o_qid": "Q1330871", "o_label": "Sân cứng", "start": 2023, "end": null, "relation": "P765", "r_label": "surface played on"}
+{"s_qid": "Q544553", "s_label": "Sân vận động Arrowhead", "o_qid": "Q207766", "o_label": "bãi cỏ", "start": 1994, "end": null, "relation": "P765", "r_label": "surface played on"}
+{"s_qid": "Q544553", "s_label": "Sân vận động Arrowhead", "o_qid": "Q311935", "o_label": "cỏ nhân tạo", "start": 1972, "end": 1993, "relation": "P765", "r_label": "surface played on"}
+{"s_qid": "Q1024926", "s_label": "Murrayfield Stadium", "o_qid": "Q207766", "o_label": "bãi cỏ", "start": 1925, "end": 2014, "relation": "P765", "r_label": "surface played on"}
+{"s_qid": "Q669347", "s_label": "Valeriy Lobanovskyi Dynamo Stadium", "o_qid": "Q207766", "o_label": "bãi cỏ", "start": null, "end": 2021, "relation": "P765", "r_label": "surface played on"}
+{"s_qid": "Q4717024", "s_label": "Mustang Memorial Field", "o_qid": "Q311935", "o_label": "cỏ nhân tạo", "start": 2022, "end": null, "relation": "P765", "r_label": "surface played on"}
+{"s_qid": "Q97670098", "s_label": "Brasil Open", "o_qid": "Q1330871", "o_label": "Sân cứng", "start": 2001, "end": 2003, "relation": "P765", "r_label": "surface played on"}
+{"s_qid": "Q97670098", "s_label": "Brasil Open", "o_qid": "Q198718", "o_label": "Sân đất nện", "start": 2004, "end": 2019, "relation": "P765", "r_label": "surface played on"}

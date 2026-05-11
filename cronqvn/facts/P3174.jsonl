@@ -1,0 +1,12 @@
+{"s_qid": "Q605401", "s_label": "Condé Nast", "o_qid": "Q230744", "o_label": "Anna Wintour", "start": 2013, "end": null, "relation": "P3174", "r_label": "art director"}
+{"s_qid": "Q1947348", "s_label": "Festival de Cornouaille", "o_qid": "Q3168834", "o_label": "Jean-Philippe Mauras", "start": 2002, "end": 2013, "relation": "P3174", "r_label": "art director"}
+{"s_qid": "Q106622003", "s_label": "Athens Concert Hall Organisation", "o_qid": "Q12875346", "o_label": "Giorgos Kouroupos", "start": 2012, "end": 2015, "relation": "P3174", "r_label": "art director"}
+{"s_qid": "Q4304284", "s_label": "Oleg Tabakov Theatre", "o_qid": "Q466139", "o_label": "Oleg Pavlovich Tabakov", "start": null, "end": 2018, "relation": "P3174", "r_label": "art director"}
+{"s_qid": "Q4304284", "s_label": "Oleg Tabakov Theatre", "o_qid": "Q1081714", "o_label": "Vladimir Mashkov", "start": 2018, "end": null, "relation": "P3174", "r_label": "art director"}
+{"s_qid": "Q582625", "s_label": "Greek National Opera", "o_qid": "Q12872235", "o_label": "Alkis Baltas", "start": 1994, "end": 1996, "relation": "P3174", "r_label": "art director"}
+{"s_qid": "Q115035", "s_label": "Perm Opera and Ballet Theatre", "o_qid": "Q536185", "o_label": "Teodor Currentzis", "start": 2011, "end": null, "relation": "P3174", "r_label": "art director"}
+{"s_qid": "Q3355296", "s_label": "Orchestra of Colours", "o_qid": "Q447433", "o_label": "Manos Hatzidakis", "start": 1989, "end": 1994, "relation": "P3174", "r_label": "art director"}
+{"s_qid": "Q3355296", "s_label": "Orchestra of Colours", "o_qid": "Q12875346", "o_label": "Giorgos Kouroupos", "start": 1995, "end": 2010, "relation": "P3174", "r_label": "art director"}
+{"s_qid": "Q4819520", "s_label": "Auckland Festival", "o_qid": "Q107119372", "o_label": "Carla Van Zon", "start": 2013, "end": 2017, "relation": "P3174", "r_label": "art director"}
+{"s_qid": "Q124962578", "s_label": "Thessaloniki Concert Hall Organisation", "o_qid": "Q35488916", "o_label": "Nikos Athineos", "start": 2000, "end": 2010, "relation": "P3174", "r_label": "art director"}
+{"s_qid": "Q124962578", "s_label": "Thessaloniki Concert Hall Organisation", "o_qid": "Q137537271", "o_label": "Christos Galileas", "start": 2021, "end": null, "relation": "P3174", "r_label": "art director"}
