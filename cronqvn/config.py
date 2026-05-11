@@ -3,6 +3,7 @@
 # ---------- Paths ----------
 DATA_DIR = "data"
 CACHE_DIR = "cache"
+FACTS_DIR = "facts"
 OUT_DIR = "out"
 DUMP_FILE = "data/latest-all.json.bz2"
 
@@ -73,9 +74,9 @@ QTYPE_DISTRIBUTION = {
 
 # ---------- KG-build filters (tkbc-style, áp ở build_kg.py) ----------
 # Step 2: lọc relation hiếm — relation có < N statement bị bỏ
-BUILD_MIN_RELATION_FACTS = 0
+BUILD_MIN_RELATION_FACTS = 200
 # Step 3: lọc entity hiếm — entity xuất hiện < M fact bị bỏ
-BUILD_MIN_ENTITY_FACTS = 0
+BUILD_MIN_ENTITY_FACTS = 50
 
 # ---------- Question-gen filters (áp ở generate.py) ----------
 MAX_ANSWERS = 20

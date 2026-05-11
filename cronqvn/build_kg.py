@@ -32,7 +32,7 @@ import requests
 from tqdm import tqdm
 
 from config import (BUILD_MIN_ENTITY_FACTS, BUILD_MIN_RELATION_FACTS, CACHE_DIR,
-                    DATA_DIR, DUMP_FILE, RELATIONS, YEAR_MAX, YEAR_MIN)
+                    DATA_DIR, DUMP_FILE, FACTS_DIR, RELATIONS, YEAR_MAX, YEAR_MIN)
 
 DUMP_URL = "https://dumps.wikimedia.your.org/wikidatawiki/entities/latest-all.json.bz2"
 PIDS = set(RELATIONS.keys())
@@ -115,6 +115,20 @@ try:
     _decode_json = _json.loads
 except ImportError:
     _decode_json = json.loads
+
+
+def write_json_streaming(path: Path, data: dict) -> None:
+    with path.open("w", encoding="utf-8") as f:
+        f.write("{")
+        first = True
+        for k, v in data.items():
+            if not first:
+                f.write(",")
+            f.write(json.dumps(k, ensure_ascii=False))
+            f.write(":")
+            f.write(json.dumps(v, ensure_ascii=False))
+            first = False
+        f.write("}")
 
 
 def stream_entities(path: Path) -> Iterator[dict]:
@@ -228,8 +242,8 @@ def step1_single_pass(dump_path: Path, limit: Optional[int]
     Return (ent_labels, rel_labels, all_facts_path).
     """
     if PASS_DONE.exists():
-        ent = json.loads(LABELS_CKPT.read_text())
-        rel = json.loads(REL_LABELS_CKPT.read_text())
+        ent = json.loads(LABELS_CKPT.read_text(encoding="utf-8"))
+        rel = json.loads(REL_LABELS_CKPT.read_text(encoding="utf-8"))
         n_facts = sum(1 for _ in ALL_FACTS_CKPT.open())
         print(f"  [skip] checkpoint: {len(ent):,} entity, "
               f"{len(rel):,} relation, {n_facts:,} fact thô")
@@ -276,12 +290,12 @@ def step1_single_pass(dump_path: Path, limit: Optional[int]
                 pbar.set_postfix(qids=len(ent_labels), pids=len(rel_labels),
                                  facts=facts_total)
                 ckpt.flush()
-                LABELS_CKPT.write_text(json.dumps(ent_labels, ensure_ascii=False))
-                REL_LABELS_CKPT.write_text(json.dumps(rel_labels, ensure_ascii=False))
+                write_json_streaming(LABELS_CKPT, ent_labels)
+                write_json_streaming(REL_LABELS_CKPT, rel_labels)
     pbar.close()
 
-    LABELS_CKPT.write_text(json.dumps(ent_labels, ensure_ascii=False))
-    REL_LABELS_CKPT.write_text(json.dumps(rel_labels, ensure_ascii=False))
+    write_json_streaming(LABELS_CKPT, ent_labels)
+    write_json_streaming(REL_LABELS_CKPT, rel_labels)
     PASS_DONE.write_text("ok")
     print(f"  → saved: {len(ent_labels):,} entity, {len(rel_labels):,} "
           f"relation, {facts_total:,} fact thô")
@@ -372,23 +386,23 @@ def write_cache(facts: list[dict], labels: dict[str, dict],
 
     cache = Path(CACHE_DIR)
     cache.mkdir(parents=True, exist_ok=True)
+    facts_dir = Path(FACTS_DIR)
+    facts_dir.mkdir(parents=True, exist_ok=True)
     sorted_rels = sorted(by_rel.items(), key=lambda x: -len(x[1]))
     for pid, items in sorted_rels:
-        path = cache / f"{pid}.jsonl"
-        with path.open("w") as f:
+        path = facts_dir / f"{pid}.jsonl"
+        with path.open("w", encoding="utf-8") as f:
             for it in items:
                 f.write(json.dumps(it, ensure_ascii=False) + "\n")
         marker = "★" if pid in PIDS else " "
         print(f"  {marker} {pid}: {len(items):>7,} fact -> {path}")
 
     used_ent = {q: labels[q] for q in needed if q in labels}
-    (cache / "labels.json").write_text(
-        json.dumps(used_ent, ensure_ascii=False, indent=2))
+    write_json_streaming(cache / "labels.json", used_ent)
 
     used_rel_pids = {f["relation"] for f in facts}
     used_rel = {p: rel_labels[p] for p in used_rel_pids if p in rel_labels}
-    (cache / "relation_labels.json").write_text(
-        json.dumps(used_rel, ensure_ascii=False, indent=2))
+    write_json_streaming(cache / "relation_labels.json", used_rel)
 
     total = sum(len(v) for v in by_rel.values())
     vi_ent = sum(1 for d in used_ent.values() if d.get("vi"))
