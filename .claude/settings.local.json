@@ -1,0 +1,8 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(python -c \"import json; d=json.load\\(open\\('out/test.json'\\)\\);print\\(len\\(d\\)\\);print\\(json.dumps\\(d[0],ensure_ascii=False,indent=2\\)\\);print\\('---'\\);print\\(json.dumps\\(d[100],ensure_ascii=False,indent=2\\)\\);print\\('---qtypes'\\);from collections import Counter;print\\(Counter\\(x['qtype'] for x in d\\)\\)\")",
+      "Bash(python3 -c \"import json; d=json.load\\(open\\('out/test.json'\\)\\);print\\(len\\(d\\)\\);print\\(json.dumps\\(d[0],ensure_ascii=False,indent=2\\)\\);print\\('---'\\);print\\(json.dumps\\(d[500],ensure_ascii=False,indent=2\\)\\);print\\('---qtypes'\\);from collections import Counter;print\\(Counter\\(x['qtype'] for x in d\\)\\)\")"
+    ]
+  }
+}

@@ -2,7 +2,7 @@
 
 # ---------- Paths ----------
 DATA_DIR = "data"
-CACHE_DIR = "cache"
+CACHE_DIR = "facts"
 FACTS_DIR = "facts"
 OUT_DIR = "out"
 DUMP_FILE = "data/latest-all.json.bz2"
@@ -82,3 +82,25 @@ BUILD_MIN_ENTITY_FACTS = 20
 MAX_ANSWERS = 20
 MIN_LABEL_LEN = 3
 MIN_BEFORE_AFTER_GAP = 1
+
+# Bỏ fact có o_label là class chung — làm câu hỏi vô nghĩa.
+# Vd "chính trị gia độc lập" không phải một đảng cụ thể; "extraordinary professor"
+# là chức danh chung dùng làm value của P39.
+BAD_O_LABELS = {
+    "P102": {
+        "chính trị gia độc lập", "không đảng phái", "phi đảng phái",
+        "independent politician", "independent",
+    },
+    "P39": {
+        "extraordinary professor", "Privatdozent", "privatdozent",
+        "giáo sư danh dự", "giáo sư thỉnh giảng",
+    },
+}
+
+# Với các relation kéo dài (membership/employment), simple_entity yêu cầu fact
+# có closed interval (end != None) để tránh các claim ongoing thiếu chính xác.
+SIMPLE_ENTITY_REQUIRE_CLOSED = {"P102", "P54", "P108", "P463", "P39", "P69"}
+
+# time_join: overlap tối thiểu (năm) giữa hai fact để được coi là "cùng giai đoạn"
+TIME_JOIN_MIN_OVERLAP = 1
+

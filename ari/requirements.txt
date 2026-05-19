@@ -1,0 +1,4 @@
+# Stdlib-only Python implementation.
+# Requires Ollama running locally (https://ollama.com) with the models pulled:
+#   ollama pull qwen2.5:7b
+#   ollama pull nomic-embed-text
