@@ -1,0 +1,5353 @@
+[
+  {
+    "question": "Vào lúc 1992, ai thuộc National Salvation Front?",
+    "answers": [
+      "Adrian Năstase",
+      "Ion Iliescu",
+      "Marcel Ciolacu",
+      "Teodor Meleșcanu",
+      "Traian Băsescu"
+    ],
+    "answer_type": "entity",
+    "qtype": "simple_entity",
+    "time_level": "year",
+    "relation": "P102",
+    "year": 1992,
+    "entities": [
+      "Q2455738"
+    ],
+    "quid": 1,
+    "qlabel": "Multiple"
+  },
+  {
+    "question": "Năm 1963, ai trong hàng ngũ Đảng Xã hội Chủ nghĩa Thống nhất Đức?",
+    "answers": [
+      "Erich Mielke",
+      "Harry Tisch",
+      "Lothar Bisky",
+      "Walter Ulbricht"
+    ],
+    "answer_type": "entity",
+    "qtype": "simple_entity",
+    "time_level": "year",
+    "relation": "P102",
+    "year": 1963,
+    "entities": [
+      "Q49750"
+    ],
+    "quid": 2,
+    "qlabel": "Multiple"
+  },
+  {
+    "question": "Cầu thủ nào khoác áo Sportivo Italiano vào năm 1968?",
+    "answers": [
+      "Ramón Blanco Rodríguez"
+    ],
+    "answer_type": "entity",
+    "qtype": "simple_entity",
+    "time_level": "year",
+    "relation": "P54",
+    "year": 1968,
+    "entities": [
+      "Q676088"
+    ],
+    "quid": 3,
+    "qlabel": "Single"
+  },
+  {
+    "question": "Năm 1829, đảng viên của Đảng Dân chủ có ai?",
+    "answers": [
+      "John Tyler"
+    ],
+    "answer_type": "entity",
+    "qtype": "simple_entity",
+    "time_level": "year",
+    "relation": "P102",
+    "year": 1829,
+    "entities": [
+      "Q29552"
+    ],
+    "quid": 4,
+    "qlabel": "Single"
+  },
+  {
+    "question": "Ai là người đảm nhận chức Hoàng đế La Mã Thần thánh vào thời điểm 1553?",
+    "answers": [
+      "Karl V của Thánh chế La Mã"
+    ],
+    "answer_type": "entity",
+    "qtype": "simple_entity",
+    "time_level": "year",
+    "relation": "P39",
+    "year": 1553,
+    "entities": [
+      "Q181765"
+    ],
+    "quid": 5,
+    "qlabel": "Single"
+  },
+  {
+    "question": "Năm 1901, ai gia nhập Viện Hàn lâm Khoa học Nga?",
+    "answers": [
+      "Gustaf V của Thụy Điển",
+      "Ivan Petrovich Pavlov"
+    ],
+    "answer_type": "entity",
+    "qtype": "simple_entity",
+    "time_level": "year",
+    "relation": "P463",
+    "year": 1901,
+    "entities": [
+      "Q83172"
+    ],
+    "quid": 6,
+    "qlabel": "Multiple"
+  },
+  {
+    "question": "Năm 1842, ai trong hàng ngũ Đảng Bảo thủ?",
+    "answers": [
+      "William Ewart Gladstone"
+    ],
+    "answer_type": "entity",
+    "qtype": "simple_entity",
+    "time_level": "year",
+    "relation": "P102",
+    "year": 1842,
+    "entities": [
+      "Q9626"
+    ],
+    "quid": 7,
+    "qlabel": "Single"
+  },
+  {
+    "question": "Lãnh đạo nào của Count of Barcelona đương chức vào năm 1083?",
+    "answers": [
+      "Ramon Berenguer III"
+    ],
+    "answer_type": "entity",
+    "qtype": "simple_entity",
+    "time_level": "year",
+    "relation": "P39",
+    "year": 1083,
+    "entities": [
+      "Q38673587"
+    ],
+    "quid": 8,
+    "qlabel": "Single"
+  },
+  {
+    "question": "Năm 1996, ai gia nhập National Academy of Engineering?",
+    "answers": [
+      "Bill Gates",
+      "Douglas Engelbart"
+    ],
+    "answer_type": "entity",
+    "qtype": "simple_entity",
+    "time_level": "year",
+    "relation": "P463",
+    "year": 1996,
+    "entities": [
+      "Q1493021"
+    ],
+    "quid": 9,
+    "qlabel": "Multiple"
+  },
+  {
+    "question": "Lãnh đạo nào của member of the State Senate of West Virginia đương chức vào năm 1994?",
+    "answers": [
+      "Joe Manchin"
+    ],
+    "answer_type": "entity",
+    "qtype": "simple_entity",
+    "time_level": "year",
+    "relation": "P39",
+    "year": 1994,
+    "entities": [
+      "Q21368444"
+    ],
+    "quid": 10,
+    "qlabel": "Single"
+  },
+  {
+    "question": "Viện Hàn lâm Khoa học Nga kết nạp ai vào năm 1939?",
+    "answers": [
+      "Aleksandr Lebedev",
+      "Alexander Gelfond",
+      "Alexander Nesmeyanov",
+      "Andrei Nikolayevich Tupolev",
+      "Andrey Anatoly Botchvar",
+      "Andrey Nikolaevich Kolmogorov",
+      "Andrey Tikhonov",
+      "Ezras Hasratyan",
+      "Hermann Joseph Muller",
+      "Iosif Vissarionovich Stalin",
+      "Nikolay Bruevich",
+      "Nikolay Tsitsin",
+      "Nikoloz Muskhelishvili",
+      "Pavel Sergeevich Aleksandrov",
+      "Sergei Lvovich Sobolev",
+      "Trofim Denisovich Lysenko",
+      "Victor Ambartsumian",
+      "Viktor Sergeevich Kulebakin",
+      "Vladimir Fock",
+      "Vladimir Smirnov"
+    ],
+    "answer_type": "entity",
+    "qtype": "simple_entity",
+    "time_level": "year",
+    "relation": "P463",
+    "year": 1939,
+    "entities": [
+      "Q83172"
+    ],
+    "quid": 11,
+    "qlabel": "Multiple"
+  },
+  {
+    "question": "Vào lúc 1985, ai là học sinh/sinh viên của Đại học Laval?",
+    "answers": [
+      "Serge Beaulieu"
+    ],
+    "answer_type": "entity",
+    "qtype": "simple_entity",
+    "time_level": "year",
+    "relation": "P69",
+    "year": 1985,
+    "entities": [
+      "Q1067935"
+    ],
+    "quid": 12,
+    "qlabel": "Single"
+  },
+  {
+    "question": "Ai chơi cho Corinthian F.C. trong mùa giải 1900?",
+    "answers": [
+      "C. B. Fry"
+    ],
+    "answer_type": "entity",
+    "qtype": "simple_entity",
+    "time_level": "year",
+    "relation": "P54",
+    "year": 1900,
+    "entities": [
+      "Q1132931"
+    ],
+    "quid": 13,
+    "qlabel": "Single"
+  },
+  {
+    "question": "Vào lúc 1997, ai thuộc Đảng Dân chủ Cơ-đốc?",
+    "answers": [
+      "Ruud Lubbers"
+    ],
+    "answer_type": "entity",
+    "qtype": "simple_entity",
+    "time_level": "year",
+    "relation": "P102",
+    "year": 1997,
+    "entities": [
+      "Q273749"
+    ],
+    "quid": 14,
+    "qlabel": "Single"
+  },
+  {
+    "question": "Năm 1996, Lommel SK chiêu mộ ai?",
+    "answers": [
+      "Khalilou Fadiga"
+    ],
+    "answer_type": "entity",
+    "qtype": "simple_entity",
+    "time_level": "year",
+    "relation": "P54",
+    "year": 1996,
+    "entities": [
+      "Q1668203"
+    ],
+    "quid": 15,
+    "qlabel": "Single"
+  },
+  {
+    "question": "Năm 1691, Đại học Sapienza của Rome có sinh viên nào?",
+    "answers": [
+      "Frederick Charles of Schönborn"
+    ],
+    "answer_type": "entity",
+    "qtype": "simple_entity",
+    "time_level": "year",
+    "relation": "P69",
+    "year": 1691,
+    "entities": [
+      "Q209344"
+    ],
+    "quid": 16,
+    "qlabel": "Single"
+  },
+  {
+    "question": "Năm 1854, ai trong hàng ngũ Đảng Cộng hòa?",
+    "answers": [
+      "Abraham Lincoln"
+    ],
+    "answer_type": "entity",
+    "qtype": "simple_entity",
+    "time_level": "year",
+    "relation": "P102",
+    "year": 1854,
+    "entities": [
+      "Q29468"
+    ],
+    "quid": 17,
+    "qlabel": "Single"
+  },
+  {
+    "question": "king of Joseon Dynasty được ai lãnh đạo vào thời gian 1402?",
+    "answers": [
+      "Triều Tiên Thái Tông"
+    ],
+    "answer_type": "entity",
+    "qtype": "simple_entity",
+    "time_level": "year",
+    "relation": "P39",
+    "year": 1402,
+    "entities": [
+      "Q22304810"
+    ],
+    "quid": 18,
+    "qlabel": "Single"
+  },
+  {
+    "question": "Tại thời điểm 1546, ai đứng đầu Hoàng đế La Mã Thần thánh?",
+    "answers": [
+      "Karl V của Thánh chế La Mã"
+    ],
+    "answer_type": "entity",
+    "qtype": "simple_entity",
+    "time_level": "year",
+    "relation": "P39",
+    "year": 1546,
+    "entities": [
+      "Q181765"
+    ],
+    "quid": 19,
+    "qlabel": "Single"
+  },
+  {
+    "question": "Năm 1840, ai trong hàng ngũ Đảng Bảo thủ?",
+    "answers": [
+      "William Ewart Gladstone"
+    ],
+    "answer_type": "entity",
+    "qtype": "simple_entity",
+    "time_level": "year",
+    "relation": "P102",
+    "year": 1840,
+    "entities": [
+      "Q9626"
+    ],
+    "quid": 20,
+    "qlabel": "Single"
+  },
+  {
+    "question": "Vào khoảng thời gian 1095, ai làm Count of Barcelona?",
+    "answers": [
+      "Ramon Berenguer III"
+    ],
+    "answer_type": "entity",
+    "qtype": "simple_entity",
+    "time_level": "year",
+    "relation": "P39",
+    "year": 1095,
+    "entities": [
+      "Q38673587"
+    ],
+    "quid": 21,
+    "qlabel": "Single"
+  },
+  {
+    "question": "Năm 2014, ai thuộc European Molecular Biology Organization?",
+    "answers": [
+      "David Baltimore"
+    ],
+    "answer_type": "entity",
+    "qtype": "simple_entity",
+    "time_level": "year",
+    "relation": "P463",
+    "year": 2014,
+    "entities": [
+      "Q1376791"
+    ],
+    "quid": 22,
+    "qlabel": "Single"
+  },
+  {
+    "question": "Vào thời gian 1860, Đảng Cộng hòa bao gồm những ai?",
+    "answers": [
+      "Abraham Lincoln"
+    ],
+    "answer_type": "entity",
+    "qtype": "simple_entity",
+    "time_level": "year",
+    "relation": "P102",
+    "year": 1860,
+    "entities": [
+      "Q29468"
+    ],
+    "quid": 23,
+    "qlabel": "Single"
+  },
+  {
+    "question": "Năm 1997, đảng viên của Social Democracy có ai?",
+    "answers": [
+      "Bohuslav Sobotka",
+      "Jaroslav Faltýnek",
+      "Jiří Paroubek",
+      "Miloš Zeman",
+      "Pavel Rychetský"
+    ],
+    "answer_type": "entity",
+    "qtype": "simple_entity",
+    "time_level": "year",
+    "relation": "P102",
+    "year": 1997,
+    "entities": [
+      "Q341148"
+    ],
+    "quid": 24,
+    "qlabel": "Multiple"
+  },
+  {
+    "question": "Năm 1665, học sinh nào của Cao đẳng Trinity?",
+    "answers": [
+      "Isaac Newton"
+    ],
+    "answer_type": "entity",
+    "qtype": "simple_entity",
+    "time_level": "year",
+    "relation": "P69",
+    "year": 1665,
+    "entities": [
+      "Q332342"
+    ],
+    "quid": 25,
+    "qlabel": "Single"
+  },
+  {
+    "question": "Ai chơi cho Maidstone United F.C. (1987) trong mùa giải 1971?",
+    "answers": [
+      "Roy Hodgson"
+    ],
+    "answer_type": "entity",
+    "qtype": "simple_entity",
+    "time_level": "year",
+    "relation": "P54",
+    "year": 1971,
+    "entities": [
+      "Q16844365"
+    ],
+    "quid": 26,
+    "qlabel": "Single"
+  },
+  {
+    "question": "Ai là người đảm nhận chức vua của nước Anh vào thời điểm 1641?",
+    "answers": [
+      "Charles I của Anh"
+    ],
+    "answer_type": "entity",
+    "qtype": "simple_entity",
+    "time_level": "year",
+    "relation": "P39",
+    "year": 1641,
+    "entities": [
+      "Q18810062"
+    ],
+    "quid": 27,
+    "qlabel": "Single"
+  },
+  {
+    "question": "Ai học tại Đại học Uppsala vào năm 1728?",
+    "answers": [
+      "Carl von Linné"
+    ],
+    "answer_type": "entity",
+    "qtype": "simple_entity",
+    "time_level": "year",
+    "relation": "P69",
+    "year": 1728,
+    "entities": [
+      "Q185246"
+    ],
+    "quid": 28,
+    "qlabel": "Single"
+  },
+  {
+    "question": "Vào lúc 1933, ai là học sinh/sinh viên của Đại học Columbia?",
+    "answers": [
+      "Norman Foster Ramsey"
+    ],
+    "answer_type": "entity",
+    "qtype": "simple_entity",
+    "time_level": "year",
+    "relation": "P69",
+    "year": 1933,
+    "entities": [
+      "Q49088"
+    ],
+    "quid": 29,
+    "qlabel": "Single"
+  },
+  {
+    "question": "Vào thời gian 1873, ai theo học ở Grand Séminaire de Rimouski?",
+    "answers": [
+      "Ambroise Philias-Pierre Fortier",
+      "Charles-Alphonse Charbonneau",
+      "Louis Alphonse Lamontagne",
+      "Louis-Philippe Romuald Sylvain",
+      "Régis Couillard dit Beaumont"
+    ],
+    "answer_type": "entity",
+    "qtype": "simple_entity",
+    "time_level": "year",
+    "relation": "P69",
+    "year": 1873,
+    "entities": [
+      "Q99387936"
+    ],
+    "quid": 30,
+    "qlabel": "Multiple"
+  },
+  {
+    "question": "Hội hoàng gia Luân Đôn kết nạp ai vào năm 1862?",
+    "answers": [
+      "Franz Ernst Neumann"
+    ],
+    "answer_type": "entity",
+    "qtype": "simple_entity",
+    "time_level": "year",
+    "relation": "P463",
+    "year": 1862,
+    "entities": [
+      "Q123885"
+    ],
+    "quid": 31,
+    "qlabel": "Single"
+  },
+  {
+    "question": "Ai là thành viên Đảng Tự do Anh vào năm 1879?",
+    "answers": [
+      "John Bright",
+      "Joseph Chamberlain",
+      "William Thomson"
+    ],
+    "answer_type": "entity",
+    "qtype": "simple_entity",
+    "time_level": "year",
+    "relation": "P102",
+    "year": 1879,
+    "entities": [
+      "Q622441"
+    ],
+    "quid": 32,
+    "qlabel": "Multiple"
+  },
+  {
+    "question": "Ai là thành viên Tổ chức Dân tộc Mã Lai Thống nhất vào năm 1971?",
+    "answers": [
+      "Abdullah Ahmad Badawi",
+      "Mahathir Mohamad"
+    ],
+    "answer_type": "entity",
+    "qtype": "simple_entity",
+    "time_level": "year",
+    "relation": "P102",
+    "year": 1971,
+    "entities": [
+      "Q1668154"
+    ],
+    "quid": 33,
+    "qlabel": "Multiple"
+  },
+  {
+    "question": "Ai học tại Đại học Eötvös Loránd vào năm 1917?",
+    "answers": [
+      "Albert Szent-Györgyi"
+    ],
+    "answer_type": "entity",
+    "qtype": "simple_entity",
+    "time_level": "year",
+    "relation": "P69",
+    "year": 1917,
+    "entities": [
+      "Q390287"
+    ],
+    "quid": 34,
+    "qlabel": "Single"
+  },
+  {
+    "question": "Ai học tại Cao đẳng Trinity vào năm 1665?",
+    "answers": [
+      "Isaac Newton"
+    ],
+    "answer_type": "entity",
+    "qtype": "simple_entity",
+    "time_level": "year",
+    "relation": "P69",
+    "year": 1665,
+    "entities": [
+      "Q332342"
+    ],
+    "quid": 35,
+    "qlabel": "Single"
+  },
+  {
+    "question": "Vào lúc 1992, ai thuộc Đảng Dân tộc Scotland?",
+    "answers": [
+      "Alex Salmond"
+    ],
+    "answer_type": "entity",
+    "qtype": "simple_entity",
+    "time_level": "year",
+    "relation": "P102",
+    "year": 1992,
+    "entities": [
+      "Q10658"
+    ],
+    "quid": 36,
+    "qlabel": "Single"
+  },
+  {
+    "question": "Cầu thủ nào khoác áo Borussia Mönchengladbach vào năm 1982?",
+    "answers": [
+      "Lothar Matthäus"
+    ],
+    "answer_type": "entity",
+    "qtype": "simple_entity",
+    "time_level": "year",
+    "relation": "P54",
+    "year": 1982,
+    "entities": [
+      "Q101959"
+    ],
+    "quid": 37,
+    "qlabel": "Single"
+  },
+  {
+    "question": "Năm 1854, Klein Seminarie Roeselare có sinh viên nào?",
+    "answers": [
+      "Hugo Verriest"
+    ],
+    "answer_type": "entity",
+    "qtype": "simple_entity",
+    "time_level": "year",
+    "relation": "P69",
+    "year": 1854,
+    "entities": [
+      "Q1867263"
+    ],
+    "quid": 38,
+    "qlabel": "Single"
+  },
+  {
+    "question": "Năm 1834, học sinh nào của Đại học Tübingen?",
+    "answers": [
+      "Andreas von Renner"
+    ],
+    "answer_type": "entity",
+    "qtype": "simple_entity",
+    "time_level": "year",
+    "relation": "P69",
+    "year": 1834,
+    "entities": [
+      "Q153978"
+    ],
+    "quid": 39,
+    "qlabel": "Single"
+  },
+  {
+    "question": "Năm 1953, ai thuộc Viện hàn lâm Khoa học quốc gia Hoa Kỳ?",
+    "answers": [
+      "Edwin H. Land",
+      "Einar Hille",
+      "Jan Hendrik Oort",
+      "Lars Ahlfors",
+      "Paul Flory",
+      "Robert Burns Woodward"
+    ],
+    "answer_type": "entity",
+    "qtype": "simple_entity",
+    "time_level": "year",
+    "relation": "P463",
+    "year": 1953,
+    "entities": [
+      "Q270794"
+    ],
+    "quid": 40,
+    "qlabel": "Multiple"
+  },
+  {
+    "question": "Ai học tại Đại học Uppsala vào năm 1764?",
+    "answers": [
+      "Curt von Stedingk"
+    ],
+    "answer_type": "entity",
+    "qtype": "simple_entity",
+    "time_level": "year",
+    "relation": "P69",
+    "year": 1764,
+    "entities": [
+      "Q185246"
+    ],
+    "quid": 41,
+    "qlabel": "Single"
+  },
+  {
+    "question": "Vào thời gian 1865, Đảng Tự do Anh bao gồm những ai?",
+    "answers": [
+      "Arnold Keppel, 8th Earl of Albemarle",
+      "John Bright",
+      "William Thomson"
+    ],
+    "answer_type": "entity",
+    "qtype": "simple_entity",
+    "time_level": "year",
+    "relation": "P102",
+    "year": 1865,
+    "entities": [
+      "Q622441"
+    ],
+    "quid": 42,
+    "qlabel": "Multiple"
+  },
+  {
+    "question": "Năm 1816, ai gia nhập Viện Hàn lâm Pháp?",
+    "answers": [
+      "Pierre-Simon Laplace"
+    ],
+    "answer_type": "entity",
+    "qtype": "simple_entity",
+    "time_level": "year",
+    "relation": "P463",
+    "year": 1816,
+    "entities": [
+      "Q161806"
+    ],
+    "quid": 43,
+    "qlabel": "Single"
+  },
+  {
+    "question": "Roman Catholic Bishop of Strasbourg được ai lãnh đạo vào thời gian 1653?",
+    "answers": [
+      "Archduke Leopold Wilhelm of Austria"
+    ],
+    "answer_type": "entity",
+    "qtype": "simple_entity",
+    "time_level": "year",
+    "relation": "P39",
+    "year": 1653,
+    "entities": [
+      "Q23782073"
+    ],
+    "quid": 44,
+    "qlabel": "Single"
+  },
+  {
+    "question": "Năm 2023, ai trong hàng ngũ Junts per Catalunya?",
+    "answers": [
+      "Jordi Sànchez i Picanyol"
+    ],
+    "answer_type": "entity",
+    "qtype": "simple_entity",
+    "time_level": "year",
+    "relation": "P102",
+    "year": 2023,
+    "entities": [
+      "Q97155800"
+    ],
+    "quid": 45,
+    "qlabel": "Single"
+  },
+  {
+    "question": "United States senator được ai lãnh đạo vào thời gian 1922?",
+    "answers": [
+      "Francis E. Warren",
+      "Furnifold McLendel Simmons",
+      "Henry Cabot Lodge",
+      "Kenneth McKellar",
+      "Robert M. La Follette",
+      "Walter F. George"
+    ],
+    "answer_type": "entity",
+    "qtype": "simple_entity",
+    "time_level": "year",
+    "relation": "P39",
+    "year": 1922,
+    "entities": [
+      "Q4416090"
+    ],
+    "quid": 46,
+    "qlabel": "Multiple"
+  },
+  {
+    "question": "Năm 1662, Đại học Leipzig có sinh viên nào?",
+    "answers": [
+      "Gottfried Leibniz"
+    ],
+    "answer_type": "entity",
+    "qtype": "simple_entity",
+    "time_level": "year",
+    "relation": "P69",
+    "year": 1662,
+    "entities": [
+      "Q154804"
+    ],
+    "quid": 47,
+    "qlabel": "Single"
+  },
+  {
+    "question": "Năm 1877, đảng viên của Đảng Tự do Anh có ai?",
+    "answers": [
+      "Arnold Keppel, 8th Earl of Albemarle",
+      "John Bright",
+      "John Russell, 1st Earl Russell",
+      "Joseph Chamberlain",
+      "William Thomson"
+    ],
+    "answer_type": "entity",
+    "qtype": "simple_entity",
+    "time_level": "year",
+    "relation": "P102",
+    "year": 1877,
+    "entities": [
+      "Q622441"
+    ],
+    "quid": 48,
+    "qlabel": "Multiple"
+  },
+  {
+    "question": "Ai là người đảm nhận chức Count of Barcelona vào thời điểm 1235?",
+    "answers": [
+      "James I of Aragon"
+    ],
+    "answer_type": "entity",
+    "qtype": "simple_entity",
+    "time_level": "year",
+    "relation": "P39",
+    "year": 1235,
+    "entities": [
+      "Q38673587"
+    ],
+    "quid": 49,
+    "qlabel": "Single"
+  },
+  {
+    "question": "Count of Barcelona được ai lãnh đạo vào thời gian 839?",
+    "answers": [
+      "Bernard of Septimania"
+    ],
+    "answer_type": "entity",
+    "qtype": "simple_entity",
+    "time_level": "year",
+    "relation": "P39",
+    "year": 839,
+    "entities": [
+      "Q38673587"
+    ],
+    "quid": 50,
+    "qlabel": "Single"
+  },
+  {
+    "question": "Ai thi đấu cho Ferar Cluj vào năm 1946?",
+    "answers": [
+      "Ștefan Kovács"
+    ],
+    "answer_type": "entity",
+    "qtype": "simple_entity",
+    "time_level": "year",
+    "relation": "P54",
+    "year": 1946,
+    "entities": [
+      "Q1404988"
+    ],
+    "quid": 51,
+    "qlabel": "Single"
+  },
+  {
+    "question": "Năm 1958, ai gia nhập Khối Warszawa?",
+    "answers": [
+      "Albania",
+      "Ba Lan",
+      "Bulgaria",
+      "Cộng hòa Dân chủ Đức",
+      "Cộng hòa Nhân dân Ba Lan",
+      "Cộng hòa Nhân dân Bulgaria",
+      "Cộng hòa Nhân dân Hungary",
+      "Cộng hòa Xã hội chủ nghĩa România",
+      "Cộng hòa Xã hội chủ nghĩa Tiệp Khắc",
+      "Hungary",
+      "Liên Xô",
+      "România",
+      "Tiệp Khắc"
+    ],
+    "answer_type": "entity",
+    "qtype": "simple_entity",
+    "time_level": "year",
+    "relation": "P463",
+    "year": 1958,
+    "entities": [
+      "Q41644"
+    ],
+    "quid": 52,
+    "qlabel": "Multiple"
+  },
+  {
+    "question": "AS Cannes có thành viên nào vào lúc 1984?",
+    "answers": [
+      "Hervé Renard"
+    ],
+    "answer_type": "entity",
+    "qtype": "simple_entity",
+    "time_level": "year",
+    "relation": "P54",
+    "year": 1984,
+    "entities": [
+      "Q298267"
+    ],
+    "quid": 53,
+    "qlabel": "Single"
+  },
+  {
+    "question": "Viện Hàn lâm Pháp kết nạp ai vào năm 1713?",
+    "answers": [
+      "Jean-Paul Bignon"
+    ],
+    "answer_type": "entity",
+    "qtype": "simple_entity",
+    "time_level": "year",
+    "relation": "P463",
+    "year": 1713,
+    "entities": [
+      "Q161806"
+    ],
+    "quid": 54,
+    "qlabel": "Single"
+  },
+  {
+    "question": "Vào lúc 1915, ai thuộc Đảng Trung tâm Đức?",
+    "answers": [
+      "Konrad Adenauer"
+    ],
+    "answer_type": "entity",
+    "qtype": "simple_entity",
+    "time_level": "year",
+    "relation": "P102",
+    "year": 1915,
+    "entities": [
+      "Q157537"
+    ],
+    "quid": 55,
+    "qlabel": "Single"
+  },
+  {
+    "question": "Ai chơi cho Korona Kielce trong mùa giải 2019?",
+    "answers": [
+      "Joonas Tamm"
+    ],
+    "answer_type": "entity",
+    "qtype": "simple_entity",
+    "time_level": "year",
+    "relation": "P54",
+    "year": 2019,
+    "entities": [
+      "Q730219"
+    ],
+    "quid": 56,
+    "qlabel": "Single"
+  },
+  {
+    "question": "Vào năm 1959, ai là cầu thủ của Đội tuyển bóng đá U-21 quốc gia Anh?",
+    "answers": [
+      "Bobby Charlton"
+    ],
+    "answer_type": "entity",
+    "qtype": "simple_entity",
+    "time_level": "year",
+    "relation": "P54",
+    "year": 1959,
+    "entities": [
+      "Q204238"
+    ],
+    "quid": 57,
+    "qlabel": "Single"
+  },
+  {
+    "question": "Vào thời gian 1845, ai theo học ở Đại học Leipzig?",
+    "answers": [
+      "August Rossbach"
+    ],
+    "answer_type": "entity",
+    "qtype": "simple_entity",
+    "time_level": "year",
+    "relation": "P69",
+    "year": 1845,
+    "entities": [
+      "Q154804"
+    ],
+    "quid": 58,
+    "qlabel": "Single"
+  },
+  {
+    "question": "Vào lúc 1880, Học viện Lincean có thành viên nào?",
+    "answers": [
+      "Alphonse Pyramus de Candolle",
+      "Emil du Bois-Reymond",
+      "Ernest Renan",
+      "Ernst Kummer",
+      "Franz Ernst Neumann",
+      "Franz Ritter von Hauer",
+      "Friedrich Max Müller",
+      "Gabriel Auguste Daubrée",
+      "Gaston Paris",
+      "George Biddell Airy",
+      "John Couch Adams",
+      "Jules Simon",
+      "Rudolf Clausius",
+      "Thomas Henry Huxley",
+      "William Huggins",
+      "William Thomson"
+    ],
+    "answer_type": "entity",
+    "qtype": "simple_entity",
+    "time_level": "year",
+    "relation": "P463",
+    "year": 1880,
+    "entities": [
+      "Q338432"
+    ],
+    "quid": 59,
+    "qlabel": "Multiple"
+  },
+  {
+    "question": "Năm 1825, ai gia nhập Hội Khoa học hoàng gia Đan Mạch?",
+    "answers": [
+      "Hans Christian Ørsted"
+    ],
+    "answer_type": "entity",
+    "qtype": "simple_entity",
+    "time_level": "year",
+    "relation": "P463",
+    "year": 1825,
+    "entities": [
+      "Q1636237"
+    ],
+    "quid": 60,
+    "qlabel": "Single"
+  },
+  {
+    "question": "Khi nào Wolfgang Panofsky bắt đầu trở thành thành viên của Học viện Lincean?",
+    "answers": [
+      "1994"
+    ],
+    "answer_type": "time",
+    "qtype": "simple_time",
+    "subtype": "start",
+    "time_level": "year",
+    "relation": "P463",
+    "entities": [
+      "Q707116",
+      "Q338432"
+    ],
+    "quid": 61,
+    "qlabel": "Single"
+  },
+  {
+    "question": "Nikolai Dukhov bắt đầu là thành viên Đảng Cộng sản Liên Xô vào năm nào?",
+    "answers": [
+      "1941"
+    ],
+    "answer_type": "time",
+    "qtype": "simple_time",
+    "subtype": "start",
+    "time_level": "year",
+    "relation": "P102",
+    "entities": [
+      "Q4171280",
+      "Q79854"
+    ],
+    "quid": 62,
+    "qlabel": "Single"
+  },
+  {
+    "question": "David Hunt, Baron Hunt of Wirral giữ chức vụ Deputy Chief Whip vào năm nào?",
+    "answers": [
+      "1987"
+    ],
+    "answer_type": "time",
+    "qtype": "simple_time",
+    "subtype": "start",
+    "time_level": "year",
+    "relation": "P39",
+    "entities": [
+      "Q333909",
+      "Q112921135"
+    ],
+    "quid": 63,
+    "qlabel": "Single"
+  },
+  {
+    "question": "Njogu Demba-Nyrén đầu quân cho PAS Giannina F.C. trong khoảng thời gian nào?",
+    "answers": [
+      "2001",
+      "2002"
+    ],
+    "answer_type": "time",
+    "qtype": "simple_time",
+    "subtype": "range",
+    "time_level": "year",
+    "relation": "P54",
+    "entities": [
+      "Q940778",
+      "Q280679"
+    ],
+    "quid": 64,
+    "qlabel": "Multiple"
+  },
+  {
+    "question": "Mark Briggs thi đấu cho Notts County F.C. từ khi nào đến khi nào?",
+    "answers": [
+      "2004",
+      "2004"
+    ],
+    "answer_type": "time",
+    "qtype": "simple_time",
+    "subtype": "range",
+    "time_level": "year",
+    "relation": "P54",
+    "entities": [
+      "Q6766851",
+      "Q19598"
+    ],
+    "quid": 65,
+    "qlabel": "Multiple"
+  },
+  {
+    "question": "Mohamed Dahmane là thành viên của K.R.C. Genk vào năm nào?",
+    "answers": [
+      "2006"
+    ],
+    "answer_type": "time",
+    "qtype": "simple_time",
+    "subtype": "start",
+    "time_level": "year",
+    "relation": "P54",
+    "entities": [
+      "Q1347295",
+      "Q216032"
+    ],
+    "quid": 66,
+    "qlabel": "Single"
+  },
+  {
+    "question": "Santi Vila đứng trong hàng ngũ Republican Left of Catalonia từ năm nào?",
+    "answers": [
+      "1991"
+    ],
+    "answer_type": "time",
+    "qtype": "simple_time",
+    "subtype": "start",
+    "time_level": "year",
+    "relation": "P102",
+    "entities": [
+      "Q15731273",
+      "Q150068"
+    ],
+    "quid": 67,
+    "qlabel": "Single"
+  },
+  {
+    "question": "Elisabetta Farnese và Felipe V của Tây Ban Nha kết hôn vào lúc nào?",
+    "answers": [
+      "1714"
+    ],
+    "answer_type": "time",
+    "qtype": "simple_time",
+    "subtype": "start",
+    "time_level": "year",
+    "relation": "P26",
+    "entities": [
+      "Q229867",
+      "Q170467"
+    ],
+    "quid": 68,
+    "qlabel": "Single"
+  },
+  {
+    "question": "Đại học California tại Los Angeles tham gia Higher Education Leadership Initiative for Open Scholarship năm nào?",
+    "answers": [
+      "2022"
+    ],
+    "answer_type": "time",
+    "qtype": "simple_time",
+    "subtype": "start",
+    "time_level": "year",
+    "relation": "P463",
+    "entities": [
+      "Q174710",
+      "Q123938901"
+    ],
+    "quid": 69,
+    "qlabel": "Single"
+  },
+  {
+    "question": "Tage Erlander từ chức member of the Second Chamber vào năm nào?",
+    "answers": [
+      "1944"
+    ],
+    "answer_type": "time",
+    "qtype": "simple_time",
+    "subtype": "end",
+    "time_level": "year",
+    "relation": "P39",
+    "entities": [
+      "Q53707",
+      "Q81531912"
+    ],
+    "quid": 70,
+    "qlabel": "Single"
+  },
+  {
+    "question": "Na Uy tham gia Hiệp hội Phát triển Quốc tế năm nào?",
+    "answers": [
+      "1960"
+    ],
+    "answer_type": "time",
+    "qtype": "simple_time",
+    "subtype": "start",
+    "time_level": "year",
+    "relation": "P463",
+    "entities": [
+      "Q20",
+      "Q827525"
+    ],
+    "quid": 71,
+    "qlabel": "Single"
+  },
+  {
+    "question": "Penelope Cruz cưới Javier Bardem vào năm nào?",
+    "answers": [
+      "2010"
+    ],
+    "answer_type": "time",
+    "qtype": "simple_time",
+    "subtype": "start",
+    "time_level": "year",
+    "relation": "P26",
+    "entities": [
+      "Q39666",
+      "Q134895"
+    ],
+    "quid": 72,
+    "qlabel": "Single"
+  },
+  {
+    "question": "Andrey Nikolaevich Kolmogorov đoạt Lobachevsky Prize năm nào?",
+    "answers": [
+      "1986"
+    ],
+    "answer_type": "time",
+    "qtype": "simple_time",
+    "subtype": "start",
+    "time_level": "year",
+    "relation": "P166",
+    "entities": [
+      "Q153224",
+      "Q767840"
+    ],
+    "quid": 73,
+    "qlabel": "Single"
+  },
+  {
+    "question": "Jair Bolsonaro rời Social Liberal Party năm nào?",
+    "answers": [
+      "2019"
+    ],
+    "answer_type": "time",
+    "qtype": "simple_time",
+    "subtype": "end",
+    "time_level": "year",
+    "relation": "P102",
+    "entities": [
+      "Q10304982",
+      "Q2366265"
+    ],
+    "quid": 74,
+    "qlabel": "Single"
+  },
+  {
+    "question": "Joonas Tamm đầu quân cho IFK Norrköping FK trong khoảng thời gian nào?",
+    "answers": [
+      "2011",
+      "2013"
+    ],
+    "answer_type": "time",
+    "qtype": "simple_time",
+    "subtype": "range",
+    "time_level": "year",
+    "relation": "P54",
+    "entities": [
+      "Q1703522",
+      "Q108001798"
+    ],
+    "quid": 75,
+    "qlabel": "Multiple"
+  },
+  {
+    "question": "Mark Zuckerberg theo học tại Đại học Harvard vào năm nào?",
+    "answers": [
+      "2002"
+    ],
+    "answer_type": "time",
+    "qtype": "simple_time",
+    "subtype": "start",
+    "time_level": "year",
+    "relation": "P69",
+    "entities": [
+      "Q36215",
+      "Q13371"
+    ],
+    "quid": 76,
+    "qlabel": "Single"
+  },
+  {
+    "question": "Angelina Jolie và Billy Bob Thornton ly hôn năm nào?",
+    "answers": [
+      "2003"
+    ],
+    "answer_type": "time",
+    "qtype": "simple_time",
+    "subtype": "end",
+    "time_level": "year",
+    "relation": "P26",
+    "entities": [
+      "Q13909",
+      "Q202735"
+    ],
+    "quid": 77,
+    "qlabel": "Single"
+  },
+  {
+    "question": "Richard E. Bellman đầu quân cho Đại học Stanford vào khoảng thời gian nào?",
+    "answers": [
+      "1948",
+      "1952"
+    ],
+    "answer_type": "time",
+    "qtype": "simple_time",
+    "subtype": "range",
+    "time_level": "year",
+    "relation": "P108",
+    "entities": [
+      "Q441199",
+      "Q41506"
+    ],
+    "quid": 78,
+    "qlabel": "Multiple"
+  },
+  {
+    "question": "Năm nào Paul-André Meyer bắt đầu làm việc tại Đại học Strasbourg?",
+    "answers": [
+      "1964"
+    ],
+    "answer_type": "time",
+    "qtype": "simple_time",
+    "subtype": "start",
+    "time_level": "year",
+    "relation": "P108",
+    "entities": [
+      "Q574603",
+      "Q157575"
+    ],
+    "quid": 79,
+    "qlabel": "Single"
+  },
+  {
+    "question": "Sylvester Stallone và Brigitte Nielsen kết hôn vào lúc nào?",
+    "answers": [
+      "1985"
+    ],
+    "answer_type": "time",
+    "qtype": "simple_time",
+    "subtype": "start",
+    "time_level": "year",
+    "relation": "P26",
+    "entities": [
+      "Q40026",
+      "Q154519"
+    ],
+    "quid": 80,
+    "qlabel": "Single"
+  },
+  {
+    "question": "Sébastien Lecornu rời Đảng liên minh vì phong trào nhân dân năm nào?",
+    "answers": [
+      "2015"
+    ],
+    "answer_type": "time",
+    "qtype": "simple_time",
+    "subtype": "end",
+    "time_level": "year",
+    "relation": "P102",
+    "entities": [
+      "Q20089181",
+      "Q173152"
+    ],
+    "quid": 81,
+    "qlabel": "Single"
+  },
+  {
+    "question": "Eduard Wiegand là sinh viên Đại học Ludwig Maximilian München trong khoảng thời gian nào?",
+    "answers": [
+      "1913",
+      "1914"
+    ],
+    "answer_type": "time",
+    "qtype": "simple_time",
+    "subtype": "range",
+    "time_level": "year",
+    "relation": "P69",
+    "entities": [
+      "Q15437809",
+      "Q55044"
+    ],
+    "quid": 82,
+    "qlabel": "Multiple"
+  },
+  {
+    "question": "Cuộc hôn nhân của Tony Walton và Julie Andrews kéo dài từ năm nào đến năm nào?",
+    "answers": [
+      "1959",
+      "1967"
+    ],
+    "answer_type": "time",
+    "qtype": "simple_time",
+    "subtype": "range",
+    "time_level": "year",
+    "relation": "P26",
+    "entities": [
+      "Q2803671",
+      "Q161819"
+    ],
+    "quid": 83,
+    "qlabel": "Multiple"
+  },
+  {
+    "question": "Sebastian Kurz bắt đầu du học tại Đại học Viên vào năm nào?",
+    "answers": [
+      "2005"
+    ],
+    "answer_type": "time",
+    "qtype": "simple_time",
+    "subtype": "start",
+    "time_level": "year",
+    "relation": "P69",
+    "entities": [
+      "Q2262885",
+      "Q165980"
+    ],
+    "quid": 84,
+    "qlabel": "Single"
+  },
+  {
+    "question": "Friedrich-Wilhelm von Sell bắt đầu là thành viên Đảng Công nhân Đức Quốc gia Xã hội chủ nghĩa vào năm nào?",
+    "answers": [
+      "1944"
+    ],
+    "answer_type": "time",
+    "qtype": "simple_time",
+    "subtype": "start",
+    "time_level": "year",
+    "relation": "P102",
+    "entities": [
+      "Q1457924",
+      "Q7320"
+    ],
+    "quid": 85,
+    "qlabel": "Single"
+  },
+  {
+    "question": "Bob Kahn nhận giải James Madison Medal khi nào?",
+    "answers": [
+      "2023"
+    ],
+    "answer_type": "time",
+    "qtype": "simple_time",
+    "subtype": "start",
+    "time_level": "year",
+    "relation": "P166",
+    "entities": [
+      "Q62843",
+      "Q21662156"
+    ],
+    "quid": 86,
+    "qlabel": "Single"
+  },
+  {
+    "question": "Michael Douglas kết hôn với Catherine Zeta-Jones từ năm bao nhiêu?",
+    "answers": [
+      "2000"
+    ],
+    "answer_type": "time",
+    "qtype": "simple_time",
+    "subtype": "start",
+    "time_level": "year",
+    "relation": "P26",
+    "entities": [
+      "Q119798",
+      "Q47664"
+    ],
+    "quid": 87,
+    "qlabel": "Single"
+  },
+  {
+    "question": "Jürgen Moser là sinh viên Đại học Göttingen trong khoảng thời gian nào?",
+    "answers": [
+      "1947",
+      "1952"
+    ],
+    "answer_type": "time",
+    "qtype": "simple_time",
+    "subtype": "range",
+    "time_level": "year",
+    "relation": "P69",
+    "entities": [
+      "Q65209",
+      "Q152838"
+    ],
+    "quid": 88,
+    "qlabel": "Multiple"
+  },
+  {
+    "question": "Khi nào Wittenberg bắt đầu trở thành thành viên của Climate Alliance?",
+    "answers": [
+      "1996"
+    ],
+    "answer_type": "time",
+    "qtype": "simple_time",
+    "subtype": "start",
+    "time_level": "year",
+    "relation": "P463",
+    "entities": [
+      "Q6837",
+      "Q1768108"
+    ],
+    "quid": 89,
+    "qlabel": "Single"
+  },
+  {
+    "question": "Jean-François Deniau được vinh danh giải Bắc Đẩu Bội tinh hạng 3 vào năm nào?",
+    "answers": [
+      "1998"
+    ],
+    "answer_type": "time",
+    "qtype": "simple_time",
+    "subtype": "start",
+    "time_level": "year",
+    "relation": "P166",
+    "entities": [
+      "Q662406",
+      "Q10855212"
+    ],
+    "quid": 90,
+    "qlabel": "Single"
+  },
+  {
+    "question": "Cuộc hôn nhân của Ellen Kushner và Delia Sherman bắt đầu năm nào?",
+    "answers": [
+      "1996"
+    ],
+    "answer_type": "time",
+    "qtype": "simple_time",
+    "subtype": "start",
+    "time_level": "year",
+    "relation": "P26",
+    "entities": [
+      "Q433291",
+      "Q5253889"
+    ],
+    "quid": 91,
+    "qlabel": "Single"
+  },
+  {
+    "question": "Khi nào Sebastián Ramallo Asensio nhập học University of Murcia?",
+    "answers": [
+      "1984"
+    ],
+    "answer_type": "time",
+    "qtype": "simple_time",
+    "subtype": "start",
+    "time_level": "year",
+    "relation": "P69",
+    "entities": [
+      "Q55091088",
+      "Q1236345"
+    ],
+    "quid": 92,
+    "qlabel": "Single"
+  },
+  {
+    "question": "Khoảng thời gian nào Sheila Fisher theo học ở Đại học Birmingham?",
+    "answers": [
+      "1981",
+      "1983"
+    ],
+    "answer_type": "time",
+    "qtype": "simple_time",
+    "subtype": "range",
+    "time_level": "year",
+    "relation": "P69",
+    "entities": [
+      "Q42649981",
+      "Q223429"
+    ],
+    "quid": 93,
+    "qlabel": "Multiple"
+  },
+  {
+    "question": "Cuộc hôn nhân của Nina Allan và Christopher Priest kết thúc năm nào?",
+    "answers": [
+      "2024"
+    ],
+    "answer_type": "time",
+    "qtype": "simple_time",
+    "subtype": "end",
+    "time_level": "year",
+    "relation": "P26",
+    "entities": [
+      "Q18683960",
+      "Q707796"
+    ],
+    "quid": 94,
+    "qlabel": "Single"
+  },
+  {
+    "question": "Khi nào Ernst G. Straus gia nhập Viện nghiên cứu cao cấp Princeton?",
+    "answers": [
+      "1944"
+    ],
+    "answer_type": "time",
+    "qtype": "simple_time",
+    "subtype": "start",
+    "time_level": "year",
+    "relation": "P108",
+    "entities": [
+      "Q87554",
+      "Q635642"
+    ],
+    "quid": 95,
+    "qlabel": "Single"
+  },
+  {
+    "question": "Khoảng thời gian nào Benedetto Muzzicato chơi cho SV Werder Bremen II?",
+    "answers": [
+      "2003",
+      "2004"
+    ],
+    "answer_type": "time",
+    "qtype": "simple_time",
+    "subtype": "range",
+    "time_level": "year",
+    "relation": "P54",
+    "entities": [
+      "Q107746767",
+      "Q4107588"
+    ],
+    "quid": 96,
+    "qlabel": "Multiple"
+  },
+  {
+    "question": "Michel Chrétien nghỉ việc tại Montreal Clinical Research Institute năm nào?",
+    "answers": [
+      "1998"
+    ],
+    "answer_type": "time",
+    "qtype": "simple_time",
+    "subtype": "end",
+    "time_level": "year",
+    "relation": "P108",
+    "entities": [
+      "Q3309276",
+      "Q3152112"
+    ],
+    "quid": 97,
+    "qlabel": "Single"
+  },
+  {
+    "question": "Michelle Bubenicek bắt đầu du học tại Trường Pháp điển vào năm nào?",
+    "answers": [
+      "1991"
+    ],
+    "answer_type": "time",
+    "qtype": "simple_time",
+    "subtype": "start",
+    "time_level": "year",
+    "relation": "P69",
+    "entities": [
+      "Q25712297",
+      "Q273570"
+    ],
+    "quid": 98,
+    "qlabel": "Single"
+  },
+  {
+    "question": "Vitaliy Pavlov thi đấu cho FC Dniapro Rahačoŭ từ khi nào đến khi nào?",
+    "answers": [
+      "1994",
+      "1995"
+    ],
+    "answer_type": "time",
+    "qtype": "simple_time",
+    "subtype": "range",
+    "time_level": "year",
+    "relation": "P54",
+    "entities": [
+      "Q21175214",
+      "Q124556120"
+    ],
+    "quid": 99,
+    "qlabel": "Multiple"
+  },
+  {
+    "question": "Iker Casillas là thành viên của F.C. Porto vào năm nào?",
+    "answers": [
+      "2015"
+    ],
+    "answer_type": "time",
+    "qtype": "simple_time",
+    "subtype": "start",
+    "time_level": "year",
+    "relation": "P54",
+    "entities": [
+      "Q11584",
+      "Q128446"
+    ],
+    "quid": 100,
+    "qlabel": "Single"
+  },
+  {
+    "question": "Lars Leijonborg từ chức member of the Swedish Riksdag vào năm nào?",
+    "answers": [
+      "1991"
+    ],
+    "answer_type": "time",
+    "qtype": "simple_time",
+    "subtype": "end",
+    "time_level": "year",
+    "relation": "P39",
+    "entities": [
+      "Q946818",
+      "Q10655178"
+    ],
+    "quid": 101,
+    "qlabel": "Single"
+  },
+  {
+    "question": "Khi nào Vajiralongkorn lấy Srirasmi?",
+    "answers": [
+      "2001"
+    ],
+    "answer_type": "time",
+    "qtype": "simple_time",
+    "subtype": "start",
+    "time_level": "year",
+    "relation": "P26",
+    "entities": [
+      "Q548733",
+      "Q2276823"
+    ],
+    "quid": 102,
+    "qlabel": "Single"
+  },
+  {
+    "question": "Franck Dja Djédjé là thành viên của Vannes OC vào năm nào?",
+    "answers": [
+      "2009"
+    ],
+    "answer_type": "time",
+    "qtype": "simple_time",
+    "subtype": "start",
+    "time_level": "year",
+    "relation": "P54",
+    "entities": [
+      "Q305322",
+      "Q870173"
+    ],
+    "quid": 103,
+    "qlabel": "Single"
+  },
+  {
+    "question": "Khi nào Thụy Điển bắt đầu trở thành thành viên của Ngân hàng Phát triển châu Á?",
+    "answers": [
+      "1966"
+    ],
+    "answer_type": "time",
+    "qtype": "simple_time",
+    "subtype": "start",
+    "time_level": "year",
+    "relation": "P463",
+    "entities": [
+      "Q34",
+      "Q188822"
+    ],
+    "quid": 104,
+    "qlabel": "Single"
+  },
+  {
+    "question": "Kliment Yefremovich Voroshilov đoạt Huân chương Cờ đỏ năm nào?",
+    "answers": [
+      "1948"
+    ],
+    "answer_type": "time",
+    "qtype": "simple_time",
+    "subtype": "start",
+    "time_level": "year",
+    "relation": "P166",
+    "entities": [
+      "Q186185",
+      "Q337463"
+    ],
+    "quid": 105,
+    "qlabel": "Single"
+  },
+  {
+    "question": "Abe Shinzō bắt đầu là thành viên Đảng Dân chủ Tự do vào năm nào?",
+    "answers": [
+      "1993"
+    ],
+    "answer_type": "time",
+    "qtype": "simple_time",
+    "subtype": "start",
+    "time_level": "year",
+    "relation": "P102",
+    "entities": [
+      "Q132345",
+      "Q232595"
+    ],
+    "quid": 106,
+    "qlabel": "Single"
+  },
+  {
+    "question": "Khi nào Horace Lamb nhập học Victoria University of Manchester?",
+    "answers": [
+      "1866"
+    ],
+    "answer_type": "time",
+    "qtype": "simple_time",
+    "subtype": "start",
+    "time_level": "year",
+    "relation": "P69",
+    "entities": [
+      "Q1627897",
+      "Q867530"
+    ],
+    "quid": 107,
+    "qlabel": "Single"
+  },
+  {
+    "question": "Vladimir Stojković là thành viên của Nottingham Forest F.C. vào năm nào?",
+    "answers": [
+      "2016"
+    ],
+    "answer_type": "time",
+    "qtype": "simple_time",
+    "subtype": "start",
+    "time_level": "year",
+    "relation": "P54",
+    "entities": [
+      "Q215460",
+      "Q19490"
+    ],
+    "quid": 108,
+    "qlabel": "Single"
+  },
+  {
+    "question": "Khi nào Saint Kitts và Nevis bắt đầu trở thành thành viên của Liên minh Bưu chính Quốc tế?",
+    "answers": [
+      "1988"
+    ],
+    "answer_type": "time",
+    "qtype": "simple_time",
+    "subtype": "start",
+    "time_level": "year",
+    "relation": "P463",
+    "entities": [
+      "Q763",
+      "Q17495"
+    ],
+    "quid": 109,
+    "qlabel": "Single"
+  },
+  {
+    "question": "Mido là thành viên của West Ham United vào năm nào?",
+    "answers": [
+      "2010"
+    ],
+    "answer_type": "time",
+    "qtype": "simple_time",
+    "subtype": "start",
+    "time_level": "year",
+    "relation": "P54",
+    "entities": [
+      "Q294387",
+      "Q18747"
+    ],
+    "quid": 110,
+    "qlabel": "Single"
+  },
+  {
+    "question": "Andrzej Duda rời Pháp luật và Công lý năm nào?",
+    "answers": [
+      "2015"
+    ],
+    "answer_type": "time",
+    "qtype": "simple_time",
+    "subtype": "end",
+    "time_level": "year",
+    "relation": "P102",
+    "entities": [
+      "Q9151911",
+      "Q156874"
+    ],
+    "quid": 111,
+    "qlabel": "Single"
+  },
+  {
+    "question": "Paul Dirac làm việc cho St John's College từ khi nào đến khi nào?",
+    "answers": [
+      "1927",
+      "1932"
+    ],
+    "answer_type": "time",
+    "qtype": "simple_time",
+    "subtype": "range",
+    "time_level": "year",
+    "relation": "P108",
+    "entities": [
+      "Q47480",
+      "Q691283"
+    ],
+    "quid": 112,
+    "qlabel": "Multiple"
+  },
+  {
+    "question": "Joachim Gauck bắt đầu là thành viên New Forum vào năm nào?",
+    "answers": [
+      "1989"
+    ],
+    "answer_type": "time",
+    "qtype": "simple_time",
+    "subtype": "start",
+    "time_level": "year",
+    "relation": "P102",
+    "entities": [
+      "Q2538",
+      "Q646129"
+    ],
+    "quid": 113,
+    "qlabel": "Single"
+  },
+  {
+    "question": "Năm nào Pyotr Dementyev được xướng tên cho giải Huy chương Chiến công?",
+    "answers": [
+      "1944"
+    ],
+    "answer_type": "time",
+    "qtype": "simple_time",
+    "subtype": "start",
+    "time_level": "year",
+    "relation": "P166",
+    "entities": [
+      "Q4157412",
+      "Q1915961"
+    ],
+    "quid": 114,
+    "qlabel": "Single"
+  },
+  {
+    "question": "Richard Brauer đầu quân cho Đại học Kentucky năm nào?",
+    "answers": [
+      "1933"
+    ],
+    "answer_type": "time",
+    "qtype": "simple_time",
+    "subtype": "start",
+    "time_level": "year",
+    "relation": "P108",
+    "entities": [
+      "Q65201",
+      "Q1360303"
+    ],
+    "quid": 115,
+    "qlabel": "Single"
+  },
+  {
+    "question": "Harley Orrin Staggers kết thúc chức vụ dân biểu Hoa Kỳ vào năm nào?",
+    "answers": [
+      "1979"
+    ],
+    "answer_type": "time",
+    "qtype": "simple_time",
+    "subtype": "end",
+    "time_level": "year",
+    "relation": "P39",
+    "entities": [
+      "Q1585515",
+      "Q13218630"
+    ],
+    "quid": 116,
+    "qlabel": "Single"
+  },
+  {
+    "question": "Năm nào Pyotr Ilyich Tchaikovsky bắt đầu làm việc tại Học viện Âm nhạc Quốc gia Moskva?",
+    "answers": [
+      "1866"
+    ],
+    "answer_type": "time",
+    "qtype": "simple_time",
+    "subtype": "start",
+    "time_level": "year",
+    "relation": "P108",
+    "entities": [
+      "Q7315",
+      "Q215539"
+    ],
+    "quid": 117,
+    "qlabel": "Single"
+  },
+  {
+    "question": "Năm nào Jacqueline de Romilly bắt đầu làm việc tại Đại học Lille?",
+    "answers": [
+      "1949"
+    ],
+    "answer_type": "time",
+    "qtype": "simple_time",
+    "subtype": "start",
+    "time_level": "year",
+    "relation": "P108",
+    "entities": [
+      "Q261687",
+      "Q3551621"
+    ],
+    "quid": 118,
+    "qlabel": "Single"
+  },
+  {
+    "question": "Khoảng thời gian nào Kevin-Prince Boateng chơi cho Portsmouth F.C.?",
+    "answers": [
+      "2009",
+      "2010"
+    ],
+    "answer_type": "time",
+    "qtype": "simple_time",
+    "subtype": "range",
+    "time_level": "year",
+    "relation": "P54",
+    "entities": [
+      "Q151034",
+      "Q19604"
+    ],
+    "quid": 119,
+    "qlabel": "Multiple"
+  },
+  {
+    "question": "Khoảng thời gian nào Mark Kac làm việc tại Đại học Rockefeller?",
+    "answers": [
+      "1961",
+      "1981"
+    ],
+    "answer_type": "time",
+    "qtype": "simple_time",
+    "subtype": "range",
+    "time_level": "year",
+    "relation": "P108",
+    "entities": [
+      "Q736380",
+      "Q270272"
+    ],
+    "quid": 120,
+    "qlabel": "Multiple"
+  },
+  {
+    "question": "Sau khi rời Đại học RWTH Aachen, Kurt Otto Friedrichs làm việc ở đâu?",
+    "answers": [
+      "Đại học Kỹ thuật Braunschweig"
+    ],
+    "answer_type": "entity",
+    "qtype": "before_after",
+    "subtype": "after",
+    "anchor": "s",
+    "time_level": "year",
+    "relation": "P108",
+    "entities": [
+      "Q72978",
+      "Q273263"
+    ],
+    "quid": 121,
+    "qlabel": "Single"
+  },
+  {
+    "question": "Tổ chức kế tiếp của Arizona State University sau Pac-12 Conference là gì?",
+    "answers": [
+      "Higher Education Leadership Initiative for Open Scholarship"
+    ],
+    "answer_type": "entity",
+    "qtype": "before_after",
+    "subtype": "after",
+    "anchor": "s",
+    "time_level": "year",
+    "relation": "P463",
+    "entities": [
+      "Q670897",
+      "Q128471"
+    ],
+    "quid": 122,
+    "qlabel": "Single"
+  },
+  {
+    "question": "Trước Hội Toán học Hoa Kỳ, Gerhard Huisken tham gia tổ chức nào?",
+    "answers": [
+      "Viện hàn lâm Khoa học Leopoldina"
+    ],
+    "answer_type": "entity",
+    "qtype": "before_after",
+    "subtype": "before",
+    "anchor": "s",
+    "time_level": "year",
+    "relation": "P463",
+    "entities": [
+      "Q13522555",
+      "Q465654"
+    ],
+    "quid": 123,
+    "qlabel": "Single"
+  },
+  {
+    "question": "Nơi làm việc tiếp theo của Chun-Fang Wu sau khi rời Academia Sinica là gì?",
+    "answers": [
+      "Đại học Đông Nam"
+    ],
+    "answer_type": "entity",
+    "qtype": "before_after",
+    "subtype": "after",
+    "anchor": "s",
+    "time_level": "year",
+    "relation": "P108",
+    "entities": [
+      "Q90794589",
+      "Q337266"
+    ],
+    "quid": 124,
+    "qlabel": "Single"
+  },
+  {
+    "question": "Trước khi vào Đại học Szeged, Edgar Lorch học ở đâu?",
+    "answers": [
+      "Đại học Harvard"
+    ],
+    "answer_type": "entity",
+    "qtype": "before_after",
+    "subtype": "before",
+    "anchor": "s",
+    "time_level": "year",
+    "relation": "P69",
+    "entities": [
+      "Q5337354",
+      "Q369839"
+    ],
+    "quid": 125,
+    "qlabel": "Single"
+  },
+  {
+    "question": "Ngôi trường tiếp theo của François Lecointre sau Quân đội Quốc gia Prytanée là gì?",
+    "answers": [
+      "École spéciale militaire de Saint-Cyr"
+    ],
+    "answer_type": "entity",
+    "qtype": "before_after",
+    "subtype": "after",
+    "anchor": "s",
+    "time_level": "year",
+    "relation": "P69",
+    "entities": [
+      "Q33115691",
+      "Q271"
+    ],
+    "quid": 126,
+    "qlabel": "Single"
+  },
+  {
+    "question": "Stony Brook University là thành viên tổ chức nào trước ORCID?",
+    "answers": [
+      "Hiệp hội Viện Đại học Bắc Mỹ"
+    ],
+    "answer_type": "entity",
+    "qtype": "before_after",
+    "subtype": "before",
+    "anchor": "s",
+    "time_level": "year",
+    "relation": "P463",
+    "entities": [
+      "Q969850",
+      "Q19861084"
+    ],
+    "quid": 127,
+    "qlabel": "Single"
+  },
+  {
+    "question": "Vợ/Chồng sau Billy Bob Thornton của Angelina Jolie là ai?",
+    "answers": [
+      "Brad Pitt"
+    ],
+    "answer_type": "entity",
+    "qtype": "before_after",
+    "subtype": "after",
+    "anchor": "s",
+    "time_level": "year",
+    "relation": "P26",
+    "entities": [
+      "Q13909",
+      "Q202735"
+    ],
+    "quid": 128,
+    "qlabel": "Single"
+  },
+  {
+    "question": "Sau Đại học Trento, Paolo Maraner học ở đâu?",
+    "answers": [
+      "University of Parma"
+    ],
+    "answer_type": "entity",
+    "qtype": "before_after",
+    "subtype": "after",
+    "anchor": "s",
+    "time_level": "year",
+    "relation": "P69",
+    "entities": [
+      "Q59604694",
+      "Q930528"
+    ],
+    "quid": 129,
+    "qlabel": "Single"
+  },
+  {
+    "question": "Sau khi rời Hiệp hội Viện Đại học Bắc Mỹ, Đại học Indiana tại Bloomington đến với tổ chức nào?",
+    "answers": [
+      "ORCID"
+    ],
+    "answer_type": "entity",
+    "qtype": "before_after",
+    "subtype": "after",
+    "anchor": "s",
+    "time_level": "year",
+    "relation": "P463",
+    "entities": [
+      "Q1079140",
+      "Q743812"
+    ],
+    "quid": 130,
+    "qlabel": "Single"
+  },
+  {
+    "question": "Sergei Semyonovich Sobyanin là thành viên đảng nào trước Nước Nga thống nhất?",
+    "answers": [
+      "Đảng Cộng sản Liên Xô"
+    ],
+    "answer_type": "entity",
+    "qtype": "before_after",
+    "subtype": "before",
+    "anchor": "s",
+    "time_level": "year",
+    "relation": "P102",
+    "entities": [
+      "Q319497",
+      "Q151469"
+    ],
+    "quid": 131,
+    "qlabel": "Single"
+  },
+  {
+    "question": "Trước khi vào Đại học Yale, Công chúa Victoria của Thụy Điển học ở đâu?",
+    "answers": [
+      "Catholic University of the West"
+    ],
+    "answer_type": "entity",
+    "qtype": "before_after",
+    "subtype": "before",
+    "anchor": "s",
+    "time_level": "year",
+    "relation": "P69",
+    "entities": [
+      "Q156390",
+      "Q49112"
+    ],
+    "quid": 132,
+    "qlabel": "Single"
+  },
+  {
+    "question": "Klaus Boehnke học tại trường nào trước Ruhr University Bochum?",
+    "answers": [
+      "Saarland University"
+    ],
+    "answer_type": "entity",
+    "qtype": "before_after",
+    "subtype": "before",
+    "anchor": "s",
+    "time_level": "year",
+    "relation": "P69",
+    "entities": [
+      "Q47712315",
+      "Q309948"
+    ],
+    "quid": 133,
+    "qlabel": "Single"
+  },
+  {
+    "question": "José Ilson dos Santos chuyển từ đội nào sang R.E. Mouscron?",
+    "answers": [
+      "K.S.C. Lokeren Oost-Vlaanderen"
+    ],
+    "answer_type": "entity",
+    "qtype": "before_after",
+    "subtype": "before",
+    "anchor": "s",
+    "time_level": "year",
+    "relation": "P54",
+    "entities": [
+      "Q1185920",
+      "Q865735"
+    ],
+    "quid": 134,
+    "qlabel": "Single"
+  },
+  {
+    "question": "Ngôi trường tiếp theo của John William Strutt, nam tước Rayleigh thứ 3 sau Trường Harrow là gì?",
+    "answers": [
+      "Cao đẳng Trinity"
+    ],
+    "answer_type": "entity",
+    "qtype": "before_after",
+    "subtype": "after",
+    "anchor": "s",
+    "time_level": "year",
+    "relation": "P69",
+    "entities": [
+      "Q83297",
+      "Q1247373"
+    ],
+    "quid": 135,
+    "qlabel": "Single"
+  },
+  {
+    "question": "Vợ/Chồng nào của Angelina Jolie xuất hiện trước Brad Pitt?",
+    "answers": [
+      "Billy Bob Thornton"
+    ],
+    "answer_type": "entity",
+    "qtype": "before_after",
+    "subtype": "before",
+    "anchor": "s",
+    "time_level": "year",
+    "relation": "P26",
+    "entities": [
+      "Q13909",
+      "Q35332"
+    ],
+    "quid": 136,
+    "qlabel": "Single"
+  },
+  {
+    "question": "Trước khi đoạt Bắc Đẩu Bội tinh hạng 3, Ernest Lavisse đã có giải thưởng nào?",
+    "answers": [
+      "Bắc Đẩu Bội tinh hạng 4"
+    ],
+    "answer_type": "entity",
+    "qtype": "before_after",
+    "subtype": "before",
+    "anchor": "s",
+    "time_level": "year",
+    "relation": "P166",
+    "entities": [
+      "Q981891",
+      "Q10855212"
+    ],
+    "quid": 137,
+    "qlabel": "Single"
+  },
+  {
+    "question": "Trước Mayors for Peace, Hanau tham gia tổ chức nào?",
+    "answers": [
+      "Climate Alliance"
+    ],
+    "answer_type": "entity",
+    "qtype": "before_after",
+    "subtype": "before",
+    "anchor": "s",
+    "time_level": "year",
+    "relation": "P463",
+    "entities": [
+      "Q3802",
+      "Q747279"
+    ],
+    "quid": 138,
+    "qlabel": "Single"
+  },
+  {
+    "question": "Ai giữ chức vụ Chánh văn phòng Nhà Trắng trước Leon Panetta?",
+    "answers": [
+      "Dick Cheney"
+    ],
+    "answer_type": "entity",
+    "qtype": "before_after",
+    "subtype": "before",
+    "anchor": "o",
+    "time_level": "year",
+    "relation": "P39",
+    "entities": [
+      "Q244631",
+      "Q786242"
+    ],
+    "quid": 139,
+    "qlabel": "Single"
+  },
+  {
+    "question": "Sau khi đoạt Knight's Cross of the Iron Cross with Oak Leaves, Friedrich Guggenberger nhận được giải nào?",
+    "answers": [
+      "Huân chương Thập tự CHLB Đức hạng 5"
+    ],
+    "answer_type": "entity",
+    "qtype": "before_after",
+    "subtype": "after",
+    "anchor": "s",
+    "time_level": "year",
+    "relation": "P166",
+    "entities": [
+      "Q65470",
+      "Q3003469"
+    ],
+    "quid": 140,
+    "qlabel": "Single"
+  },
+  {
+    "question": "Ai thay Fábio Luiz Vieira đảm nhiệm program director?",
+    "answers": [
+      "Hubert Mara"
+    ],
+    "answer_type": "entity",
+    "qtype": "before_after",
+    "subtype": "after",
+    "anchor": "o",
+    "time_level": "year",
+    "relation": "P39",
+    "entities": [
+      "Q137887433",
+      "Q635067"
+    ],
+    "quid": 141,
+    "qlabel": "Single"
+  },
+  {
+    "question": "Giải nào Wim Crouwel có trước Royal Designer for Industry?",
+    "answers": [
+      "H.N. Werkman Award"
+    ],
+    "answer_type": "entity",
+    "qtype": "before_after",
+    "subtype": "before",
+    "anchor": "s",
+    "time_level": "year",
+    "relation": "P166",
+    "entities": [
+      "Q555389",
+      "Q3445914"
+    ],
+    "quid": 142,
+    "qlabel": "Single"
+  },
+  {
+    "question": "Reginald Jeffrey Wadsworth làm việc cho tổ chức nào sau Đại học Pennsylvania?",
+    "answers": [
+      "chính quyền liên bang Hoa Kỳ"
+    ],
+    "answer_type": "entity",
+    "qtype": "before_after",
+    "subtype": "after",
+    "anchor": "s",
+    "time_level": "year",
+    "relation": "P108",
+    "entities": [
+      "Q62050249",
+      "Q49117"
+    ],
+    "quid": 143,
+    "qlabel": "Single"
+  },
+  {
+    "question": "Giải nào được trao cho Cédric Villani trước năm 2008?",
+    "answers": [
+      "Claire Voisin"
+    ],
+    "answer_type": "entity",
+    "qtype": "before_after",
+    "subtype": "before",
+    "anchor": "o",
+    "time_level": "year",
+    "relation": "P166",
+    "entities": [
+      "Q334065",
+      "Q1275243"
+    ],
+    "quid": 144,
+    "qlabel": "Single"
+  },
+  {
+    "question": "Jennifer Lopez có cuộc hôn nhân nào trước Ben Affleck?",
+    "answers": [
+      "Marc Anthony"
+    ],
+    "answer_type": "entity",
+    "qtype": "before_after",
+    "subtype": "before",
+    "anchor": "s",
+    "time_level": "year",
+    "relation": "P26",
+    "entities": [
+      "Q40715",
+      "Q483118"
+    ],
+    "quid": 145,
+    "qlabel": "Single"
+  },
+  {
+    "question": "Ngôi trường tiếp theo của Fei-Fei Li sau Đại học Princeton là gì?",
+    "answers": [
+      "Viện Công nghệ California"
+    ],
+    "answer_type": "entity",
+    "qtype": "before_after",
+    "subtype": "after",
+    "anchor": "s",
+    "time_level": "year",
+    "relation": "P69",
+    "entities": [
+      "Q18686107",
+      "Q21578"
+    ],
+    "quid": 146,
+    "qlabel": "Single"
+  },
+  {
+    "question": "Sau khi ly hôn Richard Burton, Elizabeth Taylor cưới ai?",
+    "answers": [
+      "John Warner"
+    ],
+    "answer_type": "entity",
+    "qtype": "before_after",
+    "subtype": "after",
+    "anchor": "s",
+    "time_level": "year",
+    "relation": "P26",
+    "entities": [
+      "Q34851",
+      "Q151973"
+    ],
+    "quid": 147,
+    "qlabel": "Single"
+  },
+  {
+    "question": "Trước khi đoạt Huân chương Thập tự CHLB Đức hạng 5, Anne-Sophie Mutter đã có giải thưởng nào?",
+    "answers": [
+      "Giải thưởng Âm nhạc Ernst von Siemens"
+    ],
+    "answer_type": "entity",
+    "qtype": "before_after",
+    "subtype": "before",
+    "anchor": "s",
+    "time_level": "year",
+    "relation": "P166",
+    "entities": [
+      "Q3374",
+      "Q10905276"
+    ],
+    "quid": 148,
+    "qlabel": "Single"
+  },
+  {
+    "question": "Trước khi Orrin Hatch nắm giữ Chủ tịch Thượng viện tạm quyền Hoa Kỳ, ai từng giữ chức này?",
+    "answers": [
+      "Patrick Leahy"
+    ],
+    "answer_type": "entity",
+    "qtype": "before_after",
+    "subtype": "before",
+    "anchor": "o",
+    "time_level": "year",
+    "relation": "P39",
+    "entities": [
+      "Q381157",
+      "Q1140848"
+    ],
+    "quid": 149,
+    "qlabel": "Single"
+  },
+  {
+    "question": "Cuộc hôn nhân trước John Warner của Elizabeth Taylor là với ai?",
+    "answers": [
+      "Richard Burton"
+    ],
+    "answer_type": "entity",
+    "qtype": "before_after",
+    "subtype": "before",
+    "anchor": "s",
+    "time_level": "year",
+    "relation": "P26",
+    "entities": [
+      "Q34851",
+      "Q464810"
+    ],
+    "quid": 150,
+    "qlabel": "Single"
+  },
+  {
+    "question": "Trước Đảng Dân chủ Xã hội, Adrian Năstase thuộc đảng nào?",
+    "answers": [
+      "Party of Social Democracy in Romania"
+    ],
+    "answer_type": "entity",
+    "qtype": "before_after",
+    "subtype": "before",
+    "anchor": "s",
+    "time_level": "year",
+    "relation": "P102",
+    "entities": [
+      "Q271966",
+      "Q752435"
+    ],
+    "quid": 151,
+    "qlabel": "Single"
+  },
+  {
+    "question": "Ai làm United States Ambassador to the United Nations sau Andrew Young?",
+    "answers": [
+      "Madeleine K. Albright"
+    ],
+    "answer_type": "entity",
+    "qtype": "before_after",
+    "subtype": "after",
+    "anchor": "o",
+    "time_level": "year",
+    "relation": "P39",
+    "entities": [
+      "Q959635",
+      "Q1785225"
+    ],
+    "quid": 152,
+    "qlabel": "Single"
+  },
+  {
+    "question": "Ai là thành viên của Đội tuyển bóng đá quốc gia Cộng hòa Séc sau năm 1994?",
+    "answers": [
+      "Marek Heinz"
+    ],
+    "answer_type": "entity",
+    "qtype": "before_after",
+    "subtype": "after",
+    "anchor": "o",
+    "time_level": "year",
+    "relation": "P54",
+    "entities": [
+      "Q31376",
+      "Q483868"
+    ],
+    "quid": 153,
+    "qlabel": "Single"
+  },
+  {
+    "question": "Đảng tiếp theo của Lý Đăng Huy sau Trung Quốc Quốc Dân Đảng là gì?",
+    "answers": [
+      "chính trị gia độc lập"
+    ],
+    "answer_type": "entity",
+    "qtype": "before_after",
+    "subtype": "after",
+    "anchor": "s",
+    "time_level": "year",
+    "relation": "P102",
+    "entities": [
+      "Q315528",
+      "Q31113"
+    ],
+    "quid": 154,
+    "qlabel": "Single"
+  },
+  {
+    "question": "Hans Marchwitza là thành viên đảng nào trước Đảng Cộng sản của nước Đức?",
+    "answers": [
+      "Đảng Dân chủ Xã hội Độc lập Đức"
+    ],
+    "answer_type": "entity",
+    "qtype": "before_after",
+    "subtype": "before",
+    "anchor": "s",
+    "time_level": "year",
+    "relation": "P102",
+    "entities": [
+      "Q91461",
+      "Q153401"
+    ],
+    "quid": 155,
+    "qlabel": "Single"
+  },
+  {
+    "question": "Ai là người đứng đầu Minister of Budget trước khi Carlo Azeglio Ciampi nhận chức?",
+    "answers": [
+      "Amintore Fanfani"
+    ],
+    "answer_type": "entity",
+    "qtype": "before_after",
+    "subtype": "before",
+    "anchor": "o",
+    "time_level": "year",
+    "relation": "P39",
+    "entities": [
+      "Q1224",
+      "Q55096558"
+    ],
+    "quid": 156,
+    "qlabel": "Single"
+  },
+  {
+    "question": "Sau Đại học Witwatersrand, Gilbert Baumslag học ở đâu?",
+    "answers": [
+      "Victoria University of Manchester"
+    ],
+    "answer_type": "entity",
+    "qtype": "before_after",
+    "subtype": "after",
+    "anchor": "s",
+    "time_level": "year",
+    "relation": "P69",
+    "entities": [
+      "Q5560794",
+      "Q534643"
+    ],
+    "quid": 157,
+    "qlabel": "Single"
+  },
+  {
+    "question": "Trước khi vào Đại học Harvard, Lennart Carleson học ở đâu?",
+    "answers": [
+      "Đại học Uppsala"
+    ],
+    "answer_type": "entity",
+    "qtype": "before_after",
+    "subtype": "before",
+    "anchor": "s",
+    "time_level": "year",
+    "relation": "P69",
+    "entities": [
+      "Q343420",
+      "Q13371"
+    ],
+    "quid": 158,
+    "qlabel": "Single"
+  },
+  {
+    "question": "Tổ chức kế tiếp của Garret A. FitzGerald sau Viện Hàn lâm Khoa học và Nghệ thuật Hoa Kỳ là gì?",
+    "answers": [
+      "Royal Irish Academy"
+    ],
+    "answer_type": "entity",
+    "qtype": "before_after",
+    "subtype": "after",
+    "anchor": "s",
+    "time_level": "year",
+    "relation": "P463",
+    "entities": [
+      "Q21166426",
+      "Q463303"
+    ],
+    "quid": 159,
+    "qlabel": "Single"
+  },
+  {
+    "question": "Tổ chức kế tiếp của Carlo Francesco Gabba sau Institut de Droit International là gì?",
+    "answers": [
+      "Viện Hàn lâm Khoa học Turin"
+    ],
+    "answer_type": "entity",
+    "qtype": "before_after",
+    "subtype": "after",
+    "anchor": "s",
+    "time_level": "year",
+    "relation": "P463",
+    "entities": [
+      "Q2294066",
+      "Q115095"
+    ],
+    "quid": 160,
+    "qlabel": "Single"
+  },
+  {
+    "question": "Ai thi đấu cho Romania national under-17 football team trước năm 2007?",
+    "answers": [
+      "Gabriel Torje"
+    ],
+    "answer_type": "entity",
+    "qtype": "before_after",
+    "subtype": "before",
+    "anchor": "o",
+    "time_level": "year",
+    "relation": "P54",
+    "entities": [
+      "Q507368",
+      "Q3590324"
+    ],
+    "quid": 161,
+    "qlabel": "Single"
+  },
+  {
+    "question": "Ai làm quan chức sau Doug Bereuter?",
+    "answers": [
+      "Jim Moran"
+    ],
+    "answer_type": "entity",
+    "qtype": "before_after",
+    "subtype": "after",
+    "anchor": "o",
+    "time_level": "year",
+    "relation": "P39",
+    "entities": [
+      "Q1251707",
+      "Q572700"
+    ],
+    "quid": 162,
+    "qlabel": "Single"
+  },
+  {
+    "question": "Sau National Board of Health and Welfare, Lars Larsson học ở đâu?",
+    "answers": [
+      "Đại học Padova"
+    ],
+    "answer_type": "entity",
+    "qtype": "before_after",
+    "subtype": "after",
+    "anchor": "s",
+    "time_level": "year",
+    "relation": "P69",
+    "entities": [
+      "Q39980185",
+      "Q6971056"
+    ],
+    "quid": 163,
+    "qlabel": "Single"
+  },
+  {
+    "question": "Tổ chức kế tiếp của Norman Foster Ramsey sau Hiệp hội Khoa học cao cấp Mỹ là gì?",
+    "answers": [
+      "Hội Triết học Mỹ"
+    ],
+    "answer_type": "entity",
+    "qtype": "before_after",
+    "subtype": "after",
+    "anchor": "s",
+    "time_level": "year",
+    "relation": "P463",
+    "entities": [
+      "Q107419",
+      "Q40358"
+    ],
+    "quid": 164,
+    "qlabel": "Single"
+  },
+  {
+    "question": "Sau Srirasmi, Vajiralongkorn tái hôn với ai?",
+    "answers": [
+      "Suthida"
+    ],
+    "answer_type": "entity",
+    "qtype": "before_after",
+    "subtype": "after",
+    "anchor": "s",
+    "time_level": "year",
+    "relation": "P26",
+    "entities": [
+      "Q548733",
+      "Q2276823"
+    ],
+    "quid": 165,
+    "qlabel": "Single"
+  },
+  {
+    "question": "Helmut Hasse học tại trường nào trước Đại học Göttingen?",
+    "answers": [
+      "Đại học Kiel"
+    ],
+    "answer_type": "entity",
+    "qtype": "before_after",
+    "subtype": "before",
+    "anchor": "s",
+    "time_level": "year",
+    "relation": "P69",
+    "entities": [
+      "Q61768",
+      "Q152838"
+    ],
+    "quid": 166,
+    "qlabel": "Single"
+  },
+  {
+    "question": "Omar M. Yaghi làm việc cho tổ chức nào trước Đại học California tại Los Angeles?",
+    "answers": [
+      "Đại học Michigan"
+    ],
+    "answer_type": "entity",
+    "qtype": "before_after",
+    "subtype": "before",
+    "anchor": "s",
+    "time_level": "year",
+    "relation": "P108",
+    "entities": [
+      "Q743252",
+      "Q174710"
+    ],
+    "quid": 167,
+    "qlabel": "Single"
+  },
+  {
+    "question": "Ai là thành viên của Nottingham Forest F.C. sau năm 2015?",
+    "answers": [
+      "Nélson Oliveira"
+    ],
+    "answer_type": "entity",
+    "qtype": "before_after",
+    "subtype": "after",
+    "anchor": "o",
+    "time_level": "year",
+    "relation": "P54",
+    "entities": [
+      "Q1544931",
+      "Q19490"
+    ],
+    "quid": 168,
+    "qlabel": "Single"
+  },
+  {
+    "question": "Sau giải Maine Women's Hall of Fame, Susan Collins còn nhận giải nào nữa?",
+    "answers": [
+      "BBC 100 Women"
+    ],
+    "answer_type": "entity",
+    "qtype": "before_after",
+    "subtype": "after",
+    "anchor": "s",
+    "time_level": "year",
+    "relation": "P166",
+    "entities": [
+      "Q22279",
+      "Q6736540"
+    ],
+    "quid": 169,
+    "qlabel": "Single"
+  },
+  {
+    "question": "Emil du Bois-Reymond làm việc cho tổ chức nào sau Học viện Nghệ thuật Berlin?",
+    "answers": [
+      "Đại học Frederick William Berlin"
+    ],
+    "answer_type": "entity",
+    "qtype": "before_after",
+    "subtype": "after",
+    "anchor": "s",
+    "time_level": "year",
+    "relation": "P108",
+    "entities": [
+      "Q76571",
+      "Q414110"
+    ],
+    "quid": 170,
+    "qlabel": "Single"
+  },
+  {
+    "question": "Đảng tiếp theo của Călin Popescu-Tăriceanu sau Liên minh Tự do và Dân chủ là gì?",
+    "answers": [
+      "PRO Romania"
+    ],
+    "answer_type": "entity",
+    "qtype": "before_after",
+    "subtype": "after",
+    "anchor": "s",
+    "time_level": "year",
+    "relation": "P102",
+    "entities": [
+      "Q207473",
+      "Q26934816"
+    ],
+    "quid": 171,
+    "qlabel": "Single"
+  },
+  {
+    "question": "Giải nào được trao cho Gury Marchuk sau năm 2002?",
+    "answers": [
+      "Gulzar"
+    ],
+    "answer_type": "entity",
+    "qtype": "before_after",
+    "subtype": "after",
+    "anchor": "o",
+    "time_level": "year",
+    "relation": "P166",
+    "entities": [
+      "Q574605",
+      "Q932650"
+    ],
+    "quid": 172,
+    "qlabel": "Single"
+  },
+  {
+    "question": "Sau khi rời Ngân hàng Phát triển châu Á, Quần đảo Cook đến với tổ chức nào?",
+    "answers": [
+      "Tổ chức Giáo dục, Khoa học và Văn hóa Liên Hợp Quốc"
+    ],
+    "answer_type": "entity",
+    "qtype": "before_after",
+    "subtype": "after",
+    "anchor": "s",
+    "time_level": "year",
+    "relation": "P463",
+    "entities": [
+      "Q26988",
+      "Q188822"
+    ],
+    "quid": 173,
+    "qlabel": "Single"
+  },
+  {
+    "question": "Sau Diana, Công nương xứ Wales, Charles III tái hôn với ai?",
+    "answers": [
+      "Camilla, Vương hậu Anh"
+    ],
+    "answer_type": "entity",
+    "qtype": "before_after",
+    "subtype": "after",
+    "anchor": "s",
+    "time_level": "year",
+    "relation": "P26",
+    "entities": [
+      "Q43274",
+      "Q9685"
+    ],
+    "quid": 174,
+    "qlabel": "Single"
+  },
+  {
+    "question": "Ai thi đấu cho Portugal national under-16 football team trước năm 2000?",
+    "answers": [
+      "Gil Gomes"
+    ],
+    "answer_type": "entity",
+    "qtype": "before_after",
+    "subtype": "before",
+    "anchor": "o",
+    "time_level": "year",
+    "relation": "P54",
+    "entities": [
+      "Q192565",
+      "Q7232579"
+    ],
+    "quid": 175,
+    "qlabel": "Single"
+  },
+  {
+    "question": "Trước Viện hàn lâm Khoa học quốc gia Hoa Kỳ, Jerry Adams tham gia tổ chức nào?",
+    "answers": [
+      "Hội hoàng gia Luân Đôn"
+    ],
+    "answer_type": "entity",
+    "qtype": "before_after",
+    "subtype": "before",
+    "anchor": "s",
+    "time_level": "year",
+    "relation": "P463",
+    "entities": [
+      "Q6183179",
+      "Q270794"
+    ],
+    "quid": 176,
+    "qlabel": "Single"
+  },
+  {
+    "question": "Trước chính trị gia độc lập, Trần Thủy Biển thuộc đảng nào?",
+    "answers": [
+      "Đảng Dân chủ Tiến bộ"
+    ],
+    "answer_type": "entity",
+    "qtype": "before_after",
+    "subtype": "before",
+    "anchor": "s",
+    "time_level": "year",
+    "relation": "P102",
+    "entities": [
+      "Q22368",
+      "Q327591"
+    ],
+    "quid": 177,
+    "qlabel": "Single"
+  },
+  {
+    "question": "Nơi làm việc tiếp theo của Wilhelm Kroll sau khi rời University of Münster là gì?",
+    "answers": [
+      "Đại học Wrocław"
+    ],
+    "answer_type": "entity",
+    "qtype": "before_after",
+    "subtype": "after",
+    "anchor": "s",
+    "time_level": "year",
+    "relation": "P108",
+    "entities": [
+      "Q73314",
+      "Q168426"
+    ],
+    "quid": 178,
+    "qlabel": "Single"
+  },
+  {
+    "question": "Manuel García Velarde làm việc cho tổ chức nào sau National University of Distance Education?",
+    "answers": [
+      "Đại học Complutense Madrid"
+    ],
+    "answer_type": "entity",
+    "qtype": "before_after",
+    "subtype": "after",
+    "anchor": "s",
+    "time_level": "year",
+    "relation": "P108",
+    "entities": [
+      "Q5993097",
+      "Q421739"
+    ],
+    "quid": 179,
+    "qlabel": "Single"
+  },
+  {
+    "question": "Andrzej Wajda học tại trường nào trước Trường Điện ảnh Quốc gia Łódź?",
+    "answers": [
+      "Học viện Mỹ thuật Jan Matejko"
+    ],
+    "answer_type": "entity",
+    "qtype": "before_after",
+    "subtype": "before",
+    "anchor": "s",
+    "time_level": "year",
+    "relation": "P69",
+    "entities": [
+      "Q106685",
+      "Q1458675"
+    ],
+    "quid": 180,
+    "qlabel": "Single"
+  },
+  {
+    "question": "Người kết hôn đầu tiên với Brad Pitt là ai?",
+    "answers": [
+      "Jennifer Aniston"
+    ],
+    "answer_type": "entity",
+    "qtype": "first_last",
+    "subtype": "first",
+    "time_level": "year",
+    "relation": "P26",
+    "entities": [
+      "Q35332"
+    ],
+    "quid": 181,
+    "qlabel": "Single"
+  },
+  {
+    "question": "Công ty cuối cùng của Robert Daniel Carmichael trong sự nghiệp là?",
+    "answers": [
+      "Đại học Illinois"
+    ],
+    "answer_type": "entity",
+    "qtype": "first_last",
+    "subtype": "last",
+    "time_level": "year",
+    "relation": "P108",
+    "entities": [
+      "Q982962"
+    ],
+    "quid": 182,
+    "qlabel": "Single"
+  },
+  {
+    "question": "Đảng phái đầu tiên trong sự nghiệp chính trị của Federico Trillo là gì?",
+    "answers": [
+      "People's Alliance"
+    ],
+    "answer_type": "entity",
+    "qtype": "first_last",
+    "subtype": "first",
+    "time_level": "year",
+    "relation": "P102",
+    "entities": [
+      "Q2878013"
+    ],
+    "quid": 183,
+    "qlabel": "Single"
+  },
+  {
+    "question": "Ulysses Simpson Grant đảm nhiệm vị trí cuối cùng nào trong sự nghiệp?",
+    "answers": [
+      "Tổng thống Hoa Kỳ"
+    ],
+    "answer_type": "entity",
+    "qtype": "first_last",
+    "subtype": "last",
+    "time_level": "year",
+    "relation": "P39",
+    "entities": [
+      "Q34836"
+    ],
+    "quid": 184,
+    "qlabel": "Single"
+  },
+  {
+    "question": "Giải thưởng đầu tay của Mike Rann là gì?",
+    "answers": [
+      "Centenary Medal"
+    ],
+    "answer_type": "entity",
+    "qtype": "first_last",
+    "subtype": "first",
+    "time_level": "year",
+    "relation": "P166",
+    "entities": [
+      "Q3108729"
+    ],
+    "quid": 185,
+    "qlabel": "Single"
+  },
+  {
+    "question": "Giải thưởng đầu tiên trong sự nghiệp của Stephen Hawking là gì?",
+    "answers": [
+      "Adams Prize"
+    ],
+    "answer_type": "entity",
+    "qtype": "first_last",
+    "subtype": "first",
+    "time_level": "year",
+    "relation": "P166",
+    "entities": [
+      "Q17714"
+    ],
+    "quid": 186,
+    "qlabel": "Single"
+  },
+  {
+    "question": "Đội bóng đầu đời của Frank Robinson là gì?",
+    "answers": [
+      "Cincinnati Reds"
+    ],
+    "answer_type": "entity",
+    "qtype": "first_last",
+    "subtype": "first",
+    "time_level": "year",
+    "relation": "P54",
+    "entities": [
+      "Q1317158"
+    ],
+    "quid": 187,
+    "qlabel": "Single"
+  },
+  {
+    "question": "Giải thưởng đầu tay của Rick Barry là gì?",
+    "answers": [
+      "NBA All-Rookie Team"
+    ],
+    "answer_type": "entity",
+    "qtype": "first_last",
+    "subtype": "first",
+    "time_level": "year",
+    "relation": "P166",
+    "entities": [
+      "Q434824"
+    ],
+    "quid": 188,
+    "qlabel": "Single"
+  },
+  {
+    "question": "Bậc học cao nhất của Max Born là ở trường nào?",
+    "answers": [
+      "Đại học Göttingen"
+    ],
+    "answer_type": "entity",
+    "qtype": "first_last",
+    "subtype": "last",
+    "time_level": "year",
+    "relation": "P69",
+    "entities": [
+      "Q58978"
+    ],
+    "quid": 189,
+    "qlabel": "Single"
+  },
+  {
+    "question": "Bậc học cao nhất của James Joseph Sylvester là ở trường nào?",
+    "answers": [
+      "St John's College"
+    ],
+    "answer_type": "entity",
+    "qtype": "first_last",
+    "subtype": "last",
+    "time_level": "year",
+    "relation": "P69",
+    "entities": [
+      "Q310781"
+    ],
+    "quid": 190,
+    "qlabel": "Single"
+  },
+  {
+    "question": "Giải thưởng đầu tay của Rodolfo Martín Villa là gì?",
+    "answers": [
+      "Grand Cross of the Order of Cisneros"
+    ],
+    "answer_type": "entity",
+    "qtype": "first_last",
+    "subtype": "first",
+    "time_level": "year",
+    "relation": "P166",
+    "entities": [
+      "Q3327791"
+    ],
+    "quid": 191,
+    "qlabel": "Single"
+  },
+  {
+    "question": "Vị trí cuối cùng Chris Grayling từng nắm giữ là gì?",
+    "answers": [
+      "member of the 58th Parliament of the United Kingdom"
+    ],
+    "answer_type": "entity",
+    "qtype": "first_last",
+    "subtype": "last",
+    "time_level": "year",
+    "relation": "P39",
+    "entities": [
+      "Q337453"
+    ],
+    "quid": 192,
+    "qlabel": "Single"
+  },
+  {
+    "question": "Trường cuối cùng của Naomi Lamoreaux là?",
+    "answers": [
+      "Binghamton University"
+    ],
+    "answer_type": "entity",
+    "qtype": "first_last",
+    "subtype": "last",
+    "time_level": "year",
+    "relation": "P69",
+    "entities": [
+      "Q6964659"
+    ],
+    "quid": 193,
+    "qlabel": "Single"
+  },
+  {
+    "question": "Edward J. Russell học tại trường nào lần đầu?",
+    "answers": [
+      "Aberystwyth University"
+    ],
+    "answer_type": "entity",
+    "qtype": "first_last",
+    "subtype": "first",
+    "time_level": "year",
+    "relation": "P69",
+    "entities": [
+      "Q5321987"
+    ],
+    "quid": 194,
+    "qlabel": "Single"
+  },
+  {
+    "question": "Tổ chức cuối cùng mà Robert Koch từng là thành viên là gì?",
+    "answers": [
+      "Viện hàn lâm Khoa học quốc gia Hoa Kỳ"
+    ],
+    "answer_type": "entity",
+    "qtype": "first_last",
+    "subtype": "last",
+    "time_level": "year",
+    "relation": "P463",
+    "entities": [
+      "Q37193"
+    ],
+    "quid": 195,
+    "qlabel": "Single"
+  },
+  {
+    "question": "Đội cuối cùng của Ernesto Valverde trong sự nghiệp là?",
+    "answers": [
+      "R.C.D. Mallorca"
+    ],
+    "answer_type": "entity",
+    "qtype": "first_last",
+    "subtype": "last",
+    "time_level": "year",
+    "relation": "P54",
+    "entities": [
+      "Q359118"
+    ],
+    "quid": 196,
+    "qlabel": "Single"
+  },
+  {
+    "question": "Mahathir Mohamad kết thúc sự nghiệp ở đảng nào?",
+    "answers": [
+      "chính trị gia độc lập"
+    ],
+    "answer_type": "entity",
+    "qtype": "first_last",
+    "subtype": "last",
+    "time_level": "year",
+    "relation": "P102",
+    "entities": [
+      "Q181383"
+    ],
+    "quid": 197,
+    "qlabel": "Single"
+  },
+  {
+    "question": "University of Lapland bắt đầu sự nghiệp tham gia tổ chức ở đâu?",
+    "answers": [
+      "FinELib"
+    ],
+    "answer_type": "entity",
+    "qtype": "first_last",
+    "subtype": "first",
+    "time_level": "year",
+    "relation": "P463",
+    "entities": [
+      "Q1742604"
+    ],
+    "quid": 198,
+    "qlabel": "Single"
+  },
+  {
+    "question": "José Enrique Serrano giữ chức vụ nào đầu tiên?",
+    "answers": [
+      "member of the New York State Assembly"
+    ],
+    "answer_type": "entity",
+    "qtype": "first_last",
+    "subtype": "first",
+    "time_level": "year",
+    "relation": "P39",
+    "entities": [
+      "Q460267"
+    ],
+    "quid": 199,
+    "qlabel": "Single"
+  },
+  {
+    "question": "Chức vụ cuối cùng của Norbert Lammert trước khi nghỉ hưu là?",
+    "answers": [
+      "member of the German Bundestag"
+    ],
+    "answer_type": "entity",
+    "qtype": "first_last",
+    "subtype": "last",
+    "time_level": "year",
+    "relation": "P39",
+    "entities": [
+      "Q57474"
+    ],
+    "quid": 200,
+    "qlabel": "Single"
+  },
+  {
+    "question": "Giải đầu tiên đánh dấu sự nghiệp của Sugar Ray Leonard là gì?",
+    "answers": [
+      "Sugar Ray Robinson Award"
+    ],
+    "answer_type": "entity",
+    "qtype": "first_last",
+    "subtype": "first",
+    "time_level": "year",
+    "relation": "P166",
+    "entities": [
+      "Q335798"
+    ],
+    "quid": 201,
+    "qlabel": "Single"
+  },
+  {
+    "question": "Lần đầu tiên Gianluca Ricci chơi bóng là cho đội nào?",
+    "answers": [
+      "A.C. Cesena"
+    ],
+    "answer_type": "entity",
+    "qtype": "first_last",
+    "subtype": "first",
+    "time_level": "year",
+    "relation": "P54",
+    "entities": [
+      "Q3763289"
+    ],
+    "quid": 202,
+    "qlabel": "Single"
+  },
+  {
+    "question": "Tổ chức cuối cùng mà Đại học King gia nhập là?",
+    "answers": [
+      "ORCID"
+    ],
+    "answer_type": "entity",
+    "qtype": "first_last",
+    "subtype": "last",
+    "time_level": "year",
+    "relation": "P463",
+    "entities": [
+      "Q245247"
+    ],
+    "quid": 203,
+    "qlabel": "Single"
+  },
+  {
+    "question": "Bậc học cao nhất của Paul Cohen là ở trường nào?",
+    "answers": [
+      "Đại học Chicago"
+    ],
+    "answer_type": "entity",
+    "qtype": "first_last",
+    "subtype": "last",
+    "time_level": "year",
+    "relation": "P69",
+    "entities": [
+      "Q216809"
+    ],
+    "quid": 204,
+    "qlabel": "Single"
+  },
+  {
+    "question": "Công ty cuối cùng của Bartolomé Bennassar trong sự nghiệp là?",
+    "answers": [
+      "University Toulouse - Jean Jaurès"
+    ],
+    "answer_type": "entity",
+    "qtype": "first_last",
+    "subtype": "last",
+    "time_level": "year",
+    "relation": "P108",
+    "entities": [
+      "Q2013862"
+    ],
+    "quid": 205,
+    "qlabel": "Single"
+  },
+  {
+    "question": "Bạn đời cuối đời của Angelina Jolie là ai?",
+    "answers": [
+      "Brad Pitt"
+    ],
+    "answer_type": "entity",
+    "qtype": "first_last",
+    "subtype": "last",
+    "time_level": "year",
+    "relation": "P26",
+    "entities": [
+      "Q13909"
+    ],
+    "quid": 206,
+    "qlabel": "Single"
+  },
+  {
+    "question": "Công ty cuối cùng của John Rawls trong sự nghiệp là?",
+    "answers": [
+      "Đại học Harvard"
+    ],
+    "answer_type": "entity",
+    "qtype": "first_last",
+    "subtype": "last",
+    "time_level": "year",
+    "relation": "P108",
+    "entities": [
+      "Q172544"
+    ],
+    "quid": 207,
+    "qlabel": "Single"
+  },
+  {
+    "question": "Nơi cuối cùng Edward Collingwood làm việc trước khi nghỉ hưu là?",
+    "answers": [
+      "Medical Research Council"
+    ],
+    "answer_type": "entity",
+    "qtype": "first_last",
+    "subtype": "last",
+    "time_level": "year",
+    "relation": "P108",
+    "entities": [
+      "Q127073"
+    ],
+    "quid": 208,
+    "qlabel": "Single"
+  },
+  {
+    "question": "Đội cuối cùng của Paulo Roberto Junges trong sự nghiệp là?",
+    "answers": [
+      "Luverdense Esporte Clube"
+    ],
+    "answer_type": "entity",
+    "qtype": "first_last",
+    "subtype": "last",
+    "time_level": "year",
+    "relation": "P54",
+    "entities": [
+      "Q7155295"
+    ],
+    "quid": 209,
+    "qlabel": "Single"
+  },
+  {
+    "question": "Trường đầu tiên Philippe Saintonge theo học là gì?",
+    "answers": [
+      "Séminaire de Rimouski"
+    ],
+    "answer_type": "entity",
+    "qtype": "first_last",
+    "subtype": "first",
+    "time_level": "year",
+    "relation": "P69",
+    "entities": [
+      "Q116889135"
+    ],
+    "quid": 210,
+    "qlabel": "Single"
+  },
+  {
+    "question": "Người kết hôn đầu tiên với Vajiralongkorn là ai?",
+    "answers": [
+      "Soamsawali, Princess Suddhanarinatha"
+    ],
+    "answer_type": "entity",
+    "qtype": "first_last",
+    "subtype": "first",
+    "time_level": "year",
+    "relation": "P26",
+    "entities": [
+      "Q548733"
+    ],
+    "quid": 211,
+    "qlabel": "Single"
+  },
+  {
+    "question": "Lần đầu tiên Carlos Esteban Frontini chơi bóng là cho đội nào?",
+    "answers": [
+      "Sport Club Corinthians Alagoano"
+    ],
+    "answer_type": "entity",
+    "qtype": "first_last",
+    "subtype": "first",
+    "time_level": "year",
+    "relation": "P54",
+    "entities": [
+      "Q2065799"
+    ],
+    "quid": 212,
+    "qlabel": "Single"
+  },
+  {
+    "question": "Karel Schwarzenberg kết thúc sự nghiệp ở đảng nào?",
+    "answers": [
+      "TOP 09"
+    ],
+    "answer_type": "entity",
+    "qtype": "first_last",
+    "subtype": "last",
+    "time_level": "year",
+    "relation": "P102",
+    "entities": [
+      "Q58195"
+    ],
+    "quid": 213,
+    "qlabel": "Single"
+  },
+  {
+    "question": "Nơi làm việc đầu tiên của Russel E. Caflisch là?",
+    "answers": [
+      "Đại học New York"
+    ],
+    "answer_type": "entity",
+    "qtype": "first_last",
+    "subtype": "first",
+    "time_level": "year",
+    "relation": "P108",
+    "entities": [
+      "Q17198672"
+    ],
+    "quid": 214,
+    "qlabel": "Single"
+  },
+  {
+    "question": "Bậc học cao nhất của Ernst Abbe là ở trường nào?",
+    "answers": [
+      "Đại học Göttingen"
+    ],
+    "answer_type": "entity",
+    "qtype": "first_last",
+    "subtype": "last",
+    "time_level": "year",
+    "relation": "P69",
+    "entities": [
+      "Q76359"
+    ],
+    "quid": 215,
+    "qlabel": "Single"
+  },
+  {
+    "question": "Đội bóng đầu đời của Tomas Danilevičius là gì?",
+    "answers": [
+      "FK Atlantas"
+    ],
+    "answer_type": "entity",
+    "qtype": "first_last",
+    "subtype": "first",
+    "time_level": "year",
+    "relation": "P54",
+    "entities": [
+      "Q381401"
+    ],
+    "quid": 216,
+    "qlabel": "Single"
+  },
+  {
+    "question": "Ngôi trường mà Abram Besicovitch tốt nghiệp lần cuối là gì?",
+    "answers": [
+      "Imperial St. Petersburg University"
+    ],
+    "answer_type": "entity",
+    "qtype": "first_last",
+    "subtype": "last",
+    "time_level": "year",
+    "relation": "P69",
+    "entities": [
+      "Q331089"
+    ],
+    "quid": 217,
+    "qlabel": "Single"
+  },
+  {
+    "question": "Tổ chức đầu tiên Albert Eschenmoser tham gia là gì?",
+    "answers": [
+      "Viện Hàn lâm Khoa học và Nghệ thuật Hoa Kỳ"
+    ],
+    "answer_type": "entity",
+    "qtype": "first_last",
+    "subtype": "first",
+    "time_level": "year",
+    "relation": "P463",
+    "entities": [
+      "Q116960"
+    ],
+    "quid": 218,
+    "qlabel": "Single"
+  },
+  {
+    "question": "Vợ/Chồng cuối cùng của Angelina Jolie là ai?",
+    "answers": [
+      "Brad Pitt"
+    ],
+    "answer_type": "entity",
+    "qtype": "first_last",
+    "subtype": "last",
+    "time_level": "year",
+    "relation": "P26",
+    "entities": [
+      "Q13909"
+    ],
+    "quid": 219,
+    "qlabel": "Single"
+  },
+  {
+    "question": "Tổ chức đầu tiên John Jacob Abel tham gia là gì?",
+    "answers": [
+      "Viện hàn lâm Khoa học quốc gia Hoa Kỳ"
+    ],
+    "answer_type": "entity",
+    "qtype": "first_last",
+    "subtype": "first",
+    "time_level": "year",
+    "relation": "P463",
+    "entities": [
+      "Q741428"
+    ],
+    "quid": 220,
+    "qlabel": "Single"
+  },
+  {
+    "question": "Angelina Jolie kết hôn với ai lần đầu tiên?",
+    "answers": [
+      "Billy Bob Thornton"
+    ],
+    "answer_type": "entity",
+    "qtype": "first_last",
+    "subtype": "first",
+    "time_level": "year",
+    "relation": "P26",
+    "entities": [
+      "Q13909"
+    ],
+    "quid": 221,
+    "qlabel": "Single"
+  },
+  {
+    "question": "Người vợ/chồng đầu tiên của Brad Pitt là ai?",
+    "answers": [
+      "Jennifer Aniston"
+    ],
+    "answer_type": "entity",
+    "qtype": "first_last",
+    "subtype": "first",
+    "time_level": "year",
+    "relation": "P26",
+    "entities": [
+      "Q35332"
+    ],
+    "quid": 222,
+    "qlabel": "Single"
+  },
+  {
+    "question": "Người vợ/chồng đầu tiên của Angelina Jolie là ai?",
+    "answers": [
+      "Billy Bob Thornton"
+    ],
+    "answer_type": "entity",
+    "qtype": "first_last",
+    "subtype": "first",
+    "time_level": "year",
+    "relation": "P26",
+    "entities": [
+      "Q13909"
+    ],
+    "quid": 223,
+    "qlabel": "Single"
+  },
+  {
+    "question": "Giải đầu tiên đánh dấu sự nghiệp của Charlie Chaplin là gì?",
+    "answers": [
+      "Giải Oscar danh dự"
+    ],
+    "answer_type": "entity",
+    "qtype": "first_last",
+    "subtype": "first",
+    "time_level": "year",
+    "relation": "P166",
+    "entities": [
+      "Q882"
+    ],
+    "quid": 224,
+    "qlabel": "Single"
+  },
+  {
+    "question": "Giải thưởng cuối cùng Isiah Thomas từng nhận là?",
+    "answers": [
+      "Bill Russell NBA Finals Most Valuable Player Award"
+    ],
+    "answer_type": "entity",
+    "qtype": "first_last",
+    "subtype": "last",
+    "time_level": "year",
+    "relation": "P166",
+    "entities": [
+      "Q298512"
+    ],
+    "quid": 225,
+    "qlabel": "Single"
+  },
+  {
+    "question": "Sébastien Lecornu tham gia đảng nào lần đầu?",
+    "answers": [
+      "Đảng liên minh vì phong trào nhân dân"
+    ],
+    "answer_type": "entity",
+    "qtype": "first_last",
+    "subtype": "first",
+    "time_level": "year",
+    "relation": "P102",
+    "entities": [
+      "Q20089181"
+    ],
+    "quid": 226,
+    "qlabel": "Single"
+  },
+  {
+    "question": "Vợ/Chồng cuối cùng của Elizabeth Taylor là ai?",
+    "answers": [
+      "John Warner"
+    ],
+    "answer_type": "entity",
+    "qtype": "first_last",
+    "subtype": "last",
+    "time_level": "year",
+    "relation": "P26",
+    "entities": [
+      "Q34851"
+    ],
+    "quid": 227,
+    "qlabel": "Single"
+  },
+  {
+    "question": "Vị trí đầu tiên mà Roman Badanin nắm giữ trong chính phủ là gì?",
+    "answers": [
+      "editor-in-chief"
+    ],
+    "answer_type": "entity",
+    "qtype": "first_last",
+    "subtype": "first",
+    "time_level": "year",
+    "relation": "P39",
+    "entities": [
+      "Q52255586"
+    ],
+    "quid": 228,
+    "qlabel": "Single"
+  },
+  {
+    "question": "Tổ chức đầu tiên thuê Dominique Kalifa là?",
+    "answers": [
+      "Trường Đại học Paris VII"
+    ],
+    "answer_type": "entity",
+    "qtype": "first_last",
+    "subtype": "first",
+    "time_level": "year",
+    "relation": "P108",
+    "entities": [
+      "Q3035247"
+    ],
+    "quid": 229,
+    "qlabel": "Single"
+  },
+  {
+    "question": "Tổ chức đầu tiên I. M. Kirko tham gia là gì?",
+    "answers": [
+      "Latvian Academy of Sciences"
+    ],
+    "answer_type": "entity",
+    "qtype": "first_last",
+    "subtype": "first",
+    "time_level": "year",
+    "relation": "P463",
+    "entities": [
+      "Q15068655"
+    ],
+    "quid": 230,
+    "qlabel": "Single"
+  },
+  {
+    "question": "Cuộc hôn nhân đầu tiên của Gary Oldman là với ai?",
+    "answers": [
+      "Lesley Manville"
+    ],
+    "answer_type": "entity",
+    "qtype": "first_last",
+    "subtype": "first",
+    "time_level": "year",
+    "relation": "P26",
+    "entities": [
+      "Q83492"
+    ],
+    "quid": 231,
+    "qlabel": "Single"
+  },
+  {
+    "question": "Đảng phái đầu tiên trong sự nghiệp chính trị của Renhō là gì?",
+    "answers": [
+      "Đảng Dân chủ"
+    ],
+    "answer_type": "entity",
+    "qtype": "first_last",
+    "subtype": "first",
+    "time_level": "year",
+    "relation": "P102",
+    "entities": [
+      "Q465290"
+    ],
+    "quid": 232,
+    "qlabel": "Single"
+  },
+  {
+    "question": "Đội bóng đầu đời của Armando Sadiku là gì?",
+    "answers": [
+      "KS Gramozi Ersekë"
+    ],
+    "answer_type": "entity",
+    "qtype": "first_last",
+    "subtype": "first",
+    "time_level": "year",
+    "relation": "P54",
+    "entities": [
+      "Q2015958"
+    ],
+    "quid": 233,
+    "qlabel": "Single"
+  },
+  {
+    "question": "Công việc đầu đời của Władysław Orlicz là tại đâu?",
+    "answers": [
+      "Đại học Lviv"
+    ],
+    "answer_type": "entity",
+    "qtype": "first_last",
+    "subtype": "first",
+    "time_level": "year",
+    "relation": "P108",
+    "entities": [
+      "Q1344809"
+    ],
+    "quid": 234,
+    "qlabel": "Single"
+  },
+  {
+    "question": "Giải thưởng đầu tiên trong sự nghiệp của Aleksei Yuryevich German là gì?",
+    "answers": [
+      "Vasilyev Brothers State Prize of the RSFSR"
+    ],
+    "answer_type": "entity",
+    "qtype": "first_last",
+    "subtype": "first",
+    "time_level": "year",
+    "relation": "P166",
+    "entities": [
+      "Q2622675"
+    ],
+    "quid": 235,
+    "qlabel": "Single"
+  },
+  {
+    "question": "Tổ chức cuối cùng mà Neville Francis Mott từng là thành viên là gì?",
+    "answers": [
+      "Viện hàn lâm Khoa học Leopoldina"
+    ],
+    "answer_type": "entity",
+    "qtype": "first_last",
+    "subtype": "last",
+    "time_level": "year",
+    "relation": "P463",
+    "entities": [
+      "Q189485"
+    ],
+    "quid": 236,
+    "qlabel": "Single"
+  },
+  {
+    "question": "Ramon Menezes Hubner thi đấu cho đội nào lần đầu tiên?",
+    "answers": [
+      "Cruzeiro Esporte Clube"
+    ],
+    "answer_type": "entity",
+    "qtype": "first_last",
+    "subtype": "first",
+    "time_level": "year",
+    "relation": "P54",
+    "entities": [
+      "Q181139"
+    ],
+    "quid": 237,
+    "qlabel": "Single"
+  },
+  {
+    "question": "Jennifer Lopez lấy ai cuối cùng?",
+    "answers": [
+      "Ben Affleck"
+    ],
+    "answer_type": "entity",
+    "qtype": "first_last",
+    "subtype": "last",
+    "time_level": "year",
+    "relation": "P26",
+    "entities": [
+      "Q40715"
+    ],
+    "quid": 238,
+    "qlabel": "Single"
+  },
+  {
+    "question": "Kevin-Prince Boateng treo giày ở đội nào?",
+    "answers": [
+      "Hertha BSC Berlin"
+    ],
+    "answer_type": "entity",
+    "qtype": "first_last",
+    "subtype": "last",
+    "time_level": "year",
+    "relation": "P54",
+    "entities": [
+      "Q151034"
+    ],
+    "quid": 239,
+    "qlabel": "Single"
+  },
+  {
+    "question": "Câu lạc bộ đầu tiên trong sự nghiệp của Rohan Ricketts là gì?",
+    "answers": [
+      "England national under-18 association football team"
+    ],
+    "answer_type": "entity",
+    "qtype": "first_last",
+    "subtype": "first",
+    "time_level": "year",
+    "relation": "P54",
+    "entities": [
+      "Q761539"
+    ],
+    "quid": 240,
+    "qlabel": "Single"
+  },
+  {
+    "question": "Ai cùng là thành viên Tổ chức Cấm Vũ khí Hóa học với Việt Nam?",
+    "answers": [
+      "Bolivia",
+      "Botswana",
+      "Burundi",
+      "Bénin",
+      "Cộng hòa Síp",
+      "Gambia",
+      "Indonesia",
+      "Litva",
+      "Malawi",
+      "Mauritanie",
+      "Panama",
+      "Sénégal",
+      "Tanzania",
+      "Ukraina",
+      "Venezuela"
+    ],
+    "answer_type": "entity",
+    "qtype": "time_join",
+    "time_level": "year",
+    "relation": "P463",
+    "year": 1998,
+    "entities": [
+      "Q881",
+      "Q842490"
+    ],
+    "quid": 241,
+    "qlabel": "Multiple"
+  },
+  {
+    "question": "Ai cùng Angela Schottenhammer làm việc tại Đại học Marburg?",
+    "answers": [
+      "Thomas Wozniak"
+    ],
+    "answer_type": "entity",
+    "qtype": "time_join",
+    "time_level": "year",
+    "relation": "P108",
+    "year": 2008,
+    "entities": [
+      "Q21253491",
+      "Q155354"
+    ],
+    "quid": 242,
+    "qlabel": "Single"
+  },
+  {
+    "question": "Ai cùng Boris Bugayev được trao giải Huân chương Sao Đỏ?",
+    "answers": [
+      "Aleksandr Chekmarev",
+      "Alexander Shokin",
+      "Andrey Anatoly Botchvar",
+      "Artem Ivanovich Mikoyan",
+      "Dmitry Timofeyevich Yazov",
+      "Ezras Hasratyan",
+      "Ivan Nikiforovich Stepanenko",
+      "Ivan Papanin",
+      "Josef Kotin",
+      "Juri Lotman",
+      "Naum Reznikov",
+      "Nikolai Stroev",
+      "Nikolay Dollezhal",
+      "Oleksiy Fedorov",
+      "Sergey Afanasyev",
+      "Sergey Andryushchenko",
+      "Viktor Sergeevich Kulebakin",
+      "Vladimir Utkin"
+    ],
+    "answer_type": "entity",
+    "qtype": "time_join",
+    "time_level": "year",
+    "relation": "P166",
+    "year": 1945,
+    "entities": [
+      "Q563485",
+      "Q695106"
+    ],
+    "quid": 243,
+    "qlabel": "Multiple"
+  },
+  {
+    "question": "Ai có chung giai đoạn ở Hiệp hội Phát triển Quốc tế với Kuwait?",
+    "answers": [
+      "Argentina",
+      "Cộng hòa Dominica",
+      "Cộng hòa Síp",
+      "El Salvador",
+      "Hy Lạp",
+      "Liban",
+      "Liberia",
+      "Myanma",
+      "Sierra Leone",
+      "Somalia",
+      "Syria",
+      "Sénégal",
+      "Tanzania",
+      "Togo"
+    ],
+    "answer_type": "entity",
+    "qtype": "time_join",
+    "time_level": "year",
+    "relation": "P463",
+    "year": 1962,
+    "entities": [
+      "Q817",
+      "Q827525"
+    ],
+    "quid": 244,
+    "qlabel": "Multiple"
+  },
+  {
+    "question": "Ai có chung khoảng thời gian sinh hoạt tại Đảng Cộng hòa với Chris Smith?",
+    "answers": [
+      "Pete McCloskey",
+      "Ronald Reagan"
+    ],
+    "answer_type": "entity",
+    "qtype": "time_join",
+    "time_level": "year",
+    "relation": "P102",
+    "year": 1978,
+    "entities": [
+      "Q981167",
+      "Q29468"
+    ],
+    "quid": 245,
+    "qlabel": "Multiple"
+  },
+  {
+    "question": "Ai cùng James Dillon đảm nhiệm chức vụ Teachta Dála vào thời điểm đó?",
+    "answers": [
+      "Erskine Hamilton Childers",
+      "Frank Aiken",
+      "Gerald Boland",
+      "James Ryan",
+      "Patrick \"Paddy\" Smith",
+      "Richard Mulcahy",
+      "Seán Lemass",
+      "Seán MacEntee",
+      "Seán T. O'Kelly",
+      "W. T. Cosgrave",
+      "William Norton",
+      "Éamon de Valera"
+    ],
+    "answer_type": "entity",
+    "qtype": "time_join",
+    "time_level": "year",
+    "relation": "P39",
+    "year": 1938,
+    "entities": [
+      "Q454271",
+      "Q654291"
+    ],
+    "quid": 246,
+    "qlabel": "Multiple"
+  },
+  {
+    "question": "Bạn học của Serge Beaulieu tại Đại học Laval là ai?",
+    "answers": [
+      "Noël Bélanger"
+    ],
+    "answer_type": "entity",
+    "qtype": "time_join",
+    "time_level": "year",
+    "relation": "P69",
+    "year": 1982,
+    "entities": [
+      "Q90787637",
+      "Q1067935"
+    ],
+    "quid": 247,
+    "qlabel": "Single"
+  },
+  {
+    "question": "Đồng nghiệp của Paul Painlevé ở Science Faculty of Paris là ai?",
+    "answers": [
+      "Élie Cartan"
+    ],
+    "answer_type": "entity",
+    "qtype": "time_join",
+    "time_level": "year",
+    "relation": "P108",
+    "year": 1892,
+    "entities": [
+      "Q315434",
+      "Q3064332"
+    ],
+    "quid": 248,
+    "qlabel": "Single"
+  },
+  {
+    "question": "Ai chơi cùng Renaldo Lopes da Cruz ở Club Athletico Paranaense?",
+    "answers": [
+      "Éder Aleixo"
+    ],
+    "answer_type": "entity",
+    "qtype": "time_join",
+    "time_level": "year",
+    "relation": "P54",
+    "year": 1991,
+    "entities": [
+      "Q494599",
+      "Q506832"
+    ],
+    "quid": 249,
+    "qlabel": "Single"
+  },
+  {
+    "question": "Ai có cùng giữ chức Federal Minister of the Interior với Horst Seehofer?",
+    "answers": [
+      "Thomas de Maiziere"
+    ],
+    "answer_type": "entity",
+    "qtype": "time_join",
+    "time_level": "year",
+    "relation": "P39",
+    "year": 2018,
+    "entities": [
+      "Q44612",
+      "Q22575628"
+    ],
+    "quid": 250,
+    "qlabel": "Single"
+  },
+  {
+    "question": "Cùng thời điểm với Bert Vogelstein, ai cũng đoạt Giải Paul Ehrlich và Ludwig Darmstaedter?",
+    "answers": [
+      "Arnold J. Levine"
+    ],
+    "answer_type": "entity",
+    "qtype": "time_join",
+    "time_level": "year",
+    "relation": "P166",
+    "year": 1998,
+    "entities": [
+      "Q827502",
+      "Q458338"
+    ],
+    "quid": 251,
+    "qlabel": "Single"
+  },
+  {
+    "question": "Đồng đội của Neil Redfearn tại Wigan Athletic là những ai?",
+    "answers": [
+      "Andy Marriott",
+      "Michael O'Neill",
+      "Scott Willis",
+      "Tony Dinning"
+    ],
+    "answer_type": "entity",
+    "qtype": "time_join",
+    "time_level": "year",
+    "relation": "P54",
+    "year": 2000,
+    "entities": [
+      "Q6065586",
+      "Q18750"
+    ],
+    "quid": 252,
+    "qlabel": "Multiple"
+  },
+  {
+    "question": "Ai có chung khoảng thời gian sinh hoạt tại chính trị gia độc lập với Bernie Sanders?",
+    "answers": [
+      "Denis Nikolayevich Voronenkov",
+      "Emmanuel Macron",
+      "Giorgio Napolitano",
+      "Lý Đăng Huy",
+      "Okada Katsuya",
+      "Paavo Väyrynen",
+      "Park Geun-hye",
+      "Sorin Grindeanu"
+    ],
+    "answer_type": "entity",
+    "qtype": "time_join",
+    "time_level": "year",
+    "relation": "P102",
+    "year": 2016,
+    "entities": [
+      "Q359442",
+      "Q327591"
+    ],
+    "quid": 253,
+    "qlabel": "Multiple"
+  },
+  {
+    "question": "Ai cùng học tại Đại học Tokyo với Gorō Shimura?",
+    "answers": [
+      "Michio Suzuki",
+      "Mikio Sato"
+    ],
+    "answer_type": "entity",
+    "qtype": "time_join",
+    "time_level": "year",
+    "relation": "P69",
+    "year": 1949,
+    "entities": [
+      "Q353411",
+      "Q7842"
+    ],
+    "quid": 254,
+    "qlabel": "Multiple"
+  },
+  {
+    "question": "Ai cùng Esteban de Bilbao Eguía đảm nhiệm Minister of Justice?",
+    "answers": [
+      "Eduardo Aunós"
+    ],
+    "answer_type": "entity",
+    "qtype": "time_join",
+    "time_level": "year",
+    "relation": "P39",
+    "year": 1939,
+    "entities": [
+      "Q3753583",
+      "Q24279063"
+    ],
+    "quid": 255,
+    "qlabel": "Single"
+  },
+  {
+    "question": "Đồng nghiệp của George Mostow ở Viện nghiên cứu cao cấp Princeton là ai?",
+    "answers": [
+      "Andrzej Mostowski",
+      "Carl L. Siegel",
+      "Claude Ambrose Rogers",
+      "Edwin Spanier",
+      "Ernst G. Straus",
+      "Gilbert Agnew Hunt",
+      "Harish-Chandra",
+      "Hermann Weyl",
+      "Irving Reiner",
+      "Irving Segal",
+      "John von Neumann",
+      "Kodaira Kunihiko",
+      "Lamberto Cesari",
+      "Marston Morse",
+      "Raoul Bott",
+      "Sarvadaman Chowla"
+    ],
+    "answer_type": "entity",
+    "qtype": "time_join",
+    "time_level": "year",
+    "relation": "P108",
+    "year": 1947,
+    "entities": [
+      "Q1507954",
+      "Q635642"
+    ],
+    "quid": 256,
+    "qlabel": "Multiple"
+  },
+  {
+    "question": "Ai và Alberto Fujimori nhận giải cùng năm?",
+    "answers": [
+      "Martti Ahtisaari"
+    ],
+    "answer_type": "entity",
+    "qtype": "time_join",
+    "time_level": "year",
+    "relation": "P166",
+    "year": 1998,
+    "entities": [
+      "Q133040",
+      "Q20857526"
+    ],
+    "quid": 257,
+    "qlabel": "Single"
+  },
+  {
+    "question": "Ai cùng thi đấu cho AC Arles với Franck Dja Djédjé trong cùng giai đoạn?",
+    "answers": [
+      "Kaba Diawara"
+    ],
+    "answer_type": "entity",
+    "qtype": "time_join",
+    "time_level": "year",
+    "relation": "P54",
+    "year": 2010,
+    "entities": [
+      "Q305322",
+      "Q222837"
+    ],
+    "quid": 258,
+    "qlabel": "Single"
+  },
+  {
+    "question": "Ai chơi cùng Pietro Parente ở Đội tuyển bóng đá U-21 quốc gia Ý?",
+    "answers": [
+      "Benito Carbone",
+      "Stefano Rossini"
+    ],
+    "answer_type": "entity",
+    "qtype": "time_join",
+    "time_level": "year",
+    "relation": "P54",
+    "year": 1991,
+    "entities": [
+      "Q3904144",
+      "Q922698"
+    ],
+    "quid": 259,
+    "qlabel": "Multiple"
+  },
+  {
+    "question": "Bạn đồng hành của John Bardeen tại Hội Triết học Mỹ là ai?",
+    "answers": [
+      "Britton Chance",
+      "Norman Foster Ramsey"
+    ],
+    "answer_type": "entity",
+    "qtype": "time_join",
+    "time_level": "year",
+    "relation": "P463",
+    "year": 1958,
+    "entities": [
+      "Q949",
+      "Q466089"
+    ],
+    "quid": 260,
+    "qlabel": "Multiple"
+  },
+  {
+    "question": "Ai cùng học tại Đại học Göttingen với Wolfgang Krull?",
+    "answers": [
+      "Carl L. Siegel",
+      "Emil Artin",
+      "Hellmuth Kneser",
+      "Helmut Hasse"
+    ],
+    "answer_type": "entity",
+    "qtype": "time_join",
+    "time_level": "year",
+    "relation": "P69",
+    "year": 1920,
+    "entities": [
+      "Q65185",
+      "Q152838"
+    ],
+    "quid": 261,
+    "qlabel": "Multiple"
+  },
+  {
+    "question": "Ai cùng sinh hoạt tại Social Democracy với Stanislav Gross?",
+    "answers": [
+      "Bohuslav Sobotka",
+      "Jiří Paroubek"
+    ],
+    "answer_type": "entity",
+    "qtype": "time_join",
+    "time_level": "year",
+    "relation": "P102",
+    "year": 1989,
+    "entities": [
+      "Q348896",
+      "Q341148"
+    ],
+    "quid": 262,
+    "qlabel": "Multiple"
+  },
+  {
+    "question": "Ai cùng sinh hoạt tại Đảng Nhân dân với José María Aznar López?",
+    "answers": [
+      "Abel Matutes",
+      "Carlos Arias Navarro",
+      "Esperanza Aguirre",
+      "Federico Trillo",
+      "Francisco Álvarez-Cascos",
+      "Javier Arenas Bocanegra",
+      "Javier Rupérez",
+      "Manuel Fraga",
+      "Marcelino Oreja, 1st Marquis of Oreja",
+      "Mariano Rajoy",
+      "Miguel Arias Cañete",
+      "Miguel Herrero y Rodríguez de Miñón",
+      "Rafael Hernando Fraile",
+      "Xavier García Albiol"
+    ],
+    "answer_type": "entity",
+    "qtype": "time_join",
+    "time_level": "year",
+    "relation": "P102",
+    "year": 1989,
+    "entities": [
+      "Q55637",
+      "Q185088"
+    ],
+    "quid": 263,
+    "qlabel": "Multiple"
+  },
+  {
+    "question": "Ai cùng John Russell, 1st Earl Russell đảm nhiệm chức vụ Leader of the House of Commons vào thời điểm đó?",
+    "answers": [
+      "Robert Peel"
+    ],
+    "answer_type": "entity",
+    "qtype": "time_join",
+    "time_level": "year",
+    "relation": "P39",
+    "year": 1835,
+    "entities": [
+      "Q157259",
+      "Q2636053"
+    ],
+    "quid": 264,
+    "qlabel": "Single"
+  },
+  {
+    "question": "Đồng chí của Fadey Sargsyan tại Đảng Cộng sản Liên Xô là ai?",
+    "answers": [
+      "Aleksandr Chekmarev",
+      "Aleksandr Mikhaylovich Vasilevskiy",
+      "Aleksey Kosygin",
+      "Alexander Tselikov",
+      "Andrei Andreyevich Gromyko",
+      "Aram Khachaturian",
+      "Dmitriy Ustinov",
+      "Georgi Konstantinovich Zhukov",
+      "Heydar Alirza oglu Aliyev",
+      "Iosif Vissarionovich Stalin",
+      "Leonid Ilyich Brezhnev",
+      "Mikhail Kalinin",
+      "Nikolai Aleksandrovich Bulganin",
+      "Nikolai Konstantinovich Baibakov",
+      "Semyon Konstantinovich Timoshenko",
+      "Viktor Georgyevich Kulikov",
+      "Vyacheslav Mikhailovich Molotov"
+    ],
+    "answer_type": "entity",
+    "qtype": "time_join",
+    "time_level": "year",
+    "relation": "P102",
+    "year": 1945,
+    "entities": [
+      "Q3653177",
+      "Q79854"
+    ],
+    "quid": 265,
+    "qlabel": "Multiple"
+  },
+  {
+    "question": "Cùng thời điểm với Jean-Noël Jeanneney, ai cũng đoạt Bắc Đẩu Bội tinh hạng 4?",
+    "answers": [
+      "Pierre Corvol",
+      "Yves Coppens"
+    ],
+    "answer_type": "entity",
+    "qtype": "time_join",
+    "time_level": "year",
+    "relation": "P166",
+    "year": 1996,
+    "entities": [
+      "Q714993",
+      "Q10855195"
+    ],
+    "quid": 266,
+    "qlabel": "Multiple"
+  },
+  {
+    "question": "Đồng chí của Julia Klöckner tại Liên minh Dân chủ Kitô giáo Đức là ai?",
+    "answers": [
+      "Erika Steinbach",
+      "Horst Köhler"
+    ],
+    "answer_type": "entity",
+    "qtype": "time_join",
+    "time_level": "year",
+    "relation": "P102",
+    "year": 1996,
+    "entities": [
+      "Q88158",
+      "Q49762"
+    ],
+    "quid": 267,
+    "qlabel": "Multiple"
+  },
+  {
+    "question": "Ai cùng là thành viên Portela với Lane Santana?",
+    "answers": [
+      "Jorge Caribé"
+    ],
+    "answer_type": "entity",
+    "qtype": "time_join",
+    "time_level": "year",
+    "relation": "P463",
+    "year": 2009,
+    "entities": [
+      "Q23892615",
+      "Q1551581"
+    ],
+    "quid": 268,
+    "qlabel": "Single"
+  },
+  {
+    "question": "Ai cùng khoác áo KF Laçi với Arjan Sheta?",
+    "answers": [
+      "Migen Memelli",
+      "Mladen Brkić"
+    ],
+    "answer_type": "entity",
+    "qtype": "time_join",
+    "time_level": "year",
+    "relation": "P54",
+    "year": 2014,
+    "entities": [
+      "Q4791527",
+      "Q60701"
+    ],
+    "quid": 269,
+    "qlabel": "Multiple"
+  },
+  {
+    "question": "Đồng nghiệp của Iheoma U Iruka ở Đại học North Carolina tại Chapel Hill là ai?",
+    "answers": [
+      "Jeffrey A. Becker",
+      "Robert Merrihew Adams"
+    ],
+    "answer_type": "entity",
+    "qtype": "time_join",
+    "time_level": "year",
+    "relation": "P108",
+    "year": 2008,
+    "entities": [
+      "Q87237851",
+      "Q192334"
+    ],
+    "quid": 270,
+    "qlabel": "Multiple"
+  },
+  {
+    "question": "Ai chơi cùng Adrian Mutu ở Hellas Verona F.C.?",
+    "answers": [
+      "Alberto Gilardino",
+      "Alessandro Sgrigna",
+      "Claudio Ferrarese",
+      "Emiliano Bonazzoli",
+      "Massimo Oddo"
+    ],
+    "answer_type": "entity",
+    "qtype": "time_join",
+    "time_level": "year",
+    "relation": "P54",
+    "year": 2000,
+    "entities": [
+      "Q202645",
+      "Q8639"
+    ],
+    "quid": 271,
+    "qlabel": "Multiple"
+  },
+  {
+    "question": "Ai cùng khoác áo Halesowen Town F.C. với Mark Danks?",
+    "answers": [
+      "Chris Nurse",
+      "Jermaine Palmer",
+      "Tony Thorpe"
+    ],
+    "answer_type": "entity",
+    "qtype": "time_join",
+    "time_level": "year",
+    "relation": "P54",
+    "year": 2008,
+    "entities": [
+      "Q6767268",
+      "Q18474"
+    ],
+    "quid": 272,
+    "qlabel": "Multiple"
+  },
+  {
+    "question": "Ai là đồng nghiệp của Robert Ricatte tại University of Clermont-Ferrand (1896-1976)?",
+    "answers": [
+      "Jacques Droz",
+      "Pierre Samuel"
+    ],
+    "answer_type": "entity",
+    "qtype": "time_join",
+    "time_level": "year",
+    "relation": "P108",
+    "year": 1953,
+    "entities": [
+      "Q54087299",
+      "Q3551576"
+    ],
+    "quid": 273,
+    "qlabel": "Multiple"
+  },
+  {
+    "question": "Ai và Carlos Beltrán nhận giải cùng năm?",
+    "answers": [
+      "Joe Mauer"
+    ],
+    "answer_type": "entity",
+    "qtype": "time_join",
+    "time_level": "year",
+    "relation": "P166",
+    "year": 2009,
+    "entities": [
+      "Q1042743",
+      "Q15074074"
+    ],
+    "quid": 274,
+    "qlabel": "Single"
+  },
+  {
+    "question": "Ai cùng Udmurt Autonomous Soviet Socialist Republic được trao giải Huân chương Cách mạng Tháng Mười?",
+    "answers": [
+      "Aleksandr Shchukin",
+      "Anastas Mikoyan",
+      "Cộng hòa Xã hội chủ nghĩa Xô viết Armenia",
+      "Cộng hòa Xã hội chủ nghĩa Xô viết Kazakhstan",
+      "Cộng hòa Xã hội chủ nghĩa Xô viết tự trị Karelia",
+      "Mikhail Lavrentyev",
+      "Pavel Fyodorovich Batitsky",
+      "Vladivostok"
+    ],
+    "answer_type": "entity",
+    "qtype": "time_join",
+    "time_level": "year",
+    "relation": "P166",
+    "year": 1970,
+    "entities": [
+      "Q1429298",
+      "Q728960"
+    ],
+    "quid": 275,
+    "qlabel": "Multiple"
+  },
+  {
+    "question": "Cùng thời điểm với Thurgood Marshall, ai cũng đoạt tiến sĩ danh dự?",
+    "answers": [
+      "Lars Onsager"
+    ],
+    "answer_type": "entity",
+    "qtype": "time_join",
+    "time_level": "year",
+    "relation": "P166",
+    "year": 1954,
+    "entities": [
+      "Q312348",
+      "Q11415564"
+    ],
+    "quid": 276,
+    "qlabel": "Single"
+  },
+  {
+    "question": "Ai có chung khoảng thời gian học tại Prussian Military Academy với Walter von Bergmann?",
+    "answers": [
+      "Eberhard von Hofacker"
+    ],
+    "answer_type": "entity",
+    "qtype": "time_join",
+    "time_level": "year",
+    "relation": "P69",
+    "year": 1891,
+    "entities": [
+      "Q125803",
+      "Q144242"
+    ],
+    "quid": 277,
+    "qlabel": "Single"
+  },
+  {
+    "question": "Ai cùng là thành viên Hiệp hội bóng đá Síp với AEP Paphos F.C.?",
+    "answers": [
+      "AEK Kouklia F.C.",
+      "APEP F.C.",
+      "APOP Kinyras FC",
+      "Alki Larnaca F.C.",
+      "Atromitos Yeroskipou",
+      "Confederation of local federations of Cyprus",
+      "Onisilos Sotira",
+      "Pafos FC"
+    ],
+    "answer_type": "entity",
+    "qtype": "time_join",
+    "time_level": "year",
+    "relation": "P463",
+    "year": 2000,
+    "entities": [
+      "Q291559",
+      "Q473248"
+    ],
+    "quid": 278,
+    "qlabel": "Multiple"
+  },
+  {
+    "question": "Ai cùng Amartya Sen được trao giải honorary doctor of the University of Antwerp?",
+    "answers": [
+      "Richard von Weizsäcker",
+      "Umberto Veronesi"
+    ],
+    "answer_type": "entity",
+    "qtype": "time_join",
+    "time_level": "year",
+    "relation": "P166",
+    "year": 1995,
+    "entities": [
+      "Q132489",
+      "Q99980667"
+    ],
+    "quid": 279,
+    "qlabel": "Multiple"
+  },
+  {
+    "question": "Ai cùng học tại Đại học Paris với Grigore Moisil?",
+    "answers": [
+      "Lars Ahlfors"
+    ],
+    "answer_type": "entity",
+    "qtype": "time_join",
+    "time_level": "year",
+    "relation": "P69",
+    "year": 1930,
+    "entities": [
+      "Q2546258",
+      "Q209842"
+    ],
+    "quid": 280,
+    "qlabel": "Single"
+  },
+  {
+    "question": "Ai có chung khoảng thời gian làm tại Instituto Nacional de Matemática Pura e Aplicada với Maurício Peixoto?",
+    "answers": [
+      "Leopoldo Nachbin"
+    ],
+    "answer_type": "entity",
+    "qtype": "time_join",
+    "time_level": "year",
+    "relation": "P108",
+    "year": 1970,
+    "entities": [
+      "Q3957076",
+      "Q904687"
+    ],
+    "quid": 281,
+    "qlabel": "Single"
+  },
+  {
+    "question": "Ai có chung khoảng thời gian học tại Đại học Göttingen với Ludwig Bieberbach?",
+    "answers": [
+      "Erich Hecke",
+      "Gustav Ludwig Hertz",
+      "Hermann Weyl",
+      "Hugo Steinhaus",
+      "Max Born",
+      "Nikolaĭ Nikolaevich Andreev",
+      "Richard Courant",
+      "Theodore von Kármán",
+      "Wilhelm Blaschke"
+    ],
+    "answer_type": "entity",
+    "qtype": "time_join",
+    "time_level": "year",
+    "relation": "P69",
+    "year": 1906,
+    "entities": [
+      "Q65202",
+      "Q152838"
+    ],
+    "quid": 282,
+    "qlabel": "Multiple"
+  },
+  {
+    "question": "Bạn học của Andrey Andreyev tại Học viện Quân sự Frunze là ai?",
+    "answers": [
+      "Ivan Lyudnikov",
+      "Pavel Fyodorovich Batitsky"
+    ],
+    "answer_type": "entity",
+    "qtype": "time_join",
+    "time_level": "year",
+    "relation": "P69",
+    "year": 1936,
+    "entities": [
+      "Q4065435",
+      "Q14404494"
+    ],
+    "quid": 283,
+    "qlabel": "Multiple"
+  },
+  {
+    "question": "Đồng chí của Peer Steinbrück tại Đảng Dân chủ Xã hội Đức là ai?",
+    "answers": [
+      "Friedrich-Wilhelm von Sell",
+      "Willy Brandt"
+    ],
+    "answer_type": "entity",
+    "qtype": "time_join",
+    "time_level": "year",
+    "relation": "P102",
+    "year": 1969,
+    "entities": [
+      "Q49328",
+      "Q49768"
+    ],
+    "quid": 284,
+    "qlabel": "Multiple"
+  },
+  {
+    "question": "Ai có chung giai đoạn ở Liên minh Bưu chính Quốc tế với Belize?",
+    "answers": [
+      "Vanuatu"
+    ],
+    "answer_type": "entity",
+    "qtype": "time_join",
+    "time_level": "year",
+    "relation": "P463",
+    "year": 1982,
+    "entities": [
+      "Q242",
+      "Q17495"
+    ],
+    "quid": 285,
+    "qlabel": "Single"
+  },
+  {
+    "question": "Cùng thời điểm với Giorgio Napolitano, ai cũng đoạt Collar of the Order of the Star of Romania?",
+    "answers": [
+      "Valdis Zatlers"
+    ],
+    "answer_type": "entity",
+    "qtype": "time_join",
+    "time_level": "year",
+    "relation": "P166",
+    "year": 2011,
+    "entities": [
+      "Q1220",
+      "Q20857526"
+    ],
+    "quid": 286,
+    "qlabel": "Single"
+  },
+  {
+    "question": "Bạn học của Hans-Hartwig Trojer tại Naval Academy at Mürwik là ai?",
+    "answers": [
+      "Albrecht Brandi",
+      "Hans-Jürgen Hellriegel",
+      "Heinrich Schroeteler",
+      "Heinz Franke",
+      "Otto Ites",
+      "Reinhard Suhren",
+      "Rolf Thomsen",
+      "Siegfried Lüdden",
+      "Wilhelm Rollmann"
+    ],
+    "answer_type": "entity",
+    "qtype": "time_join",
+    "time_level": "year",
+    "relation": "P69",
+    "year": 1937,
+    "entities": [
+      "Q2455029",
+      "Q881870"
+    ],
+    "quid": 287,
+    "qlabel": "Multiple"
+  },
+  {
+    "question": "Ai cùng là thành viên Hội hoàng gia Luân Đôn với John Griggs Thompson?",
+    "answers": [
+      "Brenda Milner",
+      "Jerzy Neyman",
+      "Martin Rees, Baron Rees of Ludlow",
+      "Yakov Zeldovich"
+    ],
+    "answer_type": "entity",
+    "qtype": "time_join",
+    "time_level": "year",
+    "relation": "P463",
+    "year": 1979,
+    "entities": [
+      "Q313168",
+      "Q123885"
+    ],
+    "quid": 288,
+    "qlabel": "Multiple"
+  },
+  {
+    "question": "Ai chơi cùng Dmitri Kuznetsov ở Đội tuyển bóng đá quốc gia Liên Xô?",
+    "answers": [
+      "Andrey Chernyshov",
+      "Stanislav Cherchesov"
+    ],
+    "answer_type": "entity",
+    "qtype": "time_join",
+    "time_level": "year",
+    "relation": "P54",
+    "year": 1990,
+    "entities": [
+      "Q511586",
+      "Q189275"
+    ],
+    "quid": 289,
+    "qlabel": "Multiple"
+  },
+  {
+    "question": "Ai cùng là thành viên Royal Society of Canada với Tak Wah Mak?",
+    "answers": [
+      "Marie-Claire Blais"
+    ],
+    "answer_type": "entity",
+    "qtype": "time_join",
+    "time_level": "year",
+    "relation": "P463",
+    "year": 1986,
+    "entities": [
+      "Q2389051",
+      "Q94301"
+    ],
+    "quid": 290,
+    "qlabel": "Single"
+  },
+  {
+    "question": "Ai có chung khoảng thời gian làm tại Đại học Göttingen với Johann Peter Gustav Lejeune Dirichlet?",
+    "answers": [
+      "Heinrich Ewald"
+    ],
+    "answer_type": "entity",
+    "qtype": "time_join",
+    "time_level": "year",
+    "relation": "P108",
+    "year": 1855,
+    "entities": [
+      "Q29193",
+      "Q152838"
+    ],
+    "quid": 291,
+    "qlabel": "Single"
+  },
+  {
+    "question": "Ai cùng Ivan Shkadov được trao giải Huân chương Lenin?",
+    "answers": [
+      "Afanasy Pavlantyevich Beloborodov",
+      "Aleksandr Ivanovich Pokryshkin",
+      "Anatoly Petrovich Alexandrov",
+      "Boris Bugayev",
+      "Dmitriy Ustinov",
+      "Gustáv Husák",
+      "Heydar Alirza oglu Aliyev",
+      "Mauno Koivisto",
+      "Sergey Vladimirovich Mikhalkov",
+      "Viktor Kuznetsov",
+      "Vitalii Goldanskii",
+      "Vladimir Lyakhov",
+      "Vladimir Utkin",
+      "Yefim Slavsky"
+    ],
+    "answer_type": "entity",
+    "qtype": "time_join",
+    "time_level": "year",
+    "relation": "P166",
+    "year": 1983,
+    "entities": [
+      "Q4524894",
+      "Q185493"
+    ],
+    "quid": 292,
+    "qlabel": "Multiple"
+  },
+  {
+    "question": "Ai có chung giai đoạn ở Viện hàn lâm Khoa học quốc gia Hoa Kỳ với Moshe Vardi?",
+    "answers": [
+      "Angus Deaton",
+      "Bob Kahn",
+      "Daniel Kahneman",
+      "David Baltimore",
+      "Dương Chấn Ninh",
+      "Fabiola Gianotti",
+      "Jean Tirole",
+      "M. S. Swaminathan",
+      "Paul E. Tapponnier",
+      "Sergei Novikov"
+    ],
+    "answer_type": "entity",
+    "qtype": "time_join",
+    "time_level": "year",
+    "relation": "P463",
+    "year": 2015,
+    "entities": [
+      "Q1585964",
+      "Q270794"
+    ],
+    "quid": 293,
+    "qlabel": "Multiple"
+  },
+  {
+    "question": "Ai cùng khoác áo Juventus F.C. với Fabio Cannavaro?",
+    "answers": [
+      "Adrian Mutu",
+      "Alex Pederzoli",
+      "Antonio Conte",
+      "Antonio Nocerino",
+      "Enzo Maresca",
+      "Gianluigi Buffon",
+      "Igor Tudor",
+      "Manuele Blasi",
+      "Michele Paolucci",
+      "Patrick Vieira",
+      "Valeri Bojinov",
+      "Zlatan Ibrahimović"
+    ],
+    "answer_type": "entity",
+    "qtype": "time_join",
+    "time_level": "year",
+    "relation": "P54",
+    "year": 2004,
+    "entities": [
+      "Q102027",
+      "Q1422"
+    ],
+    "quid": 294,
+    "qlabel": "Multiple"
+  },
+  {
+    "question": "Đồng đội của Luis García Sanz tại F.C. Barcelona là những ai?",
+    "answers": [
+      "Albert Celades",
+      "Gerard Piqué",
+      "Hristo Stoichkov",
+      "Josep Guardiola",
+      "Luis Enrique Martínez García",
+      "Rivaldo",
+      "Rubén Iván Martínez",
+      "Xavi",
+      "Óscar García Junyent"
+    ],
+    "answer_type": "entity",
+    "qtype": "time_join",
+    "time_level": "year",
+    "relation": "P54",
+    "year": 1998,
+    "entities": [
+      "Q295416",
+      "Q7156"
+    ],
+    "quid": 295,
+    "qlabel": "Multiple"
+  },
+  {
+    "question": "Ai có chung khoảng thời gian làm tại Đại học Marburg với Helmut Hasse?",
+    "answers": [
+      "Hans-Georg Gadamer"
+    ],
+    "answer_type": "entity",
+    "qtype": "time_join",
+    "time_level": "year",
+    "relation": "P108",
+    "year": 1930,
+    "entities": [
+      "Q61768",
+      "Q155354"
+    ],
+    "quid": 296,
+    "qlabel": "Single"
+  },
+  {
+    "question": "Ai cùng là thành viên Tổ chức Hội nghị Hồi giáo với Sierra Leone?",
+    "answers": [
+      "Bahrain",
+      "Qatar",
+      "Syria",
+      "các Tiểu vương quốc Ả Rập Thống nhất"
+    ],
+    "answer_type": "entity",
+    "qtype": "time_join",
+    "time_level": "year",
+    "relation": "P463",
+    "year": 1972,
+    "entities": [
+      "Q1044",
+      "Q47543"
+    ],
+    "quid": 297,
+    "qlabel": "Multiple"
+  },
+  {
+    "question": "Bạn đồng hành của Princeton University Library tại Association of Research Libraries là ai?",
+    "answers": [
+      "Harvard Library",
+      "Smithsonian Libraries and Archives",
+      "Thư viện Công cộng New York",
+      "Thư viện Quốc hội Mỹ",
+      "United States National Library of Medicine",
+      "University of Chicago Library",
+      "University of Michigan Library"
+    ],
+    "answer_type": "entity",
+    "qtype": "time_join",
+    "time_level": "year",
+    "relation": "P463",
+    "year": 2023,
+    "entities": [
+      "Q3297681",
+      "Q4810036"
+    ],
+    "quid": 298,
+    "qlabel": "Multiple"
+  },
+  {
+    "question": "Ai là đồng nghiệp của Joseph-Louis Lagrange tại Trường Bách khoa Paris?",
+    "answers": [
+      "Gaspard Monge",
+      "Joseph Fourier"
+    ],
+    "answer_type": "entity",
+    "qtype": "time_join",
+    "time_level": "year",
+    "relation": "P108",
+    "year": 1794,
+    "entities": [
+      "Q80222",
+      "Q273626"
+    ],
+    "quid": 299,
+    "qlabel": "Multiple"
+  },
+  {
+    "question": "Ai có chung khoảng thời gian sinh hoạt tại ANO 2011 với Jaroslav Faltýnek?",
+    "answers": [
+      "Andrej Babiš"
+    ],
+    "answer_type": "entity",
+    "qtype": "time_join",
+    "time_level": "year",
+    "relation": "P102",
+    "year": 2012,
+    "entities": [
+      "Q15124034",
+      "Q10728124"
+    ],
+    "quid": 300,
+    "qlabel": "Single"
+  }
+]

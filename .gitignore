@@ -4,8 +4,8 @@ cronqvn/data/
 # Intermediate cache (vài GB)
 cache/
 
-# Output câu hỏi (~25MB nhưng regenerate được)
-out/
+# # Output câu hỏi (~25MB nhưng regenerate được)
+# out/
 
 # Logs
 *.log
