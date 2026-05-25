@@ -6,6 +6,56 @@ ACTION_SELECT_SYSTEM = (
     "trong danh sách cho sẵn để hệ thống truy vấn TKG giúp bạn."
 )
 
+
+ACTION_EXAMPLES = """Ví dụ 0 (tìm năm xảy ra sự kiện):
+Câu hỏi: Năm nào Pháp ký hiệp định với Đức?
+Action 0: $get_time("Pháp", "ký hiệp định", "Đức")$
+Response 0: entities = [("Pháp", 1963)]
+Action 1: $answer(1963)$
+Response 1: Correct!
+
+Ví dụ 1 (lọc theo năm):
+Câu hỏi: Năm 2005, ai làm thủ tướng Đức?
+Action 0: $get_head_entity("Đức", "thủ tướng", 2005)$
+Response 0: entities = [("Gerhard Schröder", 2005), ("Angela Merkel", 2005)]
+Action 1: $answer(Angela Merkel)$
+Response 1: Correct!
+
+Ví dụ 2 (first):
+Câu hỏi: Ai là người đầu tiên giữ chức Tổng thống Pháp?
+Action 0: $get_head_entity("Pháp", "tổng thống", no time)$
+Response 0: entities = [("Charles de Gaulle", 1959), ("Georges Pompidou", 1969), ... ]
+Action 1: $get_first({entities})$
+Response 1: entities = [("Charles de Gaulle", 1959)]
+Action 2: $answer(Charles de Gaulle)$
+Response 2: Correct!
+
+Ví dụ 3 (before + last — multi-hop):
+Câu hỏi: Trước khi Angela Merkel làm thủ tướng Đức, ai là thủ tướng cuối cùng?
+Action 0: $get_time("Angela Merkel", "thủ tướng", "Đức")$
+Response 0: entities = [("Angela Merkel", 2005)]
+Action 1: $get_head_entity("Đức", "thủ tướng", no time)$
+Response 1: entities = [("Konrad Adenauer", 1949), ("Willy Brandt", 1969), ("Gerhard Schröder", 1998), ...]
+Action 2: $get_before({entities}, 2005)$
+Response 2: entities = [("Konrad Adenauer", 1949), ("Willy Brandt", 1969), ("Gerhard Schröder", 1998), ...]
+Action 3: $get_last({entities})$
+Response 3: entities = [("Gerhard Schröder", 1998)]
+Action 4: $answer(Gerhard Schröder)$
+Response 4: Correct!
+
+Ví dụ 4 (after + first):
+Câu hỏi: Sau năm 2010, nước nào đầu tiên ký hiệp ước với Nga?
+Action 0: $get_head_entity("Nga", "ký hiệp ước", no time)$
+Response 0: entities = [("Trung Quốc", 2005), ("Pháp", 2011), ("Ấn Độ", 2013), ...]
+Action 1: $get_after({entities}, 2010)$
+Response 1: entities = [("Pháp", 2011), ("Ấn Độ", 2013), ...]
+Action 2: $get_first({entities})$
+Response 2: entities = [("Pháp", 2011)]
+Action 3: $answer(Pháp)$
+Response 3: Correct!
+"""
+
+
 ACTION_SELECT_TEMPLATE = """Hãy chọn hành động kế tiếp để trả lời câu hỏi.
 
 Các nhóm hàm khả dụng:
@@ -13,6 +63,10 @@ Các nhóm hàm khả dụng:
 - Hàm thực thể: get_tail_entity(HEAD, REL, [T]); get_head_entity(TAIL, REL, [T])
 - Hàm chọn lọc: get_first(LIST); get_last(LIST)
 - Trả lời: answer(GIÁ_TRỊ)
+
+Ví dụ tham khảo:
+{examples}
+(hết ví dụ)
 
 Câu hỏi: {question}
 Loại câu hỏi: {qtype}    Loại đáp án: {answer_type}
@@ -27,6 +81,7 @@ Các hành động khả dụng tại bước này (CHỈ được chọn một 
 {actions}
 
 Hãy chọn đúng MỘT hành động bằng cách lặp lại nguyên văn chuỗi nằm giữa hai dấu $.
+Nếu hành động có chỗ trống {{your specified time}} thì THAY bằng một năm cụ thể (số nguyên 4 chữ số) suy ra từ các bước trước.
 Nếu đã có đủ thông tin, hãy chọn hành động $answer(...)$.
 
 Định dạng đầu ra BẮT BUỘC:

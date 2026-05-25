@@ -36,7 +36,11 @@ def _years_for(kg: KG, qid: str, relation: str) -> list[int]:
 
 def enumerate_initial(kg: KG, seed_qids: list[str], relation: str | None,
                        year: int | None) -> list[Action]:
-    """Enumerate get_tail_entity / get_head_entity / get_time from seeds."""
+    """Enumerate get_tail_entity / get_head_entity / get_time from seeds.
+
+    If `relation` is None, all relations participating with the seeds are
+    considered (relies on downstream semantic top-K filter to narrow).
+    """
     out: list[Action] = []
     relations = [relation] if relation else None
 
@@ -87,19 +91,29 @@ def enumerate_initial(kg: KG, seed_qids: list[str], relation: str | None,
 
 
 def enumerate_followups(prev: EntitySet, year_hint: int | None) -> list[Action]:
-    """Actions usable on a non-empty previous result."""
+    """Actions usable on a non-empty previous result.
+
+    Always emits `get_before/get_after/get_between` with a `{your specified time}`
+    placeholder so the LLM can fill in a year derived from earlier steps
+    (matching the reference paper's action template). `year_hint` (if set)
+    additionally emits a concrete-year shortcut.
+    """
     out: list[Action] = []
     if not prev:
         return out
     if len(prev) > 1:
         out.append(Action("get_first", (), "$get_first({entities})$"))
         out.append(Action("get_last", (), "$get_last({entities})$"))
-    years = sorted({y for (_, _, y) in prev if y is not None})
-    if years and year_hint is None:
-        # let LLM pick a year boundary using observed years
-        if len(years) >= 2:
-            out.append(Action("get_between", (years[0], years[-1]),
-                              f"$get_between({{entities}}, {years[0]}, {years[-1]})$"))
+
+    # Placeholder versions (paper-style) — LLM must replace placeholder with a year
+    out.append(Action("get_before", (None,),
+                      "$get_before({entities}, {your specified time})$"))
+    out.append(Action("get_after", (None,),
+                      "$get_after({entities}, {your specified time})$"))
+    out.append(Action("get_between", (None, None),
+                      "$get_between({entities}, {your specified start time}, {your specified end time})$"))
+
+    # Concrete-year shortcut when the question itself supplies a year
     if year_hint is not None:
         out.append(Action("get_before", (year_hint,),
                           f"$get_before({{entities}}, {year_hint})$"))

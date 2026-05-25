@@ -61,9 +61,9 @@ def main():
     by_qlabel_total = Counter()
 
     for i, q in enumerate(samples, 1):
-        methodology = select_methodology(bank, q["question"]) if bank else FALLBACK_METHODOLOGY
+        methodology = select_methodology(bank, q) if bank else FALLBACK_METHODOLOGY
         trace = run_question(kg, q, methodology=methodology)
-        rec = trace_to_record(trace)
+        rec = trace_to_record(trace, entity_qids=q.get("entities"))
         traces.append(rec)
         by_qtype_total[q["qtype"]] += 1
         by_anstype_total[q["answer_type"]] += 1

@@ -48,7 +48,7 @@ def main():
     records: list[dict] = []
     for i, q in enumerate(samples, 1):
         trace = run_question(kg, q, methodology=FALLBACK_METHODOLOGY)
-        rec = trace_to_record(trace)
+        rec = trace_to_record(trace, entity_qids=q.get("entities"))
         records.append(rec)
         if i % 10 == 0 or i == len(samples):
             n_ok = sum(1 for r in records if r["correct"])
