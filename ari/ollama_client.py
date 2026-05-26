@@ -37,6 +37,7 @@ def chat(prompt: str, system: str | None = None, model: str | None = None) -> st
         "model": model or config.LLM_MODEL,
         "messages": msgs,
         "stream": False,
+        "think": False,
         "options": {
             "temperature": config.LLM_TEMPERATURE,
             "num_ctx": config.LLM_NUM_CTX,

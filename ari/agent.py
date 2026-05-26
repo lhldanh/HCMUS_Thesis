@@ -166,27 +166,25 @@ def run_question(kg: KG, q: dict, methodology: str | None = None,
         return trace
 
     prev: EntitySet = []
-    scope_qids: list[str] = list(seeds)  # accumulates entities reachable so far
-    seen_scope = set(scope_qids)
+    # Paper §3.3 — head/tail entities are fixed at the seeds of the question;
+    # only the relation pool moves. `last_relation` mirrors `LLM_rel_choose`
+    # in ARI-QA: initially the question's relation, then locked to whichever
+    # relation the LLM picks in an entity-op step.
+    last_relation: str | None = relation
     for step_i in range(config.MAX_REASONING_STEPS):
-        # Extend scope with entities discovered in prev result (paper §3.3 — KG-based
-        # multi-hop: a step-1 result becomes a new seed for step-2 enumeration).
-        for (_, q_, _) in prev:
-            if q_ and q_ not in seen_scope:
-                scope_qids.append(q_)
-                seen_scope.add(q_)
-
-        # On step 0, restrict to question's relation (if any) to keep the candidate
-        # set small. On later steps, allow all relations — semantic filter narrows.
-        cur_relation = relation if step_i == 0 else None
-        initial = enumerate_initial(kg, scope_qids, cur_relation, year)
+        initial = enumerate_initial(kg, seeds, last_relation, year)
         followups = enumerate_followups(prev, year) if prev else []
         answers = enumerate_answers(prev, answer_type) if prev else []
         candidates = initial + followups + answers
-        # dedupe by display
+        # dedupe by display and forbid actions already chosen in this trace
+        # (paper §3.3 — prevents the LLM from looping on the same action).
+        # `answer(...)` is exempt since the agent terminates on it anyway.
+        used = {s.chosen for s in trace.steps}
         seen, uniq = set(), []
         for a in candidates:
             if a.display in seen:
+                continue
+            if a.op != "answer" and a.display in used:
                 continue
             seen.add(a.display)
             uniq.append(a)
@@ -232,6 +230,11 @@ def run_question(kg: KG, q: dict, methodology: str | None = None,
             return trace
 
         prev = result if isinstance(result, list) else []
+        # Paper: when an entity-op is picked, lock the relation for subsequent
+        # steps (LLM_rel_choose). args layout: (qid, relation, year/_).
+        if chosen.op in ("get_tail_entity", "get_head_entity", "get_time"):
+            if len(chosen.args) >= 2 and isinstance(chosen.args[1], str):
+                last_relation = chosen.args[1]
         trace.steps.append(StepLog(
             [a.display for a in uniq], chosen.display, chosen.op, format_entset(prev)))
 
