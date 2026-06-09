@@ -7,12 +7,20 @@ QUESTIONS_FILE = REPO / "cronqvn" / "out" / "questions.json"
 ARTIFACTS_DIR = REPO / "ari" / "artifacts"
 ARTIFACTS_DIR.mkdir(parents=True, exist_ok=True)
 
-# Ollama
+# Ollama (used at inference / evaluate phase)
 OLLAMA_URL = "http://localhost:11434"
 LLM_MODEL = "qwen2.5:7b"
 EMBED_MODEL = "nomic-embed-text"
 LLM_TEMPERATURE = 0.0
 LLM_NUM_CTX = 8192
+
+# OpenAI (used at learn phase — paper-faithful methodology induction)
+# Set OPENAI_API_KEY in the environment.
+OPENAI_BASE_URL = "https://api.openai.com/v1"
+OPENAI_MODEL = "gpt-4o"
+OPENAI_EMBED_MODEL = "text-embedding-3-small"
+OPENAI_TEMPERATURE = 0.0
+OPENAI_SEED = 319
 
 # ARI hyper-parameters (per paper §4.1)
 N_CLUSTERS = 10

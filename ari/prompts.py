@@ -95,29 +95,72 @@ METHODOLOGY_SYSTEM = (
     "Hãy rút ra hướng dẫn TRỪU TƯỢNG, không gắn vào dữ kiện cụ thể."
 )
 
-METHODOLOGY_TEMPLATE = """Phân tích các ví dụ ĐÚNG và SAI dưới đây để rút ra phương pháp tổng quát
-giải các câu hỏi cùng loại. Hướng dẫn phải ở mức phương pháp luận, không kể tên
-thực thể cụ thể.
+METHODOLOGY_TEMPLATE = """Phân tích cẩn thận các ví dụ ĐÚNG và SAI dưới đây. Từ đó hãy rút ra các mẫu
+chung và nguyên tắc tương ứng. Dựa vào các ví dụ đó, hãy đưa ra một phương pháp
+toàn diện mô tả CÁCH tiếp cận đúng loại câu hỏi này, nêu bật các bước then chốt
+và những cạm bẫy thường gặp cần tránh.
 
-Định nghĩa nhiệm vụ: Trả lời câu hỏi thời gian trên TKG bằng chuỗi hành động
-nguyên tử (get_time, get_head_entity, get_tail_entity, get_before, get_after,
-get_between, get_first, get_last, answer).
+Định nghĩa nhiệm vụ:
+Sử dụng các công cụ dưới đây để tương tác với đồ thị tri thức theo thời gian (TKG).
+Bạn có một danh sách hành động được chia thành ba nhóm: truy vấn thời gian, truy
+vấn thực thể, và truy vấn thời điểm cụ thể. Có thể có nhiều đáp án đúng cho câu
+hỏi, nhưng chỉ cần trả về một đáp án hợp lệ.
+
+Truy vấn theo thời gian:
+- $get_time(HEAD, RELATION, TAIL)$: lấy thời điểm của một sự kiện cụ thể.
+- $get_before(ENTITY_LIST, SPECIFIED_TIME)$: lọc các thực thể/sự kiện trước thời điểm cho trước.
+- $get_after(ENTITY_LIST, SPECIFIED_TIME)$: lọc các thực thể/sự kiện sau thời điểm cho trước.
+- $get_between(ENTITY_LIST, START_TIME, END_TIME)$: lọc các thực thể/sự kiện giữa hai thời điểm.
+
+Truy vấn thực thể:
+- $get_tail_entity(CURRENT_HEAD, RELATION, OPTIONAL_TIME)$: lấy thực thể đuôi.
+- $get_head_entity(CURRENT_TAIL, RELATION, OPTIONAL_TIME)$: lấy thực thể đầu.
+
+Truy vấn thời điểm cụ thể:
+- $get_first(ENTITY_LIST)$: thực thể xuất hiện sớm nhất.
+- $get_last(ENTITY_LIST)$: thực thể xuất hiện muộn nhất.
+- $answer(YOUR_ANSWER)$: trả lời cuối cùng.
+(hết định nghĩa nhiệm vụ)
+
+Ví dụ output mẫu:
+Ví dụ 1:
+Overall Instruction:
+Loại câu hỏi này yêu cầu xác định tuần tự các sự kiện, vd. "Ai <Quan hệ R>
+<thực thể C> trước <thực thể B>". Để tìm đáp án <thực thể A> cần ba bước suy
+luận: đầu tiên xác định thời điểm cụ thể t mà (<thực thể B>, <Quan hệ R>,
+<thực thể C>) xảy ra; tiếp theo tìm các head entity đã có quan hệ R với
+<thực thể C>; cuối cùng lọc theo điều kiện thời gian trước t.
+
+Step-by-step Guide:
+1. Dùng get_time để tìm thời điểm: $get_time(<thực thể B>, <Quan hệ R>, <thực thể C>)$,
+   thu được bộ 4 (B, R, C, t).
+2. Dùng get_head_entity để lấy danh sách entity có quan hệ R với C:
+   $get_head_entity(<thực thể C>, <Quan hệ R>, no time)$.
+3. Dùng get_before để lọc theo thời gian: $get_before(<entities>, t)$.
+4. Kết thúc bằng $answer(<thực thể A>)$.
+(hết ví dụ output)
+
+Ví dụ ĐÚNG và SAI cho loại câu hỏi hiện tại:
 
 Ví dụ ĐÚNG:
 {correct_examples}
 
 Ví dụ SAI:
 {incorrect_examples}
+(hết ví dụ)
 
-Hãy xuất theo đúng định dạng:
+Bây giờ bắt đầu viết. Hãy thiết kế phương pháp mô tả cách tiếp cận đúng loại câu
+hỏi này. Mục tiêu là cung cấp hướng dẫn toàn diện, nêu bật các bước then chốt
+và các cạm bẫy cần tránh. Lưu ý: hướng dẫn phải ở mức PHƯƠNG PHÁP LUẬN cho loại
+câu hỏi, KHÔNG đề cập đến tên thực thể cụ thể của ví dụ. Format đầu ra:
 
 Overall Instruction:
-<Mô tả phương pháp ở mức trừu tượng cho loại câu hỏi này.>
+<Định nghĩa phương pháp chi tiết. Cung cấp hướng dẫn hoặc suy luận súc tích ở
+mức phương pháp luận, không gắn vào câu hỏi cụ thể.>
 
 Step-by-step Guide:
-1. <bước 1: chọn loại action nào, mục đích là gì>
-2. <bước 2 ...>
-3. <...>
+<Quy trình từng bước nêu cách tiếp cận và giải loại câu hỏi này. Các bước phải
+cụ thể, đề rõ dùng loại action nào ở mỗi bước và lý do.>
 """
 
 

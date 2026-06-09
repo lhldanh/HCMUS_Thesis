@@ -9,6 +9,7 @@ from . import config
 from .agent import run_question
 from .kg import get_kg
 from .memory import build_memory_bank, trace_to_record
+from .ollama_client import openai_chat, openai_embed
 from .prompts import FALLBACK_METHODOLOGY
 
 
@@ -34,31 +35,53 @@ def main():
     ap.add_argument("--out", default=str(config.ARTIFACTS_DIR / "memory_bank.json"))
     ap.add_argument("--records-out",
                     default=str(config.ARTIFACTS_DIR / "history_records.json"))
+    ap.add_argument("--llm", choices=("openai", "ollama"), default="openai",
+                    help="LLM cho phase learn (default: openai = GPT-4o, theo paper)")
+    ap.add_argument("--resume", action="store_true",
+                    help="Bỏ qua bước chạy 200 câu, load --records-out có sẵn rồi induce methodology ngay")
     args = ap.parse_args()
 
-    print(f"[learn] loading KG ...")
-    kg = get_kg()
-    print(f"[learn] facts={len(kg.facts)} qids={len(kg.qid2label)} pids={len(kg.pid2label)}")
+    chat_fn = openai_chat if args.llm == "openai" else None  # None = default ollama
+    embed_fn = openai_embed if args.llm == "openai" else None
+    print(f"[learn] LLM = {args.llm}"
+          + (f" ({config.OPENAI_MODEL} / embed={config.OPENAI_EMBED_MODEL})"
+             if args.llm == "openai"
+             else f" ({config.LLM_MODEL} / embed={config.EMBED_MODEL})"))
 
-    with open(args.questions, encoding="utf-8") as f:
-        all_q = json.load(f)
-    samples = stratified_sample(all_q, args.n)
-    print(f"[learn] sampled {len(samples)} questions ({len({q['qtype'] for q in samples})} qtypes)")
+    if args.resume:
+        recs_path = Path(args.records_out)
+        if not recs_path.exists():
+            raise SystemExit(f"--resume cần file {recs_path} tồn tại")
+        records = json.loads(recs_path.read_text(encoding="utf-8"))
+        n_ok = sum(1 for r in records if r["correct"])
+        print(f"[learn] resume từ {recs_path}: {len(records)} records, "
+              f"acc={n_ok}/{len(records)} = {n_ok/len(records):.3f}")
+    else:
+        print(f"[learn] loading KG ...")
+        kg = get_kg()
+        print(f"[learn] facts={len(kg.facts)} qids={len(kg.qid2label)} pids={len(kg.pid2label)}")
 
-    records: list[dict] = []
-    for i, q in enumerate(samples, 1):
-        trace = run_question(kg, q, methodology=FALLBACK_METHODOLOGY)
-        rec = trace_to_record(trace, entity_qids=q.get("entities"))
-        records.append(rec)
-        if i % 10 == 0 or i == len(samples):
-            n_ok = sum(1 for r in records if r["correct"])
-            print(f"[learn] {i}/{len(samples)}  acc-so-far={n_ok / i:.3f}")
+        with open(args.questions, encoding="utf-8") as f:
+            all_q = json.load(f)
+        samples = stratified_sample(all_q, args.n)
+        print(f"[learn] sampled {len(samples)} questions ({len({q['qtype'] for q in samples})} qtypes)")
 
-    Path(args.records_out).write_text(json.dumps(records, ensure_ascii=False, indent=2))
-    print(f"[learn] wrote {args.records_out}")
+        records = []
+        for i, q in enumerate(samples, 1):
+            trace = run_question(kg, q, methodology=FALLBACK_METHODOLOGY,
+                                  chat_fn=chat_fn)
+            rec = trace_to_record(trace, entity_qids=q.get("entities"))
+            records.append(rec)
+            if i % 10 == 0 or i == len(samples):
+                n_ok = sum(1 for r in records if r["correct"])
+                print(f"[learn] {i}/{len(samples)}  acc-so-far={n_ok / i:.3f}")
+
+        Path(args.records_out).write_text(json.dumps(records, ensure_ascii=False, indent=2))
+        print(f"[learn] wrote {args.records_out}")
 
     print(f"[learn] inducing {args.k} methodologies via K-means ...")
-    bank = build_memory_bank(records, k=args.k, out_path=Path(args.out))
+    bank = build_memory_bank(records, k=args.k, out_path=Path(args.out),
+                              chat_fn=chat_fn, embed_fn=embed_fn)
     print(f"[learn] wrote {args.out} ({len(bank['clusters'])} clusters)")
 
 

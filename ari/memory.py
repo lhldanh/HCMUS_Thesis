@@ -108,31 +108,68 @@ def trace_to_record(t: TraceLog, entity_qids: list[str] | None = None) -> dict:
         "final_answer": str(t.final_answer) if t.final_answer is not None else None,
         "correct": t.correct,
         "steps": [
-            {"chosen": s.chosen, "op": s.op, "result": s.result_summary}
+            {
+                "chosen": s.chosen,
+                "op": s.op,
+                "result": s.result_summary,
+                "reply": s.reply,
+                "step_entities": [list(e) for e in s.entities],
+            }
             for s in t.steps
         ],
     }
 
 
+def _process_entities(ents: list) -> str:
+    """Paper-style entity-list formatter: sort by time, keep first 2 + last 1
+    with an ellipsis when length > 3. Mirrors ARI-QA `process_entities`."""
+    if not ents:
+        return "entities = []"
+    # Each entry: (label, qid, year). Treat year=None as -inf for sorting stability.
+    sorted_by_t = sorted(ents, key=lambda e: (e[2] is None, e[2] if e[2] is not None else 0))
+    if len(sorted_by_t) > 3:
+        head = sorted_by_t[:2]
+        tail = sorted_by_t[-1:]
+        items = [(e[0], e[2]) for e in head] + ["..."] + [(e[0], e[2]) for e in tail]
+    else:
+        items = [(e[0], e[2]) for e in sorted_by_t]
+    return "entities = " + str(items)
+
+
 def trace_to_text(rec: dict) -> str:
-    lines = [f"Q: {rec['question']}", f"Gold: {rec['gold']}",
-             f"Final: {rec['final_answer']}  (correct={rec['correct']})"]
+    """Paper-style history text passed to GPT-4o for methodology induction
+    (mirrors ARI-QA `History_Memory.get_history_text`)."""
+    lines = [f"Question: {rec['question']}"]
     for i, s in enumerate(rec["steps"]):
-        lines.append(f"  step {i}: {s['chosen']} -> {s['result']}")
+        reply = s.get("reply") or s["chosen"]
+        lines.append(f"LLM Action {i}: {reply}")
+        ents = s.get("step_entities") or []
+        if ents:
+            lines.append(f"Retrieval {i}: {_process_entities(ents)}")
+        else:
+            # answer step or noop — fall back to raw result string
+            lines.append(f"Retrieval {i}: {s.get('result', '')}")
+    if rec.get("correct"):
+        lines.append("Correct!")
+    else:
+        lines.append(f"Wrong! The answer is {rec['gold']}")
     return "\n".join(lines)
 
 
 # ---------- methodology induction ----------
 
 def induce_methodology(correct: list[dict], incorrect: list[dict],
-                        max_each: int = 4) -> str:
+                        max_each: int = 3, chat_fn=None) -> str:
+    """Induce a cluster-level methodology. `chat_fn(prompt, system=...)` defaults
+    to local Ollama; pass `openai_chat` to match the paper's GPT-4o."""
     if not correct and not incorrect:
         return FALLBACK_METHODOLOGY
     c_blk = "\n\n".join(trace_to_text(r) for r in correct[:max_each]) or "(không có)"
     i_blk = "\n\n".join(trace_to_text(r) for r in incorrect[:max_each]) or "(không có)"
     prompt = METHODOLOGY_TEMPLATE.format(correct_examples=c_blk, incorrect_examples=i_blk)
+    fn = chat_fn or chat
     try:
-        return chat(prompt, system=METHODOLOGY_SYSTEM).strip()
+        return fn(prompt, system=METHODOLOGY_SYSTEM).strip()
     except Exception:
         return FALLBACK_METHODOLOGY
 
@@ -140,7 +177,8 @@ def induce_methodology(correct: list[dict], incorrect: list[dict],
 # ---------- learning phase ----------
 
 def build_memory_bank(records: list[dict], k: int = config.N_CLUSTERS,
-                       out_path: Path | None = None) -> dict:
+                       out_path: Path | None = None, chat_fn=None,
+                       embed_fn=None) -> dict:
     """Cluster records, generate one methodology per cluster. Returns memory dict.
 
     Clustering is performed on the TEMPLATED question (entity/date replaced
@@ -148,7 +186,8 @@ def build_memory_bank(records: list[dict], k: int = config.N_CLUSTERS,
     topic — matching ARI-QA `History_Memory.fit_history_memory`.
     """
     questions = [r.get("clean_question") or r["question"] for r in records]
-    vecs = embed(questions)
+    emb = embed_fn or embed
+    vecs = emb(questions)
     centroids, labels = kmeans(vecs, k=min(k, len(records)))
 
     clusters: list[dict] = []
@@ -159,7 +198,7 @@ def build_memory_bank(records: list[dict], k: int = config.N_CLUSTERS,
         cluster_records = [records[i] for i in idxs]
         correct = [r for r in cluster_records if r["correct"]]
         incorrect = [r for r in cluster_records if not r["correct"]]
-        method = induce_methodology(correct, incorrect)
+        method = induce_methodology(correct, incorrect, chat_fn=chat_fn)
         clusters.append({
             "id": ci,
             "centroid": centroids[ci],

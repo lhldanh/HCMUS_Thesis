@@ -26,9 +26,11 @@ _PLACEHOLDER_OPS = {"get_before", "get_after", "get_between"}
 @dataclass
 class StepLog:
     candidates: list[str]              # display strings
-    chosen: str                        # display string
+    chosen: str                        # display string $action$
     op: str                            # op name
     result_summary: str                # short string
+    reply: str = ""                    # full LLM reply (Action + Reason) — paper uses this for induction
+    entities: list = field(default_factory=list)  # raw EntitySet of `prev` after this step
 
 
 @dataclass
@@ -224,7 +226,8 @@ def run_question(kg: KG, q: dict, methodology: str | None = None,
 
         if chosen.op == "answer":
             trace.steps.append(StepLog(
-                [a.display for a in uniq], chosen.display, chosen.op, f"answer={result}"))
+                [a.display for a in uniq], chosen.display, chosen.op,
+                f"answer={result}", reply=reply, entities=[]))
             trace.final_answer = result
             trace.correct = _judge(kg, result, gold, answer_type)
             return trace
@@ -236,7 +239,8 @@ def run_question(kg: KG, q: dict, methodology: str | None = None,
             if len(chosen.args) >= 2 and isinstance(chosen.args[1], str):
                 last_relation = chosen.args[1]
         trace.steps.append(StepLog(
-            [a.display for a in uniq], chosen.display, chosen.op, format_entset(prev)))
+            [a.display for a in uniq], chosen.display, chosen.op,
+            format_entset(prev), reply=reply, entities=list(prev)))
 
     # max steps exhausted — pick best from prev
     if prev:
