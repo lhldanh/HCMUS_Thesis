@@ -24,7 +24,14 @@ def _post(path: str, payload: dict, timeout: int = 600) -> dict:
         try:
             with urllib.request.urlopen(req, timeout=timeout) as r:
                 return json.loads(r.read().decode("utf-8"))
-        except (urllib.error.URLError, TimeoutError) as e:
+        except urllib.error.HTTPError as he:
+            # 4xx is non-transient — surface immediately
+            if 400 <= he.code < 500 and he.code != 429:
+                raise
+            if attempt == 2:
+                raise
+            time.sleep(2 ** attempt)
+        except (urllib.error.URLError, TimeoutError):
             if attempt == 2:
                 raise
             time.sleep(2 ** attempt)
@@ -50,8 +57,24 @@ def chat(prompt: str, system: str | None = None, model: str | None = None) -> st
 
 
 def embed(texts: Iterable[str], model: str | None = None) -> list[list[float]]:
-    out = []
+    """Ollama embeddings.
+
+    Newer Ollama uses `/api/embed` with batched `input`; older versions used
+    `/api/embeddings` with single `prompt`. Try new endpoint first, fall back
+    to the legacy one on 404.
+    """
     m = model or config.EMBED_MODEL
+    texts = list(texts)
+    if not texts:
+        return []
+    try:
+        r = _post("/api/embed", {"model": m, "input": texts})
+        return r["embeddings"]
+    except urllib.error.HTTPError as he:
+        if he.code != 404:
+            raise
+    # legacy fallback
+    out = []
     for t in texts:
         r = _post("/api/embeddings", {"model": m, "prompt": t})
         out.append(r["embedding"])
