@@ -51,6 +51,18 @@ Action 2: $get_first({entities})$
 Response 2: entities = [("Pháp", 2011)]
 Action 3: $answer(Pháp)$
 Response 3: Correct!
+
+Ví dụ 5 (time_join — tìm đồng hành cùng thời điểm):
+Câu hỏi: Ai cùng gia nhập Interpol với Ả Rập Xê Út?
+Action 0: $get_time("Ả Rập Xê Út", "thành viên của", "Interpol")$
+Reason: Cần xác định năm Ả Rập Xê Út gia nhập Interpol để tìm các nước cùng gia nhập năm đó.
+Response 0: entities = [("Ả Rập Xê Út", 1956)]
+Action 1: $get_head_entity("Interpol", "thành viên của", 1956)$
+Reason: Tìm tất cả các nước gia nhập Interpol cùng năm 1956.
+Response 1: entities = [("Sudan", 1956), ("Thổ Nhĩ Kỳ", 1956), ("Campuchia", 1956), ("Nhật Bản", 1956), ("Jordan", 1956)]
+Action 2: $answer(Thổ Nhĩ Kỳ)$
+Reason: Một trong các nước cùng gia nhập Interpol năm 1956.
+Response 2: Correct!
 """
 
 
@@ -152,18 +164,36 @@ Ví dụ SAI:
 {incorrect_examples}
 (hết ví dụ)
 
-Bây giờ bắt đầu viết. Hãy thiết kế phương pháp mô tả cách tiếp cận đúng loại câu
-hỏi này. Mục tiêu là cung cấp hướng dẫn toàn diện, nêu bật các bước then chốt
-và các cạm bẫy cần tránh. Lưu ý: hướng dẫn phải ở mức PHƯƠNG PHÁP LUẬN cho loại
-câu hỏi, KHÔNG đề cập đến tên thực thể cụ thể của ví dụ. Format đầu ra:
+Bây giờ bắt đầu viết. Hãy thiết kế phương pháp ở mức PHƯƠNG PHÁP LUẬN — KHÔNG
+nêu tên thực thể cụ thể của ví dụ, NHƯNG vẫn phải CỤ THỂ ACTIONABLE.
+
+YÊU CẦU BẮT BUỘC (cấm vi phạm):
+1. **Phải có TEMPLATE câu hỏi**: mở đầu Overall bằng "Câu hỏi dạng: ..." mô tả
+   pattern bằng biến (vd: "Trước/Sau <thực thể B> làm <Quan hệ R>, ai <Quan hệ
+   R'> với <thực thể C>?").
+2. **Phải đặt tên biến** cho thực thể (A, B, C), quan hệ (R, R'), thời gian (t).
+3. **Mỗi bước trong Step-by-step PHẢI có gọi hàm cụ thể** dạng
+   `$get_xxx(arg, arg, arg)$` với arg là biến đã đặt, KHÔNG được viết "dùng
+   get_xxx" suông.
+4. **CẤM** các cụm sau (quá trừu tượng):
+   - "tùy trường hợp", "phụ thuộc vào câu hỏi", "chọn hàm phù hợp"
+   - "xác định yếu tố chính", "nếu cần thì..."
+   - "đảm bảo chính xác", "tránh nhầm lẫn"
+5. **CẤM** kết bằng general advice ("tránh các cạm bẫy", "kiểm tra đầy đủ").
+6. Chuỗi action phải có thứ tự cố định cho pattern câu hỏi đó (vd: bước 1 luôn
+   là `$get_time$`, bước 2 luôn là `$get_head_entity$`, ...).
+
+Định dạng output BẮT BUỘC:
 
 Overall Instruction:
-<Định nghĩa phương pháp chi tiết. Cung cấp hướng dẫn hoặc suy luận súc tích ở
-mức phương pháp luận, không gắn vào câu hỏi cụ thể.>
+Câu hỏi dạng: <template với biến>. Cần <số> bước:
+<mô tả ngắn gọn logic tổng>.
 
 Step-by-step Guide:
-<Quy trình từng bước nêu cách tiếp cận và giải loại câu hỏi này. Các bước phải
-cụ thể, đề rõ dùng loại action nào ở mỗi bước và lý do.>
+1. <ý đồ bước 1>: `$get_xxx(<biến>, <biến>, <biến>)$` — kết quả: <ý nghĩa>.
+2. <ý đồ bước 2>: `$get_xxx(<biến>, ...)$` — kết quả: ...
+3. ...
+N. `$answer(<biến trả lời>)$`.
 """
 
 
