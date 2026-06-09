@@ -222,7 +222,7 @@ def run_question(kg: KG, q: dict, methodology: str | None = None,
 
         actions_block = "\n".join(f"- {a.display}" for a in uniq)
         prompt = ACTION_SELECT_TEMPLATE.format(
-            question=question, qtype=qtype, answer_type=answer_type,
+            question=question,
             methodology=methodology,
             history=_format_history(trace.steps),
             actions=actions_block,

@@ -79,7 +79,6 @@ ACTION_SELECT_SYSTEM = (
 
 
 ACTION_SELECT_TEMPLATE = """Câu hỏi: {question}
-Loại câu hỏi: {qtype}    Loại đáp án: {answer_type}
 
 Phương pháp suy luận gợi ý (methodology):
 {methodology}
