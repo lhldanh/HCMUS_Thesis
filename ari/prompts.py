@@ -76,9 +76,9 @@ ACTION_SELECT_SYSTEM = (
     "- Hàm thực thể: get_tail_entity(HEAD, REL, [T]); get_head_entity(TAIL, REL, [T])\n"
     "- Hàm chọn lọc: get_first(LIST); get_last(LIST)\n"
     "- Trả lời: answer(GIÁ_TRỊ)\n\n"
-    "Ví dụ tham khảo:\n"
-    + ACTION_EXAMPLES
-    + "(hết ví dụ)\n\n"
+    # "Ví dụ tham khảo:\n"
+    # + ACTION_EXAMPLES
+    # + "(hết ví dụ)\n\n"
     "Quy tắc chọn hành động:\n"
     "- Chọn đúng MỘT hành động bằng cách lặp lại nguyên văn chuỗi nằm giữa hai dấu $.\n"
     "- Nếu hành động có chỗ trống {your specified time} thì THAY bằng một năm cụ thể "
@@ -106,8 +106,12 @@ Hãy chọn hành động kế tiếp theo đúng format Action: / Reason:.
 
 
 METHODOLOGY_SYSTEM = (
-    "Bạn là chuyên gia đúc kết phương pháp suy luận trên KG thời gian. "
-    "Hãy rút ra hướng dẫn TRỪU TƯỢNG, không gắn vào dữ kiện cụ thể."
+    # Khớp paper: "You are an expert at analysing to get a methodology from a
+    # case and you give a detailed methodology to solve that type of problem
+    # based on the case provided."
+    "Bạn là chuyên gia phân tích để rút ra phương pháp từ các case study, "
+    "và đưa ra phương pháp CHI TIẾT để giải dạng vấn đề đó dựa trên các case "
+    "được cung cấp."
 )
 
 METHODOLOGY_TEMPLATE = """Phân tích cẩn thận các ví dụ ĐÚNG và SAI dưới đây. Từ đó hãy rút ra các mẫu
@@ -164,36 +168,20 @@ Ví dụ SAI:
 {incorrect_examples}
 (hết ví dụ)
 
-Bây giờ bắt đầu viết. Hãy thiết kế phương pháp ở mức PHƯƠNG PHÁP LUẬN — KHÔNG
-nêu tên thực thể cụ thể của ví dụ, NHƯNG vẫn phải CỤ THỂ ACTIONABLE.
-
-YÊU CẦU BẮT BUỘC (cấm vi phạm):
-1. **Phải có TEMPLATE câu hỏi**: mở đầu Overall bằng "Câu hỏi dạng: ..." mô tả
-   pattern bằng biến (vd: "Trước/Sau <thực thể B> làm <Quan hệ R>, ai <Quan hệ
-   R'> với <thực thể C>?").
-2. **Phải đặt tên biến** cho thực thể (A, B, C), quan hệ (R, R'), thời gian (t).
-3. **Mỗi bước trong Step-by-step PHẢI có gọi hàm cụ thể** dạng
-   `$get_xxx(arg, arg, arg)$` với arg là biến đã đặt, KHÔNG được viết "dùng
-   get_xxx" suông.
-4. **CẤM** các cụm sau (quá trừu tượng):
-   - "tùy trường hợp", "phụ thuộc vào câu hỏi", "chọn hàm phù hợp"
-   - "xác định yếu tố chính", "nếu cần thì..."
-   - "đảm bảo chính xác", "tránh nhầm lẫn"
-5. **CẤM** kết bằng general advice ("tránh các cạm bẫy", "kiểm tra đầy đủ").
-6. Chuỗi action phải có thứ tự cố định cho pattern câu hỏi đó (vd: bước 1 luôn
-   là `$get_time$`, bước 2 luôn là `$get_head_entity$`, ...).
-
-Định dạng output BẮT BUỘC:
+Bây giờ bắt đầu viết. Hãy thiết kế phương pháp mô tả cách giải đúng dạng câu hỏi
+này. Mục tiêu là cung cấp hướng dẫn toàn diện, nêu bật các bước then chốt và các
+cạm bẫy cần tránh khi giải dạng câu hỏi này. Hãy tổ chức output theo đúng format
+dưới đây:
 
 Overall Instruction:
-Câu hỏi dạng: <template với biến>. Cần <số> bước:
-<mô tả ngắn gọn logic tổng>.
+<Định nghĩa phương pháp này chi tiết. Cung cấp hướng dẫn hoặc suy luận súc tích.
+Lưu ý: hướng dẫn ở mức phương pháp luận cho DẠNG câu hỏi này, không cho một câu
+cụ thể.>
 
 Step-by-step Guide:
-1. <ý đồ bước 1>: `$get_xxx(<biến>, <biến>, <biến>)$` — kết quả: <ý nghĩa>.
-2. <ý đồ bước 2>: `$get_xxx(<biến>, ...)$` — kết quả: ...
-3. ...
-N. `$answer(<biến trả lời>)$`.
+<Hướng dẫn hoặc quy trình từng bước nêu cách tiếp cận và giải dạng câu hỏi này.
+Lưu ý: các bước đề xuất phải CỤ THỂ và liên quan đến dạng câu hỏi này — nêu rõ
+loại action nào sẽ dùng ở mỗi bước và lý do.>
 """
 
 

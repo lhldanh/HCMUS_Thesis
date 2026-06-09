@@ -5,10 +5,7 @@ cluster from correct & incorrect samples.
 """
 from __future__ import annotations
 import json
-import math
-import random
 import re
-from dataclasses import asdict
 from pathlib import Path
 
 from . import config
@@ -24,11 +21,23 @@ _YEAR_TOK = re.compile(r"\b\d{4}(?:-\d{1,2}(?:-\d{1,2})?)?\b")
 
 
 def clean_question(text: str, entity_labels: list[str] | None = None,
-                   year: int | None = None) -> str:
-    """Replace concrete entity labels and dates with placeholders so that
-    K-means clusters by question STRUCTURE (e.g. before-last, after-first),
-    not by topic. Mirrors ARI-QA `get_clean_question`."""
+                   year: int | None = None,
+                   relation_labels: list[str] | None = None) -> str:
+    """Replace concrete entity labels, relation labels, and dates with
+    placeholders so that K-means clusters by question STRUCTURE (e.g.
+    before-last, after-first), not by topic.
+
+    Extends paper's `get_clean_question` — paper chỉ thay head/tail entities
+    và date. Trên cronqvn (tiếng Việt), relation label cũng dễ trùng với
+    noun trong câu (vd "thủ tướng", "đảng phái") → cần thay luôn để cluster
+    không bị gom theo topic.
+    """
     out = text
+    # Thay relation label TRƯỚC entity (relation thường ngắn hơn, ưu tiên dài
+    # trước để tránh substring match nhầm)
+    for lbl in sorted(relation_labels or [], key=len, reverse=True):
+        if lbl and len(lbl) > 1:
+            out = out.replace(lbl, "{relation}")
     for lbl in sorted(entity_labels or [], key=len, reverse=True):
         if lbl and len(lbl) > 1:
             out = out.replace(lbl, "{entity}")
@@ -46,65 +55,61 @@ def _resolve_entity_labels(qids: list[str]) -> list[str]:
     return [kg.label(q) for q in qids if q]
 
 
-# ---------- K-means ----------
-
-def _norm(v: list[float]) -> list[float]:
-    n = math.sqrt(sum(x * x for x in v)) or 1.0
-    return [x / n for x in v]
-
-
-def _cos(a, b) -> float:
-    s = sum(x * y for x, y in zip(a, b))
-    na = math.sqrt(sum(x * x for x in a)) or 1.0
-    nb = math.sqrt(sum(x * x for x in b)) or 1.0
-    return s / (na * nb)
+def _resolve_relation_label(pid: str | None) -> str | None:
+    if not pid:
+        return None
+    try:
+        kg = get_kg()
+    except Exception:
+        return None
+    return kg.rlabel(pid)
 
 
-def _mean(vs: list[list[float]]) -> list[float]:
-    n = len(vs)
-    d = len(vs[0])
-    out = [0.0] * d
-    for v in vs:
-        for i, x in enumerate(v):
-            out[i] += x
-    return [x / n for x in out]
+# ---------- K-means (paper-faithful: sklearn Euclidean, k-means++, n_init=10) ----------
+
+try:
+    from sklearn.cluster import KMeans as _SKKMeans  # type: ignore
+    import numpy as _np  # type: ignore
+    _HAS_SKLEARN = True
+except ImportError:
+    _HAS_SKLEARN = False
 
 
-def kmeans(vecs: list[list[float]], k: int, n_iter: int = 25, seed: int = 0
+def _euclidean_sq(a, b) -> float:
+    return sum((x - y) * (x - y) for x, y in zip(a, b))
+
+
+def kmeans(vecs: list[list[float]], k: int, n_iter: int = 300, seed: int = 0
            ) -> tuple[list[list[float]], list[int]]:
-    """Cosine K-means. Vectors and centroids are L2-normalised so that the
-    centroid stays comparable to data points under cosine similarity."""
-    random.seed(seed)
-    nvecs = [_norm(v) for v in vecs]
-    idx = random.sample(range(len(nvecs)), min(k, len(nvecs)))
-    centroids = [nvecs[i][:] for i in idx]
-    labels = [0] * len(nvecs)
-    for _ in range(n_iter):
-        new_labels = []
-        for v in nvecs:
-            sims = [_cos(v, c) for c in centroids]
-            new_labels.append(int(max(range(len(centroids)), key=sims.__getitem__)))
-        if new_labels == labels:
-            break
-        labels = new_labels
-        # recompute centroids and re-normalise
-        for c in range(len(centroids)):
-            members = [nvecs[i] for i, l in enumerate(labels) if l == c]
-            if members:
-                centroids[c] = _norm(_mean(members))
-    return centroids, labels
+    """KMeans khớp paper: Euclidean, k-means++ init, n_init=10.
+
+    Paper code: `KMeans(n_clusters=10, n_init=10)` ([multitq.py:76](ARI-QA/MultiTQ/multitq.py#L76)).
+    """
+    if not _HAS_SKLEARN:
+        raise RuntimeError(
+            "scikit-learn không có sẵn. Cài: `pip install scikit-learn numpy`. "
+            "Paper dùng sklearn KMeans để cluster, không thay thế bằng cosine viết tay."
+        )
+    arr = _np.asarray(vecs, dtype=_np.float64)
+    km = _SKKMeans(n_clusters=min(k, len(arr)), n_init=10,
+                    random_state=seed, max_iter=n_iter)
+    labels = km.fit_predict(arr)
+    return km.cluster_centers_.tolist(), labels.tolist()
 
 
 # ---------- memory persistence ----------
 
 def trace_to_record(t: TraceLog, entity_qids: list[str] | None = None) -> dict:
     ent_labels = _resolve_entity_labels(entity_qids or [])
+    rel_label = _resolve_relation_label(t.relation)
+    rel_labels = [rel_label] if rel_label else []
     return {
         "question": t.question, "qtype": t.qtype, "relation": t.relation,
         "year": t.year, "answer_type": t.answer_type, "gold": t.gold,
         "entities": list(entity_qids or []),
         "entity_labels": ent_labels,
-        "clean_question": clean_question(t.question, ent_labels, t.year),
+        "relation_label": rel_label,
+        "clean_question": clean_question(t.question, ent_labels, t.year, rel_labels),
         "final_answer": str(t.final_answer) if t.final_answer is not None else None,
         "correct": t.correct,
         "steps": [
@@ -185,7 +190,18 @@ def build_memory_bank(records: list[dict], k: int = config.N_CLUSTERS,
     with placeholders) so that clusters group by reasoning structure, not
     topic — matching ARI-QA `History_Memory.fit_history_memory`.
     """
-    questions = [r.get("clean_question") or r["question"] for r in records]
+    # Recompute clean_question on-the-fly để dùng logic mới (thay relation
+    # label) mà không cần re-run 200 câu inference.
+    def _recompute_clean(r):
+        ent_labels = r.get("entity_labels") or _resolve_entity_labels(r.get("entities") or [])
+        rel_label = r.get("relation_label") or _resolve_relation_label(r.get("relation"))
+        rel_labels = [rel_label] if rel_label else []
+        return clean_question(r["question"], ent_labels, r.get("year"), rel_labels)
+
+    questions = [_recompute_clean(r) for r in records]
+    # Cache lại clean_question mới vào record (để debug)
+    for r, cq in zip(records, questions):
+        r["clean_question"] = cq
     emb = embed_fn or embed
     vecs = emb(questions)
     centroids, labels = kmeans(vecs, k=min(k, len(records)))
@@ -216,8 +232,10 @@ def build_memory_bank(records: list[dict], k: int = config.N_CLUSTERS,
 
 
 def select_methodology(bank: dict, question, entity_qids: list[str] | None = None,
-                        year: int | None = None) -> str:
-    """`question` may be a raw string OR a question-dict (with `entities`/`year`).
+                        year: int | None = None,
+                        relation: str | None = None,
+                        embed_fn=None) -> str:
+    """`question` may be a raw string OR a question-dict (with `entities`/`year`/`relation`).
     The query is templated the same way as during bank-building so cluster
     assignment is consistent."""
     if not bank.get("clusters"):
@@ -225,13 +243,19 @@ def select_methodology(bank: dict, question, entity_qids: list[str] | None = Non
     if isinstance(question, dict):
         entity_qids = entity_qids or question.get("entities") or []
         year = year if year is not None else question.get("year")
+        relation = relation or question.get("relation")
         q_text = question.get("question", "")
     else:
         q_text = question
     ent_labels = _resolve_entity_labels(entity_qids or [])
-    clean = clean_question(q_text, ent_labels, year)
-    qv = _norm(embed([clean])[0])
-    best = max(bank["clusters"], key=lambda c: _cos(qv, c["centroid"]))
+    rel_label = _resolve_relation_label(relation)
+    rel_labels = [rel_label] if rel_label else []
+    clean = clean_question(q_text, ent_labels, year, rel_labels)
+    embed_fn_local = embed_fn or embed
+    qv = embed_fn_local([clean])[0]
+    # Paper dùng `kmeans.predict([vec])` = Euclidean nearest centroid.
+    best = min(bank["clusters"],
+                key=lambda c: _euclidean_sq(qv, c["centroid"]))
     return best["methodology"]
 
 
