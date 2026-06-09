@@ -224,7 +224,15 @@ def build_memory_bank(records: list[dict], k: int = config.N_CLUSTERS,
             "methodology": method,
         })
 
-    bank = {"clusters": clusters, "records": records}
+    # Ghi nhận provider của embedding để select_methodology dùng cùng model
+    # → tránh dimension mismatch giữa learn (openai 1536d) và eval (ollama 768d).
+    embed_provider = "openai" if embed_fn and embed_fn.__name__ == "openai_embed" else "ollama"
+    bank = {
+        "clusters": clusters,
+        "records": records,
+        "embed_provider": embed_provider,
+        "embed_dim": len(centroids[0]) if centroids else None,
+    }
     if out_path:
         out_path.write_text(json.dumps(bank, ensure_ascii=False, indent=2),
                              encoding="utf-8")
@@ -251,8 +259,24 @@ def select_methodology(bank: dict, question, entity_qids: list[str] | None = Non
     rel_label = _resolve_relation_label(relation)
     rel_labels = [rel_label] if rel_label else []
     clean = clean_question(q_text, ent_labels, year, rel_labels)
-    embed_fn_local = embed_fn or embed
+    # Chọn embedding tương thích với provider đã dùng lúc build bank.
+    if embed_fn is None:
+        provider = bank.get("embed_provider", "ollama")
+        if provider == "openai":
+            from .ollama_client import openai_embed
+            embed_fn_local = openai_embed
+        else:
+            embed_fn_local = embed
+    else:
+        embed_fn_local = embed_fn
     qv = embed_fn_local([clean])[0]
+    # Sanity check dimension
+    expected_dim = bank.get("embed_dim")
+    if expected_dim and len(qv) != expected_dim:
+        raise RuntimeError(
+            f"Embedding dimension mismatch: query={len(qv)} vs bank={expected_dim}. "
+            f"Bank built with provider={bank.get('embed_provider')} — eval phải dùng cùng."
+        )
     # Paper dùng `kmeans.predict([vec])` = Euclidean nearest centroid.
     best = min(bank["clusters"],
                 key=lambda c: _euclidean_sq(qv, c["centroid"]))

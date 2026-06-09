@@ -36,17 +36,20 @@ def main():
     ap.add_argument("--records-out",
                     default=str(config.ARTIFACTS_DIR / "history_records.json"))
     ap.add_argument("--llm", choices=("openai", "ollama"), default="openai",
-                    help="LLM cho phase learn (default: openai = GPT-4o, theo paper)")
+                    help="Chat LLM cho action select + methodology induction "
+                         "(default: openai = GPT-4o, theo paper)")
+    ap.add_argument("--embed", choices=("openai", "ollama"), default="ollama",
+                    help="Embedding provider cho cluster K-means + select_methodology "
+                         "(default: ollama — match eval phase để tránh dim mismatch)")
     ap.add_argument("--resume", action="store_true",
                     help="Bỏ qua bước chạy 200 câu, load --records-out có sẵn rồi induce methodology ngay")
     args = ap.parse_args()
 
     chat_fn = openai_chat if args.llm == "openai" else None  # None = default ollama
-    embed_fn = openai_embed if args.llm == "openai" else None
-    print(f"[learn] LLM = {args.llm}"
-          + (f" ({config.OPENAI_MODEL} / embed={config.OPENAI_EMBED_MODEL})"
-             if args.llm == "openai"
-             else f" ({config.LLM_MODEL} / embed={config.EMBED_MODEL})"))
+    embed_fn = openai_embed if args.embed == "openai" else None
+    chat_model = config.OPENAI_MODEL if args.llm == "openai" else config.LLM_MODEL
+    embed_model = config.OPENAI_EMBED_MODEL if args.embed == "openai" else config.EMBED_MODEL
+    print(f"[learn] chat={args.llm} ({chat_model})   embed={args.embed} ({embed_model})")
 
     if args.resume:
         recs_path = Path(args.records_out)
