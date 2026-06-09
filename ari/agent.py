@@ -13,7 +13,7 @@ from .enumerate_actions import (
 from .ner import link_entities
 from .ollama_client import chat, embed
 from .prompts import (
-    ACTION_SELECT_SYSTEM, ACTION_SELECT_TEMPLATE, ACTION_EXAMPLES,
+    ACTION_SELECT_SYSTEM, ACTION_SELECT_TEMPLATE,
     FALLBACK_METHODOLOGY,
 )
 
@@ -51,48 +51,65 @@ def _parse_placeholder_years(text: str) -> list[int]:
     return [int(y) for y in _YEAR_RE.findall(text)]
 
 
-def _bind_placeholder(a: Action, llm_text: str) -> Action:
+def _bind_placeholder(a: Action, llm_text: str) -> Action | None:
     """If `a` is a placeholder action (year=None), substitute years parsed
-    from the LLM's literal pick. Returns a new Action with concrete args
-    and a display reflecting the chosen years."""
+    from the LLM's literal pick. Returns:
+      - concrete Action (placeholder filled) when bind succeeds
+      - `a` unchanged when `a` is not a placeholder action
+      - `None` when `a` IS a placeholder but no year could be parsed
+        (caller must skip this candidate to avoid TypeError in execute).
+    """
     if a.op == "get_before" and a.args == (None,):
         ys = _parse_placeholder_years(llm_text)
-        if ys:
-            y = ys[0]
-            return Action("get_before", (y,), f"$get_before({{entities}}, {y})$")
+        if not ys:
+            return None
+        y = ys[0]
+        return Action("get_before", (y,), f"$get_before({{entities}}, {y})$")
     if a.op == "get_after" and a.args == (None,):
         ys = _parse_placeholder_years(llm_text)
-        if ys:
-            y = ys[0]
-            return Action("get_after", (y,), f"$get_after({{entities}}, {y})$")
+        if not ys:
+            return None
+        y = ys[0]
+        return Action("get_after", (y,), f"$get_after({{entities}}, {y})$")
     if a.op == "get_between" and a.args == (None, None):
         ys = _parse_placeholder_years(llm_text)
-        if len(ys) >= 2:
-            y1, y2 = ys[0], ys[1]
-            return Action("get_between", (y1, y2),
-                          f"$get_between({{entities}}, {y1}, {y2})$")
+        if len(ys) < 2:
+            return None
+        y1, y2 = ys[0], ys[1]
+        return Action("get_between", (y1, y2),
+                      f"$get_between({{entities}}, {y1}, {y2})$")
     return a
 
 
 def _pick_action(reply: str, actions: list[Action]) -> Action | None:
-    # extract action between $...$ if present
+    """Pick a single Action matching the LLM's reply. All return paths go
+    through `_bind_placeholder` so a placeholder action without a year is
+    silently skipped instead of crashing `execute`."""
     candidates = _ACTION_RE.findall(reply)
     if candidates:
+        # exact display match (LLM may have copied placeholder verbatim — bind
+        # ngay tại đây, nếu không bind được thì coi như không match, thử tiếp)
         for c in candidates:
             ctxt = f"${c.strip()}$"
             for a in actions:
                 if ctxt == a.display:
-                    return a
-        # loose: prefix match on op name (handles placeholder→concrete-year case)
+                    bound = _bind_placeholder(a, c)
+                    if bound is not None:
+                        return bound
+        # loose: prefix match on op name (typical placeholder→concrete-year)
         for c in candidates:
             head = c.strip().split("(", 1)[0].strip()
             for a in actions:
                 if a.op == head:
-                    return _bind_placeholder(a, c)
-    # very loose fallback
+                    bound = _bind_placeholder(a, c)
+                    if bound is not None:
+                        return bound
+    # very loose fallback: substring of full reply
     for a in actions:
         if a.display in reply:
-            return a
+            bound = _bind_placeholder(a, reply)
+            if bound is not None:
+                return bound
     return None
 
 
@@ -206,7 +223,7 @@ def run_question(kg: KG, q: dict, methodology: str | None = None,
         actions_block = "\n".join(f"- {a.display}" for a in uniq)
         prompt = ACTION_SELECT_TEMPLATE.format(
             question=question, qtype=qtype, answer_type=answer_type,
-            methodology=methodology, examples=ACTION_EXAMPLES,
+            methodology=methodology,
             history=_format_history(trace.steps),
             actions=actions_block,
         )
@@ -222,7 +239,16 @@ def run_question(kg: KG, q: dict, methodology: str | None = None,
             # default to first candidate
             chosen = uniq[0]
 
-        result = execute(kg, chosen, prev)
+        # Bọc execute — bất kỳ lỗi nào (placeholder không bind được, op lạ,
+        # arg sai kiểu, ...) cũng không được giết câu hỏi.
+        try:
+            result = execute(kg, chosen, prev)
+        except Exception as e:
+            trace.steps.append(StepLog(
+                [a.display for a in uniq], chosen.display, chosen.op,
+                f"(execute error: {type(e).__name__}: {e})",
+                reply=reply, entities=[]))
+            break
 
         if chosen.op == "answer":
             trace.steps.append(StepLog(

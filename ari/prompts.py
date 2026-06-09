@@ -1,10 +1,8 @@
 """Prompts (Vietnamese) for ARI on cronqvn."""
 
-ACTION_SELECT_SYSTEM = (
-    "Bạn là một tác tử suy luận trên đồ thị tri thức theo thời gian (TKG). "
-    "Bạn KHÔNG cần biết tri thức thực tế: bạn chỉ chọn hành động phù hợp "
-    "trong danh sách cho sẵn để hệ thống truy vấn TKG giúp bạn."
-)
+# NOTE: phần static (vai trò + task spec + ví dụ few-shot) được gộp vào system
+# prompt để Ollama có thể prefix-cache giữa các step → giảm prefill ~50%.
+# Phần dynamic (câu hỏi / methodology / history / actions) giữ ở user template.
 
 
 ACTION_EXAMPLES = """Ví dụ 0 (tìm năm xảy ra sự kiện):
@@ -56,19 +54,31 @@ Response 3: Correct!
 """
 
 
-ACTION_SELECT_TEMPLATE = """Hãy chọn hành động kế tiếp để trả lời câu hỏi.
+ACTION_SELECT_SYSTEM = (
+    "Bạn là một tác tử suy luận trên đồ thị tri thức theo thời gian (TKG). "
+    "Bạn KHÔNG cần biết tri thức thực tế: bạn chỉ chọn hành động phù hợp "
+    "trong danh sách cho sẵn để hệ thống truy vấn TKG giúp bạn.\n\n"
+    "Các nhóm hàm khả dụng:\n"
+    "- Hàm thời gian: get_time(HEAD, REL, TAIL); get_before(LIST, T); "
+    "get_after(LIST, T); get_between(LIST, T1, T2)\n"
+    "- Hàm thực thể: get_tail_entity(HEAD, REL, [T]); get_head_entity(TAIL, REL, [T])\n"
+    "- Hàm chọn lọc: get_first(LIST); get_last(LIST)\n"
+    "- Trả lời: answer(GIÁ_TRỊ)\n\n"
+    "Ví dụ tham khảo:\n"
+    + ACTION_EXAMPLES
+    + "(hết ví dụ)\n\n"
+    "Quy tắc chọn hành động:\n"
+    "- Chọn đúng MỘT hành động bằng cách lặp lại nguyên văn chuỗi nằm giữa hai dấu $.\n"
+    "- Nếu hành động có chỗ trống {your specified time} thì THAY bằng một năm cụ thể "
+    "(số nguyên 4 chữ số) suy ra từ các bước trước.\n"
+    "- Nếu đã có đủ thông tin, hãy chọn hành động $answer(...)$.\n\n"
+    "Định dạng đầu ra BẮT BUỘC:\n"
+    "Action: <hành động bạn chọn, bao trong dấu $>\n"
+    "Reason: <giải thích ngắn>"
+)
 
-Các nhóm hàm khả dụng:
-- Hàm thời gian: get_time(HEAD, REL, TAIL); get_before(LIST, T); get_after(LIST, T); get_between(LIST, T1, T2)
-- Hàm thực thể: get_tail_entity(HEAD, REL, [T]); get_head_entity(TAIL, REL, [T])
-- Hàm chọn lọc: get_first(LIST); get_last(LIST)
-- Trả lời: answer(GIÁ_TRỊ)
 
-Ví dụ tham khảo:
-{examples}
-(hết ví dụ)
-
-Câu hỏi: {question}
+ACTION_SELECT_TEMPLATE = """Câu hỏi: {question}
 Loại câu hỏi: {qtype}    Loại đáp án: {answer_type}
 
 Phương pháp suy luận gợi ý (methodology):
@@ -80,13 +90,7 @@ Các bước đã thực hiện:
 Các hành động khả dụng tại bước này (CHỈ được chọn một trong số này):
 {actions}
 
-Hãy chọn đúng MỘT hành động bằng cách lặp lại nguyên văn chuỗi nằm giữa hai dấu $.
-Nếu hành động có chỗ trống {{your specified time}} thì THAY bằng một năm cụ thể (số nguyên 4 chữ số) suy ra từ các bước trước.
-Nếu đã có đủ thông tin, hãy chọn hành động $answer(...)$.
-
-Định dạng đầu ra BẮT BUỘC:
-Action: <hành động bạn chọn, bao trong dấu $>
-Reason: <giải thích ngắn>
+Hãy chọn hành động kế tiếp theo đúng format Action: / Reason:.
 """
 
 

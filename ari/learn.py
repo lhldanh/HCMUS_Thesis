@@ -76,7 +76,9 @@ def main():
                 n_ok = sum(1 for r in records if r["correct"])
                 print(f"[learn] {i}/{len(samples)}  acc-so-far={n_ok / i:.3f}")
 
-        Path(args.records_out).write_text(json.dumps(records, ensure_ascii=False, indent=2))
+        Path(args.records_out).write_text(
+            json.dumps(records, ensure_ascii=False, indent=2),
+            encoding="utf-8")
         print(f"[learn] wrote {args.records_out}")
 
     print(f"[learn] inducing {args.k} methodologies via K-means ...")

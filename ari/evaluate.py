@@ -60,6 +60,8 @@ def main():
     by_qlabel_correct = Counter()
     by_qlabel_total = Counter()
 
+    out_path = Path(args.out)
+    SAVE_EVERY = 10
     for i, q in enumerate(samples, 1):
         methodology = select_methodology(bank, q) if bank else FALLBACK_METHODOLOGY
         trace = run_question(kg, q, methodology=methodology)
@@ -72,11 +74,19 @@ def main():
             by_qtype_correct[q["qtype"]] += 1
             by_anstype_correct[q["answer_type"]] += 1
             by_qlabel_correct[q.get("qlabel", "?")] += 1
-        if i % 10 == 0 or i == len(samples):
+        if i % SAVE_EVERY == 0 or i == len(samples):
             acc = sum(1 for t in traces if t["correct"]) / i
             print(f"[eval] {i}/{len(samples)}  acc={acc:.3f}")
+            # Ghi atomic: dump ra .tmp rồi rename — tránh file hỏng nếu crash
+            # giữa lúc đang ghi.
+            tmp = out_path.with_suffix(out_path.suffix + ".tmp")
+            tmp.write_text(json.dumps(traces, ensure_ascii=False, indent=2),
+                            encoding="utf-8")
+            tmp.replace(out_path)
 
-    Path(args.out).write_text(json.dumps(traces, ensure_ascii=False, indent=2))
+    # Cuối cùng vẫn ghi 1 lần nữa cho chắc (idempotent).
+    out_path.write_text(json.dumps(traces, ensure_ascii=False, indent=2),
+                         encoding="utf-8")
 
     total = len(traces)
     correct = sum(1 for t in traces if t["correct"])
