@@ -29,12 +29,14 @@ def stratified_sample(questions: list[dict], n: int, seed: int = 1) -> list[dict
 
 def main():
     ap = argparse.ArgumentParser()
-    ap.add_argument("--bank", default=str(config.ARTIFACTS_DIR / "memory_bank.json"))
+    ap.add_argument(
+        "--bank", default=str(config.ARTIFACTS_DIR / "memory_bank.json"))
     ap.add_argument("--questions", default=str(config.QUESTIONS_FILE))
     ap.add_argument("--n", type=int, default=config.TEST_SAMPLE_SIZE)
     ap.add_argument("--no-methodology", action="store_true",
                     help="Ablation: skip abstract guidance")
-    ap.add_argument("--out", default=str(config.ARTIFACTS_DIR / "eval_traces.json"))
+    ap.add_argument(
+        "--out", default=str(config.ARTIFACTS_DIR / "eval_traces.json"))
     args = ap.parse_args()
 
     kg = get_kg()
@@ -61,9 +63,10 @@ def main():
     by_qlabel_total = Counter()
 
     out_path = Path(args.out)
-    SAVE_EVERY = 10
+    SAVE_EVERY = 5
     for i, q in enumerate(samples, 1):
-        methodology = select_methodology(bank, q) if bank else FALLBACK_METHODOLOGY
+        methodology = select_methodology(
+            bank, q) if bank else FALLBACK_METHODOLOGY
         trace = run_question(kg, q, methodology=methodology)
         rec = trace_to_record(trace, entity_qids=q.get("entities"))
         traces.append(rec)
@@ -81,12 +84,12 @@ def main():
             # giữa lúc đang ghi.
             tmp = out_path.with_suffix(out_path.suffix + ".tmp")
             tmp.write_text(json.dumps(traces, ensure_ascii=False, indent=2),
-                            encoding="utf-8")
+                           encoding="utf-8")
             tmp.replace(out_path)
 
     # Cuối cùng vẫn ghi 1 lần nữa cho chắc (idempotent).
     out_path.write_text(json.dumps(traces, ensure_ascii=False, indent=2),
-                         encoding="utf-8")
+                        encoding="utf-8")
 
     total = len(traces)
     correct = sum(1 for t in traces if t["correct"])

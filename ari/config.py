@@ -9,7 +9,7 @@ ARTIFACTS_DIR.mkdir(parents=True, exist_ok=True)
 
 # Ollama (used at inference / evaluate phase)
 OLLAMA_URL = "http://localhost:11434"
-LLM_MODEL = "qwen2.5:7b"
+LLM_MODEL = "qwen3:14b"
 EMBED_MODEL = "nomic-embed-text"
 LLM_TEMPERATURE = 0.0
 LLM_NUM_CTX = 8192
