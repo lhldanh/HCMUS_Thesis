@@ -202,3 +202,59 @@ ari/
 | Quá chậm | Giảm `N_MEMORY_SAMPLES`, `TEST_SAMPLE_SIZE`, hoặc đổi sang model nhỏ hơn (`qwen2.5:3b`) |
 | Embedding hết RAM | Đổi `EMBED_MODEL` sang model nhẹ hơn |
 | LLM trả lời sai format | Tăng `LLM_NUM_CTX`, hoặc sửa prompt trong `prompts.py` |
+
+---
+
+## 10. Cross-encoder reranker (tuỳ chọn)
+
+Mặc định bước chọn action lọc candidate bằng **cosine** (bi-encoder). Có thể bật
+thêm một **cross-encoder PhoBERT** chấm điểm bộ ba `(câu hỏi, lịch sử suy luận,
+action)` và rerank — cascade *sau* cosine: cosine lấy `CE_COSINE_TOPN` rộng →
+cross-encoder cắt còn `TOP_K_ACTIONS`.
+
+### 10.1 Cài deps (chỉ khi train / bật)
+
+```bash
+pip install -r ari/requirements-ce.txt   # torch, transformers, sentence-transformers, pyvi
+```
+
+Core ARI vẫn stdlib-only khi `USE_CROSS_ENCODER=False` (lazy import).
+
+### 10.2 Sinh dataset (gold-path + hard negatives)
+
+```bash
+python3 -m ari.ce_data        # -> ari/artifacts/ce_dataset.jsonl
+```
+
+Mỗi qtype có một chuỗi op gold dựng tự động từ KG + annotation, **verify bằng
+cách thực thi** (giữ câu nào chạy ra đúng `answers`). In thống kê giữ/rớt theo
+qtype (vd `time_join`/`simple_time` rớt do ngữ nghĩa vượt bộ op atomic). Negative
+= các candidate còn lại trong pool + hard negatives từ `history_records.json`
+(trace LLM sai). Nhãn không gán tay.
+
+### 10.3 Train
+
+```bash
+python3 -m ari.ce_train --epochs 4   # -> ari/artifacts/ce_model/
+```
+
+Split theo **câu hỏi** (tránh leak giữa các step cùng câu). Sau train in
+`Hit@12` / `MRR` của reranker trên val.
+
+### 10.4 Bật khi đánh giá + ablation
+
+Đặt `USE_CROSS_ENCODER = True` trong [config.py](config.py) rồi:
+
+```bash
+python3 -m ari.evaluate --n 200       # cosine -> cross-encoder
+```
+
+So với baseline `USE_CROSS_ENCODER = False` (cosine-only) để đo tác động.
+
+| Biến (config.py) | Mặc định | Ý nghĩa |
+|---|---|---|
+| `USE_CROSS_ENCODER` | `False` | bật/tắt tầng cross-encoder |
+| `CE_COSINE_TOPN` | `30` | cosine giữ N trước khi rerank |
+| `CE_BASE_MODEL` | `vinai/phobert-base` | base để fine-tune |
+| `CE_MAX_LEN` | `256` | trần token PhoBERT |
+| `CE_MODEL_DIR` | `artifacts/ce_model` | nơi lưu/đọc model |
