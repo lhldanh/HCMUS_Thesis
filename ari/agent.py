@@ -210,9 +210,22 @@ def run_question(kg: KG, q: dict, methodology: str | None = None,
         # filter
         if len(uniq) > config.MAX_CANDIDATES_PER_RELATION:
             uniq = uniq[: config.MAX_CANDIDATES_PER_RELATION]
-        if len(uniq) > config.TOP_K_ACTIONS:
+        # Tầng 1 — cosine. Khi bật cross-encoder, cosine chỉ retrieval rộng
+        # (top-N) rồi cross-encoder rerank xuống top-K; ngược lại cosine cắt
+        # thẳng top-K như cũ.
+        cos_top = (config.CE_COSINE_TOPN
+                   if config.USE_CROSS_ENCODER else config.TOP_K_ACTIONS)
+        if len(uniq) > cos_top:
             try:
-                uniq = filter_actions(uniq, question, embed_fn)
+                uniq = filter_actions(uniq, question, embed_fn, top_k=cos_top)
+            except Exception:
+                uniq = uniq[:cos_top]
+        # Tầng 2 — cross-encoder rerank (có lịch sử suy luận).
+        if config.USE_CROSS_ENCODER and len(uniq) > config.TOP_K_ACTIONS:
+            try:
+                from . import ce_rerank
+                uniq = ce_rerank.rerank(question, trace.steps, uniq,
+                                        top=config.TOP_K_ACTIONS)
             except Exception:
                 uniq = uniq[: config.TOP_K_ACTIONS]
 

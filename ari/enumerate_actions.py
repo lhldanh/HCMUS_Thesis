@@ -139,7 +139,9 @@ def enumerate_answers(prev: EntitySet, answer_type: str) -> list[Action]:
 
 def filter_actions(actions: list[Action], question: str, embed_fn,
                    top_k: int = config.TOP_K_ACTIONS) -> list[Action]:
-    """Keep top-K actions by cosine similarity of their display string to question."""
+    """Keep top-`top_k` actions by cosine similarity of their display string to
+    question. Khi bật cross-encoder, `agent` gọi với `top_k=CE_COSINE_TOPN` để
+    cosine chỉ làm tầng retrieval rộng, cross-encoder rerank tiếp."""
     if len(actions) <= top_k:
         return actions
     texts = [question] + [a.display for a in actions]
