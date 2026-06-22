@@ -31,3 +31,12 @@ MAX_CANDIDATES_PER_RELATION = 80  # hard cap before semantic filter
 
 # Eval
 TEST_SAMPLE_SIZE = 200       # stratified subset (per paper)
+
+# Cross-encoder reranker (cascade sau cosine). Tắt mặc định -> core vẫn
+# stdlib-only; torch/transformers/pyvi chỉ load khi bật.
+USE_CROSS_ENCODER = False
+CE_COSINE_TOPN = 30                       # cosine giữ N trước khi đưa cross-encoder
+CE_MODEL_DIR = ARTIFACTS_DIR / "ce_model"
+CE_DATASET = ARTIFACTS_DIR / "ce_dataset.jsonl"
+CE_BASE_MODEL = "vinai/phobert-base"
+CE_MAX_LEN = 256
