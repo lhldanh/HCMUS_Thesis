@@ -51,14 +51,20 @@ def action_to_vi(a: Action) -> str:
         y = a.args[0] if a.args else None
         if y is None:
             ys = _YEAR.findall(a.display or "")
-            y = ys[0] if ys else "?"
+            y = ys[0] if ys else None
+        if y is None:  # placeholder (chưa điền năm) — khớp với cái LLM thấy
+            kw = "trước" if op == "get_before" else "sau"
+            return f"Lọc các kết quả {kw} mốc thời gian đã xác định"
         return _OP_VI[op].format(y=y)
     if op == "get_between":
         if len(a.args) >= 2 and a.args[0] is not None:
             y1, y2 = a.args[0], a.args[1]
         else:
             ys = _YEAR.findall(a.display or "")
-            y1, y2 = (ys + ["?", "?"])[:2]
+            if len(ys) >= 2:
+                y1, y2 = ys[0], ys[1]
+            else:
+                return "Lọc các kết quả trong khoảng thời gian đã xác định"
         return _OP_VI[op].format(y1=y1, y2=y2)
     if op in ("get_first", "get_last"):
         return _OP_VI[op]
