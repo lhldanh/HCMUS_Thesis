@@ -1,0 +1,94 @@
+\chapter{Kết luận và Hướng phát triển}
+\label{ch:conclusion}
+
+Chương này tổng kết các kết quả đã đạt được của khóa luận, nêu ý nghĩa và hạn chế, đồng thời đề
+xuất các hướng phát triển trong tương lai.
+
+\section{Tổng kết}
+\label{sec:summary}
+
+Khóa luận đã nghiên cứu và xây dựng một hệ thống trả lời câu hỏi có ràng buộc về thời gian cho
+\textbf{tiếng Việt}, dựa trên phương pháp Suy luận Trừu tượng Quy nạp (ARI). Xuất phát từ hai hạn
+chế cốt lõi của mô hình ngôn ngữ lớn -- thiếu tri thức thời gian và thiếu năng lực suy luận thời
+gian phức tạp -- khóa luận kế thừa kiến trúc hai pha của ARI, tách bạch khâu tương tác tri thức khỏi
+khâu suy luận trừu tượng, qua đó cung cấp chỗ dựa tri thức xác thực cho mô hình đồng thời giảm thiểu
+nhiễu.
+
+Cụ thể, khóa luận đã hoàn thành ba đóng góp chính:
+
+\begin{enumerate}
+  \item \textbf{Bộ dữ liệu CronQ-VN.} Khóa luận thiết kế một quy trình hoàn chỉnh trích xuất đồ thị
+  tri thức thời gian tiếng Việt từ Wikidata (khoảng 238 nghìn sự kiện, 37,5 nghìn thực thể, 271
+  quan hệ) và sinh tự động các câu hỏi kèm đáp án chuẩn, tạo nên bộ dữ liệu TKGQA tiếng Việt đầu
+  tiên với năm loại câu hỏi thời gian.
+  \item \textbf{Hệ thống ARI tiếng Việt vận hành cục bộ.} Khóa luận cài đặt lại toàn bộ khung ARI
+  cho tiếng Việt, vận hành pha suy luận hoàn toàn bằng mô hình ngôn ngữ lớn chạy cục bộ thay cho API
+  thương mại, kèm cơ chế liên kết thực thể tiếng Việt cho câu hỏi mở.
+  \item \textbf{Bộ lọc hành động dựa trên cross-encoder.} Khóa luận chỉ ra hạn chế của bộ lọc hành
+  động bằng độ tương đồng cosine trong ARI gốc và đề xuất thay thế bằng một bộ lọc nhận biết ngữ
+  cảnh dựa trên cross-encoder, mã hóa đồng thời hành động và lịch sử suy luận.
+\end{enumerate}
+
+Kết quả thực nghiệm trên CronQ-VN \todo{tóm tắt kết quả chính sau khi chạy đánh giá: độ chính xác
+tổng của ARI, mức cải thiện so với LLM trực tiếp và các baseline, cùng kết luận về vai trò của hướng
+dẫn trừu tượng và bộ lọc cross-encoder.}
+
+\section{Ý nghĩa}
+\label{sec:significance}
+
+Về mặt học thuật, khóa luận đóng góp \emph{bộ dữ liệu và hệ thống TKGQA tiếng Việt đầu tiên}, tạo
+tiền đề cho các nghiên cứu tiếp theo về hỏi đáp thời gian trong tiếng Việt -- một ngôn ngữ còn ít
+tài nguyên cho bài toán này. Việc vận hành toàn bộ pha suy luận bằng mô hình ngôn ngữ lớn cục bộ cho
+thấy tính khả thi của các hệ thống hỏi đáp tri thức \emph{không phụ thuộc dịch vụ thương mại}, phù
+hợp với các bối cảnh đòi hỏi chi phí thấp hoặc bảo mật dữ liệu.
+
+Về mặt phương pháp, khóa luận củng cố một hướng tiếp cận giàu tiềm năng: kết hợp \emph{bộ nhớ kinh
+nghiệm} với mô hình ngôn ngữ lớn, để mô hình chủ động kiến tạo và tái sử dụng các chiến lược suy
+luận trừu tượng thay vì chỉ tiếp nhận thông tin thụ động. Về mặt ứng dụng, hệ thống có thể phục vụ
+các tác vụ thực tế như tra cứu sự kiện lịch sử, dựng tiểu sử nhân vật và phân tích dữ liệu theo dòng
+thời gian.
+
+\section{Hạn chế}
+\label{sec:limitations}
+
+Bên cạnh các kết quả đạt được, khóa luận còn một số hạn chế. Thứ nhất, chất lượng của phương pháp
+luận trừu tượng phụ thuộc vào năng lực của mô hình ngôn ngữ lớn; khi chạy cục bộ với mô hình quy mô
+vừa phải, hướng dẫn sinh ra có thể chưa thật sắc bén. Thứ hai, do dựa trên suy luận nhiều bước, hệ
+thống có chi phí và thời gian suy luận cao hơn so với trả lời trực tiếp. Thứ ba, phạm vi hiện tại
+giới hạn ở suy luận thời gian, với bộ dữ liệu CronQ-VN ở hạt thời gian cấp năm và một tập quan hệ
+tuyển chọn, nên chưa bao quát hết độ phức tạp của ngôn ngữ tự nhiên. Cuối cùng, đóng góp về bộ lọc
+cross-encoder mới ở mức đề xuất và đang trong quá trình hoàn thiện thực nghiệm.
+
+\section{Hướng phát triển}
+\label{sec:future}
+
+Từ các hạn chế trên, khóa luận đề xuất một số hướng phát triển.
+
+\paragraph{Hoàn thiện và đánh giá bộ lọc cross-encoder.} Hướng trước mắt là hiện thực hóa đầy đủ bộ
+chấm điểm cross-encoder, xây dựng tập dữ liệu huấn luyện từ các trace lịch sử với chiến lược lấy mẫu
+âm phù hợp, rồi đánh giá định lượng mức cải thiện so với bộ lọc cosine, qua đó kiểm chứng giả thuyết
+ở Mục~\ref{sec:ce-analysis}.
+
+\paragraph{Nâng cao liên kết thực thể tiếng Việt.} Có thể tích hợp hoàn chỉnh quy trình nhận dạng
+thực thể bằng mô hình NER tiếng Việt kết hợp tìm kiếm tương đồng trong cơ sở dữ liệu vector, nhằm
+xử lý tốt hơn các câu hỏi mở và giảm nhóm lỗi liên kết thực thể đã chỉ ra ở Mục~\ref{sec:errors}.
+
+\paragraph{Mở rộng bộ dữ liệu.} Bộ dữ liệu CronQ-VN có thể được mở rộng theo nhiều chiều: bổ sung
+thêm quan hệ và lĩnh vực, hỗ trợ nhiều \emph{hạt thời gian} hơn (tháng, ngày), tăng quy mô câu hỏi,
+và đa dạng hóa các dạng câu hỏi thời gian phức tạp hơn nữa.
+
+\paragraph{Tăng cường năng lực suy luận.} Các hướng khả dĩ gồm: tinh chỉnh một mô hình ngôn ngữ lớn
+tiếng Việt riêng cho bài toán nhằm cải thiện chất lượng quyết định và độ tuân thủ định dạng; khảo
+sát các chuỗi suy luận sâu hơn; và cân bằng tốt hơn giữa độ sâu suy luận và chi phí tính toán.
+
+\paragraph{Mở rộng phạm vi bài toán.} Về lâu dài, phương pháp có thể được mở rộng ra ngoài miền suy
+luận thời gian thuần túy, chẳng hạn suy luận không -- thời gian (\textit{spatio-temporal}) hoặc các
+miền suy luận khác, tận dụng tính tách rời thấp giữa hệ thống và tập thao tác nguyên tử để dễ dàng
+bổ sung thao tác mới cho từng miền.
+
+\bigskip
+
+Tóm lại, khóa luận đã xây dựng nền tảng đầu tiên cho bài toán hỏi đáp có ràng buộc thời gian trên đồ
+thị tri thức tiếng Việt, bao gồm cả bộ dữ liệu, hệ thống và một đề xuất cải tiến. Những kết quả và
+hướng phát triển nêu trên hy vọng sẽ là cơ sở hữu ích cho các nghiên cứu tiếp theo trong lĩnh vực
+này.

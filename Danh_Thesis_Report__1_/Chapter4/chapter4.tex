@@ -1,0 +1,482 @@
+\chapter{Phương pháp đề xuất}
+\label{ch:method}
+
+Chương này trình bày chi tiết hệ thống hỏi đáp trên đồ thị tri thức thời gian tiếng Việt mà khóa
+luận xây dựng. Trước hết, Mục~\ref{sec:overview} phác họa kiến trúc tổng thể hai pha kế thừa từ
+khung ARI. Mục~\ref{sec:cronqvn} mô tả quy trình xây dựng bộ dữ liệu CronQ-VN -- đóng góp thứ nhất.
+Mục~\ref{sec:knowledge-based} và Mục~\ref{sec:knowledge-agnostic} lần lượt trình bày pha tương tác
+dựa trên tri thức và pha suy luận trừu tượng. Mục~\ref{sec:vietnamese-adapt} trình bày các thích
+nghi cho tiếng Việt và vận hành cục bộ -- đóng góp thứ hai. Cuối cùng, Mục~\ref{sec:crossencoder}
+đề xuất bộ lọc hành động dựa trên cross-encoder -- đóng góp thứ ba.
+
+\section{Tổng quan kiến trúc hệ thống}
+\label{sec:overview}
+
+Hệ thống kế thừa khung Suy luận Trừu tượng Quy nạp (ARI)~\cite{chen2024ari}, chia quá trình suy
+luận thời gian thành hai pha tách bạch nhằm giải quyết đồng thời hai hạn chế của mô hình ngôn ngữ
+lớn đã nêu ở Mục~\ref{sec:limitations}.
+
+\begin{itemize}
+  \item \textbf{Pha tương tác dựa trên tri thức} (\textit{knowledge-based}) đảm nhận toàn bộ thao
+  tác trên đồ thị tri thức: trích xuất đồ thị con, liệt kê các hành động nguyên tử khả thi, thực
+  thi hành động và cập nhật trạng thái. Pha này cô lập mô hình ngôn ngữ khỏi khối tri thức cụ thể
+  đồ sộ và nhiễu.
+  \item \textbf{Pha suy luận trừu tượng} (\textit{knowledge-agnostic}) là nơi mô hình ngôn ngữ lớn
+  đưa ra quyết định chiến lược ở mức cao: chọn hành động phù hợp dựa trên \emph{phương pháp luận
+  trừu tượng} đã chắt lọc từ kinh nghiệm lịch sử, thay vì thao tác trực tiếp với tri thức cụ thể.
+\end{itemize}
+
+Toàn hệ thống vận hành theo hai quá trình (Hình~\ref{fig:architecture}). \textbf{Quá trình học}
+(nét liền) duyệt một tập câu hỏi mẫu, ghi lại các trace suy luận, phân cụm chúng theo cấu trúc, rồi
+chắt lọc một phương pháp luận trừu tượng cho mỗi cụm và lưu vào bộ nhớ. \textbf{Quá trình suy luận}
+(nét đứt) với mỗi câu hỏi mới sẽ tìm cụm phù hợp nhất, lấy phương pháp luận tương ứng để dẫn dắt mô
+hình ngôn ngữ lớn tương tác nhiều bước với pha tri thức cho tới khi đưa ra đáp án.
+
+\begin{figure}[ht]
+  \centering
+  \fbox{\parbox{0.93\textwidth}{\centering\vspace{2mm}\footnotesize
+  \textbf{[Pha tri thức]} Câu hỏi $\rightarrow$ liên kết thực thể $\rightarrow$ đồ thị con
+  $\rightarrow$ liệt kê hành động $\rightarrow$ lọc $\rightarrow$ thực thi $\rightarrow$ cập nhật\\[2mm]
+  $\updownarrow$ \emph{(mỗi bước)}\\[2mm]
+  \textbf{[Pha trừu tượng]} Bộ nhớ phương pháp luận $\xrightarrow{\text{chọn cụm}}$ hướng dẫn
+  $\rightarrow$ LLM chọn hành động\\[2mm]
+  \emph{Học (nét liền): trace lịch sử $\rightarrow$ phân cụm $\rightarrow$ chắt lọc phương pháp luận}
+  \vspace{2mm}}}
+  \caption{Kiến trúc tổng thể của hệ thống: pha tương tác dựa trên tri thức (thực thi trên đồ thị)
+  và pha suy luận trừu tượng (quyết định bằng mô hình ngôn ngữ lớn dưới hướng dẫn của phương pháp
+  luận). \todo{vẽ lại bằng TikZ theo Figure~3 của~\cite{chen2024ari}, thể hiện rõ luồng học (nét
+  liền) và luồng suy luận (nét đứt)}}
+  \label{fig:architecture}
+\end{figure}
+
+\section{Xây dựng bộ dữ liệu CronQ-VN}
+\label{sec:cronqvn}
+
+Do chưa tồn tại bộ dữ liệu TKGQA tiếng Việt, khóa luận tự xây dựng CronQ-VN qua hai giai đoạn: (i)
+trích xuất một đồ thị tri thức thời gian tiếng Việt từ Wikidata; (ii) sinh tự động các câu hỏi kèm
+đáp án chuẩn từ đồ thị này. Quy trình lấy cảm hứng từ CronQuestions~\cite{saxena2021cronkgqa} và kỹ
+thuật lọc của bài toán hoàn thiện đồ thị tri thức thời gian~\cite{lacroix2020tkbc}.
+
+\subsection{Trích xuất đồ thị tri thức thời gian từ Wikidata}
+\label{sec:buildkg}
+
+Mô-đun \texttt{build\_kg.py} duyệt toàn bộ bản kết xuất (\textit{dump}) mới nhất của Wikidata theo
+hai lượt:
+
+\begin{enumerate}
+  \item \textbf{Lượt 1 -- thu thập nhãn.} Duyệt mọi thực thể, thu thập ánh xạ từ mã định danh
+  \texttt{QID} sang nhãn tiếng Việt (và nhãn tiếng Anh để tham chiếu) cho những thực thể có nhãn
+  tiếng Việt.
+  \item \textbf{Lượt 2 -- trích xuất sự kiện thời gian.} Với mỗi khẳng định, chỉ giữ lại sự kiện
+  thỏa đồng thời: (a) chủ thể \emph{và} đối tượng đều có nhãn tiếng Việt; (b) khẳng định có ít nhất
+  một định tố thời gian trong \{\texttt{P580}, \texttt{P582}, \texttt{P585}\}; và (c) mốc thời gian
+  được rời rạc hóa về cấp năm.
+\end{enumerate}
+
+Sau hai lượt, đồ thị được lọc thưa theo tinh thần của~\cite{lacroix2020tkbc}: loại bỏ các quan hệ
+có dưới \texttt{BUILD\_MIN\_RELATION\_FACTS} sự kiện và các thực thể xuất hiện trong dưới
+\texttt{BUILD\_MIN\_ENTITY\_FACTS} sự kiện, nhằm giữ lại phần đồ thị dày đặc và ổn định về mặt thống
+kê. Kết quả là một đồ thị tri thức thời gian với khoảng \textbf{238 nghìn} sự kiện, \textbf{37,5
+nghìn} thực thể và \textbf{271} quan hệ, trong đó 100\% nhãn cho cặp chủ thể -- đối tượng đều có
+phiên bản tiếng Việt. Mỗi sự kiện được lưu dưới dạng một bộ bốn $(s, r, o, \tau)$ với
+$\tau = [t_{b}, t_{e}]$ (cho phép $t_{e}$ rỗng với các sự kiện còn hiệu lực).
+
+\subsection{Phủ tiếng Việt và dịch nhãn còn thiếu}
+\label{sec:vicoverage}
+
+Khảo sát trên đồ thị thu được cho thấy độ phủ nhãn tiếng Việt không đồng đều: khoảng \textbf{34\%}
+thực thể và \textbf{77\%} quan hệ có sẵn nhãn tiếng Việt trên Wikidata. Để bảo đảm mọi câu hỏi sinh
+ra đều thuần Việt, phần nhãn còn thiếu được dịch tự động bằng một mô hình ngôn ngữ lớn (Qwen), rồi
+lưu thành các tệp nhãn tiếng Việt riêng (\texttt{qid\_labels.vi.json}, \texttt{pid\_labels.vi.json}).
+Nhờ vậy, khâu sinh câu hỏi ở giai đoạn sau không cần thao tác dịch nào nữa.
+
+\subsection{Sinh câu hỏi}
+\label{sec:generate}
+
+Mô-đun \texttt{generate.py} sinh câu hỏi từ một tập \textbf{21 quan hệ} được tuyển chọn, tổ chức
+thành \textbf{8 nhóm chủ đề} (mở rộng từ 5 quan hệ lõi của CronQuestions), như liệt kê trong
+Bảng~\ref{tab:relations}. Mỗi quan hệ được gắn một động từ và một danh từ tiếng Việt để ghép vào
+mẫu câu (\textit{template}).
+
+\begin{table}[ht]
+\centering
+\caption{Tám nhóm quan hệ dùng để sinh câu hỏi trong CronQ-VN.}
+\label{tab:relations}
+\begin{tabular}{L{3.2cm} L{9.5cm}}
+\toprule
+\textbf{Nhóm} & \textbf{Quan hệ (mã Wikidata)} \\
+\midrule
+Lõi CronQ & chức vụ (P39), câu lạc bộ thể thao (P54), giải thưởng (P166), hôn nhân (P26), nơi làm việc (P108) \\
+Học vấn/Sự nghiệp & học tại (P69), học vị (P512), nơi công tác (P937) \\
+Chính trị & đứng đầu chính phủ (P6), đảng phái (P102), chủ tịch (P488), giữ vị trí (P1308) \\
+Giải thưởng & đề cử (P1411), thắng cuộc thi (P1346) \\
+Thành viên & thành viên của (P463), nơi cư trú (P551) \\
+Thể thao & huấn luyện viên trưởng (P286) \\
+Quân sự & quân hàm (P410), quân chủng (P241) \\
+Khác & chủ sở hữu (P127), hướng dẫn nghiên cứu sinh (P185) \\
+\bottomrule
+\end{tabular}
+\end{table}
+
+Câu hỏi được sinh theo \textbf{năm loại} (mỗi loại chiếm 20\% theo cấu hình mặc định), tương ứng
+năm dạng suy luận thời gian, minh họa trong Bảng~\ref{tab:qtype-examples}:
+
+\begin{table}[ht]
+\centering
+\caption{Năm loại câu hỏi trong CronQ-VN kèm ví dụ.}
+\label{tab:qtype-examples}
+\begin{tabular}{L{3.0cm} L{9.7cm}}
+\toprule
+\textbf{Loại} & \textbf{Ví dụ} \\
+\midrule
+\texttt{simple\_entity} & ``Ai giữ chức Tổng thống Hoa Kỳ vào năm 2010?'' (đáp án: thực thể) \\
+\texttt{simple\_time} & ``Barack Obama bắt đầu giữ chức Tổng thống Hoa Kỳ năm nào?'' (đáp án: thời gian) \\
+\texttt{before\_after} & ``Ai là Tổng thống Hoa Kỳ ngay trước Barack Obama?'' (đáp án: thực thể) \\
+\texttt{first\_last} & ``Câu lạc bộ đầu tiên trong sự nghiệp của Lionel Messi là gì?'' (đáp án: thực thể) \\
+\texttt{time\_join} & ``Ai cùng chơi cho FC Barcelona khi Lionel Messi đang ở đó?'' (đáp án: thực thể) \\
+\bottomrule
+\end{tabular}
+\end{table}
+
+Với mỗi câu hỏi, hệ thống ghép mẫu câu rồi \emph{truy vấn trực tiếp trên đồ thị} để thu được tập
+đáp án chuẩn (\textit{ground truth}). Chẳng hạn, để sinh câu hỏi \texttt{simple\_entity}, hệ thống
+chọn một quan hệ và một năm, lấy tập các sự kiện đang có hiệu lực tại năm đó (\texttt{active\_at}),
+và tập chủ thể của chúng chính là đáp án. Cách sinh ``từ đồ thị ra câu hỏi'' này bảo đảm đáp án luôn
+nhất quán với tri thức trong đồ thị.
+
+Để bảo đảm chất lượng, một loạt bộ lọc được áp dụng ở khâu sinh:
+
+\begin{itemize}
+  \item \textbf{Lọc nhãn xấu:} bỏ nhãn quá ngắn (dưới \texttt{MIN\_LABEL\_LEN} ký tự) hoặc toàn ký
+  tự số; bỏ các nhãn đối tượng mang tính lớp chung gây câu hỏi vô nghĩa (ví dụ ``chính trị gia độc
+  lập'' cho quan hệ đảng phái).
+  \item \textbf{Không tự tham chiếu:} loại sự kiện có chủ thể trùng đối tượng.
+  \item \textbf{Không rò rỉ đáp án:} loại câu hỏi mà đáp án xuất hiện ngay trong phần đề câu hỏi.
+  \item \textbf{Giới hạn số đáp án:} bỏ câu hỏi có quá \texttt{MAX\_ANSWERS} đáp án (tránh các câu
+  ``bùng nổ'' như danh sách nghị sĩ).
+  \item \textbf{Ràng buộc khoảng cách thời gian:} câu hỏi \texttt{before\_after} yêu cầu hai sự
+  kiện cách nhau tối thiểu \texttt{MIN\_BEFORE\_AFTER\_GAP} năm; câu hỏi \texttt{time\_join} yêu
+  cầu hai sự kiện chồng lấn tối thiểu \texttt{TIME\_JOIN\_MIN\_OVERLAP} năm.
+  \item \textbf{Khử trùng lặp:} loại các câu hỏi trùng nội dung.
+\end{itemize}
+
+\subsection{Lược đồ dữ liệu}
+\label{sec:schema}
+
+Mỗi câu hỏi được lưu dưới dạng một bản ghi JSON. Quan trọng nhất, trường \texttt{entities} lưu sẵn
+danh sách mã \texttt{QID} của các thực thể mỏ neo, giúp pha suy luận khởi tạo ngay mà không cần
+liên kết thực thể lại; còn trường \texttt{template} lưu mẫu câu đã trừu tượng hóa, được dùng cho
+việc phân cụm theo cấu trúc (Mục~\ref{sec:knowledge-agnostic}).
+
+\begin{lstlisting}[language=Python,caption={Một bản ghi câu hỏi trong CronQ-VN.},label=lst:schema]
+{
+  "quid": 1,
+  "question": "Ai giữ chức Tổng thống Hoa Kỳ vào năm 2010?",
+  "answers": ["Barack Obama"],
+  "answer_type": "entity",        # entity | time
+  "qtype": "simple_entity",
+  "time_level": "year",
+  "relation": "P39",
+  "year": 2010,
+  "entities": ["Q30"],            # QID mỏ neo (seed)
+  "template": "Ai {relation} {entity} vào {time}?",
+  "qlabel": "Single"              # Single | Multiple
+}
+\end{lstlisting}
+
+\section{Pha tương tác dựa trên tri thức}
+\label{sec:knowledge-based}
+
+Pha này hiện thực hóa toàn bộ tương tác với đồ thị tri thức, theo đúng tinh thần §3.3 của~
+\cite{chen2024ari}: biểu diễn bài toán suy luận phức tạp thành chuỗi suy luận nhiều bước, ở mỗi
+bước sinh ra một tập hành động ứng viên khả thi để mô hình ngôn ngữ lớn lựa chọn.
+
+\subsection{Đồ thị con và chỉ mục đồ thị}
+\label{sec:onehop}
+
+Đồ thị tri thức thời gian được nạp toàn bộ vào bộ nhớ và lập chỉ mục theo chủ thể, đối tượng, quan
+hệ và năm để truy vấn nhanh. Xuất phát từ thực thể chủ thể $e_h$ của câu hỏi, hệ thống xét đồ thị
+con một bước (\textit{1-hop subgraph}) gồm mọi sự kiện có $e_h$ tham gia:
+
+\begin{equation}
+\label{eq:subgraph}
+G_{e_h} = \{(e, r) \mid e \in N_{e_h},\ r \in R_{e_h}\},
+\end{equation}
+
+trong đó $N_{e_h}$ là tập các nút kề $e_h$ và $R_{e_h}$ là tập cạnh tương ứng. Trong cài đặt, đồ
+thị con này chính là hợp của các sự kiện mà $e_h$ đóng vai trò chủ thể hoặc đối tượng.
+
+\subsection{Chín thao tác nguyên tử}
+\label{sec:actions}
+
+Thay vì các hàm bậc cao được định nghĩa thủ công, hệ thống dùng một tập \textbf{chín thao tác
+nguyên tử} (\textit{atomic operations}) có thể kết hợp linh hoạt để tạo nên các truy vấn phức tạp,
+tương ứng Bảng~6 của~\cite{chen2024ari}. Bảng~\ref{tab:actions} liệt kê chín thao tác này.
+
+\begin{table}[ht]
+\centering
+\caption{Chín thao tác nguyên tử trong hệ thống.}
+\label{tab:actions}
+\begin{tabular}{L{6.0cm} L{6.7cm}}
+\toprule
+\textbf{Thao tác} & \textbf{Ý nghĩa} \\
+\midrule
+\texttt{get\_tail\_entity(head, rel, time)} & Lấy đối tượng từ chủ thể, quan hệ, thời gian \\
+\texttt{get\_head\_entity(tail, rel, time)} & Lấy chủ thể từ đối tượng, quan hệ, thời gian \\
+\texttt{get\_time(head, rel, tail)} & Lấy thời gian của một sự kiện cụ thể \\
+\texttt{get\_between(ents, t1, t2)} & Lọc thực thể có thời gian trong khoảng $[t_1, t_2]$ \\
+\texttt{get\_before(ents, t)} & Lọc thực thể có thời gian trước $t$ \\
+\texttt{get\_after(ents, t)} & Lọc thực thể có thời gian sau $t$ \\
+\texttt{get\_first(ents)} & Lấy thực thể có thời gian sớm nhất \\
+\texttt{get\_last(ents)} & Lấy thực thể có thời gian muộn nhất \\
+\texttt{answer(value)} & Trả về đáp án cuối cùng \\
+\bottomrule
+\end{tabular}
+\end{table}
+
+Mỗi thao tác trả về một \textit{tập thực thể} -- danh sách các bộ ba (nhãn, mã định danh, năm) --
+hoặc một giá trị đáp án. Các thao tác lọc theo thời gian (\texttt{get\_before}, \texttt{get\_after},
+\texttt{get\_between}, \texttt{get\_first}, \texttt{get\_last}) nhận đầu vào là kết quả của bước
+trước, cho phép \emph{nối chuỗi} các thao tác để tạo nên suy luận nhiều bước. Tính tách rời thấp
+giữa hệ thống và tập thao tác giúp dễ dàng mở rộng sang dữ liệu hay miền mới: chỉ cần bổ sung thao
+tác nguyên tử tương ứng.
+
+\subsection{Liệt kê và lọc hành động ứng viên}
+\label{sec:enumerate}
+
+Ở mỗi bước, hệ thống \emph{liệt kê} mọi hành động khả thi. Từ đồ thị con của các thực thể mỏ neo,
+tập hành động khởi tạo được sinh ra bằng cách duyệt và thay thế các quan hệ, thực thể hiện diện:
+
+\begin{equation}
+\label{eq:enum}
+P_0 = \{\mathrm{Enum}(\textit{action}, e, r) \mid e, r \in G_{e_h}\}.
+\end{equation}
+
+Quan trọng, chỉ những hành động \emph{thực thi cho kết quả khác rỗng} mới được giữ lại. Tuy nhiên,
+do sự kiện thời gian rất nhiều, ngay cả đồ thị con một bước cũng có thể sinh ra một lượng lớn hành
+động, gây nhiễu cho quyết định của mô hình ngôn ngữ lớn. Vì vậy, hệ thống áp dụng một bước
+\emph{lọc}: trước hết loại các hành động trùng lặp và các hành động đã được chọn ở bước trước (tránh
+lặp vô hạn); sau đó, nếu số ứng viên vẫn vượt ngưỡng \texttt{TOP\_K\_ACTIONS}, giữ lại $K$ hành động
+có \emph{độ tương đồng ngữ nghĩa cao nhất} với câu hỏi:
+
+\begin{equation}
+\label{eq:filter}
+P'_0 = \{a \mid \mathrm{exec}(a) \neq \emptyset \ \wedge\ a \in \mathrm{Top\text{-}K}(P_0, q)\}.
+\end{equation}
+
+Độ tương đồng được tính bằng cosine giữa biểu diễn nhúng của \emph{chuỗi mô tả hành động} và của
+\emph{câu hỏi}. Như sẽ phân tích ở Mục~\ref{sec:crossencoder}, chính cách lọc ``so hành động với
+câu hỏi gốc'' này bộc lộ hạn chế khi suy luận nhiều bước, và là động lực cho đóng góp thứ ba của
+khóa luận.
+
+\section{Pha suy luận trừu tượng}
+\label{sec:knowledge-agnostic}
+
+Pha suy luận trừu tượng cho phép mô hình ngôn ngữ lớn chắt lọc và áp dụng các phương pháp luận trừu
+tượng từ kinh nghiệm lịch sử, theo §3.4 của~\cite{chen2024ari}.
+
+\subsection{Lưu trữ lịch sử suy luận}
+\label{sec:history}
+
+Trong quá trình giải mỗi câu hỏi, hệ thống ghi lại trạng thái tại mỗi bước $t_i$, gồm câu hỏi $q$,
+tập hành động ứng viên $P_{t_i}$ và quyết định $a_{t_i}$ của mô hình. Tập các trạng thái này tạo
+thành lịch sử suy luận của câu hỏi:
+
+\begin{equation}
+\label{eq:history}
+H_q = \{(q, t_i, P_{t_i}, a_{t_i}) \mid i \in T\},
+\end{equation}
+
+với $T$ là tập các bước. Mỗi bản ghi lưu đầy đủ phản hồi của mô hình (cả hành động lẫn lý do) cùng
+kết quả truy xuất, phục vụ cho việc chắt lọc phương pháp luận ở giai đoạn sau.
+
+\subsection{Phân cụm theo cấu trúc và chắt lọc phương pháp luận}
+\label{sec:induce}
+
+Suy luận thời gian tuy nhiều bước nhưng các \emph{kiểu} suy luận lại khá ổn định: những câu hỏi
+tương tự đòi hỏi các bước suy luận tương tự. Do đó, sau khi tích lũy một tập lịch sử, hệ thống dùng
+thuật toán K-means (Mục~\ref{sec:kmeans}) để phân các trace thành các cụm.
+
+Một cải tiến quan trọng so với cách làm gốc là \textbf{phân cụm theo cấu trúc thay vì theo chủ đề}.
+Trước khi nhúng để phân cụm, mỗi câu hỏi được \emph{trừu tượng hóa}: thay nhãn thực thể, nhãn quan
+hệ và mốc thời gian cụ thể bằng các ký hiệu giữ chỗ (ví dụ ``Ai \{relation\} \{entity\} vào
+\{time\}?''). Việc thay cả nhãn quan hệ là cần thiết cho tiếng Việt, vì nhãn quan hệ thường trùng
+với danh từ trong câu, dễ khiến cụm bị gom theo chủ đề thay vì theo dạng suy luận. Trong cài đặt,
+mẫu câu trừu tượng này có sẵn ở trường \texttt{template} của mỗi câu hỏi.
+
+Với mỗi cụm, hệ thống chắt lọc một \emph{phương pháp luận trừu tượng} $M_C$ bằng cách cho mô hình
+ngôn ngữ lớn quan sát \emph{cả ví dụ đúng lẫn ví dụ sai} trong cụm (tối đa ba ví dụ mỗi loại) rồi
+khái quát thành chỉ dẫn từng bước, độc lập với tri thức cụ thể. Việc đưa cả ví dụ sai giúp mô hình
+học cách tránh các lỗi đã gặp, phù hợp với quan sát của~\cite{chen2024ari}. Mỗi cụm cuối cùng lưu
+lại tâm cụm, kích thước, phân bố loại câu hỏi và phương pháp luận tương ứng.
+
+\subsection{Suy luận với hướng dẫn trừu tượng}
+\label{sec:inference-loop}
+
+Khi gặp câu hỏi mới, hệ thống trừu tượng hóa câu hỏi giống như lúc xây bộ nhớ, rồi chọn cụm có tâm
+gần nhất theo khoảng cách Euclid:
+
+\begin{equation}
+\label{eq:select}
+C^* = \arg\max_{C_i} S(C_i, q),
+\end{equation}
+
+và lấy phương pháp luận $M_{C^*}$ của cụm đó. Tại mỗi bước, mô hình ngôn ngữ lớn nhận phương pháp
+luận, câu hỏi, lịch sử các bước đã thực hiện và tập hành động ứng viên đã lọc $P'_t$, rồi chọn ra
+hành động kế tiếp:
+
+\begin{equation}
+\label{eq:decide}
+a^*_i = \mathrm{LLM}(M_{C^*},\ q,\ P'_i).
+\end{equation}
+
+Hành động được thực thi trên đồ thị, cập nhật trạng thái cho bước sau. Vòng lặp kết thúc khi mô hình
+chọn hành động \texttt{answer(\dots)} hoặc khi đạt số bước tối đa
+(\texttt{MAX\_REASONING\_STEPS}). Thuật toán~\ref{alg:ari} tóm tắt toàn bộ vòng lặp.
+
+\begin{algorithm}[ht]
+\caption{Suy luận trừu tượng quy nạp (vòng lặp suy luận)}
+\label{alg:ari}
+\begin{algorithmic}[1]
+\Require Đồ thị $\mathcal{K}$, câu hỏi $q$, bộ nhớ phương pháp luận $\mathcal{M}$
+\Ensure Đáp án cho $q$
+\State $M_{C^*} \gets$ chọn phương pháp luận cho $q$ theo Công thức~\eqref{eq:select}
+\State Khởi tạo tập thực thể mỏ neo (từ trường \texttt{entities} hoặc liên kết thực thể)
+\State $prev \gets \emptyset$
+\For{$t = 0$ \textbf{đến} \texttt{MAX\_REASONING\_STEPS}$-1$}
+  \State Liệt kê hành động ứng viên $P_t$ từ mỏ neo và $prev$ (Công thức~\eqref{eq:enum})
+  \State Lọc còn $P'_t$: bỏ trùng, bỏ đã dùng, giữ Top-K (Công thức~\eqref{eq:filter})
+  \State $a^*_t \gets \mathrm{LLM}(M_{C^*}, q, \text{lịch sử}, P'_t)$ \Comment{Công thức~\eqref{eq:decide}}
+  \If{$a^*_t$ là \texttt{answer}}
+    \State \Return giá trị đáp án
+  \EndIf
+  \State $prev \gets \mathrm{exec}(a^*_t)$; cập nhật lịch sử
+\EndFor
+\State \Return ứng viên tốt nhất còn lại trong $prev$
+\end{algorithmic}
+\end{algorithm}
+
+\section{Thích nghi cho tiếng Việt và vận hành cục bộ}
+\label{sec:vietnamese-adapt}
+
+Đóng góp thứ hai của khóa luận là đưa toàn bộ khung ARI sang tiếng Việt và vận hành được trên hạ
+tầng cục bộ.
+
+\subsection{Mô hình ngôn ngữ lớn cục bộ}
+\label{sec:local-llm}
+
+Khác với bản gốc dùng API thương mại (\texttt{gpt-3.5-turbo}), hệ thống vận hành pha suy luận hoàn
+toàn cục bộ thông qua Ollama~\cite{ollama}, với mô hình mặc định Qwen2.5~\cite{qwen2025} (cấu hình
+\texttt{qwen3:14b}) và mô hình nhúng \texttt{nomic-embed-text}. Toàn bộ câu lệnh hệ thống và mẫu câu
+lệnh được viết bằng tiếng Việt, gồm câu lệnh chọn hành động và câu lệnh chắt lọc phương pháp luận.
+Nhiệt độ giải mã được đặt $T = 0$ để bảo đảm khả năng lặp lại (Mục~\ref{sec:llm}).
+
+Khung được thiết kế \emph{trung lập với mô hình}: pha chắt lọc phương pháp luận có thể dùng một mô
+hình mạnh hơn để bám sát bản gốc (ví dụ GPT-4o), trong khi pha suy luận vẫn chạy bằng mô hình cục
+bộ. Điểm cốt lõi của đóng góp là \emph{quá trình suy luận} -- vốn được gọi lặp nhiều lần và nhạy
+cảm về chi phí -- có thể vận hành hoàn toàn cục bộ, không phụ thuộc dịch vụ bên ngoài.
+
+\subsection{Liên kết thực thể cho câu hỏi mở}
+\label{sec:entity-linking}
+
+Với các câu hỏi trong bộ CronQ-VN, thực thể mỏ neo đã có sẵn ở trường \texttt{entities}. Tuy nhiên,
+để hệ thống trả lời được \emph{câu hỏi mở} do người dùng nhập, cần một bước \emph{liên kết thực thể}
+ánh xạ cụm từ trong câu hỏi về đúng mã \texttt{QID} trong đồ thị. Quy trình được thiết kế gồm bốn
+bước (Hình~\ref{fig:entity-linking}): (1) nhận câu hỏi; (2) dùng mô hình NER tiếng Việt
+(\texttt{NlpHUST/ner-vietnamese-electra-base}) trích xuất các cụm chỉ thực thể; (3) truy vấn các cụm
+này vào một cơ sở dữ liệu vector chứa biểu diễn nhúng của nhãn thực thể, tìm theo độ tương đồng
+cosine; (4) khớp về các mã \texttt{QID} tương ứng.
+
+\begin{figure}[ht]
+  \centering
+  \fbox{\parbox{0.93\textwidth}{\centering\vspace{2mm}\footnotesize
+  Câu hỏi $\rightarrow$ \textbf{NER} (trích cụm thực thể) $\rightarrow$ \textbf{VectorDB}
+  (cosine) $\rightarrow$ khớp \texttt{QID}\\[1mm]
+  ``Ai là tổng thống đầu tiên của Hoa Kỳ?'' $\Rightarrow$ \{tổng thống, Hoa Kỳ\} $\Rightarrow$
+  \{\texttt{Q30}, \dots\}
+  \vspace{2mm}}}
+  \caption{Liên kết thực thể cho câu hỏi mở: NER tiếng Việt trích cụm thực thể, sau đó khớp về mã
+  định danh qua tìm kiếm tương đồng trong cơ sở dữ liệu vector. \todo{vẽ lại bằng TikZ}}
+  \label{fig:entity-linking}
+\end{figure}
+
+Trong cài đặt hiện tại, bên cạnh quy trình NER nói trên, hệ thống còn cung cấp một bộ liên kết
+\emph{nhẹ} dựa trên so khớp chuỗi con: chuẩn hóa câu hỏi, giới hạn không gian tìm kiếm theo ngữ cảnh
+quan hệ của câu hỏi, rồi khớp nhãn thực thể xuất hiện trong câu (ưu tiên nhãn dài nhất) hoặc khi mọi
+từ của nhãn đều có mặt trong câu. \todo{xác nhận với Danh: phiên bản dùng để chạy thực nghiệm cuối
+cùng là NER + VectorDB hay bộ so khớp chuỗi con, để mô tả cho khớp.}
+
+\section{Cải tiến: bộ lọc hành động bằng cross-encoder}
+\label{sec:crossencoder}
+
+Đóng góp thứ ba của khóa luận là một bộ lọc hành động \emph{nhận biết ngữ cảnh} nhằm khắc phục hạn
+chế của bộ lọc dựa trên độ tương đồng cosine.
+
+\subsection{Hạn chế của bộ lọc cosine}
+\label{sec:cosine-limit}
+
+Như đã nêu ở Mục~\ref{sec:enumerate}, bộ lọc Top-K hiện tại (Công thức~\eqref{eq:filter}) xếp hạng
+mỗi hành động dựa trên độ tương đồng cosine giữa \emph{chuỗi mô tả hành động} và \emph{câu hỏi gốc}.
+Cách làm này có một khiếm khuyết then chốt: độ tương đồng \emph{không phụ thuộc vào bước suy luận
+hiện tại}. Dù hệ thống đang ở bước thứ nhất hay bước thứ tư, thứ hạng của các hành động vẫn giống hệt
+nhau, vì đều được so với cùng một câu hỏi gốc mà không xét tới lịch sử các hành động đã thực hiện.
+
+Hệ quả là hành động \emph{đúng cho bước hiện tại} có thể bị xếp hạng thấp hơn một hành động đúng cho
+một bước khác, và do đó bị loại nhầm khi cắt Top-K. Đối với suy luận nhiều bước -- vốn là trọng tâm
+của bài toán -- đây là một nguồn lỗi đáng kể.
+
+\subsection{Bộ lọc nhận biết ngữ cảnh dựa trên cross-encoder}
+\label{sec:ce-filter}
+
+Khóa luận đề xuất thay bước lọc Top-K thuần cosine bằng một quy trình \emph{hai tầng}: dùng cosine
+để chọn \emph{rộng} một tập ứng viên (nhằm không bỏ sót hành động đúng), sau đó dùng một
+\textbf{cross-encoder} để \emph{xếp hạng lại} và chọn Top-K cuối cùng. Khác với cosine, cross-encoder
+mã hóa \emph{đồng thời} hành động và \emph{lịch sử suy luận}, nhờ đó nắm bắt được ngữ cảnh của bước
+hiện tại (Mục~\ref{sec:crossencoder-bg}).
+
+Cụ thể, với mỗi hành động ứng viên $a$, bộ chấm điểm nhận đầu vào là chuỗi ghép
+$[\mathtt{CLS}]\,a\,[\mathtt{SEP}]\,h\,[\mathtt{SEP}]$, trong đó $h$ là \emph{lịch sử} gồm câu hỏi
+và chuỗi các hành động đúng đã thực hiện. Chuỗi này đi qua BERT rồi một lớp tuyến tính kèm sigmoid để
+cho ra điểm phù hợp:
+
+\begin{equation}
+\label{eq:ce-score}
+\mathrm{score}(a, h) = \sigma\!\left(\mathbf{w}^{\top}\,
+\mathrm{BERT}_{\mathtt{CLS}}\big([\mathtt{CLS}]\,a\,[\mathtt{SEP}]\,h\,[\mathtt{SEP}]\big) + b\right).
+\end{equation}
+
+Nhờ gộp chung biểu diễn của hành động và lịch sử, bộ chấm điểm học được \emph{liên kết giữa hành
+động và ngữ cảnh}, qua đó xếp hạng đúng những hành động phù hợp với bước hiện tại -- điều mà cosine
+không làm được. Hình~\ref{fig:crossencoder} minh họa kiến trúc.
+
+\begin{figure}[ht]
+  \centering
+  \fbox{\parbox{0.93\textwidth}{\centering\vspace{2mm}\footnotesize
+  Cosine (chọn rộng) $\Rightarrow$ tập ứng viên $\Rightarrow$
+  $[\mathtt{CLS}]\,a\,[\mathtt{SEP}]\,h\,[\mathtt{SEP}] \rightarrow \mathrm{BERT} \rightarrow
+  \mathrm{Linear} \rightarrow \sigma \rightarrow \mathrm{score} \rightarrow$ Top-K cuối\\[1mm]
+  với $h$ = câu hỏi + các hành động đúng đã thực hiện
+  \vspace{2mm}}}
+  \caption{Bộ lọc hành động hai tầng đề xuất: cosine chọn rộng, cross-encoder xếp hạng lại theo ngữ
+  cảnh lịch sử. \todo{vẽ lại bằng TikZ}}
+  \label{fig:crossencoder}
+\end{figure}
+
+\subsection{Huấn luyện bộ chấm điểm}
+\label{sec:ce-train}
+
+Bộ chấm điểm được huấn luyện như một bộ phân loại nhị phân với hàm mất mát entropy chéo nhị phân
+(Công thức~\eqref{eq:bce}). Dữ liệu huấn luyện được sinh từ các trace suy luận lịch sử: với mỗi
+bước, hành động \emph{thực sự dẫn tới đáp án đúng} được gán nhãn dương, còn các hành động ứng viên
+khác (đặc biệt là các hành động đúng cho bước \emph{khác} nhưng sai cho bước hiện tại) được gán nhãn
+âm. Cách lấy mẫu âm ``khó'' này buộc mô hình học ranh giới phân biệt theo ngữ cảnh.
+\todo{bổ sung cấu hình huấn luyện chi tiết (mô hình BERT nền, số epoch, kích thước batch, tỉ lệ mẫu
+âm) sau khi triển khai và chạy.}
+
+\section{Tổng kết chương}
+
+Chương này đã trình bày đầy đủ hệ thống TKGQA tiếng Việt của khóa luận: kiến trúc hai pha kế thừa
+ARI, quy trình xây dựng bộ dữ liệu CronQ-VN, pha tương tác tri thức với chín thao tác nguyên tử, pha
+suy luận trừu tượng dựa trên phân cụm và chắt lọc phương pháp luận, các thích nghi cho tiếng Việt và
+vận hành cục bộ, cùng bộ lọc hành động dựa trên cross-encoder. Chương tiếp theo trình bày thiết lập
+thực nghiệm và đánh giá hệ thống theo ba câu hỏi nghiên cứu đã đặt ra.
