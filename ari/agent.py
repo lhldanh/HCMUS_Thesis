@@ -14,6 +14,7 @@ from .ner import link_entities
 from .ollama_client import chat, embed
 from .prompts import (
     ACTION_SELECT_SYSTEM, ACTION_SELECT_TEMPLATE,
+    REACT_SYSTEM, REACT_TEMPLATE,
     FALLBACK_METHODOLOGY,
 )
 
@@ -160,7 +161,17 @@ def _judge(kg: KG, pred, gold: list, answer_type: str) -> bool:
 
 def run_question(kg: KG, q: dict, methodology: str | None = None,
                  embed_fn: Callable | None = None,
-                 chat_fn: Callable | None = None) -> TraceLog:
+                 chat_fn: Callable | None = None,
+                 action_filter: bool = True,
+                 react: bool = False) -> TraceLog:
+    """Vòng lặp ARI (Algorithm 1).
+
+    - ``action_filter=False`` → ablation *w/o Action Filter*: bỏ tầng lọc top-K
+      ngữ nghĩa (cosine + cross-encoder), LLM thấy toàn bộ candidate (đã cap
+      ``MAX_CANDIDATES_PER_RELATION``).
+    - ``react=True`` → baseline *ReAct-KB*: dùng prompt Thought/Action không có
+      methodology trừu tượng (vòng lặp reason+act thuần).
+    """
     chat_fn = chat_fn or (lambda prompt, system=None: chat(prompt, system=system))
     embed_fn = embed_fn or embed
     methodology = methodology or FALLBACK_METHODOLOGY
@@ -210,38 +221,49 @@ def run_question(kg: KG, q: dict, methodology: str | None = None,
         # filter
         if len(uniq) > config.MAX_CANDIDATES_PER_RELATION:
             uniq = uniq[: config.MAX_CANDIDATES_PER_RELATION]
-        # Tầng 1 — cosine. Khi bật cross-encoder, cosine chỉ retrieval rộng
-        # (top-N) rồi cross-encoder rerank xuống top-K; ngược lại cosine cắt
-        # thẳng top-K như cũ.
-        cos_top = (config.CE_COSINE_TOPN
-                   if config.USE_CROSS_ENCODER else config.TOP_K_ACTIONS)
-        if len(uniq) > cos_top:
-            try:
-                uniq = filter_actions(uniq, question, embed_fn, top_k=cos_top)
-            except Exception:
-                uniq = uniq[:cos_top]
-        # Tầng 2 — cross-encoder rerank (có lịch sử suy luận).
-        if config.USE_CROSS_ENCODER and len(uniq) > config.TOP_K_ACTIONS:
-            try:
-                from . import ce_rerank
-                uniq = ce_rerank.rerank(question, trace.steps, uniq,
-                                        top=config.TOP_K_ACTIONS)
-            except Exception:
-                uniq = uniq[: config.TOP_K_ACTIONS]
+        if action_filter:
+            # Tầng 1 — cosine. Khi bật cross-encoder, cosine chỉ retrieval rộng
+            # (top-N) rồi cross-encoder rerank xuống top-K; ngược lại cosine cắt
+            # thẳng top-K như cũ.
+            cos_top = (config.CE_COSINE_TOPN
+                       if config.USE_CROSS_ENCODER else config.TOP_K_ACTIONS)
+            if len(uniq) > cos_top:
+                try:
+                    uniq = filter_actions(uniq, question, embed_fn, top_k=cos_top)
+                except Exception:
+                    uniq = uniq[:cos_top]
+            # Tầng 2 — cross-encoder rerank (có lịch sử suy luận).
+            if config.USE_CROSS_ENCODER and len(uniq) > config.TOP_K_ACTIONS:
+                try:
+                    from . import ce_rerank
+                    uniq = ce_rerank.rerank(question, trace.steps, uniq,
+                                            top=config.TOP_K_ACTIONS)
+                except Exception:
+                    uniq = uniq[: config.TOP_K_ACTIONS]
+        # else: ablation w/o Action Filter — giữ nguyên uniq (đã cap ở trên).
 
         if not uniq:
             trace.steps.append(StepLog([], "(no candidate)", "noop", "[]"))
             break
 
         actions_block = "\n".join(f"- {a.display}" for a in uniq)
-        prompt = ACTION_SELECT_TEMPLATE.format(
-            question=question,
-            methodology=methodology,
-            history=_format_history(trace.steps),
-            actions=actions_block,
-        )
+        if react:
+            prompt = REACT_TEMPLATE.format(
+                question=question,
+                history=_format_history(trace.steps),
+                actions=actions_block,
+            )
+            system_prompt = REACT_SYSTEM
+        else:
+            prompt = ACTION_SELECT_TEMPLATE.format(
+                question=question,
+                methodology=methodology,
+                history=_format_history(trace.steps),
+                actions=actions_block,
+            )
+            system_prompt = ACTION_SELECT_SYSTEM
         try:
-            reply = chat_fn(prompt, system=ACTION_SELECT_SYSTEM)
+            reply = chat_fn(prompt, system=system_prompt)
         except Exception as e:
             trace.steps.append(StepLog([a.display for a in uniq],
                                        f"(LLM error: {e})", "noop", "[]"))

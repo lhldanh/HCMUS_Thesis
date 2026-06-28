@@ -88,8 +88,27 @@ python3 -m ari.evaluate --n 200
 Cờ:
 - `--n` số câu lấy stratified từ test set
 - `--bank PATH` đường dẫn `memory_bank.json`
+- `--method {ari,llm-only,kg-rag,cot-kb,react-kb}` phương pháp (mặc định `ari`)
 - `--no-methodology` ablation: bỏ guidance trừu tượng (paper: w/o Abstract Guidance)
-- `--out PATH` nơi ghi trace
+- `--no-action-filter` ablation: bỏ lọc Top-K ngữ nghĩa (paper: w/o Action Filter)
+- `--out PATH` nơi ghi trace (mặc định `artifacts/eval_<tag>.json`, tách theo run)
+
+### Baselines & ablation (Ch5 §5.3 / §5.5)
+
+| Mục báo cáo | Lệnh |
+|---|---|
+| Baseline LLM-only | `python3 -m ari.evaluate --method llm-only` |
+| Baseline KG-RAG | `python3 -m ari.evaluate --method kg-rag` |
+| Baseline CoT-KB | `python3 -m ari.evaluate --method cot-kb` |
+| Baseline ReAct-KB | `python3 -m ari.evaluate --method react-kb` |
+| Ablation w/o Abstract Guidance | `python3 -m ari.evaluate --no-methodology` |
+| Ablation w/o Action Filter | `python3 -m ari.evaluate --no-action-filter` |
+| Ablation w/o History Cluster | `python3 -m ari.learn --k 1 --resume --out ari/artifacts/memory_bank_k1.json` rồi `evaluate --bank ari/artifacts/memory_bank_k1.json` |
+| Ablation w/o Incorrect Examples | `python3 -m ari.learn --no-incorrect --resume --out ari/artifacts/memory_bank_noinc.json` rồi `evaluate --bank ari/artifacts/memory_bank_noinc.json` |
+
+Baseline single-shot (`llm-only/kg-rag/cot-kb`) ở `ari/baselines.py`; `react-kb`
+dùng chung vòng lặp với ARI (`agent.run_question(react=True)`). Tất cả chấm điểm
+bằng cùng hàm `agent._judge` → metric đồng nhất.
 
 In ra accuracy tổng và theo `qtype` / `answer_type` / `qlabel`, ví dụ:
 

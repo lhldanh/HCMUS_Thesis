@@ -99,17 +99,22 @@ def kmeans(vecs: list[list[float]], k: int, n_iter: int = 300, seed: int = 0
 
 # ---------- memory persistence ----------
 
-def trace_to_record(t: TraceLog, entity_qids: list[str] | None = None) -> dict:
+def trace_to_record(t: TraceLog, entity_qids: list[str] | None = None,
+                     template: str | None = None) -> dict:
     ent_labels = _resolve_entity_labels(entity_qids or [])
     rel_label = _resolve_relation_label(t.relation)
     rel_labels = [rel_label] if rel_label else []
+    # `template` ưu tiên dùng (paper-faithful, sạch tuyệt đối).
+    # Fallback `clean_question` nếu template không có.
+    clean = template if template else clean_question(t.question, ent_labels, t.year, rel_labels)
     return {
         "question": t.question, "qtype": t.qtype, "relation": t.relation,
         "year": t.year, "answer_type": t.answer_type, "gold": t.gold,
         "entities": list(entity_qids or []),
         "entity_labels": ent_labels,
         "relation_label": rel_label,
-        "clean_question": clean_question(t.question, ent_labels, t.year, rel_labels),
+        "template": template,
+        "clean_question": clean,
         "final_answer": str(t.final_answer) if t.final_answer is not None else None,
         "correct": t.correct,
         "steps": [
@@ -183,22 +188,26 @@ def induce_methodology(correct: list[dict], incorrect: list[dict],
 
 def build_memory_bank(records: list[dict], k: int = config.N_CLUSTERS,
                        out_path: Path | None = None, chat_fn=None,
-                       embed_fn=None) -> dict:
+                       embed_fn=None, use_incorrect: bool = True) -> dict:
     """Cluster records, generate one methodology per cluster. Returns memory dict.
 
     Clustering is performed on the TEMPLATED question (entity/date replaced
     with placeholders) so that clusters group by reasoning structure, not
     topic — matching ARI-QA `History_Memory.fit_history_memory`.
     """
-    # Recompute clean_question on-the-fly để dùng logic mới (thay relation
-    # label) mà không cần re-run 200 câu inference.
+    # Ưu tiên template (paper-faithful, từ generator). Fallback clean_question.
     def _recompute_clean(r):
+        if r.get("template"):
+            return r["template"]
         ent_labels = r.get("entity_labels") or _resolve_entity_labels(r.get("entities") or [])
         rel_label = r.get("relation_label") or _resolve_relation_label(r.get("relation"))
         rel_labels = [rel_label] if rel_label else []
         return clean_question(r["question"], ent_labels, r.get("year"), rel_labels)
 
     questions = [_recompute_clean(r) for r in records]
+    n_with_template = sum(1 for r in records if r.get("template"))
+    print(f"[memory] cluster trên {len(records)} records: "
+          f"{n_with_template} dùng template field, {len(records) - n_with_template} fallback clean_question")
     # Cache lại clean_question mới vào record (để debug)
     for r, cq in zip(records, questions):
         r["clean_question"] = cq
@@ -213,7 +222,9 @@ def build_memory_bank(records: list[dict], k: int = config.N_CLUSTERS,
             continue
         cluster_records = [records[i] for i in idxs]
         correct = [r for r in cluster_records if r["correct"]]
-        incorrect = [r for r in cluster_records if not r["correct"]]
+        # Ablation w/o Incorrect Examples: chỉ chắt lọc từ ví dụ ĐÚNG.
+        incorrect = ([r for r in cluster_records if not r["correct"]]
+                     if use_incorrect else [])
         method = induce_methodology(correct, incorrect, chat_fn=chat_fn)
         clusters.append({
             "id": ci,
@@ -248,17 +259,22 @@ def select_methodology(bank: dict, question, entity_qids: list[str] | None = Non
     assignment is consistent."""
     if not bank.get("clusters"):
         return FALLBACK_METHODOLOGY
+    template = None
     if isinstance(question, dict):
         entity_qids = entity_qids or question.get("entities") or []
         year = year if year is not None else question.get("year")
         relation = relation or question.get("relation")
+        template = question.get("template")
         q_text = question.get("question", "")
     else:
         q_text = question
-    ent_labels = _resolve_entity_labels(entity_qids or [])
-    rel_label = _resolve_relation_label(relation)
-    rel_labels = [rel_label] if rel_label else []
-    clean = clean_question(q_text, ent_labels, year, rel_labels)
+    if template:
+        clean = template
+    else:
+        ent_labels = _resolve_entity_labels(entity_qids or [])
+        rel_label = _resolve_relation_label(relation)
+        rel_labels = [rel_label] if rel_label else []
+        clean = clean_question(q_text, ent_labels, year, rel_labels)
     # Chọn embedding tương thích với provider đã dùng lúc build bank.
     if embed_fn is None:
         provider = bank.get("embed_provider", "ollama")

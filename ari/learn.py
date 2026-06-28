@@ -43,6 +43,8 @@ def main():
                          "(default: ollama — match eval phase để tránh dim mismatch)")
     ap.add_argument("--resume", action="store_true",
                     help="Bỏ qua bước chạy 200 câu, load --records-out có sẵn rồi induce methodology ngay")
+    ap.add_argument("--no-incorrect", action="store_true",
+                    help="Ablation w/o Incorrect Examples: chỉ chắt lọc methodology từ ví dụ ĐÚNG")
     args = ap.parse_args()
 
     chat_fn = openai_chat if args.llm == "openai" else None  # None = default ollama
@@ -73,7 +75,8 @@ def main():
         for i, q in enumerate(samples, 1):
             trace = run_question(kg, q, methodology=FALLBACK_METHODOLOGY,
                                   chat_fn=chat_fn)
-            rec = trace_to_record(trace, entity_qids=q.get("entities"))
+            rec = trace_to_record(trace, entity_qids=q.get("entities"),
+                                   template=q.get("template"))
             records.append(rec)
             if i % 10 == 0 or i == len(samples):
                 n_ok = sum(1 for r in records if r["correct"])
@@ -86,7 +89,8 @@ def main():
 
     print(f"[learn] inducing {args.k} methodologies via K-means ...")
     bank = build_memory_bank(records, k=args.k, out_path=Path(args.out),
-                              chat_fn=chat_fn, embed_fn=embed_fn)
+                              chat_fn=chat_fn, embed_fn=embed_fn,
+                              use_incorrect=not args.no_incorrect)
     print(f"[learn] wrote {args.out} ({len(bank['clusters'])} clusters)")
 
 
