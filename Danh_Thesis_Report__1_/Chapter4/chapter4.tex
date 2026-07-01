@@ -93,24 +93,26 @@ Nhờ vậy, khâu sinh câu hỏi ở giai đoạn sau không cần thao tác d
 \subsection{Sinh câu hỏi}
 \label{sec:generate}
 
-Mô-đun \texttt{generate.py} sinh câu hỏi từ một tập \textbf{21 quan hệ} được tuyển chọn, tổ chức
-thành \textbf{8 nhóm chủ đề} (mở rộng từ 5 quan hệ lõi của CronQuestions), như liệt kê trong
-Bảng~\ref{tab:relations}. Mỗi quan hệ được gắn một động từ và một danh từ tiếng Việt để ghép vào
-mẫu câu (\textit{template}).
+Cấu hình tuyển chọn \textbf{21 quan hệ ứng viên} giàu dữ liệu thuộc nhiều lĩnh vực (mở rộng từ 5
+quan hệ lõi của CronQuestions), tổ chức thành các nhóm chủ đề như liệt kê trong
+Bảng~\ref{tab:relations}. Trong số đó, \textbf{8 quan hệ} đã được xây dựng bộ mẫu câu
+(\textit{template}) và thực sự tham gia sinh câu hỏi ở mô-đun \texttt{generate.py}; mỗi quan hệ
+được gắn một động từ và một danh từ tiếng Việt để ghép vào mẫu câu.
 
 \begin{table}[ht]
 \centering
-\caption{Tám nhóm quan hệ dùng để sinh câu hỏi trong CronQ-VN.}
+\caption{Các nhóm quan hệ ứng viên trong CronQ-VN. Quan hệ \textbf{in đậm} (8) đã có bộ template
+và được dùng để sinh câu hỏi; phần còn lại là quan hệ ứng viên trong cấu hình.}
 \label{tab:relations}
 \begin{tabular}{L{3.2cm} L{9.5cm}}
 \toprule
 \textbf{Nhóm} & \textbf{Quan hệ (mã Wikidata)} \\
 \midrule
-Lõi CronQ & chức vụ (P39), câu lạc bộ thể thao (P54), giải thưởng (P166), hôn nhân (P26), nơi làm việc (P108) \\
-Học vấn/Sự nghiệp & học tại (P69), học vị (P512), nơi công tác (P937) \\
-Chính trị & đứng đầu chính phủ (P6), đảng phái (P102), chủ tịch (P488), giữ vị trí (P1308) \\
+Lõi CronQ & \textbf{chức vụ (P39)}, \textbf{câu lạc bộ thể thao (P54)}, \textbf{giải thưởng (P166)}, \textbf{hôn nhân (P26)}, \textbf{nơi làm việc (P108)} \\
+Học vấn/Sự nghiệp & \textbf{học tại (P69)}, học vị (P512), nơi công tác (P937) \\
+Chính trị & đứng đầu chính phủ (P6), \textbf{đảng phái (P102)}, chủ tịch (P488), giữ vị trí (P1308) \\
 Giải thưởng & đề cử (P1411), thắng cuộc thi (P1346) \\
-Thành viên & thành viên của (P463), nơi cư trú (P551) \\
+Thành viên & \textbf{thành viên của (P463)}, nơi cư trú (P551) \\
 Thể thao & huấn luyện viên trưởng (P286) \\
 Quân sự & quân hàm (P410), quân chủng (P241) \\
 Khác & chủ sở hữu (P127), hướng dẫn nghiên cứu sinh (P185) \\
@@ -118,8 +120,10 @@ Khác & chủ sở hữu (P127), hướng dẫn nghiên cứu sinh (P185) \\
 \end{tabular}
 \end{table}
 
-Câu hỏi được sinh theo \textbf{năm loại} (mỗi loại chiếm 20\% theo cấu hình mặc định), tương ứng
-năm dạng suy luận thời gian, minh họa trong Bảng~\ref{tab:qtype-examples}:
+Câu hỏi được sinh theo \textbf{năm loại}, tương ứng năm dạng suy luận thời gian, minh họa trong
+Bảng~\ref{tab:qtype-examples}. Mô-đun \texttt{generate.py} \emph{liệt kê toàn bộ} câu hỏi hợp lệ mà
+bộ mẫu câu và đồ thị có thể tạo ra (không lấy mẫu), nên phân bố giữa các loại phản ánh mật độ dữ
+kiện thực tế của từng loại trên đồ thị (Bảng~\ref{tab:q-stats}):
 
 \begin{table}[ht]
 \centering

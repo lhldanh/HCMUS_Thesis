@@ -201,11 +201,11 @@ Hãy đưa ra Thought rồi Action theo đúng định dạng.
 \end{lstlisting}
 
 \section{Danh sách quan hệ}
-CronQ-VN giữ \textbf{271} quan hệ sau bước lọc của \texttt{build\_kg.py}. Trong số đó, \textbf{21} quan hệ giàu dữ kiện thuộc nhiều lĩnh vực được tuyển chọn để sinh câu hỏi (Bảng~\ref{tab:gen-relations}). Danh sách đầy đủ 271 quan hệ kèm nhãn xem Bảng~\ref{tab:all-relations}.
+CronQ-VN giữ \textbf{271} quan hệ sau bước lọc của \texttt{build\_kg.py}. Cấu hình tuyển \textbf{21} quan hệ ứng viên; trong đó \textbf{8} quan hệ đã có bộ template và thực sự sinh câu hỏi (Bảng~\ref{tab:gen-relations}). Danh sách đầy đủ 271 quan hệ kèm nhãn xem Bảng~\ref{tab:all-relations}.
 
 \begin{table}[htbp]
 \centering
-\caption{Các quan hệ dùng để sinh câu hỏi CronQ-VN.}
+\caption{Các quan hệ có template và được dùng để sinh câu hỏi CronQ-VN.}
 \label{tab:gen-relations}
 \begin{tabular}{llll}
 \toprule
@@ -217,21 +217,8 @@ P166 & award received & nhận & giải thưởng \\
 P26 & spouse & kết hôn với & vợ/chồng \\
 P108 & employer & làm việc tại & nơi làm việc \\
 P69 & educated at & học tại & trường \\
-P512 & academic degree & có học vị & học vị \\
-P937 & work location & công tác tại & nơi công tác \\
-P6 & head of government & đứng đầu chính phủ của & chính phủ \\
 P102 & member of political party & là thành viên của & đảng \\
-P488 & chairperson & là chủ tịch của & tổ chức \\
-P1308 & officeholder & giữ vị trí & vị trí \\
-P1411 & nominated for & được đề cử & giải đề cử \\
-P1346 & winner & thắng & cuộc thi \\
 P463 & member of & là thành viên của & tổ chức \\
-P551 & residence & cư trú tại & nơi cư trú \\
-P286 & head coach & huấn luyện & đội \\
-P410 & military rank & có quân hàm & quân hàm \\
-P241 & military branch & phục vụ trong & quân chủng \\
-P127 & owned by & thuộc sở hữu của & chủ sở hữu \\
-P185 & doctoral student & hướng dẫn & nghiên cứu sinh \\
 \bottomrule
 \end{tabular}
 \end{table}

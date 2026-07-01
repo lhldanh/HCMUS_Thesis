@@ -27,12 +27,19 @@ import re
 from collections import defaultdict
 from pathlib import Path
 
-from tqdm import tqdm
+try:
+    from tqdm import tqdm
+except ImportError:  # tqdm optional — không bắt buộc để chạy
+    def tqdm(*a, **k):
+        class _N:
+            def update(self, *_a, **_k): pass
+            def close(self): pass
+        return _N()
 
 from config import (BAD_O_LABELS, CACHE_DIR, FACTS_DIR, MAX_ANSWERS,
                     MIN_BEFORE_AFTER_GAP, MIN_LABEL_LEN, OUT_DIR,
                     QTYPE_DISTRIBUTION, RELATIONS,
-                    SIMPLE_ENTITY_REQUIRE_CLOSED, TARGET_QUESTIONS,
+                    SIMPLE_ENTITY_REQUIRE_CLOSED,
                     TIME_JOIN_MIN_OVERLAP)
 from templates import TEMPLATES
 
@@ -318,6 +325,167 @@ GENERATORS = {
 }
 
 
+# ====================================================================
+# Enumerators (chế độ "sinh toàn bộ") — liệt kê MỌI instance hợp lệ thay vì
+# lấy mẫu ngẫu nhiên. Logic đáp án giống hệt gen_* ở trên (cùng ground truth,
+# tái lập được). Mỗi instance chọn 1 template theo `tsel` (xoay vòng tất định)
+# để có đa dạng cách hỏi mà không nhân bản paraphrase.
+# ====================================================================
+
+def enum_simple_time(kg: KG, pid: str, tsel):
+    cfg = TEMPLATES[pid]["simple_time"]
+    for f in kg.by_rel.get(pid, []):
+        subs = ["start"] + (["end", "range"] if f["end"] is not None else [])
+        for sub in subs:
+            if sub not in cfg:
+                continue
+            tmpl = tsel((pid, "simple_time", sub), cfg[sub])
+            q = _fmt(tmpl, head=f["s_label"], tail=f["o_label"])
+            if sub == "start":
+                answers = [str(f["start"])]
+            elif sub == "end":
+                answers = [str(f["end"])]
+            else:
+                answers = [str(f["start"]), str(f["end"])]
+            yield {"question": q, "template": tmpl, "answers": answers,
+                   "answer_type": "time", "qtype": "simple_time", "subtype": sub,
+                   "time_level": "year", "relation": pid,
+                   "entities": [f["s_qid"], f["o_qid"]]}
+
+
+def enum_simple_entity(kg: KG, pid: str, tsel):
+    cfg = TEMPLATES[pid]["simple_entity"]
+    require_closed = pid in SIMPLE_ENTITY_REQUIRE_CLOSED
+    for (p, year) in [k for k in kg.by_ry if k[0] == pid]:
+        fs = kg.by_ry[(pid, year)]
+        if require_closed:
+            fs = [x for x in fs if x["end"] is not None]
+        for o_qid in {x["o_qid"] for x in fs}:
+            cohort = kg.active_at(pid, o_qid, year)
+            if require_closed:
+                cohort = [x for x in cohort if x["end"] is not None]
+            answers = sorted({x["s_label"] for x in cohort})
+            if not answers:
+                continue
+            o_lab = next((x["o_label"] for x in fs if x["o_qid"] == o_qid), "")
+            tmpl = tsel((pid, "simple_entity"), cfg)
+            q = _fmt(tmpl, tail=o_lab, time=year)
+            yield {"question": q, "template": tmpl, "answers": answers,
+                   "answer_type": "entity", "qtype": "simple_entity",
+                   "time_level": "year", "relation": pid, "year": year,
+                   "entities": [o_qid]}
+
+
+def enum_time_join(kg: KG, pid: str, tsel):
+    cfg = TEMPLATES[pid]["time_join"]
+    pool = kg.by_rel.get(pid, [])
+    same_o = TIME_JOIN_SAME_O.get(pid, True)
+    for f1 in pool:
+        s1, e1 = f1["start"], f1["end"] or f1["start"]
+        src = kg.by_ro[(pid, f1["o_qid"])] if same_o else pool
+        cohort = [x for x in src if x["s_qid"] != f1["s_qid"]
+                  and min(x["end"] or x["start"], e1) - max(x["start"], s1) + 1
+                  >= TIME_JOIN_MIN_OVERLAP]
+        if not cohort:
+            continue
+        answers = sorted({x["s_label"] for x in cohort})
+        tmpl = tsel((pid, "time_join"), cfg)
+        q = _fmt(tmpl, head=f1["s_label"], tail=f1["o_label"], time=s1)
+        yield {"question": q, "template": tmpl, "answers": answers,
+               "answer_type": "entity", "qtype": "time_join", "time_level": "year",
+               "relation": pid, "year": s1,
+               "entities": [f1["s_qid"], f1["o_qid"]]}
+
+
+def enum_first_last(kg: KG, pid: str, tsel):
+    cfg = TEMPLATES[pid]["first_last"]
+    pool = [(p, s) for (p, s), fs in kg.by_rs.items()
+            if p == pid and len({x["o_qid"] for x in fs}) >= 2]
+    for (_, s_qid) in pool:
+        fs_sorted = sorted(kg.by_rs[(pid, s_qid)], key=lambda x: x["start"])
+        for sub in cfg:
+            target = fs_sorted[0] if sub == "first" else fs_sorted[-1]
+            tmpl = tsel((pid, "first_last", sub), cfg[sub])
+            q = _fmt(tmpl, head=target["s_label"], tail=target["o_label"])
+            yield {"question": q, "template": tmpl, "answers": [target["o_label"]],
+                   "answer_type": "entity", "qtype": "first_last", "subtype": sub,
+                   "time_level": "year", "relation": pid,
+                   "entities": [target["s_qid"]]}
+
+
+def _ba_pairs(fss, key):
+    """Danh sách cặp liên tiếp (prev, curr) sau khi dedupe theo `key` và sắp
+    theo start — dùng chung cho o-anchor và s-anchor."""
+    fs_sorted = sorted(fss, key=lambda x: x["start"])
+    seen, picks = set(), []
+    for f in fs_sorted:
+        if f[key] not in seen:
+            seen.add(f[key]); picks.append(f)
+    return [(picks[i - 1], picks[i]) for i in range(1, len(picks))]
+
+
+def enum_before_after(kg: KG, pid: str, tsel):
+    cfg = TEMPLATES[pid]["before_after"]
+    for sub in cfg:
+        o_tmpls = [t for t in cfg[sub] if _is_o_anchor(t)]
+        s_tmpls = [t for t in cfg[sub] if not _is_o_anchor(t)]
+
+        if o_tmpls:  # cùng o, khác s → answer = s_label
+            groups = [o for (p, o), fs in kg.by_ro.items()
+                      if p == pid and len({x["s_qid"] for x in fs}) >= 2]
+            for o_qid in groups:
+                for prev, curr in _ba_pairs(kg.by_ro[(pid, o_qid)], "s_qid"):
+                    if curr["start"] - prev["start"] < MIN_BEFORE_AFTER_GAP:
+                        continue
+                    if sub == "before":
+                        head_l, tail_l, time_v = curr["s_label"], curr["o_label"], curr["start"]
+                        answers, anchor = [prev["s_label"]], curr
+                    else:
+                        head_l, tail_l = prev["s_label"], prev["o_label"]
+                        time_v = prev["end"] or prev["start"]
+                        answers, anchor = [curr["s_label"]], prev
+                    tmpl = tsel((pid, "before_after", sub, "o"), o_tmpls)
+                    q = _fmt(tmpl, head=head_l, tail=tail_l, time=time_v)
+                    yield {"question": q, "template": tmpl, "answers": answers,
+                           "answer_type": "entity", "qtype": "before_after",
+                           "subtype": sub, "anchor": "o", "time_level": "year",
+                           "relation": pid,
+                           "entities": [anchor["s_qid"], anchor["o_qid"]]}
+
+        if s_tmpls:  # cùng s, khác o → answer = o_label
+            groups = [s for (p, s), fs in kg.by_rs.items()
+                      if p == pid and len({x["o_qid"] for x in fs}) >= 2]
+            for s_qid in groups:
+                for prev, curr in _ba_pairs(kg.by_rs[(pid, s_qid)], "o_qid"):
+                    if curr["start"] - prev["start"] < MIN_BEFORE_AFTER_GAP:
+                        continue
+                    if prev["o_label"] == curr["o_label"]:
+                        continue
+                    if sub == "before":
+                        head_l, tail_l, time_v = curr["s_label"], curr["o_label"], curr["start"]
+                        answers, anchor = [prev["o_label"]], curr
+                    else:
+                        head_l, tail_l = prev["s_label"], prev["o_label"]
+                        time_v = prev["end"] or prev["start"]
+                        answers, anchor = [curr["o_label"]], prev
+                    tmpl = tsel((pid, "before_after", sub, "s"), s_tmpls)
+                    q = _fmt(tmpl, head=head_l, tail=tail_l, time=time_v)
+                    yield {"question": q, "template": tmpl, "answers": answers,
+                           "answer_type": "entity", "qtype": "before_after",
+                           "subtype": sub, "anchor": "s", "time_level": "year",
+                           "relation": pid,
+                           "entities": [anchor["s_qid"], anchor["o_qid"]]}
+
+
+ENUMERATORS = {
+    "simple_entity": enum_simple_entity,
+    "simple_time":   enum_simple_time,
+    "before_after":  enum_before_after,
+    "first_last":    enum_first_last,
+    "time_join":     enum_time_join,
+}
+
+
 def _valid_question(item: dict) -> bool:
     if len(item["answers"]) > MAX_ANSWERS:
         return False
@@ -328,60 +496,102 @@ def _valid_question(item: dict) -> bool:
     return True
 
 
+def _finalize(questions: list[dict]) -> None:
+    """Gán quid + qlabel tuần tự cho danh sách câu hỏi cuối cùng."""
+    for i, item in enumerate(questions, 1):
+        item["quid"] = i
+        item["qlabel"] = "Single" if len(item["answers"]) == 1 else "Multiple"
+
+
+def generate_all(kg: KG, active: list[str]) -> list[dict]:
+    """Sinh TOÀN BỘ câu hỏi hợp lệ (liệt kê, không lấy mẫu). Template chọn xoay
+    vòng tất định (không RNG) nên kết quả tái lập được 100%."""
+    from collections import defaultdict as _dd
+    _ctr: dict = _dd(int)
+
+    def tsel(key, tmpls):
+        i = _ctr[key]; _ctr[key] += 1
+        return tmpls[i % len(tmpls)]
+
+    questions: list[dict] = []
+    seen_q: set[str] = set()
+    dropped = _dd(int)
+    for qtype, enum in ENUMERATORS.items():
+        made = 0
+        for pid in active:
+            if qtype not in TEMPLATES[pid]:
+                continue
+            for item in enum(kg, pid, tsel):
+                if not _valid_question(item):
+                    dropped[qtype] += 1
+                    continue
+                if item["question"] in seen_q:
+                    dropped["_dup"] += 1
+                    continue
+                seen_q.add(item["question"])
+                questions.append(item)
+                made += 1
+        print(f"  {qtype:16s} {made:>9,}")
+    print(f"  {'-> loại (dup)':16s} {dropped['_dup']:>9,}  "
+          f"(quá nhiều đáp án / leak: {sum(v for k,v in dropped.items() if k!='_dup'):,})")
+    return questions
+
+
 def main():
     ap = argparse.ArgumentParser()
-    ap.add_argument("--limit", "-n", type=int, default=TARGET_QUESTIONS,
-                    help=f"Tổng số câu cần sinh (mặc định {TARGET_QUESTIONS})")
+    ap.add_argument("--limit", "-n", type=int, default=0,
+                    help="Nếu >0: lấy mẫu ngẫu nhiên tối đa N câu (chế độ cũ). "
+                         "Mặc định 0 = SINH TOÀN BỘ (liệt kê mọi câu hợp lệ).")
     ap.add_argument("--out", type=str, default=None,
                     help="Đường dẫn file output (mặc định OUT_DIR/questions.json)")
     ap.add_argument("--seed", type=int, default=42)
     args = ap.parse_args()
-    target = args.limit
 
     rng = random.Random(args.seed)
-    print(f"[load] KG từ cache + filter (target={target:,}):")
+    mode = "TOÀN BỘ" if args.limit <= 0 else f"mẫu ≤{args.limit:,}"
+    print(f"[load] KG từ cache + filter (chế độ: {mode}):")
     facts = load_kg()
     if not facts:
         print("Không có fact. Chạy build_kg.py trước.")
         return
     kg = KG(facts)
-    # Chỉ dùng relation có template
     active = [r for r in kg.relations if r in TEMPLATES]
     if not active:
         print("Không có relation nào có template.")
         return
-    print(f"\nRelations active: {len(active)}: {active}")
+    print(f"\nRelations active: {len(active)}: {active}\n")
 
-    questions: list[dict] = []
-    seen_q: set[str] = set()
-    quid = 0
+    if args.limit <= 0:
+        # ---- Chế độ TOÀN BỘ (liệt kê) ----
+        questions = generate_all(kg, active)
+    else:
+        # ---- Chế độ lấy mẫu (cũ) ----
+        target = args.limit
+        questions = []
+        seen_q: set[str] = set()
+        for qtype, ratio in QTYPE_DISTRIBUTION.items():
+            n_target = int(target * ratio)
+            pbar = tqdm(total=n_target, desc=f"  {qtype:14s}")
+            attempts = made = 0
+            while made < n_target and attempts < n_target * 30:
+                attempts += 1
+                pid = rng.choice(active)
+                if qtype not in TEMPLATES[pid]:
+                    continue
+                item = GENERATORS[qtype](kg, pid, rng)
+                if item is None or not _valid_question(item):
+                    continue
+                if item["question"] in seen_q:
+                    continue
+                seen_q.add(item["question"])
+                questions.append(item)
+                made += 1
+                pbar.update(1)
+            pbar.close()
+            if made < n_target:
+                print(f"    [warn] {qtype}: {made:,}/{n_target:,}")
 
-    for qtype, ratio in QTYPE_DISTRIBUTION.items():
-        n_target = int(target * ratio)
-        pbar = tqdm(total=n_target, desc=f"  {qtype:14s}")
-        attempts = 0
-        made = 0
-        while made < n_target and attempts < n_target * 30:
-            attempts += 1
-            pid = rng.choice(active)
-            # Skip nếu pid không hỗ trợ qtype này (vd P166 không có "end")
-            if qtype not in TEMPLATES[pid]:
-                continue
-            item = GENERATORS[qtype](kg, pid, rng)
-            if item is None or not _valid_question(item):
-                continue
-            if item["question"] in seen_q:
-                continue
-            seen_q.add(item["question"])
-            quid += 1
-            item["quid"] = quid
-            item["qlabel"] = "Single" if len(item["answers"]) == 1 else "Multiple"
-            questions.append(item)
-            made += 1
-            pbar.update(1)
-        pbar.close()
-        if made < n_target:
-            print(f"    [warn] {qtype}: {made:,}/{n_target:,}")
+    _finalize(questions)
 
     if args.out:
         out_path = Path(args.out)

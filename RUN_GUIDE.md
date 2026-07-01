@@ -24,22 +24,23 @@ pip install -r ari/requirements-ce.txt
 
 ---
 
-## 1. Sinh bộ dữ liệu đầy đủ — đóng góp #1, **Bảng 5.1** + **Ch3 dòng CronQ-VN**
+## 1. Sinh bộ dữ liệu TOÀN BỘ — đóng góp #1, **Bảng 5.1** + **Ch3 dòng CronQ-VN**
 
+`generate.py` giờ **liệt kê toàn bộ** câu hỏi hợp lệ (không lấy mẫu):
 ```bash
 cd cronqvn
-python3 generate.py                  # mặc định TARGET_QUESTIONS=30000, phân bổ đều 5 qtype
-                                     # -> out/questions.json
+python3 generate.py                  # mặc định = TOÀN BỘ -> out/questions.json (~539.584 câu, ~244MB)
+# python3 generate.py -n 30000       # (tuỳ chọn) quay lại chế độ lấy mẫu ngẫu nhiên ≤N câu
 ```
-Lấy số mỗi loại (điền Bảng 5.1):
-```bash
-python3 -c "import json,collections; d=json.load(open('out/questions.json')); \
-print('total',len(d)); print(collections.Counter(x['qtype'] for x in d)); \
-print(collections.Counter(x['answer_type'] for x in d))"
-```
+Số liệu hiện tại (khớp Bảng 5.1): simple_time 200.924 · before_after 170.561 ·
+simple_entity 99.121 · time_join 44.278 · first_last 24.700 · **tổng 539.584**.
 
+> ⚠️ `out/questions.json` (~244MB) **vượt giới hạn 100MB của GitHub** → đã gitignore
+> + gỡ khỏi git. Tái sinh 100% (tất định) bằng lệnh trên.
 > ⚠️ Sau khi đổi `questions.json`, **phải chạy lại pha học (mục 2)** vì memory bank
-> hiện tại (`ari/artifacts/`) học từ bộ câu hỏi cũ.
+> hiện tại học từ bộ câu hỏi cũ.
+> ⚠️ 539K câu rất lớn cho pha học/CE — `learn`/`evaluate` tự lấy mẫu phân tầng qua
+> `--n`; hoặc trỏ `--questions` tới một tập con.
 
 ---
 

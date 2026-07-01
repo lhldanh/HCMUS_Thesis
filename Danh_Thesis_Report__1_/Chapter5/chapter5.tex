@@ -31,15 +31,18 @@ khung; các ô số liệu đánh dấu ``--'' sẽ được điền sau khi ho�
 Sự kiện thời gian (bộ bốn) & $\sim$237.900 \\
 Thực thể có nhãn tiếng Việt & $\sim$37.580 \\
 Quan hệ & 271 \\
-Quan hệ dùng để sinh câu hỏi & 21 \\
+Quan hệ ứng viên trong cấu hình & 21 \\
+Quan hệ có template (thực sự sinh câu hỏi) & 8 \\
 \bottomrule
 \end{tabular}
 \end{table}
 
-Từ đồ thị này, bộ câu hỏi CronQ-VN được sinh ra theo năm loại với phân bố mục tiêu đồng đều (20\%
-mỗi loại). Bảng~\ref{tab:q-stats} trình bày phân bố câu hỏi theo loại. Do bốn trong năm loại câu hỏi
-có đáp án là thực thể và chỉ một loại (\texttt{simple\_time}) có đáp án là thời gian, tập dữ liệu
-nghiêng về đáp án dạng thực thể -- một đặc điểm cần lưu ý khi phân tích kết quả theo kiểu đáp án.
+Từ đồ thị này, bộ câu hỏi CronQ-VN được sinh bằng cách \emph{liệt kê toàn bộ} câu hỏi hợp lệ (không
+lấy mẫu), thu được \textbf{539.584} câu. Bảng~\ref{tab:q-stats} trình bày phân bố theo loại: do sinh
+vét cạn nên phân bố phản ánh mật độ dữ kiện thực tế của từng loại (không đồng đều). Đáp án dạng thực
+thể chiếm đa số ($\sim$63\%) so với đáp án thời gian ($\sim$37\%, chỉ từ \texttt{simple\_time}) --
+một đặc điểm cần lưu ý khi phân tích kết quả theo kiểu đáp án. Để so sánh công bằng giữa các loại,
+pha đánh giá dùng \textbf{lấy mẫu phân tầng} cân bằng theo loại (Mục~\ref{sec:setup}).
 
 \begin{table}[ht]
 \centering
@@ -49,18 +52,16 @@ nghiêng về đáp án dạng thực thể -- một đặc điểm cần lưu �
 \toprule
 \textbf{Loại câu hỏi} & \textbf{Kiểu đáp án} & \textbf{Số câu} \\
 \midrule
-\texttt{simple\_entity} & Thực thể & -- \\
-\texttt{simple\_time}   & Thời gian & -- \\
-\texttt{before\_after}  & Thực thể & -- \\
-\texttt{first\_last}    & Thực thể & -- \\
-\texttt{time\_join}     & Thực thể & -- \\
+\texttt{simple\_entity} & Thực thể & 99.121 \\
+\texttt{simple\_time}   & Thời gian & 200.924 \\
+\texttt{before\_after}  & Thực thể & 170.561 \\
+\texttt{first\_last}    & Thực thể & 24.700 \\
+\texttt{time\_join}     & Thực thể & 44.278 \\
 \midrule
-\textbf{Tổng} & & \todo{tổng số câu sau khi sinh đủ} \\
+\textbf{Tổng} & & \textbf{539.584} \\
 \bottomrule
 \end{tabular}
 \end{table}
-
-\noindent\todo{điền số câu mỗi loại sau khi sinh xong bộ dữ liệu đầy đủ (mục tiêu 30.000 câu).}
 
 \section{Thiết lập thực nghiệm}
 \label{sec:setup}

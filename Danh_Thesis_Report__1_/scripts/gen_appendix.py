@@ -50,19 +50,23 @@ secA += lst("ReAct-KB (system / template)",
 # ---- Section B: relations ----
 spec = importlib.util.spec_from_file_location("cfg", "cronqvn/config.py")
 cfg = importlib.util.module_from_spec(spec); spec.loader.exec_module(cfg)
+tspec = importlib.util.spec_from_file_location("tmpl", "cronqvn/templates.py")
+tmpl_mod = importlib.util.module_from_spec(tspec); tspec.loader.exec_module(tmpl_mod)
 R = cfg.RELATIONS
+GEN = {pid: m for pid, m in R.items() if pid in tmpl_mod.TEMPLATES}  # 8 có template
 
 secB = "\\section{Danh sách quan hệ}\n"
 secB += (f"CronQ-VN giữ \\textbf{{271}} quan hệ sau bước lọc của \\texttt{{build\\_kg.py}}. "
-         f"Trong số đó, \\textbf{{{len(R)}}} quan hệ giàu dữ kiện thuộc nhiều lĩnh "
-         "vực được tuyển chọn để sinh câu hỏi (Bảng~\\ref{tab:gen-relations}). "
-         "Danh sách đầy đủ 271 quan hệ kèm nhãn xem Bảng~\\ref{tab:all-relations}.\n\n")
+         f"Cấu hình tuyển \\textbf{{{len(R)}}} quan hệ ứng viên; trong đó "
+         f"\\textbf{{{len(GEN)}}} quan hệ đã có bộ template và thực sự sinh câu hỏi "
+         "(Bảng~\\ref{tab:gen-relations}). Danh sách đầy đủ 271 quan hệ kèm nhãn xem "
+         "Bảng~\\ref{tab:all-relations}.\n\n")
 
-# B.1 — 21 generation relations
-secB += "\\begin{table}[htbp]\n\\centering\n\\caption{Các quan hệ dùng để sinh câu hỏi CronQ-VN.}\n"
+# B.1 — relations that actually generate questions (have templates)
+secB += "\\begin{table}[htbp]\n\\centering\n\\caption{Các quan hệ có template và được dùng để sinh câu hỏi CronQ-VN.}\n"
 secB += "\\label{tab:gen-relations}\n\\begin{tabular}{llll}\n\\toprule\n"
 secB += "PID & Nhãn (EN) & Động từ (VI) & Danh từ (VI) \\\\\n\\midrule\n"
-for pid, m in R.items():
+for pid, m in GEN.items():
     secB += (f"{pid} & {tex_escape(m['en'])} & {tex_escape(m['verb'])} & "
              f"{tex_escape(m['noun'])} \\\\\n")
 secB += "\\bottomrule\n\\end{tabular}\n\\end{table}\n\n"
