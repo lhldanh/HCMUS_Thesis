@@ -32,3 +32,5 @@ Thumbs.db
 
 # Paper code
 ARI-QA/
+# Bộ câu hỏi sinh toàn bộ (~244MB, >100MB GitHub limit) — tái sinh bằng generate.py
+cronqvn/out/questions.json

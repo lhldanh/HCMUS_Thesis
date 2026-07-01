@@ -1,0 +1,513 @@
+\chapter{Phụ lục}
+\label{ch:appendix}
+
+\section{Toàn bộ prompt tiếng Việt}
+Các prompt dưới đây được trích nguyên văn từ \texttt{ari/prompts.py} (không chỉnh sửa). Phần tĩnh đặt ở \emph{system prompt} để Ollama prefix-cache giữa các bước; phần động (câu hỏi/methodology/lịch sử/hành động) ở \emph{user template}.
+
+\subsubsection*{A.1 Prompt chọn hành động (decision)}
+
+\subsection*{System prompt}
+\begin{lstlisting}
+Bạn là một tác tử suy luận trên đồ thị tri thức theo thời gian (TKG). Bạn KHÔNG cần biết tri thức thực tế: bạn chỉ chọn hành động phù hợp trong danh sách cho sẵn để hệ thống truy vấn TKG giúp bạn.
+
+Các nhóm hàm khả dụng:
+- Hàm thời gian: get_time(HEAD, REL, TAIL); get_before(LIST, T); get_after(LIST, T); get_between(LIST, T1, T2)
+- Hàm thực thể: get_tail_entity(HEAD, REL, [T]); get_head_entity(TAIL, REL, [T])
+- Hàm chọn lọc: get_first(LIST); get_last(LIST)
+- Trả lời: answer(GIÁ_TRỊ)
+
+Quy tắc chọn hành động:
+- Chọn đúng MỘT hành động bằng cách lặp lại nguyên văn chuỗi nằm giữa hai dấu $.
+- Nếu hành động có chỗ trống {your specified time} thì THAY bằng một năm cụ thể (số nguyên 4 chữ số) suy ra từ các bước trước.
+- Nếu đã có đủ thông tin, hãy chọn hành động $answer(...)$.
+
+Định dạng đầu ra BẮT BUỘC:
+Action: <hành động bạn chọn, bao trong dấu $>
+Reason: <giải thích ngắn>
+\end{lstlisting}
+
+\subsection*{User template}
+\begin{lstlisting}
+Câu hỏi: {question}
+
+Phương pháp suy luận gợi ý (methodology):
+{methodology}
+
+Các bước đã thực hiện:
+{history}
+
+Các hành động khả dụng tại bước này (CHỈ được chọn một trong số này):
+{actions}
+
+Hãy chọn hành động kế tiếp theo đúng format Action: / Reason:.
+\end{lstlisting}
+
+\subsubsection*{A.2 Prompt chắt lọc phương pháp (methodology induction)}
+
+\subsection*{System prompt}
+\begin{lstlisting}
+Bạn là chuyên gia phân tích để rút ra phương pháp từ các case study, và đưa ra phương pháp CHI TIẾT để giải dạng vấn đề đó dựa trên các case được cung cấp.
+\end{lstlisting}
+
+\subsection*{User template}
+\begin{lstlisting}
+Phân tích cẩn thận các ví dụ ĐÚNG và SAI dưới đây. Từ đó hãy rút ra các mẫu
+chung và nguyên tắc tương ứng. Dựa vào các ví dụ đó, hãy đưa ra một phương pháp
+toàn diện mô tả CÁCH tiếp cận đúng loại câu hỏi này, nêu bật các bước then chốt
+và những cạm bẫy thường gặp cần tránh.
+
+Định nghĩa nhiệm vụ:
+Sử dụng các công cụ dưới đây để tương tác với đồ thị tri thức theo thời gian (TKG).
+Bạn có một danh sách hành động được chia thành ba nhóm: truy vấn thời gian, truy
+vấn thực thể, và truy vấn thời điểm cụ thể. Có thể có nhiều đáp án đúng cho câu
+hỏi, nhưng chỉ cần trả về một đáp án hợp lệ.
+
+Truy vấn theo thời gian:
+- $get_time(HEAD, RELATION, TAIL)$: lấy thời điểm của một sự kiện cụ thể.
+- $get_before(ENTITY_LIST, SPECIFIED_TIME)$: lọc các thực thể/sự kiện trước thời điểm cho trước.
+- $get_after(ENTITY_LIST, SPECIFIED_TIME)$: lọc các thực thể/sự kiện sau thời điểm cho trước.
+- $get_between(ENTITY_LIST, START_TIME, END_TIME)$: lọc các thực thể/sự kiện giữa hai thời điểm.
+
+Truy vấn thực thể:
+- $get_tail_entity(CURRENT_HEAD, RELATION, OPTIONAL_TIME)$: lấy thực thể đuôi.
+- $get_head_entity(CURRENT_TAIL, RELATION, OPTIONAL_TIME)$: lấy thực thể đầu.
+
+Truy vấn thời điểm cụ thể:
+- $get_first(ENTITY_LIST)$: thực thể xuất hiện sớm nhất.
+- $get_last(ENTITY_LIST)$: thực thể xuất hiện muộn nhất.
+- $answer(YOUR_ANSWER)$: trả lời cuối cùng.
+(hết định nghĩa nhiệm vụ)
+
+Ví dụ output mẫu:
+Ví dụ 1:
+Overall Instruction:
+Loại câu hỏi này yêu cầu xác định tuần tự các sự kiện, vd. "Ai <Quan hệ R>
+<thực thể C> trước <thực thể B>". Để tìm đáp án <thực thể A> cần ba bước suy
+luận: đầu tiên xác định thời điểm cụ thể t mà (<thực thể B>, <Quan hệ R>,
+<thực thể C>) xảy ra; tiếp theo tìm các head entity đã có quan hệ R với
+<thực thể C>; cuối cùng lọc theo điều kiện thời gian trước t.
+
+Step-by-step Guide:
+1. Dùng get_time để tìm thời điểm: $get_time(<thực thể B>, <Quan hệ R>, <thực thể C>)$,
+   thu được bộ 4 (B, R, C, t).
+2. Dùng get_head_entity để lấy danh sách entity có quan hệ R với C:
+   $get_head_entity(<thực thể C>, <Quan hệ R>, no time)$.
+3. Dùng get_before để lọc theo thời gian: $get_before(<entities>, t)$.
+4. Kết thúc bằng $answer(<thực thể A>)$.
+(hết ví dụ output)
+
+Ví dụ ĐÚNG và SAI cho loại câu hỏi hiện tại:
+
+Ví dụ ĐÚNG:
+{correct_examples}
+
+Ví dụ SAI:
+{incorrect_examples}
+(hết ví dụ)
+
+Bây giờ bắt đầu viết. Hãy thiết kế phương pháp mô tả cách giải đúng dạng câu hỏi
+này. Mục tiêu là cung cấp hướng dẫn toàn diện, nêu bật các bước then chốt và các
+cạm bẫy cần tránh khi giải dạng câu hỏi này. Hãy tổ chức output theo đúng format
+dưới đây:
+
+Overall Instruction:
+<Định nghĩa phương pháp này chi tiết. Cung cấp hướng dẫn hoặc suy luận súc tích.
+Lưu ý: hướng dẫn ở mức phương pháp luận cho DẠNG câu hỏi này, không cho một câu
+cụ thể.>
+
+Step-by-step Guide:
+<Hướng dẫn hoặc quy trình từng bước nêu cách tiếp cận và giải dạng câu hỏi này.
+Lưu ý: các bước đề xuất phải CỤ THỂ và liên quan đến dạng câu hỏi này — nêu rõ
+loại action nào sẽ dùng ở mỗi bước và lý do.>
+\end{lstlisting}
+
+\subsubsection*{A.3 Methodology mặc định (fallback)}
+
+\subsection*{FALLBACK\_METHODOLOGY}
+\begin{lstlisting}
+Overall Instruction: Trước tiên xác định thực thể chủ đề và quan hệ trong câu hỏi. Dùng get_head_entity hoặc get_tail_entity với ràng buộc thời gian (nếu có) để lấy danh sách ứng viên. Áp dụng get_first/get_last/get_before/get_after để lọc khi cần, rồi gọi answer.
+
+Step-by-step Guide:
+1. Xác định seed và relation từ câu hỏi.
+2. Truy vấn get_head_entity / get_tail_entity (kèm time nếu có).
+3. Nếu cần so sánh thời gian: get_before / get_after / get_first / get_last.
+4. Gọi answer với ứng viên còn lại.
+\end{lstlisting}
+
+\subsubsection*{A.4 Prompt các baseline}
+
+\subsection*{LLM-only (system / template)}
+\begin{lstlisting}
+Bạn là trợ lý trả lời câu hỏi có ràng buộc về thời gian. Hãy trả lời ngắn gọn, chỉ nêu đáp án (một tên thực thể hoặc một năm), không giải thích dài.
+---
+Câu hỏi: {question}
+
+Hãy trả lời theo đúng định dạng (một dòng cuối):
+Đáp án: <tên thực thể hoặc năm>
+\end{lstlisting}
+
+\subsection*{KG-RAG (system / template)}
+\begin{lstlisting}
+Bạn là trợ lý trả lời câu hỏi dựa trên các dữ kiện (fact) trích từ đồ thị tri thức theo thời gian. CHỈ dùng thông tin trong phần Dữ kiện cho sẵn. Nếu có nhiều đáp án hợp lệ, chọn một. Trả lời ngắn gọn.
+---
+Dữ kiện liên quan (mỗi dòng: chủ thể — quan hệ — đối tượng — thời gian):
+{context}
+
+Câu hỏi: {question}
+
+Hãy trả lời theo đúng định dạng (một dòng cuối):
+Đáp án: <tên thực thể hoặc năm>
+\end{lstlisting}
+
+\subsection*{CoT-KB (system / template)}
+\begin{lstlisting}
+Bạn là trợ lý suy luận theo thời gian dựa trên các dữ kiện cho sẵn. Hãy suy luận từng bước dựa trên dữ kiện, rồi đưa ra đáp án cuối cùng.
+---
+Dữ kiện liên quan (mỗi dòng: chủ thể — quan hệ — đối tượng — thời gian):
+{context}
+
+Câu hỏi: {question}
+
+Hãy suy luận từng bước (ngắn gọn) dựa trên dữ kiện, sau đó kết thúc bằng đúng
+một dòng cuối:
+Đáp án: <tên thực thể hoặc năm>
+\end{lstlisting}
+
+\subsection*{ReAct-KB (system / template)}
+\begin{lstlisting}
+Bạn là tác tử suy luận theo phong cách ReAct trên đồ thị tri thức theo thời gian (TKG): xen kẽ suy nghĩ (Thought) và hành động (Action). Bạn KHÔNG cần biết tri thức thực tế; bạn chỉ chọn đúng MỘT hành động trong danh sách cho sẵn để hệ thống truy vấn TKG. Khi đã đủ thông tin, chọn $answer(...)$.
+
+Các nhóm hàm khả dụng:
+- Hàm thời gian: get_time(HEAD, REL, TAIL); get_before(LIST, T); get_after(LIST, T); get_between(LIST, T1, T2)
+- Hàm thực thể: get_tail_entity(HEAD, REL, [T]); get_head_entity(TAIL, REL, [T])
+- Hàm chọn lọc: get_first(LIST); get_last(LIST)
+- Trả lời: answer(GIÁ_TRỊ)
+
+Quy tắc: lặp lại nguyên văn chuỗi nằm giữa hai dấu $; nếu hành động có chỗ trống {your specified time} thì thay bằng một năm cụ thể (4 chữ số).
+
+Định dạng đầu ra BẮT BUỘC:
+Thought: <suy nghĩ ngắn>
+Action: <hành động bạn chọn, bao trong dấu $>
+---
+Câu hỏi: {question}
+
+Các bước đã thực hiện (quan sát được):
+{history}
+
+Các hành động khả dụng tại bước này (CHỈ được chọn một trong số này):
+{actions}
+
+Hãy đưa ra Thought rồi Action theo đúng định dạng.
+\end{lstlisting}
+
+\section{Danh sách quan hệ}
+CronQ-VN giữ \textbf{271} quan hệ sau bước lọc của \texttt{build\_kg.py}. Cấu hình tuyển \textbf{21} quan hệ ứng viên; trong đó \textbf{8} quan hệ đã có bộ template và thực sự sinh câu hỏi (Bảng~\ref{tab:gen-relations}). Danh sách đầy đủ 271 quan hệ kèm nhãn xem Bảng~\ref{tab:all-relations}.
+
+\begin{table}[htbp]
+\centering
+\caption{Các quan hệ có template và được dùng để sinh câu hỏi CronQ-VN.}
+\label{tab:gen-relations}
+\begin{tabular}{llll}
+\toprule
+PID & Nhãn (EN) & Động từ (VI) & Danh từ (VI) \\
+\midrule
+P39 & position held & giữ chức & chức vụ \\
+P54 & member of sports team & chơi cho & câu lạc bộ \\
+P166 & award received & nhận & giải thưởng \\
+P26 & spouse & kết hôn với & vợ/chồng \\
+P108 & employer & làm việc tại & nơi làm việc \\
+P69 & educated at & học tại & trường \\
+P102 & member of political party & là thành viên của & đảng \\
+P463 & member of & là thành viên của & tổ chức \\
+\bottomrule
+\end{tabular}
+\end{table}
+
+\begin{center}
+\begin{longtable}{p{1.6cm} p{5.2cm} p{5.2cm}}
+\caption{Toàn bộ 271 quan hệ trong CronQ-VN.}\label{tab:all-relations}\\
+\toprule PID & Nhãn gốc (EN) & Nhãn tiếng Việt \\ \midrule
+\endfirsthead
+\multicolumn{3}{c}{\tablename\ \thetable\ -- tiếp theo}\\
+\toprule PID & Nhãn gốc (EN) & Nhãn tiếng Việt \\ \midrule
+\endhead
+\midrule \multicolumn{3}{r}{\emph{tiếp trang sau}}\\
+\endfoot
+\bottomrule
+\endlastfoot
+P6 &  & người đứng đầu chính quyền \\
+P16 &  & hệ thống vận tải \\
+P17 &  & quốc gia \\
+P26 &  & người phối ngẫu \\
+P27 &  & quốc tịch \\
+P31 &  & là một \\
+P35 &  & nguyên thủ quốc gia \\
+P36 &  & trung tâm hành chính \\
+P37 &  & ngôn ngữ chính thức \\
+P38 &  & đơn vị tiền tệ \\
+P39 &  & chức vụ \\
+P47 &  & tiếp giáp với \\
+P50 &  & tác giả \\
+P53 &  & nhà \\
+P54 &  & cầu thủ của đội thể thao \\
+P69 &  & trường học \\
+P81 &  & đường sắt nối liền \\
+P84 &  & kiến trúc sư \\
+P86 &  & người soạn nhạc \\
+P88 &  & người đặt làm \\
+P92 &  & cơ sở pháp lý \\
+P97 &  & danh hiệu quý tộc \\
+P98 &  & biên tập viên \\
+P101 &  & lĩnh vực làm việc \\
+P102 &  & đảng viên của đảng chính trị \\
+P106 &  & nghề nghiệp \\
+P108 &  & nhà tuyển dụng \\
+P112 &  & người sáng lập \\
+P115 &  & sân vận động \\
+P118 &  & liên đoàn thể thao \\
+P119 &  & nơi chôn cất \\
+P121 &  & hoạt động \\
+P122 &  & chế độ chính phủ \\
+P123 &  & nhà xuất bản \\
+P126 &  & bảo quản bởi \\
+P127 &  & chủ sở hữu \\
+P131 &  & nằm trong phạm vi của khu vực hành chính \\
+P137 &  & nhà quản lý \\
+P138 &  & được đặt tên theo \\
+P140 &  & tôn giáo \\
+P150 &  & các phân khu hành chính \\
+P155 &  & phần tiếp theo của \\
+P156 &  & phần kế trước của \\
+P159 &  & vị trí trụ sở \\
+P161 &  & diễn viên \\
+P162 &  & nhà sản xuất \\
+P166 &  & giải thưởng \\
+P169 &  & tổng giám đốc điều hành \\
+P170 &  & sáng tác \\
+P175 &  & người biểu diễn \\
+P176 &  & hãng sản xuất \\
+P178 &  & nhà phát triển \\
+P180 &  & mô tả \\
+P184 &  & cố vấn tiến sĩ \\
+P185 &  & nghiên cứu sinh \\
+P190 &  & thành phố kết nghĩa \\
+P194 &  & cơ quan lập pháp \\
+P195 &  & bộ sưu tập \\
+P197 &  & nhà ga lân cận \\
+P199 &  & các chi nhánh tổ chức \\
+P210 &  & bí thư đảng ủy \\
+P241 &  & quân chủng \\
+P263 &  & nơi cư trú chính thức \\
+P264 &  & hãng đĩa ghi âm \\
+P272 &  & đơn vị sản xuất \\
+P275 &  & giấy phép \\
+P276 &  & vị trí \\
+P279 &  & là tập hợp con của \\
+P286 &  & huấn luyện viên trưởng \\
+P291 &  & nơi xuất bản \\
+P355 &  & tổ chức con \\
+P361 &  & một phần của \\
+P366 &  & chức năng \\
+P371 &  & người dẫn chương trình \\
+P407 &  & ngôn ngữ của tên gọi hoặc tác phẩm \\
+P408 &  & chạy trên phần mềm \\
+P410 &  & quân hàm \\
+P411 &  & bước trong tuyến trình tuyên thánh \\
+P414 &  & sở giao dịch chứng khoán \\
+P417 &  & thánh quan thầy \\
+P421 &  & nằm trong múi giờ \\
+P449 &  & đài phát ban đầu \\
+P451 &  & bạn đời \\
+P452 &  & ngành kinh doanh \\
+P460 &  & được xem là đồng nghĩa với \\
+P462 &  & màu sắc \\
+P463 &  & thành viên của \\
+P466 &  & người/tổ chức cư ngụ \\
+P467 &  & thông qua cơ quan lập pháp \\
+P485 &  & có lưu trữ tại \\
+P488 &  & chủ tịch \\
+P495 &  & quốc gia xuất xứ \\
+P504 & shipping port & Cảng biển \\
+P505 & general manager & Giám đốc điều hành \\
+P511 &  & tiền tố kính ngữ \\
+P512 &  & học vị \\
+P516 &  & cung cấp bởi \\
+P527 &  & gồm có \\
+P530 &  & quan hệ ngoại giao \\
+P531 &  & phái bộ ngoại giao \\
+P532 & port of registry & Cảng đăng ký \\
+P551 &  & nơi cư trú \\
+P559 &  & nối liền tại cuối cùng \\
+P598 & commander of (DEPRECATED) & Chỉ huy của (ĐÃ BỎ DÙNG) \\
+P607 &  & cuộc xung đột \\
+P608 & exhibition history & Lịch sử triển lãm \\
+P609 &  & điểm cuối cùng \\
+P611 &  & dòng tu \\
+P618 &  & nguồn năng lượng \\
+P634 & team captain & Vị trí trưởng đội \\
+P641 &  & môn thể thao \\
+P647 & drafted by & được soạn thảo bởi \\
+P664 &  & tổ chức bởi \\
+P669 &  & trên đường \\
+P680 &  & chức năng phân tử \\
+P681 &  & thành phần tế bào \\
+P682 & biological process & quá trình sinh học \\
+P708 &  & giáo phận \\
+P710 &  & người tham gia \\
+P725 &  & diễn viên lồng tiếng \\
+P726 &  & ứng cử viên \\
+P734 &  & họ \\
+P740 &  & vị trí thành lập \\
+P749 &  & tổ chức mẹ \\
+P750 &  & nhà phân phối \\
+P770 &  & nguyên nhân phá hủy \\
+P793 &  & sự kiện quan trọng \\
+P795 & located on linear feature & Nằm trên tuyến địa hình \\
+P797 &  & cơ quan có thẩm quyền \\
+P800 &  & tác phẩm chính \\
+P802 &  & học trò \\
+P803 & professorship & chức danh giáo sư \\
+P807 &  & được tách ra khỏi \\
+P812 &  & chuyên ngành học \\
+P823 &  & diễn giả \\
+P831 & parent club & Câu lạc bộ cha mẹ \\
+P840 & narrative location & vị trí trong câu chuyện \\
+P859 &  & nhà tài trợ \\
+P914 &  & đánh giá USK \\
+P915 & filming location & Địa điểm quay phim \\
+P930 & type of electrification & Loại điện khí hóa \\
+P937 &  & nơi công tác \\
+P945 &  & nguyện trung thành \\
+P1000 & record held & ghi nhận được giữ \\
+P1001 &  & thuộc quyền tài phán \\
+P1027 &  & được trao bởi \\
+P1028 & donated by & Được tặng bởi \\
+P1029 &  & (các) người lái \\
+P1037 &  & người quản lý/giám đốc \\
+P1038 &  & họ hàng \\
+P1050 &  & tình trạng sức khỏe \\
+P1056 &  & sản xuất \\
+P1064 &  & khổ đường ray \\
+P1066 &  & học trò của \\
+P1071 &  & vị trí sáng tạo \\
+P1075 &  & hiệu trưởng \\
+P1142 &  & tư tưởng chính trị \\
+P1268 &  & tiêu biểu cho \\
+P1299 &  & được miêu tả bởi \\
+P1308 &  & người giữ chức vụ \\
+P1313 &  & chức vụ đứng đầu chính quyền \\
+P1321 & municipal affiliation of a Swiss national & Mối liên kết hành chính của một công dân Thụy Sĩ \\
+P1327 & partner in business or sport & Đối tác trong kinh doanh hoặc thể thao \\
+P1343 &  & được mô tả trong \\
+P1344 &  & tham gia \\
+P1346 &  & người thắng cuộc \\
+P1347 & military casualty classification & Phân loại thương vong quân sự \\
+P1365 &  & thay thế cho \\
+P1366 &  & được thay thế bởi \\
+P1376 &  & trung tâm hành chính của \\
+P1383 &  & bao gồm khu dân cư \\
+P1389 & product certification & chứng nhận sản phẩm \\
+P1399 &  & bị kết án \\
+P1411 &  & đề cử giải thưởng \\
+P1412 &  & nói, viết hoặc ký bằng các ngôn ngữ \\
+P1416 &  & liên kết với \\
+P1427 &  & khởi hành \\
+P1435 &  & xếp hạng di sản \\
+P1454 &  & dạng luật pháp \\
+P1532 &  & quốc gia trong thể thao \\
+P1535 &  & sử dụng bởi \\
+P1542 &  & dẫn đến \\
+P1552 &  & mang đặc tính \\
+P1596 &  & hình phạt \\
+P1598 & consecrator & người hiến thánh \\
+P1640 & curator & người quản lý \\
+P1830 &  & sở hữu \\
+P1891 &  & ký bởi \\
+P1923 &  & đội tham gia \\
+P1981 & FSK film rating & Đánh giá phim FSK \\
+P2175 & medical condition treated & Điều trị bệnh lý \\
+P2176 &  & thuốc hoặc liệu pháp dùng để điều trị \\
+P2283 &  & sử dụng \\
+P2291 & charted in & được vẽ bản đồ \\
+P2348 &  & thời kỳ \\
+P2388 &  & chức vụ lãnh đạo \\
+P2389 &  & lãnh đạo của \\
+P2416 & sports discipline competed in & Thể thao được thi đấu \\
+P2453 & nominee & Ứng cử viên \\
+P2500 & league level below & Liên đoàn cấp độ thấp hơn \\
+P2522 &  & giải đoạt được \\
+P2541 &  & khu vực hoạt động \\
+P2567 & amended by & được sửa đổi bởi \\
+P2568 & repealed by & được bãi bỏ bởi \\
+P2629 & BBFC rating & Đánh giá của BBFC \\
+P2632 &  & nơi giam giữ \\
+P2652 & partnership with & hợp tác với \\
+P2670 &  & có phần của lớp \\
+P2789 &  & nối liền \\
+P2825 & via & thông qua \\
+P2848 & Wi-Fi access & Truy cập Wi-Fi \\
+P2868 &  & chủ thể là \\
+P2936 &  & sử dụng ngôn ngữ \\
+P2962 & title of chess person & Tên người chơi cờ \\
+P3148 & repeals & Hủy bỏ \\
+P3156 & Australian Classification & Phân loại Úc \\
+P3300 & musical conductor & Đạo diễn âm nhạc \\
+P3301 & broadcast by & được phát sóng bởi \\
+P3320 &  & ủy viên ban giám đốc \\
+P3342 &  & nhân vật quan trọng \\
+P3438 &  & phương tiện giao thông thường dùng \\
+P3448 &  & cha hoặc mẹ nuôi \\
+P3460 & colonel-in-chief & Đại tá trưởng \\
+P3461 &  & chỉ định là khủng bố bởi \\
+P3602 &  & bầu cử chọn ứng viên \\
+P3643 & significant environmental impact & Tác động môi trường đáng kể \\
+P3716 &  & địa vị xã hội \\
+P3729 &  & thứ hạng kề dưới \\
+P3730 &  & thứ hạng kề trên \\
+P3919 &  & đóng góp vào tác phẩm \\
+P3975 &  & tổng bí thư \\
+P4100 & parliamentary group & Nhóm nghị viện \\
+P4330 &  & chứa \\
+P4791 & commanded by & được chỉ huy bởi \\
+P5008 &  & có trong danh sách chú trọng của dự án Wikimedia \\
+P5021 &  & khóa thi \\
+P5052 & supervisory board member & Thành viên Hội đồng giám sát \\
+P5096 & member of the crew of & thành viên của đội tàu của \\
+P5460 & grants & quyền trợ cấp \\
+P5514 & accredited by & được công nhận bởi \\
+P5607 &  & nằm trong phạm vi của khu vực giáo hội \\
+P5769 &  & tổng biên tập \\
+P5816 &  & tình trạng bảo tồn \\
+P5817 &  & trạng thái công trình \\
+P6087 & coach of sports team & Huấn luyện viên đội thể thao \\
+P6193 & ratified by & được phê chuẩn bởi \\
+P6216 &  & tình trạng bản quyền \\
+P6364 & official color & Màu chính thức \\
+P6658 & RCQ classification & Phân loại RCQ \\
+P6855 & emergency services & Dịch vụ khẩn cấp \\
+P6872 &  & đã viết bài cho \\
+P7160 & manner of inhumane treatment & phương thức đối xử tàn bạo \\
+P7327 & OFLC classification & Phân loại của OFLC \\
+P7763 &  & trạng thái bản quyền với tư cách là người sáng tạo \\
+P7779 &  & đơn vị quân đội \\
+P7781 & exonerated of & được miễn trách nhiệm về \\
+P7888 &  & sáp nhập vào \\
+P7936 &  & mô hình kinh doanh \\
+P7938 & associated electoral district & Khu bầu cử liên quan \\
+P8047 &  & quốc gia đăng kiểm \\
+P8138 &  & nằm trong phạm vi của khu vực thống kê \\
+P8289 & parish church(es) & Nhà thờ giáo xứ \\
+P8324 &  & ân nhân \\
+P8413 & academic appointment & chức danh học thuật \\
+P8875 & indexed in bibliographic review & Đã được chỉ mục trong bài đánh giá thư mục \\
+P9660 & not found in & không tìm thấy trong \\
+P9866 & GRAC rating & Đánh giá GRAC \\
+P10611 &  & chứng nhận \\
+P12363 & clerked for & làm việc cho \\
+P12439 & civil rank & Hạng cấp dân sự \\
+P13210 &  & tình trạng thuế của tổ chức \\
+\end{longtable}
+\end{center}
+
+\section{Ví dụ trace suy luận đầy đủ}
+\todo{Vài ví dụ trace ARI hoàn chỉnh cho mỗi loại câu hỏi (lấy từ \texttt{ari/artifacts/eval\_ari.json} sau khi chạy \texttt{ari.evaluate}).}

@@ -1,0 +1,208 @@
+\chapter{Giới thiệu}
+\label{ch:intro}
+
+Chương này trình bày bối cảnh và động lực của khóa luận, phân tích hai hạn chế cốt lõi của mô
+hình ngôn ngữ lớn khi giải quyết các câu hỏi có ràng buộc về thời gian, chỉ ra khoảng trống
+nghiên cứu trong bối cảnh tiếng Việt, từ đó phát biểu mục tiêu, câu hỏi nghiên cứu và các đóng
+góp chính. Cuối chương là cấu trúc tổng thể của khóa luận.
+
+\section{Bối cảnh và động lực}
+\label{sec:motivation}
+
+Trong những năm gần đây, các mô hình ngôn ngữ lớn (\textit{Large Language Models} -- LLM) như
+GPT, LLaMA hay Qwen đã tạo nên bước tiến vượt bậc cho hàng loạt tác vụ xử lý ngôn ngữ tự nhiên,
+trong đó có bài toán hỏi đáp tri thức (\textit{Knowledge Question Answering})~\cite{zhao2023llmsurvey}.
+Nhờ được huấn luyện trên kho ngữ liệu khổng lồ, LLM có khả năng trả lời trôi chảy nhiều câu hỏi
+thông thường mà không cần truy cập nguồn tri thức bên ngoài. Tuy nhiên, khi câu hỏi đòi hỏi
+\textbf{suy luận theo thời gian} -- tức là phải xác định, so sánh và lập luận trên các sự kiện
+gắn với những mốc thời gian khác nhau -- thì hiệu năng của LLM suy giảm rõ rệt và mô hình thường
+đưa ra câu trả lời thiếu chính xác hoặc gây hiểu nhầm~\cite{chen2024ari}.
+
+Nguyên nhân sâu xa nằm ở bản chất của tri thức thực tế: tri thức không tĩnh tại mà
+\textbf{tiến hóa theo thời gian}. Cùng một câu hỏi nhưng đáp án thay đổi tùy thời điểm. Ví dụ,
+quốc gia đăng cai Thế vận hội Mùa đông năm 2018 là Hàn Quốc, nhưng đến năm 2022 lại là Trung
+Quốc. Một thực thể có thể giữ nhiều vai trò ở những giai đoạn khác nhau, và mối quan hệ giữa các
+thực thể luôn gắn với một khoảng hiệu lực nhất định. Để trả lời đúng, hệ thống không những phải
+\emph{truy xuất} đúng sự kiện mà còn phải \emph{xử lý} chúng theo trình tự logic chặt chẽ.
+
+Hãy xét ví dụ trong Hình~\ref{fig:temporal-example}: với câu hỏi \textit{``Tổng thống Hoa Kỳ khi
+Chiến tranh Việt Nam kết thúc là ai?''}, hệ thống cần thực hiện nhiều bước suy luận: (1) xác định
+thời điểm Chiến tranh Việt Nam kết thúc (năm 1975); (2) truy vấn ai là Tổng thống Hoa Kỳ tại
+thời điểm đó; (3) trả về thực thể tương ứng làm đáp án. Những câu hỏi dạng này yêu cầu kết hợp
+đồng thời thông tin về thực thể, quan hệ và mốc thời gian -- vốn được biểu diễn tự nhiên trong
+một \textbf{đồ thị tri thức thời gian} (\textit{Temporal Knowledge Graph} -- TKG).
+
+\begin{figure}[ht]
+  \centering
+  % \includegraphics[width=0.85\textwidth]{ch1_temporal_example.pdf}
+  \fbox{\parbox{0.85\textwidth}{\centering\vspace{3mm}
+  \textbf{Câu hỏi:} ``Tổng thống Hoa Kỳ khi Chiến tranh Việt Nam kết thúc là ai?''\\[2mm]
+  \footnotesize
+  Bước 1: Chiến~tranh~Việt~Nam $\xrightarrow{\text{kết thúc}}$ 1975 \\
+  Bước 2: ?~$\xrightarrow{\text{là tổng thống Hoa Kỳ}}$ (1974--1977) \\
+  Bước 3: $\Rightarrow$ \textbf{Gerald Ford}
+  \vspace{3mm}}}
+  \caption{Một câu hỏi có ràng buộc về thời gian đòi hỏi chuỗi suy luận nhiều bước trên đồ thị
+  tri thức thời gian. \todo{thay bằng hình minh họa TKG đẹp hơn}}
+  \label{fig:temporal-example}
+\end{figure}
+
+Bài toán hỏi đáp trên đồ thị tri thức thời gian (\textit{Temporal Knowledge Graph Question
+Answering} -- TKGQA) vì vậy đã trở thành một hướng nghiên cứu quan trọng~\cite{saxena2021cronkgqa,
+chen2023multitq}. Các phương pháp truyền thống dựa trên luật được thiết kế thủ công hoặc trên
+biểu diễn nhúng học được, tuy hiệu quả với câu hỏi đơn giản nhưng khó mở rộng và thường thất bại
+với các câu hỏi đòi hỏi suy luận thời gian tinh vi~\cite{chen2022subgraph}. Sự xuất hiện của LLM
+mở ra cơ hội tận dụng năng lực suy luận linh hoạt của mô hình, song như đã nêu, việc dùng LLM một
+cách trực tiếp lại vấp phải những hạn chế căn bản sẽ phân tích ở mục tiếp theo.
+
+\section{Hai hạn chế cốt lõi của mô hình ngôn ngữ lớn}
+\label{sec:limitations}
+
+Qua phân tích trực giác và thực nghiệm, có thể quy các khó khăn của LLM trong suy luận thời gian
+về hai nguyên nhân chính~\cite{chen2024ari}.
+
+\paragraph{Thiếu tri thức thời gian.} LLM thu nhận tri thức thông qua quá trình tiền huấn luyện
+trên một kho dữ liệu cố định. Sau khi huấn luyện, các tham số của mô hình bị ``đóng băng'', khiến
+mô hình không thể cập nhật những tri thức mới hoặc tri thức biến đổi sau thời điểm huấn luyện. Hệ
+quả là LLM dễ sinh ra hiện tượng \textit{ảo giác} (\textit{hallucination}) -- bịa ra thông tin
+không có thật -- khi gặp các sự kiện nằm ngoài phạm vi dữ liệu huấn luyện, hoặc khi tri thức đã
+thay đổi so với thời điểm mô hình được học.
+
+\paragraph{Thiếu suy luận thời gian phức tạp.} Do cơ chế sinh đầu ra dựa trên xác suất cực đại
+theo từng bước, LLM gặp khó khăn khi phải thực hiện chuỗi suy luận nhiều bước liên kết chặt chẽ
+với nhau. Trong một câu hỏi thời gian phức tạp, chỉ cần một sai sót ở khâu truy xuất tri thức hay
+một nhầm lẫn ở khâu lọc theo thời gian cũng đủ khiến cả chuỗi lập luận dẫn tới kết luận sai. Các
+lỗi nhỏ tích lũy dần qua từng bước sinh khiến độ tin cậy của kết quả cuối cùng giảm mạnh.
+
+Các hướng tiếp cận hiện có thường chỉ giải quyết được một phần. Việc bổ sung tri thức ngoài theo
+kiểu sinh tăng cường bằng truy hồi (\textit{Retrieval-Augmented Generation} --
+RAG)~\cite{lewis2020rag, baek2023kaping} giúp làm giàu thông tin cho LLM, nhưng độ chính xác của
+khâu truy hồi cùng giới hạn độ dài ngữ cảnh lại dễ đưa thêm nhiễu và làm thiếu manh mối suy luận.
+Việc cung cấp ví dụ mẫu (\textit{exemplar}) để dẫn dắt LLM~\cite{wei2022cot} thì phụ thuộc vào
+chất lượng ví dụ và tốn nhiều công sức xây dựng, đồng thời khó bao quát sự đa dạng của các câu hỏi
+thực tế. Như minh họa trong Hình~\ref{fig:three-levels}, điểm chung của các hướng này là chưa cung
+cấp được \emph{hướng dẫn ở mức phương pháp luận} cho quá trình suy luận thời gian đang diễn ra, và
+dễ bị nhiễu bởi tri thức cụ thể không liên quan.
+
+\begin{figure}[ht]
+  \centering
+  % \includegraphics[width=0.9\textwidth]{ch1_three_levels.pdf}
+  \fbox{\parbox{0.9\textwidth}{\centering\vspace{2mm}\footnotesize
+  \textbf{Tri thức cụ thể} (Specific) $\rightarrow$ truy hồi sự kiện, phạm vi áp dụng hẹp\\
+  \textbf{Ví dụ mẫu} (Exemplar) $\rightarrow$ học trong ngữ cảnh, phạm vi áp dụng vừa\\
+  \textbf{Trừu tượng} (Abstract) $\rightarrow$ hướng dẫn phương pháp luận, phạm vi áp dụng rộng
+  \vspace{2mm}}}
+  \caption{Ba mức tích hợp thông tin với mô hình ngôn ngữ lớn. Tri thức càng trừu tượng và tinh
+  lọc thì phạm vi áp dụng càng rộng (phỏng theo~\cite{chen2024ari}). \todo{vẽ lại bằng TikZ}}
+  \label{fig:three-levels}
+\end{figure}
+
+Phương pháp \textbf{Suy luận Trừu tượng Quy nạp} (\textit{Abstract Reasoning Induction} -- ARI)
+do Chen và cộng sự đề xuất~\cite{chen2024ari} hướng tới khắc phục đồng thời cả hai hạn chế trên.
+Lấy cảm hứng từ \textit{thuyết kiến tạo} (\textit{constructivism}) trong giáo
+dục~\cite{savery1995constructivism}, ARI chia quá trình suy luận thời gian thành hai pha tách
+bạch: pha \textit{không phụ thuộc tri thức} (\textit{knowledge-agnostic}), nơi LLM chỉ đưa ra
+quyết định chiến lược ở mức trừu tượng; và pha \textit{dựa trên tri thức}
+(\textit{knowledge-based}), nơi các thao tác cụ thể được thực thi trên đồ thị tri thức. Cách tách
+biệt này vừa cung cấp chỗ dựa tri thức xác thực cho LLM, vừa giảm thiểu nhiễu từ dữ liệu cụ thể.
+Đồng thời, ARI cho phép mô hình \emph{chủ động học} các chiến lược suy luận trừu tượng từ những
+lần giải trước đó -- cả đúng lẫn sai -- để tái sử dụng khi gặp câu hỏi tương tự. Đây chính là nền
+tảng phương pháp mà khóa luận kế thừa và phát triển.
+
+\section{Khoảng trống nghiên cứu trong bối cảnh tiếng Việt}
+\label{sec:gap}
+
+Mặc dù TKGQA đã được nghiên cứu khá sâu cho tiếng Anh, bối cảnh tiếng Việt vẫn còn nhiều khoảng
+trống đáng kể.
+
+\textbf{Thứ nhất, thiếu bộ dữ liệu TKGQA tiếng Việt.} Các bộ dữ liệu chuẩn như
+CronQuestions~\cite{saxena2021cronkgqa} hay MultiTQ~\cite{chen2023multitq} đều được xây dựng cho
+tiếng Anh, dựa trên các nguồn như Wikidata hoặc ICEWS với nhãn tiếng Anh. Cho đến nay chưa có một
+bộ dữ liệu hỏi đáp trên đồ thị tri thức thời gian nào dành riêng cho tiếng Việt, khiến việc huấn
+luyện, đánh giá và so sánh các phương pháp cho tiếng Việt gặp trở ngại lớn.
+
+\textbf{Thứ hai, phụ thuộc vào mô hình ngôn ngữ thương mại.} Phần lớn các hệ thống TKGQA dựa trên
+LLM hiện nay vận hành thông qua các giao diện lập trình ứng dụng (API) thương mại như
+\texttt{gpt-3.5-turbo}~\cite{chen2024ari}. Cách làm này phát sinh chi phí, phụ thuộc kết nối mạng
+và đặt ra lo ngại về quyền riêng tư dữ liệu, đồng thời gây khó khăn cho việc triển khai
+\emph{cục bộ} trong những môi trường hạn chế tài nguyên hoặc yêu cầu bảo mật.
+
+\textbf{Thứ ba, chưa khai thác nhận dạng thực thể tiếng Việt cho liên kết thực thể.} Để áp dụng
+TKGQA cho câu hỏi mở do người dùng nhập, hệ thống cần \textit{liên kết thực thể} (\textit{entity
+linking}) -- ánh xạ cụm từ trong câu hỏi về đúng nút trong đồ thị tri thức. Các mô hình nhận dạng
+thực thể có tên (\textit{Named Entity Recognition} -- NER) tiếng Việt đã đạt chất lượng tốt nhưng
+chưa được tận dụng cho bài toán TKGQA tiếng Việt.
+
+Những khoảng trống trên vừa là thách thức, vừa là động lực để khóa luận xây dựng một hệ thống
+TKGQA hoàn chỉnh cho tiếng Việt: từ việc kiến tạo dữ liệu, thích nghi phương pháp suy luận, đến
+cải tiến cơ chế lọc hành động.
+
+\section{Mục tiêu và câu hỏi nghiên cứu}
+\label{sec:objectives}
+
+\textbf{Mục tiêu tổng quát} của khóa luận là nghiên cứu và áp dụng phương pháp Suy luận Trừu
+tượng Quy nạp nhằm nâng cao năng lực trả lời các câu hỏi có ràng buộc về thời gian cho tiếng Việt,
+đồng thời xây dựng một hệ thống thử nghiệm hoàn chỉnh và một bộ dữ liệu đánh giá đi kèm.
+
+Để cụ thể hóa, khóa luận đặt ra ba câu hỏi nghiên cứu:
+
+\begin{itemize}
+  \item \textbf{CHNC1:} Phương pháp ARI có cải thiện độ chính xác so với việc dùng mô hình ngôn
+  ngữ lớn suy luận trực tiếp trên bài toán TKGQA tiếng Việt hay không, và cải thiện ở mức nào?
+  \item \textbf{CHNC2:} Mỗi thành phần trong khung ARI (hướng dẫn trừu tượng, phân cụm lịch sử,
+  lọc hành động, học từ ví dụ sai) đóng góp ra sao vào hiệu năng tổng thể?
+  \item \textbf{CHNC3:} Bộ lọc hành động \emph{nhận biết ngữ cảnh} dựa trên cross-encoder có khắc
+  phục được hạn chế của bộ lọc dựa trên độ tương đồng cosine truyền thống hay không?
+\end{itemize}
+
+\section{Đóng góp của khóa luận}
+\label{sec:contributions}
+
+Khóa luận có ba đóng góp chính, tương ứng với ba câu hỏi nghiên cứu nêu trên.
+
+\begin{enumerate}
+  \item \textbf{Xây dựng CronQ-VN -- bộ dữ liệu TKGQA tiếng Việt.} Khóa luận thiết kế một quy
+  trình trích xuất đồ thị tri thức thời gian từ Wikidata và sinh câu hỏi tự động, tạo ra bộ dữ
+  liệu CronQ-VN với khoảng 238 nghìn sự kiện, 37,5 nghìn thực thể và 271 quan hệ. Trên cơ sở đó,
+  tám quan hệ giàu dữ liệu thuộc nhiều lĩnh vực được chọn để sinh năm loại câu hỏi thời gian, với
+  đáp án chuẩn được truy vấn trực tiếp từ đồ thị. Phần nhãn còn thiếu tiếng Việt được bổ sung bằng
+  mô hình ngôn ngữ lớn.
+
+  \item \textbf{Thích nghi khung ARI cho tiếng Việt với mô hình ngôn ngữ cục bộ.} Khóa luận cài
+  đặt lại toàn bộ khung ARI để vận hành hoàn toàn bằng LLM chạy cục bộ thông qua
+  Ollama~\cite{ollama} với mô hình Qwen2.5~\cite{qwen2025}, thay cho các API thương mại. Hệ thống
+  được bổ sung cơ chế liên kết thực thể cho câu hỏi mở, sử dụng mô hình NER tiếng Việt
+  (\texttt{NlpHUST/ner-vietnamese-electra-base}) kết hợp tìm kiếm tương đồng trong cơ sở dữ liệu
+  vector.
+
+  \item \textbf{Đề xuất bộ lọc hành động dựa trên cross-encoder.} Khóa luận chỉ ra hạn chế của cơ
+  chế lọc hành động bằng độ tương đồng cosine trong ARI gốc -- vốn so khớp hành động với câu hỏi
+  gốc mà không nhận biết bước suy luận hiện tại -- và đề xuất thay thế bằng một bộ lọc nhận biết
+  ngữ cảnh dựa trên cross-encoder~\cite{reimers2019sbert}, mã hóa đồng thời hành động và lịch sử
+  suy luận để chấm điểm mức phù hợp.
+\end{enumerate}
+
+Về phạm vi, khóa luận tập trung vào các câu hỏi yêu cầu suy luận nhiều bước trên đồ thị con của
+đồ thị tri thức thời gian, với dữ liệu chính là bộ CronQ-VN tự xây; các bộ dữ liệu tiếng Anh như
+CronQuestions và MultiTQ được dùng để tham chiếu và đối sánh phương pháp.
+
+\section{Cấu trúc khóa luận}
+\label{sec:structure}
+
+Phần còn lại của khóa luận được tổ chức như sau:
+
+\begin{itemize}
+  \item \textbf{Chương~\ref{ch:background} -- Cơ sở lý thuyết} trình bày các kiến thức nền: đồ thị
+  tri thức thời gian, bài toán TKGQA, mô hình ngôn ngữ lớn và học trong ngữ cảnh, tăng cường tri
+  thức, suy luận có cấu trúc, bộ nhớ và thuyết kiến tạo, phân cụm K-means, cross-encoder và nhận
+  dạng thực thể tiếng Việt.
+  \item \textbf{Chương~\ref{ch:related} -- Các công trình liên quan} khảo sát các mô hình TKGQA,
+  các hướng dùng LLM kết hợp tri thức ngoài và bộ nhớ, các bộ dữ liệu TKGQA, và định vị đề tài
+  trong bức tranh chung.
+  \item \textbf{Chương~\ref{ch:method} -- Phương pháp đề xuất} mô tả chi tiết kiến trúc hệ thống
+  hai pha, quy trình xây dựng CronQ-VN, cơ chế thích nghi tiếng Việt, và bộ lọc cross-encoder.
+  \item \textbf{Chương~\ref{ch:experiment} -- Thực nghiệm và Kết quả} trình bày thiết lập thực
+  nghiệm, các phương pháp so sánh, độ đo và phân tích kết quả theo ba câu hỏi nghiên cứu.
+  \item \textbf{Chương~\ref{ch:conclusion} -- Kết luận và Hướng phát triển} tổng kết đóng góp, nêu
+  ý nghĩa, hạn chế và các hướng mở rộng trong tương lai.
+\end{itemize}

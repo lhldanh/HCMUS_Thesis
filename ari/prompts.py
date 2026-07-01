@@ -185,6 +185,84 @@ loại action nào sẽ dùng ở mỗi bước và lý do.>
 """
 
 
+# ---------- Baselines (Ch5 §5.3) ----------
+# Bốn baseline để đối chiếu với ARI. Tất cả yêu cầu LLM kết thúc bằng dòng
+# "Đáp án: <...>" để `baselines.parse_answer` trích ra và chấm bằng cùng hàm
+# `_judge` như ARI → metric đồng nhất giữa các phương pháp.
+
+LLM_ONLY_SYSTEM = (
+    "Bạn là trợ lý trả lời câu hỏi có ràng buộc về thời gian. Hãy trả lời ngắn "
+    "gọn, chỉ nêu đáp án (một tên thực thể hoặc một năm), không giải thích dài."
+)
+
+LLM_ONLY_TEMPLATE = """Câu hỏi: {question}
+
+Hãy trả lời theo đúng định dạng (một dòng cuối):
+Đáp án: <tên thực thể hoặc năm>
+"""
+
+KG_RAG_SYSTEM = (
+    "Bạn là trợ lý trả lời câu hỏi dựa trên các dữ kiện (fact) trích từ đồ thị "
+    "tri thức theo thời gian. CHỈ dùng thông tin trong phần Dữ kiện cho sẵn. "
+    "Nếu có nhiều đáp án hợp lệ, chọn một. Trả lời ngắn gọn."
+)
+
+KG_RAG_TEMPLATE = """Dữ kiện liên quan (mỗi dòng: chủ thể — quan hệ — đối tượng — thời gian):
+{context}
+
+Câu hỏi: {question}
+
+Hãy trả lời theo đúng định dạng (một dòng cuối):
+Đáp án: <tên thực thể hoặc năm>
+"""
+
+COT_KB_SYSTEM = (
+    "Bạn là trợ lý suy luận theo thời gian dựa trên các dữ kiện cho sẵn. Hãy "
+    "suy luận từng bước dựa trên dữ kiện, rồi đưa ra đáp án cuối cùng."
+)
+
+COT_KB_TEMPLATE = """Dữ kiện liên quan (mỗi dòng: chủ thể — quan hệ — đối tượng — thời gian):
+{context}
+
+Câu hỏi: {question}
+
+Hãy suy luận từng bước (ngắn gọn) dựa trên dữ kiện, sau đó kết thúc bằng đúng
+một dòng cuối:
+Đáp án: <tên thực thể hoặc năm>
+"""
+
+# ReAct-KB: tác tử nhiều bước reason+act trên KB, KHÔNG có methodology trừu tượng.
+# Dùng chung vòng lặp với ARI (agent.run_question(react=True)).
+REACT_SYSTEM = (
+    "Bạn là tác tử suy luận theo phong cách ReAct trên đồ thị tri thức theo thời "
+    "gian (TKG): xen kẽ suy nghĩ (Thought) và hành động (Action). Bạn KHÔNG cần "
+    "biết tri thức thực tế; bạn chỉ chọn đúng MỘT hành động trong danh sách cho "
+    "sẵn để hệ thống truy vấn TKG. Khi đã đủ thông tin, chọn $answer(...)$.\n\n"
+    "Các nhóm hàm khả dụng:\n"
+    "- Hàm thời gian: get_time(HEAD, REL, TAIL); get_before(LIST, T); "
+    "get_after(LIST, T); get_between(LIST, T1, T2)\n"
+    "- Hàm thực thể: get_tail_entity(HEAD, REL, [T]); get_head_entity(TAIL, REL, [T])\n"
+    "- Hàm chọn lọc: get_first(LIST); get_last(LIST)\n"
+    "- Trả lời: answer(GIÁ_TRỊ)\n\n"
+    "Quy tắc: lặp lại nguyên văn chuỗi nằm giữa hai dấu $; nếu hành động có chỗ "
+    "trống {your specified time} thì thay bằng một năm cụ thể (4 chữ số).\n\n"
+    "Định dạng đầu ra BẮT BUỘC:\n"
+    "Thought: <suy nghĩ ngắn>\n"
+    "Action: <hành động bạn chọn, bao trong dấu $>"
+)
+
+REACT_TEMPLATE = """Câu hỏi: {question}
+
+Các bước đã thực hiện (quan sát được):
+{history}
+
+Các hành động khả dụng tại bước này (CHỈ được chọn một trong số này):
+{actions}
+
+Hãy đưa ra Thought rồi Action theo đúng định dạng.
+"""
+
+
 FALLBACK_METHODOLOGY = (
     "Overall Instruction: Trước tiên xác định thực thể chủ đề và quan hệ "
     "trong câu hỏi. Dùng get_head_entity hoặc get_tail_entity với ràng buộc "

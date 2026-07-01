@@ -1,0 +1,3 @@
+{"s_qid": "Q45252891", "s_label": "Nhóm Mall", "s_lang": "en", "o_qid": "Q11774225", "o_label": "Daniel Křetínský", "o_lang": "en", "start": 2017, "end": null, "relation": "P5052", "r_label": "Thành viên Hội đồng giám sát", "r_lang": "en"}
+{"s_qid": "Q127502949", "s_label": "Nhà xuất bản Respekt", "s_lang": "en", "o_qid": "Q168961", "o_label": "Zdeněk Bakala", "o_lang": "en", "start": 2007, "end": 2009, "relation": "P5052", "r_label": "Thành viên Hội đồng giám sát", "r_lang": "en"}
+{"s_qid": "Q1752646", "s_label": "Sàn giao dịch Prague", "s_lang": "en", "o_qid": "Q168961", "o_label": "Zdeněk Bakala", "o_lang": "en", "start": 2005, "end": 2010, "relation": "P5052", "r_label": "Thành viên Hội đồng giám sát", "r_lang": "en"}

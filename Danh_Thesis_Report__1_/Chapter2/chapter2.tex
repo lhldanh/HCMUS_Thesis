@@ -1,0 +1,490 @@
+\chapter{Cơ sở lý thuyết}
+\label{ch:background}
+
+Chương này trình bày các kiến thức nền tảng cần thiết để hiểu phương pháp đề xuất ở
+Chương~\ref{ch:method}. Trước hết, chúng tôi giới thiệu đồ thị tri thức và mở rộng có yếu tố thời
+gian của nó, cùng phát biểu hình thức cho bài toán hỏi đáp trên đồ thị tri thức thời gian. Tiếp
+theo, chúng tôi tóm lược về mô hình ngôn ngữ lớn và các kỹ thuật tăng cường năng lực suy luận cho
+nó, gồm tăng cường tri thức, suy luận có cấu trúc và cơ chế bộ nhớ -- nền tảng triết học mà phương
+pháp Suy luận Trừu tượng Quy nạp kế thừa. Cuối cùng, chương trình bày một số công cụ kỹ thuật được
+sử dụng trực tiếp trong khóa luận: phân cụm K-means và biểu diễn ngữ nghĩa, kiến trúc cross-encoder
+và bài toán nhận dạng thực thể có tên cho tiếng Việt. Bảng~\ref{tab:notation} tổng hợp các ký hiệu
+toán học dùng xuyên suốt khóa luận.
+
+\section{Đồ thị tri thức và đồ thị tri thức thời gian}
+\label{sec:tkg}
+
+\subsection{Đồ thị tri thức}
+
+Đồ thị tri thức (\textit{Knowledge Graph} -- KG) là một cách biểu diễn tri thức dưới dạng đồ thị,
+trong đó các nút biểu diễn thực thể và các cạnh biểu diễn quan hệ giữa chúng. Tri thức được mã hóa
+thành tập các \textit{bộ ba} (\textit{triple}) có dạng (chủ thể, quan hệ, đối tượng).
+
+\begin{definition}[Đồ thị tri thức]
+Một đồ thị tri thức là một bộ $\mathcal{G} = (\mathcal{E}, \mathcal{R}, \mathcal{F})$, trong đó
+$\mathcal{E}$ là tập thực thể, $\mathcal{R}$ là tập quan hệ, và
+$\mathcal{F} \subseteq \mathcal{E} \times \mathcal{R} \times \mathcal{E}$ là tập sự kiện. Mỗi sự
+kiện là một bộ ba $(s, r, o)$ với $s, o \in \mathcal{E}$ lần lượt là chủ thể và đối tượng, còn
+$r \in \mathcal{R}$ là quan hệ nối giữa chúng.
+\end{definition}
+
+Ví dụ, bộ ba (\textit{Barack Obama}, \texttt{chức\_vụ}, \textit{Tổng thống Hoa Kỳ}) khẳng định
+rằng Barack Obama giữ chức Tổng thống Hoa Kỳ. Các đồ thị tri thức quy mô lớn như
+Wikidata~\cite{vrandecic2014wikidata}, DBpedia hay YAGO đã trở thành nguồn tri thức có cấu trúc
+quan trọng cho nhiều ứng dụng xử lý ngôn ngữ tự nhiên, đặc biệt là hỏi đáp.
+
+\subsection{Đồ thị tri thức thời gian}
+
+Hạn chế của đồ thị tri thức tĩnh là không biểu diễn được khía cạnh thời gian của tri thức. Trong
+thực tế, phần lớn sự kiện chỉ đúng trong một khoảng thời gian nhất định: một người chỉ giữ một
+chức vụ trong một nhiệm kỳ, hai quốc gia chỉ ở trạng thái xung đột trong một giai đoạn lịch sử.
+\textit{Đồ thị tri thức thời gian} (\textit{Temporal Knowledge Graph} -- TKG) mở rộng đồ thị tri
+thức bằng cách gắn thêm thông tin thời gian cho mỗi sự kiện.
+
+\begin{definition}[Đồ thị tri thức thời gian]
+Một đồ thị tri thức thời gian là một bộ $\mathcal{K} = (\mathcal{E}, \mathcal{R}, \mathcal{T},
+\mathcal{F})$, trong đó $\mathcal{E}$, $\mathcal{R}$ lần lượt là tập thực thể và quan hệ,
+$\mathcal{T}$ là tập mốc thời gian, và $\mathcal{F}$ là tập sự kiện thời gian. Mỗi sự kiện là một
+bộ bốn $(s, r, o, \tau)$ với $s, o \in \mathcal{E}$, $r \in \mathcal{R}$ và $\tau \in \mathcal{T}$
+là mốc (hoặc khoảng) thời gian mà sự kiện có hiệu lực.
+\end{definition}
+
+Khi $\tau$ là một khoảng, ta viết $\tau = [t_{b}, t_{e}]$ với $t_{b}$ là thời điểm bắt đầu và
+$t_{e}$ là thời điểm kết thúc. Chẳng hạn, sự kiện (\textit{Barack Obama}, \texttt{chức\_vụ},
+\textit{Tổng thống Hoa Kỳ}, $[2009, 2017]$) cho biết khoảng thời gian Obama tại nhiệm.
+Hình~\ref{fig:tkg-example} minh họa một đồ thị tri thức thời gian nhỏ với nhiều quan hệ gắn mốc
+thời gian khác nhau.
+
+\begin{figure}[ht]
+  \centering
+  \fbox{\parbox{0.85\textwidth}{\centering\vspace{2mm}\footnotesize
+  \textit{G.~W.~Bush} $\xrightarrow{\text{tổng thống Hoa Kỳ}~[2001,2009]}$ \textit{Hoa Kỳ}\\[1mm]
+  \textit{B.~Obama} $\xrightarrow{\text{tổng thống Hoa Kỳ}~[2009,2017]}$ \textit{Hoa Kỳ}\\[1mm]
+  \textit{Hoa Kỳ} $\xrightarrow{\text{thành viên}~[1945,-]}$ \textit{Liên Hợp Quốc}
+  \vspace{2mm}}}
+  \caption{Một đồ thị tri thức thời gian thu nhỏ: cùng một quan hệ
+  \texttt{tổng\_thống} nối nhiều chủ thể tới cùng đối tượng nhưng ở những khoảng thời gian khác
+  nhau. \todo{thay bằng hình đồ thị trực quan có nút và cạnh}}
+  \label{fig:tkg-example}
+\end{figure}
+
+\subsection{Biểu diễn thời gian trong Wikidata}
+
+Trong khóa luận, bộ dữ liệu được trích xuất từ Wikidata. Ở Wikidata, mỗi thực thể được định danh
+bởi một mã \texttt{QID} (ví dụ \texttt{Q76} cho Barack Obama) và mỗi thuộc tính (quan hệ) bởi một
+mã \texttt{PID} (ví dụ \texttt{P39} cho ``chức vụ nắm giữ''). Khía cạnh thời gian được biểu diễn
+thông qua các \textit{định tố} (\textit{qualifier}) gắn vào mỗi khẳng định, trong đó ba định tố
+quan trọng nhất là \texttt{P580} (thời điểm bắt đầu), \texttt{P582} (thời điểm kết thúc) và
+\texttt{P585} (thời điểm diễn ra). Việc khai thác các định tố này cho phép tái dựng các sự kiện
+thời gian dưới dạng bộ bốn $(s, r, o, \tau)$ phục vụ cho bài toán TKGQA, sẽ được trình bày chi
+tiết ở Mục~\ref{sec:cronqvn}.
+
+\section{Bài toán hỏi đáp trên đồ thị tri thức thời gian}
+\label{sec:tkgqa-def}
+
+Hỏi đáp trên đồ thị tri thức thời gian (\textit{Temporal Knowledge Graph Question Answering} --
+TKGQA) là bài toán trả lời câu hỏi ngôn ngữ tự nhiên có ràng buộc về thời gian, dựa trên một đồ
+thị tri thức thời gian cho trước.
+
+\begin{definition}[Bài toán TKGQA]
+Cho một đồ thị tri thức thời gian $\mathcal{K} = (\mathcal{E}, \mathcal{R}, \mathcal{T},
+\mathcal{F})$ và một câu hỏi ngôn ngữ tự nhiên $q$, bài toán TKGQA yêu cầu trả về một đáp án
+$a$ là một thực thể $a \in \mathcal{E}$ hoặc một mốc thời gian $a \in \mathcal{T}$ sao cho $a$
+trả lời đúng câu hỏi $q$ dựa trên tri thức chứa trong $\mathcal{K}$.
+\end{definition}
+
+Ví dụ, với câu hỏi $q = $ \textit{``Ai giữ chức Tổng thống Hoa Kỳ vào năm 2010?''}, đáp án là
+thực thể \textit{Barack Obama}; còn với câu hỏi \textit{``Barack Obama bắt đầu giữ chức Tổng thống
+Hoa Kỳ năm nào?''}, đáp án là mốc thời gian \textit{2009}.
+
+Các câu hỏi TKGQA thường được phân loại theo hai chiều~\cite{saxena2021cronkgqa, chen2023multitq}.
+Theo \textbf{độ phức tạp suy luận}, câu hỏi được chia thành \textit{đơn giản} (\textit{simple})
+-- chỉ cần một bước truy vấn trực tiếp trên một sự kiện -- và \textit{phức tạp}
+(\textit{complex}) -- cần kết hợp nhiều sự kiện, so sánh hoặc lọc theo thời gian. Theo
+\textbf{kiểu đáp án}, câu hỏi được chia thành loại trả về \textit{thực thể} (\textit{entity}) và
+loại trả về \textit{thời gian} (\textit{time}). Bộ dữ liệu CronQ-VN được xây dựng trong khóa luận
+tổ chức câu hỏi thành năm loại cụ thể, sẽ được trình bày ở Mục~\ref{sec:generate}.
+
+Điểm mấu chốt khiến TKGQA khó hơn hỏi đáp thông thường là yêu cầu \textit{suy luận nhiều bước có
+ràng buộc thời gian}: hệ thống không chỉ truy xuất một sự kiện mà phải xác định mốc thời gian
+tham chiếu, rồi lọc và so sánh các sự kiện theo trình tự thời gian. Đây chính là điểm yếu của mô
+hình ngôn ngữ lớn khi dùng trực tiếp, như sẽ phân tích ở các mục tiếp theo.
+
+\subsection{Phân loại câu hỏi và thao tác suy luận}
+
+Bảng~\ref{tab:qtypes} hệ thống hóa các loại câu hỏi thời gian thường gặp cùng thao tác suy luận
+cốt lõi tương ứng. Cách phân loại này vừa định hướng việc sinh dữ liệu (Mục~\ref{sec:generate}),
+vừa là cơ sở để phân tích kết quả chi tiết theo từng loại ở Chương~\ref{ch:experiment}. Có thể
+thấy các loại câu hỏi đòi hỏi mức độ suy luận tăng dần: từ truy vấn trực tiếp một sự kiện, đến lọc
+theo mốc tham chiếu, sắp xếp theo thời gian, và phức tạp nhất là giao nhiều ràng buộc thời gian.
+
+\begin{table}[ht]
+\centering
+\caption{Các loại câu hỏi thời gian và thao tác suy luận cốt lõi.}
+\label{tab:qtypes}
+\begin{tabular}{L{3.2cm} L{5.3cm} L{4.0cm}}
+\toprule
+\textbf{Loại câu hỏi} & \textbf{Mô tả} & \textbf{Thao tác chính} \\
+\midrule
+Thực thể đơn & Ai/cái gì giữ vai trò $r$ vào thời điểm $\tau$? & Truy vấn trực tiếp một bước \\
+Thời gian đơn & $s$ giữ vai trò $r$ vào thời điểm nào? & Truy vấn mốc thời gian \\
+Trước/Sau & Ai là $r$ trước/sau khi $s$ là $r$? & Lấy mốc tham chiếu, lọc thời gian \\
+Đầu/Cuối & $s$ đầu tiên/gần nhất là gì? & Sắp xếp theo thời gian \\
+Đồng thời & Ai là $r_1$ khi $s$ đang là $r_2$? & Giao theo khoảng thời gian \\
+\bottomrule
+\end{tabular}
+\end{table}
+
+\subsection{Độ đo đánh giá}
+\label{sec:metrics}
+
+Do đáp án của bài toán TKGQA là một thực thể hoặc một mốc thời gian xác định, độ đo phổ biến nhất
+là \textit{độ chính xác} (\textit{accuracy}) -- tỉ lệ câu hỏi được trả lời đúng:
+
+\begin{equation}
+\label{eq:accuracy}
+\mathrm{Acc} = \frac{1}{|Q|} \sum_{q \in Q} \mathbf{1}\!\left[\hat{a}_q \in \mathcal{A}_q\right],
+\end{equation}
+
+trong đó $Q$ là tập câu hỏi kiểm thử, $\hat{a}_q$ là đáp án dự đoán, $\mathcal{A}_q$ là tập đáp án
+đúng (một câu hỏi có thể có nhiều đáp án đúng), và $\mathbf{1}[\cdot]$ là hàm chỉ thị nhận giá trị
+$1$ khi điều kiện đúng và $0$ khi sai. Khi mô hình trả về một danh sách đáp án có xếp hạng, người
+ta còn dùng độ đo \textit{Hits@1} -- tỉ lệ câu hỏi mà đáp án đúng nằm ở vị trí xếp hạng cao nhất.
+Trong khóa luận, kết quả được báo cáo bằng độ chính xác tổng thể, đồng thời tách nhỏ theo từng loại
+câu hỏi và theo kiểu đáp án (thực thể so với thời gian) nhằm làm rõ điểm mạnh, điểm yếu của phương
+pháp trên từng dạng suy luận.
+
+\section{Mô hình ngôn ngữ lớn và học trong ngữ cảnh}
+\label{sec:llm}
+
+\subsection{Kiến trúc Transformer}
+
+Mô hình ngôn ngữ lớn (\textit{Large Language Model} -- LLM) hiện đại hầu hết dựa trên kiến trúc
+Transformer~\cite{vaswani2017attention}, với thành phần cốt lõi là cơ chế \textit{tự chú ý}
+(\textit{self-attention}). Cho một chuỗi biểu diễn đầu vào, cơ chế chú ý tính toán đầu ra theo
+công thức:
+
+\begin{equation}
+\label{eq:attention}
+\mathrm{Attention}(Q, K, V) = \mathrm{softmax}\!\left(\frac{Q K^{\top}}{\sqrt{d_k}}\right) V,
+\end{equation}
+
+trong đó $Q$, $K$, $V$ lần lượt là các ma trận truy vấn (\textit{query}), khóa (\textit{key}) và
+giá trị (\textit{value}) được chiếu tuyến tính từ biểu diễn đầu vào, còn $d_k$ là số chiều của
+vector khóa. Cơ chế này cho phép mỗi vị trí trong chuỗi tổng hợp thông tin từ mọi vị trí khác,
+nắm bắt được các phụ thuộc tầm xa trong văn bản.
+
+\subsection{Sinh văn bản tự hồi quy}
+
+Mô hình ngôn ngữ lớn được huấn luyện theo lối \textit{tự hồi quy} (\textit{autoregressive}): với
+chuỗi token $x_1, x_2, \dots, x_n$, mô hình ước lượng xác suất của chuỗi bằng tích các xác suất
+có điều kiện,
+
+\begin{equation}
+\label{eq:autoregressive}
+P(x_1, \dots, x_n) = \prod_{i=1}^{n} P(x_i \mid x_1, \dots, x_{i-1}).
+\end{equation}
+
+Tại mỗi bước sinh, mô hình chọn token tiếp theo dựa trên phân phối xác suất có điều kiện. Chính
+cơ chế sinh \textit{tham lam theo xác suất cực đại} này khiến mô hình dễ tích lũy lỗi qua nhiều
+bước khi phải thực hiện chuỗi suy luận dài, như đã nêu ở Mục~\ref{sec:limitations}.
+
+\subsection{Chiến lược giải mã}
+
+Từ phân phối xác suất ở Công thức~\eqref{eq:autoregressive}, có nhiều \textit{chiến lược giải mã}
+(\textit{decoding strategy}) để chọn token đầu ra tại mỗi bước. \textit{Giải mã tham lam}
+(\textit{greedy}) luôn chọn token có xác suất cao nhất, cho kết quả tất định nhưng dễ rơi vào lặp
+hoặc bỏ lỡ lời giải tốt hơn. Các chiến lược lấy mẫu như \textit{top-$k$} (chỉ lấy mẫu trong $k$
+token nhiều khả năng nhất) hay \textit{top-$p$} (\textit{nucleus}, lấy mẫu trong tập token nhỏ
+nhất có tổng xác suất vượt ngưỡng $p$) đưa thêm tính ngẫu nhiên để tăng đa dạng. Mức ngẫu nhiên
+được điều khiển bởi tham số \textit{nhiệt độ} (\textit{temperature}) $T$: giá trị $T$ nhỏ làm phân
+phối nhọn hơn (tiệm cận giải mã tham lam), $T$ lớn làm phân phối phẳng hơn. Vì khóa luận cần kết
+quả \emph{lặp lại được} (\textit{reproducible}) để so sánh công bằng giữa các cấu hình, mô hình
+ngôn ngữ được đặt $T = 0$ trong toàn bộ thực nghiệm.
+
+\subsection{Học trong ngữ cảnh và hiện tượng ảo giác}
+
+Một đặc tính nổi bật của mô hình ngôn ngữ lớn là khả năng \textit{học trong ngữ cảnh}
+(\textit{in-context learning}): mô hình có thể thực hiện một tác vụ mới chỉ bằng cách quan sát
+vài ví dụ minh họa đặt trong câu lệnh (\textit{prompt}), mà không cần cập nhật tham
+số~\cite{zhao2023llmsurvey}. Khả năng này là nền tảng cho việc điều khiển mô hình bằng câu lệnh,
+được khai thác xuyên suốt trong khung ARI.
+
+Tuy nhiên, do tham số bị cố định sau huấn luyện và do cơ chế sinh dựa trên xác suất, mô hình ngôn
+ngữ lớn thường mắc hiện tượng \textit{ảo giác} (\textit{hallucination}) -- sinh ra thông tin nghe
+hợp lý nhưng sai sự thật. Hiện tượng này đặc biệt nghiêm trọng với các câu hỏi đòi hỏi tri thức
+thời gian chính xác hoặc tri thức mới phát sinh sau thời điểm huấn luyện. Đây là động lực chính
+cho việc kết hợp mô hình ngôn ngữ lớn với nguồn tri thức ngoài có cấu trúc.
+
+\section{Tăng cường tri thức cho mô hình ngôn ngữ lớn}
+\label{sec:rag}
+
+Để giảm thiểu ảo giác và bổ sung tri thức cập nhật, một hướng nghiên cứu phổ biến là cung cấp tri
+thức ngoài cho mô hình ngôn ngữ lớn. Các phương pháp có thể chia thành hai nhóm: tiêm tri thức
+tường minh và tiêm tri thức ngầm~\cite{baek2023kaping}.
+
+\subsection{Sinh tăng cường bằng truy hồi}
+
+\textit{Sinh tăng cường bằng truy hồi} (\textit{Retrieval-Augmented Generation} --
+RAG)~\cite{lewis2020rag} là phương pháp tiêm tri thức tường minh tiêu biểu. Ý tưởng là truy hồi
+các đoạn văn bản hoặc sự kiện liên quan đến câu hỏi từ một kho tri thức, rồi nối chúng vào câu
+lệnh để mô hình tham chiếu khi sinh câu trả lời. RAG giúp làm giàu thông tin cho mô hình, nhưng
+hiệu quả phụ thuộc mạnh vào độ chính xác của khâu truy hồi và bị giới hạn bởi độ dài ngữ cảnh: nếu
+truy hồi thiếu chính xác sẽ đưa thêm nhiễu, còn nếu lượng tri thức quá lớn thì không thể đưa hết
+vào câu lệnh.
+
+\subsection{Câu lệnh tăng cường bằng đồ thị tri thức}
+
+Khi nguồn tri thức là đồ thị tri thức, các phương pháp như KAPING~\cite{baek2023kaping} truy hồi
+các bộ ba liên quan đến thực thể trong câu hỏi rồi đưa vào câu lệnh dưới dạng văn bản hóa. Hướng
+tiếp cận này là cơ sở cho một trong các phương pháp đối sánh (\textit{baseline}) của khóa luận, gọi
+là KG-RAG. Tuy nhiên, với đồ thị tri thức thời gian, một câu hỏi có thể liên quan đến hàng nghìn
+sự kiện gắn các mốc thời gian khác nhau, khiến việc nhồi toàn bộ vào câu lệnh là bất khả thi và dễ
+gây nhiễu cho quá trình suy luận. Đây chính là điểm mà ARI khắc phục bằng cách \emph{tách bạch}
+khâu tương tác tri thức ra khỏi khâu suy luận, thay vì nhồi tri thức trực tiếp vào câu lệnh.
+
+\section{Suy luận có cấu trúc với mô hình ngôn ngữ lớn}
+\label{sec:reasoning}
+
+Ngoài việc cung cấp tri thức, một hướng khác nhằm tăng năng lực suy luận của mô hình ngôn ngữ lớn
+là dẫn dắt quá trình suy luận theo cấu trúc nhiều bước.
+
+\subsection{Chuỗi suy nghĩ}
+
+Kỹ thuật \textit{chuỗi suy nghĩ} (\textit{Chain-of-Thought} -- CoT)~\cite{wei2022cot} khuyến khích
+mô hình sinh ra các bước suy luận trung gian trước khi đưa ra câu trả lời cuối cùng, thay vì trả
+lời trực tiếp. Bằng cách ``suy nghĩ thành lời'', mô hình phân rã bài toán phức tạp thành chuỗi
+bước nhỏ, cải thiện đáng kể độ chính xác trên các tác vụ đòi hỏi suy luận số học và logic. Tuy
+nhiên, CoT thuần túy vẫn dựa trên tri thức tham số của mô hình nên không tránh được ảo giác khi
+gặp tri thức thời gian.
+
+\subsection{Suy luận kết hợp hành động}
+
+Khung ReAct~\cite{yao2023react} mở rộng CoT bằng cách đan xen các bước \textit{suy luận}
+(\textit{reasoning}) với các bước \textit{hành động} (\textit{action}) tương tác với môi trường
+ngoài, chẳng hạn truy vấn một công cụ hoặc một cơ sở tri thức. Sau mỗi hành động, mô hình quan sát
+phản hồi từ môi trường rồi tiếp tục suy luận. Cách tiếp cận ``tác tử'' (\textit{agent}) này cho
+phép mô hình kết hợp tri thức ngoài một cách có chọn lọc theo từng bước. Khung ARI mà khóa luận kế
+thừa cũng vận hành theo mô hình tác tử nhiều bước, nhưng khác biệt ở chỗ mô hình chỉ \emph{lựa
+chọn} hành động ở mức trừu tượng, còn việc thực thi hành động trên đồ thị được tách hẳn sang một
+mô-đun riêng.
+
+\section{Bộ nhớ và học từ kinh nghiệm}
+\label{sec:memory-bg}
+
+\subsection{Bộ nhớ ngoài cho mô hình ngôn ngữ lớn}
+
+Mô hình ngôn ngữ lớn vốn không có bộ nhớ dài hạn, và bộ nhớ ngắn hạn bị giới hạn bởi cửa sổ ngữ
+cảnh. Nhiều nghiên cứu đã trang bị cho mô hình một \textit{bộ nhớ ngoài} để lưu lại kinh nghiệm và
+tái sử dụng. Reflexion~\cite{shinn2023reflexion} lưu các phản tỉnh về lần thử trước để cải thiện ở
+lần thử sau; MemPrompt~\cite{madaan2022memprompt} duy trì một bộ nhớ phản hồi của người dùng để
+nhắc lại cho mô hình. Tuy vậy, các phương pháp này phần lớn chỉ \emph{tiếp nhận thụ động} thông
+tin lịch sử, chưa chủ động \emph{kiến tạo} tri thức trừu tượng có thể tổng quát hóa cho nhiều bài
+toán khác nhau.
+
+\subsection{Thuyết kiến tạo}
+
+Khung ARI lấy cảm hứng từ \textit{thuyết kiến tạo} (\textit{constructivism}) trong giáo
+dục~\cite{savery1995constructivism, kirschner2006minimal}. Quan điểm cốt lõi của thuyết kiến tạo
+là tri thức không được truyền thụ thụ động từ người dạy sang người học, mà được \emph{chủ động xây
+dựng} trong tâm trí người học dựa trên kinh nghiệm sẵn có. Người học tổng hợp tri thức mới bằng
+cách liên tục điều chỉnh và tinh lọc khung nhận thức của mình. Áp dụng vào mô hình ngôn ngữ lớn,
+ARI hướng tới việc cho mô hình \emph{tự chắt lọc} các chiến lược suy luận trừu tượng từ chính kinh
+nghiệm giải toán trước đó -- cả thành công lẫn thất bại -- thay vì chỉ tiếp nhận ví dụ một cách thụ
+động. Cơ chế cụ thể hiện thực hóa ý tưởng này sẽ được trình bày ở Mục~\ref{sec:knowledge-agnostic}.
+
+\section{Phân cụm K-means và biểu diễn ngữ nghĩa}
+\label{sec:kmeans}
+
+\subsection{Biểu diễn ngữ nghĩa và độ tương đồng cosine}
+
+Để máy tính so sánh ngữ nghĩa giữa các đoạn văn bản, mỗi đoạn được mã hóa thành một vector số thực
+trong không gian nhiều chiều, gọi là \textit{biểu diễn nhúng} (\textit{embedding}). Hai đoạn văn
+bản có ngữ nghĩa gần nhau sẽ có vector nhúng gần nhau. Độ gần thường được đo bằng \textit{độ tương
+đồng cosine} giữa hai vector $\mathbf{u}$ và $\mathbf{v}$:
+
+\begin{equation}
+\label{eq:cosine}
+\mathrm{cos}(\mathbf{u}, \mathbf{v}) =
+\frac{\mathbf{u} \cdot \mathbf{v}}{\lVert \mathbf{u} \rVert \, \lVert \mathbf{v} \rVert}
+= \frac{\sum_{i=1}^{d} u_i v_i}{\sqrt{\sum_{i=1}^{d} u_i^2} \, \sqrt{\sum_{i=1}^{d} v_i^2}}.
+\end{equation}
+
+Giá trị cosine nằm trong khoảng $[-1, 1]$; càng gần $1$ thì hai vector càng tương đồng. Trong khóa
+luận, độ tương đồng cosine được dùng cả ở khâu lọc hành động ứng viên (Mục~\ref{sec:knowledge-based})
+lẫn khâu liên kết thực thể (Mục~\ref{sec:vietnamese-adapt}).
+
+\subsection{Thuật toán K-means}
+
+\textit{K-means}~\cite{macqueen1967kmeans} là thuật toán phân cụm không giám sát kinh điển, nhằm
+chia một tập điểm dữ liệu thành $k$ cụm sao cho tổng bình phương khoảng cách từ mỗi điểm tới tâm
+cụm của nó là nhỏ nhất. Cho tập điểm $\{\mathbf{x}_1, \dots, \mathbf{x}_n\}$, thuật toán tìm $k$
+tâm cụm $\{\boldsymbol{\mu}_1, \dots, \boldsymbol{\mu}_k\}$ tối thiểu hóa hàm mục tiêu:
+
+\begin{equation}
+\label{eq:kmeans}
+J = \sum_{j=1}^{k} \sum_{\mathbf{x}_i \in C_j} \lVert \mathbf{x}_i - \boldsymbol{\mu}_j \rVert^2,
+\end{equation}
+
+trong đó $C_j$ là tập điểm thuộc cụm thứ $j$. Thuật toán lặp hai bước cho đến khi hội tụ: (1) gán
+mỗi điểm vào cụm có tâm gần nhất; (2) cập nhật lại tâm cụm bằng trung bình các điểm trong cụm.
+Trong khung ARI, K-means được dùng để phân loại các trace suy luận lịch sử thành các nhóm câu hỏi
+tương tự, từ đó chắt lọc phương pháp luận trừu tượng riêng cho từng nhóm (Mục~\ref{sec:knowledge-agnostic}).
+
+Quá trình lặp của K-means được tóm tắt trong Thuật toán~\ref{alg:kmeans}. Chất lượng phân cụm phụ
+thuộc vào cách khởi tạo tâm cụm: kỹ thuật \textit{k-means++} chọn các tâm khởi tạo phân tán nhau
+nhằm giảm nguy cơ hội tụ về một cực tiểu cục bộ xấu. Số cụm $k$ là siêu tham số phải chọn trước; số
+cụm quá ít khiến mỗi cụm trộn lẫn nhiều dạng câu hỏi khác nhau, còn quá nhiều khiến mỗi cụm có quá
+ít mẫu để chắt lọc phương pháp luận tốt. Ảnh hưởng của $k$ tới hiệu năng được khảo sát thực nghiệm
+ở Chương~\ref{ch:experiment}.
+
+\begin{algorithm}[ht]
+\caption{Thuật toán K-means}
+\label{alg:kmeans}
+\begin{algorithmic}[1]
+\Require Tập điểm $X = \{\mathbf{x}_1, \dots, \mathbf{x}_n\}$, số cụm $k$
+\Ensure Phân hoạch $\{C_1, \dots, C_k\}$ và tâm cụm $\{\boldsymbol{\mu}_1, \dots, \boldsymbol{\mu}_k\}$
+\State Khởi tạo $k$ tâm cụm (ví dụ bằng k-means++)
+\Repeat
+  \For{mỗi điểm $\mathbf{x}_i \in X$}
+    \State Gán $\mathbf{x}_i$ vào cụm $C_j$ với $j = \arg\min_{l} \lVert \mathbf{x}_i - \boldsymbol{\mu}_l \rVert^2$
+  \EndFor
+  \For{mỗi cụm $C_j$}
+    \State $\boldsymbol{\mu}_j \gets \dfrac{1}{|C_j|} \sum_{\mathbf{x}_i \in C_j} \mathbf{x}_i$
+  \EndFor
+\Until{các tâm cụm không thay đổi}
+\end{algorithmic}
+\end{algorithm}
+
+\section{Cross-encoder và bi-encoder}
+\label{sec:crossencoder-bg}
+
+Khi cần chấm điểm mức liên quan giữa hai đoạn văn bản (ví dụ một câu hỏi và một ứng viên trả lời),
+có hai kiến trúc phổ biến dựa trên mô hình ngôn ngữ tiền huấn luyện như BERT~\cite{devlin2019bert}:
+\textit{bi-encoder} và \textit{cross-encoder}~\cite{reimers2019sbert}. Hình~\ref{fig:bi-cross}
+minh họa sự khác biệt giữa hai kiến trúc.
+
+\begin{figure}[ht]
+  \centering
+  \fbox{\parbox{0.92\textwidth}{\centering\vspace{2mm}\footnotesize
+  \textbf{Bi-encoder:}\quad $a \rightarrow \mathrm{BERT} \rightarrow \mathbf{e}_a$ \;;\;
+  $b \rightarrow \mathrm{BERT} \rightarrow \mathbf{e}_b$ \;;\;
+  $\mathrm{score} = \mathrm{cos}(\mathbf{e}_a, \mathbf{e}_b)$\\[3mm]
+  \textbf{Cross-encoder:}\quad
+  $[\mathtt{CLS}]\,a\,[\mathtt{SEP}]\,b\,[\mathtt{SEP}] \rightarrow \mathrm{BERT}
+  \rightarrow \mathrm{Linear} \rightarrow \sigma \rightarrow \mathrm{score}$
+  \vspace{2mm}}}
+  \caption{So sánh bi-encoder (mã hóa độc lập hai đầu vào rồi đo cosine) và cross-encoder (mã hóa
+  đồng thời cặp đầu vào để nắm bắt tương tác ngữ cảnh). \todo{vẽ lại bằng TikZ cho rõ}}
+  \label{fig:bi-cross}
+\end{figure}
+
+\textbf{Bi-encoder} mã hóa hai đầu vào $a$ và $b$ \emph{một cách độc lập} thành hai vector
+$\mathbf{e}_a$, $\mathbf{e}_b$, rồi tính độ liên quan bằng độ tương đồng cosine theo
+Công thức~\eqref{eq:cosine}. Ưu điểm là hiệu quả tính toán: các vector có thể được tính trước và
+lưu trữ, nên việc so khớp rất nhanh, phù hợp với truy hồi quy mô lớn. Nhược điểm là do mã hóa độc
+lập, mô hình không nắm bắt được \emph{tương tác} trực tiếp giữa $a$ và $b$.
+
+\textbf{Cross-encoder} ngược lại nối hai đầu vào thành một chuỗi duy nhất
+$[\mathtt{CLS}]\,a\,[\mathtt{SEP}]\,b\,[\mathtt{SEP}]$ rồi đưa qua mô hình BERT, sau đó dùng một
+lớp tuyến tính kèm hàm sigmoid $\sigma(\cdot)$ để xuất ra điểm liên quan trong khoảng $(0, 1)$:
+
+\begin{equation}
+\label{eq:crossencoder}
+\mathrm{score}(a, b) = \sigma\!\left(\mathbf{w}^{\top}\,
+\mathrm{BERT}_{\mathtt{CLS}}\big([\mathtt{CLS}]\,a\,[\mathtt{SEP}]\,b\,[\mathtt{SEP}]\big) + c\right),
+\end{equation}
+
+trong đó $\mathbf{w}$ và $c$ là tham số của lớp tuyến tính, còn
+$\mathrm{BERT}_{\mathtt{CLS}}(\cdot)$ là vector biểu diễn tại vị trí $[\mathtt{CLS}]$. Vì hai đầu
+vào được mã hóa \emph{đồng thời}, cross-encoder nắm bắt được tương tác ngữ cảnh giữa chúng, cho độ
+chính xác cao hơn bi-encoder, đổi lại chi phí tính toán lớn hơn do không thể tính trước. Trong khóa
+luận, đặc tính \emph{nhận biết ngữ cảnh} này là cơ sở cho bộ lọc hành động đề xuất ở
+Mục~\ref{sec:crossencoder}: thay vì chỉ so khớp hành động với câu hỏi gốc bằng cosine, cross-encoder
+cho phép chấm điểm hành động \emph{trong bối cảnh lịch sử suy luận hiện tại}.
+
+\subsection{Huấn luyện và đánh đổi}
+
+Bộ chấm điểm cross-encoder được huấn luyện như một bộ phân loại nhị phân: mỗi mẫu là một cặp
+$(a, b)$ kèm nhãn $y \in \{0, 1\}$ cho biết $a$ có liên quan tới $b$ hay không, và mô hình tối
+thiểu hóa hàm mất mát \textit{entropy chéo nhị phân} (\textit{binary cross-entropy}):
+
+\begin{equation}
+\label{eq:bce}
+\mathcal{L} = -\frac{1}{N} \sum_{i=1}^{N}
+\Big[\, y_i \log s_i + (1 - y_i) \log (1 - s_i) \,\Big],
+\end{equation}
+
+trong đó $s_i = \mathrm{score}(a_i, b_i)$ là điểm dự đoán theo Công thức~\eqref{eq:crossencoder} và
+$N$ là số mẫu huấn luyện. Chất lượng mô hình phụ thuộc nhiều vào cách lấy \textit{mẫu âm}
+(\textit{negative sampling}) -- tức chọn các cặp không liên quan đủ ``khó'' để mô hình học được
+ranh giới phân biệt tinh tế.
+
+Bảng~\ref{tab:bicross} tóm tắt đánh đổi giữa hai kiến trúc. Trong thực tế, một mô thức phổ biến là
+dùng bi-encoder để \emph{truy hồi nhanh} một tập ứng viên rộng, rồi dùng cross-encoder để
+\emph{xếp hạng lại} (\textit{re-rank}) tập ứng viên nhỏ đó cho chính xác. Đây cũng chính là mô thức
+mà bộ lọc hành động đề xuất trong khóa luận áp dụng (Mục~\ref{sec:crossencoder}).
+
+\begin{table}[ht]
+\centering
+\caption{Đánh đổi giữa bi-encoder và cross-encoder.}
+\label{tab:bicross}
+\begin{tabular}{L{3.5cm} C{2.8cm} C{2.8cm} C{2.8cm}}
+\toprule
+\textbf{Kiến trúc} & \textbf{Mã hóa} & \textbf{Tính trước} & \textbf{Độ chính xác} \\
+\midrule
+Bi-encoder & Độc lập & Được & Thấp hơn \\
+Cross-encoder & Đồng thời & Không & Cao hơn \\
+\bottomrule
+\end{tabular}
+\end{table}
+
+\section{Nhận dạng thực thể có tên cho tiếng Việt}
+\label{sec:ner-bg}
+
+\textit{Nhận dạng thực thể có tên} (\textit{Named Entity Recognition} -- NER) là bài toán xác định
+và phân loại các cụm từ chỉ thực thể (người, tổ chức, địa điểm, \dots) trong văn bản. Trong hệ
+thống TKGQA, NER đóng vai trò bước đầu của \textit{liên kết thực thể} (\textit{entity linking}):
+trích xuất các cụm chỉ thực thể trong câu hỏi để ánh xạ về đúng nút trong đồ thị tri thức.
+
+Với tiếng Việt, các mô hình ngôn ngữ tiền huấn luyện như PhoBERT~\cite{nguyen2020phobert} hay các
+biến thể dựa trên ELECTRA~\cite{clark2020electra} đã đạt chất lượng cao trên nhiều tác vụ, trong đó
+có NER. Khóa luận sử dụng một mô hình NER tiếng Việt tiền huấn luyện sẵn có để trích xuất thực thể
+từ câu hỏi mở của người dùng, sau đó kết hợp với tìm kiếm tương đồng trong cơ sở dữ liệu vector để
+khớp về mã thực thể trong đồ thị; chi tiết được trình bày ở Mục~\ref{sec:vietnamese-adapt}.
+
+\section{Tổng kết chương}
+
+Chương này đã trình bày các nền tảng lý thuyết của khóa luận: từ đồ thị tri thức thời gian và phát
+biểu hình thức của bài toán TKGQA, qua mô hình ngôn ngữ lớn cùng các kỹ thuật tăng cường tri thức,
+suy luận có cấu trúc và bộ nhớ -- trong đó thuyết kiến tạo là nền tảng tư tưởng của ARI, đến các
+công cụ kỹ thuật như phân cụm K-means, biểu diễn ngữ nghĩa, cross-encoder và NER tiếng Việt. Những
+khái niệm này sẽ được vận dụng trực tiếp khi mô tả phương pháp đề xuất ở Chương~\ref{ch:method}.
+Trước đó, Chương~\ref{ch:related} điểm lại các công trình liên quan và định vị đóng góp của khóa
+luận trong bức tranh nghiên cứu chung.
+
+% ===================== Bảng ký hiệu ===================== %
+\begin{table}[ht]
+\centering
+\caption{Các ký hiệu toán học dùng xuyên suốt khóa luận.}
+\label{tab:notation}
+\begin{tabular}{c L{9.5cm}}
+\toprule
+\textbf{Ký hiệu} & \textbf{Ý nghĩa} \\
+\midrule
+$\mathcal{K}$ & Đồ thị tri thức thời gian $(\mathcal{E}, \mathcal{R}, \mathcal{T}, \mathcal{F})$ \\
+$\mathcal{E}, \mathcal{R}, \mathcal{T}$ & Tập thực thể, quan hệ, mốc thời gian \\
+$\mathcal{F}$ & Tập sự kiện thời gian (bộ bốn) \\
+$(s, r, o, \tau)$ & Một sự kiện: chủ thể, quan hệ, đối tượng, thời gian \\
+$q$ & Câu hỏi đầu vào \\
+$a$ & Đáp án (thực thể hoặc mốc thời gian) \\
+$e_h$ & Thực thể chủ thể (\textit{head}) của câu hỏi \\
+$G_{e_h}$ & Đồ thị con một bước của $e_h$ \\
+$P_t, P'_t$ & Tập hành động ứng viên (trước và sau khi lọc) tại bước $t$ \\
+$H_q$ & Tập lịch sử suy luận của câu hỏi $q$ \\
+$C_j, \boldsymbol{\mu}_j$ & Cụm thứ $j$ và tâm của nó \\
+$M_{C^*}$ & Phương pháp luận trừu tượng của cụm phù hợp nhất $C^*$ \\
+$\mathrm{cos}(\cdot, \cdot)$ & Độ tương đồng cosine \\
+\bottomrule
+\end{tabular}
+\end{table}

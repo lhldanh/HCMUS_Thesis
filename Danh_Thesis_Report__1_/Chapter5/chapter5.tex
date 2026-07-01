@@ -1,0 +1,343 @@
+\chapter{Thực nghiệm và Kết quả}
+\label{ch:experiment}
+
+Chương này trình bày quá trình đánh giá hệ thống. Trước hết, Mục~\ref{sec:data-stats} thống kê bộ
+dữ liệu CronQ-VN. Mục~\ref{sec:setup} mô tả thiết lập thực nghiệm, Mục~\ref{sec:baselines} giới
+thiệu các phương pháp so sánh và độ đo. Các mục tiếp theo lần lượt trả lời ba câu hỏi nghiên cứu:
+kết quả tổng (Mục~\ref{sec:overall-results}, CHNC1), nghiên cứu cắt bỏ (Mục~\ref{sec:ablation},
+CHNC2) và phân tích bộ lọc cross-encoder (Mục~\ref{sec:ce-analysis}, CHNC3). Cuối cùng,
+Mục~\ref{sec:error-analysis} và Mục~\ref{sec:discussion} phân tích hiệu quả suy luận, lỗi điển hình
+và bàn luận hạn chế.
+
+\medskip
+\noindent\textbf{Lưu ý:} tại thời điểm hoàn thiện bản thảo này, pha đánh giá định lượng đang được
+tiến hành. Các bảng kết quả ở Mục~\ref{sec:overall-results}--\ref{sec:ce-analysis} đã được dựng sẵn
+khung; các ô số liệu đánh dấu ``--'' sẽ được điền sau khi hoàn tất chạy đánh giá.
+
+\section{Bộ dữ liệu và thống kê}
+\label{sec:data-stats}
+
+Đồ thị tri thức thời gian nền của CronQ-VN, sau khi trích xuất và lọc từ Wikidata
+(Mục~\ref{sec:buildkg}), có quy mô tóm tắt trong Bảng~\ref{tab:kg-stats}.
+
+\begin{table}[ht]
+\centering
+\caption{Thống kê đồ thị tri thức thời gian nền của CronQ-VN.}
+\label{tab:kg-stats}
+\begin{tabular}{L{7.0cm} R{3.5cm}}
+\toprule
+\textbf{Thành phần} & \textbf{Số lượng} \\
+\midrule
+Sự kiện thời gian (bộ bốn) & $\sim$237.900 \\
+Thực thể có nhãn tiếng Việt & $\sim$37.580 \\
+Quan hệ & 271 \\
+Quan hệ ứng viên trong cấu hình & 21 \\
+Quan hệ có template (thực sự sinh câu hỏi) & 8 \\
+\bottomrule
+\end{tabular}
+\end{table}
+
+Từ đồ thị này, bộ câu hỏi CronQ-VN được sinh bằng cách \emph{liệt kê toàn bộ} câu hỏi hợp lệ (không
+lấy mẫu), thu được \textbf{539.584} câu. Bảng~\ref{tab:q-stats} trình bày phân bố theo loại: do sinh
+vét cạn nên phân bố phản ánh mật độ dữ kiện thực tế của từng loại (không đồng đều). Đáp án dạng thực
+thể chiếm đa số ($\sim$63\%) so với đáp án thời gian ($\sim$37\%, chỉ từ \texttt{simple\_time}) --
+một đặc điểm cần lưu ý khi phân tích kết quả theo kiểu đáp án. Để so sánh công bằng giữa các loại,
+pha đánh giá dùng \textbf{lấy mẫu phân tầng} cân bằng theo loại (Mục~\ref{sec:setup}).
+
+\begin{table}[ht]
+\centering
+\caption{Phân bố câu hỏi trong CronQ-VN theo loại.}
+\label{tab:q-stats}
+\begin{tabular}{L{4.5cm} C{3cm} C{3cm}}
+\toprule
+\textbf{Loại câu hỏi} & \textbf{Kiểu đáp án} & \textbf{Số câu} \\
+\midrule
+\texttt{simple\_entity} & Thực thể & 99.121 \\
+\texttt{simple\_time}   & Thời gian & 200.924 \\
+\texttt{before\_after}  & Thực thể & 170.561 \\
+\texttt{first\_last}    & Thực thể & 24.700 \\
+\texttt{time\_join}     & Thực thể & 44.278 \\
+\midrule
+\textbf{Tổng} & & \textbf{539.584} \\
+\bottomrule
+\end{tabular}
+\end{table}
+
+\section{Thiết lập thực nghiệm}
+\label{sec:setup}
+
+Toàn bộ pha suy luận được vận hành cục bộ. Bảng~\ref{tab:setup} liệt kê các siêu tham số và cấu
+hình mô hình, đặt theo đúng tinh thần §4.1 của~\cite{chen2024ari}.
+
+\begin{table}[ht]
+\centering
+\caption{Cấu hình thực nghiệm.}
+\label{tab:setup}
+\begin{tabular}{L{7.5cm} L{5.0cm}}
+\toprule
+\textbf{Thành phần / siêu tham số} & \textbf{Giá trị} \\
+\midrule
+Mô hình ngôn ngữ (suy luận / pha đánh giá) & Qwen (\texttt{qwen3:14b}, qua Ollama) \\
+Mô hình ngôn ngữ (chắt lọc methodology / pha học) & GPT-4o (\texttt{gpt-4o}, theo bản gốc) \\
+Mô hình nhúng & \texttt{nomic-embed-text} \\
+Nhiệt độ giải mã $T$ & 0 (tất định) \\
+Số mẫu lịch sử để học & 200 \\
+Số cụm K-means $k$ & 10 \\
+Số bước suy luận tối đa & 5 \\
+Số hành động giữ lại sau lọc (Top-K) & 12 \\
+Trần ứng viên trước khi lọc & 80 \\
+Kích thước tập kiểm thử (lấy mẫu phân tầng) & 200 \\
+\bottomrule
+\end{tabular}
+\end{table}
+
+Do tập kiểm thử lớn, chúng tôi áp dụng \textbf{lấy mẫu phân tầng} (\textit{stratified sampling}):
+rút một tập con gồm 200 câu hỏi cân đối theo loại để đánh giá ở mỗi lượt, đúng theo quy trình của
+bản gốc. Thiết lập phần cứng cụ thể (CPU/GPU, dung lượng bộ nhớ) và thời gian chạy trung bình mỗi
+câu hỏi được ghi nhận trong Bảng~\ref{tab:setup} \todo{bổ sung thông tin phần cứng và thời gian chạy
+khi đánh giá}.
+
+\section{Các phương pháp so sánh và độ đo}
+\label{sec:baselines}
+
+\subsection{Các phương pháp so sánh}
+
+Để làm rõ đóng góp của khung ARI, chúng tôi so sánh với một số phương pháp đại diện, được điều chỉnh
+cho bối cảnh tiếng Việt và cùng dùng mô hình ngôn ngữ cục bộ để bảo đảm so sánh công bằng:
+
+\begin{itemize}
+  \item \textbf{LLM trực tiếp:} mô hình ngôn ngữ lớn trả lời thẳng câu hỏi mà không truy cập đồ thị
+  tri thức. Phương pháp này đo năng lực suy luận thời gian dựa trên tri thức tham số sẵn có.
+  \item \textbf{KG-RAG:} truy hồi các sự kiện liên quan (tối đa một số lượng nhất định) từ đồ thị
+  theo thực thể và thời gian trong câu hỏi, đưa vào câu lệnh cho mô hình trả lời theo lối sinh tăng
+  cường bằng truy hồi~\cite{baek2023kaping}.
+  \item \textbf{CoT-KB:} kết hợp mô-đun tương tác tri thức vào khung chuỗi suy nghĩ
+  (CoT)~\cite{wei2022cot}, cho mô hình tương tác với đồ thị dưới sự dẫn dắt của các ví dụ mẫu.
+  \item \textbf{ReAct-KB:} biến thể của ReAct~\cite{yao2023react} tích hợp mô-đun không phụ thuộc
+  tri thức (cùng tập thao tác nguyên tử như ARI); mô hình chọn một hành động trong các ứng viên ở
+  mỗi bước, nhưng \emph{không} có hướng dẫn trừu tượng tùy biến theo câu hỏi.
+  \item \textbf{ARI (đề xuất):} hệ thống đầy đủ của khóa luận với phương pháp luận trừu tượng.
+\end{itemize}
+
+\noindent Cả bốn phương pháp so sánh đều được cài đặt trong mã nguồn và chạy bằng cùng mô hình ngôn
+ngữ cục bộ: ba baseline một lượt (\texttt{llm-only}, \texttt{kg-rag}, \texttt{cot-kb}) ở
+\texttt{ari/baselines.py}, baseline nhiều bước \texttt{react-kb} dùng chung vòng lặp hành động với
+ARI (\texttt{agent.run\_question(react=True)}). Tất cả gọi qua \texttt{evaluate.py -{}-method <tên>},
+chấm điểm bằng cùng hàm so khớp đáp án như ARI để bảo đảm độ đo đồng nhất.
+
+\subsection{Độ đo}
+
+Độ đo chính là \textbf{độ chính xác} (\textit{accuracy}) theo Công thức~\eqref{eq:accuracy}: tỉ lệ
+câu hỏi mà đáp án dự đoán nằm trong tập đáp án chuẩn. Kết quả được báo cáo ở ba mức: (i) tổng thể;
+(ii) theo độ phức tạp -- nhóm \emph{đơn giản} (\texttt{simple\_entity}, \texttt{simple\_time}) và
+nhóm \emph{phức tạp} (\texttt{before\_after}, \texttt{first\_last}, \texttt{time\_join}); và (iii)
+theo kiểu đáp án (thực thể so với thời gian). Việc tách nhỏ này giúp làm rõ phương pháp mạnh ở dạng
+suy luận nào.
+
+\section{Kết quả tổng (CHNC1)}
+\label{sec:overall-results}
+
+Bảng~\ref{tab:overall} trình bày độ chính xác của ARI so với các phương pháp so sánh trên CronQ-VN.
+
+\begin{table}[ht]
+\centering
+\caption{Độ chính xác trên CronQ-VN (đơn vị: \%). Các ô ``--'' sẽ được điền sau khi chạy đánh giá.}
+\label{tab:overall}
+\begin{tabular}{L{4.2cm} C{1.8cm} C{1.8cm} C{1.8cm} C{1.8cm} C{1.8cm}}
+\toprule
+\textbf{Phương pháp} & \textbf{Tổng} & \textbf{Đơn giản} & \textbf{Phức tạp} & \textbf{Thực thể} & \textbf{Thời gian} \\
+\midrule
+LLM trực tiếp & -- & -- & -- & -- & -- \\
+KG-RAG & -- & -- & -- & -- & -- \\
+CoT-KB & -- & -- & -- & -- & -- \\
+ReAct-KB & -- & -- & -- & -- & -- \\
+\textbf{ARI (đề xuất)} & -- & -- & -- & -- & -- \\
+\bottomrule
+\end{tabular}
+\end{table}
+
+\noindent\todo{điền số liệu Bảng~\ref{tab:overall} sau khi chạy \texttt{evaluate.py}; in đậm kết quả
+tốt nhất mỗi cột.}
+
+\medskip
+
+Dựa trên kết quả của phương pháp gốc trên tiếng Anh~\cite{chen2024ari} và đặc thù của CronQ-VN,
+chúng tôi \emph{kỳ vọng} các xu hướng sau, sẽ được kiểm chứng bằng số liệu thực tế:
+
+\begin{itemize}
+  \item \textbf{LLM trực tiếp đạt kết quả thấp}, đặc biệt với câu hỏi có đáp án là thời gian, do
+  hạn chế về tri thức thời gian và suy luận nhiều bước (Mục~\ref{sec:limitations}).
+  \item \textbf{Việc bổ sung tri thức (KG-RAG) cải thiện so với LLM trực tiếp} nhưng vẫn hạn chế do
+  nhiễu và giới hạn ngữ cảnh.
+  \item \textbf{ARI vượt trội ở nhóm câu hỏi phức tạp}, nơi hướng dẫn trừu tượng phát huy tác dụng
+  trong việc định hướng chuỗi suy luận nhiều bước.
+\end{itemize}
+
+Bảng~\ref{tab:byqtype} trình bày chi tiết độ chính xác của ARI theo từng loại câu hỏi, giúp xác
+định loại suy luận nào còn là thách thức.
+
+\begin{table}[ht]
+\centering
+\caption{Độ chính xác của ARI theo từng loại câu hỏi trên CronQ-VN (đơn vị: \%).}
+\label{tab:byqtype}
+\begin{tabular}{L{4.5cm} C{3cm}}
+\toprule
+\textbf{Loại câu hỏi} & \textbf{Độ chính xác} \\
+\midrule
+\texttt{simple\_entity} & -- \\
+\texttt{simple\_time}   & -- \\
+\texttt{before\_after}  & -- \\
+\texttt{first\_last}    & -- \\
+\texttt{time\_join}     & -- \\
+\bottomrule
+\end{tabular}
+\end{table}
+
+\section{Nghiên cứu cắt bỏ (CHNC2)}
+\label{sec:ablation}
+
+Để đánh giá vai trò của từng thành phần trong khung ARI, chúng tôi tiến hành nghiên cứu cắt bỏ
+(\textit{ablation study}), lần lượt loại bỏ một thành phần và đo mức suy giảm hiệu năng. Bốn biến
+thể được xét, theo~\cite{chen2024ari}:
+
+\begin{itemize}
+  \item \textbf{Bỏ hướng dẫn trừu tượng} (\textit{w/o Abstract Guidance}): mô hình tự suy luận
+  không có phương pháp luận. Biến thể này được hỗ trợ trực tiếp qua tùy chọn
+  \texttt{-{}-no-methodology} trong \texttt{evaluate.py}.
+  \item \textbf{Bỏ phân cụm lịch sử} (\textit{w/o History Cluster}): chắt lọc một phương pháp luận
+  chung từ toàn bộ lịch sử, không phân theo loại câu hỏi. Tái tạo bằng \texttt{learn -{}-k 1
+  -{}-resume} (dùng lại lịch sử đã chạy) rồi đánh giá với bộ nhớ một cụm này.
+  \item \textbf{Bỏ lọc hành động} (\textit{w/o Action Filter}): cho mô hình chọn trong toàn bộ hành
+  động sinh ra, không lọc Top-K. Hỗ trợ qua tùy chọn \texttt{-{}-no-action-filter} trong
+  \texttt{evaluate.py}.
+  \item \textbf{Bỏ ví dụ sai} (\textit{w/o Incorrect Examples}): chỉ dùng ví dụ đúng khi chắt lọc
+  phương pháp luận. Tái tạo bằng \texttt{learn -{}-no-incorrect -{}-resume}.
+\end{itemize}
+
+\begin{table}[ht]
+\centering
+\caption{Kết quả nghiên cứu cắt bỏ trên CronQ-VN (độ chính xác tổng, \%).}
+\label{tab:ablation}
+\begin{tabular}{L{6.5cm} C{3cm}}
+\toprule
+\textbf{Cấu hình} & \textbf{Độ chính xác} \\
+\midrule
+ARI (đầy đủ) & -- \\
+\quad bỏ hướng dẫn trừu tượng & -- \\
+\quad bỏ phân cụm lịch sử & -- \\
+\quad bỏ lọc hành động & -- \\
+\quad bỏ ví dụ sai & -- \\
+\bottomrule
+\end{tabular}
+\end{table}
+
+\noindent\todo{điền số liệu Bảng~\ref{tab:ablation}.} Theo kết quả của bản gốc, dự kiến việc bỏ
+hướng dẫn trừu tượng gây suy giảm mạnh nhất, khẳng định vai trò cốt lõi của phương pháp luận trừu
+tượng; việc bỏ phân cụm cũng làm giảm hiệu năng, cho thấy một phương pháp luận chung là không đủ cho
+các dạng câu hỏi khác nhau.
+
+\section{Phân tích bộ lọc cross-encoder (CHNC3)}
+\label{sec:ce-analysis}
+
+Phần này đánh giá riêng đóng góp thứ ba: thay bộ lọc Top-K thuần cosine bằng bộ lọc hai tầng
+cosine + cross-encoder (Mục~\ref{sec:crossencoder}). Chúng tôi so sánh hai cấu hình lọc trên cùng hệ
+thống ARI, theo ba khía cạnh: độ chính xác cuối cùng, \emph{độ phủ hành động đúng} (tỉ lệ bước mà
+hành động đúng được giữ lại sau lọc) và số bước suy luận trung bình.
+
+\begin{table}[ht]
+\centering
+\caption{So sánh bộ lọc cosine và bộ lọc cross-encoder trên CronQ-VN.}
+\label{tab:ce}
+\begin{tabular}{L{5.0cm} C{2.6cm} C{2.6cm} C{2.6cm}}
+\toprule
+\textbf{Bộ lọc} & \textbf{Độ chính xác} & \textbf{Độ phủ hành động đúng} & \textbf{Số bước TB} \\
+\midrule
+Cosine Top-K (gốc) & -- & -- & -- \\
+Cosine + Cross-encoder & -- & -- & -- \\
+\bottomrule
+\end{tabular}
+\end{table}
+
+\noindent\todo{điền số liệu Bảng~\ref{tab:ce} sau khi triển khai và huấn luyện cross-encoder.}
+
+Giả thuyết kiểm chứng là: bằng cách xếp hạng hành động \emph{theo ngữ cảnh lịch sử} thay vì chỉ theo
+câu hỏi gốc, bộ lọc cross-encoder giữ lại hành động đúng cho bước hiện tại với tỉ lệ cao hơn, qua đó
+nâng độ chính xác cuối cùng, nhất là ở các câu hỏi phức tạp nhiều bước. Chúng tôi cũng dự kiến khảo
+sát ảnh hưởng của kích thước tập ứng viên mà tầng cosine chọn ra trước khi đưa vào cross-encoder.
+
+\section{Hiệu quả suy luận và phân tích lỗi}
+\label{sec:error-analysis}
+
+\subsection{Hiệu quả suy luận}
+
+Ngoài độ chính xác, chúng tôi đánh giá \emph{hiệu quả suy luận} qua số bước trung bình mà hệ thống
+cần để đi tới đáp án. Theo bản gốc~\cite{chen2024ari}, hướng dẫn trừu tượng không chỉ tăng độ chính
+xác mà còn \emph{giảm} số bước suy luận, do mô hình được định hướng tốt hơn. Hình~\ref{fig:steps}
+(khung tạm) so sánh số bước trung bình khi có và không có hướng dẫn trừu tượng; số liệu sẽ được điền
+sau khi chạy.
+
+\begin{figure}[ht]
+  \centering
+  \fbox{\parbox{0.8\textwidth}{\centering\vspace{6mm}
+  \todo{biểu đồ cột: số bước suy luận trung bình, có vs không có hướng dẫn trừu tượng}
+  \vspace{6mm}}}
+  \caption{So sánh số bước suy luận trung bình khi có và không có hướng dẫn trừu tượng.}
+  \label{fig:steps}
+\end{figure}
+
+Bên cạnh đó, chúng tôi khảo sát ảnh hưởng của \emph{số cụm} $k$ tới hiệu năng (Hình~\ref{fig:clusters},
+khung tạm). Theo phân tích của bản gốc, hiệu năng tăng rồi giảm khi $k$ tăng: $k$ quá nhỏ khiến mỗi
+cụm trộn nhiều dạng câu hỏi nên phương pháp luận kém sắc nét, còn $k$ quá lớn khiến mỗi cụm có quá ít
+mẫu để chắt lọc phương pháp luận tốt; điểm tối ưu thường quanh $k = 10$.
+
+\begin{figure}[ht]
+  \centering
+  \fbox{\parbox{0.8\textwidth}{\centering\vspace{6mm}
+  \todo{biểu đồ đường: độ chính xác theo số cụm k (0--20)}
+  \vspace{6mm}}}
+  \caption{Ảnh hưởng của số cụm $k$ tới độ chính xác.}
+  \label{fig:clusters}
+\end{figure}
+
+\subsection{Phân tích lỗi}
+\label{sec:errors}
+
+Phân tích định tính các trường hợp sai cho thấy ba nhóm lỗi điển hình, tương đồng với quan sát của
+bản gốc~\cite{chen2024ari}:
+
+\begin{enumerate}
+  \item \textbf{Liên kết thực thể sai.} Hệ thống truy xuất nhầm thực thể từ đồ thị, thường do bước
+  liên kết thực thể ánh xạ cụm từ trong câu hỏi về sai mã định danh. Lỗi này lan truyền và làm sai
+  toàn bộ chuỗi suy luận phía sau.
+  \item \textbf{Phương pháp luận trừu tượng kém chất lượng.} Với một số dạng câu hỏi phức tạp mà
+  lịch sử suy luận hầu hết đều sai, mô hình không có đủ ví dụ đúng để chắt lọc phương pháp luận hiệu
+  quả, dẫn tới hướng dẫn kém và gây ra chuỗi lỗi nối tiếp.
+  \item \textbf{Đầu ra không tuân thủ định dạng.} Dù bị ràng buộc chỉ được chọn trong các hành động
+  ứng viên hoặc đưa ra đáp án, đôi khi mô hình ngôn ngữ lớn không tuân thủ chặt chỉ dẫn, khiến truy
+  vấn đồ thị thất bại và cản trở suy luận.
+\end{enumerate}
+
+Ba nhóm lỗi này gợi mở các hướng cải thiện: nâng cao chất lượng liên kết thực thể tiếng Việt, làm
+giàu nguồn ví dụ đúng cho việc chắt lọc phương pháp luận, và tăng độ tuân thủ định dạng của mô hình
+(ví dụ qua câu lệnh chặt chẽ hơn hoặc mô hình lớn hơn).
+
+\section{Bàn luận và hạn chế}
+\label{sec:discussion}
+
+Kết quả và phân tích trên cho thấy khung ARI là một hướng tiếp cận phù hợp cho bài toán TKGQA tiếng
+Việt, song vẫn còn một số hạn chế cần lưu ý.
+
+Thứ nhất, chất lượng của phương pháp luận trừu tượng \emph{phụ thuộc nhiều vào năng lực của mô hình
+ngôn ngữ lớn}. Khi vận hành cục bộ với mô hình quy mô vừa phải, chất lượng hướng dẫn có thể không
+bằng các mô hình thương mại lớn, ảnh hưởng tới hiệu năng -- đây là đánh đổi giữa tính khả triển khai
+cục bộ và độ mạnh của mô hình.
+
+Thứ hai, ARI dựa trên \emph{suy luận nhiều bước}, nên thời gian suy luận dài hơn so với trả lời trực
+tiếp; mỗi câu hỏi cần nhiều lần gọi mô hình, làm tăng chi phí tính toán.
+
+Thứ ba, phạm vi của khóa luận tập trung vào suy luận \emph{thời gian} trên đồ thị tri thức; hiệu quả
+của phương pháp trên các dạng suy luận khác chưa được khảo sát. Ngoài ra, bộ dữ liệu CronQ-VN hiện
+giới hạn ở hạt thời gian cấp \emph{năm} và một tập quan hệ tuyển chọn, nên chưa bao quát hết độ phức
+tạp của ngôn ngữ tự nhiên thực tế.
+
+Những hạn chế này định hướng cho các đề xuất cải tiến và mở rộng trình bày ở Chương~\ref{ch:conclusion}.

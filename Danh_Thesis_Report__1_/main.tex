@@ -1,0 +1,185 @@
+% ============================================================================ %
+% KHÓA LUẬN TỐT NGHIỆP - Liêu Hải Lưu Danh (MSSV 22120459)
+% Đề tài: Nghiên cứu phương pháp trả lời câu hỏi có ràng buộc về thời gian
+%         sử dụng suy luận trừu tượng (Abstract Reasoning for Temporal QA)
+% Template: KLTN ĐHKHTN (bhthong@fit.hcmus.edu.vn)
+% Build: BIB > PDF > PDF (xóa file build cũ trước khi build)
+% ============================================================================ %
+
+\documentclass[oneside,a4paper,14pt]{extreport}
+
+% Font tiếng Việt
+\usepackage[T5]{fontenc}
+\usepackage[utf8]{inputenc}
+\DeclareTextSymbolDefault{\DH}{T1}
+
+% Tài liệu tham khảo (IEEE) - tất cả tham khảo đều tiếng Anh -> một danh mục
+\usepackage[style=ieee]{biblatex}
+\usepackage[unicode]{hyperref}
+\addbibresource{References/references.bib}
+
+\makeatletter
+\def\blx@maxline{77}
+\makeatother
+
+% Hình
+\usepackage{graphicx}
+\graphicspath{ {Images/} }
+
+% Mã nguồn
+\usepackage{listings}
+\usepackage{listingsutf8}   % hỗ trợ UTF-8 (tiếng Việt) trong listing
+\usepackage{color}
+\definecolor{codegreen}{rgb}{0,0.6,0}
+\definecolor{codegray}{rgb}{0.5,0.5,0.5}
+\definecolor{codepurple}{rgb}{0.58,0,0.82}
+\definecolor{backcolour}{rgb}{0.95,0.95,0.92}
+\lstdefinestyle{mystyle}{
+    backgroundcolor=\color{backcolour},
+    extendedchars=true,
+    inputencoding=utf8,
+    commentstyle=\color{codegreen},
+    keywordstyle=\color{magenta},
+    numberstyle=\tiny\color{codegray},
+    stringstyle=\color{codepurple},
+    basicstyle=\footnotesize\ttfamily,
+    breakatwhitespace=false,
+    breaklines=true,
+    captionpos=b,
+    keepspaces=true,
+    numbers=left,
+    numbersep=5pt,
+    showspaces=false,
+    showstringspaces=false,
+    showtabs=false,
+    tabsize=2
+}
+\lstset{style=mystyle}
+
+% Mã giả
+\usepackage{amsmath}
+\usepackage{amssymb}
+\usepackage{algorithm}
+\usepackage[noend]{algpseudocode}
+\makeatletter
+\def\BState{\State\hskip-\ALG@thistlm}
+\makeatother
+
+% Danh sách đánh số tùy biến, định lý
+\usepackage{enumerate}
+\usepackage{amsthm}
+\newtheorem{definition}{Định nghĩa}[chapter]
+\newtheorem{theorem}{Định lý}[chapter]
+
+% Bảng biểu
+\usepackage{multirow}
+\usepackage{array}
+\usepackage{booktabs}
+\usepackage{longtable}
+\newcolumntype{L}[1]{>{\raggedright\let\newline\\\arraybackslash\hspace{0pt}}m{#1}}
+\newcolumntype{C}[1]{>{\centering\let\newline\\\arraybackslash\hspace{0pt}}m{#1}}
+\newcolumntype{R}[1]{>{\raggedleft\let\newline\\\arraybackslash\hspace{0pt}}m{#1}}
+
+% Macro đánh dấu nội dung/số liệu CẦN ĐIỀN SAU (đỏ-đậm, dễ tìm, bền với math/\texttt)
+\usepackage{xcolor}
+\newcommand{\todo}[1]{\textcolor{red}{\textbf{[CẦN ĐIỀN: #1]}}}
+
+% Đổi tên mặc định
+\renewcommand{\chaptername}{Chương}
+\renewcommand{\figurename}{Hình}
+\renewcommand{\tablename}{Bảng}
+\renewcommand{\contentsname}{Mục lục}
+\renewcommand{\listfigurename}{Danh sách hình}
+\renewcommand{\listtablename}{Danh sách bảng}
+\renewcommand{\appendixname}{Phụ lục}
+
+% Kích thước Chapter
+\usepackage{titlesec}
+\titleformat{\chapter}[display]
+  {\LARGE\bfseries}
+  {\chaptertitlename\ \thechapter}{18pt}{\huge}
+
+% Giãn dòng 1.5
+\usepackage{setspace}
+\onehalfspacing
+
+% Thụt đầu dòng
+\usepackage{indentfirst}
+
+% Lề
+\usepackage[top=30mm,bottom=25mm,left=30mm,right=20mm,includefoot]{geometry}
+
+% Bìa
+\usepackage{tikz}
+\usetikzlibrary{calc}
+\newcommand\HRule{\rule{\textwidth}{1pt}}
+
+% ============================================================================ %
+% Thông tin chung KLTN
+% ============================================================================ %
+\newcommand{\tenSV}{Liêu~Hải~Lưu~Danh}
+\newcommand{\mssv}{22120459}
+\newcommand{\tenKL}{Nghiên~cứu~phương~pháp~trả~lời~câu~hỏi~có~ràng~buộc~về~thời~gian~sử~dụng~suy~luận~trừu~tượng}
+\newcommand{\tenGVHD}{TS.~Nguyễn~Hồng~Bửu~Long \\ TS.~Lương~An~Vinh}
+\newcommand{\tenBM}{Công nghệ tri thức}
+
+\begin{document}
+
+\input{Title/title.tex}
+
+\cleardoublepage
+\pagenumbering{roman}
+
+\phantomsection
+\addcontentsline{toc}{chapter}{Lời cam đoan}
+\include{Appendix/commitment}
+
+\addcontentsline{toc}{chapter}{Thuyết minh chỉnh sửa đề tài}
+\include{Appendix/edit}
+
+\addcontentsline{toc}{chapter}{Nhận xét của giảng viên hướng dẫn}
+\include{Appendix/advisor}
+
+\addcontentsline{toc}{chapter}{Nhận xét của giảng viên phản biện}
+\include{Appendix/reviewer}
+
+\addcontentsline{toc}{chapter}{Lời cảm ơn}
+\include{Appendix/thanks}
+
+\addcontentsline{toc}{chapter}{Đề cương}
+\include{Appendix/proposal}
+
+\addcontentsline{toc}{chapter}{Mục lục}
+\tableofcontents
+
+\cleardoublepage
+\addcontentsline{toc}{chapter}{\listfigurename}
+\listoffigures
+
+\cleardoublepage
+\addcontentsline{toc}{chapter}{\listtablename}
+\listoftables
+
+\addcontentsline{toc}{chapter}{Tóm tắt}
+\include{Appendix/summary}
+
+\clearpage
+\pagenumbering{arabic}
+
+% ===== Các chương nội dung ===== %
+\include{Chapter1/chapter1}
+\include{Chapter2/chapter2}
+\include{Chapter3/chapter3}
+\include{Chapter4/chapter4}
+\include{Chapter5/chapter5}
+\include{Chapter6/chapter6}
+
+% Tài liệu tham khảo (toàn bộ tiếng Anh -> một danh mục thống nhất)
+\addcontentsline{toc}{chapter}{Tài liệu tham khảo}
+\printbibliography[title={Tài liệu tham khảo}]
+
+% Phụ lục
+\appendix
+\include{Appendix/appendix1}
+
+\end{document}

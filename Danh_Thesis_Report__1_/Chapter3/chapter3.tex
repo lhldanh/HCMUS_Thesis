@@ -1,0 +1,195 @@
+\chapter{Các công trình liên quan}
+\label{ch:related}
+
+Chương này khảo sát các hướng nghiên cứu liên quan tới khóa luận. Trước hết, chúng tôi điểm lại
+các mô hình hỏi đáp trên đồ thị tri thức thời gian theo lối truyền thống. Tiếp theo, chúng tôi xem
+xét hai hướng khai thác mô hình ngôn ngữ lớn cho suy luận: kết hợp tri thức ngoài và kết hợp bộ
+nhớ. Sau đó, chúng tôi giới thiệu các bộ dữ liệu TKGQA tiêu biểu và chỉ ra khoảng trống về dữ liệu
+tiếng Việt. Cuối cùng, Mục~\ref{sec:positioning} định vị đóng góp của khóa luận trong bức tranh
+nghiên cứu chung.
+
+\section{Các mô hình TKGQA truyền thống}
+\label{sec:trad-tkgqa}
+
+Các phương pháp TKGQA truyền thống có thể chia thành hai nhóm chính~\cite{chen2024ari}: nhóm dựa
+trên \textit{phân rã câu hỏi} và nhóm dựa trên \textit{biểu diễn nhúng}.
+
+\paragraph{Nhóm phân rã câu hỏi.} Tiêu biểu là TEQUILA~\cite{jia2018tequila}. Phương pháp này phân
+rã câu hỏi ban đầu thành các câu hỏi con cùng các ràng buộc thời gian, sử dụng các mô hình KGQA
+chuẩn để giải từng câu hỏi con, rồi thực hiện phân tích so sánh để chọn ra đáp án phù hợp nhất.
+Cách tiếp cận này phụ thuộc nhiều vào các luật được thiết kế thủ công để phân rã câu hỏi và xử lý
+ràng buộc thời gian, nên khó mở rộng sang các dạng câu hỏi đa dạng trong thực tế.
+
+\paragraph{Nhóm biểu diễn nhúng.} Hướng này biểu diễn thực thể, quan hệ và thời gian thành các
+vector nhúng, rồi cho điểm các đáp án ứng viên dựa trên độ tương đồng ngữ nghĩa. EmbedKGQA~
+\cite{saxena2020embedkgqa} ban đầu được thiết kế cho đồ thị tri thức \emph{tĩnh}: nó tận dụng biểu
+diễn nhúng của đồ thị để cải thiện hỏi đáp đa bước, nhưng bỏ qua thông tin thời gian.
+CronKGQA~\cite{saxena2021cronkgqa} mở rộng ý tưởng này cho đồ thị tri thức thời gian bằng cách dùng
+biểu diễn nhúng thời gian để đánh giá độ tương đồng khi xác định đáp án; phương pháp này hoạt động
+tốt với các câu hỏi đơn giản nhưng suy giảm rõ rệt với câu hỏi phức tạp đòi hỏi suy luận thời gian
+chuyên biệt. TempoQR~\cite{mavromatis2021tempoqr} khắc phục một phần bằng cách bổ sung thông tin
+phạm vi thời gian và làm giàu biểu diễn câu hỏi về mặt ngữ nghĩa.
+
+\paragraph{Hỏi đáp đa hạt thời gian.} MultiQA~\cite{chen2023multitq} hướng tới các câu hỏi có nhiều
+mức hạt thời gian (năm, tháng, ngày) thông qua một mô-đun tổng hợp thời gian dựa trên Transformer.
+Bên cạnh đó, hướng suy luận trên đồ thị con~\cite{chen2022subgraph} khai thác cấu trúc đồ thị con
+quanh thực thể trong câu hỏi để định hướng suy luận. Đáng chú ý, ý tưởng trích xuất và thao tác
+trên đồ thị con này cũng là nền tảng cho pha tương tác dựa trên tri thức trong khung ARI
+(Mục~\ref{sec:knowledge-based}).
+
+\paragraph{Mô hình ngôn ngữ tiền huấn luyện làm chuẩn so sánh.} Ngoài các mô hình chuyên biệt cho
+TKGQA, các mô hình ngôn ngữ tiền huấn luyện như BERT~\cite{devlin2019bert} cũng thường được dùng
+làm chuẩn so sánh: biểu diễn câu hỏi sinh từ mô hình được ghép với biểu diễn nhúng của thực thể và
+thời gian, rồi chấm điểm với toàn bộ thực thể và mốc thời gian thông qua tích vô hướng. Tuy nhiên,
+do không được thiết kế riêng cho suy luận thời gian, các mô hình này thường cho kết quả thấp, đặc
+biệt với câu hỏi có đáp án là mốc thời gian.
+
+Nhìn chung, các phương pháp truyền thống đều phụ thuộc vào luật thủ công hoặc biểu diễn nhúng được
+huấn luyện trên dữ liệu chuyên biệt. Chúng yêu cầu giai đoạn huấn luyện tốn kém, khó thích nghi với
+miền tri thức mới, và đặc biệt còn gặp khó khăn với các câu hỏi đòi hỏi suy luận thời gian tinh vi
+nhiều bước~\cite{chen2022subgraph}. Đây là động lực để chuyển sang khai thác năng lực suy luận linh
+hoạt của mô hình ngôn ngữ lớn.
+
+\section{Suy luận của mô hình ngôn ngữ lớn với tri thức ngoài}
+\label{sec:llm-external}
+
+Để giảm ảo giác và bổ sung tri thức, nhiều nghiên cứu tích hợp tri thức ngoài vào mô hình ngôn ngữ
+lớn. Theo cách phân loại của~\cite{baek2023kaping}, có hai hình thức: tiêm tri thức \textit{tường
+minh} và tiêm tri thức \textit{ngầm}.
+
+\paragraph{Tiêm tri thức tường minh.} Tri thức liên quan được cung cấp trực tiếp cho mô hình thông
+qua câu lệnh. KAPING~\cite{baek2023kaping} truy hồi các bộ ba liên quan tới câu hỏi từ đồ thị tri
+thức rồi nối vào câu lệnh, cho phép hỏi đáp ở chế độ \textit{zero-shot} mà không cần huấn luyện.
+CoK (Chain-of-Knowledge)~\cite{li2023cok} trước hết đánh giá độ tin cậy của câu trả lời, và khi cần
+thì dùng mô hình ngôn ngữ lớn phân rã câu hỏi rồi sinh các truy vấn để trích xuất thông tin từ
+nguồn tri thức ngoài. ChatKBQA~\cite{luo2023chatkbqa} tinh chỉnh mô hình ngôn ngữ lớn để sinh ra
+các truy vấn logic có thể thực thi trực tiếp trên đồ thị tri thức nhằm thu được đáp án.
+
+\paragraph{Khai thác tương tác và tri thức biểu trưng.} ToG (Think-on-Graph)~\cite{sun2023tog} coi
+mô hình ngôn ngữ lớn như một tác tử, cho phép nó khám phá tương tác các thực thể và quan hệ liên
+quan trên đồ thị tri thức rồi suy luận dựa trên tri thức truy xuất được. Symbol-LLM~
+\cite{xu2023symbolllm} đề xuất khung tinh chỉnh hai giai đoạn nhằm tích hợp tri thức biểu trưng
+(\textit{symbolic}) vào mô hình ngôn ngữ lớn, qua đó tăng cường năng lực suy luận.
+
+\paragraph{Hạn chế.} Việc tích hợp tri thức tuy giảm được ảo giác nhưng không phải không có thách
+thức. Tiêm tri thức tường minh thường khó thu được thông tin liên quan, chất lượng cao và bị giới
+hạn bởi độ dài ngữ cảnh hữu hạn; trong khi tiêm tri thức ngầm thường đòi hỏi tinh chỉnh tham số,
+vốn tốn kém. Với đồ thị tri thức thời gian, một câu hỏi có thể liên quan tới hàng nghìn sự kiện,
+khiến việc nhồi tri thức vào câu lệnh trở nên bất khả thi và dễ gây nhiễu. Khung ARI khắc phục bằng
+cách \emph{tách bạch} suy luận thành hai phần -- phần liên quan tri thức và phần không phụ thuộc tri
+thức -- nhờ đó tránh được đồng thời cả hai hạn chế trên.
+
+\section{Suy luận của mô hình ngôn ngữ lớn với bộ nhớ}
+\label{sec:llm-memory}
+
+Vì mô hình ngôn ngữ lớn thiếu bộ nhớ dài hạn, nhiều nghiên cứu trang bị cho nó cơ chế bộ nhớ để
+lưu và tái sử dụng kinh nghiệm. MemoChat~\cite{lu2023memochat} xây dựng và cập nhật một bản ghi nhớ
+(\textit{memo}) có cấu trúc, phân loại các đoạn hội thoại trong quá khứ rồi truy xuất theo chủ đề
+và tóm tắt. Reflexion~\cite{shinn2023reflexion} khai thác một bộ nhớ làm việc để lưu kinh nghiệm
+cho một tác vụ cụ thể, cải thiện hiệu năng qua nhiều lần thử; tuy nhiên lịch sử lưu trong bộ nhớ
+làm việc khó mang lại lợi ích cho các tác vụ có mục tiêu khác nhau. MemPrompt~\cite{madaan2022memprompt}
+thiết kế một bộ nhớ bền vững lưu phản hồi của người dùng để nhắc lại cho mô hình và cải thiện liên
+tục. RLEM~\cite{zhang2023rlem} sử dụng một bộ nhớ kinh nghiệm gắn với môi trường, hỗ trợ ra quyết
+định trong tương lai kể cả với mục tiêu tác vụ khác nhau. Thought Propagation~\cite{yu2023tp} nhấn
+mạnh khả năng khám phá và áp dụng tri thức từ các lời giải tương tự.
+
+\paragraph{Hạn chế.} Các phương pháp tăng cường bộ nhớ hiện nay phần lớn giới hạn ở việc
+\emph{tiếp nhận thụ động} thông tin lịch sử, bỏ qua việc \emph{chủ động kiến tạo} tri thức trừu
+tượng từ kinh nghiệm trước đó. Xuất phát từ thuyết kiến tạo (Mục~\ref{sec:memory-bg}), khung ARI
+cung cấp cho mô hình một quá trình học chủ động và liên tục, sản sinh tri thức ở dạng trừu tượng và
+tổng quát hóa được -- đây chính là điểm khác biệt cốt lõi mà khóa luận kế thừa và phát triển cho
+tiếng Việt.
+
+\section{Các bộ dữ liệu TKGQA}
+\label{sec:datasets}
+
+Hai bộ dữ liệu TKGQA được sử dụng rộng rãi nhất là CRONQUESTIONS và MULTITQ.
+
+\textbf{CRONQUESTIONS}~\cite{saxena2021cronkgqa} là bộ dữ liệu hỏi đáp trên đồ thị tri thức thời
+gian xây dựng từ Wikidata~\cite{vrandecic2014wikidata}, trong đó các thực thể và mốc thời gian xuất
+hiện trong câu hỏi đều được chú thích. Bộ dữ liệu gồm cả câu hỏi đơn giản lẫn phức tạp, được tổ
+chức thành năm loại: thực thể đơn, thời gian đơn, đồng thời (\textit{time join}), đầu/cuối
+(\textit{first/last}) và trước/sau (\textit{before/after}).
+
+\textbf{MULTITQ}~\cite{chen2023multitq} là bộ dữ liệu câu hỏi thời gian phức tạp với thông tin thời
+gian \emph{đa hạt} (năm, tháng, ngày), xây dựng từ kho sự kiện ICEWS~\cite{boschee2015icews}. So
+với các bộ dữ liệu trước, MULTITQ nổi bật ở quy mô lớn, hệ quan hệ phong phú và nhiều mức hạt thời
+gian, nhờ đó phản ánh tốt hơn các tình huống thực tế.
+
+\paragraph{Xây dựng và lọc đồ thị tri thức thời gian.} Chất lượng của một bộ dữ liệu TKGQA phụ
+thuộc trực tiếp vào chất lượng đồ thị tri thức nền. Trong lĩnh vực \textit{hoàn thiện đồ thị tri
+thức thời gian} (\textit{temporal knowledge base completion}), các nghiên cứu như~\cite{lacroix2020tkbc}
+thường áp dụng bước tiền xử lý lọc bỏ các quan hệ và thực thể quá hiếm để giữ lại phần đồ thị dày
+đặc, giàu thông tin và ổn định về mặt thống kê. Khóa luận kế thừa tinh thần lọc này khi trích xuất
+đồ thị tri thức thời gian tiếng Việt từ Wikidata: chỉ giữ các sự kiện có định tố thời gian, đồng
+thời loại bỏ quan hệ và thực thể có tần suất thấp (chi tiết ở Mục~\ref{sec:buildkg}).
+
+Điểm chung của hai bộ dữ liệu trên là đều dành cho \textbf{tiếng Anh}, với nhãn thực thể và quan hệ
+bằng tiếng Anh, xây dựng từ Wikidata hoặc ICEWS. Cho tới nay \emph{chưa có} bộ dữ liệu TKGQA nào
+dành cho tiếng Việt. Đây chính là khoảng trống mà khóa luận lấp đầy bằng bộ dữ liệu CronQ-VN
+(Mục~\ref{sec:cronqvn}), được trích xuất từ Wikidata với quy trình lọc lấy cảm hứng từ kỹ thuật
+hoàn thiện đồ thị tri thức thời gian~\cite{lacroix2020tkbc}. Bảng~\ref{tab:datasets} so sánh các
+bộ dữ liệu.
+
+\begin{table}[ht]
+\centering
+\caption{So sánh các bộ dữ liệu TKGQA.}
+\label{tab:datasets}
+\begin{tabular}{L{3.2cm} C{2.6cm} C{2.8cm} C{2cm} C{2.4cm}}
+\toprule
+\textbf{Bộ dữ liệu} & \textbf{Nguồn KG} & \textbf{Hạt thời gian} & \textbf{Ngôn ngữ} & \textbf{\# câu hỏi} \\
+\midrule
+CRONQUESTIONS & Wikidata & Năm & Anh & $\sim$410K \\
+MULTITQ & ICEWS & Năm/Tháng/Ngày & Anh & $\sim$500K \\
+\textbf{CronQ-VN} & Wikidata & Năm & \textbf{Việt} & $\sim$540K \\
+\bottomrule
+\end{tabular}
+\end{table}
+
+\section{Định vị đề tài}
+\label{sec:positioning}
+
+Bảng~\ref{tab:positioning} so sánh khóa luận với một số phương pháp đại diện trên các tiêu chí then
+chốt. So với các mô hình truyền thống, khóa luận khai thác mô hình ngôn ngữ lớn nên không cần huấn
+luyện lại biểu diễn nhúng cho từng miền. So với các phương pháp dùng mô hình ngôn ngữ lớn khác,
+khóa luận kế thừa khung ARI -- vốn kết hợp cả tương tác tri thức lẫn bộ nhớ kinh nghiệm trừu tượng.
+
+\begin{table}[ht]
+\centering
+\caption{Định vị khóa luận so với các phương pháp đại diện.}
+\label{tab:positioning}
+\begin{tabular}{L{3.4cm} C{2.6cm} C{1.8cm} C{1.8cm} C{2.2cm}}
+\toprule
+\textbf{Phương pháp} & \textbf{Nhóm} & \textbf{Dùng LLM} & \textbf{Bộ nhớ} & \textbf{Cần huấn luyện} \\
+\midrule
+CronKGQA & Nhúng & Không & Không & Có \\
+TempoQR & Nhúng & Không & Không & Có \\
+KG-RAG & LLM + tri thức & Có & Không & Không \\
+ReAct-KB & LLM tác tử & Có & Không & Không \\
+ARI (gốc) & LLM + bộ nhớ & Có & Có & Không \\
+\textbf{Khóa luận} & \textbf{LLM + bộ nhớ} & \textbf{Có (cục bộ)} & \textbf{Có} & \textbf{Không$^{*}$} \\
+\bottomrule
+\end{tabular}
+\end{table}
+
+\noindent{\footnotesize $^{*}$ Khung suy luận không cần huấn luyện; riêng bộ lọc cross-encoder đề
+xuất (đóng góp thứ ba) có một bước huấn luyện nhẹ cho bộ chấm điểm.}
+
+\medskip
+
+Trên cơ sở khảo sát trên, khóa luận xác định ba khoảng trống và đề ra hướng giải quyết tương ứng:
+
+\begin{enumerate}
+  \item \textbf{Khoảng trống về ngôn ngữ.} Toàn bộ các bộ dữ liệu và hệ thống TKGQA hiện có đều cho
+  tiếng Anh. Khóa luận xây dựng bộ dữ liệu TKGQA tiếng Việt CronQ-VN và một hệ thống hỏi đáp tương
+  ứng.
+  \item \textbf{Khoảng trống về triển khai cục bộ.} Các hệ thống dựa trên mô hình ngôn ngữ lớn phổ
+  biến phụ thuộc vào API thương mại. Khóa luận vận hành toàn bộ khung ARI bằng mô hình ngôn ngữ
+  chạy cục bộ, kèm cơ chế liên kết thực thể tiếng Việt cho câu hỏi mở.
+  \item \textbf{Khoảng trống về lọc hành động nhận biết ngữ cảnh.} Bộ lọc dựa trên độ tương đồng
+  cosine trong ARI gốc không nhận biết bước suy luận hiện tại. Khóa luận đề xuất thay thế bằng bộ
+  lọc dựa trên cross-encoder, mã hóa đồng thời hành động và lịch sử suy luận.
+\end{enumerate}
+
+Ba khoảng trống này định hình ba đóng góp của khóa luận, được trình bày chi tiết trong
+Chương~\ref{ch:method}.

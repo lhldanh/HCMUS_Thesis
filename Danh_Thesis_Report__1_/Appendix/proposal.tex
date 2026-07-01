@@ -1,0 +1,118 @@
+\chapter*{Đề cương}
+\label{proposal}
+
+\section*{1. Thông tin chung}
+
+\noindent
+\textbf{Tên đề tài:} Nghiên cứu phương pháp trả lời câu hỏi có ràng buộc về thời gian sử dụng suy
+luận trừu tượng (\textit{Abstract Reasoning for Temporal Question Answering}).
+
+\medskip
+\noindent
+\textbf{Người hướng dẫn:}
+\begin{itemize}
+  \item TS. Nguyễn Hồng Bửu Long (Khoa Công nghệ Thông tin).
+  \item TS. Lương An Vinh (Trường Đại học Công nghệ Sài Gòn).
+\end{itemize}
+
+\noindent
+\textbf{Sinh viên thực hiện:} Liêu Hải Lưu Danh (MSSV: 22120459).\\
+\textbf{Loại đề tài:} Nghiên cứu.\\
+\textbf{Thời gian thực hiện:} Từ 02/2026 đến 07/2026.
+
+\section*{2. Nội dung thực hiện}
+
+\subsection*{2.1. Giới thiệu về đề tài}
+
+Sự phát triển của các mô hình ngôn ngữ lớn (LLMs) đã thúc đẩy mạnh mẽ các hệ thống Hỏi--Đáp tri
+thức. Tuy nhiên, các mô hình này vẫn gặp khó khăn trong những bài toán yêu cầu suy luận nhiều bước,
+đặc biệt trên đồ thị tri thức có yếu tố thời gian, nơi thông tin không chỉ cần được truy xuất mà còn
+phải được xử lý theo trình tự logic.
+
+Đề tài tập trung nghiên cứu và áp dụng phương pháp Suy luận Trừu tượng Quy nạp
+(\textit{Abstract Reasoning Induction} -- ARI)~\cite{chen2024ari} nhằm nâng cao năng lực suy luận
+cho hệ thống Hỏi--Đáp tri thức thời gian. Ý tưởng chính là học các chiến lược suy luận trừu tượng
+từ những bài toán đã giải trước đó, sau đó sử dụng các chiến lược này để định hướng quá trình giải
+quyết câu hỏi mới. Hệ thống được xây dựng theo hai thành phần: khối xử lý dựa trên tri thức để truy
+vấn và thao tác trên đồ thị tri thức, và khối suy luận sử dụng mô hình ngôn ngữ lớn để lựa chọn
+hành động phù hợp dựa trên hướng dẫn suy luận đã học.
+
+Ví dụ, với câu hỏi \textit{``Tổng thống Hoa Kỳ khi Chiến tranh Việt Nam kết thúc là ai?''}, hệ
+thống cần thực hiện nhiều bước suy luận: xác định thời điểm kết thúc Chiến tranh Việt Nam (1975),
+sau đó truy vấn ai là tổng thống Hoa Kỳ tại thời điểm đó. Những câu hỏi dạng này yêu cầu kết hợp
+thông tin thực thể, quan hệ và mốc thời gian trong đồ thị tri thức.
+
+\subsection*{2.2. Mục tiêu đề tài}
+
+Đề tài được thực hiện nhằm giải quyết các hạn chế trên thông qua việc áp dụng phương pháp ARI, cho
+phép hệ thống học và tái sử dụng các chiến lược suy luận trừu tượng từ dữ liệu lịch sử. Cách tiếp
+cận này giúp chuyển từ suy luận tức thời sang suy luận có định hướng, từ đó nâng cao hiệu quả giải
+quyết các câu hỏi phức tạp. Kết quả của đề tài góp phần cải thiện năng lực suy luận nhiều bước cho
+các hệ thống Hỏi--Đáp tri thức thời gian, phục vụ các ứng dụng thực tiễn như tra cứu sự kiện lịch
+sử, tiểu sử nhân vật và phân tích dữ liệu theo dòng thời gian.
+
+\subsection*{2.3. Phạm vi của đề tài}
+
+\textbf{Về lý thuyết:} đề tài nghiên cứu và ứng dụng phương pháp suy luận trừu tượng ARI cho bài
+toán hỏi--đáp trên đồ thị tri thức có yếu tố thời gian (\textit{Temporal Knowledge Graph Question
+Answering}), kết hợp khả năng suy luận của mô hình ngôn ngữ lớn với các thao tác truy xuất tri thức
+có cấu trúc.
+
+\textbf{Về đối tượng nghiên cứu:} đề tài tập trung vào các câu hỏi yêu cầu suy luận nhiều bước trên
+đồ thị con của đồ thị tri thức thời gian~\cite{chen2022subgraph}, đồng thời tham khảo các hướng kết
+hợp mô hình ngôn ngữ lớn với tri thức để hỏi--đáp trên đồ thị tri thức~\cite{baek2023kaping}.
+
+\textbf{Về nguồn dữ liệu:} đề tài sử dụng các bộ dữ liệu hỏi--đáp trên đồ thị tri thức thời gian đã
+công bố như MultiTQ~\cite{chen2023multitq} và CronQuestions~\cite{saxena2021cronkgqa} để tham chiếu,
+huấn luyện và đánh giá.
+
+\textbf{Về mô hình và hệ thống:} hệ thống được xây dựng theo kiến trúc hai pha gồm: (1) pha dựa trên
+tri thức để truy xuất và xử lý dữ liệu từ đồ thị, và (2) pha suy luận trừu tượng dùng mô hình ngôn
+ngữ lớn để lựa chọn và thực thi các hành động suy luận.
+
+\subsection*{2.4. Cách tiếp cận dự kiến}
+
+Hệ thống được xây dựng theo hai giai đoạn chính.
+
+\textbf{Giai đoạn thứ nhất (Knowledge-based Phase)} tập trung vào việc xử lý dữ liệu và tương tác
+với đồ thị tri thức thời gian: truy vấn, lọc và trích xuất thông tin liên quan dựa trên câu hỏi đầu
+vào, đồng thời ghi nhận các bước suy luận và kết quả trung gian.
+
+\textbf{Giai đoạn thứ hai (Abstract Reasoning Phase)} sử dụng mô hình ngôn ngữ lớn để tổng quát hóa
+các chuỗi hành động đã thực hiện thành các chiến lược suy luận trừu tượng. Các chiến lược này được
+lưu trữ và sử dụng làm hướng dẫn khi hệ thống xử lý các câu hỏi mới, giúp lựa chọn hành động suy
+luận phù hợp.
+
+Cụ thể, quá trình giải một câu hỏi gồm các bước: (1) tiền xử lý câu hỏi để xác định thực thể, quan
+hệ và yếu tố thời gian; (2) truy xuất tri thức từ đồ thị; (3) thực hiện chuỗi hành động suy luận;
+(4) trích xuất chiến lược suy luận trừu tượng từ các chuỗi hành động; (5) lưu trữ và tái sử dụng
+chiến lược; (6) áp dụng chiến lược phù hợp cho câu hỏi mới để xác định câu trả lời cuối cùng.
+
+\subsection*{2.5. Kết quả dự kiến của đề tài}
+
+\textbf{Về kết quả định lượng:} hệ thống được kỳ vọng cải thiện độ chính xác trong bài toán hỏi--đáp
+trên đồ thị tri thức có yếu tố thời gian so với các phương pháp suy luận trực tiếp bằng mô hình ngôn
+ngữ lớn. Các chỉ số đánh giá dự kiến bao gồm độ chính xác của câu trả lời, khả năng suy luận nhiều
+bước và hiệu quả truy xuất thông tin.
+
+\textbf{Về sản phẩm đầu ra:} đề tài dự kiến xây dựng một hệ thống thử nghiệm cho bài toán hỏi--đáp
+trên đồ thị tri thức có yếu tố thời gian, áp dụng phương pháp ARI, có khả năng nhận câu hỏi đầu vào,
+truy xuất thông tin, thực hiện suy luận nhiều bước và trả về câu trả lời tương ứng.
+
+\subsection*{2.6. Kế hoạch thực hiện}
+
+\begin{table}[ht]
+\centering
+\begin{tabular}{C{2.2cm} L{10.3cm}}
+\toprule
+\textbf{Thời gian} & \textbf{Kế hoạch} \\
+\midrule
+02/2026 & Khảo sát tài liệu liên quan đến hệ thống hỏi--đáp trên đồ thị tri thức, nghiên cứu phương pháp Abstract Reasoning Induction và các mô hình suy luận nhiều bước. \\
+03/2026 & Phân tích bài toán, xác định phạm vi nghiên cứu và thiết kế kiến trúc hệ thống cho bài toán hỏi--đáp trên Temporal Knowledge Graph. \\
+04/2026 & Xây dựng pipeline xử lý câu hỏi, cài đặt các mô-đun truy xuất tri thức và các thao tác suy luận cơ bản trên đồ thị tri thức. \\
+05/2026 & Tích hợp mô hình ngôn ngữ lớn để thực hiện suy luận trừu tượng và xây dựng cơ chế lưu trữ, tái sử dụng chiến lược suy luận. \\
+06/2026 & Thực nghiệm hệ thống trên bộ dữ liệu đã chọn, đánh giá kết quả và so sánh với các phương pháp liên quan. \\
+07/2026 & Phân tích kết quả, hoàn thiện hệ thống, viết báo cáo khóa luận và chuẩn bị trình bày kết quả nghiên cứu. \\
+\bottomrule
+\end{tabular}
+\end{table}

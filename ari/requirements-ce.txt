@@ -1,0 +1,6 @@
+# Chỉ cần khi train hoặc bật USE_CROSS_ENCODER. Core ari/ vẫn stdlib-only nếu tắt.
+torch
+transformers
+sentence-transformers
+pyvi
+pytest
