@@ -161,7 +161,7 @@ def gen_simple_time(kg: KG, pid: str, rng: random.Random):
         answers = [str(f["end"])]
     else:  # range
         answers = [str(f["start"]), str(f["end"])]
-    return {"question": q, "answers": answers, "answer_type": "time",
+    return {"question": q, "template": tmpl, "answers": answers, "answer_type": "time",
             "qtype": "simple_time", "subtype": subtype,
             "time_level": "year", "relation": pid,
             "entities": [f["s_qid"], f["o_qid"]]}
@@ -185,7 +185,7 @@ def gen_simple_entity(kg: KG, pid: str, rng: random.Random):
         cohort = [x for x in cohort if x["end"] is not None]
     answers = sorted({x["s_label"] for x in cohort})
     if not answers: return None
-    return {"question": q, "answers": answers, "answer_type": "entity",
+    return {"question": q, "template": tmpl, "answers": answers, "answer_type": "entity",
             "qtype": "simple_entity", "time_level": "year",
             "relation": pid, "year": year,
             "entities": [f["o_qid"]]}
@@ -251,7 +251,7 @@ def gen_before_after(kg: KG, pid: str, rng: random.Random):
     q = _fmt(tmpl, head=head_l, tail=tail_l, time=time_v)
     # Resolve qid của head/tail từ fact gốc (prev hoặc curr tuỳ subtype)
     anchor_fact = curr if subtype == "before" else prev
-    return {"question": q, "answers": answers, "answer_type": "entity",
+    return {"question": q, "template": tmpl, "answers": answers, "answer_type": "entity",
             "qtype": "before_after", "subtype": subtype,
             "anchor": "o" if o_anchor else "s",
             "time_level": "year", "relation": pid,
@@ -270,7 +270,7 @@ def gen_first_last(kg: KG, pid: str, rng: random.Random):
     target = fs_sorted[0] if subtype == "first" else fs_sorted[-1]
     q = _fmt(tmpl, head=target["s_label"], tail=target["o_label"])
     answers = [target["o_label"]]
-    return {"question": q, "answers": answers, "answer_type": "entity",
+    return {"question": q, "template": tmpl, "answers": answers, "answer_type": "entity",
             "qtype": "first_last", "subtype": subtype,
             "time_level": "year", "relation": pid,
             "entities": [target["s_qid"]]}
@@ -302,7 +302,7 @@ def gen_time_join(kg: KG, pid: str, rng: random.Random):
         tmpl = rng.choice(cfg)
         q = _fmt(tmpl, head=f1["s_label"], tail=f1["o_label"], time=s1)
         answers = sorted({x["s_label"] for x in cohort})
-        return {"question": q, "answers": answers, "answer_type": "entity",
+        return {"question": q, "template": tmpl, "answers": answers, "answer_type": "entity",
                 "qtype": "time_join", "time_level": "year",
                 "relation": pid, "year": s1,
                 "entities": [f1["s_qid"], f1["o_qid"]]}
