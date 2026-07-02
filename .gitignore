@@ -38,5 +38,5 @@ cronqvn/out/questions.json
 # Secrets
 .env
 
-# Cross-encoder model checkpoint (~540MB, >100MB GitHub limit) — tái tạo bằng ari.ce_train
-ari/artifacts/ce_model/
+# Cross-encoder model weights (~540MB, >100MB GitHub limit) — tái tạo bằng ari.ce_train
+ari/artifacts/ce_model/model.safetensors
