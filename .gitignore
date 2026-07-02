@@ -34,3 +34,9 @@ Thumbs.db
 ARI-QA/
 # Bộ câu hỏi sinh toàn bộ (~244MB, >100MB GitHub limit) — tái sinh bằng generate.py
 cronqvn/out/questions.json
+
+# Secrets
+.env
+
+# Cross-encoder model checkpoint (~540MB, >100MB GitHub limit) — tái tạo bằng ari.ce_train
+ari/artifacts/ce_model/

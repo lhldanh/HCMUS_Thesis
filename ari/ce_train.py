@@ -48,10 +48,12 @@ def evaluate_ranking(model, val: list[dict], top_k: int = 12) -> tuple[float, fl
     for rows in groups.values():
         if not any(r["label"] == 1 for r in rows):
             continue
-        pairs = [[S.segment(r["context_text"]), S.segment(r["action_text"])] for r in rows]
+        pairs = [[S.segment(r["context_text"]), S.segment(
+            r["action_text"])] for r in rows]
         scores = model.predict(pairs)
         order = sorted(range(len(rows)), key=lambda i: -scores[i])
-        best = min(rank for rank, i in enumerate(order, 1) if rows[i]["label"] == 1)
+        best = min(rank for rank, i in enumerate(
+            order, 1) if rows[i]["label"] == 1)
         n += 1
         hit += 1 if best <= top_k else 0
         mrr += 1.0 / best
@@ -85,6 +87,8 @@ def main():
     warmup = int(len(loader) * args.epochs * 0.1)
     model.fit(train_dataloader=loader, epochs=args.epochs, warmup_steps=warmup,
               optimizer_params={"lr": args.lr}, output_path=args.out)
+
+    model.save(args.out)
     print(f"[ce_train] saved -> {args.out}")
 
     hit, mrr, n = evaluate_ranking(model, val, top_k=config.TOP_K_ACTIONS)

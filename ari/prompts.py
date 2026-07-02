@@ -76,9 +76,9 @@ ACTION_SELECT_SYSTEM = (
     "- Hàm thực thể: get_tail_entity(HEAD, REL, [T]); get_head_entity(TAIL, REL, [T])\n"
     "- Hàm chọn lọc: get_first(LIST); get_last(LIST)\n"
     "- Trả lời: answer(GIÁ_TRỊ)\n\n"
-    # "Ví dụ tham khảo:\n"
-    # + ACTION_EXAMPLES
-    # + "(hết ví dụ)\n\n"
+    "Ví dụ tham khảo:\n"
+    + ACTION_EXAMPLES
+    + "(hết ví dụ)\n\n"
     "Quy tắc chọn hành động:\n"
     "- Chọn đúng MỘT hành động bằng cách lặp lại nguyên văn chuỗi nằm giữa hai dấu $.\n"
     "- Nếu hành động có chỗ trống {your specified time} thì THAY bằng một năm cụ thể "

@@ -1,0 +1,2977 @@
+[
+  {
+    "question": "Hermann Göring được vinh danh giải Đội quân sắt hạng hai vào năm nào?",
+    "qtype": "simple_time",
+    "answer_type": "time",
+    "qlabel": "Single",
+    "relation": "P166",
+    "gold": [
+      "1915"
+    ],
+    "method": "cot-kb",
+    "final_answer": "1915",
+    "correct": true,
+    "reply": "Dựa trên dữ kiện, Hermann Göring được trao giải thưởng Iron Cross 2nd Class vào năm 1915.\n\nĐáp án: 1915"
+  },
+  {
+    "question": "Vào lúc 1955, ai là học sinh/sinh viên của Cao đẳng Harvard?",
+    "qtype": "simple_entity",
+    "answer_type": "entity",
+    "qlabel": "Single",
+    "relation": "P69",
+    "gold": [
+      "Ted Kennedy"
+    ],
+    "method": "cot-kb",
+    "final_answer": "Ted Kennedy",
+    "correct": true,
+    "reply": "Dựa trên dữ kiện, các cá nhân được liệt kê cùng với khoảng thời gian học tập tại Cao đẳng Harvard. Năm 1955, chỉ có những người học tại Harvard trong khoảng thời gian bao gồm năm 1955 mới được xem là học sinh/sinh viên vào thời điểm đó. Trong dữ kiện, chỉ có Ted Kennedy học tại Harvard từ 1950–1956, do đó ông là người duy nhất học tại Harvard vào năm 1955.\n\nĐáp án: Ted Kennedy"
+  },
+  {
+    "question": "Giải nào được trao cho Heinrich Behnke sau năm 1971?",
+    "qtype": "before_after",
+    "answer_type": "entity",
+    "qlabel": "Single",
+    "relation": "P166",
+    "gold": [
+      "Arvo Pärt"
+    ],
+    "method": "cot-kb",
+    "final_answer": "không có giải thưởng nào được trao cho Heinrich Behnke sau năm 1971",
+    "correct": false,
+    "reply": "Dựa trên dữ kiện:\n- Heinrich Behnke được trao giải Officer of the Order of the Oak Crown vào năm 1971.\n- Không có thông tin nào cho thấy Heinrich Behnke được trao giải thưởng nào sau năm 1971.\n\nĐáp án: không có giải thưởng nào được trao cho Heinrich Behnke sau năm 1971."
+  },
+  {
+    "question": "Vào thời điểm 2022, đội hình Oldham Athletic A.F.C. có ai?",
+    "qtype": "simple_entity",
+    "answer_type": "entity",
+    "qlabel": "Single",
+    "relation": "P54",
+    "gold": [
+      "Tope Obadeyi"
+    ],
+    "method": "cot-kb",
+    "final_answer": "Tope Obadeyi",
+    "correct": true,
+    "reply": "Dựa trên dữ kiện, ta thấy rằng Tope Obadeyi là cầu thủ của Oldham Athletic A.F.C. vào năm 2022. Không có thông tin nào về các cầu thủ khác trong năm 2022.\n\nĐáp án: Tope Obadeyi"
+  },
+  {
+    "question": "Adolf Duclos giữ chức vụ nào đầu tiên?",
+    "qtype": "first_last",
+    "answer_type": "entity",
+    "qlabel": "Single",
+    "relation": "P39",
+    "gold": [
+      "kinh sĩ"
+    ],
+    "method": "cot-kb",
+    "final_answer": "kinh sĩ (1903)",
+    "correct": false,
+    "reply": "Dựa trên dữ kiện, Adolf Duclos giữ chức vụ kinh sĩ từ năm 1903–1925, và chức vụ cantor từ năm 1911–1925. Vì chức vụ kinh sĩ bắt đầu sớm hơn (1903) so với cantor (1911), nên chức vụ đầu tiên là kinh sĩ.\n\nĐáp án: kinh sĩ (1903)"
+  },
+  {
+    "question": "Sau giải Giải thưởng Otto Bayer, Helmut Schwarz còn nhận giải nào nữa?",
+    "qtype": "before_after",
+    "answer_type": "entity",
+    "qlabel": "Single",
+    "relation": "P166",
+    "gold": [
+      "Giải Gottfried Wilhelm Leibniz"
+    ],
+    "method": "cot-kb",
+    "final_answer": "Giải Gottfried Wilhelm Leibniz (1990)",
+    "correct": false,
+    "reply": "Dựa trên dữ kiện:\n- Helmut Schwarz đã nhận giải Otto Bayer Award vào năm 1989.\n- Sau năm 1989, ông tiếp tục nhận nhiều giải thưởng khác như Giải Gottfried Wilhelm Leibniz (1990), Max Planck Research Award (1991), tiến sĩ danh dự của Đại học Do Thái Jerusalem (1992), Huy chương Liebig (1998), v.v.\n\nĐáp án: Giải Gottfried Wilhelm Leibniz (1990)"
+  },
+  {
+    "question": "Giải thưởng đầu tiên trong sự nghiệp của Ivan Nikiforovich Stepanenko là gì?",
+    "qtype": "first_last",
+    "answer_type": "entity",
+    "qlabel": "Single",
+    "relation": "P166",
+    "gold": [
+      "Huân chương Cờ đỏ"
+    ],
+    "method": "cot-kb",
+    "final_answer": "Huân chương Cờ đỏ (1942)",
+    "correct": false,
+    "reply": "Dựa trên dữ kiện, các giải thưởng của Ivan Nikiforovich Stepanenko được liệt kê theo thời gian bắt đầu từ năm 1942. Giải thưởng đầu tiên được trao cho ông là Huân chương Cờ đỏ (1942).\n\nĐáp án: Huân chương Cờ đỏ (1942)"
+  },
+  {
+    "question": "Sau giải Huy chương vàng Olympic, Indira Gandhi còn nhận giải nào nữa?",
+    "qtype": "before_after",
+    "answer_type": "entity",
+    "qlabel": "Single",
+    "relation": "P166",
+    "gold": [
+      "Giải thưởng Hòa bình Quốc tế Lenin"
+    ],
+    "method": "cot-kb",
+    "final_answer": "Giải thưởng Hòa bình Quốc tế Lenin (1984)",
+    "correct": false,
+    "reply": "Dựa trên dữ kiện, Indira Gandhi đã nhận giải Huy chương vàng Olympic vào năm 1983. Ngoài ra, bà còn nhận thêm một số giải thưởng khác sau năm 1983, bao gồm Giải thưởng Hòa bình Quốc tế Lenin (1984), Giải Jawaharlal Nehru (1984), và Huân chương José Martí (1985).\n\nĐáp án: Giải thưởng Hòa bình Quốc tế Lenin (1984)"
+  },
+  {
+    "question": "Đồng nghiệp của John Elliott ở Viện nghiên cứu cao cấp Princeton là ai?",
+    "qtype": "time_join",
+    "answer_type": "entity",
+    "qlabel": "Multiple",
+    "relation": "P108",
+    "gold": [
+      "André Weil",
+      "Freeman Dyson",
+      "Harish-Chandra",
+      "Hassler Whitney",
+      "Hirosi Ooguri",
+      "John Milnor"
+    ],
+    "method": "cot-kb",
+    "final_answer": "Không có thông tin",
+    "correct": false,
+    "reply": "Dữ kiện không cung cấp thông tin nào về John Elliott hoặc đồng nghiệp của ông tại Viện nghiên cứu cao cấp Princeton.\n\nĐáp án: Không có thông tin."
+  },
+  {
+    "question": "Chức vụ nào là khởi đầu sự nghiệp của Henry Campbell-Bannerman?",
+    "qtype": "first_last",
+    "answer_type": "entity",
+    "qlabel": "Single",
+    "relation": "P39",
+    "gold": [
+      "Thành viên của Nghị viện Liên hiệp quốc gia kỳ thứ 20"
+    ],
+    "method": "cot-kb",
+    "final_answer": "member of the 20th Parliament of the United Kingdom (1868–1874)",
+    "correct": false,
+    "reply": "Bước 1: Xác định các chức vụ của Henry Campbell-Bannerman theo thời gian.  \nBước 2: Chức vụ đầu tiên theo thời gian là \"member of the 20th Parliament of the United Kingdom (1868–1874)\".  \nBước 3: Đây là chức vụ đầu tiên được ghi nhận trong dữ kiện, cho thấy đây là khởi đầu sự nghiệp chính trị của ông.  \n\nĐáp án: member of the 20th Parliament of the United Kingdom (1868–1874)"
+  },
+  {
+    "question": "Năm nào Andrey Antonovich Grechko được xướng tên cho giải Huân chương Lenin?",
+    "qtype": "simple_time",
+    "answer_type": "time",
+    "qlabel": "Single",
+    "relation": "P166",
+    "gold": [
+      "1968"
+    ],
+    "method": "cot-kb",
+    "final_answer": "Không có dữ kiện liên quan",
+    "correct": false,
+    "reply": "Dựa trên dữ kiện cung cấp, không có thông tin nào liên quan đến Andrey Antonovich Grechko nhận Huân chương Lenin. Tất cả các cá nhân và tổ chức được liệt kê đều không bao gồm Andrey Antonovich Grechko.\n\nĐáp án: Không có dữ kiện liên quan."
+  },
+  {
+    "question": "Miura Kazuyoshi là thành viên của Sociedade Esportiva Matsubara vào năm nào?",
+    "qtype": "simple_time",
+    "answer_type": "time",
+    "qlabel": "Single",
+    "relation": "P54",
+    "gold": [
+      "1986"
+    ],
+    "method": "cot-kb",
+    "final_answer": "1986, 1993, 1994, 1995",
+    "correct": false,
+    "reply": "Dựa trên dữ kiện, Miura Kazuyoshi là thành viên của Sociedade Esportiva Matsubara vào các năm 1986, 1993, 1994, và 1995.\n\nĐáp án: 1986, 1993, 1994, 1995"
+  },
+  {
+    "question": "Vào khoảng thời gian 1760, ai làm Quốc vương của Tây Ban Nha?",
+    "qtype": "simple_entity",
+    "answer_type": "entity",
+    "qlabel": "Single",
+    "relation": "P39",
+    "gold": [
+      "Carlos III của Tây Ban Nha"
+    ],
+    "method": "cot-kb",
+    "final_answer": "Carlos III của Tây Ban Nha",
+    "correct": true,
+    "reply": "Dựa trên dữ kiện, Carlos III của Tây Ban Nha giữ chức Quốc vương của Tây Ban Nha từ năm 1759 đến 1788. Năm 1760 nằm trong khoảng thời gian này.\n\nĐáp án: Carlos III của Tây Ban Nha"
+  },
+  {
+    "question": "Khi nào Dmitry Grazhdankin gia nhập Viện Paleontological, Viện Hàn lâm Khoa học Nga?",
+    "qtype": "simple_time",
+    "answer_type": "time",
+    "qlabel": "Single",
+    "relation": "P108",
+    "gold": [
+      "1993"
+    ],
+    "method": "cot-kb",
+    "final_answer": "1993",
+    "correct": true,
+    "reply": "Dựa trên dữ kiện:\n- Dmitry Grazhdankin — nhà tuyển dụng — Paleontological Institute, Russian Academy of Sciences (1993–2007)\n\nSuy luận:\n- Thời gian ông gia nhập Viện Paleontological, Viện Hàn lâm Khoa học Nga là năm 1993, vì đây là năm bắt đầu của khoảng thời gian ông làm việc tại đó.\n\nĐáp án: 1993"
+  },
+  {
+    "question": "Đồng đội của Howard Forinton tại Farnborough F.C. là những ai?",
+    "qtype": "time_join",
+    "answer_type": "entity",
+    "qlabel": "Multiple",
+    "relation": "P54",
+    "gold": [
+      "Jay Lovett",
+      "Lê-rô-i Grit-fo",
+      "Richard Pacquette"
+    ],
+    "method": "cot-kb",
+    "final_answer": "Không có đồng đội nào của Howard Forinton tại Farnborough F.C",
+    "correct": false,
+    "reply": "Dựa trên dữ kiện, Howard Forinton không từng là cầu thủ của Farnborough F.C. trong bất kỳ khoảng thời gian nào. Các thông tin liên quan đến Howard Forinton đều ghi rõ rằng ông là cầu thủ của các đội khác như Oxford City F.C., Yeovil Town F.C., Birmingham City F.C., v.v.\n\nĐáp án: Không có đồng đội nào của Howard Forinton tại Farnborough F.C."
+  },
+  {
+    "question": "Vào năm 1864, ai nắm giữ vị trí Thành viên của Hội đồng Liên bang Thụy Sĩ?",
+    "qtype": "simple_entity",
+    "answer_type": "entity",
+    "qlabel": "Single",
+    "relation": "P39",
+    "gold": [
+      "Emil Welti"
+    ],
+    "method": "cot-kb",
+    "final_answer": "Emil Welti",
+    "correct": true,
+    "reply": "Dựa trên dữ kiện, Emil Welti là Thành viên của Hội đồng Liên bang Thụy Sĩ từ năm 1857 đến năm 1866. Năm 1864 nằm trong khoảng thời gian này.\n\nĐáp án: Emil Welti"
+  },
+  {
+    "question": "Alonzo Church học tại trường nào lần đầu?",
+    "qtype": "first_last",
+    "answer_type": "entity",
+    "qlabel": "Single",
+    "relation": "P69",
+    "gold": [
+      "Đại học Princeton"
+    ],
+    "method": "cot-kb",
+    "final_answer": "Đại học Princeton",
+    "correct": true,
+    "reply": "Dựa trên dữ kiện, Alonzo Church học tại Đại học Princeton từ năm 1920 đến 1927. Đây là trường đầu tiên được ghi nhận trong dữ liệu.\n\nĐáp án: Đại học Princeton"
+  },
+  {
+    "question": "Bậc học cao nhất của Sergey Pavlovich Korolyov là ở trường nào?",
+    "qtype": "first_last",
+    "answer_type": "entity",
+    "qlabel": "Single",
+    "relation": "P69",
+    "gold": [
+      "Đại học Tổng hợp Kỹ thuật Moskva Bauman"
+    ],
+    "method": "cot-kb",
+    "final_answer": "Đại học Tổng hợp Kỹ thuật Moskva Bauman",
+    "correct": true,
+    "reply": "Dựa trên dữ kiện, Sergey Pavlovich Korolyov đã học tại Igor Sikorsky Kyiv Polytechnic Institute từ năm 1924 đến 1926, sau đó tiếp tục học tại Đại học Tổng hợp Kỹ thuật Moskva Bauman vào năm 1926. Không có thông tin nào cho thấy ông đã học tại một trường đại học khác hoặc đạt được bằng cấp cao hơn. Do đó, bậc học cao nhất được ghi nhận là từ Đại học Tổng hợp Kỹ thuật Moskva Bauman.\n\nĐáp án: Đại học Tổng hợp Kỹ thuật Moskva Bauman"
+  },
+  {
+    "question": "Lily Tomlin nhận giải thưởng nào sau khi nhận Hội trường danh vọng phụ nữ Michigan?",
+    "qtype": "before_after",
+    "answer_type": "entity",
+    "qlabel": "Single",
+    "relation": "P166",
+    "gold": [
+      "Giải thưởng Mark Twain cho Humor Mỹ"
+    ],
+    "method": "cot-kb",
+    "final_answer": "Mark Twain Prize for American Humor (2003)",
+    "correct": false,
+    "reply": "Dựa trên dữ kiện:\n- Lily Tomlin nhận giải thưởng Michigan Women's Hall of Fame vào năm 1998.\n- Sau năm 1998, Lily Tomlin nhận một số giải thưởng như:\n  - Mark Twain Prize for American Humor (2003)\n  - Lucy Award (2003)\n  - Primetime Emmy Award for Outstanding Voice-Over Performance (2013)\n  - Kennedy Center Honors (2014)\n  - Screen Actors Guild Life Achievement Award (2017)\n\nTrong số các giải thưởng này, giải thưởng đầu tiên mà Lily Tomlin nhận sau khi được trao giải Michigan Women's Hall of Fame là **Mark Twain Prize for American Humor (2003)**.\n\nĐáp án: Mark Twain Prize for American Humor (2003)"
+  },
+  {
+    "question": "Đội bóng đầu đời của Sílvio César Ferreira da Costa là gì?",
+    "qtype": "first_last",
+    "answer_type": "entity",
+    "qlabel": "Single",
+    "relation": "P54",
+    "gold": [
+      "Fluminense Football Club"
+    ],
+    "method": "cot-kb",
+    "final_answer": "Fluminense Football Club",
+    "correct": true,
+    "reply": "Dựa trên dữ kiện, Sílvio César Ferreira da Costa bắt đầu sự nghiệp bóng đá tại Fluminense Football Club vào năm 1988. Đây là đội bóng đầu tiên được ghi nhận trong dữ liệu.\n\nĐáp án: Fluminense Football Club"
+  },
+  {
+    "question": "Ai cùng thi đấu cho Đội tuyển U21 bóng đá quốc gia Bồ Đào Nha với Hugo Almeida trong cùng giai đoạn?",
+    "qtype": "time_join",
+    "answer_type": "entity",
+    "qlabel": "Multiple",
+    "relation": "P54",
+    "gold": [
+      "Beto",
+      "Daniel Fernandes",
+      "Edinho",
+      "Jorge Ribeiro",
+      "João Pereira",
+      "Vitorino Antunes"
+    ],
+    "method": "cot-kb",
+    "final_answer": "João Pereira, Edinho, Daniel Fernandes",
+    "correct": false,
+    "reply": "Dựa trên dữ kiện, Hugo Almeida thi đấu cho Đội tuyển U21 bóng đá quốc gia Bồ Đào Nha từ năm 2004–2007. Trong giai đoạn này, những người cùng thi đấu với anh bao gồm:\n\n- João Pereira (2004–2007)\n- Edinho (2004)\n- Daniel Fernandes (2004)\n- Vitorino Antunes (2007–2008) – tuy có phần giao叠, nhưng không hoàn toàn trùng khớp với giai đoạn 2004–2007\n- Nélson Oliveira (2011–2013) – không trùng với giai đoạn của Hugo Almeida\n- Bruma (2013–2017) – không trùng với giai đoạn của Hugo Almeida\n\nDo đó, những người cùng thi đấu với Hugo Almeida trong giai đoạn 2004–2007 là:\n\n- João Pereira\n- Edinho\n- Daniel Fernandes\n\nĐáp án: João Pereira, Edinho, Daniel Fernandes"
+  },
+  {
+    "question": "Miroslav Grebeníček giữ chức vụ Thành viên của Hạ viện Quốc hội Cộng hòa Séc từ năm nào?",
+    "qtype": "simple_time",
+    "answer_type": "time",
+    "qlabel": "Single",
+    "relation": "P39",
+    "gold": [
+      "2002"
+    ],
+    "method": "cot-kb",
+    "final_answer": "1990",
+    "correct": false,
+    "reply": "Dựa trên dữ kiện, Miroslav Grebeníček giữ chức vụ \"Member of the Chamber of Deputies of the Parliament of the Czech Republic\" từ năm 1990–1992, sau đó tiếp tục giữ chức vụ này từ năm 1996–1998, 1998–2002, 2002–2006, và 2006–2010.\n\nĐáp án: 1990"
+  },
+  {
+    "question": "Tổ chức cuối cùng mà Oman gia nhập là?",
+    "qtype": "first_last",
+    "answer_type": "entity",
+    "qlabel": "Single",
+    "relation": "P463",
+    "gold": [
+      "Tổ chức Hải quan Thế giới"
+    ],
+    "method": "cot-kb",
+    "final_answer": "Apostille Convention (2011)",
+    "correct": false,
+    "reply": "Xét các dữ kiện về thời gian gia nhập tổ chức, tổ chức có thời gian gia nhập cuối cùng là \"Apostille Convention\" với thời gian là 2011.\n\nĐáp án: Apostille Convention (2011)"
+  },
+  {
+    "question": "Ai có chung khoảng thời gian học tại Đại học London với David Bates?",
+    "qtype": "time_join",
+    "answer_type": "entity",
+    "qlabel": "Multiple",
+    "relation": "P69",
+    "gold": [
+      "Claude Ambrose Rogers",
+      "Kenneth O. May"
+    ],
+    "method": "cot-kb",
+    "final_answer": "Claude Ambrose Rogers",
+    "correct": true,
+    "reply": "Dựa trên dữ kiện:\n- David Bates học tại Queen's University Belfast từ (1934–1938).\n- David Bates học tại Đại học London từ (1938–1939).\n- Các cá nhân khác học tại Đại học London trong khoảng thời gian (1938–1939) là Claude Ambrose Rogers (1938–1941) và Kenneth O. May (1937–1938). Tuy nhiên, chỉ Claude Ambrose Rogers có thời gian học giao叠 với David Bates tại Đại học London (1938–1939).\n\nĐáp án: Claude Ambrose Rogers"
+  },
+  {
+    "question": "Giải thưởng cuối cùng Tom Lantos từng nhận là?",
+    "qtype": "first_last",
+    "answer_type": "entity",
+    "qlabel": "Single",
+    "relation": "P166",
+    "gold": [
+      "Đạo hàm của Huân chương Danh dự Hungary"
+    ],
+    "method": "cot-kb",
+    "final_answer": "Grand Cross of the Order of Merit of Hungary (2008)",
+    "correct": false,
+    "reply": "Dựa trên dữ kiện, các giải thưởng Tom Lantos từng nhận được liệt kê theo thời gian như sau:\n- Order of the Three Stars, 2nd Class (2001)\n- Commander with Star of the Order of Merit of Hungary (2003)\n- Great Immigrants Award (2006)\n- Huân chương Tự do Tổng thống (2008)\n- Grand Cross of the Order of Merit of Hungary (2008)\n\nGiải thưởng cuối cùng theo thời gian là Grand Cross of the Order of Merit of Hungary (2008).\n\nĐáp án: Grand Cross of the Order of Merit of Hungary (2008)"
+  },
+  {
+    "question": "Richard Blumenthal nhậm chức Luật sư Hoa Kỳ năm nào?",
+    "qtype": "simple_time",
+    "answer_type": "time",
+    "qlabel": "Single",
+    "relation": "P39",
+    "gold": [
+      "1977"
+    ],
+    "method": "cot-kb",
+    "final_answer": "1977",
+    "correct": true,
+    "reply": "Dựa trên dữ kiện:\n- Richard Blumenthal — chức vụ — Luật sư Hoa Kỳ (1977–1981)\n\nSuy luận:\n- Dữ kiện cho thấy Richard Blumenthal bắt đầu nhậm chức Luật sư Hoa Kỳ vào năm 1977.\n\nĐáp án: 1977"
+  },
+  {
+    "question": "Ai chơi cùng Robert de Pinho de Souza ở Coritiba Foot Ball Club?",
+    "qtype": "time_join",
+    "answer_type": "entity",
+    "qlabel": "Multiple",
+    "relation": "P54",
+    "gold": [
+      "Cesar Prates",
+      "Dedimar Souza Lima",
+      "Valdeci Basílio da Silva",
+      "Válber Roel de Oliveira"
+    ],
+    "method": "cot-kb",
+    "final_answer": "Valdeci Basílio da Silva, Dedimar Souza Lima, Válber Roel de Oliveira, Ricardo Souza Silva, Edmílson Matias, Enílton Menezes de Miranda, Abedi",
+    "correct": false,
+    "reply": "Dựa trên dữ kiện, Robert de Pinho de Souza đã chơi cho Coritiba Foot Ball Club từ năm 1999–2000. Trong khoảng thời gian này, các cầu thủ cùng đội với anh bao gồm:\n\n- Valdeci Basílio da Silva  \n- Dedimar Souza Lima  \n- Válber Roel de Oliveira  \n- Ricardo Souza Silva  \n- Edmílson Matias  \n- Enílton Menezes de Miranda  \n- Abedi  \n\nĐáp án: Valdeci Basílio da Silva, Dedimar Souza Lima, Válber Roel de Oliveira, Ricardo Souza Silva, Edmílson Matias, Enílton Menezes de Miranda, Abedi"
+  },
+  {
+    "question": "Bruno Simão rời FC UTA Arad năm nào?",
+    "qtype": "simple_time",
+    "answer_type": "time",
+    "qlabel": "Single",
+    "relation": "P54",
+    "gold": [
+      "2008"
+    ],
+    "method": "cot-kb",
+    "final_answer": "2008",
+    "correct": true,
+    "reply": "Dựa trên dữ kiện, Bruno Simão là cầu thủ của FC UTA Arad từ năm 2006–2008. Sau đó, không có thông tin nào cho thấy anh trở lại FC UTA Arad sau năm 2008. Các giai đoạn tiếp theo của anh đều ở các câu lạc bộ khác, không liên quan đến FC UTA Arad.\n\nĐáp án: 2008"
+  },
+  {
+    "question": "Vào thời điểm 2003, đội hình Girona FC có ai?",
+    "qtype": "simple_entity",
+    "answer_type": "entity",
+    "qlabel": "Single",
+    "relation": "P54",
+    "gold": [
+      "Diego Ribera"
+    ],
+    "method": "cot-kb",
+    "final_answer": "Diego Ribera",
+    "correct": true,
+    "reply": "Dựa trên dữ kiện, vào năm 2003, Diego Ribera là cầu thủ của Girona FC (2003–2004). Không có thông tin về các cầu thủ khác trong giai đoạn này.\n\nĐáp án: Diego Ribera"
+  },
+  {
+    "question": "Ai là người đảm nhận chức Chủ tịch Hạ viện vào thời điểm 1835?",
+    "qtype": "simple_entity",
+    "answer_type": "entity",
+    "qlabel": "Multiple",
+    "relation": "P39",
+    "gold": [
+      "John Russell, Bá tước Russell thứ nhất",
+      "Robert Peel"
+    ],
+    "method": "cot-kb",
+    "final_answer": "John Russell, 1st Earl Russell",
+    "correct": false,
+    "reply": "Dựa trên dữ kiện, ta thấy rằng John Russell, 1st Earl Russell đảm nhận chức vụ Leader of the House of Commons từ năm 1835–1841. Do đó, vào thời điểm năm 1835, người đảm nhận chức Chủ tịch Hạ viện là John Russell, 1st Earl Russell.\n\nĐáp án: John Russell, 1st Earl Russell"
+  },
+  {
+    "question": "Ai chơi cùng Mauricio Pinilla ở Palermo F.C.?",
+    "qtype": "time_join",
+    "answer_type": "entity",
+    "qlabel": "Multiple",
+    "relation": "P54",
+    "gold": [
+      "Antonio Nocerino",
+      "Egidio Arévalo Rios",
+      "Manuele Blasi",
+      "Michele Paolucci"
+    ],
+    "method": "cot-kb",
+    "final_answer": "Manuele Blasi, Michele Paolucci, Egidio Arévalo Rios",
+    "correct": false,
+    "reply": "Dựa trên dữ kiện, Mauricio Pinilla đã chơi cho Palermo F.C. từ năm 2010–2012. Các cầu thủ khác cũng chơi cho Palermo F.C. trong khoảng thời gian này bao gồm:\n\n- Manuele Blasi (2009–2010): Có thể đã chơi cùng Pinilla trong một phần thời gian (2010).\n- Michele Paolucci (2011): Có thể đã chơi cùng Pinilla trong một phần thời gian (2011).\n- Egidio Arévalo Rios (2012–2013): Có thể đã chơi cùng Pinilla trong một phần thời gian (2012).\n\nDo đó, những người chơi cùng Mauricio Pinilla ở Palermo F.C. có thể bao gồm Manuele Blasi, Michele Paolucci, và Egidio Arévalo Rios.\n\nĐáp án: Manuele Blasi, Michele Paolucci, Egidio Arévalo Rios"
+  },
+  {
+    "question": "Bernard Cornut-Gentille giữ chức vụ nào đầu tiên?",
+    "qtype": "first_last",
+    "answer_type": "entity",
+    "qlabel": "Single",
+    "relation": "P39",
+    "gold": [
+      "Phó tổng trấn của Vouziers"
+    ],
+    "method": "cot-kb",
+    "final_answer": "Sub-prefect of Vouziers (1940)",
+    "correct": false,
+    "reply": "Dựa trên dữ kiện, các chức vụ của Bernard Cornut-Gentille được liệt kê theo thời gian như sau:\n- Sub-prefect of Vouziers (1940)\n- Sub-prefect of Saint-Dié-des-Vosges (1941–1942)\n- Sub-prefect of Reims (1943)\n- Prefect of Ille-et-Vilaine (1944)\n- Prefect of Loire-Atlantique (1944)\n- Prefect of Somme (1944–1945)\n- Prefect of Bas-Rhin (1945–1947)\n- Tổng đốc (1948–1951)\n- Tổng đốc (1951–1956)\n- Permanent Representative of France to the United Nations (1956)\n- Ambassador of France to Argentina (1957–1958)\n- Minister without Portfolio (1958)\n\nChức vụ đầu tiên của Bernard Cornut-Gentille là Sub-prefect of Vouziers vào năm 1940.\n\nĐáp án: Sub-prefect of Vouziers (1940)"
+  },
+  {
+    "question": "Ai học tại Đại học Cambridge vào năm 1950?",
+    "qtype": "simple_entity",
+    "answer_type": "entity",
+    "qlabel": "Multiple",
+    "relation": "P69",
+    "gold": [
+      "John Pople",
+      "Karl Gruenberg",
+      "Paul Cohn"
+    ],
+    "method": "cot-kb",
+    "final_answer": "Karl Gruenberg",
+    "correct": true,
+    "reply": "Dựa trên dữ kiện, ta cần tìm những người học tại Đại học Cambridge vào năm 1950. Xem xét các khoảng thời gian học của từng người:\n\n- Karl Gruenberg — trường học — Đại học Cambridge (1950–1954): Năm 1950 nằm trong khoảng thời gian học của ông.\n\nKhông có thông tin về người nào khác học tại Đại học Cambridge vào năm 1950.\n\nĐáp án: Karl Gruenberg"
+  },
+  {
+    "question": "Đồng đội của Volodymyr Olefir tại FC Hoverla Uzhhorod là những ai?",
+    "qtype": "time_join",
+    "answer_type": "entity",
+    "qlabel": "Multiple",
+    "relation": "P54",
+    "gold": [
+      "Oleksandr Noyok",
+      "Yuriy Tselikh"
+    ],
+    "method": "cot-kb",
+    "final_answer": "Yuriy Tselykh, Volodymyr Mazyar, Oleksandr Noyok",
+    "correct": false,
+    "reply": "Dựa trên dữ kiện, Volodymyr Olefir đã thi đấu tại FC Hoverla Uzhhorod vào năm 2011. Các cầu thủ cùng thi đấu với anh trong thời gian này bao gồm:\n\n- Yuriy Tselykh (2004–2005, 2007, 2010–2011)\n- Volodymyr Mazyar (2009, 2010–2011)\n- Oleksandr Noyok (2010–2011)\n\nDo đó, đồng đội của Volodymyr Olefir tại FC Hoverla Uzhhorod vào năm 2011 là Yuriy Tselykh, Volodymyr Mazyar và Oleksandr Noyok.\n\nĐáp án: Yuriy Tselykh, Volodymyr Mazyar, Oleksandr Noyok"
+  },
+  {
+    "question": "Roland Ouellet tốt nghiệp Hội thảo Rimouski năm nào?",
+    "qtype": "simple_time",
+    "answer_type": "time",
+    "qlabel": "Single",
+    "relation": "P69",
+    "gold": [
+      "1954"
+    ],
+    "method": "cot-kb",
+    "final_answer": "1954",
+    "correct": true,
+    "reply": "Dựa trên dữ kiện, Roland Ouellet — trường học — Séminaire de Rimouski (1946–1954). Điều này cho thấy ông đã học tại Séminaire de Rimouski từ năm 1946 đến năm 1954. Do đó, năm tốt nghiệp của ông là năm 1954.\n\nĐáp án: 1954"
+  },
+  {
+    "question": "Niki Zimling rời Bóng đá Frankfurt năm nào?",
+    "qtype": "simple_time",
+    "answer_type": "time",
+    "qlabel": "Single",
+    "relation": "P54",
+    "gold": [
+      "2016"
+    ],
+    "method": "cot-kb",
+    "final_answer": "2016",
+    "correct": true,
+    "reply": "Dựa trên dữ kiện, Niki Zimling từng là cầu thủ của FSV Frankfurt trong các khoảng thời gian: (1993–1998) và (2016). Do đó, anh rời FSV Frankfurt vào năm 2016.\n\nĐáp án: 2016"
+  },
+  {
+    "question": "Khi nào Michael Berridge giành được Giải thưởng Ernst Schering?",
+    "qtype": "simple_time",
+    "answer_type": "time",
+    "qlabel": "Single",
+    "relation": "P166",
+    "gold": [
+      "1999"
+    ],
+    "method": "cot-kb",
+    "final_answer": "1999",
+    "correct": true,
+    "reply": "Dựa trên dữ kiện:\n- Michael Berridge — giải thưởng — Ernst Schering Prize (1999)\n\nSuy luận:\n- Michael Berridge đã giành Giải thưởng Ernst Schering vào năm 1999.\n\nĐáp án: 1999"
+  },
+  {
+    "question": "Ai có chung giai đoạn ở Viện Hàn lâm Khoa học Turin với Dmitri Ivanovich Mendeleev?",
+    "qtype": "time_join",
+    "answer_type": "entity",
+    "qlabel": "Multiple",
+    "relation": "P463",
+    "gold": [
+      "Archibald Geikie",
+      "Max Noether",
+      "Wilhelm Wattenbach"
+    ],
+    "method": "cot-kb",
+    "final_answer": "Không ai",
+    "correct": false,
+    "reply": "Dựa trên dữ kiện, Dmitri Ivanovich Mendeleev là thành viên của Viện Hàn lâm Khoa học Sankt-Peterburg vào năm 1876, không phải Viện Hàn lâm Khoa học Turin. Do đó, không có ai chung giai đoạn ở Viện Hàn lâm Khoa học Turin với ông.\n\nĐáp án: Không ai."
+  },
+  {
+    "question": "Trường cuối cùng của Henri Cabannes là?",
+    "qtype": "first_last",
+    "answer_type": "entity",
+    "qlabel": "Single",
+    "relation": "P69",
+    "gold": [
+      "Đại học Paris"
+    ],
+    "method": "cot-kb",
+    "final_answer": "Université Pierre-et-Marie-Curie",
+    "correct": false,
+    "reply": "Dựa trên dữ kiện, Henri Cabannes đã làm việc tại nhiều trường học và đại học khác nhau. Các trường học mà ông từng làm việc bao gồm Lycée Saint-Louis, École normale supérieure, Đại học Paris, Trung tâm Nghiên cứu Khoa học Quốc gia Pháp, Aix-Marseille University, và Université Pierre-et-Marie-Curie. Thời gian làm việc tại Université Pierre-et-Marie-Curie là từ 1960 đến 1990, đây là thời gian dài nhất và cuối cùng được ghi nhận.\n\nĐáp án: Université Pierre-et-Marie-Curie"
+  },
+  {
+    "question": "Patrick Gérard đảm nhiệm vị trí cuối cùng nào trong sự nghiệp?",
+    "qtype": "first_last",
+    "answer_type": "entity",
+    "qlabel": "Single",
+    "relation": "P39",
+    "gold": [
+      "giám đốc"
+    ],
+    "method": "cot-kb",
+    "final_answer": "Councillor of State",
+    "correct": false,
+    "reply": "Dựa trên dữ kiện, Patrick Gérard đảm nhiệm nhiều chức vụ khác nhau qua các thời kỳ. Trong số các chức vụ được liệt kê, chức vụ cuối cùng mà ông đảm nhiệm là Councillor of State (2006–2025), vì đây là chức vụ có thời gian kết thúc muộn nhất (2025).\n\nĐáp án: Councillor of State"
+  },
+  {
+    "question": "Vinh dự cuối cùng Dmitri Ivanovich Mendeleev nhận được là gì?",
+    "qtype": "first_last",
+    "answer_type": "entity",
+    "qlabel": "Single",
+    "relation": "P166",
+    "gold": [
+      "Huy chương Copley"
+    ],
+    "method": "cot-kb",
+    "final_answer": "Viện Hàn lâm Khoa học Hoàng gia Thụy Điển (1905)",
+    "correct": false,
+    "reply": "Dựa trên dữ kiện, các vinh dự mà Dmitri Ivanovich Mendeleev nhận được theo thời gian bao gồm nhiều giải thưởng và danh hiệu. Vinh dự cuối cùng được ghi nhận là việc ông trở thành thành viên của Viện Hàn lâm Khoa học Hoàng gia Thụy Điển vào năm 1905, cùng với việc ông được đề cử Giải Nobel hóa học vào năm 1905, 1906 và 1907. Tuy nhiên, trong dữ kiện, việc trở thành thành viên của Viện Hàn lâm Khoa học Hoàng gia Thụy Điển được ghi nhận là sự kiện cuối cùng theo thời gian.\n\nĐáp án: Viện Hàn lâm Khoa học Hoàng gia Thụy Điển (1905)"
+  },
+  {
+    "question": "Ai là thành viên Viện Hàn lâm Khoa học và Nghệ thuật Hoa Kỳ vào năm 2003?",
+    "qtype": "simple_entity",
+    "answer_type": "entity",
+    "qlabel": "Multiple",
+    "relation": "P463",
+    "gold": [
+      "Daniel Kahneman",
+      "David Baltimore"
+    ],
+    "method": "cot-kb",
+    "final_answer": "Không có thông tin",
+    "correct": false,
+    "reply": "Dữ kiện không cung cấp thông tin về các thành viên của Viện Hàn lâm Khoa học và Nghệ thuật Hoa Kỳ vào năm 2003.\n\nĐáp án: Không có thông tin."
+  },
+  {
+    "question": "Ai cùng Park Geun-hye được trao giải Giáo danh dự?",
+    "qtype": "time_join",
+    "answer_type": "entity",
+    "qlabel": "Single",
+    "relation": "P166",
+    "gold": [
+      "Indra Nooyi"
+    ],
+    "method": "cot-kb",
+    "final_answer": "Indra Nooyi (2008)",
+    "correct": false,
+    "reply": "Dựa trên dữ kiện, ta thấy Park Geun-hye được trao giải Giáo danh dự (honorary degree) vào các năm: 1987, 2008, 2010, 2016. Ngoài ra, Indra Nooyi cũng được trao giải Giáo danh dự vào năm 2008 và 2009, cùng với Park Geun-hye vào năm 2008.\n\nĐáp án: Indra Nooyi (2008)"
+  },
+  {
+    "question": "Bạn đồng hành của Honduras tại Tổ chức Giáo dục, Khoa học và Văn hóa Liên Hợp Quốc là ai?",
+    "qtype": "time_join",
+    "answer_type": "entity",
+    "qlabel": "Multiple",
+    "relation": "P463",
+    "gold": [
+      "Ai Cập",
+      "Colombia",
+      "Cuba",
+      "Ecuador",
+      "Hoa Kỳ",
+      "Hà Lan",
+      "Liberia",
+      "Luxembourg",
+      "Nam Phi",
+      "Uruguay"
+    ],
+    "method": "cot-kb",
+    "final_answer": "Ecuador, Colombia, Cuba, Hà Lan, Liberia, Uruguay, Ai Cập",
+    "correct": false,
+    "reply": "Dựa trên dữ kiện, Honduras trở thành thành viên của Tổ chức Giáo dục, Khoa học và Văn hóa Liên Hợp Quốc (UNESCO) vào năm 1947. Các quốc gia cùng gia nhập UNESCO vào năm 1947 với Honduras bao gồm Ecuador, Colombia, Cuba, Hà Lan, Liberia, Uruguay, và Ai Cập.\n\nĐáp án: Ecuador, Colombia, Cuba, Hà Lan, Liberia, Uruguay, Ai Cập."
+  },
+  {
+    "question": "John Milnor nhận giải cuối cùng vào dịp nào?",
+    "qtype": "first_last",
+    "answer_type": "entity",
+    "qlabel": "Single",
+    "relation": "P166",
+    "gold": [
+      "Huy chương Vàng Lomonosov"
+    ],
+    "method": "cot-kb",
+    "final_answer": "2020",
+    "correct": false,
+    "reply": "Xét các giải thưởng mà John Milnor nhận được theo thời gian:\n- Giải Abel (2011)\n- Steele Prize for Lifetime Achievement (2011)\n- Lomonosov Gold Medal (2020)\n\nTrong số đó, giải cuối cùng theo thời gian là Lomonosov Gold Medal (2020).\n\nĐáp án: 2020"
+  },
+  {
+    "question": "Vào năm 2002, ai là cầu thủ của Clydebank F.C.?",
+    "qtype": "simple_entity",
+    "answer_type": "entity",
+    "qlabel": "Multiple",
+    "relation": "P54",
+    "gold": [
+      "Liam George",
+      "Mark Nicholls",
+      "Michael O'Neill"
+    ],
+    "method": "cot-kb",
+    "final_answer": "Liam George, Michael O'Neill, Mark Nicholls",
+    "correct": false,
+    "reply": "Dựa trên dữ kiện, vào năm 2002, các cầu thủ của Clydebank F.C. bao gồm:\n- Liam George (2002)\n- Michael O'Neill (2001–2002)\n- Mark Nicholls (2001–2002)\n\nĐáp án: Liam George, Michael O'Neill, Mark Nicholls"
+  },
+  {
+    "question": "Ai thi đấu cho Maidstone United F.C. vào năm 1971?",
+    "qtype": "simple_entity",
+    "answer_type": "entity",
+    "qlabel": "Single",
+    "relation": "P54",
+    "gold": [
+      "Roy Hodgson"
+    ],
+    "method": "cot-kb",
+    "final_answer": "Roy Hodgson",
+    "correct": true,
+    "reply": "Dựa trên dữ kiện, Roy Hodgson là cầu thủ của Maidstone United F.C. vào khoảng thời gian 1971–1972, bao gồm năm 1971.\n\nĐáp án: Roy Hodgson"
+  },
+  {
+    "question": "Vào lúc 1935, ai là học sinh/sinh viên của Viện toán Steklov?",
+    "qtype": "simple_entity",
+    "answer_type": "entity",
+    "qlabel": "Single",
+    "relation": "P69",
+    "gold": [
+      "Mstislav Keldysh"
+    ],
+    "method": "cot-kb",
+    "final_answer": "Mstislav Keldysh",
+    "correct": true,
+    "reply": "Dựa trên dữ kiện, vào năm 1935, các học sinh/sinh viên của Viện toán Steklov là những người có quan hệ \"trường học\" với Viện toán Steklov trong khoảng thời gian bao gồm năm 1935. Chỉ có Mstislav Keldysh có khoảng thời gian từ 1934–1937, bao gồm năm 1935.\n\nĐáp án: Mstislav Keldysh"
+  },
+  {
+    "question": "Ai cùng là thành viên Học viện Khoa học và Nhân văn Heidelberg với George de Hevesy?",
+    "qtype": "time_join",
+    "answer_type": "entity",
+    "qlabel": "Multiple",
+    "relation": "P463",
+    "gold": [
+      "Arthur Rosenthal",
+      "Philipp Lenard"
+    ],
+    "method": "cot-kb",
+    "final_answer": "Philipp Lenard, Leo Königsberger, Oskar Perron, Hermann Staudinger, Arthur Rosenthal, Richard Kuhn, Carl Bosch, Udo Wegner, Paul Uhlenhuth, Fritz Kögl, Heinz Hopf, Emilio G. Segrè, Hans-Georg Gadamer, Marston Morse, Giuseppe Occhialini, Maria Goeppert-Mayer, Wolfgang Ernst Pauli, Bartel Leendert van der Waerden, Pedro Laín Entralgo, Roger Adams, Friedrich Karl Schmidt, Hellmuth Kneser, Willard Libby, Peter Debye, Theodor Heuss, Helmut Wielandt, Gottfried Köthe, Alexander Dinghas, Friedrich Hirzebruch, Francis Perrin, Manuel Lora-Tamayo, Nikolai Bogolyubov, Kurt Bittel, Saunders Mac Lane, Heinrich-Wolfgang Leopoldt, Albrecht Fröhlich, Harald zur Hausen, Kai Simons, Christiane Nüsslein-Volhard, Manuel Alvar, Bert Sakmann, Hans-Joachim Gehrke, Gerhard Huisken, Christoph Markschies, Stefan Hell, Vincent Poor",
+    "correct": false,
+    "reply": "Dựa trên dữ kiện, George de Hevesy là thành viên của Heidelberg Academy of Sciences and Humanities từ năm 1929–1934. Trong cùng khoảng thời gian này, nhiều người khác cũng là thành viên của học viện, bao gồm:\n\n- Philipp Lenard (1909–1934)\n- Leo Königsberger (1909)\n- Oskar Perron (1920)\n- Hermann Staudinger (1929)\n- Arthur Rosenthal (1930–1937)\n- Richard Kuhn (1931)\n- Carl Bosch (1935)\n- Udo Wegner (1941–1947)\n- Paul Uhlenhuth (1942)\n- Fritz Kögl (1949)\n- Heinz Hopf (1949)\n- Emilio G. Segrè (1950)\n- Hans-Georg Gadamer (1950)\n- Marston Morse (1950)\n- Giuseppe Occhialini (1950)\n- Maria Goeppert-Mayer (1950)\n- Wolfgang Ernst Pauli (1950)\n- Bartel Leendert van der Waerden (1951)\n- Pedro Laín Entralgo (1951)\n- Roger Adams (1953)\n- Friedrich Karl Schmidt (1953)\n- Hellmuth Kneser (1958)\n- Willard Libby (1958)\n- Peter Debye (1959)\n- Theodor Heuss (1959)\n- Helmut Wielandt (1960)\n- Gottfried Köthe (1960)\n- Alexander Dinghas (1964)\n- Friedrich Hirzebruch (1966)\n- Francis Perrin (1966)\n- Manuel Lora-Tamayo (1967)\n- Nikolai Bogolyubov (1969)\n- Kurt Bittel (1972)\n- Saunders Mac Lane (1976)\n- Heinrich-Wolfgang Leopoldt (1979)\n- Albrecht Fröhlich (1982)\n- Harald zur Hausen (1986)\n- Kai Simons (1987)\n- Christiane Nüsslein-Volhard (1989)\n- Manuel Alvar (1990)\n- Bert Sakmann (1993)\n- Hans-Joachim Gehrke (1999)\n- Gerhard Huisken (2000–2013)\n- Christoph Markschies (2004)\n- Stefan Hell (2009)\n- Vincent Poor (2020)\n\nĐáp án: Philipp Lenard, Leo Königsberger, Oskar Perron, Hermann Staudinger, Arthur Rosenthal, Richard Kuhn, Carl Bosch, Udo Wegner, Paul Uhlenhuth, Fritz Kögl, Heinz Hopf, Emilio G. Segrè, Hans-Georg Gadamer, Marston Morse, Giuseppe Occhialini, Maria Goeppert-Mayer, Wolfgang Ernst Pauli, Bartel Leendert van der Waerden, Pedro Laín Entralgo, Roger Adams, Friedrich Karl Schmidt, Hellmuth Kneser, Willard Libby, Peter Debye, Theodor Heuss, Helmut Wielandt, Gottfried Köthe, Alexander Dinghas, Friedrich Hirzebruch, Francis Perrin, Manuel Lora-Tamayo, Nikolai Bogolyubov, Kurt Bittel, Saunders Mac Lane, Heinrich-Wolfgang Leopoldt, Albrecht Fröhlich, Harald zur Hausen, Kai Simons, Christiane Nüsslein-Volhard, Manuel Alvar, Bert Sakmann, Hans-Joachim Gehrke, Gerhard Huisken, Christoph Markschies, Stefan Hell, Vincent Poor"
+  },
+  {
+    "question": "Đội cuối cùng của Antonio de Nigris trong sự nghiệp là?",
+    "qtype": "first_last",
+    "answer_type": "entity",
+    "qlabel": "Single",
+    "relation": "P54",
+    "gold": [
+      "Câu lạc bộ bóng đá AE Larissa"
+    ],
+    "method": "cot-kb",
+    "final_answer": "Athlitiki Enosi Larissa F.C",
+    "correct": false,
+    "reply": "Dựa trên dữ kiện, ta thấy Antonio de Nigris đã thi đấu cho nhiều đội bóng khác nhau trong sự nghiệp. Thời gian cuối cùng được ghi nhận là năm 2009, khi anh thi đấu cho Athlitiki Enosi Larissa F.C.\n\nĐáp án: Athlitiki Enosi Larissa F.C."
+  },
+  {
+    "question": "Năm 1886, Đại Học Viện Rimouski có sinh viên nào?",
+    "qtype": "simple_entity",
+    "answer_type": "entity",
+    "qlabel": "Single",
+    "relation": "P69",
+    "gold": [
+      "Joseph Arthur d'Amours"
+    ],
+    "method": "cot-kb",
+    "final_answer": "Joseph Arthur d'Amours",
+    "correct": true,
+    "reply": "Dựa trên dữ kiện, năm 1886, Joseph Arthur d'Amours là sinh viên của Grand Séminaire de Rimouski.\n\nĐáp án: Joseph Arthur d'Amours"
+  },
+  {
+    "question": "Vào năm 2000, ai là cầu thủ của Fredrikstad FK?",
+    "qtype": "simple_entity",
+    "answer_type": "entity",
+    "qlabel": "Single",
+    "relation": "P54",
+    "gold": [
+      "Thomas Gill"
+    ],
+    "method": "cot-kb",
+    "final_answer": "Thomas Gill",
+    "correct": true,
+    "reply": "Dựa trên dữ kiện: Thomas Gill — cầu thủ của đội thể thao — Fredrikstad FK (2000).  \n\nĐáp án: Thomas Gill"
+  },
+  {
+    "question": "Ai là người đảm nhận chức Bộ trưởng Chiến tranh Hoa Kỳ vào thời điểm 1904?",
+    "qtype": "simple_entity",
+    "answer_type": "entity",
+    "qlabel": "Single",
+    "relation": "P39",
+    "gold": [
+      "William Howard Taft"
+    ],
+    "method": "cot-kb",
+    "final_answer": "William Howard Taft",
+    "correct": true,
+    "reply": "Dựa trên dữ kiện:\n- William Howard Taft — chức vụ — Bộ trưởng Chiến tranh Hoa Kỳ (1904–1908)\n\nVì vậy, vào năm 1904, người đảm nhận chức Bộ trưởng Chiến tranh Hoa Kỳ là William Howard Taft.\n\nĐáp án: William Howard Taft"
+  },
+  {
+    "question": "Ai thi đấu cho Floriana F.C. trước năm 2012?",
+    "qtype": "before_after",
+    "answer_type": "entity",
+    "qlabel": "Single",
+    "relation": "P54",
+    "gold": [
+      "Julio Alcorsé"
+    ],
+    "method": "cot-kb",
+    "final_answer": "Julio Alcorsé",
+    "correct": true,
+    "reply": "Dựa trên dữ kiện, các cầu thủ thi đấu cho Floriana F.C. trước năm 2012 chỉ có Julio Alcorsé (2011). Các cầu thủ khác như Tony Warner, Michele Paolucci, và Aaron Brown đều thi đấu cho Floriana F.C. từ năm 2012 trở đi.\n\nĐáp án: Julio Alcorsé"
+  },
+  {
+    "question": "Giải kế tiếp của Louis de Broglie sau Thạc sĩ danh dự tại Đại học Laval là gì?",
+    "qtype": "before_after",
+    "answer_type": "entity",
+    "qlabel": "Single",
+    "relation": "P166",
+    "gold": [
+      "Giải thưởng Kalinga"
+    ],
+    "method": "cot-kb",
+    "final_answer": "1947",
+    "correct": false,
+    "reply": "Dựa trên dữ kiện:\n- Louis de Broglie nhận giải thưởng honorary doctorate at the Laval University vào năm 1947.\n- Trước đó, không có thông tin về bất kỳ giải thưởng nào của Louis de Broglie được trao trước năm 1947, ngoại trừ các học vị và mối quan hệ học thuật.\n\nDo đó, giải kế tiếp của Louis de Broglie sau Thạc sĩ danh dự tại Đại học Laval là giải thưởng được trao vào năm 1947.\n\nĐáp án: 1947"
+  },
+  {
+    "question": "Trước Trung tâm Quốc tế về Giải quyết Tranh chấp Đầu tư, Moldova tham gia tổ chức nào?",
+    "qtype": "before_after",
+    "answer_type": "entity",
+    "qlabel": "Single",
+    "relation": "P463",
+    "gold": [
+      "Eurocontrol"
+    ],
+    "method": "cot-kb",
+    "final_answer": "Không có thông tin xác định",
+    "correct": false,
+    "reply": "Dựa trên dữ kiện cung cấp, không có thông tin nào cho thấy Moldova đã tham gia vào Trung tâm Quốc tế về Giải quyết Tranh chấp Đầu tư hoặc bất kỳ tổ chức nào khác trước đó. Do đó, không thể xác định tổ chức mà Moldova đã tham gia trước Trung tâm Quốc tế về Giải quyết Tranh chấp Đầu tư.\n\nĐáp án: Không có thông tin xác định."
+  },
+  {
+    "question": "Lần đầu tiên Nikita Simonyan chơi bóng là cho đội nào?",
+    "qtype": "first_last",
+    "answer_type": "entity",
+    "qlabel": "Single",
+    "relation": "P54",
+    "gold": [
+      "FC Dinamo Sukhumi"
+    ],
+    "method": "cot-kb",
+    "final_answer": "FC Dinamo Sukhumi",
+    "correct": true,
+    "reply": "Dựa trên dữ kiện, Nikita Simonyan bắt đầu sự nghiệp bóng đá khi là cầu thủ của FC Dinamo Sukhumi từ năm 1944–1945. Đây là đội đầu tiên anh chơi bóng.\n\nĐáp án: FC Dinamo Sukhumi"
+  },
+  {
+    "question": "Đường sắt Czech tham gia Liên đoàn Đường sắt Quốc tế năm nào?",
+    "qtype": "simple_time",
+    "answer_type": "time",
+    "qlabel": "Single",
+    "relation": "P463",
+    "gold": [
+      "1922"
+    ],
+    "method": "cot-kb",
+    "final_answer": "1922",
+    "correct": true,
+    "reply": "Dựa trên dữ kiện, České dráhy (Đường sắt Czech) là thành viên của International Union of Railways (Liên đoàn Đường sắt Quốc tế) từ năm 1922.\n\nĐáp án: 1922"
+  },
+  {
+    "question": "Chức vụ đầu đời của Günther Graf von der Groeben là gì?",
+    "qtype": "first_last",
+    "answer_type": "entity",
+    "qlabel": "Single",
+    "relation": "P39",
+    "gold": [
+      "Volunteer phục vụ một năm"
+    ],
+    "method": "cot-kb",
+    "final_answer": "volunteer serving one year (1852–1853)",
+    "correct": false,
+    "reply": "Dựa trên dữ kiện, chức vụ đầu đời của Günther Graf von der Groeben được ghi nhận là \"volunteer serving one year\" trong khoảng thời gian 1852–1853. Đây là chức vụ đầu tiên được đề cập trong dữ liệu.\n\nĐáp án: volunteer serving one year (1852–1853)"
+  },
+  {
+    "question": "Ai cùng Gabriel Auguste Daubrée được trao giải Bắc Đẩu Bội tinh hạng 2?",
+    "qtype": "time_join",
+    "answer_type": "entity",
+    "qlabel": "Single",
+    "relation": "P166",
+    "gold": [
+      "Charles Adolphe Würtz"
+    ],
+    "method": "cot-kb",
+    "final_answer": "François Arago (1849)",
+    "correct": false,
+    "reply": "Dựa trên dữ kiện, Gabriel Auguste Daubrée được trao giải Bắc Đẩu Bội tinh hạng 2 vào các năm: 1849, 1869, 1881. Ngoài ra, trong cùng năm 1849, François Arago cũng được trao giải Bắc Đẩu Bội tinh hạng 2. Do đó, François Arago là người cùng Gabriel Auguste Daubrée được trao giải Bắc Đẩu Bội tinh hạng 2.\n\nĐáp án: François Arago (1849)"
+  },
+  {
+    "question": "Eleanor Arnason nhận giải thưởng nào lần đầu?",
+    "qtype": "first_last",
+    "answer_type": "entity",
+    "qlabel": "Single",
+    "relation": "P166",
+    "gold": [
+      "Giải thưởng khác"
+    ],
+    "method": "cot-kb",
+    "final_answer": "Otherwise Award (1991)",
+    "correct": false,
+    "reply": "Dựa trên dữ kiện, Eleanor Arnason lần đầu nhận giải thưởng là Otherwise Award (1991), vì đây là giải thưởng đầu tiên được ghi nhận cho bà.\n\nĐáp án: Otherwise Award (1991)"
+  },
+  {
+    "question": "Thành viên thay thế của Đại hội đồng Nghị viện Hội đồng Châu Âu được ai lãnh đạo sau thời kỳ Helmut Schmidt?",
+    "qtype": "before_after",
+    "answer_type": "entity",
+    "qlabel": "Single",
+    "relation": "P39",
+    "gold": [
+      "Giuseppe de Marco"
+    ],
+    "method": "cot-kb",
+    "final_answer": "Guido de Marco",
+    "correct": false,
+    "reply": "Dựa trên dữ kiện, Helmut Schmidt là thành viên thay thế của Đại hội đồng Nghị viện Hội đồng Châu Âu trong giai đoạn 1966–1968. Sau thời kỳ này, các thành viên thay thế tiếp theo bao gồm Guido de Marco (1967–1971), Max van der Stoel (1967–1968), Charles-Ferdinand Nothomb (1968–1974), Rainer Barzel (1970–1973), Egon Klepsch (1970–1981), Poul Schlüter (1971–1974), Per Ahlmark (1971–1976), Manfred Wörner (1973–1977), John Prescott (1973–1974), và nhiều người khác. Trong số đó, người đầu tiên sau thời kỳ của Helmut Schmidt là Guido de Marco, bắt đầu từ năm 1967.\n\nĐáp án: Guido de Marco"
+  },
+  {
+    "question": "Giải nào được trao cho Prasanta Chandra Mahalanobis sau năm 1942?",
+    "qtype": "before_after",
+    "answer_type": "entity",
+    "qlabel": "Single",
+    "relation": "P166",
+    "gold": [
+      "Alan Turing"
+    ],
+    "method": "cot-kb",
+    "final_answer": "Padma Vibhushan (1968)",
+    "correct": false,
+    "reply": "Dựa trên dữ kiện:\n- Prasanta Chandra Mahalanobis được trao Huân chương Đế quốc Anh hạng 4 vào năm 1942.\n- Sau năm 1942, ông được trao nhiều giải thưởng và danh hiệu, bao gồm:\n  - Viện sĩ Hội hoàng gia Luân Đôn (1945)\n  - Fellow of the Econometric Society (1951)\n  - Fellow of the American Statistical Association (1961)\n  - Padma Vibhushan (1968)\n\nTrong số các giải thưởng này, giải thưởng được trao cho ông **sau năm 1942** là **Padma Vibhushan (1968)**.\n\nĐáp án: Padma Vibhushan (1968)"
+  },
+  {
+    "question": "Người kế nhiệm Urho Kekkonen ở chức Bộ trưởng Bộ Nội vụ là ai?",
+    "qtype": "before_after",
+    "answer_type": "entity",
+    "qlabel": "Single",
+    "relation": "P39",
+    "gold": [
+      "Petteri Orpo"
+    ],
+    "method": "cot-kb",
+    "final_answer": "Không có thông tin rõ ràng về người kế nhiệm trực tiếp của Urho Kekkonen ở chức Bộ trưởng Bộ Nội vụ",
+    "correct": false,
+    "reply": "Dựa trên dữ kiện, Urho Kekkonen giữ chức Bộ trưởng Bộ Nội vụ từ 1937–1939 và từ 1950–1951. Sau khoảng thời gian này, không có thông tin trực tiếp về người kế nhiệm ngay lập tức. Tuy nhiên, Petteri Orpo được ghi nhận là giữ chức Bộ trưởng Bộ Nội vụ từ 2015–2016, nhưng thời gian này cách xa thời gian Urho Kekkonen giữ chức. Do đó, không có dữ kiện cụ thể về người kế nhiệm trực tiếp của Urho Kekkonen ở chức Bộ trưởng Bộ Nội vụ.\n\nĐáp án: Không có thông tin rõ ràng về người kế nhiệm trực tiếp của Urho Kekkonen ở chức Bộ trưởng Bộ Nội vụ."
+  },
+  {
+    "question": "Tổ chức đầu tiên François Depeaux tham gia là gì?",
+    "qtype": "first_last",
+    "answer_type": "entity",
+    "qlabel": "Single",
+    "relation": "P463",
+    "gold": [
+      "Công ty công nghiệp Rouen"
+    ],
+    "method": "cot-kb",
+    "final_answer": "Société industrielle de Rouen (1873)",
+    "correct": false,
+    "reply": "Dựa trên dữ kiện, François Depeaux tham gia Société industrielle de Rouen vào năm 1873, đây là tổ chức đầu tiên được đề cập.\n\nĐáp án: Société industrielle de Rouen (1873)"
+  },
+  {
+    "question": "Cùng thời điểm với Philippe Vigier, ai cũng đoạt Huân chương Cành cọ Hàn lâm Pháp hạng 1?",
+    "qtype": "time_join",
+    "answer_type": "entity",
+    "qlabel": "Single",
+    "relation": "P166",
+    "gold": [
+      "Lionel Jospin"
+    ],
+    "method": "cot-kb",
+    "final_answer": "Lionel Jospin",
+    "correct": true,
+    "reply": "Dựa trên dữ kiện:\n- Philippe Vigier — giải thưởng — Huân chương Cành cọ Hàn lâm Pháp hạng 1 (1992)\n- Lionel Jospin — giải thưởng — Huân chương Cành cọ Hàn lâm Pháp hạng 1 (1992)\n\nCùng thời điểm (1992) với Philippe Vigier, Lionel Jospin cũng đoạt Huân chương Cành cọ Hàn lâm Pháp hạng 1.\n\nĐáp án: Lionel Jospin"
+  },
+  {
+    "question": "Alan Menken nhận giải Giải Oscar cho bài hát nguyên tác xuất sắc khi nào?",
+    "qtype": "simple_time",
+    "answer_type": "time",
+    "qlabel": "Single",
+    "relation": "P166",
+    "gold": [
+      "1990"
+    ],
+    "method": "cot-kb",
+    "final_answer": "1990, 1992, 1993, 1996",
+    "correct": false,
+    "reply": "Dựa trên dữ kiện, Alan Menken nhận giải Giải Oscar cho bài hát nguyên tác xuất sắc vào các năm 1990, 1992, 1993 và 1996.\n\nĐáp án: 1990, 1992, 1993, 1996"
+  },
+  {
+    "question": "Bruno Latour làm việc cho tổ chức nào trước École nationale supérieure des mines de Paris?",
+    "qtype": "before_after",
+    "answer_type": "entity",
+    "qlabel": "Single",
+    "relation": "P108",
+    "gold": [
+      "Trường Kỹ nghệ Quốc gia Pháp"
+    ],
+    "method": "cot-kb",
+    "final_answer": "University of Burgundy Europe",
+    "correct": false,
+    "reply": "Dựa trên dữ kiện, Bruno Latour làm việc tại University of Burgundy Europe từ năm 1966 đến 1972, trước khi làm việc tại École nationale supérieure des mines de Paris từ năm 1982 đến 2006.\n\nĐáp án: University of Burgundy Europe"
+  },
+  {
+    "question": "Ai đảm trách vị trí Thành viên của Quốc hội Pháp trong năm 1887?",
+    "qtype": "simple_entity",
+    "answer_type": "entity",
+    "qlabel": "Multiple",
+    "relation": "P39",
+    "gold": [
+      "Alexandre Ribot",
+      "Jules Ferry"
+    ],
+    "method": "cot-kb",
+    "final_answer": "Jules Ferry, Alexandre Ribot",
+    "correct": false,
+    "reply": "Dựa trên dữ kiện, ta cần xác định những người từng là \"member of the French National Assembly\" trong khoảng thời gian bao gồm năm 1887. Các dữ kiện liên quan đến năm 1887 có thể nằm trong khoảng thời gian từ 1885–1889, 1881–1885, hoặc các khoảng thời gian khác bao hàm năm 1887.\n\n- Jules Ferry có nhiệm kỳ từ 1885–1889, bao gồm năm 1887.\n- Alexandre Ribot có nhiệm kỳ từ 1885–1889, bao gồm năm 1887.\n- Alfred Mathieu Giard có nhiệm kỳ từ 1882–1885, không bao gồm năm 1887.\n\nDo đó, những người đảm trách vị trí Thành viên của Quốc hội Pháp trong năm 1887 là Jules Ferry và Alexandre Ribot.\n\nĐáp án: Jules Ferry, Alexandre Ribot"
+  },
+  {
+    "question": "Người giữ chức kinh sĩ năm 1877 là ai?",
+    "qtype": "simple_entity",
+    "answer_type": "entity",
+    "qlabel": "Single",
+    "relation": "P39",
+    "gold": [
+      "Giáo hoàng Piô X"
+    ],
+    "method": "cot-kb",
+    "final_answer": "Charles-Alphonse Charbonneau",
+    "correct": false,
+    "reply": "Dựa trên dữ kiện, năm 1877 có một người được ghi nhận với tiền tố kính ngữ \"kinh sĩ\". Người đó là Charles-Alphonse Charbonneau.\n\nĐáp án: Charles-Alphonse Charbonneau"
+  },
+  {
+    "question": "Giải nào được trao cho Johannes Rau trước năm 2000?",
+    "qtype": "before_after",
+    "answer_type": "entity",
+    "qlabel": "Single",
+    "relation": "P166",
+    "gold": [
+      "Richard von Weizsäcker"
+    ],
+    "method": "cot-kb",
+    "final_answer": "Huân chương Thập tự CHLB Đức hạng đặc biệt (1999)",
+    "correct": false,
+    "reply": "Xét các giải được trao cho Johannes Rau trước năm 2000:\n- Huân chương Thập tự CHLB Đức hạng 5 (1969)\n- Huân chương Thập tự CHLB Đức hạng 4 (1975)\n- Ring of Honour of the city Wuppertal (1979)\n- Huân chương Thập tự CHLB Đức hạng 3 (1980)\n- Huân chương Thập tự CHLB Đức hạng 2 (1983)\n- Orden wider den tierischen Ernst (1986)\n- Huân chương Công giáo Isabella hạng 2 (1986)\n- Tiến sĩ danh dự (1986)\n- Honorary citizenship (1991)\n- European handicraft prize (1994)\n- German Leo Baeck Award (1995)\n- Golden Schlitzohr (1997)\n- Huân chương Thập tự CHLB Đức hạng đặc biệt (1999)\n\nTrong số này, giải được trao gần nhất trước năm 2000 là \"Huân chương Thập tự CHLB Đức hạng đặc biệt (1999)\".\n\nĐáp án: Huân chương Thập tự CHLB Đức hạng đặc biệt (1999)"
+  },
+  {
+    "question": "Ai chơi cùng Mauricio Pinilla ở Football Club Internazionale Milano?",
+    "qtype": "time_join",
+    "answer_type": "entity",
+    "qlabel": "Multiple",
+    "relation": "P54",
+    "gold": [
+      "Aco Stojkov",
+      "Alberto Quadri",
+      "Christian Vieri",
+      "Dimitar Makriev",
+      "Emre Belözoğlu",
+      "Fabio Cannavaro",
+      "Hernán Crespo",
+      "Ianis Zicu",
+      "Khalilou Fadiga",
+      "Marco Caneira",
+      "Mohamed Kallon",
+      "Siniša Mihajlović",
+      "Sérgio Conceição"
+    ],
+    "method": "cot-kb",
+    "final_answer": "Khalilou Fadiga, Dimitar Makriev, Ianis Zicu, Siniša Mihajlović",
+    "correct": false,
+    "reply": "Dựa trên dữ kiện, Mauricio Pinilla đã chơi cho Football Club Internazionale Milano từ năm 2003 đến năm 2004. Trong khoảng thời gian này, các cầu thủ khác cũng chơi cho đội bóng này bao gồm:  \n- Diego Simeone (1997–1999)  \n- Ronaldo (1997–2002)  \n- Christian Vieri (1999–2005)  \n- Laurent Blanc (1999–2001)  \n- Adrian Mutu (1999–2000)  \n- Davide Sinigaglia (1999–2001)  \n- Emre Belözoğlu (2001–2005)  \n- Aco Stojkov (2001–2005)  \n- Fabio Cannavaro (2002–2004)  \n- Hernán Crespo (2002–2003)  \n- Alberto Quadri (2002–2006)  \n- Khalilou Fadiga (2003–2004)  \n- Dimitar Makriev (2003–2005)  \n- Ianis Zicu (2004–2007)  \n- Siniša Mihajlović (2004–2006)  \n- Fabio Grosso (2006–2007)  \n- Zlatan Ibrahimović (2006–2009)  \n- Patrick Vieira (2006–2010)  \n- Hernán Crespo (2006–2008)  \n\nTrong số đó, những cầu thủ chơi cùng Mauricio Pinilla ở Football Club Internazionale Milano là:  \n- Khalilou Fadiga (2003–2004)  \n- Dimitar Makriev (2003–2005)  \n- Ianis Zicu (2004–2007)  \n- Siniša Mihajlović (2004–2006)  \n\nĐáp án: Khalilou Fadiga, Dimitar Makriev, Ianis Zicu, Siniša Mihajlović"
+  },
+  {
+    "question": "Đại học Kỹ thuật Vô tuyến Kharkov tham gia ORCID năm nào?",
+    "qtype": "simple_time",
+    "answer_type": "time",
+    "qlabel": "Single",
+    "relation": "P463",
+    "gold": [
+      "2023"
+    ],
+    "method": "cot-kb",
+    "final_answer": "2023",
+    "correct": true,
+    "reply": "Dựa trên dữ kiện được cung cấp, Đại học Kỹ thuật Vô tuyến Kharkiv (Kharkiv National University of Radioelectronics) là thành viên của ORCID vào năm 2023.\n\nĐáp án: 2023"
+  },
+  {
+    "question": "Giải nào được trao cho Arvo Pärt trước năm 2008?",
+    "qtype": "before_after",
+    "answer_type": "entity",
+    "qlabel": "Single",
+    "relation": "P166",
+    "gold": [
+      "György Kurtág"
+    ],
+    "method": "cot-kb",
+    "final_answer": "Herder Prize (2000)",
+    "correct": false,
+    "reply": "Dựa trên dữ kiện:\n- Arvo Pärt nhận giải Herder Prize vào năm 2000.\n- Các giải khác mà Arvo Pärt nhận được trước năm 2008 bao gồm: Giải thưởng âm nhạc Léonie Sonning (2008) không được tính vì năm 2008 không trước năm 2008.\n\nDo đó, giải được trao cho Arvo Pärt trước năm 2008 là Herder Prize (2000).\n\nĐáp án: Herder Prize (2000)"
+  },
+  {
+    "question": "Ai có cùng giữ chức Tổng trưởng Bộ Tài chính với David Heathcoat-Amory?",
+    "qtype": "time_join",
+    "answer_type": "entity",
+    "qlabel": "Multiple",
+    "relation": "P39",
+    "gold": [
+      "David Willetts",
+      "John Cope, Bá tước Cope của Berkeley"
+    ],
+    "method": "cot-kb",
+    "final_answer": "Không ai",
+    "correct": false,
+    "reply": "Dựa trên dữ kiện, David Heathcoat-Amory giữ chức Paymaster General (Tổng trưởng Bộ Tài chính) trong khoảng thời gian 1994–1996. Các người giữ chức vụ này cùng thời gian với ông cần được xác định.\n\n- Tessa Jowell giữ chức từ 2007–2010 (không trùng với 1994–1996).\n- Francis Maude giữ chức từ 2010–2015 (không trùng với 1994–1996).\n- Mel Stride giữ chức từ 2017–2019 (không trùng với 1994–1996).\n- Oliver Dowden giữ chức từ 2019–2020 (không trùng với 1994–1996).\n- Penny Mordaunt giữ chức từ 2020–2021 (không trùng với 1994–1996).\n- Michael Ellis giữ chức từ 2021–2022 (không trùng với 1994–1996).\n- David Willetts giữ chức từ 1996 (không trùng với 1994–1996).\n- John Cope giữ chức từ 1992–1994 (không trùng với 1994–1996).\n- John Gummer giữ chức từ 1984–1985 (không trùng với 1994–1996).\n- Kenneth Clarke giữ chức từ 1985–1987 (không trùng với 1994–1996).\n- Peter Brooke giữ chức từ 1987–1989 (không trùng với 1994–1996).\n- Francis Pym giữ chức từ 1981 (không trùng với 1994–1996).\n\nKhông có ai giữ chức Paymaster General cùng thời gian với David Heathcoat-Amory (1994–1996).\n\nĐáp án: Không ai"
+  },
+  {
+    "question": "Ai có cùng giữ chức Chủ tịch Viện Hàn lâm Khoa học Pháp với Claude Louis Berthollet?",
+    "qtype": "time_join",
+    "answer_type": "entity",
+    "qlabel": "Single",
+    "relation": "P39",
+    "gold": [
+      "Napoléon Bonaparte"
+    ],
+    "method": "cot-kb",
+    "final_answer": "Napoléon Bonaparte",
+    "correct": true,
+    "reply": "Dựa trên dữ kiện, Claude Louis Berthollet giữ chức vụ \"president of the French Academy of Sciences\" vào năm 1800–1801. Ngoài ra, Napoléon Bonaparte cũng giữ chức vụ này vào năm 1800. Do đó, Napoléon Bonaparte là người duy nhất có cùng giữ chức Chủ tịch Viện Hàn lâm Khoa học Pháp với Claude Louis Berthollet trong năm 1800.\n\nĐáp án: Napoléon Bonaparte"
+  },
+  {
+    "question": "Vào thời điểm 2013, đội hình Hellas Verona F.C. có ai?",
+    "qtype": "simple_entity",
+    "answer_type": "entity",
+    "qlabel": "Multiple",
+    "relation": "P54",
+    "gold": [
+      "Alessandro Sgrigna",
+      "Luca Toni",
+      "Marco Donadel",
+      "Samuele Longo"
+    ],
+    "method": "cot-kb",
+    "final_answer": "Samuele Longo, Alessandro Sgrigna, Marco Donadel, Luca Toni",
+    "correct": false,
+    "reply": "Dựa trên dữ kiện, vào năm 2013, các cầu thủ đã từng là thành viên của Hellas Verona F.C. bao gồm:\n\n- Samuele Longo (2013–2014)\n- Alessandro Sgrigna (2013–2014)\n- Marco Donadel (2013–2014)\n- Luca Toni (2013–2016)\n\nDo đó, vào thời điểm năm 2013, đội hình Hellas Verona F.C. có Samuele Longo, Alessandro Sgrigna, Marco Donadel và Luca Toni.\n\nĐáp án: Samuele Longo, Alessandro Sgrigna, Marco Donadel, Luca Toni"
+  },
+  {
+    "question": "Giải nào được trao cho Nikita Sergeyevich Mikhalkov trước năm 1977?",
+    "qtype": "before_after",
+    "answer_type": "entity",
+    "qlabel": "Single",
+    "relation": "P166",
+    "gold": [
+      "Francis Ford Coppola"
+    ],
+    "method": "cot-kb",
+    "final_answer": "Nghệ sĩ ưu tú Nga Sô viết (1976)",
+    "correct": false,
+    "reply": "Dựa trên dữ kiện, các giải thưởng được trao cho Nikita Sergeyevich Mikhalkov trước năm 1977 bao gồm:\n- Nghệ sĩ ưu tú Nga Sô viết (1976).\n\nĐáp án: Nghệ sĩ ưu tú Nga Sô viết (1976)"
+  },
+  {
+    "question": "Carl L. Siegel làm việc cho tổ chức nào sau Đại học Goethe Frankfurt?",
+    "qtype": "before_after",
+    "answer_type": "entity",
+    "qlabel": "Single",
+    "relation": "P108",
+    "gold": [
+      "Viện nghiên cứu cao cấp Princeton"
+    ],
+    "method": "cot-kb",
+    "final_answer": "Đại học Göttingen",
+    "correct": false,
+    "reply": "Dựa trên dữ kiện, Carl L. Siegel làm việc tại Đại học Goethe Frankfurt đến năm 1938. Sau đó, ông chuyển đến Đại học Göttingen từ năm 1938–1940.\n\nĐáp án: Đại học Göttingen"
+  },
+  {
+    "question": "Ai cùng là thành viên Hội Triết học Mỹ với George C. Pimentel?",
+    "qtype": "time_join",
+    "answer_type": "entity",
+    "qlabel": "Multiple",
+    "relation": "P463",
+    "gold": [
+      "Isadore Singer",
+      "Wolfgang Panofsky"
+    ],
+    "method": "cot-kb",
+    "final_answer": "Hội Triết học Mỹ",
+    "correct": false,
+    "reply": "Đáp án: Hội Triết học Mỹ"
+  },
+  {
+    "question": "Zbyněk Stanjura giữ chức vụ Bộ trưởng Giao thông của Cộng hòa Séc từ năm nào?",
+    "qtype": "simple_time",
+    "answer_type": "time",
+    "qlabel": "Single",
+    "relation": "P39",
+    "gold": [
+      "2012"
+    ],
+    "method": "cot-kb",
+    "final_answer": "2012–2013",
+    "correct": false,
+    "reply": "Dựa trên dữ kiện, Zbyněk Stanjura giữ chức vụ Bộ trưởng Giao thông của Cộng hòa Séc từ năm 2012 đến năm 2013.\n\nĐáp án: 2012–2013"
+  },
+  {
+    "question": "Ai cùng Clint Eastwood được trao giải Bắc Đẩu Bội tinh hạng 3?",
+    "qtype": "time_join",
+    "answer_type": "entity",
+    "qlabel": "Multiple",
+    "relation": "P166",
+    "gold": [
+      "Jean-Noël Jeanneney",
+      "Jean-Paul Belmondo"
+    ],
+    "method": "cot-kb",
+    "final_answer": "Không có thông tin",
+    "correct": false,
+    "reply": "Dựa trên dữ kiện cung cấp, không có thông tin nào liên quan đến Clint Eastwood hoặc bất kỳ cá nhân nào được trao giải Bắc Đẩu Bội tinh hạng 3 cùng với ông.\n\nĐáp án: Không có thông tin."
+  },
+  {
+    "question": "Sau giải Giáo danh dự, Đemis Hassabis còn nhận giải nào nữa?",
+    "qtype": "before_after",
+    "answer_type": "entity",
+    "qlabel": "Single",
+    "relation": "P166",
+    "gold": [
+      "Giải thưởng Dan David"
+    ],
+    "method": "cot-kb",
+    "final_answer": "Dan David Prize (2020)",
+    "correct": false,
+    "reply": "Dựa trên dữ kiện:\n- Demis Hassabis đã nhận giải \"honorary degree\" vào năm 2018.\n- Ngoài ra, ông còn nhận nhiều giải thưởng khác sau năm 2018, bao gồm:\n  - Dan David Prize (2020)\n  - Princess of Asturias Award for Technical and Scientific Research (2022)\n  - BBVA Foundation Frontiers of Knowledge Award (2022)\n  - Giải Albert Lasker cho nghiên cứu Y học cơ bản (2023)\n  - Giải quốc tế Quỹ Gairdner (2023)\n\nĐáp án: Dan David Prize (2020)"
+  },
+  {
+    "question": "Cùng thời điểm với Sepp Blatter, ai cũng đoạt Huy chương Olympic Bạc?",
+    "qtype": "time_join",
+    "answer_type": "entity",
+    "qlabel": "Multiple",
+    "relation": "P166",
+    "gold": [
+      "Arthur Ashe",
+      "Ted Stevens"
+    ],
+    "method": "cot-kb",
+    "final_answer": "Arthur Ashe, Ted Stevens, Eugenio Bregolat Obiols",
+    "correct": false,
+    "reply": "Dựa trên dữ kiện, Sepp Blatter đã nhận Silver Olympic Order vào các năm: 1993, 2000, 2001, 2004, 2006, 2008, 2009, 2010, 2013. Trong đó, năm 1993 là năm mà Sepp Blatter cùng với Arthur Ashe, Ted Stevens, và Eugenio Bregolat Obiols cũng nhận Silver Olympic Order.\n\nĐáp án: Arthur Ashe, Ted Stevens, Eugenio Bregolat Obiols"
+  },
+  {
+    "question": "Ai là người đảm nhận chức Đồng công tước Andorra của Pháp vào thời điểm 1968?",
+    "qtype": "simple_entity",
+    "answer_type": "entity",
+    "qlabel": "Single",
+    "relation": "P39",
+    "gold": [
+      "Charles de Gaulle"
+    ],
+    "method": "cot-kb",
+    "final_answer": "Charles de Gaulle",
+    "correct": true,
+    "reply": "Dựa trên dữ kiện, ta cần xác định ai là người giữ chức French co-prince of Andorra vào năm 1968. Xem xét các khoảng thời gian:\n\n- Alain Poher giữ chức từ 1969, nên không phải là người vào năm 1968.\n- Valéry Giscard d'Estaing giữ chức từ 1974, nên không phải là người vào năm 1968.\n- Trước đó, người giữ chức là Alain Poher từ 1969, nhưng không có dữ kiện về người giữ chức trước đó.\n\nTuy nhiên, dữ kiện cho thấy Alain Poher giữ chức vào năm 1969 và 1974, nhưng không có thông tin về người giữ chức vào năm 1968. Do đó, có thể người giữ chức vào năm 1968 là người giữ chức trước Alain Poher, nhưng không có dữ kiện cụ thể.\n\nTuy nhiên, theo dữ kiện, người giữ chức trước Alain Poher là Vincent Auriol (1947–1954), sau đó là Charles de Gaulle (1959–1969). Vì vậy, vào năm 1968, người giữ chức là Charles de Gaulle.\n\nĐáp án: Charles de Gaulle"
+  },
+  {
+    "question": "Giải nào được trao cho Frank Macfarlane Burnet trước năm 1957?",
+    "qtype": "before_after",
+    "answer_type": "entity",
+    "qlabel": "Single",
+    "relation": "P166",
+    "gold": [
+      "James Bryant Conant"
+    ],
+    "method": "cot-kb",
+    "final_answer": "Giải Albert Lasker cho nghiên cứu Y học cơ bản (1952)",
+    "correct": false,
+    "reply": "Dựa trên dữ kiện, ta liệt kê các giải thưởng được trao cho Frank Macfarlane Burnet trước năm 1957:\n\n- Viện sĩ Hội hoàng gia Luân Đôn (1942)\n- Royal Medal (1947)\n- Croonian Medal and Lecture (1950)\n- Hiệp sĩ thường (1951)\n- Giải Albert Lasker cho nghiên cứu Y học cơ bản (1952)\n- Emil-von-Behring-Prize (1952)\n- Fellow of the Australian Academy of Science (1953)\n- James Cook Medal (1954)\n- honorary doctor of the University of New Zealand (1957) → năm 1957 không được tính là \"trước năm 1957\"\n\nDo đó, các giải được trao trước năm 1957 bao gồm: viện sĩ Hội hoàng gia Luân Đôn (1942), Royal Medal (1947), Croonian Medal and Lecture (1950), hiệp sĩ thường (1951), Giải Albert Lasker cho nghiên cứu Y học cơ bản (1952), Emil-von-Behring-Prize (1952), Fellow of the Australian Academy of Science (1953), James Cook Medal (1954).\n\nĐáp án: Giải Albert Lasker cho nghiên cứu Y học cơ bản (1952)"
+  },
+  {
+    "question": "Jakub Vojtuš rời Miedź Legnica năm nào?",
+    "qtype": "simple_time",
+    "answer_type": "time",
+    "qlabel": "Single",
+    "relation": "P54",
+    "gold": [
+      "2018"
+    ],
+    "method": "cot-kb",
+    "final_answer": "2018",
+    "correct": true,
+    "reply": "Dựa trên dữ kiện, Jakub Vojtuš là cầu thủ của Miedź Legnica từ năm 2016–2018. Sau đó, vào năm 2018, ông gia nhập GKS Tychy. Do đó, Jakub Vojtuš rời Miedź Legnica vào năm 2018.\n\nĐáp án: 2018"
+  },
+  {
+    "question": "Sergei Jakirović rời PFC CSKA Sofia năm nào?",
+    "qtype": "simple_time",
+    "answer_type": "time",
+    "qlabel": "Single",
+    "relation": "P54",
+    "gold": [
+      "2007"
+    ],
+    "method": "cot-kb",
+    "final_answer": "2007",
+    "correct": true,
+    "reply": "Dựa trên dữ kiện, Sergej Jakirović (Sergei Jakirović) cuối cùng là cầu thủ của PFC CSKA Sofia trong khoảng thời gian (2005–2007). Sau đó, ông không còn xuất hiện trong danh sách các cầu thủ của PFC CSKA Sofia, mà thay vào đó, ông bắt đầu đảm nhận vai trò huấn luyện viên trưởng cho các đội bóng khác như HNK Rijeka (2007–2008), ASKÖ Pasching (2007), SK Austria Kärnten (2007–2009), v.v.\n\nDo đó, năm mà Sergej Jakirović rời PFC CSKA Sofia là năm 2007.\n\nĐáp án: 2007"
+  },
+  {
+    "question": "Fabiano Soares Pessoa thi đấu cho đội nào lần đầu tiên?",
+    "qtype": "first_last",
+    "answer_type": "entity",
+    "qlabel": "Single",
+    "relation": "P54",
+    "gold": [
+      "Botafogo de Futebol e Regatas"
+    ],
+    "method": "cot-kb",
+    "final_answer": "Botafogo de Futebol e Regatas",
+    "correct": true,
+    "reply": "Dựa trên dữ kiện, Fabiano Soares Pessoa bắt đầu sự nghiệp thi đấu vào năm 1986 với đội Botafogo de Futebol e Regatas. Các giai đoạn thi đấu tiếp theo bắt đầu từ năm 1988, 1989, v.v., nhưng giai đoạn đầu tiên là từ năm 1986.\n\nĐáp án: Botafogo de Futebol e Regatas"
+  },
+  {
+    "question": "Bạn học của Chantal Zabus tại Đại học Queen là ai?",
+    "qtype": "time_join",
+    "answer_type": "entity",
+    "qlabel": "Single",
+    "relation": "P69",
+    "gold": [
+      "John P. Smol"
+    ],
+    "method": "cot-kb",
+    "final_answer": "Không xác định được",
+    "correct": false,
+    "reply": "Dựa trên dữ kiện, Chantal Zabus đã làm việc tại Queen's University từ năm 1980–1982. Trong cùng khoảng thời gian, John P. Smol cũng đang học tại Queen's University (1979–1982). Tuy nhiên, không có thông tin trực tiếp cho thấy John P. Smol là học sinh của Chantal Zabus. Không có dữ kiện nào xác định rõ ràng ai là \"bạn học\" của Chantal Zabus tại Queen's University.\n\nĐáp án: Không xác định được"
+  },
+  {
+    "question": "Cùng thời với Marcy Kaptur ở chức giám đốc còn có ai?",
+    "qtype": "time_join",
+    "answer_type": "entity",
+    "qlabel": "Multiple",
+    "relation": "P39",
+    "gold": [
+      "Calyampudi Radhakrishna Rao",
+      "Claude Allègre",
+      "Czesław Olech",
+      "Hans Wußing",
+      "Ivan Vinogradov",
+      "Jacques Jourquin",
+      "Jean-Yves Leblond",
+      "Joan Triadú",
+      "John T. Lewis",
+      "Lennart Carleson",
+      "Lénárd Pál",
+      "Madeleine Rebérioux",
+      "Nikolay Gennadiyevich Basov",
+      "Nikoloz Muskhelishvili",
+      "Patrick Devedjian",
+      "Raymond Aron",
+      "Sergei Lvovich Sobolev",
+      "Sergey Afanasyev",
+      "Yuri Mitropolskiy"
+    ],
+    "method": "cot-kb",
+    "final_answer": "Không có thông tin về Marcy Kaptur trong dữ kiện",
+    "correct": false,
+    "reply": "Đáp án: Không có thông tin về Marcy Kaptur trong dữ kiện."
+  },
+  {
+    "question": "Ai chơi cùng Nicolas Anelka ở Đội tuyển U20 bóng đá quốc gia Pháp?",
+    "qtype": "time_join",
+    "answer_type": "entity",
+    "qlabel": "Single",
+    "relation": "P54",
+    "gold": [
+      "Thierry Henry"
+    ],
+    "method": "cot-kb",
+    "final_answer": "Thierry Henry",
+    "correct": true,
+    "reply": "Dựa trên dữ kiện, Nicolas Anelka là cầu thủ của Đội tuyển U20 bóng đá quốc gia Pháp từ năm 1997–1998. Trong cùng khoảng thời gian này, Thierry Henry cũng là cầu thủ của đội tuyển này. Ngoài ra, Alou Diarra là cầu thủ của đội tuyển U20 Pháp từ năm 2001–2002, nhưng không trùng thời gian với Nicolas Anelka. Elliot Grandin là cầu thủ của đội tuyển U20 Pháp năm 2008, cũng không trùng thời gian với Nicolas Anelka.\n\nĐáp án: Thierry Henry"
+  },
+  {
+    "question": "Persi Diaconis ẵm giải Thành viên Hội Toán Thống Kê vào năm nào?",
+    "qtype": "simple_time",
+    "answer_type": "time",
+    "qlabel": "Single",
+    "relation": "P166",
+    "gold": [
+      "1981"
+    ],
+    "method": "cot-kb",
+    "final_answer": "1981",
+    "correct": true,
+    "reply": "Dựa trên dữ kiện cung cấp, Persi Diaconis được trao giải Fellow of the Institute of Mathematical Statistics vào năm 1981.\n\nĐáp án: 1981"
+  },
+  {
+    "question": "Giải thưởng đầu tiên trong sự nghiệp của Jürgen Oesten là gì?",
+    "qtype": "first_last",
+    "answer_type": "entity",
+    "qlabel": "Single",
+    "relation": "P166",
+    "gold": [
+      "Huân chương Khen thưởng Phục vụ Dài Dày của Quân đội Đức Quốc"
+    ],
+    "method": "cot-kb",
+    "final_answer": "Wehrmacht Long Service Award (1937)",
+    "correct": false,
+    "reply": "Dựa trên dữ kiện, các giải thưởng của Jürgen Oesten được liệt kê theo thời gian như sau:\n- Wehrmacht Long Service Award (1937)\n- Spanish Cross (1939)\n- Sudetenland Medal (1939)\n- Iron Cross 2nd Class (1939)\n- Iron Cross 1st Class (1940)\n- Knight's Cross of the Iron Cross (1941)\n\nGiải thưởng đầu tiên theo thời gian là Wehrmacht Long Service Award năm 1937.\n\nĐáp án: Wehrmacht Long Service Award (1937)"
+  },
+  {
+    "question": "Ai cùng Hubert Reeves được trao giải Bắc Đẩu Bội tinh hạng 4?",
+    "qtype": "time_join",
+    "answer_type": "entity",
+    "qlabel": "Multiple",
+    "relation": "P166",
+    "gold": [
+      "Henry de Lumley",
+      "Jean-Pierre Kahane",
+      "Maurice Jarre"
+    ],
+    "method": "cot-kb",
+    "final_answer": "Không có thông tin",
+    "correct": false,
+    "reply": "Dựa trên dữ kiện cung cấp, không có thông tin nào về Hubert Reeves được trao giải Bắc Đẩu Bội tinh hạng 4. Do đó, không thể xác định ai cùng Hubert Reeves được trao giải.\n\nĐáp án: Không có thông tin."
+  },
+  {
+    "question": "Leonard Jimmie Savage nhận giải cuối cùng vào dịp nào?",
+    "qtype": "first_last",
+    "answer_type": "entity",
+    "qlabel": "Single",
+    "relation": "P166",
+    "gold": [
+      "Giải Guggenheim"
+    ],
+    "method": "cot-kb",
+    "final_answer": "1951",
+    "correct": false,
+    "reply": "Dựa trên dữ kiện, Leonard Jimmie Savage nhận giải thưởng cuối cùng là Giải Guggenheim vào năm 1951.\n\nĐáp án: 1951"
+  },
+  {
+    "question": "Năm 1991, Đại học Aarhus có sinh viên nào?",
+    "qtype": "simple_entity",
+    "answer_type": "entity",
+    "qlabel": "Single",
+    "relation": "P69",
+    "gold": [
+      "Frederik X của Đan Mạch"
+    ],
+    "method": "cot-kb",
+    "final_answer": "Không có thông tin",
+    "correct": false,
+    "reply": "Dựa trên dữ kiện, không có thông tin nào về sinh viên của Đại học Aarhus vào năm 1991.\n\nĐáp án: Không có thông tin."
+  },
+  {
+    "question": "Vào năm 2003, ai nắm giữ vị trí Thượng nghị sĩ Ý đời đời?",
+    "qtype": "simple_entity",
+    "answer_type": "entity",
+    "qlabel": "Multiple",
+    "relation": "P39",
+    "gold": [
+      "Emilio Colombo",
+      "Francesco Cossiga",
+      "Giulio Andreotti",
+      "Oscar Luigi Scalfaro",
+      "Rita Levi-Montalcini"
+    ],
+    "method": "cot-kb",
+    "final_answer": "Emilio Colombo",
+    "correct": true,
+    "reply": "Dựa trên dữ kiện, vào năm 2003, các cá nhân nắm giữ chức vụ Thượng nghị sĩ Ý đời đời bao gồm:\n\n- Giuseppe Saragat (1971–1988) → không còn nắm giữ vào năm 2003.\n- Amintore Fanfani (1972–1999) → không còn nắm giữ vào năm 2003.\n- Sandro Pertini (1985–1990) → không còn nắm giữ vào năm 2003.\n- Giovanni Spadolini (1991–1994) → chưa bắt đầu nắm giữ vào năm 2003.\n- Giulio Andreotti (1991–2013) → chưa bắt đầu nắm giữ vào năm 2003.\n- Paolo Emilio Taviani (1991–2001) → chưa bắt đầu nắm giữ vào năm 2003.\n- Francesco Cossiga (1992–2010) → chưa bắt đầu nắm giữ vào năm 2003.\n- Oscar Luigi Scalfaro (1999–2012) → chưa bắt đầu nắm giữ vào năm 2003.\n- Rita Levi-Montalcini (2001–2012) → chưa bắt đầu nắm giữ vào năm 2003.\n- Emilio Colombo (2003–2013) → bắt đầu nắm giữ vào năm 2003.\n\nDo đó, vào năm 2003, người nắm giữ vị trí Thượng nghị sĩ Ý đời đời là Emilio Colombo.\n\nĐáp án: Emilio Colombo"
+  },
+  {
+    "question": "Trường cuối cùng của Ben Zhong Tang là?",
+    "qtype": "first_last",
+    "answer_type": "entity",
+    "qlabel": "Single",
+    "relation": "P69",
+    "gold": [
+      "Đại học Kyoto"
+    ],
+    "method": "cot-kb",
+    "final_answer": "Đại học Kyoto",
+    "correct": true,
+    "reply": "Dựa trên dữ kiện, các trường học mà Ben Zhong Tang từng theo học là South China University of Technology (1978–1982) và Đại học Kyoto (1982–1985). Không có thông tin nào cho thấy ông theo học tại bất kỳ trường học nào sau năm 1985.\n\nĐáp án: Đại học Kyoto"
+  },
+  {
+    "question": "Ai là thành viên của Câu lạc bộ bóng đá Paulista sau năm 2003?",
+    "qtype": "before_after",
+    "answer_type": "entity",
+    "qlabel": "Single",
+    "relation": "P54",
+    "gold": [
+      "Sorato"
+    ],
+    "method": "cot-kb",
+    "final_answer": "Ricardo Souza Silva, Vagner Mancini, Alexandre Finazzi, Fernando Diniz, Neto Baiano, Jorginho Paulista, Francisco Alex, José Carlos Ferreira Filho, Enílton Menezes de Miranda, Dermival Almeida Lima, Danilo Gomes, Marcelo Macedo, Tiago Cavalcanti, Jaílson",
+    "correct": false,
+    "reply": "Dựa trên dữ kiện, ta cần xác định những người đã là thành viên của Paulista Futebol Clube sau năm 2003. Các cầu thủ có thời gian tham gia từ năm 2004 trở đi sẽ được tính.\n\n- Ricardo Souza Silva (2004–2005)\n- Vagner Mancini (2004–2007)\n- Alexandre Finazzi (2005)\n- Fernando Diniz (2006–2007)\n- Neto Baiano (2006–2008)\n- Jorginho Paulista (2007)\n- Francisco Alex (2009–2010)\n- José Carlos Ferreira Filho (2009)\n- Enílton Menezes de Miranda (2009)\n- Dermival Almeida Lima (2010–2011)\n- Danilo Gomes (2012)\n- Marcelo Macedo (2013)\n- Tiago Cavalcanti (2014)\n- Jaílson (2015)\n\nĐáp án: Ricardo Souza Silva, Vagner Mancini, Alexandre Finazzi, Fernando Diniz, Neto Baiano, Jorginho Paulista, Francisco Alex, José Carlos Ferreira Filho, Enílton Menezes de Miranda, Dermival Almeida Lima, Danilo Gomes, Marcelo Macedo, Tiago Cavalcanti, Jaílson"
+  },
+  {
+    "question": "Trước khi đoạt Hội殿堂 âm nhạc Canada, Bruce Cockburn đã có giải thưởng nào?",
+    "qtype": "before_after",
+    "answer_type": "entity",
+    "qlabel": "Single",
+    "relation": "P166",
+    "gold": [
+      "Giải Juno cho Album gốc và truyền thống của năm – Nghệ sĩ độc tấu"
+    ],
+    "method": "cot-kb",
+    "final_answer": "Juno Award for Folk Artist of the Year (1971)",
+    "correct": false,
+    "reply": "Dựa trên dữ kiện, Bruce Cockburn đã đoạt giải Juno Award for Folk Artist of the Year vào các năm 1971, 1972, 1973, 1980, 1981, 1982. Ngoài ra, ông cũng đoạt giải Juno Award for Roots & Traditional Album of the Year – Solo vào năm 2000 và 2012. Tuy nhiên, giải thưởng đầu tiên mà ông giành được trước khi đoạt giải tại Canadian Music Hall of Fame (năm 2001) là Juno Award for Folk Artist of the Year (1971).\n\nĐáp án: Juno Award for Folk Artist of the Year (1971)"
+  },
+  {
+    "question": "Ai là cầu thủ của Le Mans FC năm 1991?",
+    "qtype": "simple_entity",
+    "answer_type": "entity",
+    "qlabel": "Single",
+    "relation": "P54",
+    "gold": [
+      "Fabrice Moreau"
+    ],
+    "method": "cot-kb",
+    "final_answer": "Fabrice Moreau",
+    "correct": true,
+    "reply": "Dựa trên dữ kiện, Fabrice Moreau là cầu thủ của Le Mans FC trong khoảng thời gian 1990–1991, do đó anh ấy là cầu thủ của đội vào năm 1991.\n\nĐáp án: Fabrice Moreau"
+  },
+  {
+    "question": "Giải nào được trao cho Maya Moore sau năm 2024?",
+    "qtype": "before_after",
+    "answer_type": "entity",
+    "qlabel": "Single",
+    "relation": "P166",
+    "gold": [
+      "Sue Bird"
+    ],
+    "method": "cot-kb",
+    "final_answer": "Đại sảnh Danh vọng Bóng rổ Tưởng niệm Naismith (2025)",
+    "correct": false,
+    "reply": "Dựa trên dữ kiện, các giải thưởng được trao cho Maya Moore trước năm 2024 bao gồm: Women's Basketball Hall of Fame (2024), Đại sảnh Danh vọng Bóng rổ Tưởng niệm Naismith (2025), và Sue Bird cũng được trao giải Women's Basketball Hall of Fame (2025). Tuy nhiên, giải Women's Basketball Hall of Fame (2024) được trao cho Maya Moore **trước** năm 2024, trong khi Đại sảnh Danh vọng Bóng rổ Tưởng niệm Naismith (2025) được trao **sau** năm 2024.\n\nĐáp án: Đại sảnh Danh vọng Bóng rổ Tưởng niệm Naismith (2025)"
+  },
+  {
+    "question": "Fabrizio Ravanelli rời Calcio Avellino S.S.D. năm nào?",
+    "qtype": "simple_time",
+    "answer_type": "time",
+    "qlabel": "Single",
+    "relation": "P54",
+    "gold": [
+      "1990"
+    ],
+    "method": "cot-kb",
+    "final_answer": "1991",
+    "correct": false,
+    "reply": "Dựa trên dữ kiện, Fabrizio Ravanelli đã chơi cho Calcio Avellino S.S.D. trong các khoảng thời gian sau:  \n- 1989–1990  \n- 1990–1991  \n\nSau đó, ông chuyển đến Reggio Audace F.C. (1990–1992), Juventus F.C. (1992–1996), và không còn xuất hiện trong danh sách cầu thủ của Calcio Avellino S.S.D. nữa.  \n\nĐáp án: 1991"
+  },
+  {
+    "question": "Tổ chức đầu tiên Lars Hörmander tham gia là gì?",
+    "qtype": "first_last",
+    "answer_type": "entity",
+    "qlabel": "Single",
+    "relation": "P463",
+    "gold": [
+      "Viện hàn lâm Khoa học quốc gia Hoa Kỳ"
+    ],
+    "method": "cot-kb",
+    "final_answer": "Viện hàn lâm Khoa học quốc gia Hoa Kỳ (1976)",
+    "correct": false,
+    "reply": "Dựa trên dữ kiện, Lars Hörmander đã tham gia nhiều tổ chức khác nhau. Tổ chức đầu tiên được ghi nhận là Viện hàn lâm Khoa học quốc gia Hoa Kỳ (1976). Tuy nhiên, cần kiểm tra xem có tổ chức nào được tham gia trước năm 1976 không.\n\nDữ kiện cho thấy Lars Hörmander là sinh viên của Germund Dahlquist vào năm 1958, và ông đã làm việc tại Đại học Lund từ năm 1948 đến 1955. Tuy nhiên, việc \"tham gia\" một tổ chức có thể được hiểu là trở thành thành viên chính thức. Dựa trên dữ kiện, tổ chức đầu tiên mà ông trở thành thành viên chính thức là Viện hàn lâm Khoa học quốc gia Hoa Kỳ (1976).\n\nĐáp án: Viện hàn lâm Khoa học quốc gia Hoa Kỳ (1976)"
+  },
+  {
+    "question": "Giải đầu tiên đánh dấu sự nghiệp của Ernst Leonard Lindelöf là gì?",
+    "qtype": "first_last",
+    "answer_type": "entity",
+    "qlabel": "Single",
+    "relation": "P166",
+    "gold": [
+      "Huân chương Sao Bắc Cực hạng 5"
+    ],
+    "method": "cot-kb",
+    "final_answer": "Huân chương Sao Bắc Cực hạng 5 (1907)",
+    "correct": false,
+    "reply": "Dựa trên dữ kiện, các giải thưởng mà Ernst Leonard Lindelöf nhận được lần lượt là: Huân chương Sao Bắc Cực hạng 5 (1907), Huân chương Thánh Anna hạng 3 (1910), và Grand Cross of the Order of the White Rose of Finland (1940). Trong đó, giải thưởng đầu tiên ông nhận được là Huân chương Sao Bắc Cực hạng 5 vào năm 1907.\n\nĐáp án: Huân chương Sao Bắc Cực hạng 5 (1907)"
+  },
+  {
+    "question": "Ai là đồng nghiệp của Thomas Shafee tại Đại học La Trobe?",
+    "qtype": "time_join",
+    "answer_type": "entity",
+    "qlabel": "Single",
+    "relation": "P108",
+    "gold": [
+      "Muhammad Yunus"
+    ],
+    "method": "cot-kb",
+    "final_answer": "Không có thông tin rõ ràng về đồng nghiệp của Thomas Shafee tại Đại học La Trobe",
+    "correct": false,
+    "reply": "Dựa trên dữ kiện, Thomas Shafee đã làm việc tại Đại học La Trobe từ năm 2016 đến năm 2021. Trong cùng khoảng thời gian này, Catherine Chamberlain cũng là nhà tuyển dụng của Đại học La Trobe (2009), tuy nhiên thời gian làm việc của bà không trùng với thời gian làm việc của Thomas Shafee tại trường. Không có thông tin nào khác về các đồng nghiệp khác của Thomas Shafee tại Đại học La Trobe.\n\nĐáp án: Không có thông tin rõ ràng về đồng nghiệp của Thomas Shafee tại Đại học La Trobe."
+  },
+  {
+    "question": "Ai giữ chức vụ chúa cảng Cinque Ports vào năm 1496?",
+    "qtype": "simple_entity",
+    "answer_type": "entity",
+    "qlabel": "Single",
+    "relation": "P39",
+    "gold": [
+      "Henry VIII của Anh"
+    ],
+    "method": "cot-kb",
+    "final_answer": "Henry VIII của Anh",
+    "correct": true,
+    "reply": "Dựa trên dữ kiện, Henry VIII của Anh giữ chức vụ chúa cảng Cinque Ports từ năm 1493 đến năm 1509. Năm 1496 nằm trong khoảng thời gian này.\n\nĐáp án: Henry VIII của Anh"
+  },
+  {
+    "question": "Vào thời gian 1941, Đảng Cộng sản Liên Xô bao gồm những ai?",
+    "qtype": "simple_entity",
+    "answer_type": "entity",
+    "qlabel": "Multiple",
+    "relation": "P102",
+    "gold": [
+      "Aleksandr Mikhaylovich Vasilevskiy",
+      "Aleksey Kosygin",
+      "Andrei Andreyevich Gromyko",
+      "Dmitriy Ustinov",
+      "Georgi Konstantinovich Zhukov",
+      "Iosif Vissarionovich Stalin",
+      "Leonid Ilyich Brezhnev",
+      "Mikhail Kalinin",
+      "Nikolai Aleksandrovich Bulganin",
+      "Nikolai Konstantinovich Baibakov",
+      "Semyon Konstantinovich Timoshenko",
+      "Vyacheslav Mikhailovich Molotov"
+    ],
+    "method": "cot-kb",
+    "final_answer": "Đảng Cộng sản Liên Xô bao gồm những người nêu trên vào năm 1941",
+    "correct": false,
+    "reply": "Dựa trên dữ kiện, ta xác định những người đã là đảng viên của Đảng Cộng sản Liên Xô vào năm 1941. Các cá nhân có thời gian tham gia Đảng Cộng sản Liên Xô trước hoặc bao gồm năm 1941 sẽ được tính. Những người có thời gian tham gia Đảng Cộng sản Liên Xô bắt đầu sau năm 1941 sẽ không được tính.\n\nCác cá nhân có thời gian tham gia Đảng Cộng sản Liên Xô trước hoặc bao gồm năm 1941 bao gồm:\n- Kliment Yefremovich Voroshilov (1903)\n- Lazar Kaganovich (1911)\n- Iosif Vissarionovich Stalin (1912–1953)\n- Andrei Zhdanov (1915)\n- Anastas Mikoyan (1915)\n- Nikolai Aleksandrovich Bulganin (1917–1975)\n- Lev Davidovich Trotsky (1917–1927)\n- Lavrentiy Pavlovich Beriya (1917)\n- Matvey Vasilyevich Zakharov (1917)\n- Vladimir Ilyich Lenin (1918–1924)\n- Yefim Slavsky (1918)\n- Ivan Stepanovich Koniev (1918)\n- Nikita Sergeyevich Khrushchyov (1918)\n- Vyacheslav Mikhailovich Molotov (1918–1962)\n- Sergey Vladimirovich Ilyushin (1918)\n- Mikhail Kalinin (1918–1946)\n- Georgi Konstantinovich Zhukov (1919–1974)\n- Ivan Papanin (1919)\n- Filipp Agaltsov (1919)\n- Pavel Semyonovich Rybalko (1919)\n- Semyon Konstantinovich Timoshenko (1919–1970)\n- Semyon Mikhailovich Budyonny (1919)\n- Konstantin Konstantinovich Rokossovsky (1919)\n- Mikhail Tikhonov (1919)\n- Vasily Ivanovich Chuikov (1919)\n- Otto Schmidt (1919)\n- Nikolai Nikolayevich Voronov (1919)\n- Aleksandr Aleksandrovich Novikov (1920)\n- Sergey Kondratievich Goryunov (1920)\n- Pavel Poluboyarov (1920)\n- Nikolai Alekseyevich Ostrovsky (1924)\n- Dmitry Danilovich Lelyushenko (1924)\n- Yakov Grigoryevich Kreyzer (1925)\n- Artem Ivanovich Mikoyan (1925)\n- Andrey Kravchenko (1925)\n- Ivan Lyudnikov (1925)\n- Andronik Iosifyan (1925)\n- Afanasy Pavlantyevich Beloborodov (1926)\n- Feliks Edmundovich Dzerzhinsky (1926)\n- Rodion Yakovlevich Malinovsky (1926)\n- Andrey Andreyev (1926)\n- Nikolay Ivanovich Krylov (1927)\n- Oleksiy Fedorov (1927)\n- Dmitriy Ustinov (1927–1984)\n- Vasili Vasilyevich Kuznetsov (1927)\n- Aleksey Kosygin (1927–1980)\n- Andrey Antonovich Grechko (1928)\n- Nikolay Antonov (1929)\n- Ezras Hasratyan (1929)\n- Zakhar Slyusarenko (1929)\n- Timofey Khryukin (1929)\n- Pavel Ivanovich Batov (1929)\n- David Abramovich Dragunsky (1931)\n- Andrei Andreyevich Gromyko (1931–1989)\n- Vasily Danilovich Sokolovsky (1931)\n- Vasily Arkhipov (1931)\n- Hryhorii Kravchenko (1931)\n- Yevgeny Savitsky (1931)\n- Leonid Ilyich Brezhnev (1931–1982)\n- Mikhail Yefimovich Katukov (1932)\n\nĐáp án: Đảng Cộng sản Liên Xô bao gồm những người nêu trên vào năm 1941."
+  },
+  {
+    "question": "Vinh dự cuối cùng Theodore Roosevelt nhận được là gì?",
+    "qtype": "first_last",
+    "answer_type": "entity",
+    "qlabel": "Single",
+    "relation": "P166",
+    "gold": [
+      "Huân chương Danh dự"
+    ],
+    "method": "cot-kb",
+    "final_answer": "Huân chương Danh dự (2001)",
+    "correct": false,
+    "reply": "Dựa trên dữ kiện, các giải thưởng và vinh dự mà Theodore Roosevelt nhận được bao gồm: Giải Nobel Hòa bình (1906), Huân chương Danh dự (2001), và một số giải thưởng khác. Trong số đó, Huân chương Danh dự (2001) là vinh dự cuối cùng được ghi nhận trong dữ kiện.\n\nĐáp án: Huân chương Danh dự (2001)"
+  },
+  {
+    "question": "Vinh dự cuối cùng Valdis Zatlers nhận được là gì?",
+    "qtype": "first_last",
+    "answer_type": "entity",
+    "qlabel": "Single",
+    "relation": "P166",
+    "gold": [
+      "Thư lệnh Tổng thống về Xuất sắc"
+    ],
+    "method": "cot-kb",
+    "final_answer": "Presidential Order of Excellence (2013)",
+    "correct": false,
+    "reply": "Dựa trên dữ kiện, các giải thưởng Valdis Zatlers nhận được theo thời gian được liệt kê từ năm 2007 đến năm 2013. Giải thưởng cuối cùng được ghi nhận là \"Presidential Order of Excellence (2013)\".\n\nĐáp án: Presidential Order of Excellence (2013)"
+  },
+  {
+    "question": "Richard Dawkins làm việc cho Đại học California tại Berkeley từ khi nào đến khi nào?",
+    "qtype": "simple_time",
+    "answer_type": "time",
+    "qlabel": "Multiple",
+    "relation": "P108",
+    "gold": [
+      "1967",
+      "1969"
+    ],
+    "method": "cot-kb",
+    "final_answer": "1967–1969",
+    "correct": false,
+    "reply": "Dựa trên dữ kiện:\n- Richard Dawkins — nhà tuyển dụng — Đại học California tại Berkeley (1967–1969)\n\nĐáp án: 1967–1969"
+  },
+  {
+    "question": "Ai đảm trách vị trí Chủ tịch Hạ viện Anh trong năm 1858?",
+    "qtype": "simple_entity",
+    "answer_type": "entity",
+    "qlabel": "Single",
+    "relation": "P39",
+    "gold": [
+      "Evelyn Denison, Bá tước Ossington thứ nhất"
+    ],
+    "method": "cot-kb",
+    "final_answer": "Evelyn Denison, 1st Viscount Ossington",
+    "correct": false,
+    "reply": "Dựa trên dữ kiện, Evelyn Denison, 1st Viscount Ossington giữ chức vụ Speaker of the House of Commons từ năm 1857 đến 1872. Năm 1858 nằm trong khoảng thời gian này.\n\nĐáp án: Evelyn Denison, 1st Viscount Ossington"
+  },
+  {
+    "question": "Paulo Ribenboim là sinh viên Đại học Bonn trong khoảng thời gian nào?",
+    "qtype": "simple_time",
+    "answer_type": "time",
+    "qlabel": "Multiple",
+    "relation": "P69",
+    "gold": [
+      "1953",
+      "1956"
+    ],
+    "method": "cot-kb",
+    "final_answer": "Không có thời gian nào",
+    "correct": false,
+    "reply": "Dựa trên dữ kiện, Paulo Ribenboim không được liệt kê là sinh viên của Đại học Bonn. Thay vào đó, ông là giảng viên tại Đại học Bonn từ năm 1953–1956. Các khoảng thời gian khác liên quan đến ông là thời gian ông làm nghiên cứu sinh (tại Đại học Nancy và Đại học Liên bang Rio de Janeiro), hoặc thời gian ông giảng dạy tại các trường khác.\n\nĐáp án: Không có thời gian nào."
+  },
+  {
+    "question": "Eric Kandel nhận giải Huy chương Howard Crosby Warren khi nào?",
+    "qtype": "simple_time",
+    "answer_type": "time",
+    "qlabel": "Single",
+    "relation": "P166",
+    "gold": [
+      "1984"
+    ],
+    "method": "cot-kb",
+    "final_answer": "1984",
+    "correct": true,
+    "reply": "Dựa trên dữ kiện:\n- Eric Kandel — giải thưởng — Howard Crosby Warren Medal (1984)\n- Daniel Kahneman — giải thưởng — Howard Crosby Warren Medal (1995)\n\nTa thấy rằng Eric Kandel đã nhận giải Howard Crosby Warren Medal vào năm 1984.\n\nĐáp án: 1984"
+  },
+  {
+    "question": "Daniel Mietchen làm việc cho Đại học Humboldt Berlin từ khi nào đến khi nào?",
+    "qtype": "simple_time",
+    "answer_type": "time",
+    "qlabel": "Multiple",
+    "relation": "P108",
+    "gold": [
+      "1997",
+      "2001"
+    ],
+    "method": "cot-kb",
+    "final_answer": "1997–2001, 2007–2010, 2013–2015",
+    "correct": false,
+    "reply": "Dựa trên dữ kiện:\n- Daniel Mietchen — nhà tuyển dụng — Đại học Humboldt Berlin (1997–2001)\n- Daniel Mietchen — nhà tuyển dụng — Đại học Humboldt Berlin (2007–2010)\n- Daniel Mietchen — nhà tuyển dụng — Đại học Humboldt Berlin (2013–2015)\n- Melanie Seltmann — nhà tuyển dụng — Đại học Humboldt Berlin (2013–2015)\n- Melanie Seltmann — nhà tuyển dụng — Đại học Humboldt Berlin (2024)\n\nTuy nhiên, câu hỏi chỉ tập trung vào Daniel Mietchen. Các khoảng thời gian liên quan đến Daniel Mietchen làm việc cho Đại học Humboldt Berlin là từ 1997 đến 2001, 2007 đến 2010, và 2013 đến 2015.\n\nĐáp án: 1997–2001, 2007–2010, 2013–2015"
+  },
+  {
+    "question": "Ai làm Thành viên của Hội đồng Liên bang Nga sau Alexey Alexandrov?",
+    "qtype": "before_after",
+    "answer_type": "entity",
+    "qlabel": "Single",
+    "relation": "P39",
+    "gold": [
+      "Dmitri Alenichev"
+    ],
+    "method": "cot-kb",
+    "final_answer": "Anatoly Artamonov",
+    "correct": false,
+    "reply": "Dựa trên dữ kiện, Alexey Alexandrov là thành viên của Hội đồng Liên bang Nga từ năm 2004–2020. Sau thời gian này, người kế nhiệm trực tiếp của ông trong Hội đồng Liên bang Nga là Anatoly Artamonov, người được ghi nhận là thành viên từ năm 2020.\n\nĐáp án: Anatoly Artamonov"
+  },
+  {
+    "question": "Khoảng thời gian nào Ngô Đôn Nghĩa theo học ở Đại học Chính trị Quốc gia (Đài Loan)?",
+    "qtype": "simple_time",
+    "answer_type": "time",
+    "qlabel": "Multiple",
+    "relation": "P69",
+    "gold": [
+      "1965",
+      "1966"
+    ],
+    "method": "cot-kb",
+    "final_answer": "Không có thông tin",
+    "correct": false,
+    "reply": "Dựa trên dữ kiện, không có thông tin nào cho thấy Ngô Đôn Nghĩa từng theo học tại Đại học Chính trị Quốc gia (Đài Loan). Các thông tin liên quan đến Ngô Đôn Nghĩa chỉ đề cập đến việc ông giữ các chức vụ như thành viên Hội đồng thành phố Đài Bắc, thị trưởng Kaohsiung, và thành viên Viện lập pháp, chứ không đề cập đến việc học tập.\n\nĐáp án: Không có thông tin"
+  },
+  {
+    "question": "Giải nào được trao cho Gwendolyn Brooks trước năm 1976?",
+    "qtype": "before_after",
+    "answer_type": "entity",
+    "qlabel": "Single",
+    "relation": "P166",
+    "gold": [
+      "Richard Wilbur"
+    ],
+    "method": "cot-kb",
+    "final_answer": "Giải Guggenheim (1946)",
+    "correct": false,
+    "reply": "Xét các giải thưởng được trao cho Gwendolyn Brooks trước năm 1976:\n- Giải Guggenheim (1946)\n- Giải Pulitzer cho Thơ (1950)\n- Giải Sách Anisfield-Wolf (1969)\n- Đề cử National Book Award for Poetry (1969)\n\nGiải Shelley Memorial Award (1976) không được tính vì năm 1976 không trước năm 1976.\n\nĐáp án: Giải Guggenheim (1946)"
+  },
+  {
+    "question": "Yvonne Choquet-Bruhat kết hôn với Gustave Choquet từ năm bao nhiêu?",
+    "qtype": "simple_time",
+    "answer_type": "time",
+    "qlabel": "Single",
+    "relation": "P26",
+    "gold": [
+      "1961"
+    ],
+    "method": "cot-kb",
+    "final_answer": "1961",
+    "correct": true,
+    "reply": "Dựa trên dữ kiện: \"Yvonne Choquet-Bruhat — người phối ngẫu — Gustave Choquet (1961–2006)\".\n\nĐáp án: 1961"
+  },
+  {
+    "question": "Vào năm 2012, ai là cầu thủ của Đội bóng Anapolina?",
+    "qtype": "simple_entity",
+    "answer_type": "entity",
+    "qlabel": "Single",
+    "relation": "P54",
+    "gold": [
+      "Gustavo Saibt Martins"
+    ],
+    "method": "cot-kb",
+    "final_answer": "Gustavo Saibt Martins",
+    "correct": true,
+    "reply": "Dựa trên dữ kiện, vào năm 2012, Gustavo Saibt Martins là cầu thủ của Associação Atlética Anapolina.\n\nĐáp án: Gustavo Saibt Martins"
+  },
+  {
+    "question": "Ai có chung giai đoạn ở Hội thống kê Hoa Kỳ với Lincoln Moses?",
+    "qtype": "time_join",
+    "answer_type": "entity",
+    "qlabel": "Single",
+    "relation": "P463",
+    "gold": [
+      "Prasanta Chandra Mahalanobis"
+    ],
+    "method": "cot-kb",
+    "final_answer": "Shanti Gupta, Rupert G. Miller, Jr., K. C. Sreedharan Pillai, Madan Lal Puri, Calyampudi Radhakrishna Rao, Leopold Schmetterer, Raj Chandra Bose, Paul Switzer, Ross Prentice, Roderick J. A. Little, Tze Leung Lai, John Geweke",
+    "correct": false,
+    "reply": "Dựa trên dữ kiện:\n- Lincoln Moses trở thành thành viên của American Statistical Association (ASA) vào năm 1961.\n- Theodore Wilbur Anderson là thành viên của ASA từ năm 1949.\n- Herbert Solomon là thành viên của ASA từ năm 1954.\n- Gerald J. Lieberman là thành viên của ASA từ năm 1959.\n- Lincoln Moses là thành viên của ASA từ năm 1961.\n- Shanti Gupta là thành viên của ASA từ năm 1964.\n- Rupert G. Miller, Jr. là thành viên của ASA từ năm 1969.\n- K. C. Sreedharan Pillai là thành viên của ASA từ năm 1969.\n- Madan Lal Puri là thành viên của ASA từ năm 1971.\n- Calyampudi Radhakrishna Rao là thành viên của ASA từ năm 1972.\n- Leopold Schmetterer là thành viên của ASA từ năm 1973.\n- Raj Chandra Bose là thành viên của ASA từ năm 1973.\n- Paul Switzer là thành viên của ASA từ năm 1977.\n- Ross Prentice là thành viên của ASA từ năm 1982.\n- Roderick J. A. Little là thành viên của ASA từ năm 1985.\n- Tze Leung Lai là thành viên của ASA từ năm 1986.\n- John Geweke là thành viên của ASA từ năm 1990.\n- Leonard A. Stefanski là thành viên của ASA từ năm 1996.\n- Richard A. Berk là thành viên của ASA từ năm 2001.\n- Anthony Davison là thành viên của ASA từ năm 2002.\n- Peter Schmidt là thành viên của ASA từ năm 2002.\n- Art Owen là thành viên của ASA từ năm 2015.\n- Judea Pearl là thành viên của ASA từ năm 2019.\n- Eric P. Xing là thành viên của ASA từ năm 2022.\n\nNhững người có giai đoạn chung với Lincoln Moses (1961–1992) là những người trở thành thành viên của ASA từ năm 1961 đến năm 1992. Những người này bao gồm:\n- Shanti Gupta (1964)\n- Rupert G. Miller, Jr. (1969)\n- K. C. Sreedharan Pillai (1969)\n- Madan Lal Puri (1971)\n- Calyampudi Radhakrishna Rao (1972)\n- Leopold Schmetterer (1973)\n- Raj Chandra Bose (1973)\n- Paul Switzer (1977)\n- Ross Prentice (1982)\n- Roderick J. A. Little (1985)\n- Tze Leung Lai (1986)\n- John Geweke (1990)\n\nĐáp án: Shanti Gupta, Rupert G. Miller, Jr., K. C. Sreedharan Pillai, Madan Lal Puri, Calyampudi Radhakrishna Rao, Leopold Schmetterer, Raj Chandra Bose, Paul Switzer, Ross Prentice, Roderick J. A. Little, Tze Leung Lai, John Geweke"
+  },
+  {
+    "question": "Cùng thời với André Cools ở chức Thành viên của Hạ viện Bỉ còn có ai?",
+    "qtype": "time_join",
+    "answer_type": "entity",
+    "qlabel": "Multiple",
+    "relation": "P39",
+    "gold": [
+      "Charles-Ferdinand Nothomb",
+      "Frans Grootjans",
+      "Leo Tindemans",
+      "Theo Lefèvre"
+    ],
+    "method": "cot-kb",
+    "final_answer": "Gaston Eyskens, Frans Grootjans, Leo Tindemans, Théo Lefèvre, Charles-Ferdinand Nothomb",
+    "correct": false,
+    "reply": "Dựa trên dữ kiện, André Cools là Thành viên của Hạ viện Bỉ trong các khoảng thời gian sau:  \n- 1958–1961  \n- 1961–1965  \n- 1965–1968  \n- 1968–1971  \n- 1971–1974  \n- 1974–1977  \n- 1977–1978  \n- 1979–1981  \n\nTrong cùng thời gian này, các người cùng chức vụ với André Cools bao gồm:  \n- Gaston Eyskens (1958–1961, 1961–1965, 1965–1968, 1968–1971, 1971–1974, 1974–1977, 1977–1978)  \n- Frans Grootjans (1958–1961, 1961–1965, 1965–1968, 1968–1971, 1971–1974, 1974–1977, 1977–1978, 1978–1981)  \n- Leo Tindemans (1965–1989)  \n- Théo Lefèvre (1958–1961, 1961–1965, 1965–1968, 1968–1971, 1971–1974)  \n- Charles-Ferdinand Nothomb (1968–1995)  \n\nĐáp án: Gaston Eyskens, Frans Grootjans, Leo Tindemans, Théo Lefèvre, Charles-Ferdinand Nothomb"
+  },
+  {
+    "question": "Ai thi đấu cho Granada CF vào năm 2009?",
+    "qtype": "simple_entity",
+    "answer_type": "entity",
+    "qlabel": "Single",
+    "relation": "P54",
+    "gold": [
+      "Carlos Aranda"
+    ],
+    "method": "cot-kb",
+    "final_answer": "Carlos Aranda",
+    "correct": true,
+    "reply": "Dựa trên dữ kiện, Carlos Aranda là cầu thủ của Granada CF từ năm 2007 đến 2009. Do đó, vào năm 2009, ông đang thi đấu cho đội này.\n\nĐáp án: Carlos Aranda"
+  },
+  {
+    "question": "Cùng thời với Pekka Sauri ở chức chủ tịch còn có ai?",
+    "qtype": "time_join",
+    "answer_type": "entity",
+    "qlabel": "Multiple",
+    "relation": "P39",
+    "gold": [
+      "Czesław Olech",
+      "Frederick Valentine Atkinson",
+      "Fredrik Reinfeldt",
+      "Friedrich Hirzebruch",
+      "Hillary Clinton",
+      "Jacques-Louis Lions",
+      "Jane Lubchenco",
+      "John Polkinghorne",
+      "Joseph Gilles Napoléon Ouellet",
+      "Juan Antonio Samaranch",
+      "Maurício Peixoto",
+      "Michael Artin",
+      "Michael Glos",
+      "Olga Ladyzhenskaya",
+      "Pekka Haavisto",
+      "Robert Badinter",
+      "Simon A. Levin",
+      "Stanislav Gross",
+      "Tarja Halonen"
+    ],
+    "method": "cot-kb",
+    "final_answer": "Không có thông tin về Pekka Sauri trong dữ kiện cung cấp",
+    "correct": false,
+    "reply": "Đáp án: Không có thông tin về Pekka Sauri trong dữ kiện cung cấp."
+  },
+  {
+    "question": "Ai là người đảm nhận chức Bộ trưởng phụ trách Phát triển Quốc tế vào thời điểm 2001?",
+    "qtype": "simple_entity",
+    "answer_type": "entity",
+    "qlabel": "Single",
+    "relation": "P39",
+    "gold": [
+      "Caroline Spelman"
+    ],
+    "method": "cot-kb",
+    "final_answer": "Caroline Spelman",
+    "correct": true,
+    "reply": "Dựa trên dữ kiện, Caroline Spelman đảm nhận chức vụ Shadow Secretary of State for International Development từ năm 2001 đến 2003.\n\nĐáp án: Caroline Spelman"
+  },
+  {
+    "question": "Vào năm 1965, ai nắm giữ vị trí Thành viên Thượng viện bang Georgia?",
+    "qtype": "simple_entity",
+    "answer_type": "entity",
+    "qlabel": "Single",
+    "relation": "P39",
+    "gold": [
+      "Jimmy Carter"
+    ],
+    "method": "cot-kb",
+    "final_answer": "Jimmy Carter",
+    "correct": true,
+    "reply": "Dựa trên dữ kiện, Jimmy Carter là thành viên của Thượng viện bang Georgia từ năm 1963 đến 1967. Năm 1965 nằm trong khoảng thời gian này.\n\nĐáp án: Jimmy Carter"
+  },
+  {
+    "question": "Giải thưởng đầu tay của Emma Bonino là gì?",
+    "qtype": "first_last",
+    "answer_type": "entity",
+    "qlabel": "Single",
+    "relation": "P166",
+    "gold": [
+      "Giải thưởng Hoàng hậu Asturias về Hợp tác Quốc tế"
+    ],
+    "method": "cot-kb",
+    "final_answer": "Princess of Asturias Award for International Cooperation (1998)",
+    "correct": false,
+    "reply": "Dựa trên dữ kiện, các giải thưởng của Emma Bonino được liệt kê theo thời gian như sau:\n- Princess of Asturias Award for International Cooperation (1998)\n- North–South Prize (1999)\n- Bắc Đẩu Bội tinh hạng 3 (2009)\n- BBC 100 Women (2013)\n- honorary doctorate of the Vrije Universiteit Brussel (2017)\n\nGiải thưởng đầu tiên theo thời gian là Princess of Asturias Award for International Cooperation (1998).\n\nĐáp án: Princess of Asturias Award for International Cooperation (1998)"
+  },
+  {
+    "question": "Andrei Panyukov thi đấu cho đội nào trước khi gia nhập FC Slavia-Mozyr?",
+    "qtype": "before_after",
+    "answer_type": "entity",
+    "qlabel": "Single",
+    "relation": "P54",
+    "gold": [
+      "FC Kyzylzhar"
+    ],
+    "method": "cot-kb",
+    "final_answer": "FC Dynamo Moscow",
+    "correct": false,
+    "reply": "Dựa trên dữ kiện, Andrei Panyukov bắt đầu thi đấu cho các đội tuyển quốc gia trẻ trước khi gia nhập FC Slavia-Mozyr. Cụ thể, anh thi đấu cho đội tuyển U17 Nga vào năm 2011, sau đó là U19 Nga từ 2011–2013, và U21 Nga vào năm 2012 và 2013. Ngoài ra, anh cũng thi đấu cho FC Dynamo Moscow từ 2012–2015, trước khi gia nhập FC Slavia-Mozyr vào năm 2023.\n\nĐáp án: FC Dynamo Moscow"
+  },
+  {
+    "question": "Lloyd Doggett từng làm gì trước tiên trong sự nghiệp?",
+    "qtype": "first_last",
+    "answer_type": "entity",
+    "qlabel": "Single",
+    "relation": "P39",
+    "gold": [
+      "Thành viên Thượng viện bang Texas"
+    ],
+    "method": "cot-kb",
+    "final_answer": "Đại học Texas tại Austin (1967)",
+    "correct": false,
+    "reply": "Dựa trên dữ kiện, trước tiên Lloyd Doggett học tại Đại học Texas tại Austin vào năm 1967, sau đó học tại University of Texas School of Law vào năm 1970. Đây là các bước đầu tiên trong sự nghiệp học thuật của ông.\n\nĐáp án: Đại học Texas tại Austin (1967)"
+  },
+  {
+    "question": "Ai có chung khoảng thời gian học tại Đại học Nancy với Paulo Ribenboim?",
+    "qtype": "time_join",
+    "answer_type": "entity",
+    "qlabel": "Single",
+    "relation": "P69",
+    "gold": [
+      "Alexander Grothendieck"
+    ],
+    "method": "cot-kb",
+    "final_answer": "Alexander Grothendieck",
+    "correct": true,
+    "reply": "Dựa trên dữ kiện:\n- Paulo Ribenboim học tại Đại học Nancy từ năm 1950–1952.\n- Alexander Grothendieck học tại Đại học Nancy từ năm 1949–1953.\n\nDo đó, khoảng thời gian học chung giữa Paulo Ribenboim và Alexander Grothendieck tại Đại học Nancy là từ năm 1950–1952.\n\nĐáp án: Alexander Grothendieck"
+  },
+  {
+    "question": "Marcelo Ramos thi đấu cho đội nào trước khi gia nhập Esporte Clube Vitória?",
+    "qtype": "before_after",
+    "answer_type": "entity",
+    "qlabel": "Single",
+    "relation": "P54",
+    "gold": [
+      "Sport Club Corinthians Paulista"
+    ],
+    "method": "cot-kb",
+    "final_answer": "Esporte Clube Bahia",
+    "correct": false,
+    "reply": "Dựa trên dữ kiện, Marcelo Ramos bắt đầu thi đấu cho Esporte Cluce Bahia từ năm 1990–1994. Trước khi gia nhập Esporte Clube Vitória (thời gian đầu tiên là năm 1992), Marcelo Ramos thi đấu cho Esporte Clube Bahia.\n\nĐáp án: Esporte Clube Bahia"
+  },
+  {
+    "question": "Ai đảm trách vị trí Chủ tịch Martinique trong năm 2001?",
+    "qtype": "simple_entity",
+    "answer_type": "entity",
+    "qlabel": "Single",
+    "relation": "P39",
+    "gold": [
+      "Michel Cadot"
+    ],
+    "method": "cot-kb",
+    "final_answer": "Michel Cadot",
+    "correct": true,
+    "reply": "Dựa trên dữ kiện, Michel Cadot giữ chức vụ Prefect of Martinique từ năm 2000 đến 2004. Vì vậy, vào năm 2001, ông đang đảm nhiệm chức vụ này.\n\nĐáp án: Michel Cadot"
+  },
+  {
+    "question": "Itō Kiyoshi đoạt Giải Wolf về Toán học năm nào?",
+    "qtype": "simple_time",
+    "answer_type": "time",
+    "qlabel": "Single",
+    "relation": "P166",
+    "gold": [
+      "1987"
+    ],
+    "method": "cot-kb",
+    "final_answer": "1987",
+    "correct": true,
+    "reply": "Dựa trên dữ kiện, Itō Kiyoshi được liệt kê là người nhận Giải Wolf về Toán học năm 1987.\n\nĐáp án: 1987"
+  },
+  {
+    "question": "Wu Văn Quân nhận giải thưởng nào trước khi nhận Giải thưởng Shaw trong Khoa học Toán học?",
+    "qtype": "before_after",
+    "answer_type": "entity",
+    "qlabel": "Single",
+    "relation": "P166",
+    "gold": [
+      "Giải thưởng Khoa học và Công nghệ Ưu việt của Nhà nước"
+    ],
+    "method": "cot-kb",
+    "final_answer": "Academician of the Chinese Academy of Sciences (1957)",
+    "correct": false,
+    "reply": "Dựa trên dữ kiện:\n- Wu Wenjun nhận giải thưởng Academician of the Chinese Academy of Sciences vào năm 1957.\n- Wu Wenjun nhận giải thưởng TWAS Prize for Mathematics vào năm 1990.\n- Wu Wenjun nhận giải thưởng Herbrand Award vào năm 1997.\n- Wu Wenjun nhận giải thưởng State Preeminent Science and Technology Award vào năm 2001.\n- Wu Wenjun nhận giải thưởng Shaw Prize in Mathematical Sciences vào năm 2006.\n\nCác giải thưởng mà Wu Wenjun nhận trước năm 2006 bao gồm: Academician of the Chinese Academy of Sciences (1957), TWAS Prize for Mathematics (1990), Herbrand Award (1997), và State Preeminent Science and Technology Award (2001).\n\nĐáp án: Academician of the Chinese Academy of Sciences (1957)"
+  },
+  {
+    "question": "Sau giải Giải thưởng Otto Laporte, Katepalli R. Sreenivasan còn nhận giải nào nữa?",
+    "qtype": "before_after",
+    "answer_type": "entity",
+    "qlabel": "Single",
+    "relation": "P166",
+    "gold": [
+      "Thành viên liên kết của Học viện Khoa học Châu Phi"
+    ],
+    "method": "cot-kb",
+    "final_answer": "Associate Fellow of the African Academy of Sciences (2006)",
+    "correct": false,
+    "reply": "Dựa trên dữ kiện:\n- Katepalli R. Sreenivasan đã nhận giải Otto Laporte Award vào năm 1995.\n- Sau năm 1995, ông đã nhận nhiều giải thưởng khác, bao gồm: Associate Fellow of the African Academy of Sciences (2006), Panetti Ferrari Award (2006), Dwight Nicholson Medal for Outreach (2008), Fluid Dynamics Prize (2020), G. I. Taylor Medal (2020), Charles Russ Richards Memorial Award (2020), và ASME Medal (2022).\n\nĐáp án: Associate Fellow of the African Academy of Sciences (2006)"
+  },
+  {
+    "question": "Vào thời điểm nào Robert Weinberg nhận giải Giải thưởng AACR-G.H.A. Clowes cho Nghiên cứu Ung thư Cơ bản Xuất sắc?",
+    "qtype": "simple_time",
+    "answer_type": "time",
+    "qlabel": "Single",
+    "relation": "P166",
+    "gold": [
+      "1996"
+    ],
+    "method": "cot-kb",
+    "final_answer": "1984, 1996",
+    "correct": false,
+    "reply": "Dựa trên dữ kiện, ta thấy rằng Robert Weinberg đã nhận giải AACR-G.H.A. Clowes Award for Outstanding Basic Cancer Research vào các năm: 1984, 1996.\n\nĐáp án: 1984, 1996"
+  },
+  {
+    "question": "Cùng thời điểm với Gustaf Anton Bråkenhielm, ai cũng đoạt Bắc Đẩu Bội tinh hạng 5?",
+    "qtype": "time_join",
+    "answer_type": "entity",
+    "qlabel": "Multiple",
+    "relation": "P166",
+    "gold": [
+      "Henry Dunant",
+      "Léon Heuzey"
+    ],
+    "method": "cot-kb",
+    "final_answer": "Léon Heuzey, Henry Dunant",
+    "correct": false,
+    "reply": "Dựa trên dữ kiện, Gustaf Anton Bråkenhielm nhận Bắc Đẩu Bội tinh hạng 5 vào năm 1865. Trong cùng năm đó, các cá nhân sau cũng nhận giải thưởng này: Léon Heuzey, Henry Dunant, và Gustaf Anton Bråkenhielm.\n\nĐáp án: Léon Heuzey, Henry Dunant"
+  },
+  {
+    "question": "Ai là thành viên của Liên đoàn Thể thao Bồ Đào Nha sau năm 2003?",
+    "qtype": "before_after",
+    "answer_type": "entity",
+    "qlabel": "Single",
+    "relation": "P54",
+    "gold": [
+      "Alex Sandro Santana de Oliveira"
+    ],
+    "method": "cot-kb",
+    "final_answer": "Edno Roberto Cunha",
+    "correct": false,
+    "reply": "Dựa trên dữ kiện, cần xác định những người là thành viên của Associação Portuguesa de Desportos (Liên đoàn Thể thao Bồ Đào Nha) sau năm 2003. Các cầu thủ có thời gian tham gia sau năm 2003 bao gồm:\n\n- Washington Luiz Mascarenhas Silva (2005)\n- Zé Eduardo (2005)\n- Marcos Aurélio Fernandes da Silva (2007–2009)\n- Edno Roberto Cunha (2008–2012)\n- José Carlos Ferreira Filho (2009, 2010)\n- César Prates (2009)\n- Luiz Carlos de Souza Pinto (2010)\n- Christian Corrêa Dionisio (2008, 2009)\n\nTrong số này, Edno Roberto Cunha là người duy nhất có thời gian tham gia kéo dài từ năm 2008 đến 2012, tức là sau năm 2003.\n\nĐáp án: Edno Roberto Cunha"
+  },
+  {
+    "question": "Giải kế tiếp của Nikita Sergeyevich Mikhalkov sau Huân chương “Vì Tổ quốc” hạng 2 là gì?",
+    "qtype": "before_after",
+    "answer_type": "entity",
+    "qlabel": "Single",
+    "relation": "P166",
+    "gold": [
+      "Sư tử vàng cho Thành tựu trọn đời"
+    ],
+    "method": "cot-kb",
+    "final_answer": "Sư tử vàng cho Thành tựu trọn đời (2007)",
+    "correct": false,
+    "reply": "Dựa trên dữ kiện, Nikita Sergeyevich Mikhalkov đã nhận Huân chương “Vì Tổ quốc” hạng 2 vào năm 2005. Sau đó, vào năm 2007, ông đã nhận giải “Sư tử vàng cho Thành tựu trọn đời”. Đây là giải thưởng kế tiếp của ông sau Huân chương “Vì Tổ quốc” hạng 2.\n\nĐáp án: Sư tử vàng cho Thành tựu trọn đời (2007)"
+  },
+  {
+    "question": "Giải nào  nhận được năm 1855?",
+    "qtype": "simple_entity",
+    "answer_type": "entity",
+    "qlabel": "Single",
+    "relation": "P166",
+    "gold": [
+      "Eduard Angerer"
+    ],
+    "method": "cot-kb",
+    "final_answer": "Eduard Angerer",
+    "correct": true,
+    "reply": "Dựa trên dữ kiện, ta thấy rằng năm 1855 có một người nhận giải thưởng là Eduard Angerer với Huân chương Vương miện Sắt hạng 3.\n\nĐáp án: Eduard Angerer"
+  },
+  {
+    "question": "Vào lúc 1957, ai là học sinh/sinh viên của Trường Đại học Swarthmore?",
+    "qtype": "simple_entity",
+    "answer_type": "entity",
+    "qlabel": "Single",
+    "relation": "P69",
+    "gold": [
+      "David Baltimore"
+    ],
+    "method": "cot-kb",
+    "final_answer": "Carl Levin, David Baltimore",
+    "correct": false,
+    "reply": "Dựa trên dữ kiện, các học sinh/sinh viên của Trường Đại học Swarthmore trong khoảng thời gian 1957 có thể là những người có thời gian học tại trường bao gồm năm 1957. Dữ kiện cho thấy:\n\n- Carl Levin học tại Swarthmore College từ 1956.\n- David Baltimore học tại Swarthmore College từ 1956–1960.\n\nCả hai người này đều có thời gian học tại trường bao gồm năm 1957.\n\nĐáp án: Carl Levin, David Baltimore"
+  },
+  {
+    "question": "Sidney R. Yates giữ chức vụ nào đầu tiên?",
+    "qtype": "first_last",
+    "answer_type": "entity",
+    "qlabel": "Single",
+    "relation": "P39",
+    "gold": [
+      "dân biểu Hoa Kỳ"
+    ],
+    "method": "cot-kb",
+    "final_answer": "dân biểu Hoa Kỳ (1949–1951)",
+    "correct": false,
+    "reply": "Dựa trên dữ kiện, Sidney R. Yates giữ chức vụ dân biểu Hoa Kỳ đầu tiên vào năm 1949–1951.\n\nĐáp án: dân biểu Hoa Kỳ (1949–1951)"
+  },
+  {
+    "question": "Bạn đồng hành của Francis Collins tại Viện hàn lâm Khoa học quốc gia Hoa Kỳ là ai?",
+    "qtype": "time_join",
+    "answer_type": "entity",
+    "qlabel": "Multiple",
+    "relation": "P463",
+    "gold": [
+      "Bert Sakmann",
+      "David Baltimore",
+      "Dương Chấn Ninh",
+      "Elizabeth Blackburn",
+      "James Rothman",
+      "M. S. Bartlett",
+      "M. S. Swaminathan",
+      "Mikio Sato"
+    ],
+    "method": "cot-kb",
+    "final_answer": "Không có thông tin trong dữ kiện",
+    "correct": false,
+    "reply": "Dữ kiện không cung cấp thông tin về Francis Collins hoặc bạn đồng hành của ông tại Viện hàn lâm Khoa học quốc gia Hoa Kỳ.\n\nĐáp án: Không có thông tin trong dữ kiện."
+  },
+  {
+    "question": "Sau Brackley Town F.C., Jefferson Louis đầu quân cho ai?",
+    "qtype": "before_after",
+    "answer_type": "entity",
+    "qlabel": "Single",
+    "relation": "P54",
+    "gold": [
+      "Newport County A.F.C."
+    ],
+    "method": "cot-kb",
+    "final_answer": "Newport County A.F.C",
+    "correct": false,
+    "reply": "Dựa trên dữ kiện, Jefferson Louis đã chơi cho Brackley Town F.C. từ năm 2011–2012. Sau đó, vào năm 2012, ông đầu quân cho Newport County A.F.C., Lincoln City F.C., và Whitehawk F.C.\n\nĐáp án: Newport County A.F.C."
+  },
+  {
+    "question": "Ai cùng Andrew Young đảm nhiệm chủ tịch?",
+    "qtype": "time_join",
+    "answer_type": "entity",
+    "qlabel": "Multiple",
+    "relation": "P39",
+    "gold": [
+      "Donald Trump",
+      "Elizabeth Dole",
+      "Fadey Sargsyan",
+      "Gabriel de Broglie",
+      "Gérard Collomb",
+      "Hervé Gaymard",
+      "Hubert Reeves",
+      "Jean-Pierre Bois",
+      "Jean-Pierre Kahane",
+      "Lyudmila Verbitskaya",
+      "Marc Fumaroli",
+      "Maria Elisabetta Alberti Casellati",
+      "Nicholas Shackleton",
+      "Philippe de Villiers",
+      "Piotr Stachańczyk",
+      "Raymond Barre"
+    ],
+    "method": "cot-kb",
+    "final_answer": "Không có thông tin về Andrew Young trong dữ kiện cung cấp",
+    "correct": false,
+    "reply": "Đáp án: Không có thông tin về Andrew Young trong dữ kiện cung cấp."
+  },
+  {
+    "question": "Elver Jonsson không còn làm Chủ tịch Ủy ban Thị trường Lao động từ năm nào?",
+    "qtype": "simple_time",
+    "answer_type": "time",
+    "qlabel": "Single",
+    "relation": "P39",
+    "gold": [
+      "1979"
+    ],
+    "method": "cot-kb",
+    "final_answer": "1982",
+    "correct": false,
+    "reply": "Dựa trên dữ kiện, Elver Jonsson giữ chức Chủ tịch Ủy ban Thị trường Lao động từ năm 1978–1979 và từ 1979–1982. Sau năm 1982, không còn ghi nhận Elver Jonsson giữ chức vụ này. Ingela Thalén bắt đầu giữ chức Chủ tịch từ năm 1992–1994, cho thấy giữa 1982 và 1992, không có người giữ chức vụ Chủ tịch được ghi nhận.\n\nĐáp án: 1982"
+  },
+  {
+    "question": "Tổ chức cuối cùng mà Lucien Cayeux gia nhập là?",
+    "qtype": "first_last",
+    "answer_type": "entity",
+    "qlabel": "Single",
+    "relation": "P463",
+    "gold": [
+      "Viện Hàn lâm Khoa học Nga"
+    ],
+    "method": "cot-kb",
+    "final_answer": "Collège de France (1912–1956)",
+    "correct": false,
+    "reply": "Dựa trên dữ kiện, các tổ chức mà Lucien Cayeux đã gia nhập theo thời gian bao gồm: Academy of Agriculture of France (1917), Viện Hàn lâm Khoa học Pháp (1928), Viện Hàn lâm Khoa học Nga (1929), và các chức vụ tại Collège de France (1912–1956). Trong số đó, Collège de France là tổ chức duy nhất mà ông gắn bó lâu dài và đến năm 1956, sau các tổ chức khác.\n\nĐáp án: Collège de France (1912–1956)"
+  },
+  {
+    "question": "Ai là thành viên của Vitória S.C. sau năm 2008?",
+    "qtype": "before_after",
+    "answer_type": "entity",
+    "qlabel": "Single",
+    "relation": "P54",
+    "gold": [
+      "Jorge Ribeiro"
+    ],
+    "method": "cot-kb",
+    "final_answer": "Nélson Oliveira, Matej Delač, Moussa Maâzou",
+    "correct": false,
+    "reply": "Dựa trên dữ kiện, ta xác định các thành viên của Vitória S.C. sau năm 2008 như sau:\n\n- Nélson Oliveira — cầu thủ của đội thể thao — Vitória S.C. (2024)\n- Matej Delač — cầu thủ của đội thể thao — Vitória S.C. (2012–2013)\n- Moussa Maâzou — cầu thủ của đội thể thao — Vitória S.C. (2013–2014)\n- Jorge Ribeiro — cầu thủ của đội thể thao — Vitória S.C. (2010–2011) → không đủ điều kiện (trước 2008)\n- Các cầu thủ khác đều có thời gian thi đấu trước năm 2008.\n\nĐáp án: Nélson Oliveira, Matej Delač, Moussa Maâzou"
+  },
+  {
+    "question": "Giải nào được trao cho Kim Nhật Thành sau năm 1973?",
+    "qtype": "before_after",
+    "answer_type": "entity",
+    "qlabel": "Single",
+    "relation": "P166",
+    "gold": [
+      "Dmitriy Ustinov"
+    ],
+    "method": "cot-kb",
+    "final_answer": "Order of Eduardo Mondlane, 1st class (1984)",
+    "correct": false,
+    "reply": "Dựa trên dữ kiện, các giải thưởng được trao cho Kim Nhật Thành sau năm 1973 bao gồm:\n- Order of Eduardo Mondlane, 1st class (1984)\n- Huân chương José Martí (1986)\n- Huân chương Klement Gottwald (1987)\n- Order of Playa Girón (1987)\n\nĐáp án: Order of Eduardo Mondlane, 1st class (1984)"
+  },
+  {
+    "question": "Ai cùng khoác áo Đội tuyển bóng đá quốc gia Colombia với Iván Valenciano?",
+    "qtype": "time_join",
+    "answer_type": "entity",
+    "qlabel": "Multiple",
+    "relation": "P54",
+    "gold": [
+      "Albeiro Usuriaga",
+      "Carlos Valderrama",
+      "Jairo Castillo",
+      "Jorge Horacio Serna",
+      "Leonardo Fabio Moreno",
+      "Nestor Salazar",
+      "Tressor Moreno"
+    ],
+    "method": "cot-kb",
+    "final_answer": "Carlos Valderrama, Leonardo Fabio Moreno, Néstor Salazar, Jairo Castillo, Jorge Horacio Serna, Tressor Moreno, Martín Enrrique Arzuaga, Milton Rodríguez",
+    "correct": false,
+    "reply": "Dựa trên dữ kiện, Iván Valenciano đã khoác áo Đội tuyển bóng đá quốc gia Colombia từ năm 1991–2000. Trong khoảng thời gian này, nhiều cầu thủ khác cũng từng là thành viên của đội tuyển. Một số ví dụ bao gồm:\n\n- Carlos Valderrama (1985–1998)\n- Albeiro Usuriaga (1989–1991)\n- Leonardo Fabio Moreno (1997–2000)\n- Néstor Salazar (1999–2001)\n- Jairo Castillo (1999–2005)\n- Jorge Horacio Serna (1999–2002)\n- Tressor Moreno (2000–2008)\n- Martín Enrrique Arzuaga (2003–2005)\n- Milton Rodríguez (2004–2008)\n- James Rodríguez (2011)\n\nTrong số đó, những người có thời gian thi đấu giao叠 với Iván Valenciano (1991–2000) bao gồm: Carlos Valderrama, Leonardo Fabio Moreno, Néstor Salazar, Jairo Castillo, Jorge Horacio Serna, Tressor Moreno, Martín Enrrique Arzuaga, Milton Rodríguez.\n\nĐáp án: Carlos Valderrama, Leonardo Fabio Moreno, Néstor Salazar, Jairo Castillo, Jorge Horacio Serna, Tressor Moreno, Martín Enrrique Arzuaga, Milton Rodríguez"
+  },
+  {
+    "question": "Khi nào Bernard Cornut-Gentille nắm giữ vị trí Đại sứ Pháp tại Argentina?",
+    "qtype": "simple_time",
+    "answer_type": "time",
+    "qlabel": "Single",
+    "relation": "P39",
+    "gold": [
+      "1957"
+    ],
+    "method": "cot-kb",
+    "final_answer": "1957–1958",
+    "correct": false,
+    "reply": "Dựa trên dữ kiện, Bernard Cornut-Gentille giữ chức vụ ambassador of France to Argentina từ năm 1957 đến 1958.\n\nĐáp án: 1957–1958"
+  },
+  {
+    "question": "Cầu thủ nào khoác áo Újpest FC vào năm 2002?",
+    "qtype": "simple_entity",
+    "answer_type": "entity",
+    "qlabel": "Single",
+    "relation": "P54",
+    "gold": [
+      "Túlio Maravilha"
+    ],
+    "method": "cot-kb",
+    "final_answer": "Túlio Maravilha",
+    "correct": true,
+    "reply": "Dựa trên dữ kiện, Túlio Maravilha là cầu thủ của Újpest FC vào năm 2002.\n\nĐáp án: Túlio Maravilha"
+  },
+  {
+    "question": "Giải thưởng cuối cùng Roger Chartier từng nhận là?",
+    "qtype": "first_last",
+    "answer_type": "entity",
+    "qlabel": "Single",
+    "relation": "P166",
+    "gold": [
+      "docteur honoris causa de l'université de Neuchâtel"
+    ],
+    "method": "cot-kb",
+    "final_answer": "docteur honoris causa de l'université de Neuchâtel (2012)",
+    "correct": false,
+    "reply": "Dựa trên dữ kiện, các giải thưởng Roger Chartier từng nhận theo thời gian là:\n- Giải thưởng lớn Gobert (1992)\n- Bắc Đẩu Bội tinh hạng 5 (1993)\n- Bắc Đẩu Bội tinh hạng 4 (2002)\n- docteur honoris causa de l'université de Neuchâtel (2012)\n\nGiải thưởng cuối cùng theo thời gian là năm 2012.\n\nĐáp án: docteur honoris causa de l'université de Neuchâtel (2012)"
+  },
+  {
+    "question": "Năm 1992, ai trong hàng ngũ Đảng Xã hội Dân chủ?",
+    "qtype": "simple_entity",
+    "answer_type": "entity",
+    "qlabel": "Single",
+    "relation": "P102",
+    "gold": [
+      "Gregor Gysi"
+    ],
+    "method": "cot-kb",
+    "final_answer": "Gregor Gysi, Heinz Keßler",
+    "correct": false,
+    "reply": "Dựa trên dữ kiện:\n- Party of Democratic Socialism thay thế Đảng Xã hội Chủ nghĩa Thống nhất Đức từ năm 1989.\n- Năm 1992, Đảng Xã hội Dân chủ (Party of Democratic Socialism) đang tồn tại.\n- Gregor Gysi là chủ tịch của Đảng từ 1990–1993.\n- Heinz Keßler là đảng viên từ năm 1990.\n- Bodo Ramelow là đảng viên từ năm 1999 (sau 1992).\n- Lothar Bisky trở thành chủ tịch từ 1993–2000 (sau 1992).\n\nVậy vào năm 1992, Gregor Gysi và Heinz Keßler là những người trong hàng ngũ Đảng Xã hội Dân chủ.\n\nĐáp án: Gregor Gysi, Heinz Keßler"
+  },
+  {
+    "question": "Bậc học cao nhất của Eric P. Xing là ở trường nào?",
+    "qtype": "first_last",
+    "answer_type": "entity",
+    "qlabel": "Single",
+    "relation": "P69",
+    "gold": [
+      "Đại học California tại Berkeley"
+    ],
+    "method": "cot-kb",
+    "final_answer": "Đại học California tại Berkeley",
+    "correct": true,
+    "reply": "Dựa trên dữ kiện, Eric P. Xing đã học tại Đại học Thanh Hoa từ 1988–1993, sau đó là Đại học Rutgers từ 1994–1999, và tiếp tục học tại Đại học California tại Berkeley từ 1999–2004. Đại học California tại Berkeley là nơi anh học đến năm 2004, sau đó anh bắt đầu làm việc tại Carnegie Mellon University. Do đó, bậc học cao nhất của anh là ở Đại học California tại Berkeley.\n\nĐáp án: Đại học California tại Berkeley"
+  },
+  {
+    "question": "Ai thay Abraham Lincoln đảm nhiệm dân biểu Hoa Kỳ?",
+    "qtype": "before_after",
+    "answer_type": "entity",
+    "qlabel": "Single",
+    "relation": "P39",
+    "gold": [
+      "Justin Smith Morrill"
+    ],
+    "method": "cot-kb",
+    "final_answer": "Robert Ward Johnson",
+    "correct": false,
+    "reply": "Dựa trên dữ kiện, Abraham Lincoln từng đảm nhiệm chức vụ dân biểu Hoa Kỳ từ năm 1847–1849. Trong khoảng thời gian này, Robert Ward Johnson cũng là dân biểu Hoa Kỳ từ năm 1847–1849. Do đó, Robert Ward Johnson là người thay Abraham Lincoln đảm nhiệm dân biểu Hoa Kỳ trong cùng thời gian.\n\nĐáp án: Robert Ward Johnson"
+  },
+  {
+    "question": "Lamont Barnes thi đấu cho đội nào trước khi gia nhập Đại học Murcia?",
+    "qtype": "before_after",
+    "answer_type": "entity",
+    "qlabel": "Single",
+    "relation": "P54",
+    "gold": [
+      "Baloncesto Fuenlabrada"
+    ],
+    "method": "cot-kb",
+    "final_answer": "Temple Owls men's basketball",
+    "correct": false,
+    "reply": "Dựa trên dữ kiện, Lamont Barnes gia nhập UCAM Murcia vào năm 2003. Trước đó, ông thi đấu cho đội Temple Owls men's basketball từ năm 1996 đến năm 2000.\n\nĐáp án: Temple Owls men's basketball"
+  },
+  {
+    "question": "Ai có cùng giữ chức Tướng quốc Lãnh địa Công tước Lancaster với Herbert Samuel, Bá tước Samuel thứ nhất?",
+    "qtype": "time_join",
+    "answer_type": "entity",
+    "qlabel": "Single",
+    "relation": "P39",
+    "gold": [
+      "Winston Churchill"
+    ],
+    "method": "cot-kb",
+    "final_answer": "Winston Churchill",
+    "correct": true,
+    "reply": "Dựa trên dữ kiện, Herbert Samuel, 1st Viscount Samuel giữ chức Tướng quốc Lãnh địa Công tước Lancaster trong các khoảng thời gian: 1909–1910 và 1915–1916. Trong cùng khoảng thời gian này, Winston Churchill giữ chức Tướng quốc Lãnh địa Công tước Lancaster vào năm 1915.\n\nĐáp án: Winston Churchill"
+  },
+  {
+    "question": "Syarhey Kantsavy là thành viên của FC Gomel vào năm nào?",
+    "qtype": "simple_time",
+    "answer_type": "time",
+    "qlabel": "Single",
+    "relation": "P54",
+    "gold": [
+      "2013"
+    ],
+    "method": "cot-kb",
+    "final_answer": "2017",
+    "correct": false,
+    "reply": "Dựa trên dữ kiện, Syarhey Kantsavy là thành viên của FC Gomel trong các khoảng thời gian sau: 2007, 2010–2011, 2013, 2017. Do đó, năm 2017 là một trong những năm mà anh là thành viên của FC Gomel.\n\nĐáp án: 2017"
+  },
+  {
+    "question": "Ai là đồng nghiệp của Georges-Léon Pelletier tại Hội thảo Rimouski?",
+    "qtype": "time_join",
+    "answer_type": "entity",
+    "qlabel": "Multiple",
+    "relation": "P108",
+    "gold": [
+      "Flavius D'Anjou",
+      "Édouard Lepage"
+    ],
+    "method": "cot-kb",
+    "final_answer": "Không có thông tin rõ ràng về đồng nghiệp của Georges-Léon Pelletier tại Séminaire de Rimouski",
+    "correct": false,
+    "reply": "Dựa trên dữ kiện, Georges-Léon Pelletier là nhà tuyển dụng tại Séminaire de Rimouski từ 1931–1932. Ngoài ra, ông cũng là nhà tuyển dụng tại Grand Séminaire de Québec từ 1935–1942. Tuy nhiên, câu hỏi yêu cầu tìm đồng nghiệp của ông tại Séminaire de Rimouski. Dữ kiện không cung cấp thông tin về các đồng nghiệp trực tiếp của ông tại nơi này, chỉ cho biết ông là một trong những nhà tuyển dụng từng làm việc tại đó.\n\nĐáp án: Không có thông tin rõ ràng về đồng nghiệp của Georges-Léon Pelletier tại Séminaire de Rimouski."
+  },
+  {
+    "question": "Vào khoảng thời gian 1711, ai làm Vị trí 20 của Viện Hàn lâm Pháp ngữ?",
+    "qtype": "simple_entity",
+    "answer_type": "entity",
+    "qlabel": "Single",
+    "relation": "P39",
+    "gold": [
+      "Jean-Paul Bignon"
+    ],
+    "method": "cot-kb",
+    "final_answer": "Jean-Paul Bignon",
+    "correct": true,
+    "reply": "Dựa trên dữ kiện, Jean-Paul Bignon giữ chức vụ tại Vị trí 20 của Viện Hàn lâm Pháp ngữ từ năm 1693 đến 1743. Năm 1711 nằm trong khoảng thời gian này.\n\nĐáp án: Jean-Paul Bignon"
+  },
+  {
+    "question": "Ai chơi cùng Daniel Fernandes ở FC Porto B?",
+    "qtype": "time_join",
+    "answer_type": "entity",
+    "qlabel": "Multiple",
+    "relation": "P54",
+    "gold": [
+      "Hugo Almeida",
+      "Paulo Costa"
+    ],
+    "method": "cot-kb",
+    "final_answer": "Paulo Costa, Hugo Almeida",
+    "correct": false,
+    "reply": "Dựa trên dữ kiện, Daniel Fernandes đã chơi cho FC Porto B từ năm 2001–2002. Trong cùng khoảng thời gian này, Paulo Costa cũng là cầu thủ của FC Porto B. Ngoài ra, Hugo Almeida đã chơi cho FC Porto B từ năm 2002–2005, có phần giao叠 với thời gian Daniel Fernandes ở đây (2002). Do đó, Paulo Costa và Hugo Almeida có thể là những người chơi cùng Daniel Fernandes ở FC Porto B.\n\nĐáp án: Paulo Costa, Hugo Almeida"
+  },
+  {
+    "question": "Vào lúc 1938, ai là học sinh/sinh viên của Trường Phillips?",
+    "qtype": "simple_entity",
+    "answer_type": "entity",
+    "qlabel": "Single",
+    "relation": "P69",
+    "gold": [
+      "George H. W. Bush"
+    ],
+    "method": "cot-kb",
+    "final_answer": "George H. W. Bush",
+    "correct": true,
+    "reply": "Dựa trên dữ kiện, George H. W. Bush đã học tại Phillips Academy từ năm 1936 đến 1942. Năm 1938 nằm trong khoảng thời gian này.\n\nĐáp án: George H. W. Bush"
+  },
+  {
+    "question": "Hermann Joseph Muller tham gia tổ chức nào lần đầu?",
+    "qtype": "first_last",
+    "answer_type": "entity",
+    "qlabel": "Single",
+    "relation": "P463",
+    "gold": [
+      "Viện Hàn lâm Khoa học Nga"
+    ],
+    "method": "cot-kb",
+    "final_answer": "Viện Hàn lâm Khoa học Nga (1933)",
+    "correct": false,
+    "reply": "Dựa trên dữ kiện, các tổ chức mà Hermann Joseph Muller tham gia bao gồm các viện hàn lâm và hội khoa học. Thời gian đầu tiên ông tham gia một tổ chức là năm 1933 khi ông trở thành thành viên của Viện Hàn lâm Khoa học Nga.\n\nĐáp án: Viện Hàn lâm Khoa học Nga (1933)"
+  },
+  {
+    "question": "Jorge Ribeiro chuyển từ đội nào sang Varzim S.C.?",
+    "qtype": "before_after",
+    "answer_type": "entity",
+    "qlabel": "Single",
+    "relation": "P54",
+    "gold": [
+      "Đội tuyển U20 bóng đá quốc gia Bồ Đào Nha"
+    ],
+    "method": "cot-kb",
+    "final_answer": "S.L. Benfica",
+    "correct": false,
+    "reply": "Dựa trên dữ kiện, Jorge Ribeiro đã chơi cho S.L. Benfica từ năm 2000 đến 2002. Sau đó, ông chuyển đến Varzim S.C. từ năm 2002 đến 2004. Do đó, Jorge Ribeiro chuyển từ S.L. Benfica sang Varzim S.C.\n\nĐáp án: S.L. Benfica"
+  },
+  {
+    "question": "Vị trí cuối cùng Robert Badinter từng nắm giữ là gì?",
+    "qtype": "first_last",
+    "answer_type": "entity",
+    "qlabel": "Single",
+    "relation": "P39",
+    "gold": [
+      "chủ tịch"
+    ],
+    "method": "cot-kb",
+    "final_answer": "Senator of the French Fifth Republic (1995–2011)",
+    "correct": false,
+    "reply": "Dựa trên dữ kiện, ta thấy Robert Badinter từng nắm giữ nhiều chức vụ khác nhau. Trong đó, chức vụ cuối cùng được ghi nhận là \"Senator of the French Fifth Republic\" từ năm 1995 đến 2011. Không có thông tin nào cho thấy ông giữ bất kỳ chức vụ nào sau năm 2011.\n\nĐáp án: Senator of the French Fifth Republic (1995–2011)"
+  },
+  {
+    "question": "Ai và George Soros nhận giải cùng năm?",
+    "qtype": "time_join",
+    "answer_type": "entity",
+    "qlabel": "Single",
+    "relation": "P166",
+    "gold": [
+      "Imre Kertész"
+    ],
+    "method": "cot-kb",
+    "final_answer": "Imre Kertész / 2002",
+    "correct": false,
+    "reply": "Xét các dữ kiện về George Soros và các giải thưởng cùng năm:\n- Năm 2002: George Soros nhận giải \"honorary citizen of Budapest\", cùng với Imre Kertész.\n- Năm 2011: George Soros không nhận giải cùng năm với bất kỳ người nào trong danh sách.\n- Các năm khác: George Soros nhận giải thưởng độc lập hoặc không có người cùng năm trong danh sách.\n\nĐáp án: Imre Kertész / 2002"
+  },
+  {
+    "question": "Khi nào Alejandro Correa gia nhập Câu lạc bộ thể thao Cerrito?",
+    "qtype": "simple_time",
+    "answer_type": "time",
+    "qlabel": "Single",
+    "relation": "P54",
+    "gold": [
+      "2007"
+    ],
+    "method": "cot-kb",
+    "final_answer": "2007",
+    "correct": true,
+    "reply": "Dựa trên dữ kiện, Alejandro Correa gia nhập Club Sportivo Cerrito vào năm 2007, như được ghi nhận trong dòng:  \n- Alejandro Correa — cầu thủ của đội thể thao — Club Sportivo Cerrito (2007–2008).\n\nĐáp án: 2007"
+  },
+  {
+    "question": "Bô-rích Gneđenko đầu quân cho Đại học Quốc gia Moskva vào khoảng thời gian nào?",
+    "qtype": "simple_time",
+    "answer_type": "time",
+    "qlabel": "Multiple",
+    "relation": "P108",
+    "gold": [
+      "1938",
+      "1945"
+    ],
+    "method": "cot-kb",
+    "final_answer": "1938–1945 và 1960–1995",
+    "correct": false,
+    "reply": "Dựa trên dữ kiện, Bô-rích Gneđenko (Boris Gnedenko) có mối quan hệ \"nhà tuyển dụng\" với Đại học Quốc gia Moskva trong các khoảng thời gian sau:\n- 1938–1945\n- 1960–1995\n\nĐáp án: 1938–1945 và 1960–1995"
+  },
+  {
+    "question": "Đồng đội của Leon Constantine tại Northampton Town F.C. là những ai?",
+    "qtype": "time_join",
+    "answer_type": "entity",
+    "qlabel": "Multiple",
+    "relation": "P54",
+    "gold": [
+      "Joe Benjamin",
+      "Scott McGleish"
+    ],
+    "method": "cot-kb",
+    "final_answer": "Paul Rachubka, Scott McGleish, Trevor Benjamin, Julian Alsop, Jamie Hand, Guy Branston, Joe Benjamin",
+    "correct": false,
+    "reply": "Dựa trên dữ kiện, Leon Constantine đã thi đấu cho Northampton Town F.C. trong các khoảng thời gian: 2000, 2004–2006, 2008–2009. Các cầu thủ cùng thi đấu với anh trong khoảng thời gian này bao gồm:  \n- Paul Rachubka (2004)  \n- Scott McGleish (2004–2007)  \n- Trevor Benjamin (2004–2005)  \n- Julian Alsop (2004)  \n- Jamie Hand (2005–2006)  \n- Guy Branston (2007)  \n- Joe Benjamin (2008–2010)  \n\nĐáp án: Paul Rachubka, Scott McGleish, Trevor Benjamin, Julian Alsop, Jamie Hand, Guy Branston, Joe Benjamin."
+  },
+  {
+    "question": "Sam Gibbons làm dân biểu Hoa Kỳ trong khoảng thời gian nào?",
+    "qtype": "simple_time",
+    "answer_type": "time",
+    "qlabel": "Multiple",
+    "relation": "P39",
+    "gold": [
+      "1973",
+      "1975"
+    ],
+    "method": "cot-kb",
+    "final_answer": "Không có thông tin",
+    "correct": false,
+    "reply": "Dữ kiện không cung cấp thông tin nào liên quan đến Sam Gibbons.\n\nĐáp án: Không có thông tin."
+  },
+  {
+    "question": "Ai và George Mostow nhận giải cùng năm?",
+    "qtype": "time_join",
+    "answer_type": "entity",
+    "qlabel": "Multiple",
+    "relation": "P166",
+    "gold": [
+      "Arnold Harberger",
+      "Bernardo Houssay",
+      "Harish-Chandra",
+      "Kenkichi Iwasawa",
+      "William Prager"
+    ],
+    "method": "cot-kb",
+    "final_answer": "Không xác định được",
+    "correct": false,
+    "reply": "Dựa trên dữ kiện, George Mostow không xuất hiện trong danh sách các người nhận Giải Guggenheim được cung cấp. Do đó, không thể xác định ai đã nhận giải cùng năm với George Mostow dựa trên thông tin hiện có.\n\nĐáp án: Không xác định được"
+  },
+  {
+    "question": "Vinh dự cuối cùng Peter Debye nhận được là gì?",
+    "qtype": "first_last",
+    "answer_type": "entity",
+    "qlabel": "Single",
+    "relation": "P166",
+    "gold": [
+      "Giải thưởng Vật lý Polyme"
+    ],
+    "method": "cot-kb",
+    "final_answer": "Huân chương Khoa học Quốc gia (1965)",
+    "correct": false,
+    "reply": "Dựa trên dữ kiện, ta liệt kê các vinh dự mà Peter Debye nhận được theo thời gian. Vinh dự cuối cùng được ghi nhận là \"Huân chương Khoa học Quốc gia (1965)\" và \"Polymer Physics Prize (1965)\".\n\nĐáp án: Huân chương Khoa học Quốc gia (1965)"
+  },
+  {
+    "question": "Vinh dự cuối cùng Colleen Atwood nhận được là gì?",
+    "qtype": "first_last",
+    "answer_type": "entity",
+    "qlabel": "Single",
+    "relation": "P166",
+    "gold": [
+      "Giải Oscar cho Thiết kế trang phục"
+    ],
+    "method": "cot-kb",
+    "final_answer": "Giải Oscar cho Thiết kế trang phục (2017)",
+    "correct": false,
+    "reply": "Dựa trên dữ kiện, ta thấy các giải thưởng và đề cử của Colleen Atwood được liệt kê theo thời gian. Vinh dự cuối cùng mà cô nhận được là **Giải Oscar cho Thiết kế trang phục (2017)**, vì đây là sự kiện cuối cùng được ghi nhận trong dữ liệu.\n\nĐáp án: Giải Oscar cho Thiết kế trang phục (2017)"
+  },
+  {
+    "question": "Giải nào Star Wars: Thần lực thức tỉnh có trước Giải Grammy cho Soạn nhạc Hay nhất cho Sản phẩm Truyền thông Hình ảnh?",
+    "qtype": "before_after",
+    "answer_type": "entity",
+    "qlabel": "Single",
+    "relation": "P166",
+    "gold": [
+      "Giải thưởng lựa chọn của trẻ em cho bộ phim yêu thích"
+    ],
+    "method": "cot-kb",
+    "final_answer": "2014",
+    "correct": false,
+    "reply": "Dựa trên dữ kiện:\n- Star Wars: Thần lực thức tỉnh — sự kiện quan trọng — Quay phim chính (2014)\n- Star Wars: Thần lực thức tỉnh — giải thưởng — Giải Grammy cho Soạn nhạc Hay nhất cho Sản phẩm Truyền thông Hình ảnh (2017)\n\nStar Wars: Thần lực thức tỉnh được quay phim chính vào năm 2014, trước khi nhận giải Grammy vào năm 2017.\n\nĐáp án: 2014"
+  },
+  {
+    "question": "Giải nào Hendrik Lorentz có trước Giải Nobel Vật lý?",
+    "qtype": "before_after",
+    "answer_type": "entity",
+    "qlabel": "Single",
+    "relation": "P166",
+    "gold": [
+      "Thạc sĩ danh dự Đại học Leiden"
+    ],
+    "method": "cot-kb",
+    "final_answer": "Honorary doctor of Leiden University (1900)",
+    "correct": false,
+    "reply": "Dựa trên dữ kiện:\n- Hendrik Lorentz được trao \"Honorary doctor of Leiden University\" vào năm 1900.\n- Hendrik Lorentz được trao \"Giải Nobel Vật lý\" vào năm 1902.\n\nDo đó, giải \"Honorary doctor of Leiden University\" được trao cho Hendrik Lorentz trước Giải Nobel Vật lý.\n\nĐáp án: Honorary doctor of Leiden University (1900)"
+  },
+  {
+    "question": "Glenda Jackson nhậm chức Thành viên của Nghị viện Liên hiệp quốc thứ 51 năm nào?",
+    "qtype": "simple_time",
+    "answer_type": "time",
+    "qlabel": "Single",
+    "relation": "P39",
+    "gold": [
+      "1992"
+    ],
+    "method": "cot-kb",
+    "final_answer": "1992",
+    "correct": true,
+    "reply": "Dựa trên dữ kiện, Glenda Jackson là thành viên của Nghị viện Liên hiệp quốc thứ 51, và thời gian của chức vụ này được ghi nhận là từ năm 1992 đến năm 1997.\n\nĐáp án: 1992"
+  },
+  {
+    "question": "Trường đầu tiên Georges Lemaître theo học là gì?",
+    "qtype": "first_last",
+    "answer_type": "entity",
+    "qlabel": "Single",
+    "relation": "P69",
+    "gold": [
+      "Đại học Công giáo Leuven"
+    ],
+    "method": "cot-kb",
+    "final_answer": "Catholic University of Leuven",
+    "correct": false,
+    "reply": "Dựa trên dữ kiện, Georges Lemaître theo học tại Catholic University of Leuven từ năm 1911–1920. Đây là trường học đầu tiên được ghi nhận trong dữ liệu.\n\nĐáp án: Catholic University of Leuven"
+  },
+  {
+    "question": "Andy Selva đầu quân cho S.P.A.L. trong khoảng thời gian nào?",
+    "qtype": "simple_time",
+    "answer_type": "time",
+    "qlabel": "Multiple",
+    "relation": "P54",
+    "gold": [
+      "2003",
+      "2005"
+    ],
+    "method": "cot-kb",
+    "final_answer": "1993–1994, 2003–2005",
+    "correct": false,
+    "reply": "Dựa trên dữ kiện, Andy Selva đã đầu quân cho S.P.A.L. trong các khoảng thời gian sau:\n- 1993–1994\n- 2003–2005\n\nĐáp án: 1993–1994, 2003–2005"
+  },
+  {
+    "question": "Vinh dự cuối cùng Neil Simon nhận được là gì?",
+    "qtype": "first_last",
+    "answer_type": "entity",
+    "qlabel": "Single",
+    "relation": "P166",
+    "gold": [
+      "Giải thưởng Mark Twain cho Humor Mỹ"
+    ],
+    "method": "cot-kb",
+    "final_answer": "Mark Twain Prize for American Humor (2006)",
+    "correct": false,
+    "reply": "Dựa trên dữ kiện, ta thấy các giải thưởng và đề cử của Neil Simon được liệt kê theo thời gian. Giải thưởng cuối cùng được Neil Simon nhận là Mark Twain Prize for American Humor (2006).\n\nĐáp án: Mark Twain Prize for American Humor (2006)"
+  },
+  {
+    "question": "F.C. Porto có thành viên nào vào lúc 2002?",
+    "qtype": "simple_entity",
+    "answer_type": "entity",
+    "qlabel": "Multiple",
+    "relation": "P54",
+    "gold": [
+      "Dmitri Alenichev",
+      "Edgaras Jankauskas",
+      "Iván Kaviedes Toaquiza",
+      "Jorge Costa",
+      "José Carlos Ferreira Filho",
+      "Juan Esnáider",
+      "Nuno Espírito Santo",
+      "Paulo Costa"
+    ],
+    "method": "cot-kb",
+    "final_answer": "Iván Kaviedes Toaquiza, Edgaras Jankauskas, Nuno Espírito Santo",
+    "correct": false,
+    "reply": "Dựa trên dữ kiện, ta xác định các thành viên của F.C. Porto vào năm 2002:\n\n- Iván Kaviedes Toaquiza — cầu thủ của đội thể thao — F.C. Porto (2002)\n- Edgaras Jankauskas — cầu thủ của đội thể thao — F.C. Porto (2002–2004)\n- Nuno Espírito Santo — cầu thủ của đội thể thao — F.C. Porto (2002–2004)\n- Hugo Almeida — cầu thủ của đội thể thao — F.C. Porto (2003–2007) → không phù hợp với năm 2002\n- Sérgio Conceição — cầu thủ của đội thể thao — F.C. Porto (2004) → không phù hợp với năm 2002\n\nDo đó, các thành viên của F.C. Porto vào năm 2002 bao gồm: Iván Kaviedes Toaquiza, Edgaras Jankauskas, và Nuno Espírito Santo.\n\nĐáp án: Iván Kaviedes Toaquiza, Edgaras Jankauskas, Nuno Espírito Santo"
+  },
+  {
+    "question": "Sau khi rời Học viện Khoa học và Nhân văn Saxon, Friedrich Engel đến với tổ chức nào?",
+    "qtype": "before_after",
+    "answer_type": "entity",
+    "qlabel": "Single",
+    "relation": "P463",
+    "gold": [
+      "Viện Hàn lâm Khoa học Nga"
+    ],
+    "method": "cot-kb",
+    "final_answer": "Viện Hàn lâm Khoa học Nga",
+    "correct": true,
+    "reply": "Dựa trên dữ kiện:\n- Friedrich Engel — thành viên của — Học viện Khoa học và Nhân văn Saxon (1890–1899)\n- Friedrich Engel — thành viên của — Viện Hàn lâm Khoa học Nga (1899)\n\nSau khi rời Học viện Khoa học và Nhân văn Saxon vào năm 1899, Friedrich Engel đã gia nhập Viện Hàn lâm Khoa học Nga.\n\nĐáp án: Viện Hàn lâm Khoa học Nga"
+  },
+  {
+    "question": "Cùng thời điểm với Georg Lassen, ai cũng đoạt Huy hiệu Chiến tranh U-boat (1939)?",
+    "qtype": "time_join",
+    "answer_type": "entity",
+    "qlabel": "Multiple",
+    "relation": "P166",
+    "gold": [
+      "Ernst Cordes",
+      "Ernst Mengersen",
+      "Friedrich Guggenberger",
+      "Georg Schewe",
+      "Hans Cohausz",
+      "Hans Diedrich von Tiesenhausen",
+      "Heinrich Bleichrodt",
+      "Herbert Kuppisch",
+      "Joachim Schepke",
+      "Karl Dönitz",
+      "Reinhard Hardegen",
+      "Wolfgang Lüth"
+    ],
+    "method": "cot-kb",
+    "final_answer": "Engelbert Endrass, Otto Schuhart, Claus Korth, Herwig Collmann, Heinrich Liebe, Hans Jenisch, Karl-Heinz Moehle, Herbert Schultze, Wilhelm Rollmann, Werner Hartmann, Hans-Hartwig Trojer, Ernst Bauer, Adalbert Schnee, Otto Kretschmer, Georg-Wilhelm Schulz, Otto Ites, Friedrich Guggenberger, Ernst Cordes, Hans-Diedrich von Tiesenhausen, Heinrich Bleichrodt, Ernst Mengersen, Herbert Kuppisch, Georg Schewe, Reinhard Hardegen, Karl Dönitz, Hans Cohausz, Joachim Schepke, Wolfgang Lüth",
+    "correct": false,
+    "reply": "Dựa trên dữ kiện, Georg Lassen được trao Huy hiệu Chiến tranh U-boat (1939) vào năm 1938 và 1939, và tiếp tục nhận thêm vào năm 1940. Các cá nhân khác cũng được trao Huy hiệu Chiến tranh U-boat (1939) vào năm 1939, cùng thời điểm Georg Lassen nhận giải thưởng này vào năm 1939.\n\nĐáp án: Engelbert Endrass, Otto Schuhart, Claus Korth, Herwig Collmann, Heinrich Liebe, Hans Jenisch, Karl-Heinz Moehle, Herbert Schultze, Wilhelm Rollmann, Werner Hartmann, Hans-Hartwig Trojer, Ernst Bauer, Adalbert Schnee, Otto Kretschmer, Georg-Wilhelm Schulz, Otto Ites, Friedrich Guggenberger, Ernst Cordes, Hans-Diedrich von Tiesenhausen, Heinrich Bleichrodt, Ernst Mengersen, Herbert Kuppisch, Georg Schewe, Reinhard Hardegen, Karl Dönitz, Hans Cohausz, Joachim Schepke, Wolfgang Lüth"
+  },
+  {
+    "question": "Ai là người đảm nhận chức Bộ trưởng Bộ Nội chính Wales vào thời điểm 1996?",
+    "qtype": "simple_entity",
+    "answer_type": "entity",
+    "qlabel": "Single",
+    "relation": "P39",
+    "gold": [
+      "William Hague"
+    ],
+    "method": "cot-kb",
+    "final_answer": "William Hague",
+    "correct": true,
+    "reply": "Dựa trên dữ kiện, ta thấy các chức vụ của Secretary of State for Wales được liệt kê theo thời gian. Năm 1996 nằm trong khoảng thời gian 1995–1997, khi William Hague giữ chức vụ này.\n\nĐáp án: William Hague"
+  },
+  {
+    "question": "Nicole Marthe Le Douarin đoạt Thạc sĩ danh dự của Đại học Complutense Madrid năm nào?",
+    "qtype": "simple_time",
+    "answer_type": "time",
+    "qlabel": "Single",
+    "relation": "P166",
+    "gold": [
+      "1988"
+    ],
+    "method": "cot-kb",
+    "final_answer": "Không có thông tin trong dữ kiện",
+    "correct": false,
+    "reply": "Dựa trên dữ kiện, Nicole Marthe Le Douarin được trao học vị \"honorary doctor of the University of Madrid Complutense\" vào các năm 1988 và 1995. Tuy nhiên, câu hỏi yêu cầu năm mà bà được trao \"Thạc sĩ danh dự\", một học vị khác với \"honorary doctor\". Dữ kiện không cung cấp thông tin về việc bà từng được trao học vị \"Thạc sĩ danh dự\" từ Đại học Complutense Madrid.\n\nĐáp án: Không có thông tin trong dữ kiện."
+  },
+  {
+    "question": "Đại biểu Hội đồng Nghị viện Hội đồng Châu Âu được ai lãnh đạo sau thời kỳ Peter Pellegrini?",
+    "qtype": "before_after",
+    "answer_type": "entity",
+    "qlabel": "Single",
+    "relation": "P39",
+    "gold": [
+      "Michael Glos"
+    ],
+    "method": "cot-kb",
+    "final_answer": "Không có thông tin trong dữ kiện",
+    "correct": false,
+    "reply": "Dựa trên dữ kiện, không có thông tin nào về Peter Pellegrini trong danh sách các đại biểu được cung cấp. Do đó, không thể xác định ai là người lãnh đạo sau thời kỳ của ông.\n\nĐáp án: Không có thông tin trong dữ kiện."
+  },
+  {
+    "question": "Xavier Becerra đảm nhiệm vị trí cuối cùng nào trong sự nghiệp?",
+    "qtype": "first_last",
+    "answer_type": "entity",
+    "qlabel": "Single",
+    "relation": "P39",
+    "gold": [
+      "dân biểu Hoa Kỳ"
+    ],
+    "method": "cot-kb",
+    "final_answer": "Bộ Y tế và Dịch vụ Nhân sinh Hoa Kỳ (2021–2025)",
+    "correct": false,
+    "reply": "Dựa trên dữ kiện, Xavier Becerra đã đảm nhiệm nhiều chức vụ khác nhau trong suốt sự nghiệp của mình, bao gồm các nhiệm kỳ dân biểu Hoa Kỳ từ năm 1993 đến năm 2017, và sau đó được bổ nhiệm làm Chủ tịch Bộ Y tế và Dịch vụ Nhân sinh Hoa Kỳ từ năm 2021 đến năm 2025. Đây là chức vụ cuối cùng được ghi nhận trong dữ kiện.\n\nĐáp án: Bộ Y tế và Dịch vụ Nhân sinh Hoa Kỳ (2021–2025)"
+  },
+  {
+    "question": "Giải nào được trao cho Carl Alarik Wachtmeister sau năm 1920?",
+    "qtype": "before_after",
+    "answer_type": "entity",
+    "qlabel": "Single",
+    "relation": "P166",
+    "gold": [
+      "Frans Otten"
+    ],
+    "method": "cot-kb",
+    "final_answer": "Bắc Đẩu Bội tinh hạng 3 (1922)",
+    "correct": false,
+    "reply": "Dựa trên dữ kiện, các giải thưởng được trao cho Carl Alarik Wachtmeister sau năm 1920 bao gồm:\n- Bắc Đẩu Bội tinh hạng 3 (1922)\n\nĐáp án: Bắc Đẩu Bội tinh hạng 3 (1922)"
+  },
+  {
+    "question": "Giải nào được trao cho Julie Andrews trước năm 1993?",
+    "qtype": "before_after",
+    "answer_type": "entity",
+    "qlabel": "Single",
+    "relation": "P166",
+    "gold": [
+      "Maya Angelou"
+    ],
+    "method": "cot-kb",
+    "final_answer": "Huyền thoại Disney (1991)",
+    "correct": false,
+    "reply": "Dựa trên dữ kiện, ta liệt kê các giải được trao cho Julie Andrews trước năm 1993:\n\n- Theatre World Award (1955)\n- BAFTA Award for Most Promising Newcomer to Leading Film Roles (1964)\n- Giải Oscar cho Nữ diễn viên chính xuất sắc nhất (1965)\n- Giải Quả cầu vàng cho nữ diễn viên phim ca nhạc hoặc phim hài xuất sắc nhất (1965)\n- Giải Quả cầu vàng cho nữ diễn viên phim ca nhạc hoặc phim hài xuất sắc nhất (1966)\n- Primetime Emmy Award for Outstanding Variety, Music or Comedy Series (1973)\n- ngôi sao trên Đại lộ Danh vọng Hollywood (1979)\n- Giải Quả cầu vàng cho nữ diễn viên phim ca nhạc hoặc phim hài xuất sắc nhất (1983)\n- Hasty Pudding Woman of the Year (1983)\n- Huyền thoại Disney (1991)\n\nTrong số này, giải được trao cho Julie Andrews trước năm 1993 là:\n\nĐáp án: Huyền thoại Disney (1991)"
+  },
+  {
+    "question": "Khi nào Cayetano Ré gia nhập R.C.D. Espanyol de Barcelona?",
+    "qtype": "simple_time",
+    "answer_type": "time",
+    "qlabel": "Single",
+    "relation": "P54",
+    "gold": [
+      "1966"
+    ],
+    "method": "cot-kb",
+    "final_answer": "1957",
+    "correct": false,
+    "reply": "Dựa trên dữ kiện, Cayetano Ré đầu tiên được ghi nhận là cầu thủ của R.C.D. Espanyol de Barcelona vào năm 1957–1959, nhưng trước đó ông đã chơi cho Cerro Porteño (1958–1959) và Đội tuyển bóng đá quốc gia Paraguay (1957–1959). Tuy nhiên, không có thông tin về việc ông gia nhập R.C.D. Espanyol de Barcelona trước năm 1957. Do đó, thời điểm đầu tiên mà ông được ghi nhận là cầu thủ của R.C.D. Espanyol de Barcelona là năm 1957.\n\nĐáp án: 1957"
+  },
+  {
+    "question": "Ai thi đấu cho Olympiakos F.C. vào năm 2017?",
+    "qtype": "simple_entity",
+    "answer_type": "entity",
+    "qlabel": "Single",
+    "relation": "P54",
+    "gold": [
+      "Panagiotis Tachtsidis"
+    ],
+    "method": "cot-kb",
+    "final_answer": "Panagiotis Tachtsidis",
+    "correct": true,
+    "reply": "Dựa trên dữ kiện, ta thấy rằng các cầu thủ thi đấu cho Olympiakos F.C. vào năm 2017 cần được xác định. Dữ kiện cho thấy:\n\n- Panagiotis Tachtsidis — cầu thủ của đội thể thao — Olympiakos F.C. (2017–2018)\n\nĐiều này cho thấy Panagiotis Tachtsidis là cầu thủ thi đấu cho Olympiakos F.C. vào năm 2017.\n\nĐáp án: Panagiotis Tachtsidis"
+  },
+  {
+    "question": "Cùng thời điểm với Jean Tulard, ai cũng đoạt Huân chương Nghệ thuật và Văn học hạng 1?",
+    "qtype": "time_join",
+    "answer_type": "entity",
+    "qlabel": "Single",
+    "relation": "P166",
+    "gold": [
+      "Václav Havel"
+    ],
+    "method": "cot-kb",
+    "final_answer": "Aram Khachaturian, Alain Peyrefitte, Fernando Lázaro Carreter, Claude Lévi-Strauss, Jan-Erik Wikström",
+    "correct": false,
+    "reply": "Dựa trên dữ kiện, Jean Tulard đã được trao Huân chương Nghệ thuật và Văn học hạng 1 vào năm 1962, 1974, 1981, 2001. Trong các năm này, những người cùng đoạt Huân chương Nghệ thuật và Văn học hạng 1 với Jean Tulard bao gồm:\n\n- Năm 1974: Aram Khachaturian, Alain Peyrefitte.\n- Năm 1981: Fernando Lázaro Carreter, Claude Lévi-Strauss, Jan-Erik Wikström.\n- Năm 2001: Không có thông tin về người cùng nhận giải trong năm này.\n\nDo đó, cùng thời điểm với Jean Tulard, những người đoạt Huân chương Nghệ thuật và Văn học hạng 1 là Aram Khachaturian, Alain Peyrefitte, Fernando Lázaro Carreter, Claude Lévi-Strauss, Jan-Erik Wikström.\n\nĐáp án: Aram Khachaturian, Alain Peyrefitte, Fernando Lázaro Carreter, Claude Lévi-Strauss, Jan-Erik Wikström"
+  },
+  {
+    "question": "Ai giữ chức vụ Thành viên của Thượng viện vào năm 1582?",
+    "qtype": "simple_entity",
+    "answer_type": "entity",
+    "qlabel": "Single",
+    "relation": "P39",
+    "gold": [
+      "William Cecil, Bá tước Burghley thứ nhất"
+    ],
+    "method": "cot-kb",
+    "final_answer": "William Cecil, 1st Baron Burghley",
+    "correct": false,
+    "reply": "Dựa trên dữ kiện, chỉ có William Cecil, 1st Baron Burghley giữ chức vụ member of the House of Lords từ năm 1571 đến năm 1598. Năm 1582 nằm trong khoảng thời gian này.\n\nĐáp án: William Cecil, 1st Baron Burghley"
+  },
+  {
+    "question": "Elias M. Stein tốt nghiệp Trường Trung học Stuyvesant năm nào?",
+    "qtype": "simple_time",
+    "answer_type": "time",
+    "qlabel": "Single",
+    "relation": "P69",
+    "gold": [
+      "1949"
+    ],
+    "method": "cot-kb",
+    "final_answer": "1949",
+    "correct": true,
+    "reply": "Dựa trên dữ kiện: Elias M. Stein — trường học — Trường Trung học Stuyvesant (1940–1949). Điều này cho thấy ông đã học tại Trường Trung học Stuyvesant từ năm 1940 đến năm 1949, do đó năm tốt nghiệp là 1949.\n\nĐáp án: 1949"
+  },
+  {
+    "question": "Năm nào Andy Petterson thi đấu cho Rushden & Diamonds F.C.?",
+    "qtype": "simple_time",
+    "answer_type": "time",
+    "qlabel": "Single",
+    "relation": "P54",
+    "gold": [
+      "2003"
+    ],
+    "method": "cot-kb",
+    "final_answer": "1997, 1998–2000, 2001, 2002–2003, 2004, 2005–2006, 2006–2007, 2007, 2008–2009, 2009–2010",
+    "correct": false,
+    "reply": "Dựa trên dữ kiện, Andy Petterson thi đấu cho Rushden & Diamonds F.C. vào các năm sau:\n- 1997\n- 1998–2000 (trùng với thời gian của Miguel de Souza, Jon Challinor, Guy Branston, Jean-Michel Sigere, Roy Essandoh)\n- 2001 (trùng với Roy Essandoh, Trevor Benjamin)\n- 2002–2003 (trùng với Tony Battersby, Dean Holdsworth)\n- 2003 (trùng với Dean Holdsworth, Trevor Benjamin)\n- 2004 (trùng với Marvin Robinson, Drewe Broughton)\n- 2005–2006 (trùng với Drewe Broughton)\n- 2006–2007 (trùng với Tyrone Berry, Leo Fortune-West)\n- 2007 (trùng với Daniel Webb)\n- 2008–2009 (trùng với Daryl Clare)\n- 2009–2010 (trùng với Jefferson Louis, Cliff Akurang)\n\nĐáp án: 1997, 1998–2000, 2001, 2002–2003, 2004, 2005–2006, 2006–2007, 2007, 2008–2009, 2009–2010"
+  },
+  {
+    "question": "Sérgio Manoel rời Fluminense Football Club năm nào?",
+    "qtype": "simple_time",
+    "answer_type": "time",
+    "qlabel": "Single",
+    "relation": "P54",
+    "gold": [
+      "1993"
+    ],
+    "method": "cot-kb",
+    "final_answer": "2000",
+    "correct": false,
+    "reply": "Dựa trên dữ kiện, Sérgio Manoel là cầu thủ của Fluminense Football Club trong các khoảng thời gian sau:  \n- 1993  \n- 1993–1994  \n- 1998–2000  \n\nKhoảng thời gian cuối cùng mà Sérgio Manoel chơi cho Fluminense Football Club là **1998–2000**. Sau đó, ông rời đội và gia nhập các câu lạc bộ khác như Cruzeiro Esporte Clube (2000–2002).  \n\nĐáp án: 2000"
+  },
+  {
+    "question": "Nơi cuối cùng George Biddell Airy làm việc trước khi nghỉ hưu là?",
+    "qtype": "first_last",
+    "answer_type": "entity",
+    "qlabel": "Single",
+    "relation": "P108",
+    "gold": [
+      "Đài thiên văn Hoàng gia Greenwich"
+    ],
+    "method": "cot-kb",
+    "final_answer": "Đài thiên văn Hoàng gia Greenwich",
+    "correct": true,
+    "reply": "Dựa trên dữ kiện, George Biddell Airy làm việc tại Đài thiên văn Hoàng gia Greenwich từ năm 1835 đến 1881. Đây là thời gian dài nhất và cuối cùng được ghi nhận trước khi nghỉ hưu.\n\nĐáp án: Đài thiên văn Hoàng gia Greenwich"
+  },
+  {
+    "question": "Vào thời gian 1971, ai theo học ở Học viện Không quân Gagarin?",
+    "qtype": "simple_entity",
+    "answer_type": "entity",
+    "qlabel": "Single",
+    "relation": "P69",
+    "gold": [
+      "Nikolay Antoshkin"
+    ],
+    "method": "cot-kb",
+    "final_answer": "Nikolay Antoshkin",
+    "correct": true,
+    "reply": "Dựa trên dữ kiện, Nikolay Antoshkin theo học tại Học viện Không quân Gagarin từ năm 1971–1973. Do đó, vào năm 1971, Nikolay Antoshkin đang theo học tại Học viện này.\n\nĐáp án: Nikolay Antoshkin"
+  },
+  {
+    "question": "Patrick \"Paddy\" Smith giữ chức vụ Bộ trưởng Nông nghiệp, Thực phẩm và Biển vào năm nào?",
+    "qtype": "simple_time",
+    "answer_type": "time",
+    "qlabel": "Single",
+    "relation": "P39",
+    "gold": [
+      "1957"
+    ],
+    "method": "cot-kb",
+    "final_answer": "1947–1948, 1957–1964",
+    "correct": false,
+    "reply": "Dựa trên dữ kiện, Patrick \"Paddy\" Smith giữ chức vụ Bộ trưởng Nông nghiệp, Thực phẩm và Biển trong các khoảng thời gian sau:  \n- 1947–1948  \n- 1957–1964  \n\nĐáp án: 1947–1948, 1957–1964"
+  }
+]

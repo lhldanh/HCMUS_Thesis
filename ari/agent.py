@@ -30,8 +30,10 @@ class StepLog:
     chosen: str                        # display string $action$
     op: str                            # op name
     result_summary: str                # short string
-    reply: str = ""                    # full LLM reply (Action + Reason) — paper uses this for induction
-    entities: list = field(default_factory=list)  # raw EntitySet of `prev` after this step
+    # full LLM reply (Action + Reason) — paper uses this for induction
+    reply: str = ""
+    # raw EntitySet of `prev` after this step
+    entities: list = field(default_factory=list)
 
 
 @dataclass
@@ -119,7 +121,8 @@ def _format_history(steps: list[StepLog]) -> str:
         return "(chưa có bước nào)"
     lines = []
     for i, s in enumerate(steps):
-        lines.append(f"Step {i}: action={s.chosen}  →  result={s.result_summary}")
+        lines.append(
+            f"Step {i}: action={s.chosen}  →  result={s.result_summary}")
     return "\n".join(lines)
 
 
@@ -172,7 +175,8 @@ def run_question(kg: KG, q: dict, methodology: str | None = None,
     - ``react=True`` → baseline *ReAct-KB*: dùng prompt Thought/Action không có
       methodology trừu tượng (vòng lặp reason+act thuần).
     """
-    chat_fn = chat_fn or (lambda prompt, system=None: chat(prompt, system=system))
+    chat_fn = chat_fn or (
+        lambda prompt, system=None: chat(prompt, system=system))
     embed_fn = embed_fn or embed
     methodology = methodology or FALLBACK_METHODOLOGY
 
@@ -229,7 +233,8 @@ def run_question(kg: KG, q: dict, methodology: str | None = None,
                        if config.USE_CROSS_ENCODER else config.TOP_K_ACTIONS)
             if len(uniq) > cos_top:
                 try:
-                    uniq = filter_actions(uniq, question, embed_fn, top_k=cos_top)
+                    uniq = filter_actions(
+                        uniq, question, embed_fn, top_k=cos_top)
                 except Exception:
                     uniq = uniq[:cos_top]
             # Tầng 2 — cross-encoder rerank (có lịch sử suy luận).

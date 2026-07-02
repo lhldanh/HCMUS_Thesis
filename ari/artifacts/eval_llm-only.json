@@ -1,0 +1,2977 @@
+[
+  {
+    "question": "Hermann Göring được vinh danh giải Đội quân sắt hạng hai vào năm nào?",
+    "qtype": "simple_time",
+    "answer_type": "time",
+    "qlabel": "Single",
+    "relation": "P166",
+    "gold": [
+      "1915"
+    ],
+    "method": "llm-only",
+    "final_answer": "1936",
+    "correct": false,
+    "reply": "Đáp án: 1936"
+  },
+  {
+    "question": "Vào lúc 1955, ai là học sinh/sinh viên của Cao đẳng Harvard?",
+    "qtype": "simple_entity",
+    "answer_type": "entity",
+    "qlabel": "Single",
+    "relation": "P69",
+    "gold": [
+      "Ted Kennedy"
+    ],
+    "method": "llm-only",
+    "final_answer": "John F. Kennedy",
+    "correct": false,
+    "reply": "Đáp án: John F. Kennedy"
+  },
+  {
+    "question": "Giải nào được trao cho Heinrich Behnke sau năm 1971?",
+    "qtype": "before_after",
+    "answer_type": "entity",
+    "qlabel": "Single",
+    "relation": "P166",
+    "gold": [
+      "Arvo Pärt"
+    ],
+    "method": "llm-only",
+    "final_answer": "Giải Deutscher Akademie der Wissenschaften",
+    "correct": false,
+    "reply": "Đáp án: Giải Deutscher Akademie der Wissenschaften"
+  },
+  {
+    "question": "Vào thời điểm 2022, đội hình Oldham Athletic A.F.C. có ai?",
+    "qtype": "simple_entity",
+    "answer_type": "entity",
+    "qlabel": "Single",
+    "relation": "P54",
+    "gold": [
+      "Tope Obadeyi"
+    ],
+    "method": "llm-only",
+    "final_answer": "Harry Bunn",
+    "correct": false,
+    "reply": "Đáp án: Harry Bunn"
+  },
+  {
+    "question": "Adolf Duclos giữ chức vụ nào đầu tiên?",
+    "qtype": "first_last",
+    "answer_type": "entity",
+    "qlabel": "Single",
+    "relation": "P39",
+    "gold": [
+      "kinh sĩ"
+    ],
+    "method": "llm-only",
+    "final_answer": "Bộ trưởng Quốc phòng Pháp",
+    "correct": false,
+    "reply": "Đáp án: Bộ trưởng Quốc phòng Pháp"
+  },
+  {
+    "question": "Sau giải Giải thưởng Otto Bayer, Helmut Schwarz còn nhận giải nào nữa?",
+    "qtype": "before_after",
+    "answer_type": "entity",
+    "qlabel": "Single",
+    "relation": "P166",
+    "gold": [
+      "Giải Gottfried Wilhelm Leibniz"
+    ],
+    "method": "llm-only",
+    "final_answer": "Giải Nobel Hóa học",
+    "correct": false,
+    "reply": "Đáp án: Giải Nobel Hóa học"
+  },
+  {
+    "question": "Giải thưởng đầu tiên trong sự nghiệp của Ivan Nikiforovich Stepanenko là gì?",
+    "qtype": "first_last",
+    "answer_type": "entity",
+    "qlabel": "Single",
+    "relation": "P166",
+    "gold": [
+      "Huân chương Cờ đỏ"
+    ],
+    "method": "llm-only",
+    "final_answer": "Giải thưởng Lenin",
+    "correct": false,
+    "reply": "Đáp án: Giải thưởng Lenin"
+  },
+  {
+    "question": "Sau giải Huy chương vàng Olympic, Indira Gandhi còn nhận giải nào nữa?",
+    "qtype": "before_after",
+    "answer_type": "entity",
+    "qlabel": "Single",
+    "relation": "P166",
+    "gold": [
+      "Giải thưởng Hòa bình Quốc tế Lenin"
+    ],
+    "method": "llm-only",
+    "final_answer": "Huy chương Vàng Nobel Hòa bình",
+    "correct": false,
+    "reply": "Đáp án: Huy chương Vàng Nobel Hòa bình"
+  },
+  {
+    "question": "Đồng nghiệp của John Elliott ở Viện nghiên cứu cao cấp Princeton là ai?",
+    "qtype": "time_join",
+    "answer_type": "entity",
+    "qlabel": "Multiple",
+    "relation": "P108",
+    "gold": [
+      "André Weil",
+      "Freeman Dyson",
+      "Harish-Chandra",
+      "Hassler Whitney",
+      "Hirosi Ooguri",
+      "John Milnor"
+    ],
+    "method": "llm-only",
+    "final_answer": "Edward Witten",
+    "correct": false,
+    "reply": "Đáp án: Edward Witten"
+  },
+  {
+    "question": "Chức vụ nào là khởi đầu sự nghiệp của Henry Campbell-Bannerman?",
+    "qtype": "first_last",
+    "answer_type": "entity",
+    "qlabel": "Single",
+    "relation": "P39",
+    "gold": [
+      "Thành viên của Nghị viện Liên hiệp quốc gia kỳ thứ 20"
+    ],
+    "method": "llm-only",
+    "final_answer": "Cán bộ thuế",
+    "correct": false,
+    "reply": "Đáp án: Cán bộ thuế"
+  },
+  {
+    "question": "Năm nào Andrey Antonovich Grechko được xướng tên cho giải Huân chương Lenin?",
+    "qtype": "simple_time",
+    "answer_type": "time",
+    "qlabel": "Single",
+    "relation": "P166",
+    "gold": [
+      "1968"
+    ],
+    "method": "llm-only",
+    "final_answer": "1971",
+    "correct": false,
+    "reply": "Đáp án: 1971"
+  },
+  {
+    "question": "Miura Kazuyoshi là thành viên của Sociedade Esportiva Matsubara vào năm nào?",
+    "qtype": "simple_time",
+    "answer_type": "time",
+    "qlabel": "Single",
+    "relation": "P54",
+    "gold": [
+      "1986"
+    ],
+    "method": "llm-only",
+    "final_answer": "2015",
+    "correct": false,
+    "reply": "Đáp án: 2015"
+  },
+  {
+    "question": "Vào khoảng thời gian 1760, ai làm Quốc vương của Tây Ban Nha?",
+    "qtype": "simple_entity",
+    "answer_type": "entity",
+    "qlabel": "Single",
+    "relation": "P39",
+    "gold": [
+      "Carlos III của Tây Ban Nha"
+    ],
+    "method": "llm-only",
+    "final_answer": "Charles III",
+    "correct": false,
+    "reply": "Đáp án: Charles III"
+  },
+  {
+    "question": "Khi nào Dmitry Grazhdankin gia nhập Viện Paleontological, Viện Hàn lâm Khoa học Nga?",
+    "qtype": "simple_time",
+    "answer_type": "time",
+    "qlabel": "Single",
+    "relation": "P108",
+    "gold": [
+      "1993"
+    ],
+    "method": "llm-only",
+    "final_answer": "1921",
+    "correct": false,
+    "reply": "Đáp án: 1921"
+  },
+  {
+    "question": "Đồng đội của Howard Forinton tại Farnborough F.C. là những ai?",
+    "qtype": "time_join",
+    "answer_type": "entity",
+    "qlabel": "Multiple",
+    "relation": "P54",
+    "gold": [
+      "Jay Lovett",
+      "Lê-rô-i Grit-fo",
+      "Richard Pacquette"
+    ],
+    "method": "llm-only",
+    "final_answer": "Jimmy Armfield",
+    "correct": false,
+    "reply": "Đáp án: Jimmy Armfield"
+  },
+  {
+    "question": "Vào năm 1864, ai nắm giữ vị trí Thành viên của Hội đồng Liên bang Thụy Sĩ?",
+    "qtype": "simple_entity",
+    "answer_type": "entity",
+    "qlabel": "Single",
+    "relation": "P39",
+    "gold": [
+      "Emil Welti"
+    ],
+    "method": "llm-only",
+    "final_answer": "1864",
+    "correct": false,
+    "reply": "Đáp án: 1864"
+  },
+  {
+    "question": "Alonzo Church học tại trường nào lần đầu?",
+    "qtype": "first_last",
+    "answer_type": "entity",
+    "qlabel": "Single",
+    "relation": "P69",
+    "gold": [
+      "Đại học Princeton"
+    ],
+    "method": "llm-only",
+    "final_answer": "Princeton",
+    "correct": false,
+    "reply": "Đáp án: Princeton"
+  },
+  {
+    "question": "Bậc học cao nhất của Sergey Pavlovich Korolyov là ở trường nào?",
+    "qtype": "first_last",
+    "answer_type": "entity",
+    "qlabel": "Single",
+    "relation": "P69",
+    "gold": [
+      "Đại học Tổng hợp Kỹ thuật Moskva Bauman"
+    ],
+    "method": "llm-only",
+    "final_answer": "Trường Nga Xô viết (Moscow Engineering Physics Institute)",
+    "correct": false,
+    "reply": "Đáp án: Trường Nga Xô viết (Moscow Engineering Physics Institute)"
+  },
+  {
+    "question": "Lily Tomlin nhận giải thưởng nào sau khi nhận Hội trường danh vọng phụ nữ Michigan?",
+    "qtype": "before_after",
+    "answer_type": "entity",
+    "qlabel": "Single",
+    "relation": "P166",
+    "gold": [
+      "Giải thưởng Mark Twain cho Humor Mỹ"
+    ],
+    "method": "llm-only",
+    "final_answer": "Giải Oscar",
+    "correct": false,
+    "reply": "Đáp án: Giải Oscar"
+  },
+  {
+    "question": "Đội bóng đầu đời của Sílvio César Ferreira da Costa là gì?",
+    "qtype": "first_last",
+    "answer_type": "entity",
+    "qlabel": "Single",
+    "relation": "P54",
+    "gold": [
+      "Fluminense Football Club"
+    ],
+    "method": "llm-only",
+    "final_answer": "Benfica",
+    "correct": false,
+    "reply": "Đáp án: Benfica"
+  },
+  {
+    "question": "Ai cùng thi đấu cho Đội tuyển U21 bóng đá quốc gia Bồ Đào Nha với Hugo Almeida trong cùng giai đoạn?",
+    "qtype": "time_join",
+    "answer_type": "entity",
+    "qlabel": "Multiple",
+    "relation": "P54",
+    "gold": [
+      "Beto",
+      "Daniel Fernandes",
+      "Edinho",
+      "Jorge Ribeiro",
+      "João Pereira",
+      "Vitorino Antunes"
+    ],
+    "method": "llm-only",
+    "final_answer": "Cristiano Ronaldo",
+    "correct": false,
+    "reply": "Đáp án: Cristiano Ronaldo"
+  },
+  {
+    "question": "Miroslav Grebeníček giữ chức vụ Thành viên của Hạ viện Quốc hội Cộng hòa Séc từ năm nào?",
+    "qtype": "simple_time",
+    "answer_type": "time",
+    "qlabel": "Single",
+    "relation": "P39",
+    "gold": [
+      "2002"
+    ],
+    "method": "llm-only",
+    "final_answer": "2002",
+    "correct": true,
+    "reply": "Đáp án: 2002"
+  },
+  {
+    "question": "Tổ chức cuối cùng mà Oman gia nhập là?",
+    "qtype": "first_last",
+    "answer_type": "entity",
+    "qlabel": "Single",
+    "relation": "P463",
+    "gold": [
+      "Tổ chức Hải quan Thế giới"
+    ],
+    "method": "llm-only",
+    "final_answer": "Liên Hợp Quốc",
+    "correct": false,
+    "reply": "Đáp án: Liên Hợp Quốc"
+  },
+  {
+    "question": "Ai có chung khoảng thời gian học tại Đại học London với David Bates?",
+    "qtype": "time_join",
+    "answer_type": "entity",
+    "qlabel": "Multiple",
+    "relation": "P69",
+    "gold": [
+      "Claude Ambrose Rogers",
+      "Kenneth O. May"
+    ],
+    "method": "llm-only",
+    "final_answer": "John Maynard Keynes",
+    "correct": false,
+    "reply": "Đáp án: John Maynard Keynes"
+  },
+  {
+    "question": "Giải thưởng cuối cùng Tom Lantos từng nhận là?",
+    "qtype": "first_last",
+    "answer_type": "entity",
+    "qlabel": "Single",
+    "relation": "P166",
+    "gold": [
+      "Đạo hàm của Huân chương Danh dự Hungary"
+    ],
+    "method": "llm-only",
+    "final_answer": "Congressional Gold Medal",
+    "correct": false,
+    "reply": "Đáp án: Congressional Gold Medal"
+  },
+  {
+    "question": "Richard Blumenthal nhậm chức Luật sư Hoa Kỳ năm nào?",
+    "qtype": "simple_time",
+    "answer_type": "time",
+    "qlabel": "Single",
+    "relation": "P39",
+    "gold": [
+      "1977"
+    ],
+    "method": "llm-only",
+    "final_answer": "2011",
+    "correct": false,
+    "reply": "Đáp án: 2011"
+  },
+  {
+    "question": "Ai chơi cùng Robert de Pinho de Souza ở Coritiba Foot Ball Club?",
+    "qtype": "time_join",
+    "answer_type": "entity",
+    "qlabel": "Multiple",
+    "relation": "P54",
+    "gold": [
+      "Cesar Prates",
+      "Dedimar Souza Lima",
+      "Valdeci Basílio da Silva",
+      "Válber Roel de Oliveira"
+    ],
+    "method": "llm-only",
+    "final_answer": "Ronaldinho",
+    "correct": false,
+    "reply": "Đáp án: Ronaldinho"
+  },
+  {
+    "question": "Bruno Simão rời FC UTA Arad năm nào?",
+    "qtype": "simple_time",
+    "answer_type": "time",
+    "qlabel": "Single",
+    "relation": "P54",
+    "gold": [
+      "2008"
+    ],
+    "method": "llm-only",
+    "final_answer": "2023",
+    "correct": false,
+    "reply": "Đáp án: 2023"
+  },
+  {
+    "question": "Vào thời điểm 2003, đội hình Girona FC có ai?",
+    "qtype": "simple_entity",
+    "answer_type": "entity",
+    "qlabel": "Single",
+    "relation": "P54",
+    "gold": [
+      "Diego Ribera"
+    ],
+    "method": "llm-only",
+    "final_answer": "Pep Guardiola",
+    "correct": false,
+    "reply": "Đáp án: Pep Guardiola"
+  },
+  {
+    "question": "Ai là người đảm nhận chức Chủ tịch Hạ viện vào thời điểm 1835?",
+    "qtype": "simple_entity",
+    "answer_type": "entity",
+    "qlabel": "Multiple",
+    "relation": "P39",
+    "gold": [
+      "John Russell, Bá tước Russell thứ nhất",
+      "Robert Peel"
+    ],
+    "method": "llm-only",
+    "final_answer": "John W. Taylor",
+    "correct": false,
+    "reply": "Đáp án: John W. Taylor"
+  },
+  {
+    "question": "Ai chơi cùng Mauricio Pinilla ở Palermo F.C.?",
+    "qtype": "time_join",
+    "answer_type": "entity",
+    "qlabel": "Multiple",
+    "relation": "P54",
+    "gold": [
+      "Antonio Nocerino",
+      "Egidio Arévalo Rios",
+      "Manuele Blasi",
+      "Michele Paolucci"
+    ],
+    "method": "llm-only",
+    "final_answer": "Fabrizio Miccoli",
+    "correct": false,
+    "reply": "Đáp án: Fabrizio Miccoli"
+  },
+  {
+    "question": "Bernard Cornut-Gentille giữ chức vụ nào đầu tiên?",
+    "qtype": "first_last",
+    "answer_type": "entity",
+    "qlabel": "Single",
+    "relation": "P39",
+    "gold": [
+      "Phó tổng trấn của Vouziers"
+    ],
+    "method": "llm-only",
+    "final_answer": "Tổng thống Haiti",
+    "correct": false,
+    "reply": "Đáp án: Tổng thống Haiti"
+  },
+  {
+    "question": "Ai học tại Đại học Cambridge vào năm 1950?",
+    "qtype": "simple_entity",
+    "answer_type": "entity",
+    "qlabel": "Multiple",
+    "relation": "P69",
+    "gold": [
+      "John Pople",
+      "Karl Gruenberg",
+      "Paul Cohn"
+    ],
+    "method": "llm-only",
+    "final_answer": "Alan Turing",
+    "correct": false,
+    "reply": "Đáp án: Alan Turing"
+  },
+  {
+    "question": "Đồng đội của Volodymyr Olefir tại FC Hoverla Uzhhorod là những ai?",
+    "qtype": "time_join",
+    "answer_type": "entity",
+    "qlabel": "Multiple",
+    "relation": "P54",
+    "gold": [
+      "Oleksandr Noyok",
+      "Yuriy Tselikh"
+    ],
+    "method": "llm-only",
+    "final_answer": "Andriy Yarmolenko",
+    "correct": false,
+    "reply": "Đáp án: Andriy Yarmolenko"
+  },
+  {
+    "question": "Roland Ouellet tốt nghiệp Hội thảo Rimouski năm nào?",
+    "qtype": "simple_time",
+    "answer_type": "time",
+    "qlabel": "Single",
+    "relation": "P69",
+    "gold": [
+      "1954"
+    ],
+    "method": "llm-only",
+    "final_answer": "1993",
+    "correct": false,
+    "reply": "Đáp án: 1993"
+  },
+  {
+    "question": "Niki Zimling rời Bóng đá Frankfurt năm nào?",
+    "qtype": "simple_time",
+    "answer_type": "time",
+    "qlabel": "Single",
+    "relation": "P54",
+    "gold": [
+      "2016"
+    ],
+    "method": "llm-only",
+    "final_answer": "2021",
+    "correct": false,
+    "reply": "Đáp án: 2021"
+  },
+  {
+    "question": "Khi nào Michael Berridge giành được Giải thưởng Ernst Schering?",
+    "qtype": "simple_time",
+    "answer_type": "time",
+    "qlabel": "Single",
+    "relation": "P166",
+    "gold": [
+      "1999"
+    ],
+    "method": "llm-only",
+    "final_answer": "2005",
+    "correct": false,
+    "reply": "Đáp án: 2005"
+  },
+  {
+    "question": "Ai có chung giai đoạn ở Viện Hàn lâm Khoa học Turin với Dmitri Ivanovich Mendeleev?",
+    "qtype": "time_join",
+    "answer_type": "entity",
+    "qlabel": "Multiple",
+    "relation": "P463",
+    "gold": [
+      "Archibald Geikie",
+      "Max Noether",
+      "Wilhelm Wattenbach"
+    ],
+    "method": "llm-only",
+    "final_answer": "Antonino Salvini",
+    "correct": false,
+    "reply": "Đáp án: Antonino Salvini"
+  },
+  {
+    "question": "Trường cuối cùng của Henri Cabannes là?",
+    "qtype": "first_last",
+    "answer_type": "entity",
+    "qlabel": "Single",
+    "relation": "P69",
+    "gold": [
+      "Đại học Paris"
+    ],
+    "method": "llm-only",
+    "final_answer": "École Normale Supérieure",
+    "correct": false,
+    "reply": "Đáp án: École Normale Supérieure"
+  },
+  {
+    "question": "Patrick Gérard đảm nhiệm vị trí cuối cùng nào trong sự nghiệp?",
+    "qtype": "first_last",
+    "answer_type": "entity",
+    "qlabel": "Single",
+    "relation": "P39",
+    "gold": [
+      "giám đốc"
+    ],
+    "method": "llm-only",
+    "final_answer": "Tổng thống Mali",
+    "correct": false,
+    "reply": "Đáp án: Tổng thống Mali"
+  },
+  {
+    "question": "Vinh dự cuối cùng Dmitri Ivanovich Mendeleev nhận được là gì?",
+    "qtype": "first_last",
+    "answer_type": "entity",
+    "qlabel": "Single",
+    "relation": "P166",
+    "gold": [
+      "Huy chương Copley"
+    ],
+    "method": "llm-only",
+    "final_answer": "Giải thưởng Nobel Hóa học",
+    "correct": false,
+    "reply": "Đáp án: Giải thưởng Nobel Hóa học"
+  },
+  {
+    "question": "Ai là thành viên Viện Hàn lâm Khoa học và Nghệ thuật Hoa Kỳ vào năm 2003?",
+    "qtype": "simple_entity",
+    "answer_type": "entity",
+    "qlabel": "Multiple",
+    "relation": "P463",
+    "gold": [
+      "Daniel Kahneman",
+      "David Baltimore"
+    ],
+    "method": "llm-only",
+    "final_answer": "Barack Obama",
+    "correct": false,
+    "reply": "Đáp án: Barack Obama"
+  },
+  {
+    "question": "Ai cùng Park Geun-hye được trao giải Giáo danh dự?",
+    "qtype": "time_join",
+    "answer_type": "entity",
+    "qlabel": "Single",
+    "relation": "P166",
+    "gold": [
+      "Indra Nooyi"
+    ],
+    "method": "llm-only",
+    "final_answer": "Lee Myung-bak",
+    "correct": false,
+    "reply": "Đáp án: Lee Myung-bak"
+  },
+  {
+    "question": "Bạn đồng hành của Honduras tại Tổ chức Giáo dục, Khoa học và Văn hóa Liên Hợp Quốc là ai?",
+    "qtype": "time_join",
+    "answer_type": "entity",
+    "qlabel": "Multiple",
+    "relation": "P463",
+    "gold": [
+      "Ai Cập",
+      "Colombia",
+      "Cuba",
+      "Ecuador",
+      "Hoa Kỳ",
+      "Hà Lan",
+      "Liberia",
+      "Luxembourg",
+      "Nam Phi",
+      "Uruguay"
+    ],
+    "method": "llm-only",
+    "final_answer": "El Salvador",
+    "correct": false,
+    "reply": "Đáp án: El Salvador"
+  },
+  {
+    "question": "John Milnor nhận giải cuối cùng vào dịp nào?",
+    "qtype": "first_last",
+    "answer_type": "entity",
+    "qlabel": "Single",
+    "relation": "P166",
+    "gold": [
+      "Huy chương Vàng Lomonosov"
+    ],
+    "method": "llm-only",
+    "final_answer": "2011",
+    "correct": false,
+    "reply": "Đáp án: 2011"
+  },
+  {
+    "question": "Vào năm 2002, ai là cầu thủ của Clydebank F.C.?",
+    "qtype": "simple_entity",
+    "answer_type": "entity",
+    "qlabel": "Multiple",
+    "relation": "P54",
+    "gold": [
+      "Liam George",
+      "Mark Nicholls",
+      "Michael O'Neill"
+    ],
+    "method": "llm-only",
+    "final_answer": "Alan Thompson",
+    "correct": false,
+    "reply": "Đáp án: Alan Thompson"
+  },
+  {
+    "question": "Ai thi đấu cho Maidstone United F.C. vào năm 1971?",
+    "qtype": "simple_entity",
+    "answer_type": "entity",
+    "qlabel": "Single",
+    "relation": "P54",
+    "gold": [
+      "Roy Hodgson"
+    ],
+    "method": "llm-only",
+    "final_answer": "John Rutherford",
+    "correct": false,
+    "reply": "Đáp án: John Rutherford"
+  },
+  {
+    "question": "Vào lúc 1935, ai là học sinh/sinh viên của Viện toán Steklov?",
+    "qtype": "simple_entity",
+    "answer_type": "entity",
+    "qlabel": "Single",
+    "relation": "P69",
+    "gold": [
+      "Mstislav Keldysh"
+    ],
+    "method": "llm-only",
+    "final_answer": "Andrei Kolmogorov",
+    "correct": false,
+    "reply": "Đáp án: Andrei Kolmogorov"
+  },
+  {
+    "question": "Ai cùng là thành viên Học viện Khoa học và Nhân văn Heidelberg với George de Hevesy?",
+    "qtype": "time_join",
+    "answer_type": "entity",
+    "qlabel": "Multiple",
+    "relation": "P463",
+    "gold": [
+      "Arthur Rosenthal",
+      "Philipp Lenard"
+    ],
+    "method": "llm-only",
+    "final_answer": "Otto Hahn",
+    "correct": false,
+    "reply": "Đáp án: Otto Hahn"
+  },
+  {
+    "question": "Đội cuối cùng của Antonio de Nigris trong sự nghiệp là?",
+    "qtype": "first_last",
+    "answer_type": "entity",
+    "qlabel": "Single",
+    "relation": "P54",
+    "gold": [
+      "Câu lạc bộ bóng đá AE Larissa"
+    ],
+    "method": "llm-only",
+    "final_answer": "FC Porto",
+    "correct": false,
+    "reply": "Đáp án: FC Porto"
+  },
+  {
+    "question": "Năm 1886, Đại Học Viện Rimouski có sinh viên nào?",
+    "qtype": "simple_entity",
+    "answer_type": "entity",
+    "qlabel": "Single",
+    "relation": "P69",
+    "gold": [
+      "Joseph Arthur d'Amours"
+    ],
+    "method": "llm-only",
+    "final_answer": "Không có sinh viên",
+    "correct": false,
+    "reply": "Đáp án: Không có sinh viên"
+  },
+  {
+    "question": "Vào năm 2000, ai là cầu thủ của Fredrikstad FK?",
+    "qtype": "simple_entity",
+    "answer_type": "entity",
+    "qlabel": "Single",
+    "relation": "P54",
+    "gold": [
+      "Thomas Gill"
+    ],
+    "method": "llm-only",
+    "final_answer": "Henrik Larsson",
+    "correct": false,
+    "reply": "Đáp án: Henrik Larsson"
+  },
+  {
+    "question": "Ai là người đảm nhận chức Bộ trưởng Chiến tranh Hoa Kỳ vào thời điểm 1904?",
+    "qtype": "simple_entity",
+    "answer_type": "entity",
+    "qlabel": "Single",
+    "relation": "P39",
+    "gold": [
+      "William Howard Taft"
+    ],
+    "method": "llm-only",
+    "final_answer": "Elihu Root",
+    "correct": false,
+    "reply": "Đáp án: Elihu Root"
+  },
+  {
+    "question": "Ai thi đấu cho Floriana F.C. trước năm 2012?",
+    "qtype": "before_after",
+    "answer_type": "entity",
+    "qlabel": "Single",
+    "relation": "P54",
+    "gold": [
+      "Julio Alcorsé"
+    ],
+    "method": "llm-only",
+    "final_answer": "Joseph Sammut",
+    "correct": false,
+    "reply": "Đáp án: Joseph Sammut"
+  },
+  {
+    "question": "Giải kế tiếp của Louis de Broglie sau Thạc sĩ danh dự tại Đại học Laval là gì?",
+    "qtype": "before_after",
+    "answer_type": "entity",
+    "qlabel": "Single",
+    "relation": "P166",
+    "gold": [
+      "Giải thưởng Kalinga"
+    ],
+    "method": "llm-only",
+    "final_answer": "Tiến sĩ",
+    "correct": false,
+    "reply": "Đáp án: Tiến sĩ"
+  },
+  {
+    "question": "Trước Trung tâm Quốc tế về Giải quyết Tranh chấp Đầu tư, Moldova tham gia tổ chức nào?",
+    "qtype": "before_after",
+    "answer_type": "entity",
+    "qlabel": "Single",
+    "relation": "P463",
+    "gold": [
+      "Eurocontrol"
+    ],
+    "method": "llm-only",
+    "final_answer": "Tổ chức Thương mại Thế giới",
+    "correct": false,
+    "reply": "Đáp án: Tổ chức Thương mại Thế giới"
+  },
+  {
+    "question": "Lần đầu tiên Nikita Simonyan chơi bóng là cho đội nào?",
+    "qtype": "first_last",
+    "answer_type": "entity",
+    "qlabel": "Single",
+    "relation": "P54",
+    "gold": [
+      "FC Dinamo Sukhumi"
+    ],
+    "method": "llm-only",
+    "final_answer": "CSKA Moscow",
+    "correct": false,
+    "reply": "Đáp án: CSKA Moscow"
+  },
+  {
+    "question": "Đường sắt Czech tham gia Liên đoàn Đường sắt Quốc tế năm nào?",
+    "qtype": "simple_time",
+    "answer_type": "time",
+    "qlabel": "Single",
+    "relation": "P463",
+    "gold": [
+      "1922"
+    ],
+    "method": "llm-only",
+    "final_answer": "1885",
+    "correct": false,
+    "reply": "Đáp án: 1885"
+  },
+  {
+    "question": "Chức vụ đầu đời của Günther Graf von der Groeben là gì?",
+    "qtype": "first_last",
+    "answer_type": "entity",
+    "qlabel": "Single",
+    "relation": "P39",
+    "gold": [
+      "Volunteer phục vụ một năm"
+    ],
+    "method": "llm-only",
+    "final_answer": "Bộ trưởng Bộ Giao thông Vận tải Đức",
+    "correct": false,
+    "reply": "Đáp án: Bộ trưởng Bộ Giao thông Vận tải Đức"
+  },
+  {
+    "question": "Ai cùng Gabriel Auguste Daubrée được trao giải Bắc Đẩu Bội tinh hạng 2?",
+    "qtype": "time_join",
+    "answer_type": "entity",
+    "qlabel": "Single",
+    "relation": "P166",
+    "gold": [
+      "Charles Adolphe Würtz"
+    ],
+    "method": "llm-only",
+    "final_answer": "Henri Becquerel",
+    "correct": false,
+    "reply": "Đáp án: Henri Becquerel"
+  },
+  {
+    "question": "Eleanor Arnason nhận giải thưởng nào lần đầu?",
+    "qtype": "first_last",
+    "answer_type": "entity",
+    "qlabel": "Single",
+    "relation": "P166",
+    "gold": [
+      "Giải thưởng khác"
+    ],
+    "method": "llm-only",
+    "final_answer": "Nebula Award",
+    "correct": false,
+    "reply": "Đáp án: Nebula Award"
+  },
+  {
+    "question": "Thành viên thay thế của Đại hội đồng Nghị viện Hội đồng Châu Âu được ai lãnh đạo sau thời kỳ Helmut Schmidt?",
+    "qtype": "before_after",
+    "answer_type": "entity",
+    "qlabel": "Single",
+    "relation": "P39",
+    "gold": [
+      "Giuseppe de Marco"
+    ],
+    "method": "llm-only",
+    "final_answer": "Helmut Kohl",
+    "correct": false,
+    "reply": "Đáp án: Helmut Kohl"
+  },
+  {
+    "question": "Giải nào được trao cho Prasanta Chandra Mahalanobis sau năm 1942?",
+    "qtype": "before_after",
+    "answer_type": "entity",
+    "qlabel": "Single",
+    "relation": "P166",
+    "gold": [
+      "Alan Turing"
+    ],
+    "method": "llm-only",
+    "final_answer": "Giải Nobel Kinh tế",
+    "correct": false,
+    "reply": "Đáp án: Giải Nobel Kinh tế"
+  },
+  {
+    "question": "Người kế nhiệm Urho Kekkonen ở chức Bộ trưởng Bộ Nội vụ là ai?",
+    "qtype": "before_after",
+    "answer_type": "entity",
+    "qlabel": "Single",
+    "relation": "P39",
+    "gold": [
+      "Petteri Orpo"
+    ],
+    "method": "llm-only",
+    "final_answer": "Kalevi Huhtala",
+    "correct": false,
+    "reply": "Đáp án: Kalevi Huhtala"
+  },
+  {
+    "question": "Tổ chức đầu tiên François Depeaux tham gia là gì?",
+    "qtype": "first_last",
+    "answer_type": "entity",
+    "qlabel": "Single",
+    "relation": "P463",
+    "gold": [
+      "Công ty công nghiệp Rouen"
+    ],
+    "method": "llm-only",
+    "final_answer": "NATO",
+    "correct": false,
+    "reply": "Đáp án: NATO"
+  },
+  {
+    "question": "Cùng thời điểm với Philippe Vigier, ai cũng đoạt Huân chương Cành cọ Hàn lâm Pháp hạng 1?",
+    "qtype": "time_join",
+    "answer_type": "entity",
+    "qlabel": "Single",
+    "relation": "P166",
+    "gold": [
+      "Lionel Jospin"
+    ],
+    "method": "llm-only",
+    "final_answer": "Émile Zola",
+    "correct": false,
+    "reply": "Đáp án: Émile Zola"
+  },
+  {
+    "question": "Alan Menken nhận giải Giải Oscar cho bài hát nguyên tác xuất sắc khi nào?",
+    "qtype": "simple_time",
+    "answer_type": "time",
+    "qlabel": "Single",
+    "relation": "P166",
+    "gold": [
+      "1990"
+    ],
+    "method": "llm-only",
+    "final_answer": "1988",
+    "correct": false,
+    "reply": "Đáp án: 1988"
+  },
+  {
+    "question": "Bruno Latour làm việc cho tổ chức nào trước École nationale supérieure des mines de Paris?",
+    "qtype": "before_after",
+    "answer_type": "entity",
+    "qlabel": "Single",
+    "relation": "P108",
+    "gold": [
+      "Trường Kỹ nghệ Quốc gia Pháp"
+    ],
+    "method": "llm-only",
+    "final_answer": "Centre de sociologie de l'innovation",
+    "correct": false,
+    "reply": "Đáp án: Centre de sociologie de l'innovation"
+  },
+  {
+    "question": "Ai đảm trách vị trí Thành viên của Quốc hội Pháp trong năm 1887?",
+    "qtype": "simple_entity",
+    "answer_type": "entity",
+    "qlabel": "Multiple",
+    "relation": "P39",
+    "gold": [
+      "Alexandre Ribot",
+      "Jules Ferry"
+    ],
+    "method": "llm-only",
+    "final_answer": "Jules Ferry",
+    "correct": true,
+    "reply": "Đáp án: Jules Ferry"
+  },
+  {
+    "question": "Người giữ chức kinh sĩ năm 1877 là ai?",
+    "qtype": "simple_entity",
+    "answer_type": "entity",
+    "qlabel": "Single",
+    "relation": "P39",
+    "gold": [
+      "Giáo hoàng Piô X"
+    ],
+    "method": "llm-only",
+    "final_answer": "Benjamin Disraeli",
+    "correct": false,
+    "reply": "Đáp án: Benjamin Disraeli"
+  },
+  {
+    "question": "Giải nào được trao cho Johannes Rau trước năm 2000?",
+    "qtype": "before_after",
+    "answer_type": "entity",
+    "qlabel": "Single",
+    "relation": "P166",
+    "gold": [
+      "Richard von Weizsäcker"
+    ],
+    "method": "llm-only",
+    "final_answer": "Giải Nobel Hòa bình",
+    "correct": false,
+    "reply": "Đáp án: Giải Nobel Hòa bình"
+  },
+  {
+    "question": "Ai chơi cùng Mauricio Pinilla ở Football Club Internazionale Milano?",
+    "qtype": "time_join",
+    "answer_type": "entity",
+    "qlabel": "Multiple",
+    "relation": "P54",
+    "gold": [
+      "Aco Stojkov",
+      "Alberto Quadri",
+      "Christian Vieri",
+      "Dimitar Makriev",
+      "Emre Belözoğlu",
+      "Fabio Cannavaro",
+      "Hernán Crespo",
+      "Ianis Zicu",
+      "Khalilou Fadiga",
+      "Marco Caneira",
+      "Mohamed Kallon",
+      "Siniša Mihajlović",
+      "Sérgio Conceição"
+    ],
+    "method": "llm-only",
+    "final_answer": "Giuseppe Baresi",
+    "correct": false,
+    "reply": "Đáp án: Giuseppe Baresi"
+  },
+  {
+    "question": "Đại học Kỹ thuật Vô tuyến Kharkov tham gia ORCID năm nào?",
+    "qtype": "simple_time",
+    "answer_type": "time",
+    "qlabel": "Single",
+    "relation": "P463",
+    "gold": [
+      "2023"
+    ],
+    "method": "llm-only",
+    "final_answer": "2016",
+    "correct": false,
+    "reply": "Đáp án: 2016"
+  },
+  {
+    "question": "Giải nào được trao cho Arvo Pärt trước năm 2008?",
+    "qtype": "before_after",
+    "answer_type": "entity",
+    "qlabel": "Single",
+    "relation": "P166",
+    "gold": [
+      "György Kurtág"
+    ],
+    "method": "llm-only",
+    "final_answer": "Giải Polar Music",
+    "correct": false,
+    "reply": "Đáp án: Giải Polar Music"
+  },
+  {
+    "question": "Ai có cùng giữ chức Tổng trưởng Bộ Tài chính với David Heathcoat-Amory?",
+    "qtype": "time_join",
+    "answer_type": "entity",
+    "qlabel": "Multiple",
+    "relation": "P39",
+    "gold": [
+      "David Willetts",
+      "John Cope, Bá tước Cope của Berkeley"
+    ],
+    "method": "llm-only",
+    "final_answer": "Nicholas Ridley",
+    "correct": false,
+    "reply": "Đáp án: Nicholas Ridley"
+  },
+  {
+    "question": "Ai có cùng giữ chức Chủ tịch Viện Hàn lâm Khoa học Pháp với Claude Louis Berthollet?",
+    "qtype": "time_join",
+    "answer_type": "entity",
+    "qlabel": "Single",
+    "relation": "P39",
+    "gold": [
+      "Napoléon Bonaparte"
+    ],
+    "method": "llm-only",
+    "final_answer": "Joseph Louis Gay-Lussac",
+    "correct": false,
+    "reply": "Đáp án: Joseph Louis Gay-Lussac"
+  },
+  {
+    "question": "Vào thời điểm 2013, đội hình Hellas Verona F.C. có ai?",
+    "qtype": "simple_entity",
+    "answer_type": "entity",
+    "qlabel": "Multiple",
+    "relation": "P54",
+    "gold": [
+      "Alessandro Sgrigna",
+      "Luca Toni",
+      "Marco Donadel",
+      "Samuele Longo"
+    ],
+    "method": "llm-only",
+    "final_answer": "Alessio Romagnoli",
+    "correct": false,
+    "reply": "Đáp án: Alessio Romagnoli"
+  },
+  {
+    "question": "Giải nào được trao cho Nikita Sergeyevich Mikhalkov trước năm 1977?",
+    "qtype": "before_after",
+    "answer_type": "entity",
+    "qlabel": "Single",
+    "relation": "P166",
+    "gold": [
+      "Francis Ford Coppola"
+    ],
+    "method": "llm-only",
+    "final_answer": "Giải Lenin",
+    "correct": false,
+    "reply": "Đáp án: Giải Lenin"
+  },
+  {
+    "question": "Carl L. Siegel làm việc cho tổ chức nào sau Đại học Goethe Frankfurt?",
+    "qtype": "before_after",
+    "answer_type": "entity",
+    "qlabel": "Single",
+    "relation": "P108",
+    "gold": [
+      "Viện nghiên cứu cao cấp Princeton"
+    ],
+    "method": "llm-only",
+    "final_answer": "CERN",
+    "correct": false,
+    "reply": "Đáp án: CERN"
+  },
+  {
+    "question": "Ai cùng là thành viên Hội Triết học Mỹ với George C. Pimentel?",
+    "qtype": "time_join",
+    "answer_type": "entity",
+    "qlabel": "Multiple",
+    "relation": "P463",
+    "gold": [
+      "Isadore Singer",
+      "Wolfgang Panofsky"
+    ],
+    "method": "llm-only",
+    "final_answer": "John Dewey",
+    "correct": false,
+    "reply": "Đáp án: John Dewey"
+  },
+  {
+    "question": "Zbyněk Stanjura giữ chức vụ Bộ trưởng Giao thông của Cộng hòa Séc từ năm nào?",
+    "qtype": "simple_time",
+    "answer_type": "time",
+    "qlabel": "Single",
+    "relation": "P39",
+    "gold": [
+      "2012"
+    ],
+    "method": "llm-only",
+    "final_answer": "2013",
+    "correct": false,
+    "reply": "Đáp án: 2013"
+  },
+  {
+    "question": "Ai cùng Clint Eastwood được trao giải Bắc Đẩu Bội tinh hạng 3?",
+    "qtype": "time_join",
+    "answer_type": "entity",
+    "qlabel": "Multiple",
+    "relation": "P166",
+    "gold": [
+      "Jean-Noël Jeanneney",
+      "Jean-Paul Belmondo"
+    ],
+    "method": "llm-only",
+    "final_answer": "Svetlana Khodchenkova",
+    "correct": false,
+    "reply": "Đáp án: Svetlana Khodchenkova"
+  },
+  {
+    "question": "Sau giải Giáo danh dự, Đemis Hassabis còn nhận giải nào nữa?",
+    "qtype": "before_after",
+    "answer_type": "entity",
+    "qlabel": "Single",
+    "relation": "P166",
+    "gold": [
+      "Giải thưởng Dan David"
+    ],
+    "method": "llm-only",
+    "final_answer": "Giải Turing",
+    "correct": false,
+    "reply": "Đáp án: Giải Turing"
+  },
+  {
+    "question": "Cùng thời điểm với Sepp Blatter, ai cũng đoạt Huy chương Olympic Bạc?",
+    "qtype": "time_join",
+    "answer_type": "entity",
+    "qlabel": "Multiple",
+    "relation": "P166",
+    "gold": [
+      "Arthur Ashe",
+      "Ted Stevens"
+    ],
+    "method": "llm-only",
+    "final_answer": "Michel Platini",
+    "correct": false,
+    "reply": "Đáp án: Michel Platini"
+  },
+  {
+    "question": "Ai là người đảm nhận chức Đồng công tước Andorra của Pháp vào thời điểm 1968?",
+    "qtype": "simple_entity",
+    "answer_type": "entity",
+    "qlabel": "Single",
+    "relation": "P39",
+    "gold": [
+      "Charles de Gaulle"
+    ],
+    "method": "llm-only",
+    "final_answer": "Louis XIV",
+    "correct": false,
+    "reply": "Đáp án: Louis XIV"
+  },
+  {
+    "question": "Giải nào được trao cho Frank Macfarlane Burnet trước năm 1957?",
+    "qtype": "before_after",
+    "answer_type": "entity",
+    "qlabel": "Single",
+    "relation": "P166",
+    "gold": [
+      "James Bryant Conant"
+    ],
+    "method": "llm-only",
+    "final_answer": "Nobel Y học",
+    "correct": false,
+    "reply": "Đáp án: Nobel Y học"
+  },
+  {
+    "question": "Jakub Vojtuš rời Miedź Legnica năm nào?",
+    "qtype": "simple_time",
+    "answer_type": "time",
+    "qlabel": "Single",
+    "relation": "P54",
+    "gold": [
+      "2018"
+    ],
+    "method": "llm-only",
+    "final_answer": "2021",
+    "correct": false,
+    "reply": "Đáp án: 2021"
+  },
+  {
+    "question": "Sergei Jakirović rời PFC CSKA Sofia năm nào?",
+    "qtype": "simple_time",
+    "answer_type": "time",
+    "qlabel": "Single",
+    "relation": "P54",
+    "gold": [
+      "2007"
+    ],
+    "method": "llm-only",
+    "final_answer": "2021",
+    "correct": false,
+    "reply": "Đáp án: 2021"
+  },
+  {
+    "question": "Fabiano Soares Pessoa thi đấu cho đội nào lần đầu tiên?",
+    "qtype": "first_last",
+    "answer_type": "entity",
+    "qlabel": "Single",
+    "relation": "P54",
+    "gold": [
+      "Botafogo de Futebol e Regatas"
+    ],
+    "method": "llm-only",
+    "final_answer": "Cruzeiro",
+    "correct": false,
+    "reply": "Đáp án: Cruzeiro"
+  },
+  {
+    "question": "Bạn học của Chantal Zabus tại Đại học Queen là ai?",
+    "qtype": "time_join",
+    "answer_type": "entity",
+    "qlabel": "Single",
+    "relation": "P69",
+    "gold": [
+      "John P. Smol"
+    ],
+    "method": "llm-only",
+    "final_answer": "Chantal Zabus",
+    "correct": false,
+    "reply": "Đáp án: Chantal Zabus"
+  },
+  {
+    "question": "Cùng thời với Marcy Kaptur ở chức giám đốc còn có ai?",
+    "qtype": "time_join",
+    "answer_type": "entity",
+    "qlabel": "Multiple",
+    "relation": "P39",
+    "gold": [
+      "Calyampudi Radhakrishna Rao",
+      "Claude Allègre",
+      "Czesław Olech",
+      "Hans Wußing",
+      "Ivan Vinogradov",
+      "Jacques Jourquin",
+      "Jean-Yves Leblond",
+      "Joan Triadú",
+      "John T. Lewis",
+      "Lennart Carleson",
+      "Lénárd Pál",
+      "Madeleine Rebérioux",
+      "Nikolay Gennadiyevich Basov",
+      "Nikoloz Muskhelishvili",
+      "Patrick Devedjian",
+      "Raymond Aron",
+      "Sergei Lvovich Sobolev",
+      "Sergey Afanasyev",
+      "Yuri Mitropolskiy"
+    ],
+    "method": "llm-only",
+    "final_answer": "John Dingell",
+    "correct": false,
+    "reply": "Đáp án: John Dingell"
+  },
+  {
+    "question": "Ai chơi cùng Nicolas Anelka ở Đội tuyển U20 bóng đá quốc gia Pháp?",
+    "qtype": "time_join",
+    "answer_type": "entity",
+    "qlabel": "Single",
+    "relation": "P54",
+    "gold": [
+      "Thierry Henry"
+    ],
+    "method": "llm-only",
+    "final_answer": "Zinedine Zidane",
+    "correct": false,
+    "reply": "Đáp án: Zinedine Zidane"
+  },
+  {
+    "question": "Persi Diaconis ẵm giải Thành viên Hội Toán Thống Kê vào năm nào?",
+    "qtype": "simple_time",
+    "answer_type": "time",
+    "qlabel": "Single",
+    "relation": "P166",
+    "gold": [
+      "1981"
+    ],
+    "method": "llm-only",
+    "final_answer": "2008",
+    "correct": false,
+    "reply": "Đáp án: 2008"
+  },
+  {
+    "question": "Giải thưởng đầu tiên trong sự nghiệp của Jürgen Oesten là gì?",
+    "qtype": "first_last",
+    "answer_type": "entity",
+    "qlabel": "Single",
+    "relation": "P166",
+    "gold": [
+      "Huân chương Khen thưởng Phục vụ Dài Dày của Quân đội Đức Quốc"
+    ],
+    "method": "llm-only",
+    "final_answer": "FIFA World Player of the Year",
+    "correct": false,
+    "reply": "Đáp án: FIFA World Player of the Year"
+  },
+  {
+    "question": "Ai cùng Hubert Reeves được trao giải Bắc Đẩu Bội tinh hạng 4?",
+    "qtype": "time_join",
+    "answer_type": "entity",
+    "qlabel": "Multiple",
+    "relation": "P166",
+    "gold": [
+      "Henry de Lumley",
+      "Jean-Pierre Kahane",
+      "Maurice Jarre"
+    ],
+    "method": "llm-only",
+    "final_answer": "Yves Coppens",
+    "correct": false,
+    "reply": "Đáp án: Yves Coppens"
+  },
+  {
+    "question": "Leonard Jimmie Savage nhận giải cuối cùng vào dịp nào?",
+    "qtype": "first_last",
+    "answer_type": "entity",
+    "qlabel": "Single",
+    "relation": "P166",
+    "gold": [
+      "Giải Guggenheim"
+    ],
+    "method": "llm-only",
+    "final_answer": "1971",
+    "correct": false,
+    "reply": "Đáp án: 1971"
+  },
+  {
+    "question": "Năm 1991, Đại học Aarhus có sinh viên nào?",
+    "qtype": "simple_entity",
+    "answer_type": "entity",
+    "qlabel": "Single",
+    "relation": "P69",
+    "gold": [
+      "Frederik X của Đan Mạch"
+    ],
+    "method": "llm-only",
+    "final_answer": "1991",
+    "correct": false,
+    "reply": "Đáp án: 1991"
+  },
+  {
+    "question": "Vào năm 2003, ai nắm giữ vị trí Thượng nghị sĩ Ý đời đời?",
+    "qtype": "simple_entity",
+    "answer_type": "entity",
+    "qlabel": "Multiple",
+    "relation": "P39",
+    "gold": [
+      "Emilio Colombo",
+      "Francesco Cossiga",
+      "Giulio Andreotti",
+      "Oscar Luigi Scalfaro",
+      "Rita Levi-Montalcini"
+    ],
+    "method": "llm-only",
+    "final_answer": "Sergio Mattarella",
+    "correct": false,
+    "reply": "Đáp án: Sergio Mattarella"
+  },
+  {
+    "question": "Trường cuối cùng của Ben Zhong Tang là?",
+    "qtype": "first_last",
+    "answer_type": "entity",
+    "qlabel": "Single",
+    "relation": "P69",
+    "gold": [
+      "Đại học Kyoto"
+    ],
+    "method": "llm-only",
+    "final_answer": "University of Cambridge",
+    "correct": false,
+    "reply": "Đáp án: University of Cambridge"
+  },
+  {
+    "question": "Ai là thành viên của Câu lạc bộ bóng đá Paulista sau năm 2003?",
+    "qtype": "before_after",
+    "answer_type": "entity",
+    "qlabel": "Single",
+    "relation": "P54",
+    "gold": [
+      "Sorato"
+    ],
+    "method": "llm-only",
+    "final_answer": "Corinthians",
+    "correct": false,
+    "reply": "Đáp án: Corinthians"
+  },
+  {
+    "question": "Trước khi đoạt Hội殿堂 âm nhạc Canada, Bruce Cockburn đã có giải thưởng nào?",
+    "qtype": "before_after",
+    "answer_type": "entity",
+    "qlabel": "Single",
+    "relation": "P166",
+    "gold": [
+      "Giải Juno cho Album gốc và truyền thống của năm – Nghệ sĩ độc tấu"
+    ],
+    "method": "llm-only",
+    "final_answer": "Juno Award",
+    "correct": false,
+    "reply": "Đáp án: Juno Award"
+  },
+  {
+    "question": "Ai là cầu thủ của Le Mans FC năm 1991?",
+    "qtype": "simple_entity",
+    "answer_type": "entity",
+    "qlabel": "Single",
+    "relation": "P54",
+    "gold": [
+      "Fabrice Moreau"
+    ],
+    "method": "llm-only",
+    "final_answer": "Le Mans FC",
+    "correct": false,
+    "reply": "Đáp án: Le Mans FC"
+  },
+  {
+    "question": "Giải nào được trao cho Maya Moore sau năm 2024?",
+    "qtype": "before_after",
+    "answer_type": "entity",
+    "qlabel": "Single",
+    "relation": "P166",
+    "gold": [
+      "Sue Bird"
+    ],
+    "method": "llm-only",
+    "final_answer": "Olympic",
+    "correct": false,
+    "reply": "Đáp án: Olympic"
+  },
+  {
+    "question": "Fabrizio Ravanelli rời Calcio Avellino S.S.D. năm nào?",
+    "qtype": "simple_time",
+    "answer_type": "time",
+    "qlabel": "Single",
+    "relation": "P54",
+    "gold": [
+      "1990"
+    ],
+    "method": "llm-only",
+    "final_answer": "2019",
+    "correct": false,
+    "reply": "Đáp án: 2019"
+  },
+  {
+    "question": "Tổ chức đầu tiên Lars Hörmander tham gia là gì?",
+    "qtype": "first_last",
+    "answer_type": "entity",
+    "qlabel": "Single",
+    "relation": "P463",
+    "gold": [
+      "Viện hàn lâm Khoa học quốc gia Hoa Kỳ"
+    ],
+    "method": "llm-only",
+    "final_answer": "Institut Mittag-Leffler",
+    "correct": false,
+    "reply": "Đáp án: Institut Mittag-Leffler"
+  },
+  {
+    "question": "Giải đầu tiên đánh dấu sự nghiệp của Ernst Leonard Lindelöf là gì?",
+    "qtype": "first_last",
+    "answer_type": "entity",
+    "qlabel": "Single",
+    "relation": "P166",
+    "gold": [
+      "Huân chương Sao Bắc Cực hạng 5"
+    ],
+    "method": "llm-only",
+    "final_answer": "Prix Bordin",
+    "correct": false,
+    "reply": "Đáp án: Prix Bordin"
+  },
+  {
+    "question": "Ai là đồng nghiệp của Thomas Shafee tại Đại học La Trobe?",
+    "qtype": "time_join",
+    "answer_type": "entity",
+    "qlabel": "Single",
+    "relation": "P108",
+    "gold": [
+      "Muhammad Yunus"
+    ],
+    "method": "llm-only",
+    "final_answer": "David Tovey",
+    "correct": false,
+    "reply": "Đáp án: David Tovey"
+  },
+  {
+    "question": "Ai giữ chức vụ chúa cảng Cinque Ports vào năm 1496?",
+    "qtype": "simple_entity",
+    "answer_type": "entity",
+    "qlabel": "Single",
+    "relation": "P39",
+    "gold": [
+      "Henry VIII của Anh"
+    ],
+    "method": "llm-only",
+    "final_answer": "Henry VII",
+    "correct": false,
+    "reply": "Đáp án: Henry VII"
+  },
+  {
+    "question": "Vào thời gian 1941, Đảng Cộng sản Liên Xô bao gồm những ai?",
+    "qtype": "simple_entity",
+    "answer_type": "entity",
+    "qlabel": "Multiple",
+    "relation": "P102",
+    "gold": [
+      "Aleksandr Mikhaylovich Vasilevskiy",
+      "Aleksey Kosygin",
+      "Andrei Andreyevich Gromyko",
+      "Dmitriy Ustinov",
+      "Georgi Konstantinovich Zhukov",
+      "Iosif Vissarionovich Stalin",
+      "Leonid Ilyich Brezhnev",
+      "Mikhail Kalinin",
+      "Nikolai Aleksandrovich Bulganin",
+      "Nikolai Konstantinovich Baibakov",
+      "Semyon Konstantinovich Timoshenko",
+      "Vyacheslav Mikhailovich Molotov"
+    ],
+    "method": "llm-only",
+    "final_answer": "Joseph Stalin",
+    "correct": false,
+    "reply": "Đáp án: Joseph Stalin"
+  },
+  {
+    "question": "Vinh dự cuối cùng Theodore Roosevelt nhận được là gì?",
+    "qtype": "first_last",
+    "answer_type": "entity",
+    "qlabel": "Single",
+    "relation": "P166",
+    "gold": [
+      "Huân chương Danh dự"
+    ],
+    "method": "llm-only",
+    "final_answer": "Giải thưởng Nobel Hòa bình",
+    "correct": false,
+    "reply": "Đáp án: Giải thưởng Nobel Hòa bình"
+  },
+  {
+    "question": "Vinh dự cuối cùng Valdis Zatlers nhận được là gì?",
+    "qtype": "first_last",
+    "answer_type": "entity",
+    "qlabel": "Single",
+    "relation": "P166",
+    "gold": [
+      "Thư lệnh Tổng thống về Xuất sắc"
+    ],
+    "method": "llm-only",
+    "final_answer": "Bằng Danh dự Quốc gia Latvia",
+    "correct": false,
+    "reply": "Đáp án: Bằng Danh dự Quốc gia Latvia"
+  },
+  {
+    "question": "Richard Dawkins làm việc cho Đại học California tại Berkeley từ khi nào đến khi nào?",
+    "qtype": "simple_time",
+    "answer_type": "time",
+    "qlabel": "Multiple",
+    "relation": "P108",
+    "gold": [
+      "1967",
+      "1969"
+    ],
+    "method": "llm-only",
+    "final_answer": "1990–2008",
+    "correct": false,
+    "reply": "Đáp án: 1990–2008"
+  },
+  {
+    "question": "Ai đảm trách vị trí Chủ tịch Hạ viện Anh trong năm 1858?",
+    "qtype": "simple_entity",
+    "answer_type": "entity",
+    "qlabel": "Single",
+    "relation": "P39",
+    "gold": [
+      "Evelyn Denison, Bá tước Ossington thứ nhất"
+    ],
+    "method": "llm-only",
+    "final_answer": "The Earl of Malmesbury",
+    "correct": false,
+    "reply": "Đáp án: The Earl of Malmesbury"
+  },
+  {
+    "question": "Paulo Ribenboim là sinh viên Đại học Bonn trong khoảng thời gian nào?",
+    "qtype": "simple_time",
+    "answer_type": "time",
+    "qlabel": "Multiple",
+    "relation": "P69",
+    "gold": [
+      "1953",
+      "1956"
+    ],
+    "method": "llm-only",
+    "final_answer": "1948–1951",
+    "correct": false,
+    "reply": "Đáp án: 1948–1951"
+  },
+  {
+    "question": "Eric Kandel nhận giải Huy chương Howard Crosby Warren khi nào?",
+    "qtype": "simple_time",
+    "answer_type": "time",
+    "qlabel": "Single",
+    "relation": "P166",
+    "gold": [
+      "1984"
+    ],
+    "method": "llm-only",
+    "final_answer": "1996",
+    "correct": false,
+    "reply": "Đáp án: 1996"
+  },
+  {
+    "question": "Daniel Mietchen làm việc cho Đại học Humboldt Berlin từ khi nào đến khi nào?",
+    "qtype": "simple_time",
+    "answer_type": "time",
+    "qlabel": "Multiple",
+    "relation": "P108",
+    "gold": [
+      "1997",
+      "2001"
+    ],
+    "method": "llm-only",
+    "final_answer": "2008–2015",
+    "correct": false,
+    "reply": "Đáp án: 2008–2015"
+  },
+  {
+    "question": "Ai làm Thành viên của Hội đồng Liên bang Nga sau Alexey Alexandrov?",
+    "qtype": "before_after",
+    "answer_type": "entity",
+    "qlabel": "Single",
+    "relation": "P39",
+    "gold": [
+      "Dmitri Alenichev"
+    ],
+    "method": "llm-only",
+    "final_answer": "Valentina Matviyenko",
+    "correct": false,
+    "reply": "Đáp án: Valentina Matviyenko"
+  },
+  {
+    "question": "Khoảng thời gian nào Ngô Đôn Nghĩa theo học ở Đại học Chính trị Quốc gia (Đài Loan)?",
+    "qtype": "simple_time",
+    "answer_type": "time",
+    "qlabel": "Multiple",
+    "relation": "P69",
+    "gold": [
+      "1965",
+      "1966"
+    ],
+    "method": "llm-only",
+    "final_answer": "1958–1960",
+    "correct": false,
+    "reply": "Đáp án: 1958–1960"
+  },
+  {
+    "question": "Giải nào được trao cho Gwendolyn Brooks trước năm 1976?",
+    "qtype": "before_after",
+    "answer_type": "entity",
+    "qlabel": "Single",
+    "relation": "P166",
+    "gold": [
+      "Richard Wilbur"
+    ],
+    "method": "llm-only",
+    "final_answer": "Pulitzer Prize",
+    "correct": false,
+    "reply": "Đáp án: Pulitzer Prize"
+  },
+  {
+    "question": "Yvonne Choquet-Bruhat kết hôn với Gustave Choquet từ năm bao nhiêu?",
+    "qtype": "simple_time",
+    "answer_type": "time",
+    "qlabel": "Single",
+    "relation": "P26",
+    "gold": [
+      "1961"
+    ],
+    "method": "llm-only",
+    "final_answer": "1959",
+    "correct": false,
+    "reply": "Đáp án: 1959"
+  },
+  {
+    "question": "Vào năm 2012, ai là cầu thủ của Đội bóng Anapolina?",
+    "qtype": "simple_entity",
+    "answer_type": "entity",
+    "qlabel": "Single",
+    "relation": "P54",
+    "gold": [
+      "Gustavo Saibt Martins"
+    ],
+    "method": "llm-only",
+    "final_answer": "Fred",
+    "correct": false,
+    "reply": "Đáp án: Fred"
+  },
+  {
+    "question": "Ai có chung giai đoạn ở Hội thống kê Hoa Kỳ với Lincoln Moses?",
+    "qtype": "time_join",
+    "answer_type": "entity",
+    "qlabel": "Single",
+    "relation": "P463",
+    "gold": [
+      "Prasanta Chandra Mahalanobis"
+    ],
+    "method": "llm-only",
+    "final_answer": "John W. Tukey",
+    "correct": false,
+    "reply": "Đáp án: John W. Tukey"
+  },
+  {
+    "question": "Cùng thời với André Cools ở chức Thành viên của Hạ viện Bỉ còn có ai?",
+    "qtype": "time_join",
+    "answer_type": "entity",
+    "qlabel": "Multiple",
+    "relation": "P39",
+    "gold": [
+      "Charles-Ferdinand Nothomb",
+      "Frans Grootjans",
+      "Leo Tindemans",
+      "Theo Lefèvre"
+    ],
+    "method": "llm-only",
+    "final_answer": "Guy Verhofstadt",
+    "correct": false,
+    "reply": "Đáp án: Guy Verhofstadt"
+  },
+  {
+    "question": "Ai thi đấu cho Granada CF vào năm 2009?",
+    "qtype": "simple_entity",
+    "answer_type": "entity",
+    "qlabel": "Single",
+    "relation": "P54",
+    "gold": [
+      "Carlos Aranda"
+    ],
+    "method": "llm-only",
+    "final_answer": "Rubén de la Red",
+    "correct": false,
+    "reply": "Đáp án: Rubén de la Red"
+  },
+  {
+    "question": "Cùng thời với Pekka Sauri ở chức chủ tịch còn có ai?",
+    "qtype": "time_join",
+    "answer_type": "entity",
+    "qlabel": "Multiple",
+    "relation": "P39",
+    "gold": [
+      "Czesław Olech",
+      "Frederick Valentine Atkinson",
+      "Fredrik Reinfeldt",
+      "Friedrich Hirzebruch",
+      "Hillary Clinton",
+      "Jacques-Louis Lions",
+      "Jane Lubchenco",
+      "John Polkinghorne",
+      "Joseph Gilles Napoléon Ouellet",
+      "Juan Antonio Samaranch",
+      "Maurício Peixoto",
+      "Michael Artin",
+      "Michael Glos",
+      "Olga Ladyzhenskaya",
+      "Pekka Haavisto",
+      "Robert Badinter",
+      "Simon A. Levin",
+      "Stanislav Gross",
+      "Tarja Halonen"
+    ],
+    "method": "llm-only",
+    "final_answer": "Martti Ahtisaari",
+    "correct": false,
+    "reply": "Đáp án: Martti Ahtisaari"
+  },
+  {
+    "question": "Ai là người đảm nhận chức Bộ trưởng phụ trách Phát triển Quốc tế vào thời điểm 2001?",
+    "qtype": "simple_entity",
+    "answer_type": "entity",
+    "qlabel": "Single",
+    "relation": "P39",
+    "gold": [
+      "Caroline Spelman"
+    ],
+    "method": "llm-only",
+    "final_answer": "Paul Martin",
+    "correct": false,
+    "reply": "Đáp án: Paul Martin"
+  },
+  {
+    "question": "Vào năm 1965, ai nắm giữ vị trí Thành viên Thượng viện bang Georgia?",
+    "qtype": "simple_entity",
+    "answer_type": "entity",
+    "qlabel": "Single",
+    "relation": "P39",
+    "gold": [
+      "Jimmy Carter"
+    ],
+    "method": "llm-only",
+    "final_answer": "Herman Talmadge",
+    "correct": false,
+    "reply": "Đáp án: Herman Talmadge"
+  },
+  {
+    "question": "Giải thưởng đầu tay của Emma Bonino là gì?",
+    "qtype": "first_last",
+    "answer_type": "entity",
+    "qlabel": "Single",
+    "relation": "P166",
+    "gold": [
+      "Giải thưởng Hoàng hậu Asturias về Hợp tác Quốc tế"
+    ],
+    "method": "llm-only",
+    "final_answer": "Giải Nobel Hòa bình",
+    "correct": false,
+    "reply": "Đáp án: Giải Nobel Hòa bình"
+  },
+  {
+    "question": "Andrei Panyukov thi đấu cho đội nào trước khi gia nhập FC Slavia-Mozyr?",
+    "qtype": "before_after",
+    "answer_type": "entity",
+    "qlabel": "Single",
+    "relation": "P54",
+    "gold": [
+      "FC Kyzylzhar"
+    ],
+    "method": "llm-only",
+    "final_answer": "FC Minsk",
+    "correct": false,
+    "reply": "Đáp án: FC Minsk"
+  },
+  {
+    "question": "Lloyd Doggett từng làm gì trước tiên trong sự nghiệp?",
+    "qtype": "first_last",
+    "answer_type": "entity",
+    "qlabel": "Single",
+    "relation": "P39",
+    "gold": [
+      "Thành viên Thượng viện bang Texas"
+    ],
+    "method": "llm-only",
+    "final_answer": "Luật sư",
+    "correct": false,
+    "reply": "Đáp án: Luật sư"
+  },
+  {
+    "question": "Ai có chung khoảng thời gian học tại Đại học Nancy với Paulo Ribenboim?",
+    "qtype": "time_join",
+    "answer_type": "entity",
+    "qlabel": "Single",
+    "relation": "P69",
+    "gold": [
+      "Alexander Grothendieck"
+    ],
+    "method": "llm-only",
+    "final_answer": "Jean-Pierre Serre",
+    "correct": false,
+    "reply": "Đáp án: Jean-Pierre Serre"
+  },
+  {
+    "question": "Marcelo Ramos thi đấu cho đội nào trước khi gia nhập Esporte Clube Vitória?",
+    "qtype": "before_after",
+    "answer_type": "entity",
+    "qlabel": "Single",
+    "relation": "P54",
+    "gold": [
+      "Sport Club Corinthians Paulista"
+    ],
+    "method": "llm-only",
+    "final_answer": "Cruzeiro Esporte Clube",
+    "correct": false,
+    "reply": "Đáp án: Cruzeiro Esporte Clube"
+  },
+  {
+    "question": "Ai đảm trách vị trí Chủ tịch Martinique trong năm 2001?",
+    "qtype": "simple_entity",
+    "answer_type": "entity",
+    "qlabel": "Single",
+    "relation": "P39",
+    "gold": [
+      "Michel Cadot"
+    ],
+    "method": "llm-only",
+    "final_answer": "Jacques Bino",
+    "correct": false,
+    "reply": "Đáp án: Jacques Bino"
+  },
+  {
+    "question": "Itō Kiyoshi đoạt Giải Wolf về Toán học năm nào?",
+    "qtype": "simple_time",
+    "answer_type": "time",
+    "qlabel": "Single",
+    "relation": "P166",
+    "gold": [
+      "1987"
+    ],
+    "method": "llm-only",
+    "final_answer": "1994",
+    "correct": false,
+    "reply": "Đáp án: 1994"
+  },
+  {
+    "question": "Wu Văn Quân nhận giải thưởng nào trước khi nhận Giải thưởng Shaw trong Khoa học Toán học?",
+    "qtype": "before_after",
+    "answer_type": "entity",
+    "qlabel": "Single",
+    "relation": "P166",
+    "gold": [
+      "Giải thưởng Khoa học và Công nghệ Ưu việt của Nhà nước"
+    ],
+    "method": "llm-only",
+    "final_answer": "Huy chương Fields",
+    "correct": false,
+    "reply": "Đáp án: Huy chương Fields"
+  },
+  {
+    "question": "Sau giải Giải thưởng Otto Laporte, Katepalli R. Sreenivasan còn nhận giải nào nữa?",
+    "qtype": "before_after",
+    "answer_type": "entity",
+    "qlabel": "Single",
+    "relation": "P166",
+    "gold": [
+      "Thành viên liên kết của Học viện Khoa học Châu Phi"
+    ],
+    "method": "llm-only",
+    "final_answer": "Giải thưởng Kavli",
+    "correct": false,
+    "reply": "Đáp án: Giải thưởng Kavli"
+  },
+  {
+    "question": "Vào thời điểm nào Robert Weinberg nhận giải Giải thưởng AACR-G.H.A. Clowes cho Nghiên cứu Ung thư Cơ bản Xuất sắc?",
+    "qtype": "simple_time",
+    "answer_type": "time",
+    "qlabel": "Single",
+    "relation": "P166",
+    "gold": [
+      "1996"
+    ],
+    "method": "llm-only",
+    "final_answer": "1983",
+    "correct": false,
+    "reply": "Đáp án: 1983"
+  },
+  {
+    "question": "Cùng thời điểm với Gustaf Anton Bråkenhielm, ai cũng đoạt Bắc Đẩu Bội tinh hạng 5?",
+    "qtype": "time_join",
+    "answer_type": "entity",
+    "qlabel": "Multiple",
+    "relation": "P166",
+    "gold": [
+      "Henry Dunant",
+      "Léon Heuzey"
+    ],
+    "method": "llm-only",
+    "final_answer": "Alfred Nobel",
+    "correct": false,
+    "reply": "Đáp án: Alfred Nobel"
+  },
+  {
+    "question": "Ai là thành viên của Liên đoàn Thể thao Bồ Đào Nha sau năm 2003?",
+    "qtype": "before_after",
+    "answer_type": "entity",
+    "qlabel": "Single",
+    "relation": "P54",
+    "gold": [
+      "Alex Sandro Santana de Oliveira"
+    ],
+    "method": "llm-only",
+    "final_answer": "Liên đoàn Thể thao Bồ Đào Nha",
+    "correct": false,
+    "reply": "Đáp án: Liên đoàn Thể thao Bồ Đào Nha"
+  },
+  {
+    "question": "Giải kế tiếp của Nikita Sergeyevich Mikhalkov sau Huân chương “Vì Tổ quốc” hạng 2 là gì?",
+    "qtype": "before_after",
+    "answer_type": "entity",
+    "qlabel": "Single",
+    "relation": "P166",
+    "gold": [
+      "Sư tử vàng cho Thành tựu trọn đời"
+    ],
+    "method": "llm-only",
+    "final_answer": "Giải Oscar",
+    "correct": false,
+    "reply": "Đáp án: Giải Oscar"
+  },
+  {
+    "question": "Giải nào  nhận được năm 1855?",
+    "qtype": "simple_entity",
+    "answer_type": "entity",
+    "qlabel": "Single",
+    "relation": "P166",
+    "gold": [
+      "Eduard Angerer"
+    ],
+    "method": "llm-only",
+    "final_answer": "Giải Nobel",
+    "correct": false,
+    "reply": "Đáp án: Giải Nobel"
+  },
+  {
+    "question": "Vào lúc 1957, ai là học sinh/sinh viên của Trường Đại học Swarthmore?",
+    "qtype": "simple_entity",
+    "answer_type": "entity",
+    "qlabel": "Single",
+    "relation": "P69",
+    "gold": [
+      "David Baltimore"
+    ],
+    "method": "llm-only",
+    "final_answer": "Martin Luther King Jr",
+    "correct": false,
+    "reply": "Đáp án: Martin Luther King Jr."
+  },
+  {
+    "question": "Sidney R. Yates giữ chức vụ nào đầu tiên?",
+    "qtype": "first_last",
+    "answer_type": "entity",
+    "qlabel": "Single",
+    "relation": "P39",
+    "gold": [
+      "dân biểu Hoa Kỳ"
+    ],
+    "method": "llm-only",
+    "final_answer": "United States Secretary of Transportation",
+    "correct": false,
+    "reply": "Đáp án: United States Secretary of Transportation"
+  },
+  {
+    "question": "Bạn đồng hành của Francis Collins tại Viện hàn lâm Khoa học quốc gia Hoa Kỳ là ai?",
+    "qtype": "time_join",
+    "answer_type": "entity",
+    "qlabel": "Multiple",
+    "relation": "P463",
+    "gold": [
+      "Bert Sakmann",
+      "David Baltimore",
+      "Dương Chấn Ninh",
+      "Elizabeth Blackburn",
+      "James Rothman",
+      "M. S. Bartlett",
+      "M. S. Swaminathan",
+      "Mikio Sato"
+    ],
+    "method": "llm-only",
+    "final_answer": "Craig Venter",
+    "correct": false,
+    "reply": "Đáp án: Craig Venter"
+  },
+  {
+    "question": "Sau Brackley Town F.C., Jefferson Louis đầu quân cho ai?",
+    "qtype": "before_after",
+    "answer_type": "entity",
+    "qlabel": "Single",
+    "relation": "P54",
+    "gold": [
+      "Newport County A.F.C."
+    ],
+    "method": "llm-only",
+    "final_answer": "Stevenage Borough F.C",
+    "correct": false,
+    "reply": "Đáp án: Stevenage Borough F.C."
+  },
+  {
+    "question": "Ai cùng Andrew Young đảm nhiệm chủ tịch?",
+    "qtype": "time_join",
+    "answer_type": "entity",
+    "qlabel": "Multiple",
+    "relation": "P39",
+    "gold": [
+      "Donald Trump",
+      "Elizabeth Dole",
+      "Fadey Sargsyan",
+      "Gabriel de Broglie",
+      "Gérard Collomb",
+      "Hervé Gaymard",
+      "Hubert Reeves",
+      "Jean-Pierre Bois",
+      "Jean-Pierre Kahane",
+      "Lyudmila Verbitskaya",
+      "Marc Fumaroli",
+      "Maria Elisabetta Alberti Casellati",
+      "Nicholas Shackleton",
+      "Philippe de Villiers",
+      "Piotr Stachańczyk",
+      "Raymond Barre"
+    ],
+    "method": "llm-only",
+    "final_answer": "Ralph Abernathy",
+    "correct": false,
+    "reply": "Đáp án: Ralph Abernathy"
+  },
+  {
+    "question": "Elver Jonsson không còn làm Chủ tịch Ủy ban Thị trường Lao động từ năm nào?",
+    "qtype": "simple_time",
+    "answer_type": "time",
+    "qlabel": "Single",
+    "relation": "P39",
+    "gold": [
+      "1979"
+    ],
+    "method": "llm-only",
+    "final_answer": "2021",
+    "correct": false,
+    "reply": "Đáp án: 2021"
+  },
+  {
+    "question": "Tổ chức cuối cùng mà Lucien Cayeux gia nhập là?",
+    "qtype": "first_last",
+    "answer_type": "entity",
+    "qlabel": "Single",
+    "relation": "P463",
+    "gold": [
+      "Viện Hàn lâm Khoa học Nga"
+    ],
+    "method": "llm-only",
+    "final_answer": "Ligue des Nations",
+    "correct": false,
+    "reply": "Đáp án: Ligue des Nations"
+  },
+  {
+    "question": "Ai là thành viên của Vitória S.C. sau năm 2008?",
+    "qtype": "before_after",
+    "answer_type": "entity",
+    "qlabel": "Single",
+    "relation": "P54",
+    "gold": [
+      "Jorge Ribeiro"
+    ],
+    "method": "llm-only",
+    "final_answer": "Cristiano Ronaldo",
+    "correct": false,
+    "reply": "Đáp án: Cristiano Ronaldo"
+  },
+  {
+    "question": "Giải nào được trao cho Kim Nhật Thành sau năm 1973?",
+    "qtype": "before_after",
+    "answer_type": "entity",
+    "qlabel": "Single",
+    "relation": "P166",
+    "gold": [
+      "Dmitriy Ustinov"
+    ],
+    "method": "llm-only",
+    "final_answer": "Giải Hồ Chí Minh",
+    "correct": false,
+    "reply": "Đáp án: Giải Hồ Chí Minh"
+  },
+  {
+    "question": "Ai cùng khoác áo Đội tuyển bóng đá quốc gia Colombia với Iván Valenciano?",
+    "qtype": "time_join",
+    "answer_type": "entity",
+    "qlabel": "Multiple",
+    "relation": "P54",
+    "gold": [
+      "Albeiro Usuriaga",
+      "Carlos Valderrama",
+      "Jairo Castillo",
+      "Jorge Horacio Serna",
+      "Leonardo Fabio Moreno",
+      "Nestor Salazar",
+      "Tressor Moreno"
+    ],
+    "method": "llm-only",
+    "final_answer": "James Rodríguez",
+    "correct": false,
+    "reply": "Đáp án: James Rodríguez"
+  },
+  {
+    "question": "Khi nào Bernard Cornut-Gentille nắm giữ vị trí Đại sứ Pháp tại Argentina?",
+    "qtype": "simple_time",
+    "answer_type": "time",
+    "qlabel": "Single",
+    "relation": "P39",
+    "gold": [
+      "1957"
+    ],
+    "method": "llm-only",
+    "final_answer": "2017",
+    "correct": false,
+    "reply": "Đáp án: 2017"
+  },
+  {
+    "question": "Cầu thủ nào khoác áo Újpest FC vào năm 2002?",
+    "qtype": "simple_entity",
+    "answer_type": "entity",
+    "qlabel": "Single",
+    "relation": "P54",
+    "gold": [
+      "Túlio Maravilha"
+    ],
+    "method": "llm-only",
+    "final_answer": "Ferenc Puskás",
+    "correct": false,
+    "reply": "Đáp án: Ferenc Puskás"
+  },
+  {
+    "question": "Giải thưởng cuối cùng Roger Chartier từng nhận là?",
+    "qtype": "first_last",
+    "answer_type": "entity",
+    "qlabel": "Single",
+    "relation": "P166",
+    "gold": [
+      "docteur honoris causa de l'université de Neuchâtel"
+    ],
+    "method": "llm-only",
+    "final_answer": "Prix Montyon",
+    "correct": false,
+    "reply": "Đáp án: Prix Montyon"
+  },
+  {
+    "question": "Năm 1992, ai trong hàng ngũ Đảng Xã hội Dân chủ?",
+    "qtype": "simple_entity",
+    "answer_type": "entity",
+    "qlabel": "Single",
+    "relation": "P102",
+    "gold": [
+      "Gregor Gysi"
+    ],
+    "method": "llm-only",
+    "final_answer": "Nguyễn Văn Linh",
+    "correct": false,
+    "reply": "Đáp án: Nguyễn Văn Linh"
+  },
+  {
+    "question": "Bậc học cao nhất của Eric P. Xing là ở trường nào?",
+    "qtype": "first_last",
+    "answer_type": "entity",
+    "qlabel": "Single",
+    "relation": "P69",
+    "gold": [
+      "Đại học California tại Berkeley"
+    ],
+    "method": "llm-only",
+    "final_answer": "Carnegie Mellon University",
+    "correct": false,
+    "reply": "Đáp án: Carnegie Mellon University"
+  },
+  {
+    "question": "Ai thay Abraham Lincoln đảm nhiệm dân biểu Hoa Kỳ?",
+    "qtype": "before_after",
+    "answer_type": "entity",
+    "qlabel": "Single",
+    "relation": "P39",
+    "gold": [
+      "Justin Smith Morrill"
+    ],
+    "method": "llm-only",
+    "final_answer": "Thaddeus Stevens",
+    "correct": false,
+    "reply": "Đáp án: Thaddeus Stevens"
+  },
+  {
+    "question": "Lamont Barnes thi đấu cho đội nào trước khi gia nhập Đại học Murcia?",
+    "qtype": "before_after",
+    "answer_type": "entity",
+    "qlabel": "Single",
+    "relation": "P54",
+    "gold": [
+      "Baloncesto Fuenlabrada"
+    ],
+    "method": "llm-only",
+    "final_answer": "New Orleans Saints",
+    "correct": false,
+    "reply": "Đáp án: New Orleans Saints"
+  },
+  {
+    "question": "Ai có cùng giữ chức Tướng quốc Lãnh địa Công tước Lancaster với Herbert Samuel, Bá tước Samuel thứ nhất?",
+    "qtype": "time_join",
+    "answer_type": "entity",
+    "qlabel": "Single",
+    "relation": "P39",
+    "gold": [
+      "Winston Churchill"
+    ],
+    "method": "llm-only",
+    "final_answer": "Edward, Công tước xứ Kent",
+    "correct": false,
+    "reply": "Đáp án: Edward, Công tước xứ Kent"
+  },
+  {
+    "question": "Syarhey Kantsavy là thành viên của FC Gomel vào năm nào?",
+    "qtype": "simple_time",
+    "answer_type": "time",
+    "qlabel": "Single",
+    "relation": "P54",
+    "gold": [
+      "2013"
+    ],
+    "method": "llm-only",
+    "final_answer": "2019",
+    "correct": false,
+    "reply": "Đáp án: 2019"
+  },
+  {
+    "question": "Ai là đồng nghiệp của Georges-Léon Pelletier tại Hội thảo Rimouski?",
+    "qtype": "time_join",
+    "answer_type": "entity",
+    "qlabel": "Multiple",
+    "relation": "P108",
+    "gold": [
+      "Flavius D'Anjou",
+      "Édouard Lepage"
+    ],
+    "method": "llm-only",
+    "final_answer": "Henri Bourassa",
+    "correct": false,
+    "reply": "Đáp án: Henri Bourassa"
+  },
+  {
+    "question": "Vào khoảng thời gian 1711, ai làm Vị trí 20 của Viện Hàn lâm Pháp ngữ?",
+    "qtype": "simple_entity",
+    "answer_type": "entity",
+    "qlabel": "Single",
+    "relation": "P39",
+    "gold": [
+      "Jean-Paul Bignon"
+    ],
+    "method": "llm-only",
+    "final_answer": "Jean-Baptiste Le Roy",
+    "correct": false,
+    "reply": "Đáp án: Jean-Baptiste Le Roy"
+  },
+  {
+    "question": "Ai chơi cùng Daniel Fernandes ở FC Porto B?",
+    "qtype": "time_join",
+    "answer_type": "entity",
+    "qlabel": "Multiple",
+    "relation": "P54",
+    "gold": [
+      "Hugo Almeida",
+      "Paulo Costa"
+    ],
+    "method": "llm-only",
+    "final_answer": "Pedro Gonçalves",
+    "correct": false,
+    "reply": "Đáp án: Pedro Gonçalves"
+  },
+  {
+    "question": "Vào lúc 1938, ai là học sinh/sinh viên của Trường Phillips?",
+    "qtype": "simple_entity",
+    "answer_type": "entity",
+    "qlabel": "Single",
+    "relation": "P69",
+    "gold": [
+      "George H. W. Bush"
+    ],
+    "method": "llm-only",
+    "final_answer": "John F. Kennedy",
+    "correct": false,
+    "reply": "Đáp án: John F. Kennedy"
+  },
+  {
+    "question": "Hermann Joseph Muller tham gia tổ chức nào lần đầu?",
+    "qtype": "first_last",
+    "answer_type": "entity",
+    "qlabel": "Single",
+    "relation": "P463",
+    "gold": [
+      "Viện Hàn lâm Khoa học Nga"
+    ],
+    "method": "llm-only",
+    "final_answer": "Hội đồng Nghiên cứu Khoa học Quốc gia Mỹ",
+    "correct": false,
+    "reply": "Đáp án: Hội đồng Nghiên cứu Khoa học Quốc gia Mỹ"
+  },
+  {
+    "question": "Jorge Ribeiro chuyển từ đội nào sang Varzim S.C.?",
+    "qtype": "before_after",
+    "answer_type": "entity",
+    "qlabel": "Single",
+    "relation": "P54",
+    "gold": [
+      "Đội tuyển U20 bóng đá quốc gia Bồ Đào Nha"
+    ],
+    "method": "llm-only",
+    "final_answer": "Boavista F.C",
+    "correct": false,
+    "reply": "Đáp án: Boavista F.C."
+  },
+  {
+    "question": "Vị trí cuối cùng Robert Badinter từng nắm giữ là gì?",
+    "qtype": "first_last",
+    "answer_type": "entity",
+    "qlabel": "Single",
+    "relation": "P39",
+    "gold": [
+      "chủ tịch"
+    ],
+    "method": "llm-only",
+    "final_answer": "Bộ trưởng Tư pháp Pháp",
+    "correct": false,
+    "reply": "Đáp án: Bộ trưởng Tư pháp Pháp"
+  },
+  {
+    "question": "Ai và George Soros nhận giải cùng năm?",
+    "qtype": "time_join",
+    "answer_type": "entity",
+    "qlabel": "Single",
+    "relation": "P166",
+    "gold": [
+      "Imre Kertész"
+    ],
+    "method": "llm-only",
+    "final_answer": "Nelson Mandela",
+    "correct": false,
+    "reply": "Đáp án: Nelson Mandela"
+  },
+  {
+    "question": "Khi nào Alejandro Correa gia nhập Câu lạc bộ thể thao Cerrito?",
+    "qtype": "simple_time",
+    "answer_type": "time",
+    "qlabel": "Single",
+    "relation": "P54",
+    "gold": [
+      "2007"
+    ],
+    "method": "llm-only",
+    "final_answer": "2017",
+    "correct": false,
+    "reply": "Đáp án: 2017"
+  },
+  {
+    "question": "Bô-rích Gneđenko đầu quân cho Đại học Quốc gia Moskva vào khoảng thời gian nào?",
+    "qtype": "simple_time",
+    "answer_type": "time",
+    "qlabel": "Multiple",
+    "relation": "P108",
+    "gold": [
+      "1938",
+      "1945"
+    ],
+    "method": "llm-only",
+    "final_answer": "1939",
+    "correct": false,
+    "reply": "Đáp án: 1939"
+  },
+  {
+    "question": "Đồng đội của Leon Constantine tại Northampton Town F.C. là những ai?",
+    "qtype": "time_join",
+    "answer_type": "entity",
+    "qlabel": "Multiple",
+    "relation": "P54",
+    "gold": [
+      "Joe Benjamin",
+      "Scott McGleish"
+    ],
+    "method": "llm-only",
+    "final_answer": "James Constable",
+    "correct": false,
+    "reply": "Đáp án: James Constable"
+  },
+  {
+    "question": "Sam Gibbons làm dân biểu Hoa Kỳ trong khoảng thời gian nào?",
+    "qtype": "simple_time",
+    "answer_type": "time",
+    "qlabel": "Multiple",
+    "relation": "P39",
+    "gold": [
+      "1973",
+      "1975"
+    ],
+    "method": "llm-only",
+    "final_answer": "1971–1997",
+    "correct": false,
+    "reply": "Đáp án: 1971–1997"
+  },
+  {
+    "question": "Ai và George Mostow nhận giải cùng năm?",
+    "qtype": "time_join",
+    "answer_type": "entity",
+    "qlabel": "Multiple",
+    "relation": "P166",
+    "gold": [
+      "Arnold Harberger",
+      "Bernardo Houssay",
+      "Harish-Chandra",
+      "Kenkichi Iwasawa",
+      "William Prager"
+    ],
+    "method": "llm-only",
+    "final_answer": "Raoul Bott",
+    "correct": false,
+    "reply": "Đáp án: Raoul Bott"
+  },
+  {
+    "question": "Vinh dự cuối cùng Peter Debye nhận được là gì?",
+    "qtype": "first_last",
+    "answer_type": "entity",
+    "qlabel": "Single",
+    "relation": "P166",
+    "gold": [
+      "Giải thưởng Vật lý Polyme"
+    ],
+    "method": "llm-only",
+    "final_answer": "Nobel Hóa học",
+    "correct": false,
+    "reply": "Đáp án: Nobel Hóa học"
+  },
+  {
+    "question": "Vinh dự cuối cùng Colleen Atwood nhận được là gì?",
+    "qtype": "first_last",
+    "answer_type": "entity",
+    "qlabel": "Single",
+    "relation": "P166",
+    "gold": [
+      "Giải Oscar cho Thiết kế trang phục"
+    ],
+    "method": "llm-only",
+    "final_answer": "Oscar",
+    "correct": false,
+    "reply": "Đáp án: Oscar"
+  },
+  {
+    "question": "Giải nào Star Wars: Thần lực thức tỉnh có trước Giải Grammy cho Soạn nhạc Hay nhất cho Sản phẩm Truyền thông Hình ảnh?",
+    "qtype": "before_after",
+    "answer_type": "entity",
+    "qlabel": "Single",
+    "relation": "P166",
+    "gold": [
+      "Giải thưởng lựa chọn của trẻ em cho bộ phim yêu thích"
+    ],
+    "method": "llm-only",
+    "final_answer": "2016",
+    "correct": false,
+    "reply": "Đáp án: 2016"
+  },
+  {
+    "question": "Giải nào Hendrik Lorentz có trước Giải Nobel Vật lý?",
+    "qtype": "before_after",
+    "answer_type": "entity",
+    "qlabel": "Single",
+    "relation": "P166",
+    "gold": [
+      "Thạc sĩ danh dự Đại học Leiden"
+    ],
+    "method": "llm-only",
+    "final_answer": "Giải Hoàng gia Hà Lan",
+    "correct": false,
+    "reply": "Đáp án: Giải Hoàng gia Hà Lan"
+  },
+  {
+    "question": "Glenda Jackson nhậm chức Thành viên của Nghị viện Liên hiệp quốc thứ 51 năm nào?",
+    "qtype": "simple_time",
+    "answer_type": "time",
+    "qlabel": "Single",
+    "relation": "P39",
+    "gold": [
+      "1992"
+    ],
+    "method": "llm-only",
+    "final_answer": "1992",
+    "correct": true,
+    "reply": "Đáp án: 1992"
+  },
+  {
+    "question": "Trường đầu tiên Georges Lemaître theo học là gì?",
+    "qtype": "first_last",
+    "answer_type": "entity",
+    "qlabel": "Single",
+    "relation": "P69",
+    "gold": [
+      "Đại học Công giáo Leuven"
+    ],
+    "method": "llm-only",
+    "final_answer": "Trường Công giáo Louvain",
+    "correct": false,
+    "reply": "Đáp án: Trường Công giáo Louvain"
+  },
+  {
+    "question": "Andy Selva đầu quân cho S.P.A.L. trong khoảng thời gian nào?",
+    "qtype": "simple_time",
+    "answer_type": "time",
+    "qlabel": "Multiple",
+    "relation": "P54",
+    "gold": [
+      "2003",
+      "2005"
+    ],
+    "method": "llm-only",
+    "final_answer": "2021",
+    "correct": false,
+    "reply": "Đáp án: 2021"
+  },
+  {
+    "question": "Vinh dự cuối cùng Neil Simon nhận được là gì?",
+    "qtype": "first_last",
+    "answer_type": "entity",
+    "qlabel": "Single",
+    "relation": "P166",
+    "gold": [
+      "Giải thưởng Mark Twain cho Humor Mỹ"
+    ],
+    "method": "llm-only",
+    "final_answer": "Giải thưởng Pulitzer",
+    "correct": false,
+    "reply": "Đáp án: Giải thưởng Pulitzer"
+  },
+  {
+    "question": "F.C. Porto có thành viên nào vào lúc 2002?",
+    "qtype": "simple_entity",
+    "answer_type": "entity",
+    "qlabel": "Multiple",
+    "relation": "P54",
+    "gold": [
+      "Dmitri Alenichev",
+      "Edgaras Jankauskas",
+      "Iván Kaviedes Toaquiza",
+      "Jorge Costa",
+      "José Carlos Ferreira Filho",
+      "Juan Esnáider",
+      "Nuno Espírito Santo",
+      "Paulo Costa"
+    ],
+    "method": "llm-only",
+    "final_answer": "José Mourinho",
+    "correct": false,
+    "reply": "Đáp án: José Mourinho"
+  },
+  {
+    "question": "Sau khi rời Học viện Khoa học và Nhân văn Saxon, Friedrich Engel đến với tổ chức nào?",
+    "qtype": "before_after",
+    "answer_type": "entity",
+    "qlabel": "Single",
+    "relation": "P463",
+    "gold": [
+      "Viện Hàn lâm Khoa học Nga"
+    ],
+    "method": "llm-only",
+    "final_answer": "Đảng Cộng sản Quốc tế",
+    "correct": false,
+    "reply": "Đáp án: Đảng Cộng sản Quốc tế"
+  },
+  {
+    "question": "Cùng thời điểm với Georg Lassen, ai cũng đoạt Huy hiệu Chiến tranh U-boat (1939)?",
+    "qtype": "time_join",
+    "answer_type": "entity",
+    "qlabel": "Multiple",
+    "relation": "P166",
+    "gold": [
+      "Ernst Cordes",
+      "Ernst Mengersen",
+      "Friedrich Guggenberger",
+      "Georg Schewe",
+      "Hans Cohausz",
+      "Hans Diedrich von Tiesenhausen",
+      "Heinrich Bleichrodt",
+      "Herbert Kuppisch",
+      "Joachim Schepke",
+      "Karl Dönitz",
+      "Reinhard Hardegen",
+      "Wolfgang Lüth"
+    ],
+    "method": "llm-only",
+    "final_answer": "Karl Dönitz",
+    "correct": true,
+    "reply": "Đáp án: Karl Dönitz"
+  },
+  {
+    "question": "Ai là người đảm nhận chức Bộ trưởng Bộ Nội chính Wales vào thời điểm 1996?",
+    "qtype": "simple_entity",
+    "answer_type": "entity",
+    "qlabel": "Single",
+    "relation": "P39",
+    "gold": [
+      "William Hague"
+    ],
+    "method": "llm-only",
+    "final_answer": "Ron Davies",
+    "correct": false,
+    "reply": "Đáp án: Ron Davies"
+  },
+  {
+    "question": "Nicole Marthe Le Douarin đoạt Thạc sĩ danh dự của Đại học Complutense Madrid năm nào?",
+    "qtype": "simple_time",
+    "answer_type": "time",
+    "qlabel": "Single",
+    "relation": "P166",
+    "gold": [
+      "1988"
+    ],
+    "method": "llm-only",
+    "final_answer": "2019",
+    "correct": false,
+    "reply": "Đáp án: 2019"
+  },
+  {
+    "question": "Đại biểu Hội đồng Nghị viện Hội đồng Châu Âu được ai lãnh đạo sau thời kỳ Peter Pellegrini?",
+    "qtype": "before_after",
+    "answer_type": "entity",
+    "qlabel": "Single",
+    "relation": "P39",
+    "gold": [
+      "Michael Glos"
+    ],
+    "method": "llm-only",
+    "final_answer": "Robert Fico",
+    "correct": false,
+    "reply": "Đáp án: Robert Fico"
+  },
+  {
+    "question": "Xavier Becerra đảm nhiệm vị trí cuối cùng nào trong sự nghiệp?",
+    "qtype": "first_last",
+    "answer_type": "entity",
+    "qlabel": "Single",
+    "relation": "P39",
+    "gold": [
+      "dân biểu Hoa Kỳ"
+    ],
+    "method": "llm-only",
+    "final_answer": "Bộ trưởng Y tế và Dịch vụ Nhân sinh Hoa Kỳ",
+    "correct": false,
+    "reply": "Đáp án: Bộ trưởng Y tế và Dịch vụ Nhân sinh Hoa Kỳ"
+  },
+  {
+    "question": "Giải nào được trao cho Carl Alarik Wachtmeister sau năm 1920?",
+    "qtype": "before_after",
+    "answer_type": "entity",
+    "qlabel": "Single",
+    "relation": "P166",
+    "gold": [
+      "Frans Otten"
+    ],
+    "method": "llm-only",
+    "final_answer": "Giải Nobel Văn chương",
+    "correct": false,
+    "reply": "Đáp án: Giải Nobel Văn chương"
+  },
+  {
+    "question": "Giải nào được trao cho Julie Andrews trước năm 1993?",
+    "qtype": "before_after",
+    "answer_type": "entity",
+    "qlabel": "Single",
+    "relation": "P166",
+    "gold": [
+      "Maya Angelou"
+    ],
+    "method": "llm-only",
+    "final_answer": "Oscar",
+    "correct": false,
+    "reply": "Đáp án: Oscar"
+  },
+  {
+    "question": "Khi nào Cayetano Ré gia nhập R.C.D. Espanyol de Barcelona?",
+    "qtype": "simple_time",
+    "answer_type": "time",
+    "qlabel": "Single",
+    "relation": "P54",
+    "gold": [
+      "1966"
+    ],
+    "method": "llm-only",
+    "final_answer": "2006",
+    "correct": false,
+    "reply": "Đáp án: 2006"
+  },
+  {
+    "question": "Ai thi đấu cho Olympiakos F.C. vào năm 2017?",
+    "qtype": "simple_entity",
+    "answer_type": "entity",
+    "qlabel": "Single",
+    "relation": "P54",
+    "gold": [
+      "Panagiotis Tachtsidis"
+    ],
+    "method": "llm-only",
+    "final_answer": "Papadopoulos",
+    "correct": false,
+    "reply": "Đáp án: Papadopoulos"
+  },
+  {
+    "question": "Cùng thời điểm với Jean Tulard, ai cũng đoạt Huân chương Nghệ thuật và Văn học hạng 1?",
+    "qtype": "time_join",
+    "answer_type": "entity",
+    "qlabel": "Single",
+    "relation": "P166",
+    "gold": [
+      "Václav Havel"
+    ],
+    "method": "llm-only",
+    "final_answer": "Pablo Picasso",
+    "correct": false,
+    "reply": "Đáp án: Pablo Picasso"
+  },
+  {
+    "question": "Ai giữ chức vụ Thành viên của Thượng viện vào năm 1582?",
+    "qtype": "simple_entity",
+    "answer_type": "entity",
+    "qlabel": "Single",
+    "relation": "P39",
+    "gold": [
+      "William Cecil, Bá tước Burghley thứ nhất"
+    ],
+    "method": "llm-only",
+    "final_answer": "Không có thông tin chính xác về thành viên Thượng viện năm 1582",
+    "correct": false,
+    "reply": "Đáp án: Không có thông tin chính xác về thành viên Thượng viện năm 1582."
+  },
+  {
+    "question": "Elias M. Stein tốt nghiệp Trường Trung học Stuyvesant năm nào?",
+    "qtype": "simple_time",
+    "answer_type": "time",
+    "qlabel": "Single",
+    "relation": "P69",
+    "gold": [
+      "1949"
+    ],
+    "method": "llm-only",
+    "final_answer": "1954",
+    "correct": false,
+    "reply": "Đáp án: 1954"
+  },
+  {
+    "question": "Năm nào Andy Petterson thi đấu cho Rushden & Diamonds F.C.?",
+    "qtype": "simple_time",
+    "answer_type": "time",
+    "qlabel": "Single",
+    "relation": "P54",
+    "gold": [
+      "2003"
+    ],
+    "method": "llm-only",
+    "final_answer": "2003",
+    "correct": true,
+    "reply": "Đáp án: 2003"
+  },
+  {
+    "question": "Sérgio Manoel rời Fluminense Football Club năm nào?",
+    "qtype": "simple_time",
+    "answer_type": "time",
+    "qlabel": "Single",
+    "relation": "P54",
+    "gold": [
+      "1993"
+    ],
+    "method": "llm-only",
+    "final_answer": "2023",
+    "correct": false,
+    "reply": "Đáp án: 2023"
+  },
+  {
+    "question": "Nơi cuối cùng George Biddell Airy làm việc trước khi nghỉ hưu là?",
+    "qtype": "first_last",
+    "answer_type": "entity",
+    "qlabel": "Single",
+    "relation": "P108",
+    "gold": [
+      "Đài thiên văn Hoàng gia Greenwich"
+    ],
+    "method": "llm-only",
+    "final_answer": "Royal Observatory, Greenwich",
+    "correct": false,
+    "reply": "Đáp án: Royal Observatory, Greenwich"
+  },
+  {
+    "question": "Vào thời gian 1971, ai theo học ở Học viện Không quân Gagarin?",
+    "qtype": "simple_entity",
+    "answer_type": "entity",
+    "qlabel": "Single",
+    "relation": "P69",
+    "gold": [
+      "Nikolay Antoshkin"
+    ],
+    "method": "llm-only",
+    "final_answer": "Yuri Gagarin",
+    "correct": false,
+    "reply": "Đáp án: Yuri Gagarin"
+  },
+  {
+    "question": "Patrick \"Paddy\" Smith giữ chức vụ Bộ trưởng Nông nghiệp, Thực phẩm và Biển vào năm nào?",
+    "qtype": "simple_time",
+    "answer_type": "time",
+    "qlabel": "Single",
+    "relation": "P39",
+    "gold": [
+      "1957"
+    ],
+    "method": "llm-only",
+    "final_answer": "2017",
+    "correct": false,
+    "reply": "Đáp án: 2017"
+  }
+]

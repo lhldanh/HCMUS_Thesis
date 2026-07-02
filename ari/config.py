@@ -23,7 +23,7 @@ OPENAI_TEMPERATURE = 0.0
 OPENAI_SEED = 319
 
 # ARI hyper-parameters (per paper §4.1)
-N_CLUSTERS = 10
+N_CLUSTERS = 4
 N_MEMORY_SAMPLES = 200       # historical reasoning samples to learn from
 MAX_REASONING_STEPS = 5
 TOP_K_ACTIONS = 12           # semantic top-K filtration
