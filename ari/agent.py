@@ -10,7 +10,7 @@ from .actions import Action, EntitySet, execute, format_entset
 from .enumerate_actions import (
     enumerate_initial, enumerate_followups, enumerate_answers, filter_actions,
 )
-from .ner import link_entities
+from .ner import link_entities, link_relations
 from .ollama_client import chat, embed
 from .prompts import (
     ACTION_SELECT_SYSTEM, ACTION_SELECT_TEMPLATE,
@@ -199,6 +199,18 @@ def run_question(kg: KG, q: dict, methodology: str | None = None,
         trace.steps.append(StepLog([], "(không link được seed)", "noop", "[]"))
         return trace
 
+    # Câu hỏi mở không có trường `relation` → liên kết quan hệ: cosine giữa
+    # câu hỏi và nhãn mọi pid trong KG, giữ top-K pid làm không gian liệt kê
+    # ban đầu (hết vai trò khi relation bị khóa sau entity-op đầu tiên).
+    linked_relations: list[str] | None = None
+    if relation is None:
+        try:
+            linked_relations = link_relations(
+                kg, question, embed_fn,
+                top_k=config.TOP_K_RELATIONS) or None
+        except Exception:
+            linked_relations = None
+
     prev: EntitySet = []
     # Paper §3.3 — head/tail entities are fixed at the seeds of the question;
     # only the relation pool moves. `last_relation` mirrors `LLM_rel_choose`
@@ -206,7 +218,8 @@ def run_question(kg: KG, q: dict, methodology: str | None = None,
     # relation the LLM picks in an entity-op step.
     last_relation: str | None = relation
     for step_i in range(config.MAX_REASONING_STEPS):
-        initial = enumerate_initial(kg, seeds, last_relation, year)
+        initial = enumerate_initial(
+            kg, seeds, last_relation or linked_relations, year)
         followups = enumerate_followups(prev, year) if prev else []
         answers = enumerate_answers(prev, answer_type) if prev else []
         candidates = initial + followups + answers

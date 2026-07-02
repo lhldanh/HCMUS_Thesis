@@ -10,7 +10,7 @@ code, và ghi chú khi chuyển sang TikZ. Cuối tài liệu là **các quyết
 | 1 | `fig:three-levels` | `Chapter1/chapter1.tex:87–98` | Ba mức tích hợp thông tin với LLM |
 | 2 | `fig:bi-cross` | `Chapter2/chapter2.tex:367–380` | Bi-encoder vs Cross-encoder |
 | 3 | `fig:architecture` | `Chapter4/chapter4.tex:35–50` | Kiến trúc tổng thể ARI (2 pha, luồng học/suy luận) |
-| 4 | `fig:entity-linking` | `Chapter4/chapter4.tex:394–405` | Liên kết thực thể cho câu hỏi mở |
+| 4 | `fig:entity-linking` | `Chapter4/chapter4.tex:394–405` | Liên kết thực thể + quan hệ cho câu hỏi mở |
 | 5 | `fig:crossencoder` | `Chapter4/chapter4.tex:456–467` | Bộ lọc hành động hai tầng cosine → cross-encoder |
 
 ---
@@ -170,6 +170,9 @@ tương tác hai pha ở mỗi bước.
  └─────────────────────────────────────────────────┘
 ```
 
+Ghi chú cho ô "liên kết thực thể" trong (c): với **câu hỏi mở** bước này gồm cả **liên kết
+quan hệ** (cosine top-5 pid) chạy song song — chi tiết ở Hình 4.
+
 **Đối chiếu code:**
 
 | Thành phần trong hình | Code |
@@ -197,7 +200,7 @@ tương tác hai pha ở mỗi bước.
 
 ---
 
-## Hình 4 — `fig:entity-linking`: Liên kết thực thể cho câu hỏi mở
+## Hình 4 — `fig:entity-linking`: Liên kết thực thể + quan hệ cho câu hỏi mở
 
 **Caption trong report:** *"NER tiếng Việt trích cụm thực thể, sau đó khớp về mã định danh qua tìm
 kiếm tương đồng trong cơ sở dữ liệu vector."*
@@ -205,43 +208,57 @@ kiếm tương đồng trong cơ sở dữ liệu vector."*
 > ✅ **Đã chốt (02/07/2026):** thực nghiệm cuối dùng **bộ so khớp chuỗi con**
 > (`ari/ner.py::link_entities`) — hình vẽ theo code, và **mô tả trong report sẽ sửa lại cho khớp**
 > (giải quyết luôn todo ở `chapter4.tex:410`; repo không có code NER electra hay vector DB).
+>
+> ➕ **Bổ sung (02/07/2026):** câu hỏi mở còn thiếu cả trường `relation`, nên đã thêm bộ **liên kết
+> quan hệ**: cosine giữa câu hỏi và nhãn của mọi pid trong KG, giữ top-5 pid để tạo hành động
+> (`ari/ner.py::link_relations`). Hình vẽ cả hai nhánh chạy song song.
 
-### Bản chính — so khớp chuỗi con (`ari/ner.py:21`)
+### Bản chính — hai nhánh liên kết cho câu hỏi mở
 
 ```
-  "Ai là tổng thống đầu tiên của Hoa Kỳ?"
-        │
-        ▼
- ┌──────────────────────────────────────┐
- │ ① Chuẩn hóa câu hỏi                  │   NFC + lowercase + gộp khoảng trắng
- └──────────────────────────────────────┘
-        │
-        ▼
- ┌──────────────────────────────────────┐        ┌─────────────────────────────┐
- │ ② Giới hạn không gian tìm kiếm       │  ◀──   │  ĐỒ THỊ TRI THỨC            │
- │   chỉ các QID tham gia QUAN HỆ       │        │  chỉ mục kg.by_r[relation]  │
- │   của câu hỏi                        │        └─────────────────────────────┘
- └──────────────────────────────────────┘
-        │
-        ▼
- ┌──────────────────────────────────────┐
- │ ③ So khớp nhãn thực thể với câu      │   (1) nhãn là CHUỖI CON của câu
- │                                      │       → ưu tiên nhãn DÀI nhất
- │                                      │   (2) fallback: mọi token của nhãn
- │                                      │       đều có mặt trong câu
- └──────────────────────────────────────┘
-        │   "Hoa Kỳ" ⊂ câu hỏi
-        ▼
- ④ Danh sách QID ứng viên (tối đa 6–8), xếp theo độ dài nhãn giảm dần
-    ⇒  { Q30 (Hoa Kỳ), … }
+        "Ai là tổng thống đầu tiên của Hoa Kỳ?"
+        (câu hỏi mở: không có sẵn entities lẫn relation)
+                          │
+           ┌──────────────┴────────────────┐
+           ▼                               ▼
+ ┌─ LIÊN KẾT THỰC THỂ ─────────────┐   ┌─ LIÊN KẾT QUAN HỆ ──────────────┐
+ │ (so khớp chuỗi con)             │   │ (cosine ngữ nghĩa)              │
+ │                                 │   │                                 │
+ │ ① chuẩn hóa câu hỏi             │   │ ① nhúng câu hỏi thành vector    │
+ │   NFC + lowercase               │   │                                 │
+ │ ② so khớp nhãn thực thể:        │   │ ② cosine với nhãn của MỌI pid   │
+ │   nhãn là CHUỖI CON của câu     │   │   có trong KG (nhãn nhúng sẵn   │
+ │   → ưu tiên nhãn DÀI nhất;      │   │   một lần, cache theo process)  │
+ │   fallback: mọi token của       │   │                                 │
+ │   nhãn đều có mặt trong câu     │   │ ③ giữ top-5 pid điểm cao nhất   │
+ └─────────────────────────────────┘   └─────────────────────────────────┘
+           │                               │
+           │  seed QID (≤ 6–8)             │  top-5 pid
+           │  { Q30 (Hoa Kỳ), … }          │  { P39 (chức vụ), … }
+           └──────────────┬────────────────┘
+                          ▼
+      LIỆT KÊ HÀNH ĐỘNG ban đầu trên (seed × pid được phép)
+      → vào vòng lặp suy luận (Hình 3c). Top-5 pid hết vai trò khi
+        quan hệ bị KHÓA theo entity-op đầu tiên LLM chọn.
 ```
 
-Lưu ý cho phần chữ đi kèm: câu hỏi CronQ-VN đã có sẵn trường `entities`, nên bộ liên kết này chỉ
-được gọi với **câu hỏi mở** do người dùng nhập (`ari/agent.py:195–197`).
+**Đối chiếu code:**
 
-**Ghi chú TikZ:** pipeline dọc 4 node đánh số ①–④, KG vẽ node `cylinder` bên phải trỏ vào bước ②;
-ví dụ minh họa chạy bằng chữ nghiêng nhỏ dọc theo các mũi tên. Pipeline NER + VectorDB trong report
-cũ sẽ bỏ (hoặc chuyển thành một câu "hướng phát triển" không kèm hình).
+| Thành phần | Code |
+|---|---|
+| Liên kết thực thể (chuỗi con, ưu tiên nhãn dài) | `ari/ner.py::link_entities` |
+| Liên kết quan hệ (cosine, cache embedding nhãn pid) | `ari/ner.py::link_relations`, `config.TOP_K_RELATIONS = 5` |
+| Chỉ kích hoạt khi câu hỏi mở (`relation is None`) | `ari/agent.py::run_question` (biến `linked_relations`) |
+| Liệt kê theo danh sách pid được phép | `ari/enumerate_actions.py::enumerate_initial` (nhận `str \| list \| None`) |
+
+Lưu ý cho phần chữ đi kèm: câu hỏi CronQ-VN đã có sẵn trường `entities` và `relation`, nên cả hai
+bộ liên kết chỉ chạy với **câu hỏi mở** do người dùng nhập; với câu hỏi có `relation`,
+`link_entities` còn dùng chính quan hệ đó để giới hạn không gian tìm kiếm QID (`kg.by_r`).
+
+**Ghi chú TikZ:** hai cột song song (mỗi cột 3 node đánh số ①–③) tách ra từ node câu hỏi rồi hợp
+lại ở node "liệt kê hành động"; KG vẽ node `cylinder` ở giữa, hai mũi tên trỏ vào hai cột (nhãn
+QID cho cột trái, nhãn pid cho cột phải). Pipeline NER + VectorDB trong report cũ sẽ bỏ (hoặc
+chuyển thành một câu "hướng phát triển" không kèm hình).
 
 ---
 
@@ -347,5 +364,10 @@ trong `fig:temporal-example`.
 3. **Hình 3 — bố cục:** gộp luồng học + luồng suy luận + vòng lặp hai pha vào **một hình duy
    nhất** theo đúng Figure 3 của paper ARI.
 
+**Bổ sung sau khi chốt (02/07/2026):** đã cài thêm bộ **liên kết quan hệ** cho câu hỏi mở
+(`ari/ner.py::link_relations` — cosine câu hỏi ↔ nhãn pid, top-5, cache embedding nhãn;
+nối vào `agent.run_question` khi `relation is None`). Hình 4 đã cập nhật thành hai nhánh.
+
 **Việc còn lại khi chuyển sang TikZ:** ngoài vẽ 5 hình, cần sửa 2 chỗ chữ trong report cho khớp
-quyết định 1 và 2 (mục §4.5.2 liên kết thực thể, và công thức/mô tả cross-encoder §4.6.2).
+quyết định 1 và 2 (mục §4.5.2 liên kết thực thể — giờ mô tả cả hai nhánh thực thể + quan hệ,
+và công thức/mô tả cross-encoder §4.6.2).

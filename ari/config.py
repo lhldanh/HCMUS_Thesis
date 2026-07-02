@@ -27,6 +27,7 @@ N_CLUSTERS = 4
 N_MEMORY_SAMPLES = 200       # historical reasoning samples to learn from
 MAX_REASONING_STEPS = 5
 TOP_K_ACTIONS = 12           # semantic top-K filtration
+TOP_K_RELATIONS = 5          # câu hỏi mở: top-K pid theo cosine(câu hỏi, nhãn pid)
 MAX_CANDIDATES_PER_RELATION = 80  # hard cap before semantic filter
 
 # Eval

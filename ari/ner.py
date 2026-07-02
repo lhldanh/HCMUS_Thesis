@@ -1,10 +1,15 @@
-"""Lightweight entity linker for cronqvn questions.
+"""Lightweight entity + relation linker for cronqvn questions.
 
-Finds qids whose label appears as a substring of the question. Resolves
-ambiguity by preferring labels that match the question's `relation` context
-(i.e. the qid actually participates in a fact with that relation).
+Entity: finds qids whose label appears as a substring of the question.
+Resolves ambiguity by preferring labels that match the question's `relation`
+context (i.e. the qid actually participates in a fact with that relation).
+
+Relation (câu hỏi mở, không có trường `relation`): xếp hạng mọi pid có mặt
+trong KG theo cosine(nhúng(câu hỏi), nhúng(nhãn pid)), giữ top-K để giới hạn
+không gian liệt kê hành động. Embedding nhãn pid là tĩnh nên cache theo process.
 """
 from __future__ import annotations
+import math
 import re
 import unicodedata
 from .kg import KG
@@ -58,3 +63,43 @@ def link_entities(kg: KG, question: str, relation: str | None = None,
         if len(out) >= max_results:
             break
     return out
+
+
+# ---------- relation linking (câu hỏi mở) ----------
+
+def _cos(a: list[float], b: list[float]) -> float:
+    s = sum(x * y for x, y in zip(a, b))
+    na = math.sqrt(sum(x * x for x in a)) or 1.0
+    nb = math.sqrt(sum(x * x for x in b)) or 1.0
+    return s / (na * nb)
+
+
+# key = tên embed_fn → (pids đã sort, vectors). Nhãn pid tĩnh trong một
+# process nên chỉ nhúng một lần; rebuild nếu tập pid của KG thay đổi.
+_REL_EMB: dict[str, tuple[list[str], list[list[float]]]] = {}
+
+
+def _relation_embeddings(kg: KG, embed_fn) -> tuple[list[str], list[list[float]]]:
+    key = getattr(embed_fn, "__name__", repr(embed_fn))
+    # chỉ xét pid thực sự có fact (kg.by_r) — pid chỉ có nhãn thì không tạo
+    # được hành động nào nên bỏ qua
+    pids = sorted(kg.by_r.keys())
+    cached = _REL_EMB.get(key)
+    if cached and cached[0] == pids:
+        return cached
+    vecs = embed_fn([kg.rlabel(p) for p in pids])
+    _REL_EMB[key] = (pids, vecs)
+    return _REL_EMB[key]
+
+
+def link_relations(kg: KG, question: str, embed_fn,
+                   top_k: int = 5) -> list[str]:
+    """Return top-`top_k` relation pids ranked by cosine similarity between
+    the question and each relation's (Vietnamese) label."""
+    pids, vecs = _relation_embeddings(kg, embed_fn)
+    if not pids:
+        return []
+    qv = embed_fn([question])[0]
+    order = sorted(zip(pids, vecs), key=lambda pv: _cos(qv, pv[1]),
+                   reverse=True)
+    return [p for p, _ in order[:top_k]]

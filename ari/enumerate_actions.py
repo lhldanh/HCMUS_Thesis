@@ -34,15 +34,23 @@ def _years_for(kg: KG, qid: str, relation: str) -> list[int]:
     return sorted(years)
 
 
-def enumerate_initial(kg: KG, seed_qids: list[str], relation: str | None,
+def enumerate_initial(kg: KG, seed_qids: list[str],
+                       relation: str | list[str] | None,
                        year: int | None) -> list[Action]:
     """Enumerate get_tail_entity / get_head_entity / get_time from seeds.
 
-    If `relation` is None, all relations participating with the seeds are
-    considered (relies on downstream semantic top-K filter to narrow).
+    `relation` may be a single pid, a list of candidate pids (câu hỏi mở —
+    top-K pid từ `ner.link_relations`), or None. If None, all relations
+    participating with the seeds are considered (relies on downstream
+    semantic top-K filter to narrow).
     """
     out: list[Action] = []
-    relations = [relation] if relation else None
+    if isinstance(relation, str):
+        relations = {relation}
+    elif relation:
+        relations = set(relation)
+    else:
+        relations = None
 
     for qid in seed_qids:
         rels_here = set()
