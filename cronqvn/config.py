@@ -23,6 +23,7 @@ WIKIDATA_DUMP_URL = "https://dumps.wikimedia.org/wikidatawiki/entities/latest-al
 #   - "en"    : tên EN (chỉ để tham khảo)
 #   - "tmpl_override" (optional): nếu cú pháp đặc biệt, dùng template riêng
 #                                  thay vì generic. Phải có cùng 5 qtype keys.
+# Chỉ giữ các PID có template trong templates.py (8 relation active thực sự).
 RELATIONS = {
     # CronQ gốc (5)
     "P39":  {"verb": "giữ chức",      "noun": "chức vụ",       "en": "position held"},
@@ -33,33 +34,12 @@ RELATIONS = {
 
     # Mở rộng — Education / Career
     "P69":  {"verb": "học tại",       "noun": "trường",         "en": "educated at"},
-    "P512": {"verb": "có học vị",     "noun": "học vị",         "en": "academic degree"},
-    "P937": {"verb": "công tác tại",  "noun": "nơi công tác",   "en": "work location"},
 
     # Politics
-    "P6":   {"verb": "đứng đầu chính phủ của", "noun": "chính phủ", "en": "head of government"},
     "P102": {"verb": "là thành viên của",      "noun": "đảng",      "en": "member of political party"},
-    "P488": {"verb": "là chủ tịch của",        "noun": "tổ chức",   "en": "chairperson"},
-    "P1308": {"verb": "giữ vị trí",             "noun": "vị trí",    "en": "officeholder"},
-
-    # Awards adjacent
-    "P1411": {"verb": "được đề cử",   "noun": "giải đề cử",     "en": "nominated for"},
-    "P1346": {"verb": "thắng",        "noun": "cuộc thi",        "en": "winner"},
 
     # Membership
     "P463": {"verb": "là thành viên của", "noun": "tổ chức",    "en": "member of"},
-    "P551": {"verb": "cư trú tại",        "noun": "nơi cư trú", "en": "residence"},
-
-    # Sports
-    "P286": {"verb": "huấn luyện",     "noun": "đội",            "en": "head coach"},
-
-    # Military
-    "P410": {"verb": "có quân hàm",    "noun": "quân hàm",       "en": "military rank"},
-    "P241": {"verb": "phục vụ trong",  "noun": "quân chủng",     "en": "military branch"},
-
-    # Misc
-    "P127": {"verb": "thuộc sở hữu của", "noun": "chủ sở hữu",   "en": "owned by"},
-    "P185": {"verb": "hướng dẫn",       "noun": "nghiên cứu sinh", "en": "doctoral student"},
 }
 
 # ---------- Question generation ----------
